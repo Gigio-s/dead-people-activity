@@ -1,0 +1,25 @@
+# --- Sistema operativo / editor ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Cache e file di lavoro della pipeline (si rigenerano) ---
+scripts/geocode_cache.json
+scripts/genere_cache.json
+scripts/__pycache__/
+*.pyc
+
+# --- Code / archivi di lavoro: non parte del sito pubblico ---
+assets/data/events_pending.json
+assets/data/events_dice_incerti.json
+assets/data/events_dice_scartati.json
+
+# --- Chiave API locale: NON deve MAI finire su GitHub ---
+scripts/config.bat
+
+# --- Sorgenti loghi / immagini di lavoro: NON servono al sito online ---
+loghi/
+assets/img/HD/
+assets/img/backup loghi/
+scripts/assets/
+scripts/script x immagini/

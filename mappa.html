@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mappa Eventi | Dead People Activity</title>
+    <meta name="description" content="Mappa interattiva degli eventi underground in Europa: concerti, festival, DJ set e serate autogestite dal Regno Unito alla Russia europea.">
+
+    <!-- Leaflet (mappa open source) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Stile del banner "schermo intero" (solo questa pagina) -->
+    <style>
+        .fullscreen-banner {
+            display: flex; align-items: center; justify-content: center; gap: 14px;
+            margin: 18px 0 0; padding: 15px 18px; text-decoration: none;
+            background: #000000; color: #ffffff;
+            border: 3px dashed var(--accent-color);
+            box-shadow: 6px 6px 0px #000000;
+            font-family: var(--font-punk-headers);
+            text-transform: uppercase; letter-spacing: 1px; font-size: 1.15rem;
+            transition: transform .08s ease, background .15s ease;
+        }
+        .fullscreen-banner:hover { transform: translate(-2px, -2px); background: #0d0d0d; }
+        .fullscreen-banner .fb-ico { color: var(--accent-color); font-size: 1.35rem; line-height: 1; }
+    </style>
+</head>
+<body class="page-map">
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="mappa.html" class="nav-link active">Mappa</a></li>
+                <li class="nav-item"><a href="articoli.html" class="nav-link">Articoli</a></li>
+                <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="header-socials">
+                <a href="#" class="social-icon" target="_blank" rel="noopener">IG</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">TT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">YT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">LN</a>
+            </div>
+            <button class="hamburger" aria-label="Apri Menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+        </div>
+    </header>
+
+    <!-- INTESTAZIONE MAPPA -->
+    <section class="map-intro">
+        <div class="container">
+            <h1 class="map-title">Mappa del Rumore</h1>
+            <p>Concerti, festival, DJ set e serate autogestite in tutta Europa, dal Regno Unito alla Russia europea. I dati mostrati sono <strong>dimostrativi</strong>: presto alimentati da fonti automatiche e dalle segnalazioni della community.</p>
+
+            <!-- Banner: apre la mappa a tutto schermo in una pagina separata -->
+            <a class="fullscreen-banner" href="mappa-full.html" target="_blank" rel="noopener">
+                <span class="fb-ico" aria-hidden="true">&#9635;</span>
+                Apri la mappa a tutto schermo
+                <span class="fb-ico" aria-hidden="true">&#8599;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- BARRA STRUMENTI -->
+    <div class="map-toolbar">
+        <div class="container map-toolbar-inner">
+
+            <!-- Percorso geografico (breadcrumb) -->
+            <nav class="map-breadcrumb" id="breadcrumb" aria-label="Percorso geografico">
+                <button class="crumb crumb-root" data-level="europa">Europa</button>
+            </nav>
+
+            <!-- Selettore vista -->
+            <div class="view-switch" role="tablist" aria-label="Tipo di visualizzazione">
+                <button class="view-btn active" data-view="mappa" role="tab">Mappa</button>
+                <button class="view-btn" data-view="elenco" role="tab">Elenco</button>
+                <button class="view-btn" data-view="calendario" role="tab">Calendario</button>
+            </div>
+        </div>
+
+        <!-- FILTRI -->
+        <div class="container">
+            <button class="filters-toggle" id="filtersToggle" aria-expanded="false">Filtri &#9662;</button>
+            <form class="map-filters" id="mapFilters">
+                <div class="filter-group">
+                    <label for="f-paese">Paese</label>
+                    <select id="f-paese"><option value="">Tutti</option></select>
+                </div>
+                <div class="filter-group">
+                    <label for="f-genere">Genere</label>
+                    <select id="f-genere"><option value="">Tutti</option></select>
+                </div>
+                <div class="filter-group">
+                    <label for="f-tipo">Tipologia</label>
+                    <select id="f-tipo"><option value="">Tutte</option></select>
+                </div>
+                <div class="filter-group">
+                    <label for="f-data">Dal giorno</label>
+                    <input type="date" id="f-data">
+                </div>
+                <div class="filter-group">
+                    <label for="f-data-fine">Al giorno</label>
+                    <input type="date" id="f-data-fine">
+                </div>
+                <div class="filter-group filter-checks">
+                    <label class="check"><input type="checkbox" id="f-gratis"> Solo gratuiti</label>
+                    <label class="check"><input type="checkbox" id="f-buried"> Includi archivio (BURIED)</label>
+                </div>
+
+                <!-- Controlli attivi dentro un paese: città + raggio di ricerca km -->
+                <div class="zona-controls" id="zonaControls">
+                    <div class="filter-group">
+                        <label for="f-citta">Città</label>
+                        <select id="f-citta"><option value="">Tutte</option></select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="f-raggio">Raggio &middot; <span id="raggioVal">illimitato</span></label>
+                        <input type="range" id="f-raggio" min="0" max="200" step="10" value="0">
+                    </div>
+                </div>
+
+                <button type="button" class="btn-reset" id="btnReset">Azzera</button>
+            </form>
+            <p class="map-notice" id="mapNotice">Confini dei paesi non caricati (connessione?). Mostro direttamente i marker degli eventi.</p>
+        </div>
+    </div>
+
+    <!-- BARRA DI RICERCA (artista / band / genere) sopra la mappa -->
+    <div class="container" style="margin-bottom:20px;">
+        <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+            <input type="text" id="q-search" class="form-control" style="flex:1; min-width:220px;" placeholder="Cerca artista, band, evento o genere in tutta Europa..." aria-label="Cerca per artista, band o genere">
+            <button type="button" id="q-clear" class="btn-reset">Pulisci</button>
+        </div>
+    </div>
+
+    <!-- CONTENUTO PRINCIPALE: MAPPA + LISTA -->
+    <section class="map-layout container">
+        <div id="map" class="map-canvas" role="application" aria-label="Mappa degli eventi"></div>
+
+        <aside class="map-list" aria-label="Elenco eventi">
+            <div class="map-list-head">
+                <div class="list-head-left">
+                    <button class="list-toggle" id="listToggle" aria-label="Chiudi elenco" title="Chiudi elenco">&#10005;</button>
+                    <span class="list-title" id="listTitle">In evidenza</span>
+                </div>
+                <div class="list-head-right">
+                    <span id="listCount">0 eventi</span>
+                    <span class="list-hint" id="listHint"></span>
+                </div>
+            </div>
+            <div id="eventsList" class="events-list"></div>
+        </aside>
+
+        <!-- Torna indietro di un livello (Zona -> Paese -> Europa) -->
+        <button class="map-back" id="mapBack" aria-label="Torna indietro">&larr; Indietro</button>
+
+        <!-- Riapre la tendina quando è chiusa -->
+        <button class="list-reopen" id="listReopen" aria-label="Apri elenco eventi">Eventi &#9662;</button>
+    </section>
+
+    <!-- SCHEDA EVENTO (pannello a scomparsa) -->
+    <div class="event-detail" id="eventDetail" aria-hidden="true">
+        <div class="event-detail-inner">
+            <button class="detail-close" id="detailClose" aria-label="Chiudi scheda">&times;</button>
+            <div id="detailBody"></div>
+        </div>
+    </div>
+    <div class="detail-overlay" id="detailOverlay"></div>
+
+    <!-- CHATBOT GUIDATO (assistente eventi) -->
+    <button class="chatbot-fab" id="chatbotFab" aria-label="Assistente eventi">?!</button>
+    <div class="chatbot-panel" id="chatbotPanel" aria-hidden="true">
+        <div class="chatbot-head">
+            <span>Trova il tuo evento</span>
+            <button class="chatbot-close" id="chatbotClose" aria-label="Chiudi assistente">&times;</button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+                <p>Piattaforma media indipendente e archivio radicale delle scene alternative europee. Nessun padrone, solo attitudine.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Naviga</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mappa.html">Mappa</a></li>
+                    <li><a href="articoli.html">Articoli</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Seguici</h4>
+                <div class="footer-social-icons">
+                    <a href="#" class="social-icon">Instagram</a><a href="#" class="social-icon">TikTok</a><a href="#" class="social-icon">YouTube</a><a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Dead People Activity. Tutti i diritti riservati. Testi, contenuti e marchio non possono essere copiati o riprodotti senza autorizzazione. Keep it underground.</p>
+        </div>
+    </footer>
+
+    <!-- Script mappa -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+    <script src="assets/js/events-data.js"></script>
+    <script src="assets/js/mappa.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

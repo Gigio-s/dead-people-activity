@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="impact-site-verification" value="9e3f6634-8b0f-44bf-a726-faf14cd8d583">
+    <link rel="icon" type="image/png" href="assets/img/dpa%20no%20sfondo.png?v=2">
+    <title>Dead People Activity | Archivio Vivente delle Culture Underground Europee</title>
+    <meta name="description" content="Piattaforma media e archivio indipendente dedicata a documentare, preservare e connettere la musica alternativa e le sottoculture in Europa.">
+    <meta property="og:title" content="Dead People Activity | Archivio Vivente e Rete Transnazionale">
+    <meta property="og:description" content="Archivio vivo della scena underground e indipendente italo-spagnola.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deadpeopleactivity.com">
+    <!-- Leaflet (per l'anteprima mappa in Home) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="mappa.html" class="nav-link">Mappa</a></li>
+                <li class="nav-item"><a href="articoli.html" class="nav-link">Articoli</a></li>
+                <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="header-socials">
+                <a href="#" class="social-icon" target="_blank" rel="noopener">IG</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">TT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">YT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">LN</a>
+            </div>
+            <button class="hamburger" aria-label="Apri Menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <section class="hero">
+            <div class="container">
+                <!-- LOGO: grafica temporanea. Quando avrai il logo ufficiale, sostituisci
+                     il contenuto di questo <h1> con: <img src="assets/img/logo-dpa.svg" alt="Dead People Activity" class="hero-logo"> -->
+                <h1 aria-label="Dead People Activity" style="line-height:0.9; padding:26px 80px;">
+                    <span class="hero-anim">
+                        <img class="dpa" src="assets/img/dpa%20no%20sfondo.png" alt="">
+                        <span class="words">
+                            <img src="assets/img/dead.png" alt="Dead">
+                            <img src="assets/img/people.png" alt="People">
+                            <img src="assets/img/activity.png" alt="Activity">
+                        </span>
+                    </span>
+                </h1>
+                <p>Un network musicale europeo per chi la musica la vive dal vivo: artisti e band, ascoltatori curiosi, gente che ai concerti non manca mai. Colleghiamo le scene di tutta Europa e ti mostriamo dove suonare, dove andare stasera e chi vale la pena ascoltare.</p>
+                <div style="display:flex; flex-wrap:wrap; gap:15px; margin-top:10px;">
+                    <a href="mappa.html" class="btn">Esplora la Mappa</a>
+                    <a href="articoli.html" class="btn">Leggi gli Articoli</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="manifesto-box">
+                    <h2 class="title-underground">Manifesto</h2>
+                    <p class="manifesto-text">"Dead People Activity nasce dal basso: da chi la musica dal vivo la suona, la ascolta, la insegue di locale in locale. Non è una rivista né un'app: è l'inizio di una comunità europea che vuole crescere e diventare grande, un pezzo alla volta e con le proprie mani. Niente padroni, niente algoritmi: solo persone, concerti e scene che si tengono vive a vicenda."</p>
+                    <p>Questo è solo il primo passo, e c'è posto per chiunque voglia esserci: ragazzi alla prima serata e gente che gira per club da vent'anni, artisti e ascoltatori, chi organizza e chi semplicemente non manca mai. Se ti muove la musica indipendente, questo posto è anche tuo. Il resto lo costruiamo insieme.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding" style="background-color: #0d0d0d;">
+            <div class="container">
+                <h2 class="title-underground">Cosa Facciamo</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>01 / La Mappa</h3>
+                        <p>Una mappa dei concerti in tutta Europa: serate, festival, DJ set e live. Cerchi la tua città e scopri dove andare stasera o nel weekend.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>02 / Le Storie</h3>
+                        <p>Interviste vere, recensioni oneste e racconti dai club e dagli spazi autogestiti. Le voci di chi la scena la fa, senza filtri e senza marchette.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>03 / La Rete</h3>
+                        <p>Artisti, ascoltatori e gente dei concerti che si trovano da una città all'altra. Le scene locali smettono di essere isole.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE: L'ARCHIVIO IN NUMERI -->
+        <section class="section-padding">
+            <div class="container">
+                <h2 class="title-underground">La Rete in Numeri</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number" id="statEventi">…</span>
+                        <span class="stat-label">Eventi sulla mappa</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="statCitta">…</span>
+                        <span class="stat-label">Città</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="statPaesi">…</span>
+                        <span class="stat-label">Paesi europei</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="statLocali">…</span>
+                        <span class="stat-label">Locali</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding" style="background-color: #0d0d0d;">
+            <div class="container">
+                <h2 class="title-underground">Ultimi Articoli</h2>
+                <div class="features-grid">
+                    <div class="feature-card" style="border-color: #333;">
+                        <small style="color: var(--accent-color);">EDITORIALE</small>
+                        <h4 style="font-family: var(--font-punk-headers); font-size: 1.4rem; margin: 10px 0;">Rumore dall'asfalto: perché nasce Dead People Activity</h4>
+                        <p style="font-size:0.9rem; color:var(--text-muted);">Perché serve una mappa e un archivio per la musica dal vivo che rischia di sparire.</p>
+                        <a href="articolo-perche-nasce-dpa.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI →</a>
+                    </div>
+                    <div class="feature-card" style="border-color: #333;">
+                        <small style="color: var(--accent-color);">GUIDA DIY</small>
+                        <h4 style="font-family: var(--font-punk-headers); font-size: 1.4rem; margin: 10px 0;">La tua prima serata autogestita: guida pratica</h4>
+                        <p style="font-size:0.9rem; color:var(--text-muted);">Spazio, budget, line-up, promozione e cassa: come organizzare un concerto dal niente.</p>
+                        <a href="articolo-serata-autogestita.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI →</a>
+                    </div>
+                    <div class="feature-card" style="border-color: #333;">
+                        <small style="color: var(--accent-color);">GUIDA DIY</small>
+                        <h4 style="font-family: var(--font-punk-headers); font-size: 1.4rem; margin: 10px 0;">Autoprodurre musica: cassette, vinile e CD senza svenarsi</h4>
+                        <p style="font-size:0.9rem; color:var(--text-muted);">Quale supporto scegliere, quanto costa, la grafica DIY e dove vendere le tue copie.</p>
+                        <a href="articolo-autoprodurre-musica.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ANTEPRIMA MAPPA ============ -->
+        <section class="section-padding">
+            <div class="container">
+                <h2 class="title-underground">La Mappa del Rumore</h2>
+                <p style="color:var(--text-muted); max-width:720px;">La rete della musica dal vivo su una mappa. Concerti, serate, festival e DJ set in tutta Europa: scegli la tua città e scopri chi suona stasera o dove andare nel weekend.</p>
+                <div style="position:relative; margin-top:30px; border:var(--border-punk); box-shadow:6px 6px 0 #000;">
+                    <div id="homeMap" style="height:380px; background:#0d0d0d;"></div>
+                    <a href="mappa.html" aria-label="Apri la mappa interattiva" style="position:absolute; inset:0; z-index:800; display:flex; align-items:flex-end; justify-content:center; padding:22px; text-decoration:none; background:linear-gradient(to top, rgba(0,0,0,0.55), rgba(0,0,0,0) 45%);">
+                        <span class="btn">Apri la mappa interattiva →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EVENTI IN EVIDENZA (data-driven da events.json) ============ -->
+        <section class="section-padding" style="background-color:#0d0d0d;">
+            <div class="container">
+                <h2 class="title-underground">Eventi in Evidenza</h2>
+                <p style="color:var(--text-muted);">Prossime date dalla rete. Aggiornate dall'archivio eventi.</p>
+                <div class="features-grid" id="homeEvents">
+                    <div class="ev-card" style="cursor:default;"><p class="ev-place">Caricamento eventi…</p></div>
+                </div>
+                <div style="text-align:center; margin-top:40px;">
+                    <a href="mappa.html" class="btn">Tutti gli eventi sulla mappa</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ IN ARRIVO (Coming soon) ============ -->
+        <section class="section-padding">
+            <div class="container">
+                <h2 class="title-underground">In Arrivo</h2>
+                <p style="color:var(--text-muted); max-width:720px;">La piattaforma cresce a fasi. Queste sezioni stanno per arrivare. Per ora esplora la Mappa degli eventi e leggi gli Articoli.</p>
+                <div class="features-grid">
+                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Archivio &amp; BURIED</h3><p style="color:var(--text-muted); font-size:0.9rem;">Schede di artisti, band e realtà scomparse da preservare.</p></div>
+                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Artisti &amp; Emergenti</h3><p style="color:var(--text-muted); font-size:0.9rem;">Database e vetrina degli artisti della scena.</p></div>
+                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Playlist</h3><p style="color:var(--text-muted); font-size:0.9rem;">Selezione settimanale su Spotify.</p></div>
+                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Shop</h3><p style="color:var(--text-muted); font-size:0.9rem;">Autoproduzioni, fanzine, vinili, cassette.</p></div>
+                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Community</h3><p style="color:var(--text-muted); font-size:0.9rem;">Percorsi per artisti e ascoltatori.</p></div>
+                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Newsletter</h3><p style="color:var(--text-muted); font-size:0.9rem;">Concerti nella tua zona, ogni settimana.</p></div>
+                </div>
+                <div style="text-align:center; margin-top:40px;">
+                    <a href="coming-soon.html" class="btn">Scopri cosa bolle in pentola</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="container" style="text-align: center; padding: 60px 0;">
+                <h2>Fai parte del rumore o vuoi salvarlo dall'oblio?</h2>
+                <p style="margin: 20px 0 40px 0;">Sei un artista, un collettivo, gestisci uno spazio o possiedi materiale d'archivio raro?</p>
+                <a href="coming-soon.html" class="btn">Scopri di più</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+                <p>Piattaforma media indipendente e archivio radicale delle scene alternative italo-spagnole. Nessun padrone, solo attitudine.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Naviga</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mappa.html">Mappa</a></li>
+                    <li><a href="articoli.html">Articoli</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Seguici</h4>
+                <div class="footer-social-icons">
+                    <a href="#" class="social-icon">Instagram</a><a href="#" class="social-icon">TikTok</a><a href="#" class="social-icon">YouTube</a><a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Dead People Activity. Tutti i diritti riservati. Testi, contenuti e marchio non possono essere copiati o riprodotti senza autorizzazione. Keep it underground.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+    <!-- Eventi in evidenza: fonte assets/data/events.json, fallback events-data.js -->
+    <script src="assets/js/events-data.js"></script>
+    <script>
+    (function () {
+        var box = document.getElementById('homeEvents');
+        if (!box) return;
+        var MESI = ['Gen','Feb','Mar','Apr','Mag','Giu','Lug','Ago','Set','Ott','Nov','Dic'];
+        function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+        function fmt(d){ var p=(d||'').split('-'); if(p.length!==3) return esc(d); return p[2]+' '+(MESI[(+p[1])-1]||'')+' '+p[0]; }
+        function card(ev){
+            var badge = ev.stato==='BURIED' ? 'status-buried' : 'status-live';
+            var price = ev.gratuito ? 'GRATIS' : (ev.prezzo ? 'da '+ev.prezzo+' &euro;' : '');
+            var g = (ev.genere||[]).slice(0,2).map(function(x){ return '<span class="tag">'+esc(x)+'</span>'; }).join('');
+            var tags = '<span class="tag">'+esc(ev.tipo)+'</span>'+g+(ev.sponsorizzato ? '<span class="tag tag-spon">Sponsor</span>' : '');
+            var place = [ev.locale, ev.citta, ev.paese].filter(function(x){ return x; }).map(esc).join(', ');
+            var tickets = ev.biglietti_url
+                ? '<a href="'+esc(ev.biglietti_url)+'" target="_blank" rel="noopener sponsored" class="btn btn-block" style="margin-top:14px;">Acquista biglietti</a>'
+                : '<a href="mappa.html" class="btn btn-block" style="margin-top:14px;">Dettagli</a>';
+            return '<div class="ev-card" style="cursor:default;">'+
+                '<div class="ev-card-top"><span class="ev-date">'+fmt(ev.data)+'</span>'+
+                '<span class="status-badge '+badge+'">'+esc(ev.stato)+'</span></div>'+
+                '<h3 class="ev-name">'+esc(ev.nome)+'</h3>'+
+                '<p class="ev-place">'+place+'</p>'+
+                '<div class="ev-tags">'+tags+'</div>'+
+                (price ? '<div class="ev-foot">'+price+'</div>' : '')+
+                '<div class="ev-provider">via '+({ticketmaster:'Ticketmaster',dice:'DICE',skiddle:'Skiddle',ra:'Resident Advisor',bandsintown:'Bandsintown'}[(ev.fonte||'').toLowerCase()]||esc(ev.fonte||''))+'</div>'+
+                tickets+'</div>';
+        }
+        function render(list){
+            list = Array.isArray(list) ? list : [];
+            var today = new Date().toISOString().slice(0,10);
+            var live = list.filter(function(e){ return e.stato==='LIVE' && e.approvazione!=='rifiutato'; });
+            var up = live.filter(function(e){ return e.data>=today; }).sort(function(a,b){ return a.data<b.data?-1:1; });
+            var sel = (up.length ? up : live).slice(0,4);
+            box.innerHTML = sel.length ? sel.map(card).join('') : '<div class="ev-card" style="cursor:default;"><p class="ev-place">Nessun evento disponibile.</p></div>';
+        }
+        function stats(list){
+            list = Array.isArray(list) ? list : [];
+            function uniq(arr){ var s={}; arr.forEach(function(x){ if(x) s[String(x).toLowerCase()]=1; }); return Object.keys(s).length; }
+            function set(id, val){ var el = document.getElementById(id); if(el) el.textContent = val; }
+            set('statEventi', list.length);
+            set('statCitta', uniq(list.map(function(e){ return e.citta; })));
+            set('statPaesi', uniq(list.map(function(e){ return e.paese_code || e.paese; })));
+            set('statLocali', uniq(list.map(function(e){ return e.locale; })));
+        }
+        function miniMap(list){
+            var el = document.getElementById('homeMap');
+            if (!el || typeof L === 'undefined' || el._leaflet_id) return;
+            var m = L.map(el, { zoomControl:false, attributionControl:false, dragging:false, scrollWheelZoom:false, doubleClickZoom:false, boxZoom:false, keyboard:false, touchZoom:false });
+            L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { subdomains:"abcd", maxZoom:19 }).addTo(m);
+            var layer = (typeof L.markerClusterGroup === 'function')
+                ? L.markerClusterGroup({ showCoverageOnHover:false, maxClusterRadius:45, iconCreateFunction:function(c){ return L.divIcon({ html:'<div class="dpa-cluster">'+c.getChildCount()+'</div>', className:'dpa-cluster-wrap', iconSize:[40,40] }); } })
+                : L.layerGroup();
+            var pts = list.filter(function(e){ return typeof e.lat==='number' && typeof e.lng==='number'; });
+            var LIMIT = 350;  // anteprima leggera: campione di pin (il totale reale resta nei "Numeri")
+            if (pts.length > LIMIT) { var step = Math.ceil(pts.length / LIMIT); pts = pts.filter(function(_, i){ return i % step === 0; }); }
+            pts.forEach(function(e){
+                layer.addLayer(L.marker([e.lat, e.lng], { icon: L.divIcon({ className:'dpa-pin-wrap', html:'<span class="dpa-pin"></span>', iconSize:[14,14] }) }));
+            });
+            m.addLayer(layer);
+            m.fitBounds([[34, -12], [61, 32]]);
+            setTimeout(function(){ m.invalidateSize(); }, 250);
+        }
+        function handle(list){ render(list); stats(list); miniMap(list); }
+        fetch('assets/data/events.json').then(function(r){ if(!r.ok) throw 0; return r.json(); })
+            .then(handle).catch(function(){ handle(window.DPA_EVENTS_FALLBACK || []); });
+    })();
+    </script>
+</body>
+</html>

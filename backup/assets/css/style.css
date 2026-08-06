@@ -1,0 +1,435 @@
+/* ==========================================================================
+   1. IMPORTAZIONE FONT UNDERGROUND (Da Google Fonts)
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap');
+
+:root {
+    --bg-color: #0f0f11;          /* Nero asfalto opaco, morbido per la vista */
+    --bg-card: #18181c;           /* Grigio scuro fanzine per i blocchi di testo */
+    --accent-color: #ff2a2a;      /* ROSSO FUOCO VIVIDO - Il nostro colore dominante */
+    --text-color: #ffffff;        /* Bianco puro per i testi principali */
+    --text-muted: #aaaaaa;        /* Grigio chiaro per testi secondari (alta leggibilità) */
+    
+    /* Bordi stile fanzine ritagliata */
+    --border-punk: 3px dashed var(--accent-color); /* Tratteggio rosso fuoco */
+    --border-white: 3px solid #ffffff;
+    --border-thin: 1px dashed #444444;
+    
+    /* Font */
+    --font-punk-headers: 'Permanent Marker', 'Impact', sans-serif;
+    --font-punk-body: 'Special Elite', 'Courier New', monospace;
+}
+
+/* ==========================================================================
+   2. RESET & NUOVO SFONDO (Addio pugno negli occhi!)
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-punk-body);
+    line-height: 1.6;
+    /* Rimosso il vecchio pattern geometrico. Ora usiamo un leggerissimo effetto 
+       "grana da fotocopia" quasi invisibile per dare texture senza stancare gli occhi */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+::selection {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   3. TITOLI CON ROTAZIONE E STILE PENNARELLO
+   ========================================================================== */
+h1, h2, h3, h4 {
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+}
+
+/* Il titolo "RUMORE DALL'ASFALTO" */
+.title-underground {
+    font-size: 3.5rem;
+    background-color: var(--accent-color); /* Sfondo rosso fuoco */
+    color: #ffffff;
+    padding: 12px 24px;
+    display: inline-block;
+    border: var(--border-white);
+    transform: rotate(-2deg); /* Effetto volantino incollato storto */
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+/* ==========================================================================
+   4. HEADER & NAVIGAZIONE (Risolto il problema dei link viola illeggibili)
+   ========================================================================== */
+.header {
+    background-color: #000000;
+    border-bottom: 3px dashed #ffffff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-punk-headers);
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+
+.logo span {
+    background-color: var(--accent-color); /* "ground" diventa rosso fuoco */
+    color: #ffffff;
+    padding: 2px 8px;
+    display: inline-block;
+    transform: rotate(3deg);
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Link bianchi di base, niente più viola scuro */
+.nav-link {
+    font-family: var(--font-punk-body);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+}
+
+.nav-link.active, .nav-link:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Icone Social in alto a destra */
+.header-socials .social-icon {
+    font-size: 0.85rem;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 8px;
+    margin-left: 8px;
+    font-family: var(--font-punk-body);
+}
+
+.header-socials .social-icon:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+}
+
+/* ==========================================================================
+   5. HERO SECTION (Impatto Duro e Cupo)
+   ========================================================================== */
+.hero {
+    padding: 120px 0;
+    border-bottom: var(--border-white);
+    background: linear-gradient(rgba(15, 15, 17, 0.85), rgba(15, 15, 17, 0.95)), 
+                url('https://images.unsplash.com/photo-1549417229-aa67d3263c09?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    line-height: 0.9;
+    color: #ffffff;
+    text-shadow: 4px 4px 0px var(--accent-color); /* Ombra rossa tagliente */
+    transform: rotate(-1.5deg);
+    display: inline-block;
+    background-color: #000000;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 580px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    background-color: #000000;
+    padding: 20px;
+    border: var(--border-thin);
+    transform: rotate(1deg);
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.5);
+}
+
+/* ==========================================================================
+   6. PULSANTI "VOLANTINO STRAPPATO"
+   ========================================================================== */
+.btn {
+    display: inline-block;
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 14px 32px;
+    font-size: 1.4rem;
+    border: 3px solid #000000;
+    outline: 3px solid #ffffff;
+    cursor: pointer;
+    transform: rotate(-1deg);
+    box-shadow: 5px 5px 0px var(--accent-color);
+}
+
+.btn:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    outline: 3px dashed #ffffff;
+    transform: scale(1.03) rotate(1deg);
+    box-shadow: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* ==========================================================================
+   7. SEZIONI, GRIGLIE E CARD RITAGLIATE
+   ========================================================================== */
+.section-padding {
+    padding: 80px 0;
+}
+
+.manifesto-box {
+    border: var(--border-white);
+    padding: 40px;
+    background-color: var(--bg-card);
+    position: relative;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+/* Finto nastro adesivo/scotch sopra il manifesto */
+.manifesto-box::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    width: 90px;
+    height: 28px;
+    background-color: rgba(255,255,255,0.12);
+    transform: rotate(-4deg);
+    border-left: 2px dotted rgba(255,255,255,0.2);
+    border-right: 2px dotted rgba(255,255,255,0.2);
+}
+
+.manifesto-text {
+    font-size: 1.4rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.articles-grid, .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.article-card, .feature-card {
+    background-color: var(--bg-card);
+    border: var(--border-thin);
+    padding: 25px;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.article-card:nth-child(odd) { transform: rotate(-0.4deg); }
+.article-card:nth-child(even) { transform: rotate(0.4deg); }
+
+.article-card:hover, .feature-card:hover {
+    border: 2px solid var(--accent-color);
+    background-color: #000000;
+}
+
+.article-img-wrapper {
+    width: 100%;
+    height: 190px;
+    border: 1px dashed #444444;
+    margin-bottom: 15px;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.category {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    padding: 3px 8px;
+    font-weight: bold;
+    font-family: var(--font-punk-headers);
+}
+
+.article-title {
+    font-size: 1.4rem;
+    transform: none;
+}
+
+/* ==========================================================================
+   8. FORM DI CANDIDATURA ("APPARIRE")
+   ========================================================================== */
+.form-info {
+    border: var(--border-punk);
+    padding: 25px;
+    margin-bottom: 40px;
+    background-color: #000000;
+}
+
+.form-info ul {
+    list-style-type: '⚡ ';
+    margin-top: 15px;
+    padding-left: 20px;
+    color: var(--text-color);
+}
+
+.form-info ul li {
+    margin-bottom: 8px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-family: var(--font-punk-headers);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+}
+
+.form-control {
+    width: 100%;
+    background-color: #000000;
+    border: 2px dashed #444444;
+    color: #ffffff;
+    padding: 15px;
+    font-family: var(--font-punk-body);
+    font-size: 1rem;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 2px solid var(--accent-color);
+    background-color: var(--bg-card);
+}
+
+.form-note {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #ff3333;
+    border: 2px solid #ff3333;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+/* ==========================================================================
+   9. CONTATTI
+   ========================================================================== */
+.contact-block {
+    border: var(--border-white);
+    padding: 30px;
+    background-color: var(--bg-card);
+    box-shadow: 6px 6px 0px #000000;
+}
+
+.contact-mail {
+    font-family: var(--font-punk-headers);
+    font-size: 1.2rem;
+    border-bottom: 3px solid var(--accent-color);
+    display: inline-block;
+}
+
+.contact-mail:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   10. FOOTER
+   ========================================================================== */
+.footer {
+    border-top: var(--border-white);
+    background-color: #000000;
+    padding: 60px 0 20px 0;
+    margin-top: 100px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-links h4, .footer-socials h4 {
+    color: var(--accent-color);
+}
+
+.footer-links ul {
+    list-style: '→ ';
+    padding-left: 15px;
+}
+
+.footer-links ul li a:hover {
+    color: var(--accent-color);
+    background: none;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px dashed #444444;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero h1 { font-size: 3rem; }
+    .footer-grid { grid-template-columns: 1fr; }
+    h1, h2, .title-underground { transform: none !important; }
+}
+
+.page-wrapper {
+    max-width: 1200px; /* O la larghezza massima del tuo layout */
+    margin: 0 auto;
+    padding: 0 20px; /* Margini laterali identici per ogni pagina */
+    min-height: calc(100vh - 160px); /* Evita che il footer salga se c'è poco testo */
+}

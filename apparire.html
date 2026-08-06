@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimenta l'Archivio di Dead People Activity | Invia e Preserva</title>
+    <meta name="description" content="Sei un artista, un collettivo, gestisci uno spazio o possiedi reperti storici dell'underground? Inserisci il tuo tassello nell'archivio.">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="mappa.html" class="nav-link">Mappa</a></li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Archivio <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="archivio.html" class="nav-link">Archivio</a></li>
+                        <li><a href="buried.html" class="nav-link">BURIED</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Contenuti <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="articoli.html" class="nav-link">Articoli</a></li>
+                        <li><a href="eventi.html" class="nav-link">Eventi</a></li>
+                        <li><a href="diy.html" class="nav-link">DIY</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle active" aria-haspopup="true" aria-expanded="false">Community <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="apparire.html" class="nav-link active">Apparire</a></li>
+                        <li><a href="collaboratori.html" class="nav-link">Collaboratori</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="header-socials">
+                <a href="#" class="social-icon" target="_blank" rel="noopener">IG</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">TT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">YT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">LN</a>
+            </div>
+            <button class="hamburger" aria-label="Apri Menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <main class="section-padding">
+            <div class="container" style="max-width: 800px;">
+                <h1 class="title-underground">Alimenta l'Archivio Vivente</h1>
+                
+                <div class="form-info">
+                    <p>Questo è uno spazio aperto, libero ed elisir contro l'oblio digitale. Puoi alimentare il registro europeo inviando:</p>
+                    <ul style="margin-bottom:20px;">
+                        <li>Progetto attivo</li>
+                        <li>Progetto scomparso</li>
+                        <li>Evento</li>
+                        <li>Locale</li>
+                        <li>Fanzine</li>
+                        <li>Label</li>
+                        <li>Materiale d'archivio</li>
+                        <li>Candidatura come collaboratore</li>
+                    </ul>
+                </div>
+
+                <form id="undergroundForm" autocomplete="off">
+                    
+                    <!-- Campo Selettore Tipo Invio Richiesto -->
+                    <div class="form-group">
+                        <label for="tipo-invio">Tipo di invio *</label>
+                        <select id="tipo-invio" class="form-control" required>
+                            <option value="progetto-attivo">Progetto attivo</option>
+                            <option value="progetto-scomparso">Progetto scomparso</option>
+                            <option value="evento">Evento</option>
+                            <option value="locale">Locale</option>
+                            <option value="fanzine">Fanzine</option>
+                            <option value="label">Label</option>
+                            <option value="materiale-archivio">Materiale d'archivio</option>
+                            <option value="collaborazione">Collaborazione</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px;">
+                        <div>
+                            <label for="nome">Nome Progetto / Realtà Sotterranea *</label>
+                            <input type="text" id="nome" class="form-control" placeholder="Es: Bloody Valencia / Centro Sociale X" required>
+                        </div>
+                        <div>
+                            <label for="stato">Stato *</label>
+                            <select id="stato" class="form-control" required>
+                                <option value="LIVE">Attivo [LIVE]</option>
+                                <option value="BURIED">Scomparso [BURIED]</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div>
+                            <label for="citta">Città di Origine *</label>
+                            <input type="text" id="citta" class="form-control" placeholder="Es: Bologna" required>
+                        </div>
+                        <div>
+                            <label for="paese">Paese *</label>
+                            <select id="paese" class="form-control" required>
+                                <option value="Italia">Italia</option>
+                                <option value="Spagna">Spagna</option>
+                                <option value="Francia">Francia</option>
+                                <option value="Germania">Germania</option>
+                                <option value="Altro">Altro</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="genere">Ambito Artistico / Sottocultura di Riferimento *</label>
+                        <input type="text" id="genere" class="form-control" placeholder="Es: Post-Punk, Noise, Hardcore, Rap Underground, DIY Culture" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="link">Link, Repository o Canali (Instagram, Bandcamp, Sito) *</label>
+                        <input type="url" id="link" class="form-control" placeholder="https://bandcamp.com/tuoprogetto" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Tua Email (Solo per contatti interni di verifica) *</label>
+                        <input type="email" id="email" class="form-control" placeholder="nome@esempio.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messaggio">Raccontaci la storia (Bio, attitudine, dischi stampati o motivi della scomparsa) *</label>
+                        <textarea id="messaggio" class="form-control" rows="6" placeholder="Chi siete/eravate, cosa avete costruito..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-block">Invia all'Archivio Europeo</button>
+
+                    <p class="form-note">⚠️ NOTA IMPORTANTE: Inviando questo modulo accetti che queste informazioni siano rese pubbliche per scopi di documentazione storica. I dati sensibili non verranno divulgati. Keep it underground.</p>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+                <p>Piattaforma media indipendente e archivio radicale delle scene alternative europee. Nessun padrone, solo attitudine.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Naviga</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="archivio.html">Archivio</a></li>
+                    <li><a href="articoli.html">Articoli</a></li>
+                    <li><a href="eventi.html">Eventi</a></li>
+                    <li><a href="diy.html">DIY</a></li>
+                    <li><a href="buried.html">BURIED</a></li>
+                    <li><a href="apparire.html">Apparire</a></li>
+                    <li><a href="collaboratori.html">Collaboratori</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Seguici</h4>
+                <div class="footer-social-icons">
+                    <a href="#" class="social-icon">Instagram</a><a href="#" class="social-icon">TikTok</a><a href="#" class="social-icon">YouTube</a><a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Dead People Activity. Tutti i diritti riservati. Testi, contenuti e marchio non possono essere copiati o riprodotti senza autorizzazione. Keep it underground.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

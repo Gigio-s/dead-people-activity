@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mappa a tutto schermo | Dead People Activity</title>
+    <meta name="description" content="Mappa interattiva degli eventi underground in Europa, a tutto schermo: concerti, festival, DJ set e serate autogestite.">
+
+    <!-- Leaflet (mappa open source) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Stile "a tutto schermo": vale SOLO per questa pagina (body.map-full) -->
+    <style>
+        /* Pagina a scorrimento normale (puoi scrollare). La mappa e' grande e resta
+           "appiccicata" in alto mentre scorri la lista degli eventi. */
+        body.map-full { margin: 0; }
+
+        /* Barra superiore compatta */
+        .mf-topbar {
+            flex: 0 0 auto;
+            display: flex; align-items: center; justify-content: space-between; gap: 12px;
+            padding: 8px 16px; background: #000000;
+            border-bottom: 3px dashed var(--accent-color);
+        }
+        .mf-topbar .logo { font-size: 1.4rem; }
+        .mf-title {
+            font-family: var(--font-punk-body); color: var(--text-muted);
+            font-size: 0.82rem; text-transform: uppercase; letter-spacing: 1px;
+            flex: 1; text-align: center;
+        }
+        .mf-close {
+            font-family: var(--font-punk-headers); text-transform: uppercase; text-decoration: none;
+            background: var(--accent-color); color: #ffffff; border: 2px solid #ffffff;
+            padding: 6px 14px; box-shadow: 3px 3px 0px #000000; white-space: nowrap;
+        }
+        .mf-close:hover { background: #000000; color: var(--accent-color); }
+
+        /* Toolbar + ricerca: compatte, senza i margini della pagina normale */
+        body.map-full .map-toolbar { flex: 0 0 auto; margin-top: 0; padding: 10px 0; }
+        body.map-full .mf-searchbar { flex: 0 0 auto; padding: 8px 0 10px; }
+        body.map-full .mf-searchbar .search-row {
+            display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+        }
+
+        /* Area mappa: mappa alta e "sticky" (resta visibile mentre scorri la lista);
+           la pagina scorre normalmente per vedere tutti gli eventi. */
+        body.map-full .map-layout { margin: 0; align-items: start; }
+        body.map-full .map-layout.container { max-width: none; width: 100%; padding: 0 0 24px; }
+        body.map-full .map-canvas {
+            height: 82vh; min-height: 460px; border: none; box-shadow: none;
+            position: sticky; top: 8px;
+        }
+        body.map-full .map-list { max-height: none; align-self: start; border-top: none; border-bottom: none; }
+
+        /* Mobile: lista sotto la mappa, tutto in colonna */
+        @media (max-width: 860px) {
+            body.map-full .map-layout { display: block; }
+            body.map-full .map-canvas { height: 68vh; position: static; }
+            body.map-full .map-list { max-height: none; }
+        }
+    </style>
+</head>
+<body class="page-map map-full">
+
+    <!-- BARRA SUPERIORE -->
+    <div class="mf-topbar">
+        <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+        <span class="mf-title">Mappa del Rumore &middot; schermo intero</span>
+        <a href="mappa.html" class="mf-close" aria-label="Chiudi schermo intero">&#10005; Chiudi</a>
+    </div>
+
+    <!-- BARRA STRUMENTI (breadcrumb + vista + filtri) -->
+    <div class="map-toolbar">
+        <div class="container map-toolbar-inner">
+            <nav class="map-breadcrumb" id="breadcrumb" aria-label="Percorso geografico">
+                <button class="crumb crumb-root" data-level="europa">Europa</button>
+            </nav>
+            <div class="view-switch" role="tablist" aria-label="Tipo di visualizzazione">
+                <button class="view-btn active" data-view="mappa" role="tab">Mappa</button>
+                <button class="view-btn" data-view="elenco" role="tab">Elenco</button>
+                <button class="view-btn" data-view="calendario" role="tab">Calendario</button>
+            </div>
+        </div>
+
+        <!-- FILTRI -->
+        <div class="container">
+            <button class="filters-toggle" id="filtersToggle" aria-expanded="false">Filtri &#9662;</button>
+            <form class="map-filters" id="mapFilters">
+                <div class="filter-group">
+                    <label for="f-paese">Paese</label>
+                    <select id="f-paese"><option value="">Tutti</option></select>
+                </div>
+                <div class="filter-group">
+                    <label for="f-genere">Genere</label>
+                    <select id="f-genere"><option value="">Tutti</option></select>
+                </div>
+                <div class="filter-group">
+                    <label for="f-tipo">Tipologia</label>
+                    <select id="f-tipo"><option value="">Tutte</option></select>
+                </div>
+                <div class="filter-group">
+                    <label for="f-data">Dal giorno</label>
+                    <input type="date" id="f-data">
+                </div>
+                <div class="filter-group">
+                    <label for="f-data-fine">Al giorno</label>
+                    <input type="date" id="f-data-fine">
+                </div>
+                <div class="filter-group filter-checks">
+                    <label class="check"><input type="checkbox" id="f-gratis"> Solo gratuiti</label>
+                    <label class="check"><input type="checkbox" id="f-buried"> Includi archivio (BURIED)</label>
+                </div>
+                <div class="zona-controls" id="zonaControls">
+                    <div class="filter-group">
+                        <label for="f-citta">Città</label>
+                        <select id="f-citta"><option value="">Tutte</option></select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="f-raggio">Raggio &middot; <span id="raggioVal">illimitato</span></label>
+                        <input type="range" id="f-raggio" min="0" max="200" step="10" value="0">
+                    </div>
+                </div>
+                <button type="button" class="btn-reset" id="btnReset">Azzera</button>
+            </form>
+            <p class="map-notice" id="mapNotice">Confini dei paesi non caricati (connessione?). Mostro direttamente i marker degli eventi.</p>
+        </div>
+    </div>
+
+    <!-- BARRA DI RICERCA -->
+    <div class="container mf-searchbar">
+        <div class="search-row">
+            <input type="text" id="q-search" class="form-control" style="flex:1; min-width:220px;" placeholder="Cerca artista, band, evento o genere in tutta Europa..." aria-label="Cerca per artista, band o genere">
+            <button type="button" id="q-clear" class="btn-reset">Pulisci</button>
+        </div>
+    </div>
+
+    <!-- MAPPA + LISTA -->
+    <section class="map-layout container">
+        <div id="map" class="map-canvas" role="application" aria-label="Mappa degli eventi"></div>
+
+        <aside class="map-list" aria-label="Elenco eventi">
+            <div class="map-list-head">
+                <div class="list-head-left">
+                    <button class="list-toggle" id="listToggle" aria-label="Chiudi elenco" title="Chiudi elenco">&#10005;</button>
+                    <span class="list-title" id="listTitle">In evidenza</span>
+                </div>
+                <div class="list-head-right">
+                    <span id="listCount">0 eventi</span>
+                    <span class="list-hint" id="listHint"></span>
+                </div>
+            </div>
+            <div id="eventsList" class="events-list"></div>
+        </aside>
+
+        <button class="map-back" id="mapBack" aria-label="Torna indietro">&larr; Indietro</button>
+        <button class="list-reopen" id="listReopen" aria-label="Apri elenco eventi">Eventi &#9662;</button>
+    </section>
+
+    <!-- SCHEDA EVENTO -->
+    <div class="event-detail" id="eventDetail" aria-hidden="true">
+        <div class="event-detail-inner">
+            <button class="detail-close" id="detailClose" aria-label="Chiudi scheda">&times;</button>
+            <div id="detailBody"></div>
+        </div>
+    </div>
+    <div class="detail-overlay" id="detailOverlay"></div>
+
+    <!-- CHATBOT GUIDATO -->
+    <button class="chatbot-fab" id="chatbotFab" aria-label="Assistente eventi">?!</button>
+    <div class="chatbot-panel" id="chatbotPanel" aria-hidden="true">
+        <div class="chatbot-head">
+            <span>Trova il tuo evento</span>
+            <button class="chatbot-close" id="chatbotClose" aria-label="Chiudi assistente">&times;</button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody"></div>
+    </div>
+
+    <!-- Script mappa (stesso motore della pagina normale) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+    <script src="assets/js/events-data.js"></script>
+    <script src="assets/js/mappa.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Assicura che Leaflet dimensioni la mappa dopo il layout a tutto schermo -->
+    <script>
+        window.addEventListener("load", function () {
+            setTimeout(function () { window.dispatchEvent(new Event("resize")); }, 300);
+        });
+    </script>
+</body>
+</html>

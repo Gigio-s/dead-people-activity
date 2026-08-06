@@ -1,0 +1,1293 @@
+/* ==========================================================================
+   1. IMPORTAZIONE FONT UNDERGROUND (Da Google Fonts)
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap');
+
+:root {
+    --bg-color: #0f0f11;          /* Nero asfalto opaco, morbido per la vista */
+    --bg-card: #18181c;           /* Grigio scuro fanzine per i blocchi di testo */
+    --accent-color: #ff2a2a;      /* ROSSO FUOCO VIVIDO - Il nostro colore dominante */
+    --text-color: #ffffff;        /* Bianco puro per i testi principali */
+    --text-muted: #aaaaaa;        /* Grigio chiaro per testi secondari (alta leggibilità) */
+    
+    /* Bordi stile fanzine ritagliata */
+    --border-punk: 3px dashed var(--accent-color); /* Tratteggio rosso fuoco */
+    --border-white: 3px solid #ffffff;
+    --border-thin: 1px dashed #444444;
+    
+    /* Font */
+    --font-punk-headers: 'Permanent Marker', 'Impact', sans-serif;
+    --font-punk-body: 'Special Elite', 'Courier New', monospace;
+}
+
+/* ==========================================================================
+   2. RESET & NUOVO SFONDO (Addio pugno negli occhi!)
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-punk-body);
+    line-height: 1.6;
+    /* Rimosso il vecchio pattern geometrico. Ora usiamo un leggerissimo effetto 
+       "grana da fotocopia" quasi invisibile per dare texture senza stancare gli occhi */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+::selection {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   3. TITOLI CON ROTAZIONE E STILE PENNARELLO
+   ========================================================================== */
+h1, h2, h3, h4 {
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+}
+
+/* Il titolo "RUMORE DALL'ASFALTO" */
+.title-underground {
+    font-size: 3.5rem;
+    background-color: var(--accent-color); /* Sfondo rosso fuoco */
+    color: #ffffff;
+    padding: 12px 24px;
+    display: inline-block;
+    border: var(--border-white);
+    transform: rotate(-2deg); /* Effetto volantino incollato storto */
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+/* ==========================================================================
+   4. HEADER & NAVIGAZIONE (Risolto il problema dei link viola illeggibili)
+   ========================================================================== */
+.header {
+    background-color: #000000;
+    border-bottom: 3px dashed #ffffff;
+    padding: 10px 0;            /* Header piu' basso e meno ingombrante */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: transform 0.3s ease;
+}
+
+/* Header nascosto (scroll verso il basso). Riappare passando il cursore in alto. */
+.header.header--hidden {
+    transform: translateY(-105%);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    height: 52px;
+    width: 275px;
+    max-width: 62vw;
+    background: url('../img/logo-dpa.png') left center / contain no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.logo span { display: none; }
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 14px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+    list-style: none;
+}
+
+/* Link bianchi di base, niente più viola scuro */
+.nav-link {
+    display: inline-block;
+    font-family: var(--font-punk-body);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nav-link.active, .nav-link:hover, .nav-link:focus-visible {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Bottone che apre una tendina: resettiamo lo stile nativo del <button> */
+.dropdown-toggle {
+    background: none;
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.caret {
+    font-size: 0.75rem;
+    margin-left: 2px;
+}
+
+/* ---- MENU A TENDINA (stile fanzine: nero + tratteggio bianco) ---- */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 190px;
+    list-style: none;
+    margin: 6px 0 0 0;
+    padding: 6px;
+    background-color: #000000;
+    border: 2px dashed #ffffff;
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.6);
+    z-index: 200;
+}
+
+.dropdown-menu li { list-style: none; }
+
+.dropdown-menu .nav-link {
+    display: block;
+    padding: 8px 12px;
+}
+
+/* Apertura su hover/focus (desktop) o classe .open (click / mobile) */
+.nav-item.has-dropdown:hover > .dropdown-menu,
+.nav-item.has-dropdown:focus-within > .dropdown-menu,
+.nav-item.has-dropdown.open > .dropdown-menu {
+    display: block;
+}
+
+/* La voce principale resta evidenziata se una sua sottopagina è attiva */
+.dropdown-toggle.active {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Icone Social in alto a destra */
+.header-socials .social-icon {
+    font-size: 0.85rem;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 8px;
+    margin-left: 8px;
+    font-family: var(--font-punk-body);
+    text-decoration: none;
+}
+
+.header-socials .social-icon:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/* ---- HAMBURGER (tre barre bianche) ---- */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 300;
+}
+
+.hamburger .bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+/* Animazione in "X" quando il menu è aperto */
+.hamburger.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+.hamburger.active .bar:nth-child(2) { opacity: 0; }
+.hamburger.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
+/* ==========================================================================
+   5. HERO SECTION (Impatto Duro e Cupo)
+   ========================================================================== */
+.hero {
+    padding: 120px 0;
+    border-bottom: var(--border-white);
+    background: linear-gradient(rgba(15, 15, 17, 0.85), rgba(15, 15, 17, 0.95)), 
+                url('https://images.unsplash.com/photo-1549417229-aa67d3263c09?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    line-height: 0.9;
+    color: #ffffff;
+    text-shadow: 4px 4px 0px var(--accent-color); /* Ombra rossa tagliente */
+    transform: rotate(-1.5deg);
+    display: inline-block;
+    background-color: #000000;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 580px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    background-color: #000000;
+    padding: 20px;
+    border: var(--border-thin);
+    transform: rotate(1deg);
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.5);
+}
+
+/* ---- Animazione hero: il DPA "cade" e appaiono DEAD / PEOPLE / ACTIVITY ---- */
+.hero-anim {
+    position: relative;
+    width: 260px;
+    max-width: 72vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    overflow: hidden;            /* il DPA cade DENTRO il riquadro, non fuori */
+}
+.hero-anim .dpa {
+    position: absolute;
+    top: 50%; left: 50%;
+    height: 170px; width: auto;
+    max-width: none;             /* annulla il max-width:100% globale che lo schiacciava */
+    transform: translate(-50%, -50%);
+    animation: dpaFall 2.8s ease-in forwards;
+    will-change: transform, opacity;
+}
+@keyframes dpaFall {
+    0%, 71% { transform: translate(-50%, -50%); opacity: 1; }
+    100%    { transform: translate(-50%, 120%) rotate(8deg); opacity: 0; }
+}
+.hero-anim .words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.hero-anim .words img {
+    display: block;
+    height: 50px; width: auto; max-width: none;
+    opacity: 0;
+    animation: wordDrop 0.5s ease-out forwards;
+    will-change: transform, opacity;
+}
+.hero-anim .words img:nth-child(1) { animation-delay: 2.7s; }
+.hero-anim .words img:nth-child(2) { animation-delay: 2.95s; }
+.hero-anim .words img:nth-child(3) { animation-delay: 3.2s; }
+@keyframes wordDrop {
+    from { opacity: 0; transform: translateY(-45px) rotate(-3deg); }
+    to   { opacity: 1; transform: none; }
+}
+/* Chi ha "riduci animazioni" attivo: niente animazione, mostra le 3 parole */
+@media (prefers-reduced-motion: reduce) {
+    .hero-anim .dpa { display: none; }
+    .hero-anim .words img { opacity: 1; animation: none; }
+}
+
+/* ==========================================================================
+   6. PULSANTI "VOLANTINO STRAPPATO"
+   ========================================================================== */
+.btn {
+    display: inline-block;
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 14px 32px;
+    font-size: 1.4rem;
+    border: 3px solid #000000;
+    outline: 3px solid #ffffff;
+    cursor: pointer;
+    transform: rotate(-1deg);
+    box-shadow: 5px 5px 0px var(--accent-color);
+}
+
+.btn:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    outline: 3px dashed #ffffff;
+    transform: scale(1.03) rotate(1deg);
+    box-shadow: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* ==========================================================================
+   7. SEZIONI, GRIGLIE E CARD RITAGLIATE
+   ========================================================================== */
+.section-padding {
+    padding: 80px 0;
+}
+
+.manifesto-box {
+    border: var(--border-white);
+    padding: 40px;
+    background-color: var(--bg-card);
+    position: relative;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+/* Finto nastro adesivo/scotch sopra il manifesto */
+.manifesto-box::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    width: 90px;
+    height: 28px;
+    background-color: rgba(255,255,255,0.12);
+    transform: rotate(-4deg);
+    border-left: 2px dotted rgba(255,255,255,0.2);
+    border-right: 2px dotted rgba(255,255,255,0.2);
+}
+
+.manifesto-text {
+    font-size: 1.4rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.articles-grid, .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.article-card, .feature-card {
+    background-color: var(--bg-card);
+    border: var(--border-thin);
+    padding: 25px;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.article-card:nth-child(odd) { transform: rotate(-0.4deg); }
+.article-card:nth-child(even) { transform: rotate(0.4deg); }
+
+.article-card:hover, .feature-card:hover {
+    border: 2px solid var(--accent-color);
+    background-color: #000000;
+}
+
+.article-img-wrapper {
+    width: 100%;
+    height: 190px;
+    border: 1px dashed #444444;
+    margin-bottom: 15px;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.category {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    padding: 3px 8px;
+    font-weight: bold;
+    font-family: var(--font-punk-headers);
+}
+
+.article-title {
+    font-size: 1.4rem;
+    transform: none;
+}
+
+/* ==========================================================================
+   8. FORM DI CANDIDATURA ("APPARIRE")
+   ========================================================================== */
+.form-info {
+    border: var(--border-punk);
+    padding: 25px;
+    margin-bottom: 40px;
+    background-color: #000000;
+}
+
+.form-info ul {
+    list-style-type: '⚡ ';
+    margin-top: 15px;
+    padding-left: 20px;
+    color: var(--text-color);
+}
+
+.form-info ul li {
+    margin-bottom: 8px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-family: var(--font-punk-headers);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+}
+
+.form-control {
+    width: 100%;
+    background-color: #000000;
+    border: 2px dashed #444444;
+    color: #ffffff;
+    padding: 15px;
+    font-family: var(--font-punk-body);
+    font-size: 1rem;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 2px solid var(--accent-color);
+    background-color: var(--bg-card);
+}
+
+.form-note {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #ff3333;
+    border: 2px solid #ff3333;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+/* ==========================================================================
+   9. CONTATTI
+   ========================================================================== */
+.contact-block {
+    border: var(--border-white);
+    padding: 30px;
+    background-color: var(--bg-card);
+    box-shadow: 6px 6px 0px #000000;
+}
+
+.contact-mail {
+    font-family: var(--font-punk-headers);
+    font-size: 1.2rem;
+    border-bottom: 3px solid var(--accent-color);
+    display: inline-block;
+}
+
+.contact-mail:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   10. FOOTER
+   ========================================================================== */
+.footer {
+    border-top: var(--border-white);
+    background-color: #000000;
+    padding: 60px 0 20px 0;
+    margin-top: 100px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-links h4, .footer-socials h4 {
+    color: var(--accent-color);
+}
+
+.footer-links ul {
+    list-style: '→ ';
+    padding-left: 15px;
+}
+
+.footer-links ul li a:hover {
+    color: var(--accent-color);
+    background: none;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px dashed #444444;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+/* ---- NAVIGAZIONE MOBILE / TABLET ---- */
+@media (max-width: 900px) {
+    .hamburger { display: flex; }
+
+    /* Le icone social spariscono dall'header (restano nel footer) */
+    .header-socials { display: none; }
+
+    /* Il menu diventa un pannello verticale a tutta larghezza */
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+        background-color: #000000;
+        border-bottom: 3px dashed #ffffff;
+        padding: 12px 6%;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+    }
+    .nav-menu.active { display: flex; }
+
+    .nav-item { width: 100%; }
+    .nav-link { width: 100%; }
+
+    /* Su mobile le tendine si aprono SOLO col tap (.open), non in hover */
+    .nav-item.has-dropdown:hover > .dropdown-menu,
+    .nav-item.has-dropdown:focus-within > .dropdown-menu {
+        display: none;
+    }
+    .nav-item.has-dropdown.open > .dropdown-menu {
+        display: block;
+    }
+
+    /* Sottomenu inline invece che sospeso */
+    .dropdown-menu {
+        position: static;
+        min-width: 0;
+        margin: 4px 0 4px 14px;
+        padding: 0 0 0 10px;
+        border: none;
+        border-left: 2px dashed var(--accent-color);
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 3rem; }
+    .footer-grid { grid-template-columns: 1fr; }
+    h1, h2, .title-underground { transform: none !important; }
+}
+
+.page-wrapper {
+    max-width: 1200px; /* O la larghezza massima del tuo layout */
+    margin: 0 auto;
+    padding: 0 20px; /* Margini laterali identici per ogni pagina */
+    min-height: calc(100vh - 160px); /* Evita che il footer salga se c'è poco testo */
+}
+
+/* ==========================================================================
+   11. INTEGRAZIONI ESPANSIONE DEAD PEOPLE ACTIVITY
+   ========================================================================== */
+.archive-filters {
+    background-color: var(--bg-card);
+    border: var(--border-white);
+    padding: 20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.status-badge {
+    font-family: var(--font-punk-body);
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    font-weight: bold;
+    border: 1px solid currentColor;
+}
+.status-live { color: #00ff00; background-color: rgba(0, 255, 0, 0.1); }
+.status-buried { color: #ff2a2a; background-color: rgba(255, 42, 42, 0.1); }
+
+/* Pannello Statistiche */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.stat-card {
+    background-color: #000000;
+    border: var(--border-punk);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 6px 6px 0px #000000;
+}
+.stat-number {
+    font-family: var(--font-punk-headers);
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px var(--accent-color);
+    margin-bottom: 10px;
+    display: block;
+}
+.stat-label {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+/* Timeline Buried */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 3px;
+    height: 100%;
+    background: var(--accent-color);
+    border-left: 1px dashed #ffffff;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 60px;
+}
+.timeline-marker {
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border: 3px solid #ffffff;
+    outline: 2px solid var(--accent-color);
+}
+.timeline-content {
+    background-color: var(--bg-card);
+    border: var(--border-thin);
+    padding: 25px;
+    box-shadow: 5px 5px 0px #000000;
+}
+.timeline-years {
+    font-family: var(--font-punk-headers);
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .archive-filters { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   12. MAPPA EVENTI (stile fanzine, nessun bianco corporate)
+   ========================================================================== */
+.map-intro { padding: 30px 0 5px 0; }
+.map-title {
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 3px 3px 0px var(--accent-color);
+    margin-bottom: 12px;
+}
+.map-intro p { color: var(--text-muted); max-width: 780px; }
+
+/* --- Barra strumenti --- */
+.map-toolbar {
+    background-color: #000000;
+    border-top: 3px dashed #ffffff;
+    border-bottom: 3px dashed #ffffff;
+    padding: 14px 0;
+    margin-top: 20px;
+}
+.map-toolbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Breadcrumb geografico */
+.map-breadcrumb { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.crumb {
+    font-family: var(--font-punk-body);
+    font-weight: bold;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #444444;
+    color: #ffffff;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+.crumb.crumb-root { border-color: var(--accent-color); }
+.crumb:hover { background-color: var(--accent-color); border-color: #ffffff; }
+.crumb-sep { color: var(--accent-color); font-weight: bold; }
+
+/* Selettore vista */
+.view-switch { display: flex; gap: 0; }
+.view-btn {
+    font-family: var(--font-punk-body);
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-right: none;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+.view-btn:last-child { border-right: 1px solid #ffffff; }
+.view-btn.active { background-color: var(--accent-color); }
+
+/* Filtri */
+.filters-toggle {
+    display: none;
+    font-family: var(--font-punk-headers);
+    background: var(--accent-color);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 14px;
+    margin-top: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.map-filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 14px;
+    align-items: end;
+    margin-top: 14px;
+}
+.filter-group { display: flex; flex-direction: column; }
+.filter-group label {
+    font-family: var(--font-punk-body);
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.map-filters select,
+.map-filters input[type="date"] {
+    background-color: #000000;
+    border: 2px dashed #444444;
+    color: #ffffff;
+    padding: 9px 8px;
+    font-family: var(--font-punk-body);
+    font-size: 0.9rem;
+    border-radius: 0;
+}
+.map-filters select:focus,
+.map-filters input[type="date"]:focus {
+    outline: none;
+    border: 2px solid var(--accent-color);
+}
+/* Icona calendario visibile sul fondo nero + tutto il campo apre il calendario */
+.map-filters input[type="date"] { cursor: pointer; }
+.map-filters input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    opacity: 0.85;
+    cursor: pointer;
+}
+.filter-checks { justify-content: flex-end; gap: 6px; }
+.filter-checks .check {
+    font-family: var(--font-punk-body);
+    font-size: 0.85rem;
+    color: #ffffff;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.filter-checks .check input { accent-color: var(--accent-color); }
+.btn-reset {
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    outline: 2px solid #ffffff;
+    padding: 9px 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px var(--accent-color);
+}
+.btn-reset:hover { background: var(--accent-color); color: #fff; box-shadow: none; }
+
+/* --- Layout mappa + lista --- */
+.map-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.map-canvas {
+    height: 82vh;
+    min-height: 540px;
+    border: var(--border-white);
+    box-shadow: 8px 8px 0px #000000;
+    background-color: #0a0a0a;
+}
+.map-list {
+    border: var(--border-thin);
+    background-color: var(--bg-card);
+    max-height: 82vh;
+    display: flex;
+    flex-direction: column;
+}
+.map-list-head {
+    padding: 12px 15px;
+    border-bottom: 2px dashed #444444;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--font-punk-headers);
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.list-hint { font-family: var(--font-punk-body); font-size: 0.7rem; color: var(--text-muted); }
+.events-list { overflow-y: auto; padding: 12px; }
+
+/* Vista Elenco / Calendario: nascondono la mappa */
+.map-layout.view-elenco,
+.map-layout.view-calendario { grid-template-columns: 1fr; }
+.map-layout.view-elenco .map-canvas,
+.map-layout.view-calendario .map-canvas { display: none; }
+.map-layout.view-elenco .map-list,
+.map-layout.view-calendario .map-list { max-height: none; }
+.map-layout.view-elenco .events-list,
+.map-layout.view-calendario .events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px;
+}
+
+/* Card evento */
+.ev-card {
+    background-color: #000000;
+    border: 1px dashed #444444;
+    padding: 14px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+}
+.map-layout.view-elenco .ev-card,
+.map-layout.view-calendario .ev-card { margin-bottom: 0; }
+.ev-card:hover { border: 1px solid var(--accent-color); background-color: #0d0d0d; }
+.ev-card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.ev-date { font-family: var(--font-punk-body); font-size: 0.8rem; color: var(--accent-color); font-weight: bold; }
+.ev-name { font-family: var(--font-punk-headers); font-size: 1.2rem; color: #ffffff; margin: 4px 0; text-transform: none; letter-spacing: 0; }
+.ev-place { font-family: var(--font-punk-body); font-size: 0.82rem; color: var(--text-muted); margin-bottom: 8px; }
+.ev-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 6px; }
+.tag {
+    font-family: var(--font-punk-body);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    border: 1px solid #555555;
+    color: #ffffff;
+    padding: 2px 6px;
+}
+.tag-spon { border-color: var(--accent-color); color: var(--accent-color); }
+.ev-foot { font-family: var(--font-punk-headers); color: #ffffff; font-size: 0.95rem; }
+.ev-provider { font-family: var(--font-punk-body); font-size: 0.68rem; color: #777; margin-top: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.popup-provider { font-family: var(--font-punk-body); font-size: 0.7rem; color: #888; margin: 4px 0 0; }
+.empty { color: var(--text-muted); font-size: 0.9rem; padding: 10px; }
+
+/* Calendario */
+.cal-group { margin-bottom: 10px; }
+.cal-month {
+    font-family: var(--font-punk-headers);
+    color: var(--accent-color);
+    text-transform: uppercase;
+    border-bottom: 2px dashed #444444;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    grid-column: 1 / -1;
+}
+
+/* --- Override Leaflet: pin, cluster, popup, controlli --- */
+.dpa-pin-wrap { background: none; border: none; }
+.dpa-pin {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: var(--accent-color);
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 0px #000000;
+    transform: rotate(45deg);
+}
+.dpa-pin.buried { background-color: #888888; }
+.dpa-pin.spon { outline: 2px solid #ffcc00; outline-offset: 1px; }
+
+.dpa-cluster-wrap { background: none; }
+.dpa-cluster {
+    width: 40px; height: 40px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border: 3px solid var(--accent-color);
+    border-radius: 50%;
+    font-family: var(--font-punk-headers);
+    box-shadow: 3px 3px 0px #000000;
+}
+
+.dpa-popup .leaflet-popup-content-wrapper {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px dashed #ffffff;
+    border-radius: 0;
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.6);
+}
+.dpa-popup .leaflet-popup-tip { background-color: #000000; border: 2px dashed #ffffff; }
+.dpa-popup .leaflet-popup-content { margin: 12px 14px; font-family: var(--font-punk-body); }
+.popup-card h4 { font-family: var(--font-punk-headers); font-size: 1.1rem; margin: 6px 0; text-transform: none; letter-spacing: 0; }
+.popup-card p { font-size: 0.82rem; color: var(--text-muted); margin: 2px 0; }
+.popup-detail {
+    margin-top: 8px;
+    font-family: var(--font-punk-headers);
+    background: var(--accent-color);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.leaflet-bar a, .leaflet-bar a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom-color: #444444;
+}
+.leaflet-bar a:hover { background-color: var(--accent-color); }
+.leaflet-control-attribution {
+    background: rgba(0,0,0,0.7) !important;
+    color: #888 !important;
+}
+.leaflet-control-attribution a { color: var(--accent-color) !important; }
+
+/* --- Scheda evento (drawer) --- */
+.detail-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1200;
+    display: none;
+}
+.detail-overlay.open { display: block; }
+.event-detail {
+    position: fixed;
+    top: 0; right: 0;
+    width: 420px; max-width: 92vw;
+    height: 100%;
+    background-color: var(--bg-card);
+    border-left: 3px dashed #ffffff;
+    z-index: 1300;
+    transform: translateX(105%);
+    transition: transform 0.25s ease;
+    overflow-y: auto;
+}
+.event-detail.open { transform: translateX(0); }
+.event-detail-inner { padding: 25px; }
+.detail-close {
+    position: absolute; top: 12px; right: 14px;
+    background: none; border: none;
+    color: #ffffff; font-size: 2rem; cursor: pointer; line-height: 1;
+}
+.detail-head { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+.detail-title { font-family: var(--font-punk-headers); color: #ffffff; font-size: 1.8rem; text-transform: none; letter-spacing: 0; margin-bottom: 10px; }
+.detail-desc { color: var(--text-muted); margin-bottom: 20px; }
+.detail-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+.detail-table th, .detail-table td {
+    text-align: left;
+    padding: 8px 6px;
+    border-bottom: 1px dashed #444444;
+    font-family: var(--font-punk-body);
+    font-size: 0.85rem;
+    vertical-align: top;
+}
+.detail-table th { color: var(--accent-color); text-transform: uppercase; width: 34%; }
+.detail-table td { color: #ffffff; }
+.detail-btn { font-size: 1rem; padding: 10px 20px; }
+
+/* --- Chatbot guidato --- */
+.chatbot-fab {
+    position: fixed; bottom: 24px; right: 24px;
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    font-family: var(--font-punk-headers);
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1100;
+    box-shadow: 4px 4px 0px #000000;
+}
+.chatbot-fab:hover { transform: scale(1.05); }
+.chatbot-panel {
+    position: fixed; bottom: 96px; right: 24px;
+    width: 300px; max-width: 90vw;
+    background-color: #000000;
+    border: 3px dashed #ffffff;
+    z-index: 1100;
+    display: none;
+    box-shadow: 8px 8px 0px rgba(0,0,0,0.6);
+}
+.chatbot-panel.open { display: block; }
+.chatbot-head {
+    display: flex; justify-content: space-between; align-items: center;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    padding: 10px 14px;
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+}
+.chatbot-close { background: none; border: none; color: #fff; font-size: 1.4rem; cursor: pointer; line-height: 1; }
+.chatbot-body { padding: 14px; }
+.bot-msg { font-family: var(--font-punk-body); color: #ffffff; margin-bottom: 12px; }
+.bot-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.bot-opt {
+    font-family: var(--font-punk-body);
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 6px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.bot-opt:hover { background-color: var(--accent-color); }
+
+/* --- Controlli zona (città + raggio) --- */
+.zona-controls {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 14px;
+    align-items: end;
+    flex-wrap: wrap;
+    border-top: 1px dashed #444444;
+    padding-top: 12px;
+}
+.zona-controls .filter-group { min-width: 160px; }
+.map-filters input[type="range"] {
+    width: 100%;
+    accent-color: var(--accent-color);
+    background: transparent;
+    cursor: pointer;
+}
+#raggioVal { color: #ffffff; }
+
+/* Avviso fallback confini */
+.map-notice {
+    display: none;
+    margin-top: 12px;
+    border: 2px solid var(--accent-color);
+    background: rgba(255, 42, 42, 0.06);
+    color: #ff6666;
+    padding: 10px 14px;
+    font-size: 0.85rem;
+}
+
+/* --- Testata lista + toggle apri/chiudi --- */
+.list-head-left { display: flex; align-items: center; gap: 10px; }
+.list-head-right { display: flex; flex-direction: column; align-items: flex-end; }
+.list-title { font-family: var(--font-punk-headers); color: var(--accent-color); text-transform: uppercase; font-size: 1rem; }
+.list-toggle {
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 26px; height: 26px;
+    line-height: 1;
+    cursor: pointer;
+    font-family: var(--font-punk-body);
+}
+.list-toggle:hover { background: var(--accent-color); }
+
+/* Tendina chiusa: la mappa occupa tutta la larghezza */
+.map-layout.list-collapsed { grid-template-columns: 1fr; }
+.map-layout.list-collapsed .map-list { display: none; }
+.list-reopen {
+    display: none;
+    position: absolute;
+    top: 12px; right: 24px;
+    z-index: 500;
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+    background: var(--accent-color);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 14px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #000000;
+}
+.map-layout { position: relative; }
+
+/* Tasto "Indietro" sovrapposto alla mappa (Zona -> Paese -> Europa) */
+.map-back {
+    display: none;
+    position: absolute;
+    top: 12px; left: 56px;
+    z-index: 500;
+    font-family: var(--font-punk-headers);
+    text-transform: uppercase;
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 14px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px var(--accent-color);
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.map-back:hover { background: var(--accent-color); }
+
+/* Tooltip paese sulla mappa */
+.dpa-country-tip {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border: 2px dashed var(--accent-color) !important;
+    border-radius: 0 !important;
+    font-family: var(--font-punk-body) !important;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.6) !important;
+}
+.dpa-country-tip::before { display: none !important; }
+
+/* --- Responsive mappa --- */
+@media (max-width: 900px) {
+    .map-layout { grid-template-columns: 1fr; }
+    .map-canvas { height: 62vh; min-height: 380px; }
+    .map-list { max-height: none; }
+    .filters-toggle { display: inline-block; }
+    .map-filters { display: none; }
+    .map-filters.open { display: grid; }
+    .zona-controls { flex-direction: column; align-items: stretch; }
+    .event-detail { width: 100%; border-left: none; border-top: 3px dashed #ffffff; }
+    .list-reopen { right: 12px; }
+}
+
+/* ==========================================================================
+   13. RESPONSIVE — RIFINITURA PER TELEFONI E SCHERMI PICCOLI (agg. 2026)
+   Solo dimensioni/spaziature: l'identità grafica (nero/rosso/bianco, font,
+   bordi tratteggiati) resta invariata.
+   ========================================================================== */
+
+/* Niente scroll orizzontale causato da elementi ruotati, ombre e titoli larghi */
+html, body { max-width: 100%; overflow-x: hidden; }
+img, iframe, video { max-width: 100%; height: auto; }
+h1, h2, h3, h4,
+.hero h1, .title-underground, .map-title, .ev-name, .detail-title {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+/* Selettori/campi non escono mai dal contenitore */
+select, input, textarea, .form-control { max-width: 100%; }
+
+/* ---- TABLET (<= 768px): rifinitura oltre alle regole già presenti ---- */
+@media (max-width: 768px) {
+    .section-padding { padding: 56px 0; }
+    .hero { padding: 80px 0; }
+    .hero p { transform: none; font-size: 1.1rem; }
+    .btn { transform: none; }
+    .title-underground { font-size: 2.6rem; margin-bottom: 32px; }
+    .map-title { font-size: 2.2rem; }
+    .stat-number { font-size: 2.4rem; }
+    .manifesto-text { font-size: 1.25rem; }
+    .footer { margin-top: 60px; }
+    .page-wrapper { padding: 0 14px; }
+}
+
+/* ---- TELEFONI (<= 600px) ---- */
+@media (max-width: 600px) {
+    .container { width: 90%; }
+    .hero { padding: 56px 0; }
+    .hero h1 { font-size: 2.4rem; padding: 14px; }
+    .hero p { font-size: 1rem; padding: 16px; margin-top: 24px; margin-bottom: 32px; }
+    .title-underground { font-size: 2rem; padding: 10px 16px; margin-bottom: 28px; }
+    .map-title { font-size: 1.8rem; }
+    .section-padding { padding: 44px 0; }
+    .logo { font-size: 1.7rem; }
+
+    /* Pulsanti a piena larghezza, più comodi da toccare */
+    .btn { font-size: 1.1rem; padding: 13px 22px; width: 100%; text-align: center; }
+
+    .manifesto-box, .contact-block { padding: 22px; }
+    .manifesto-text { font-size: 1.15rem; }
+    .articles-grid, .features-grid, .stats-grid { gap: 22px; }
+    /* Su telefono niente rotazioni card: evita bordi tagliati fuori schermo */
+    .article-card:nth-child(odd), .article-card:nth-child(even),
+    .feature-card, .stat-card { transform: none !important; }
+    .stat-card { padding: 22px; }
+    .stat-number { font-size: 2rem; }
+
+    /* Mappa: barra strumenti in colonna, viste elenco/calendario a 1 colonna */
+    .map-toolbar-inner { flex-direction: column; align-items: stretch; }
+    .view-switch { width: 100%; }
+    .view-btn { flex: 1; text-align: center; }
+    .map-layout.view-elenco .events-list,
+    .map-layout.view-calendario .events-list { grid-template-columns: 1fr; }
+    .map-canvas { height: 56vh; min-height: 320px; }
+    .timeline-item { padding-left: 48px; }
+
+    /* Scheda evento (drawer) a tutta larghezza già gestita a 900px */
+    .chatbot-panel { right: 12px; left: 12px; width: auto; }
+    .chatbot-fab { bottom: 18px; right: 18px; }
+}
+
+/* ---- TELEFONI MOLTO PICCOLI (<= 380px) ---- */
+@media (max-width: 380px) {
+    .hero h1 { font-size: 2rem; }
+    .title-underground { font-size: 1.65rem; }
+    .logo { font-size: 1.5rem; }
+    .map-title { font-size: 1.6rem; }
+}
