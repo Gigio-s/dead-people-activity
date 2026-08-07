@@ -188,16 +188,9 @@ def run():
 
     pending = ingest._load_json(ingest.PENDING_JSON, [])
     pubblicati = ingest._load_json(ingest.EVENTS_JSON, [])
-    gia_visti = {ingest.dedup_key(e) for e in pending} | {ingest.dedup_key(e) for e in pubblicati}
 
-    print(">> Rimozione doppioni...")
-    nuovi = []
-    for ev in puliti:
-        k = ingest.dedup_key(ev)
-        if k in gia_visti:
-            continue
-        gia_visti.add(k)
-        nuovi.append(ev)
+    print(">> Controllo doppioni e nuove opzioni biglietto...")
+    nuovi = ingest.nuovi_per_coda(puliti, pending, pubblicati)
 
     pending += nuovi
     ingest._save_json(ingest.PENDING_JSON, pending)

@@ -62,6 +62,10 @@
         else if (EN2IT[e.paese]) e.paese = EN2IT[e.paese];
         return e;
     }
+    function hasCoords(e) {
+        return e && Number.isFinite(e.lat) && Number.isFinite(e.lng) &&
+            e.lat >= -90 && e.lat <= 90 && e.lng >= -180 && e.lng <= 180;
+    }
 
     document.addEventListener("DOMContentLoaded", init);
 
@@ -75,8 +79,20 @@
             populateFilters();
             wireUI();
             buildChatbot();
-            loadBorders().then(function () { goEurope(); maybeGeolocate(); });
+            loadBorders().then(function () {
+                goEurope();
+                if (!openEventFromQuery()) maybeGeolocate();
+            });
         });
+    }
+
+    function openEventFromQuery() {
+        var id = new URLSearchParams(window.location.search).get("evento");
+        if (!id) return false;
+        var ev = byId(id);
+        if (!ev) return false;
+        focusEvent(ev, true);
+        return true;
     }
 
     function loadEvents() {
@@ -88,6 +104,7 @@
     function buildCityCenters() {
         var acc = {};
         ALL.forEach(function (e) {
+            if (!hasCoords(e) || !e.paese || !e.citta) return;
             var k = e.paese + "|" + e.citta;
             var a = acc[k] || (acc[k] = { lat: 0, lng: 0, n: 0 });
             a.lat += e.lat; a.lng += e.lng; a.n++;
@@ -281,7 +298,7 @@
         evs.forEach(function (ev) {
             // Salta eventi senza coordinate valide: L.marker([null,null]) lancerebbe
             // un errore e bloccherebbe lo zoom del paese.
-            if (typeof ev.lat !== "number" || typeof ev.lng !== "number") return;
+            if (!hasCoords(ev)) return;
             cluster.addLayer(markerFor(ev));
         });
     }
@@ -302,7 +319,7 @@
     function pt(e) { return [e.lat, e.lng]; }
     // Solo eventi con coordinate valide (per fitBounds senza errori)
     function ptsOf(evs) {
-        return evs.filter(function (e) { return typeof e.lat === "number" && typeof e.lng === "number"; }).map(pt);
+        return evs.filter(hasCoords).map(pt);
     }
 
     /* ---------- FALLBACK SENZA CONFINI: un pin cliccabile per nazione ----------
@@ -317,7 +334,7 @@
         removeFallbackPins();
         var acc = {};
         applyBaseFilters(ALL).forEach(function (e) {
-            if (typeof e.lat !== "number" || typeof e.lng !== "number" || !e.paese) return;
+            if (!hasCoords(e) || !e.paese) return;
             var a = acc[e.paese] || (acc[e.paese] = { lat: 0, lng: 0, n: 0 });
             a.lat += e.lat; a.lng += e.lng; a.n++;
         });
@@ -336,7 +353,7 @@
     /* ---------- VICINO A TE (geolocalizzazione) ---------- */
     function nearEvents() {
         if (!userPos) return [];
-        var list = applyBaseFilters(ALL).filter(function (e) { return typeof e.lat === "number" && typeof e.lng === "number"; });
+        var list = applyBaseFilters(ALL).filter(hasCoords);
         list.forEach(function (e) { e._dist = haversine(userPos.lat, userPos.lng, e.lat, e.lng); });
         list.sort(function (a, b) { return a._dist - b._dist; });
         var near = list.filter(function (e) { return e._dist <= 150; });   // entro 150 km
@@ -513,7 +530,7 @@
             // entra nella nazione (con o senza confini: selectCountry usa i punti evento come fallback)
             selectCountry(ev.paese, countryBounds[ev.paese]);
         }
-        if (doZoom && typeof ev.lat === "number" && typeof ev.lng === "number") {
+        if (doZoom && hasCoords(ev)) {
             map.setView([ev.lat, ev.lng], 13);
         }
         focusedEvent = true;
@@ -523,15 +540,22 @@
     function openDetail(id) {
         var ev = byId(id); if (!ev) return;
         var price = ev.gratuito ? "Ingresso gratuito" : (ev.prezzo ? "da " + ev.prezzo + " &euro;" : "n/d");
+        var ticketLinks = ticketOptions(ev);
+        var providers = uniq(ticketLinks.map(function (item) { return fonteLabel(item.fonte); }));
         var rows = [
             ["Data", fmtDate(ev.data) + (ev.ora ? " &middot; " + ev.ora : "")],
             ["Luogo", esc(ev.locale)], ["Indirizzo", esc(ev.indirizzo || "n/d")],
             ["Citta'", esc(ev.citta) + ", " + esc(ev.regione || "") + " (" + esc(ev.paese) + ")"],
             ["Artisti", (ev.artisti || []).map(esc).join(", ") || "n/d"],
             ["Genere", (ev.genere || []).map(esc).join(", ")], ["Tipologia", esc(ev.tipo)],
-            ["Prezzo", price], ["Fonte", fonteLabel(ev.fonte)]
+            ["Prezzo", price], ["Fonte", providers.length ? providers.join(", ") : fonteLabel(ev.fonte)]
         ];
-        var biglietti = ev.biglietti_url ? '<a class="btn detail-btn" href="' + esc(ev.biglietti_url) + '" target="_blank" rel="noopener">Biglietti / Info</a>' : "";
+        var biglietti = ticketLinks.length ? '<div class="detail-ticket-choices"><h3>Scegli dove acquistare</h3>' +
+            ticketLinks.map(function (item) {
+                var extra = item.gratuito ? " - Gratis" : (item.prezzo != null ? " - da " + esc(item.prezzo) + " €" : "");
+                return '<a class="btn detail-btn" href="' + esc(item.url) + '" target="_blank" rel="noopener sponsored">' +
+                    "Biglietti su " + fonteLabel(item.fonte) + extra + "</a>";
+            }).join("") + "</div>" : "";
         document.getElementById("detailBody").innerHTML =
             '<div class="detail-head"><span class="status-badge ' + (ev.stato === "BURIED" ? "status-buried" : "status-live") + '">' + ev.stato + "</span>" +
             (ev.sponsorizzato ? '<span class="tag tag-spon">Contenuto sponsorizzato</span>' : "") + "</div>" +
@@ -718,6 +742,19 @@
     function uniq(a) { var s = {}, o = []; a.forEach(function (x) { if (x != null && !s[x]) { s[x] = 1; o.push(x); } }); return o; }
     function flatten(a) { return a.reduce(function (x, y) { return x.concat(y); }, []); }
     function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
+    function ticketOptions(ev) {
+        var list = Array.isArray(ev.biglietti) ? ev.biglietti.slice() : [];
+        if (ev.biglietti_url) list.push({ fonte: ev.fonte, url: ev.biglietti_url, prezzo: ev.prezzo, gratuito: ev.gratuito });
+        var seen = {};
+        return list.filter(function (item) {
+            if (!item || !item.url) return false;
+            var url = String(item.url).trim();
+            if (!/^https?:\/\//i.test(url) || seen[url]) return false;
+            seen[url] = true;
+            item.url = url;
+            return true;
+        });
+    }
     // Nome "bello" del provider/fonte, per l'attribuzione su ogni evento
     function fonteLabel(f) {
         var m = { ticketmaster: "Ticketmaster", dice: "DICE", skiddle: "Skiddle", ra: "Resident Advisor", bandsintown: "Bandsintown", community: "Community", demo: "Demo" };

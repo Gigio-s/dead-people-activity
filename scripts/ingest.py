@@ -30,6 +30,7 @@ import re
 import sys
 import time
 import unicodedata
+import zipfile
 from datetime import datetime, date
 
 # ----------------------------------------------------------------------------
@@ -42,6 +43,9 @@ PENDING_JSON = os.path.join(DATA_DIR, "events_pending.json")  # coda in attesa d
 ARCHIVIO_JSON = os.path.join(DATA_DIR, "events_archivio.json")  # eventi passati (storico)
 EVENTS_DATA_JS = os.path.normpath(os.path.join(HERE, "..", "assets", "js", "events-data.js"))  # fallback locale
 GEOCACHE = os.path.join(HERE, "geocode_cache.json")           # cache coordinate (per non richiedere due volte)
+BACKUP_DIR = os.path.join(HERE, "backups")
+INCERTI_JSON = os.path.join(DATA_DIR, "events_dice_incerti.json")
+SCARTATI_JSON = os.path.join(DATA_DIR, "events_dice_scartati.json")
 
 # ----------------------------------------------------------------------------
 # SCHEMA — un evento "pulito" ha esattamente questi campi
@@ -51,7 +55,7 @@ SCHEMA_FIELDS = [
     "id", "nome", "descrizione", "locandina", "data", "ora",
     "paese", "paese_code", "regione", "citta", "indirizzo", "locale",
     "lat", "lng", "artisti", "genere", "tipo", "prezzo", "gratuito",
-    "biglietti_url", "promoter", "promoter_url", "social",
+    "biglietti_url", "biglietti", "promoter", "promoter_url", "social",
     "stato", "sponsorizzato", "fonte", "approvazione", "creato_il",
 ]
 
@@ -65,6 +69,72 @@ def _slug(s):
 def dedup_key(ev):
     """Due eventi sono 'lo stesso' se combaciano nome + data + citta."""
     return "|".join([_slug(ev.get("nome")), str(ev.get("data") or ""), _slug(ev.get("citta"))])
+
+
+def ticket_options(ev):
+    """Restituisce le opzioni biglietto uniche, compatibili anche con i vecchi eventi."""
+    options = []
+    raw_options = ev.get("biglietti") or []
+    if isinstance(raw_options, dict):
+        raw_options = [raw_options]
+    for item in raw_options:
+        if not isinstance(item, dict) or not item.get("url"):
+            continue
+        options.append({
+            "fonte": item.get("fonte") or ev.get("fonte") or "",
+            "url": item.get("url"),
+            "prezzo": item.get("prezzo"),
+            "gratuito": bool(item.get("gratuito")),
+        })
+    if ev.get("biglietti_url"):
+        options.append({
+            "fonte": ev.get("fonte") or "",
+            "url": ev.get("biglietti_url"),
+            "prezzo": ev.get("prezzo"),
+            "gratuito": bool(ev.get("gratuito")),
+        })
+
+    unique_options, seen_urls = [], set()
+    for item in options:
+        url = str(item.get("url") or "").strip()
+        if not url or url in seen_urls:
+            continue
+        seen_urls.add(url)
+        item["url"] = url
+        unique_options.append(item)
+    return unique_options
+
+
+def merge_event(target, incoming):
+    """Unisce in una scheda le scelte biglietto di provider diversi."""
+    before = ticket_options(target)
+    merged = before + ticket_options(incoming)
+    probe = dict(target)
+    probe["biglietti"] = merged
+    probe["biglietti_url"] = None
+    target["biglietti"] = ticket_options(probe)
+    if not target.get("biglietti_url") and target["biglietti"]:
+        target["biglietti_url"] = target["biglietti"][0]["url"]
+    return len(target["biglietti"]) - len(before)
+
+
+def nuovi_per_coda(puliti, pending, pubblicati):
+    """Tiene i nuovi eventi e le nuove scelte provider/link per eventi gia' noti."""
+    nuovi = []
+    esistenti = list(pending) + list(pubblicati)
+    for ev in puliti:
+        stessa_chiave = [old for old in esistenti if dedup_key(old) == dedup_key(ev)]
+        if not stessa_chiave:
+            nuovi.append(ev)
+            esistenti.append(ev)
+            continue
+        urls_esistenti = {item["url"] for old in stessa_chiave for item in ticket_options(old)}
+        opzioni_nuove = [item for item in ticket_options(ev) if item["url"] not in urls_esistenti]
+        if opzioni_nuove:
+            ev["biglietti"] = opzioni_nuove
+            nuovi.append(ev)
+            esistenti.append(ev)
+    return nuovi
 
 
 # ----------------------------------------------------------------------------
@@ -164,6 +234,35 @@ def _save_json(path, obj):
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
+def backup_eventi():
+    """Crea un backup ZIP datato dei dati prima dell'aggiornamento settimanale."""
+    os.makedirs(BACKUP_DIR, exist_ok=True)
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    out = os.path.join(BACKUP_DIR, "eventi-" + stamp + ".zip")
+    n = 2
+    while os.path.exists(out):
+        out = os.path.join(BACKUP_DIR, "eventi-" + stamp + "-" + str(n) + ".zip")
+        n += 1
+
+    project_root = os.path.normpath(os.path.join(HERE, ".."))
+    files = [EVENTS_JSON, ARCHIVIO_JSON, EVENTS_DATA_JS, PENDING_JSON, INCERTI_JSON, SCARTATI_JSON]
+    included = []
+    with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        for path in files:
+            if not os.path.exists(path):
+                continue
+            arcname = os.path.relpath(path, project_root).replace(os.sep, "/")
+            archive.write(path, arcname)
+            included.append(arcname)
+        archive.writestr("backup-info.json", json.dumps({
+            "creato_il": datetime.now().isoformat(timespec="seconds"),
+            "file": included,
+        }, ensure_ascii=False, indent=2))
+    print("BACKUP creato:", out)
+    print("   file inclusi:", len(included))
+    return out
+
+
 def geocode(indirizzo, citta, paese, cache):
     """Restituisce (lat, lng). Prova cache -> Nominatim online -> dizionario citta."""
     query = ", ".join([p for p in [indirizzo, citta, paese] if p])
@@ -232,6 +331,7 @@ def normalizza(raw, fonte, cache):
         "prezzo": raw.get("prezzo") if raw.get("prezzo") is not None else raw.get("price"),
         "gratuito": bool(raw.get("gratuito") or raw.get("free") or raw.get("prezzo") in (0, "0")),
         "biglietti_url": raw.get("biglietti_url") or raw.get("tickets_url") or None,
+        "biglietti": raw.get("biglietti") or [],
         "promoter": raw.get("promoter") or "",
         "promoter_url": raw.get("promoter_url") or None,
         "social": raw.get("social") or {},
@@ -241,6 +341,7 @@ def normalizza(raw, fonte, cache):
         "approvazione": "in_attesa",   # <<< MAI pubblicato in automatico
         "creato_il": date.today().isoformat(),
     }
+    ev["biglietti"] = ticket_options(ev)
     return {k: ev.get(k) for k in SCHEMA_FIELDS}
 
 
@@ -392,19 +493,12 @@ def run():
     puliti = [normalizza(raw, fonte, cache) for raw, fonte in grezzi]
     _save_json(GEOCACHE, cache)
 
-    # Carica cio' che c'e' gia' (coda + pubblicati) per NON reinserire doppioni
+    # Carica cio' che c'e' gia': nuove scelte provider/link non vengono perse.
     pending = _load_json(PENDING_JSON, [])
     pubblicati = _load_json(EVENTS_JSON, [])
-    gia_visti = {dedup_key(e) for e in pending} | {dedup_key(e) for e in pubblicati}
 
-    print(">> Rimozione doppioni...")
-    nuovi = []
-    for ev in puliti:
-        k = dedup_key(ev)
-        if k in gia_visti:
-            continue
-        gia_visti.add(k)
-        nuovi.append(ev)
+    print(">> Controllo doppioni e nuove opzioni biglietto...")
+    nuovi = nuovi_per_coda(puliti, pending, pubblicati)
 
     pending += nuovi
     _save_json(PENDING_JSON, pending)
@@ -456,13 +550,23 @@ def _pubblica(lista_da_spostare, etichetta):
     pending = _load_json(PENDING_JSON, [])
     pubblicati = _load_json(EVENTS_JSON, [])
     ids = {e["id"] for e in lista_da_spostare}
+    uniti, nuove_schede, nuove_opzioni = 0, 0, 0
     for e in lista_da_spostare:
         e["approvazione"] = "approvato"
-    pubblicati += lista_da_spostare
+        trovato = next((old for old in pubblicati if dedup_key(old) == dedup_key(e)), None)
+        if trovato:
+            aggiunte = merge_event(trovato, e)
+            nuove_opzioni += aggiunte
+            uniti += 1
+        else:
+            e["biglietti"] = ticket_options(e)
+            pubblicati.append(e)
+            nuove_schede += 1
     resto = [e for e in pending if e["id"] not in ids]
     _save_json(EVENTS_JSON, pubblicati)
     _save_json(PENDING_JSON, resto)
     print(f"PUBBLICATI {len(lista_da_spostare)} eventi ({etichetta}) -> {EVENTS_JSON}")
+    print(f"   nuove schede: {nuove_schede} - uniti a schede esistenti: {uniti} - nuovi link: {nuove_opzioni}")
     print(f"   coda residua: {len(resto)}")
     mirror_fallback()
 
@@ -563,7 +667,9 @@ if __name__ == "__main__":
     def arg(flag):
         return sys.argv[sys.argv.index(flag) + 1] if flag in sys.argv and sys.argv.index(flag) + 1 < len(sys.argv) else ""
 
-    if "--show" in sys.argv:
+    if "--backup" in sys.argv:
+        backup_eventi()
+    elif "--show" in sys.argv:
         mostra()
     elif "--approva-fonte" in sys.argv:
         approva_fonte(arg("--approva-fonte"))

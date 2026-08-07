@@ -14,6 +14,14 @@ REM ============================================================
 cd /d "%~dp0"
 if exist "%~dp0config.bat" call "%~dp0config.bat"
 
+echo [%date% %time%] --- BACKUP DATI PRIMA DELL'AGGIORNAMENTO ---
+python ingest.py --backup
+if errorlevel 1 (
+    echo [%date% %time%] ERRORE BACKUP: aggiornamento annullato.
+    if not "%1"=="auto" pause
+    exit /b 1
+)
+
 echo [%date% %time%] --- TICKETMASTER ---
 python ingest.py
 python ingest.py --approva-fonte ticketmaster

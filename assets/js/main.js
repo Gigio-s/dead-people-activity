@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Collaboratori": "Contributors",
         "Apparire": "Get Featured",
         "Eventi": "Events",
+        "Gli eventi vengono aggiornati ogni lunedì tra le 9:00 e le 11:00.": "Events are updated every Monday between 9:00 and 11:00.",
         // --- Filtri mappa ---
         "Dal giorno": "From date",
         "Al giorno": "To date",

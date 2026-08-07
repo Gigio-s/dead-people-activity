@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=5">
 
     <!-- Stile del banner "schermo intero" (solo questa pagina) -->
     <style>
@@ -30,13 +30,18 @@
     </style>
 </head>
 <body class="page-map">
-
     <header class="header">
         <div class="container nav-container">
             <a href="index.html" class="logo">Dead People <span>Activity</span></a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="mappa.html" class="nav-link active">Mappa</a></li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle active" aria-haspopup="true" aria-expanded="false">Mappa <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="mappa.html" class="nav-link active">Mappa</a></li>
+                        <li><a href="eventi.html" class="nav-link">Eventi</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item"><a href="articoli.html" class="nav-link">Articoli</a></li>
                 <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
             </ul>
@@ -55,6 +60,7 @@
         <div class="container">
             <h1 class="map-title">Mappa del Rumore</h1>
             <p>Concerti, festival, DJ set e serate autogestite in tutta Europa, dal Regno Unito alla Russia europea. I dati mostrati sono <strong>dimostrativi</strong>: presto alimentati da fonti automatiche e dalle segnalazioni della community.</p>
+            <p class="schedule-update-note"><span aria-hidden="true">↻</span> Gli eventi vengono aggiornati ogni lunedì tra le 9:00 e le 11:00.</p>
 
             <!-- Banner: apre la mappa a tutto schermo in una pagina separata -->
             <a class="fullscreen-banner" href="mappa-full.html" target="_blank" rel="noopener">
@@ -212,7 +218,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
     <script src="assets/js/events-data.js"></script>
-    <script src="assets/js/mappa.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mappa.js?v=6"></script>
+    <script src="assets/js/main.js?v=5"></script>
 </body>
 </html>
