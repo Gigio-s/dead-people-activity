@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- Navigazione / voci comuni (valgono su tutte le pagine) ---
         "Mappa": "Map",
         "Articoli": "Articles",
+        "Store": "Store",
         "Contatti": "Contacts",
         "Archivio": "Archive",
         "Buried": "Buried",
@@ -125,7 +126,21 @@ document.addEventListener('DOMContentLoaded', () => {
         "Fai parte del rumore o vuoi salvarlo dall'oblio?": "Part of the noise, or want to save it from oblivion?",
         "Sei un artista, un collettivo, gestisci uno spazio o possiedi materiale d'archivio raro?":
             "Are you an artist or a collective, do you run a space, or hold rare archive material?",
-        "Scopri di più": "Learn more"
+        "Scopri di più": "Learn more",
+        // --- STORE ---
+        "Merchandise e musica indipendente, direttamente dalla scena.": "Independent merchandise and music, straight from the scene.",
+        "Stiamo preparando uno spazio per magliette, felpe, stampe, vinili, cassette, fanzine e autoproduzioni selezionate dalla rete Dead People Activity.":
+            "We are building a space for T-shirts, hoodies, prints, vinyl, tapes, fanzines and self-releases selected by the Dead People Activity network.",
+        "Cosa troverai": "What you'll find",
+        "Merchandise": "Merchandise",
+        "Magliette, felpe, patch e stampe Dead People Activity.": "Dead People Activity T-shirts, hoodies, patches and prints.",
+        "Musica": "Music",
+        "Vinili, cassette e pubblicazioni indipendenti.": "Vinyl, tapes and independent releases.",
+        "Fanzine & DIY": "Fanzines & DIY",
+        "Edizioni limitate, poster e materiale dalle scene europee.": "Limited editions, posters and material from European scenes.",
+        "Accessori": "Accessories",
+        "Oggetti e piccole produzioni pensate per chi vive la musica dal vivo.": "Objects and small productions made for people who live music in person.",
+        "Lo Store non è ancora aperto. Nessun prodotto è attualmente in vendita.": "The Store is not open yet. No products are currently for sale."
     };
 
     const getLang = () => { try { return localStorage.getItem('dpa_lang') === 'en' ? 'en' : 'it'; } catch (e) { return 'it'; } };

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendario Underground Europeo | Dead People Activity</title>
     <meta name="description" content="Concerti, festival, showcase, serate indipendenti e appuntamenti DIY delle scene underground europee.">
-    <link rel="stylesheet" href="assets/css/style.css?v=5">
+    <link rel="stylesheet" href="assets/css/style.css?v=9">
 </head>
 <body>
     <header class="header">
@@ -21,6 +21,7 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a href="articoli.html" class="nav-link">Articoli</a></li>
+                <li class="nav-item"><a href="store.html" class="nav-link">Store</a></li>
                 <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
             </ul>
             <div class="header-socials">
@@ -57,13 +58,9 @@
                         <label for="ev-genre">Genere</label>
                         <select class="form-control" id="ev-genre">
                             <option value="">Tutti i Generi</option>
-                            <option value="rock">Rock / Alternative</option>
-                            <option value="punk">Punk / Hardcore</option>
-                            <option value="metal">Metal</option>
+                            <option value="rock">Rock / Punk / Metal / Indie</option>
                             <option value="rap">Rap / Hip-Hop</option>
                             <option value="electronic">Techno / Elettronica</option>
-                            <option value="pop">Pop / Indie</option>
-                            <option value="other">Altri generi</option>
                         </select>
                     </div>
                     <div>
@@ -89,6 +86,12 @@
                     </div>
                     <button class="events-reset" id="ev-reset" type="button">Azzera filtri</button>
                 </form>
+
+                <div class="genre-legend" aria-label="Legenda colori dei generi musicali">
+                    <span class="genre-rock"><i></i>Rock / Punk / Metal / Indie</span>
+                    <span class="genre-rap"><i></i>Rap / Hip-Hop</span>
+                    <span class="genre-electronic"><i></i>Techno / Elettronica</span>
+                </div>
 
                 <div class="events-results-head" aria-live="polite">
                     <p id="eventsCount">Caricamento eventi…</p>
@@ -138,7 +141,7 @@
     </footer>
 
     <script src="assets/js/events-data.js"></script>
-    <script src="assets/js/eventi.js?v=5"></script>
+    <script src="assets/js/eventi.js?v=6"></script>
     <script src="assets/js/main.js?v=5"></script>
 </body>
 </html>

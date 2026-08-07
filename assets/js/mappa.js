@@ -68,6 +68,22 @@
             !(e.lat === 0 && e.lng === 0);
     }
 
+    function genreFamily(genres) {
+        var list = Array.isArray(genres) ? genres : [];
+        for (var i = 0; i < list.length; i++) {
+            var text = String(list[i] || "").toLowerCase();
+            if (/hip.?hop|rap|trap|drill|grime/.test(text)) return "rap";
+            if (/techno|electro|house|dance|club|trance|ambient|dubstep|drum|dj|rave/.test(text)) return "electronic";
+            if (/rock|alternative|noise|shoegaze|grunge|psych|garage|punk|hardcore|crust|d-beat|emo|screamo|metal|grind|doom|deathcore|blackgaze|pop|indie/.test(text)) return "rock";
+        }
+        return "rock";
+    }
+    function genreFamilyLabel(group) {
+        if (group === "rap") return "Rap / Hip-Hop";
+        if (group === "electronic") return "Techno / Elettronica";
+        return "Rock / Punk / Metal / Indie";
+    }
+
     document.addEventListener("DOMContentLoaded", init);
 
     function init() {
@@ -241,13 +257,13 @@
         return {
             genere: val("f-genere"), tipo: val("f-tipo"),
             data: val("f-data"), dataFine: val("f-data-fine"),
-            gratis: checked("f-gratis"), buried: checked("f-buried"),
+            gratis: checked("f-gratis"),
             q: (val("q-search") || "").trim().toLowerCase()
         };
     }
     function matchesBase(ev, f) {
-        if (!f.buried && ev.stato === "BURIED") return false;
-        if (f.genere && (ev.genere || []).indexOf(f.genere) === -1) return false;
+        if (ev.stato === "BURIED") return false;
+        if (f.genere && genreFamily(ev.genere) !== f.genere) return false;
         if (f.tipo && ev.tipo !== f.tipo) return false;
         if (f.gratis && !ev.gratuito) return false;
         if (f.data && ev.data < f.data) return false;
@@ -304,7 +320,7 @@
         });
     }
     function markerFor(ev) {
-        var cls = ev.stato === "BURIED" ? "dpa-pin buried" : "dpa-pin live";
+        var cls = ev.stato === "BURIED" ? "dpa-pin buried" : "dpa-pin live genre-" + genreFamily(ev.genere);
         if (ev.sponsorizzato) cls += " spon";
         var icon = L.divIcon({ className: "dpa-pin-wrap", html: '<span class="' + cls + '"></span>', iconSize: [22, 22], iconAnchor: [11, 11] });
         var m = L.marker([ev.lat, ev.lng], { icon: icon });
@@ -504,12 +520,12 @@
         var tags = '<span class="tag">' + esc(ev.tipo) + "</span>" +
             (ev.genere || []).slice(0, 2).map(function (g) { return '<span class="tag">' + esc(g) + "</span>"; }).join("") +
             (ev.sponsorizzato ? '<span class="tag tag-spon">Sponsor</span>' : "");
-        return '<article class="ev-card" data-id="' + ev.id + '">' +
+        return '<article class="ev-card genre-' + genreFamily(ev.genere) + '" data-id="' + ev.id + '">' +
             '<div class="ev-card-top"><span class="ev-date">' + fmtDate(ev.data) + "</span>" +
             '<span class="status-badge ' + badge + '">' + ev.stato + "</span></div>" +
             '<h3 class="ev-name">' + esc(ev.nome) + "</h3>" +
             '<p class="ev-place">' + esc(ev.locale) + ", " + esc(ev.citta) + ", " + esc(ev.paese) + "</p>" +
-            '<div class="ev-tags">' + tags + "</div>" +
+            '<div class="ev-tags genre-color-tags">' + tags + "</div>" +
             (price ? '<div class="ev-foot">' + price + "</div>" : "") +
             '<div class="ev-provider">via ' + fonteLabel(ev.fonte) + "</div></article>";
     }
@@ -578,9 +594,9 @@
     function renderChatStep(step) {
         var body = document.getElementById("chatbotBody"); if (!body) return;
         if (step === 0) {
-            var generi = uniq(flatten(ALL.map(function (e) { return e.genere || []; }))).sort().slice(0, 8);
+            var generi = ["rock", "rap", "electronic"];
             body.innerHTML = '<p class="bot-msg">Che musica cerchi?</p><div class="bot-opts">' +
-                generi.map(function (g) { return '<button class="bot-opt" data-g="' + esc(g) + '">' + esc(g) + "</button>"; }).join("") +
+                generi.map(function (g) { return '<button class="bot-opt" data-g="' + esc(g) + '">' + esc(genreFamilyLabel(g)) + "</button>"; }).join("") +
                 '<button class="bot-opt" data-g="">Qualsiasi</button></div>';
             body.querySelectorAll(".bot-opt").forEach(function (b) { b.addEventListener("click", function () { chatState.genere = b.getAttribute("data-g"); renderChatStep(1); }); });
         } else if (step === 1) {
@@ -607,7 +623,7 @@
     /* ---------- UI WIRING ---------- */
     function wireUI() {
         // Filtri base -> ridisegna il livello corrente
-        ["f-genere", "f-tipo", "f-data", "f-data-fine", "f-gratis", "f-buried"].forEach(function (id) {
+        ["f-genere", "f-tipo", "f-data", "f-data-fine", "f-gratis"].forEach(function (id) {
             var el = document.getElementById(id);
             if (el) el.addEventListener("change", refreshCurrent);
         });
@@ -642,8 +658,8 @@
         var reset = document.getElementById("btnReset");
         if (reset) reset.addEventListener("click", function () {
             ["f-genere", "f-tipo", "f-data", "f-data-fine", "q-search"].forEach(function (id) { setSel(id, ""); });
-            var g = document.getElementById("f-gratis"), b = document.getElementById("f-buried");
-            if (g) g.checked = false; if (b) b.checked = false;
+            var g = document.getElementById("f-gratis");
+            if (g) g.checked = false;
             var r = document.getElementById("f-raggio"); if (r) r.value = 0;
             goEurope();
         });
@@ -725,7 +741,6 @@
 
     function populateFilters() {
         fillSelect("f-paese", uniq(ALL.map(function (e) { return e.paese; })));
-        fillSelect("f-genere", uniq(flatten(ALL.map(function (e) { return e.genere || []; }))));
         fillSelect("f-tipo", uniq(ALL.map(function (e) { return e.tipo; })));
     }
     function fillSelect(id, values) {

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=8">
 
     <!-- Stile "a tutto schermo": vale SOLO per questa pagina (body.map-full) -->
     <style>
@@ -96,7 +96,12 @@
                 </div>
                 <div class="filter-group">
                     <label for="f-genere">Genere</label>
-                    <select id="f-genere"><option value="">Tutti</option></select>
+                    <select id="f-genere">
+                        <option value="">Tutti</option>
+                        <option value="rock">Rock / Punk / Metal / Indie</option>
+                        <option value="rap">Rap / Hip-Hop</option>
+                        <option value="electronic">Techno / Elettronica</option>
+                    </select>
                 </div>
                 <div class="filter-group">
                     <label for="f-tipo">Tipologia</label>
@@ -112,7 +117,6 @@
                 </div>
                 <div class="filter-group filter-checks">
                     <label class="check"><input type="checkbox" id="f-gratis"> Solo gratuiti</label>
-                    <label class="check"><input type="checkbox" id="f-buried"> Includi archivio (BURIED)</label>
                 </div>
                 <div class="zona-controls" id="zonaControls">
                     <div class="filter-group">
@@ -136,6 +140,12 @@
             <input type="text" id="q-search" class="form-control" style="flex:1; min-width:220px;" placeholder="Cerca artista, band, evento o genere in tutta Europa..." aria-label="Cerca per artista, band o genere">
             <button type="button" id="q-clear" class="btn-reset">Pulisci</button>
         </div>
+    </div>
+
+    <div class="container genre-legend map-genre-legend" aria-label="Legenda colori dei generi musicali">
+        <span class="genre-rock"><i></i>Rock / Punk / Metal / Indie</span>
+        <span class="genre-rap"><i></i>Rap / Hip-Hop</span>
+        <span class="genre-electronic"><i></i>Techno / Elettronica</span>
     </div>
 
     <!-- MAPPA + LISTA -->
@@ -183,7 +193,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
     <script src="assets/js/events-data.js"></script>
-    <script src="assets/js/mappa.js?v=7"></script>
+    <script src="assets/js/mappa.js?v=9"></script>
     <script src="assets/js/main.js"></script>
 
     <!-- Assicura che Leaflet dimensioni la mappa dopo il layout a tutto schermo -->

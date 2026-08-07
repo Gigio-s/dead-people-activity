@@ -62,14 +62,14 @@
     }
 
     function genreGroup(genres) {
-        var text = genres.join(" ").toLowerCase();
-        if (/punk|hardcore|crust|d-beat|emo|screamo/.test(text)) return "punk";
-        if (/metal|grind|doom|deathcore|blackgaze/.test(text)) return "metal";
-        if (/hip.?hop|rap|trap|drill|grime/.test(text)) return "rap";
-        if (/techno|electro|house|dance|club|trance|ambient|dubstep|drum|dj|rave/.test(text)) return "electronic";
-        if (/indie pop|synth.?pop|pop/.test(text)) return "pop";
-        if (/rock|alternative|noise|shoegaze|grunge|psych|garage/.test(text)) return "rock";
-        return "other";
+        var list = Array.isArray(genres) ? genres : [];
+        for (var i = 0; i < list.length; i++) {
+            var text = String(list[i] || "").toLowerCase();
+            if (/hip.?hop|rap|trap|drill|grime/.test(text)) return "rap";
+            if (/techno|electro|house|dance|club|trance|ambient|dubstep|drum|dj|rave/.test(text)) return "electronic";
+            if (/rock|alternative|noise|shoegaze|grunge|psych|garage|punk|hardcore|crust|d-beat|emo|screamo|metal|grind|doom|deathcore|blackgaze|pop|indie/.test(text)) return "rock";
+        }
+        return "rock";
     }
 
     function populateFilters() {
@@ -188,12 +188,12 @@
             '" target="_blank" rel="noopener sponsored">Biglietti</a>' : "";
 
         var distance = Number.isFinite(ev._distance) ? '<span>' + formatDistance(ev._distance) + " da te</span>" : "";
-        return '<article class="event-calendar-card">' +
+        return '<article class="event-calendar-card genre-' + ev._genreGroup + '">' +
             '<div class="event-card-top"><time datetime="' + esc(ev.data) + '">' + formatDate(ev.data) +
             (ev.ora ? '<small>' + esc(shortTime(ev.ora)) + "</small>" : "") + "</time>" + price + "</div>" +
             '<h2 class="event-calendar-title">' + esc(ev.nome || "Evento") + "</h2>" +
             '<p class="event-calendar-place">' + esc(place || "Luogo da definire") + "</p>" +
-            '<div class="event-tags">' + genres.map(function (g) { return "<span>" + esc(g) + "</span>"; }).join("") + "</div>" +
+            '<div class="event-tags genre-color-tags">' + genres.map(function (g) { return "<span>" + esc(g) + "</span>"; }).join("") + "</div>" +
             '<div class="event-card-meta"><span>' + esc(labelType(ev.tipo || "evento")) + distance + '<span>via ' + esc(provider(ev.fonte)) + "</span></div>" +
             '<div class="event-card-actions"><a class="event-action" href="' + esc(mapUrl) + '">Dettagli e biglietti</a>' + ticketButton + "</div>" +
             "</article>";
