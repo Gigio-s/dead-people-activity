@@ -42,6 +42,10 @@ python residentadvisor.py --approva
 echo [%date% %time%] --- Archivio eventi passati (rimossi dalla mappa) ---
 python ingest.py --archivia-passati
 
+echo [%date% %time%] --- Coordinate locali (cache + verifica prudente) ---
+python coordinate_eventi.py --apply
+python geocodifica_coordinate.py --apply --limit 100 --delay 2.5
+
 echo [%date% %time%] --- Pubblico il sito online (git push) ---
 git -C "%~dp0.." add -A
 git -C "%~dp0.." commit -m "Aggiornamento settimanale eventi (auto)"

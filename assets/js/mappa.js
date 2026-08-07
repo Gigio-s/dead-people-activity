@@ -64,7 +64,8 @@
     }
     function hasCoords(e) {
         return e && Number.isFinite(e.lat) && Number.isFinite(e.lng) &&
-            e.lat >= -90 && e.lat <= 90 && e.lng >= -180 && e.lng <= 180;
+            e.lat >= -90 && e.lat <= 90 && e.lng >= -180 && e.lng <= 180 &&
+            !(e.lat === 0 && e.lng === 0);
     }
 
     document.addEventListener("DOMContentLoaded", init);

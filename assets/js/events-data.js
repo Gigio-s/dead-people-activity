@@ -5,81 +5,6 @@
    ============================================================================ */
 window.DPA_EVENTS_FALLBACK = [
   {
-    "id": "evt-0005",
-    "nome": "Techno Bunker Berlin",
-    "descrizione": "Rave in un ex bunker. Line-up techno hard fino all'alba.",
-    "locandina": null,
-    "data": "2026-08-15",
-    "ora": "00:00",
-    "paese": "Germania",
-    "paese_code": "DE",
-    "regione": "Berlino",
-    "citta": "Berlino",
-    "indirizzo": "Köpenicker Str. 70",
-    "locale": "Kraftwerk",
-    "lat": 52.5108,
-    "lng": 13.421,
-    "artisti": [
-      "Betonhaus",
-      "Nacht"
-    ],
-    "genere": [
-      "techno"
-    ],
-    "tipo": "djset",
-    "prezzo": 20,
-    "gratuito": false,
-    "biglietti_url": "https://example.com/biglietti",
-    "promoter": "Untergrund",
-    "promoter_url": null,
-    "social": {
-      "instagram": null
-    },
-    "stato": "LIVE",
-    "sponsorizzato": false,
-    "fonte": "ticketmaster",
-    "approvazione": "approvato",
-    "creato_il": "2026-07-05"
-  },
-  {
-    "id": "evt-0015",
-    "nome": "Festival Sonidos del Sur",
-    "descrizione": "Festival di tre giorni tra flamenco-punk e fusione. Grande palco all'aperto.",
-    "locandina": null,
-    "data": "2026-10-17",
-    "ora": "16:00",
-    "paese": "Spagna",
-    "paese_code": "ES",
-    "regione": "Andalusia",
-    "citta": "Siviglia",
-    "indirizzo": "Alameda de Hércules",
-    "locale": "Alameda Open Air",
-    "lat": 37.4,
-    "lng": -5.995,
-    "artisti": [
-      "Gitano Eléctrico",
-      "Sur"
-    ],
-    "genere": [
-      "flamenco-punk",
-      "fusione"
-    ],
-    "tipo": "festival",
-    "prezzo": 35,
-    "gratuito": false,
-    "biglietti_url": "https://example.com/biglietti",
-    "promoter": "Sur Sonoro",
-    "promoter_url": null,
-    "social": {
-      "instagram": null
-    },
-    "stato": "LIVE",
-    "sponsorizzato": false,
-    "fonte": "ticketmaster",
-    "approvazione": "approvato",
-    "creato_il": "2026-07-11"
-  },
-  {
     "id": "tm-ZG9rmIYnyZe6ka",
     "nome": "Alberto Ferrari | Locus Festival 2026",
     "descrizione": "",
@@ -862,8 +787,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Locorotondo",
     "indirizzo": "Via Cisternino 282",
     "locale": "Masseria Ferragnano",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 40.7551747,
+    "lng": 17.3279309,
     "artisti": [],
     "genere": [
       "Dance/Electronic"
@@ -879,7 +804,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZek16",
@@ -1055,8 +982,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Pescara",
     "indirizzo": "Lungomare Papa Giovanni XXIII, ",
     "locale": "PORTO TURISTICO",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap",
@@ -1073,7 +1000,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZevkv",
@@ -1481,8 +1410,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Metal",
@@ -1499,7 +1428,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-Z59rmIYnyZ1a6",
@@ -1841,8 +1772,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Firenze",
     "indirizzo": "Parco Delle Cascine",
     "locale": "Parco Delle Cascine",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 43.7829311,
+    "lng": 11.2154935,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap"
@@ -1858,7 +1789,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "tm-Z59rmIYnyZaa1",
@@ -2232,8 +2165,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milano",
     "indirizzo": "Via Diomede, 1, 20148 Milano MI 1",
     "locale": "Ippodromo SNAI San Siro",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 45.480508,
+    "lng": 9.129556,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap"
@@ -2249,7 +2182,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZeAa1",
@@ -2330,8 +2265,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Rock",
@@ -2348,7 +2283,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZe611",
@@ -2623,8 +2560,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milano",
     "indirizzo": "Via Tullo Massarani, 6",
     "locale": "Lime Milano",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 45.4444545,
+    "lng": 9.2161877,
     "artisti": [],
     "genere": [
       "Rock",
@@ -2641,7 +2578,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZek7e",
@@ -2787,8 +2726,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Pop",
@@ -2805,7 +2744,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-Z59rmIYnyZ1kd",
@@ -3468,8 +3409,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Rock",
@@ -3486,7 +3427,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-Z59rmIYnyZ1kA",
@@ -3662,8 +3605,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Metal"
@@ -3679,7 +3622,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZe7ka",
@@ -18774,8 +18719,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Biddinghuizen",
     "indirizzo": "",
     "locale": "Parking - Walibi",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Rock",
@@ -18792,7 +18737,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-26"
+    "creato_il": "2026-07-26",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-Z698xZbpZ1ku4ZYf4",
@@ -64368,8 +64315,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Pop",
@@ -64386,7 +64333,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZedv1",
@@ -64532,8 +64481,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milano",
     "indirizzo": "Via Moncalieri, 5",
     "locale": "Casa di Alex",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 45.5098384,
+    "lng": 9.1986796,
     "artisti": [],
     "genere": [
       "Rock"
@@ -64549,7 +64498,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZeF1d",
@@ -64695,8 +64646,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cusano Milanino (Milano)",
     "indirizzo": "Via Giuseppe Zucchi, 39G",
     "locale": "La Cripta Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Alternative",
@@ -64713,7 +64664,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZeAF1",
@@ -64860,8 +64813,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Mantova",
     "indirizzo": "",
     "locale": "Arci Tom",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 45.1428155,
+    "lng": 10.7639898,
     "artisti": [],
     "genere": [
       "Alternative",
@@ -64878,7 +64831,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZedAe",
@@ -64893,8 +64848,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Pop",
@@ -64911,7 +64866,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZekdF",
@@ -65388,8 +65345,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milano",
     "indirizzo": "Via Diomede, 1, 20148 Milano MI 1",
     "locale": "Ippodromo SNAI San Siro",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 45.480508,
+    "lng": 9.129556,
     "artisti": [],
     "genere": [
       "Rock",
@@ -65406,7 +65363,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZdd61",
@@ -65914,8 +65873,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Livorno",
     "indirizzo": "",
     "locale": "Modigliani Forum",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 43.5550361,
+    "lng": 10.3422651,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap"
@@ -65931,7 +65890,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "tm-Z59rmIYnyZ1ee",
@@ -66621,8 +66582,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Pesaro",
     "indirizzo": "",
     "locale": "Vitrifrigo Arena",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap"
@@ -66638,7 +66599,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZe6AA",
@@ -67229,8 +67192,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Lido di Jesolo",
     "indirizzo": "",
     "locale": "Palazzo del Turismo Jesolo",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 45.5024359,
+    "lng": 12.63051,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap"
@@ -67246,7 +67209,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZeFvd",
@@ -67485,8 +67450,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milano",
     "indirizzo": "Via Diomede, 1, 20148 Milano MI 1",
     "locale": "Ippodromo SNAI San Siro",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": 45.480508,
+    "lng": 9.129556,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap"
@@ -67502,7 +67467,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-ZG9rmIYnyZe6dA",
@@ -67517,8 +67484,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Paderno Dugnano (Milano)",
     "indirizzo": "Via Angelo Tagliabue, 4",
     "locale": "Slaughter Club",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Dance/Electronic",
@@ -67535,7 +67502,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "tm-ZG9rmIYnyZde1d",
@@ -111838,8 +111807,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cardiff",
     "indirizzo": "Clare Road",
     "locale": "Tramshed",
-    "lat": null,
-    "lng": null,
+    "lat": 51.475443,
+    "lng": -3.186919,
     "artisti": [],
     "genere": [
       "Rock",
@@ -111856,7 +111825,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5vHZ_1Tjvya8",
@@ -112959,8 +112930,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Wrexham",
     "indirizzo": "17 Hill Street",
     "locale": "The Rockin' Chair",
-    "lat": null,
-    "lng": null,
+    "lat": 53.045731,
+    "lng": -2.99583,
     "artisti": [],
     "genere": [
       "Rock",
@@ -112977,7 +112948,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5vHZ_6lRTyVe",
@@ -114278,8 +114251,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London",
     "indirizzo": "178 Junction Road, Tufnell Park",
     "locale": "The Dome",
-    "lat": null,
-    "lng": null,
+    "lat": 51.55806,
+    "lng": -0.13831,
     "artisti": [],
     "genere": [
       "Alternative",
@@ -114296,7 +114269,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "tm-LvZ18Qh8ZueVRV8Z0QrzA",
@@ -116522,8 +116497,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London ",
     "indirizzo": " 316 Lewisham High St, ",
     "locale": "Fox and Firkin",
-    "lat": null,
-    "lng": null,
+    "lat": 51.45698,
+    "lng": -0.01441,
     "artisti": [],
     "genere": [
       "Alternative"
@@ -116539,7 +116514,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Qr_GNU1FoYZ07XKX",
@@ -119677,8 +119654,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -119695,7 +119672,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AdbZbzGkl2G_1o",
@@ -120007,8 +119986,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Rock",
@@ -120025,7 +120004,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18QKLMWWRF7ZZlX9NH",
@@ -122412,8 +122393,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -122430,7 +122411,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-17GOv0G62DuB8Pn",
@@ -123002,8 +122985,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cambridge ",
     "indirizzo": "15 Market Passage",
     "locale": "MASH",
-    "lat": null,
-    "lng": null,
+    "lat": 52.206702,
+    "lng": 0.120103,
     "artisti": [],
     "genere": [
       "Metal",
@@ -123020,7 +123003,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "tm-LvZ18QQh8CVKVjOZih-me",
@@ -123035,8 +123020,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -123053,7 +123038,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5vHZ_AE0S6t3",
@@ -123758,8 +123745,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Portsmouth",
     "indirizzo": "1 Granada Road, Southsea",
     "locale": "KOLA",
-    "lat": null,
-    "lng": null,
+    "lat": 50.78142,
+    "lng": -1.07972,
     "artisti": [],
     "genere": [
       "Metal",
@@ -123776,7 +123763,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Q_9IG1_c-OZ0oxZl",
@@ -123791,8 +123780,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal"
@@ -123808,7 +123797,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Qjt1vH7-6YvOdrbF",
@@ -124808,8 +124799,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -124826,7 +124817,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18QOMtE2KNDOvOTyao",
@@ -126323,8 +126316,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cambridge ",
     "indirizzo": "15 Market Passage",
     "locale": "MASH",
-    "lat": null,
-    "lng": null,
+    "lat": 52.206702,
+    "lng": 0.120103,
     "artisti": [],
     "genere": [
       "Metal",
@@ -126341,7 +126334,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "tm-1AzZkozGkdQe-gR",
@@ -126587,8 +126582,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -126605,7 +126600,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-17uOv0G6CDYl16o",
@@ -126752,8 +126749,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -126770,7 +126767,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5dzZ_d4THoOv",
@@ -126917,8 +126916,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -126935,7 +126934,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AUZkozGkdmqnDd",
@@ -127016,8 +127017,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Portsmouth",
     "indirizzo": "1 Granada Road, Southsea",
     "locale": "KOLA",
-    "lat": null,
-    "lng": null,
+    "lat": 50.78142,
+    "lng": -1.07972,
     "artisti": [],
     "genere": [
       "Metal",
@@ -127034,7 +127035,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Q_p1Vbz5kOZlG3z3",
@@ -134087,8 +134090,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Metal",
@@ -134105,7 +134108,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Q-4ErqQ7rOvOaDAe",
@@ -136096,8 +136101,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Rock",
@@ -136114,7 +136119,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AwZk8gGkecHZNl",
@@ -136327,8 +136334,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cardiff",
     "indirizzo": "Clare Road",
     "locale": "Tramshed",
-    "lat": null,
-    "lng": null,
+    "lat": 51.475443,
+    "lng": -3.186919,
     "artisti": [],
     "genere": [
       "Rock",
@@ -136345,7 +136352,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5dzZ_GKhRMgq",
@@ -136393,8 +136402,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Liverpool",
     "indirizzo": "Hanover Street",
     "locale": "Rough Trade Liverpool",
-    "lat": null,
-    "lng": null,
+    "lat": 53.402606,
+    "lng": -2.988659,
     "artisti": [],
     "genere": [
       "Rock",
@@ -136411,7 +136420,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18QC_6YyQFQYZl0Y7u",
@@ -137350,8 +137361,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cambridge ",
     "indirizzo": "15 Market Passage",
     "locale": "MASH",
-    "lat": null,
-    "lng": null,
+    "lat": 52.206702,
+    "lng": 0.120103,
     "artisti": [],
     "genere": [
       "Rock",
@@ -137368,7 +137379,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "tm-LvZ18QqyGZh9OKYv1CUpD",
@@ -137581,8 +137594,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Portsmouth",
     "indirizzo": "1 Granada Road, Southsea",
     "locale": "KOLA",
-    "lat": null,
-    "lng": null,
+    "lat": 50.78142,
+    "lng": -1.07972,
     "artisti": [],
     "genere": [
       "Rock",
@@ -137599,7 +137612,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AdfZbgGkMwhu7u",
@@ -139099,8 +139114,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Portsmouth",
     "indirizzo": "1 Granada Road, Southsea",
     "locale": "KOLA",
-    "lat": null,
-    "lng": null,
+    "lat": 50.78142,
+    "lng": -1.07972,
     "artisti": [],
     "genere": [
       "Rock",
@@ -139117,7 +139132,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5vHZbzpFN7yp",
@@ -140550,8 +140567,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London ",
     "indirizzo": " 316 Lewisham High St, ",
     "locale": "Fox and Firkin",
-    "lat": null,
-    "lng": null,
+    "lat": 51.45698,
+    "lng": -0.01441,
     "artisti": [],
     "genere": [
       "Dance/Electronic",
@@ -140568,7 +140585,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AMZkudGkdDeA6j",
@@ -140616,8 +140635,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London ",
     "indirizzo": " 316 Lewisham High St, ",
     "locale": "Fox and Firkin",
-    "lat": null,
-    "lng": null,
+    "lat": 51.45698,
+    "lng": -0.01441,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap",
@@ -140634,7 +140653,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AUZku8GkexFggP",
@@ -141737,8 +141758,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Northampton",
     "indirizzo": "15 Abington Square",
     "locale": "The Black Prince",
-    "lat": null,
-    "lng": null,
+    "lat": 52.240192,
+    "lng": -0.888455,
     "artisti": [],
     "genere": [
       "Hip-Hop/Rap",
@@ -141755,7 +141776,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18QxOrXja-ROvO2lod",
@@ -148288,8 +148311,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London ",
     "indirizzo": " 316 Lewisham High St, ",
     "locale": "Fox and Firkin",
-    "lat": null,
-    "lng": null,
+    "lat": 51.45698,
+    "lng": -0.01441,
     "artisti": [],
     "genere": [
       "Dance/Electronic",
@@ -148306,7 +148329,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Q0BNCWK3-lZ-5AKu",
@@ -148452,8 +148477,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London ",
     "indirizzo": " 316 Lewisham High St, ",
     "locale": "Fox and Firkin",
-    "lat": null,
-    "lng": null,
+    "lat": 51.45698,
+    "lng": -0.01441,
     "artisti": [],
     "genere": [
       "Dance/Electronic",
@@ -148470,7 +148495,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Qqy7GxYz68Z0Dutr",
@@ -152529,8 +152556,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Dance/Electronic"
@@ -152546,7 +152573,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5vHZ_uCytiw3",
@@ -153152,8 +153181,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cardiff",
     "indirizzo": "Clare Road",
     "locale": "Tramshed",
-    "lat": null,
-    "lng": null,
+    "lat": 51.475443,
+    "lng": -3.186919,
     "artisti": [],
     "genere": [
       "Dance/Electronic"
@@ -153169,7 +153198,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Qxn8lzZTnZZzyERN",
@@ -153907,8 +153938,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London ",
     "indirizzo": " 316 Lewisham High St, ",
     "locale": "Fox and Firkin",
-    "lat": null,
-    "lng": null,
+    "lat": 51.45698,
+    "lng": -0.01441,
     "artisti": [],
     "genere": [
       "Dance/Electronic",
@@ -153925,7 +153956,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-17CZv0G62xZr8lO",
@@ -158194,8 +158227,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cardiff",
     "indirizzo": "Clare Road",
     "locale": "Tramshed",
-    "lat": null,
-    "lng": null,
+    "lat": 51.475443,
+    "lng": -3.186919,
     "artisti": [],
     "genere": [
       "Dance/Electronic",
@@ -158212,7 +158245,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5dzZ_FkO_SIh",
@@ -210776,8 +210811,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cardiff",
     "indirizzo": "Clare Road",
     "locale": "Tramshed",
-    "lat": null,
-    "lng": null,
+    "lat": 51.475443,
+    "lng": -3.186919,
     "artisti": [],
     "genere": [
       "Rock",
@@ -210794,7 +210829,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18Qr_P5S9nDZv1ARAR",
@@ -213019,8 +213056,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London",
     "indirizzo": "178 Junction Road, Tufnell Park",
     "locale": "The Dome",
-    "lat": null,
-    "lng": null,
+    "lat": 51.55806,
+    "lng": -0.13831,
     "artisti": [],
     "genere": [
       "Rock",
@@ -213037,7 +213074,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "tm-LvZ18QbiDj9m0RZZy8Wn6",
@@ -219288,8 +219327,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow,",
     "indirizzo": "20 Scott Street",
     "locale": "The Art School (The Vic Bar) ",
-    "lat": null,
-    "lng": null,
+    "lat": 55.867216,
+    "lng": -4.264312,
     "artisti": [],
     "genere": [
       "Folk",
@@ -219306,7 +219345,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "tm-G5dzZ_uxEx045",
@@ -225624,8 +225665,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Rock",
@@ -225642,7 +225683,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5vHZ_ARW3_Nb",
@@ -228592,8 +228635,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Rock",
@@ -228610,7 +228653,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-07-31"
+    "creato_il": "2026-07-31",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5dzZ_C6Gr9LO",
@@ -251142,8 +251187,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de la Mercè, 26, 08002 Barcelona, Spain",
     "locale": "Recreo Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.2227311,
+    "lng": 1.7193188,
     "artisti": [],
     "genere": [
       "electronic"
@@ -251159,7 +251204,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501801",
@@ -251174,8 +251221,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -251191,7 +251238,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2502413",
@@ -251312,8 +251361,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Diagonal, 442, 08037 Barcelona",
     "locale": "Garage 442",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3970411,
+    "lng": 2.1606927,
     "artisti": [
       "Majo Alarcon",
       "Vanyra"
@@ -251332,7 +251381,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498389",
@@ -251347,8 +251398,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Rec, 62, 08003, Barcelona, Spain",
     "locale": "Círculo",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3841851,
+    "lng": 2.1841441,
     "artisti": [
       "LeMichael"
     ],
@@ -251366,7 +251417,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2431051",
@@ -251416,8 +251469,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [
       "KSTX",
       "Kynexis"
@@ -251436,7 +251489,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2480038",
@@ -251451,8 +251506,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Navider"
     ],
@@ -251470,7 +251525,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489425",
@@ -251551,8 +251608,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Mariano Cima",
       "Merlina",
@@ -251572,7 +251629,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2435022",
@@ -251587,8 +251646,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Reelow",
       "Eze k",
@@ -251610,7 +251669,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2499236",
@@ -251625,8 +251686,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Comerç, 21, Ciutat Vella, 08003 Barcelona",
     "locale": "Born 2B Music Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3865262,
+    "lng": 2.1824853,
     "artisti": [
       "RUD4"
     ],
@@ -251644,7 +251705,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499983",
@@ -251659,8 +251722,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Navider"
     ],
@@ -251678,7 +251741,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500680",
@@ -251693,8 +251758,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Muntaner, 246, 08021 Barcelona",
     "locale": "Luz De Gas",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3945996,
+    "lng": 2.1490385,
     "artisti": [
       "Deer Jade",
       "CIOZ"
@@ -251713,7 +251778,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501094",
@@ -251969,8 +252036,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Rec, 62, 08003, Barcelona, Spain",
     "locale": "Círculo",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3841851,
+    "lng": 2.1841441,
     "artisti": [],
     "genere": [
       "electronic"
@@ -251986,7 +252053,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2234024",
@@ -252507,8 +252576,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "Rene Wise",
       "Hitch",
@@ -252528,7 +252597,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2493866",
@@ -252543,8 +252614,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Danilo Plessow",
       "Gee Lane",
@@ -252565,7 +252636,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2493868",
@@ -252616,8 +252689,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [
       "REMIXIA",
       "HARUNA (2)",
@@ -252638,7 +252711,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2496486",
@@ -252653,8 +252728,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Cipy",
       "Althoff",
@@ -252675,7 +252750,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503962",
@@ -252794,8 +252871,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Rec, 62, 08003, Barcelona, Spain",
     "locale": "Círculo",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3841851,
+    "lng": 2.1841441,
     "artisti": [],
     "genere": [
       "electronic"
@@ -252811,7 +252888,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498705",
@@ -252878,7 +252957,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2500015",
@@ -252893,8 +252974,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Navider",
       "vernimoon"
@@ -252913,7 +252994,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500687",
@@ -252928,8 +253011,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Muntaner, 246, 08021 Barcelona",
     "locale": "Luz De Gas",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3945996,
+    "lng": 2.1490385,
     "artisti": [
       "Franky Wah",
       "Brizas"
@@ -252948,7 +253031,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500907",
@@ -252963,8 +253048,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -252980,7 +253065,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2500918",
@@ -252995,8 +253082,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Diagonal, 442, 08037 Barcelona",
     "locale": "Garage 442",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3970411,
+    "lng": 2.1606927,
     "artisti": [
       "Beghelli",
       "Posada",
@@ -253017,7 +253104,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501246",
@@ -253130,8 +253219,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de la Rambla, 113; 08004 Barcelona; Spain",
     "locale": "Nitsa Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.374312,
+    "lng": 2.169541,
     "artisti": [
       "Acidnena",
       "Drazzit",
@@ -253153,7 +253242,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2503424",
@@ -253301,8 +253392,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Hunee",
       "Hector Romero",
@@ -253323,7 +253414,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2425572",
@@ -253547,8 +253640,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Comerç, 21, Ciutat Vella, 08003 Barcelona",
     "locale": "Born 2B Music Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3865262,
+    "lng": 2.1824853,
     "artisti": [
       "HollowFate",
       "MIILA"
@@ -253567,7 +253660,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483995",
@@ -253789,8 +253884,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "Abstract Division",
       "Anfisa Letyago",
@@ -253810,7 +253905,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2493867",
@@ -253825,8 +253922,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Alice Caroline",
       "DJ Senc",
@@ -253847,7 +253944,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2493872",
@@ -254002,8 +254101,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "UFO Space"
     ],
@@ -254021,7 +254120,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503425",
@@ -254206,8 +254307,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Passeig Marítim de la Barceloneta 38, 08003, Barcelona, Spain",
     "locale": "Ku Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3825802,
+    "lng": 2.177073,
     "artisti": [
       "James Hype (UK)",
       "Alex Now",
@@ -254227,7 +254328,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2452005",
@@ -254415,8 +254518,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Mansion Near Plaza Catalunya",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "SURUU",
       "Galu Bla",
@@ -254437,7 +254540,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494117",
@@ -254452,8 +254557,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Muntaner, 246, 08021 Barcelona",
     "locale": "Luz De Gas",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3945996,
+    "lng": 2.1490385,
     "artisti": [
       "Fedele",
       "Greta Levska",
@@ -254473,7 +254578,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496489",
@@ -254488,8 +254595,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Villaça"
     ],
@@ -254507,7 +254614,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2491916",
@@ -254560,8 +254669,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -254577,7 +254686,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2501818",
@@ -254592,8 +254703,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -254609,7 +254720,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2481288",
@@ -254724,8 +254837,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "P.A.N.C.H.I.T.O",
       "Di Francesco"
@@ -254744,7 +254857,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502404",
@@ -254862,8 +254977,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [
       "Ultrabeats",
       "Frucula",
@@ -254888,7 +255003,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2496491",
@@ -254903,8 +255020,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Alex Blaze"
     ],
@@ -254922,7 +255039,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501830",
@@ -254937,8 +255056,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -254954,7 +255073,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2502408",
@@ -255102,8 +255223,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Rasquera, Terres de l'Ebre, provincia de Tarragona",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "AINES",
       "giac.",
@@ -255129,7 +255250,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2489461",
@@ -255179,8 +255302,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [
       "MOTORGROOVE",
       "DAGZZ",
@@ -255200,7 +255323,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2496493",
@@ -255215,8 +255340,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "MAF"
     ],
@@ -255234,7 +255359,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2497850",
@@ -255249,8 +255376,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -255266,7 +255393,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2498397",
@@ -255281,8 +255410,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Rec, 62, 08003, Barcelona, Spain",
     "locale": "Círculo",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3841851,
+    "lng": 2.1841441,
     "artisti": [],
     "genere": [
       "electronic"
@@ -255298,7 +255427,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500126",
@@ -255345,8 +255476,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de la Mercè, 26, 08002 Barcelona, Spain",
     "locale": "Recreo Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.2227311,
+    "lng": 1.7193188,
     "artisti": [],
     "genere": [
       "electronic"
@@ -255362,7 +255493,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501692",
@@ -255481,8 +255614,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "Don Woezik",
       "Per Pleks"
@@ -255501,7 +255634,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2431056",
@@ -255550,8 +255685,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Sam Hofman",
       "INEXXSTABLE",
@@ -255572,7 +255707,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2480044",
@@ -255587,8 +255724,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Navider"
     ],
@@ -255606,7 +255743,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489465",
@@ -255655,8 +255794,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "NUUP",
       "marta aramini"
@@ -255675,7 +255814,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498398",
@@ -255690,8 +255831,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Rec, 62, 08003, Barcelona, Spain",
     "locale": "Círculo",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3841851,
+    "lng": 2.1841441,
     "artisti": [],
     "genere": [
       "electronic"
@@ -255707,7 +255848,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498821",
@@ -255790,8 +255933,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Navider",
       "Toni The Boss"
@@ -255810,7 +255953,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501115",
@@ -255825,8 +255970,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - FLUXS",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Gabela",
       "Føggeist"
@@ -255845,7 +255990,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2503140",
@@ -255860,8 +256007,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de la Rambla, 113; 08004 Barcelona; Spain",
     "locale": "Nitsa Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.374312,
+    "lng": 2.169541,
     "artisti": [
       "Interplanetary Criminal",
       "Rumbler"
@@ -255880,7 +256027,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2503430",
@@ -255927,8 +256076,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Carrer Casp, 33B - Eixample, 08010, Barcelona",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Freak The Disco"
     ],
@@ -255946,7 +256095,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2446118",
@@ -256030,8 +256181,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "DJ AMAZING"
     ],
@@ -256049,7 +256200,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2442921",
@@ -256203,8 +256356,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Bennet (DE)",
       "Fernanda Arrau"
@@ -256223,7 +256376,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2489469",
@@ -256378,8 +256533,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Amadori",
       "Marvio",
@@ -256400,7 +256555,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2431172",
@@ -256450,8 +256607,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "davyboi",
       "Cara Elizabeth",
@@ -256471,7 +256628,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2489431",
@@ -256525,8 +256684,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Diagonal, 442, 08037 Barcelona",
     "locale": "Garage 442",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3970411,
+    "lng": 2.1606927,
     "artisti": [],
     "genere": [
       "electronic"
@@ -256542,7 +256701,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498401",
@@ -256557,8 +256718,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Rec, 62, 08003, Barcelona, Spain",
     "locale": "Círculo",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3841851,
+    "lng": 2.1841441,
     "artisti": [
       "Majo Alarcon"
     ],
@@ -256576,7 +256737,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498536",
@@ -256630,8 +256793,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Navider",
       "JAXX NOVEIRA"
@@ -256650,7 +256813,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500133",
@@ -256734,8 +256899,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Muntaner, 246, 08021 Barcelona",
     "locale": "Luz De Gas",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3945996,
+    "lng": 2.1490385,
     "artisti": [
       "Kolsch",
       "Magdalena",
@@ -256755,7 +256920,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500726",
@@ -256845,8 +257012,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de la Rambla, 113; 08004 Barcelona; Spain",
     "locale": "Nitsa Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.374312,
+    "lng": 2.169541,
     "artisti": [
       "KiNK"
     ],
@@ -256864,7 +257031,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2503280",
@@ -257009,8 +257178,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Diagonal, 442, 08037 Barcelona",
     "locale": "Garage 442",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3970411,
+    "lng": 2.1606927,
     "artisti": [
       "Vikki",
       "NAC Oliver"
@@ -257029,7 +257198,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504290",
@@ -257044,8 +257215,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Carrer Casp, 33B",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Nemec"
     ],
@@ -257063,7 +257234,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2446130",
@@ -257150,8 +257323,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [
       "TONNO"
     ],
@@ -257169,7 +257342,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2422094",
@@ -257324,8 +257499,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "Zisko",
       "Mac Declos",
@@ -257345,7 +257520,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2488723",
@@ -257360,8 +257537,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Robert Dietz",
       "Rey Colino",
@@ -257381,7 +257558,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2488854",
@@ -257572,8 +257751,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Dj Kosmos",
       "Mr. B"
@@ -257592,7 +257771,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489435",
@@ -257756,8 +257937,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Passeig Marítim de la Barceloneta 38, 08003, Barcelona, Spain",
     "locale": "Ku Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3825802,
+    "lng": 2.177073,
     "artisti": [
       "Sonny Fodera",
       "Xandro",
@@ -257778,7 +257959,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2455636",
@@ -257897,8 +258080,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [],
     "genere": [
       "electronic"
@@ -257914,7 +258097,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496670",
@@ -257965,8 +258150,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -257982,7 +258167,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2501843",
@@ -257997,8 +258184,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -258014,7 +258201,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2481289",
@@ -258129,8 +258318,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Jo-Sie"
     ],
@@ -258148,7 +258337,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501847",
@@ -258163,8 +258354,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -258180,7 +258371,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2501855",
@@ -258195,8 +258388,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -258212,7 +258405,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2502405",
@@ -258330,8 +258525,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Kanedo",
       "DIROS"
@@ -258350,7 +258545,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501858",
@@ -258365,8 +258562,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -258382,7 +258579,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2501863",
@@ -258397,8 +258596,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -258414,7 +258613,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2502409",
@@ -258464,8 +258665,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Paseo Maritimo, 34; 08003 Barcelona; Spain",
     "locale": "Opium Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.383163,
+    "lng": 2.194685,
     "artisti": [
       "Morten Breum"
     ],
@@ -258483,7 +258684,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2470845",
@@ -258566,8 +258769,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Saulo Pisa",
       "Ivo Villalobos",
@@ -258587,7 +258790,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499829",
@@ -258602,8 +258807,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [
       "Kiya"
     ],
@@ -258621,7 +258826,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2500041",
@@ -258636,8 +258843,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Hermes Disco Eterno"
     ],
@@ -258655,7 +258862,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501582",
@@ -258670,8 +258879,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de la Mercè, 26, 08002 Barcelona, Spain",
     "locale": "Recreo Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.2227311,
+    "lng": 1.7193188,
     "artisti": [
       "Blonde Brunette"
     ],
@@ -258689,7 +258898,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502416",
@@ -258773,8 +258984,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "Ueberrest"
     ],
@@ -258792,7 +259003,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2435031",
@@ -258807,8 +259020,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "IVAN POSEIDON",
       "MøønkiZa",
@@ -258831,7 +259044,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2489505",
@@ -258880,8 +259095,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Funk D'Void",
       "Headbirds"
@@ -258900,7 +259115,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2431060",
@@ -258984,8 +259201,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Hermes Disco Eterno"
     ],
@@ -259003,7 +259220,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500408",
@@ -259050,8 +259269,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla de Catalunya, 4; 08007 Barcelona; Spain",
     "locale": "City Hall",
-    "lat": null,
-    "lng": null,
+    "lat": 41.38777,
+    "lng": 2.16845,
     "artisti": [],
     "genere": [
       "electronic"
@@ -259067,7 +259286,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2504109",
@@ -259154,8 +259375,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Pratdip (Tarragona, Spain)",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Katatonic Silentio",
       "Ylia",
@@ -259181,7 +259402,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2412605",
@@ -259196,8 +259419,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Saulo Pisa"
     ],
@@ -259215,7 +259438,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2420222",
@@ -259230,8 +259455,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Mr Majestyk"
     ],
@@ -259249,7 +259474,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2425624",
@@ -259334,8 +259561,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "Part Time Killer",
       "Trancemaster Krause",
@@ -259355,7 +259582,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2476185",
@@ -259402,8 +259631,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Muntaner, 246, 08021 Barcelona",
     "locale": "Luz De Gas",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3945996,
+    "lng": 2.1490385,
     "artisti": [
       "Rodriguez Jr.",
       "no_ip"
@@ -259422,7 +259651,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2488727",
@@ -259437,8 +259668,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Jordan Peak",
       "caskobi",
@@ -259458,7 +259689,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2489517",
@@ -259574,8 +259807,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de la Rambla, 113; 08004 Barcelona; Spain",
     "locale": "Nitsa Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.374312,
+    "lng": 2.169541,
     "artisti": [
       "Bob Moses",
       "Dj Fra"
@@ -259594,7 +259827,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2496508",
@@ -259609,8 +259844,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Nickodemus",
       "Gersound"
@@ -259629,7 +259864,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489438",
@@ -259687,8 +259924,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de París, 186, 08036 Barcelona",
     "locale": "Slow Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3935377,
+    "lng": 2.1533734,
     "artisti": [
       "Navider"
     ],
@@ -259706,7 +259943,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500703",
@@ -259721,8 +259960,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Muntaner, 246, 08021 Barcelona",
     "locale": "Luz De Gas",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3945996,
+    "lng": 2.1490385,
     "artisti": [
       "Rafael (IS)",
       "Ares Carter"
@@ -259741,7 +259980,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2446137",
@@ -259897,8 +260138,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Camí de sant Pere del Bosc s/n Des de Ctra. GI 600 08490 Tordera, Barcelona",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -259914,7 +260155,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2457011",
@@ -259961,8 +260204,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de la Rambla, 113; 08004 Barcelona; Spain",
     "locale": "Nitsa Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.374312,
+    "lng": 2.169541,
     "artisti": [
       "Pastis & Buenri"
     ],
@@ -259980,7 +260223,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2485419",
@@ -259995,8 +260240,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avenida de Francesc Ferrer i Guàrdia, 13-27; 08038 Barcelona; Spain",
     "locale": "INPUT High Fidelity Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.368678,
+    "lng": 2.148805,
     "artisti": [
       "Daria Kolosova"
     ],
@@ -260014,7 +260259,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2488733",
@@ -260029,8 +260276,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Francesc Ferrer i Guardia, 13, 08038",
     "locale": "La Terrrazza",
-    "lat": null,
-    "lng": null,
+    "lat": 41.369442,
+    "lng": 2.148027,
     "artisti": [
       "Prosumer",
       "Dadame",
@@ -260050,7 +260297,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2489441",
@@ -260360,8 +260609,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Iñigo Díaz"
     ],
@@ -260379,7 +260628,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2473402",
@@ -260432,8 +260683,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA -  Kiosk del Rec Igualada",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Toni Amador"
     ],
@@ -260451,7 +260702,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2356452",
@@ -260538,8 +260791,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Passeig Marítim de la Barceloneta 38, 08003, Barcelona, Spain",
     "locale": "Ku Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3825802,
+    "lng": 2.177073,
     "artisti": [
       "Korolova",
       "JP Candela",
@@ -260559,7 +260812,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2472839",
@@ -260678,8 +260933,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Nou de Sant Francesc, 5; 08002 Barcelona; Spain",
     "locale": "Macarena Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3794046,
+    "lng": 2.1768641,
     "artisti": [
       "Mila Morr"
     ],
@@ -260697,7 +260952,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502215",
@@ -260712,8 +260969,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Cost. Avenida de los Ángeles, 20, 28013 Madrid",
     "locale": "Café Berlín",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419589,
+    "lng": -3.707943,
     "artisti": [
       "P1P3"
     ],
@@ -260731,7 +260988,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2444960",
@@ -260746,8 +261005,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Gerardo Niva",
       "doccudder"
@@ -260766,7 +261025,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2480158",
@@ -260781,8 +261042,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Yins",
       "Hadex (2)"
@@ -260801,7 +261062,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494157",
@@ -260816,8 +261079,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Jesus Riaño",
       "Unkle Fon"
@@ -260836,7 +261099,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2500369",
@@ -260851,8 +261116,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "Sarcophago",
       "alguien",
@@ -260873,7 +261138,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2470247",
@@ -260888,8 +261155,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Trujillos, 7, 28013 Madrid, España",
     "locale": "Strong the Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -260905,7 +261172,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2477452",
@@ -260920,8 +261189,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Pizzicatto",
       "Varis",
@@ -260943,7 +261212,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2483530",
@@ -260958,8 +261229,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de la Aduana, 21, Centro, 28013 Madrid, Spain",
     "locale": "Skin Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Theia Daja",
       "NETN"
@@ -260978,7 +261249,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2493015",
@@ -260993,8 +261266,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "Laorden"
     ],
@@ -261012,7 +261285,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2480456",
@@ -261027,8 +261302,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Adrian Mart",
       "Gijonne"
@@ -261047,7 +261322,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2497398",
@@ -261062,8 +261339,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "",
     "locale": "TBA - Velvet Rose ",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "KITAE",
       "M.I.XX.I",
@@ -261083,7 +261360,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498678",
@@ -261098,8 +261377,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Martín de los Heros, 14; 28008 Madrid; Spain",
     "locale": "Sala Pirandelo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Miguel Rivas",
       "Nigabba"
@@ -261118,7 +261397,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2501489",
@@ -261133,8 +261414,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Cedaceros, 11, 28014, Madrid, Spain",
     "locale": "El Internacional",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -261150,7 +261431,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2503246",
@@ -261165,8 +261448,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Madrid",
     "locale": "X Private Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Sera de Villalta",
       "Herrera (ES)"
@@ -261185,7 +261468,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2503927",
@@ -261200,8 +261485,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "Miut",
       "Freska"
@@ -261220,7 +261505,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2503941",
@@ -261235,8 +261522,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de la Aduana, 21, Centro, 28013 Madrid, Spain",
     "locale": "Skin Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "M A R",
       "RMXR",
@@ -261256,7 +261543,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2504205",
@@ -261271,8 +261560,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Goya, 43, 28001 Madrid, Spain",
     "locale": "Goya Social Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "EVE (1)",
       "JAWS"
@@ -261291,7 +261580,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2444961",
@@ -261306,8 +261597,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "X-Coast",
       "Gerardo Niva",
@@ -261327,7 +261618,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2481195",
@@ -261342,8 +261635,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "David Ponziano"
     ],
@@ -261361,7 +261654,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2495832",
@@ -261376,8 +261671,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Caños Viejos, 3",
     "locale": "Under Bridge Madrid",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Joules",
       "Giulia Mad"
@@ -261396,7 +261691,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2496261",
@@ -261411,8 +261708,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [
       "Tere Ling",
       "Pulpix",
@@ -261433,7 +261730,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2481207",
@@ -261448,8 +261747,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Lau.tastic",
       "Arok Shiva"
@@ -261468,7 +261767,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486468",
@@ -261483,8 +261784,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de la Aduana, 21, Centro, 28013 Madrid, Spain",
     "locale": "Skin Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Reitze"
     ],
@@ -261502,7 +261803,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2257004",
@@ -261517,8 +261820,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estacion esqui La Pinilla, s/n, 40500 La Pinilla, Segovia",
     "locale": "La Pinilla Ski Resort",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "AMMARA",
       "Anso",
@@ -261565,7 +261868,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2496257",
@@ -261580,8 +261885,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [],
     "genere": [
       "electronic"
@@ -261597,7 +261902,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2481225",
@@ -261612,8 +261919,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Julio Machicado",
       "Héctor Pericet"
@@ -261632,7 +261939,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2484749",
@@ -261647,8 +261956,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Gerardo Niva",
       "pavvvvvvlo",
@@ -261669,7 +261978,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2481327",
@@ -261684,8 +261995,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Ivan Pica",
       "David Berna",
@@ -261705,7 +262016,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483532",
@@ -261720,8 +262033,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de la Aduana, 21, Centro, 28013 Madrid, Spain",
     "locale": "Skin Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "DJ TURBO"
     ],
@@ -261739,7 +262052,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2491240",
@@ -261754,8 +262069,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [
       "Irene Yago"
     ],
@@ -261773,7 +262088,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2498679",
@@ -261788,8 +262105,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Martín de los Heros, 14; 28008 Madrid; Spain",
     "locale": "Sala Pirandelo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Dyans",
       "Pulpix",
@@ -261809,7 +262126,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2501570",
@@ -261824,8 +262143,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [],
     "genere": [
       "electronic"
@@ -261841,7 +262160,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2503822",
@@ -261856,8 +262177,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Caños Viejos, 3",
     "locale": "Under Bridge Madrid",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "TRIXXI",
       "Tucu (Tucu)"
@@ -261876,7 +262197,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483419",
@@ -261891,8 +262214,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Monty",
       "Gaskón"
@@ -261911,7 +262234,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2484758",
@@ -261926,8 +262251,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Morgan Seatree",
       "Gerardo Niva"
@@ -261946,7 +262271,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483431",
@@ -261961,8 +262288,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Arok Shiva"
     ],
@@ -261980,7 +262307,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2496259",
@@ -261995,8 +262324,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [],
     "genere": [
       "electronic"
@@ -262012,7 +262341,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2483446",
@@ -262027,8 +262358,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "DJ Mois"
     ],
@@ -262046,7 +262377,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2484762",
@@ -262061,8 +262394,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "bullet tooth",
       "Gerardo Niva",
@@ -262082,7 +262415,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483451",
@@ -262097,8 +262432,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Giulia Mad",
       "Bembi",
@@ -262120,7 +262455,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483535",
@@ -262135,8 +262472,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de la Aduana, 21, Centro, 28013 Madrid, Spain",
     "locale": "Skin Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Mala Suerte"
     ],
@@ -262154,7 +262491,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483802",
@@ -262169,8 +262508,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Emi Koto",
       "Luska",
@@ -262191,7 +262530,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2498680",
@@ -262206,8 +262547,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Martín de los Heros, 14; 28008 Madrid; Spain",
     "locale": "Sala Pirandelo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "P1P3"
     ],
@@ -262225,7 +262566,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2503818",
@@ -262240,8 +262583,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Caños Viejos, 3",
     "locale": "Under Bridge Madrid",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -262257,7 +262600,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2479259",
@@ -262272,8 +262617,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "ARTIIC",
       "TWO EX",
@@ -262294,7 +262639,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2483468",
@@ -262309,8 +262656,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Javi Redondo",
       "Alvaro Cabana"
@@ -262329,7 +262676,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2484766",
@@ -262344,8 +262693,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Gerardo Niva",
       "Dan Newman"
@@ -262364,7 +262713,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483499",
@@ -262379,8 +262730,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Arok Shiva"
     ],
@@ -262398,7 +262749,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486474",
@@ -262413,8 +262766,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de la Aduana, 21, Centro, 28013 Madrid, Spain",
     "locale": "Skin Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Noot Noot",
       "Reitze"
@@ -262433,7 +262786,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2496260",
@@ -262448,8 +262803,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [],
     "genere": [
       "electronic"
@@ -262465,7 +262820,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2499340",
@@ -262480,8 +262837,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Alienata"
     ],
@@ -262499,7 +262856,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2483529",
@@ -262514,8 +262873,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "DJ Mois",
       "DJ MBA"
@@ -262534,7 +262893,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2484769",
@@ -262549,8 +262910,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Demi Riquisimo",
       "Gerardo Niva",
@@ -262570,7 +262931,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2478008",
@@ -262585,8 +262948,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "Julia Pé",
       "Luska",
@@ -262606,7 +262969,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2483543",
@@ -262621,8 +262986,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Fran Lobato",
       "Ruben Luna",
@@ -262642,7 +263007,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483833",
@@ -262657,8 +263024,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Avo (ES)",
       "Cesc (ES)",
@@ -262678,7 +263045,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2501573",
@@ -262693,8 +263062,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [],
     "genere": [
       "electronic"
@@ -262710,7 +263079,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2498100",
@@ -262725,8 +263096,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "Djen",
       "Belkan"
@@ -262745,7 +263116,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2498683",
@@ -262760,8 +263133,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Martín de los Heros, 14; 28008 Madrid; Spain",
     "locale": "Sala Pirandelo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -262777,7 +263150,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2440834",
@@ -262792,8 +263167,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estación de Chamartín. Primera planta s/n 28036 Madrid",
     "locale": "LAB theCLUB",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Skantia",
       "SMG (UK)",
@@ -262813,7 +263188,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483561",
@@ -262828,8 +263205,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -262845,7 +263222,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483850",
@@ -262860,8 +263239,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Alvaro Cabana"
     ],
@@ -262879,7 +263258,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2484771",
@@ -262894,8 +263275,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "STÜM",
       "Gerardo Niva"
@@ -262914,7 +263295,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486599",
@@ -262929,8 +263312,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "CAMET",
       "COLLISION"
@@ -262949,7 +263332,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483606",
@@ -262964,8 +263349,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Arok Shiva"
     ],
@@ -262983,7 +263368,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2504280",
@@ -262998,8 +263385,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Samuel Kerridge",
       "Irazu"
@@ -263018,7 +263405,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2502665",
@@ -263033,8 +263422,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Franzizca.",
       "EMIR-B"
@@ -263053,7 +263442,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2504302",
@@ -263068,8 +263459,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "P.º de la Florida, 2, 28008 Madrid",
     "locale": "Sala ART",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -263085,7 +263476,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486602",
@@ -263100,8 +263493,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -263117,7 +263510,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2496128",
@@ -263132,8 +263527,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "",
     "locale": "TBA",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Mariano Mellino"
     ],
@@ -263151,7 +263546,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2504131",
@@ -263166,8 +263563,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Xpansul",
       "R1TON",
@@ -263187,7 +263584,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2504770",
@@ -263202,8 +263601,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Trujillos, 7, 28013 Madrid, España",
     "locale": "Strong the Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -263219,7 +263618,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498684",
@@ -263234,8 +263635,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Martín de los Heros, 14; 28008 Madrid; Spain",
     "locale": "Sala Pirandelo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Miguel Rivas",
       "NVMB",
@@ -263255,7 +263656,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408276",
@@ -263270,8 +263673,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Kyle Starkey",
       "DART",
@@ -263293,7 +263696,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2411627",
@@ -263308,8 +263713,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Kyle Starkey",
       "DART",
@@ -263330,7 +263735,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2438965",
@@ -263345,8 +263752,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Baldo",
       "Ethel"
@@ -263365,7 +263772,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2467136",
@@ -263380,8 +263789,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C/ Camino de Perales, s/n -  28041 Madrid (España)",
     "locale": "Madrid Caja Mágica",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Joseph Capriati",
       "Wade",
@@ -263402,7 +263811,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2469274",
@@ -263417,8 +263828,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "The Martinez Brothers",
       "Ilario Alicante",
@@ -263442,7 +263853,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2475430",
@@ -263457,8 +263870,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "MARRØN",
       "DJ TOOL",
@@ -263478,7 +263891,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486607",
@@ -263493,8 +263908,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -263510,7 +263925,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2504897",
@@ -263525,8 +263942,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 26 bajos Madrid 28020",
     "locale": "Specka",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "MAURER"
     ],
@@ -263544,7 +263961,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2359240",
@@ -263559,8 +263978,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Atocha, 127, 28012 Madrid",
     "locale": "Sala Independance Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Sina Bathaie"
     ],
@@ -263578,7 +263997,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486609",
@@ -263593,8 +264014,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Maz (BR)"
     ],
@@ -263612,7 +264033,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2452844",
@@ -263627,8 +264050,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Ciudad Universitaria de Cantoblanco, 28049 Madrid",
     "locale": "Universidad Autónoma de Madrid (UAM)",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Black Coffee"
     ],
@@ -263646,7 +264069,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2453263",
@@ -263661,8 +264086,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Jimi Jules"
     ],
@@ -263680,7 +264105,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2469273",
@@ -263695,8 +264122,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "Oxbin"
     ],
@@ -263714,7 +264141,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2474259",
@@ -263729,8 +264158,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estación de Chamartín. Primera planta s/n 28036 Madrid",
     "locale": "LAB theCLUB",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Paul Van Dyk"
     ],
@@ -263748,7 +264177,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2481667",
@@ -263763,8 +264194,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C/ Camino de Perales, s/n -  28041 Madrid (España)",
     "locale": "Madrid Caja Mágica",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Sammy Virji",
       "Job Jobse",
@@ -263786,7 +264217,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2505021",
@@ -263801,8 +264234,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Ribé",
       "Yeiks",
@@ -263823,7 +264256,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2446671",
@@ -263838,8 +264273,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Anetha",
       "ArceX",
@@ -263868,7 +264303,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498256",
@@ -263883,8 +264320,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. Gamonal, 5, 28031 Madrid",
     "locale": "Lasociaciøn",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "ADRI.G",
       "MAL_HOMBRE",
@@ -263905,7 +264342,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2402007",
@@ -263920,8 +264359,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 26 bajos Madrid 28020",
     "locale": "Specka",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -263937,7 +264376,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408034",
@@ -263952,8 +264393,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "NOVAH",
       "Faster Horses",
@@ -263974,7 +264415,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408047",
@@ -263989,8 +264432,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Faster Horses",
       "Gerardo Niva",
@@ -264010,7 +264453,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2464261",
@@ -264025,8 +264470,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "",
     "locale": "TBA - Secret Location (Madrid)",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Laurine",
       "Moaad BKR",
@@ -264050,7 +264495,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2470974",
@@ -264065,8 +264512,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "DESIREE (RSA)"
     ],
@@ -264084,7 +264531,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483721",
@@ -264099,8 +264548,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Marcellus Pittman",
       "Nacho Marco"
@@ -264119,7 +264568,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2486762",
@@ -264134,8 +264585,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "DJ TEETH",
       "E-Talking",
@@ -264156,7 +264607,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2489544",
@@ -264171,8 +264624,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C/ Camino de Perales, s/n -  28041 Madrid (España)",
     "locale": "Madrid Caja Mágica",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "&ME"
     ],
@@ -264190,7 +264643,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486628",
@@ -264205,8 +264660,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Ciudad Universitaria de Cantoblanco, 28049 Madrid",
     "locale": "Universidad Autónoma de Madrid (UAM)",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "ANOTR",
       "PAWSA",
@@ -264226,7 +264681,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2500305",
@@ -264241,8 +264698,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "G4G0"
     ],
@@ -264260,7 +264717,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2453245",
@@ -264275,8 +264734,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Francis Mercier"
     ],
@@ -264294,7 +264753,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494390",
@@ -264309,8 +264770,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Alarico",
       "DJ SWISHERMAN"
@@ -264329,7 +264790,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2353326",
@@ -264344,8 +264807,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. Partenón, 5, 28042 Madrid",
     "locale": "IFEMA",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Adiel",
       "Adriatique",
@@ -264384,7 +264847,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2399223",
@@ -264399,8 +264864,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "HearThug",
       "Nurias"
@@ -264419,7 +264884,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2427857",
@@ -264434,8 +264901,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. Partenón, 5, 28042 Madrid",
     "locale": "IFEMA",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Adiel",
       "Adriatique",
@@ -264475,7 +264942,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486611",
@@ -264490,8 +264959,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "AARON SEVILLA",
       "Claudia León"
@@ -264510,7 +264979,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2489467",
@@ -264525,8 +264996,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de Pedro Diez, 28, Carabanchel, 28019 Madrid",
     "locale": "Madreams",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "GOSLINGA",
       "KINDA",
@@ -264548,7 +265019,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494290",
@@ -264563,8 +265036,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Ben Sims",
       "Oscar Mulero"
@@ -264583,7 +265056,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2502069",
@@ -264598,8 +265073,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Djen",
       "Misla",
@@ -264619,7 +265094,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408044",
@@ -264634,8 +265111,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Patrick Mason",
       "Pegassi",
@@ -264657,7 +265134,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408046",
@@ -264672,8 +265151,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Pegassi",
       "Gerardo Niva",
@@ -264694,7 +265173,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2438652",
@@ -264709,8 +265190,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Amaliah",
       "HORS-SOL",
@@ -264733,7 +265214,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2443882",
@@ -264748,8 +265231,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 26 bajos Madrid 28020",
     "locale": "Specka",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Michael Mayer",
       "David Ponziano"
@@ -264768,7 +265251,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2469381",
@@ -264783,8 +265268,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Hardwell",
       "Sound Rush",
@@ -264804,7 +265289,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483745",
@@ -264819,8 +265306,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Laurence Guy"
     ],
@@ -264838,7 +265325,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2486615",
@@ -264853,8 +265342,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -264870,7 +265359,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2504103",
@@ -264885,8 +265376,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Gaskón"
     ],
@@ -264904,7 +265395,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2431740",
@@ -264919,8 +265412,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Galileo, 100, 28015 Madrid",
     "locale": "Sala Galileo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -264936,7 +265429,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2438675",
@@ -264951,8 +265446,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Paseo de la Virgen del Puerto, Madrid, España",
     "locale": "La Riviera",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.413,
+    "lng": -3.72215,
     "artisti": [
       "Fat Freddys Drop"
     ],
@@ -264970,7 +265465,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2486614",
@@ -264985,8 +265482,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265002,7 +265499,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494373",
@@ -265017,8 +265516,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "southstar",
       "DJ SWISHERMAN",
@@ -265039,7 +265538,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2500954",
@@ -265054,8 +265555,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Santa Ana 9, 28005 Madrid",
     "locale": "Rastro Live Studio",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "harold. (ES)",
       "Pépe",
@@ -265075,7 +265576,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2382432",
@@ -265090,8 +265593,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Las Inviernas, 19491, Guadalajara, Spain",
     "locale": "Heave Festival",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "NULOMARIO (ES)",
       "Bleach",
@@ -265125,7 +265628,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2419343",
@@ -265140,8 +265645,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. Partenón, 5, 28042 Madrid",
     "locale": "IFEMA",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265157,7 +265662,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2438616",
@@ -265172,8 +265679,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Reptant",
       "Free Zing",
@@ -265193,7 +265700,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2470977",
@@ -265208,8 +265717,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Emanuel Satie",
       "MAGA",
@@ -265229,7 +265738,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483715",
@@ -265244,8 +265755,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Paquita Gordon",
       "Mena G",
@@ -265265,7 +265776,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2500304",
@@ -265280,8 +265793,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "",
     "locale": "TBA - Secret Location",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Vera Grace",
       "Redondoo",
@@ -265303,7 +265816,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498895",
@@ -265318,8 +265833,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Arganda del Rey; Spain",
     "locale": "Ciudad Del Rock",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Anyma",
       "CamelPhat",
@@ -265342,7 +265857,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408049",
@@ -265357,8 +265874,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Funk Tribu",
       "DJ Cringey",
@@ -265380,7 +265897,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408050",
@@ -265395,8 +265914,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Gerardo Niva",
       "Kara Okay",
@@ -265416,7 +265935,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2438665",
@@ -265431,8 +265952,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Katia Curie",
       "Nizar Sarakbi",
@@ -265455,7 +265976,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2474985",
@@ -265470,8 +265993,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Martín de los Heros 14 28008 Madrid, Spain",
     "locale": "Sala Pirandello",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265487,7 +266010,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2475434",
@@ -265502,8 +266027,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "DVS1",
       "Lindsey Herbert",
@@ -265523,7 +266048,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486618",
@@ -265538,8 +266065,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265555,7 +266082,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2387628",
@@ -265570,8 +266099,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Cost. Avenida de los Ángeles, 20, 28013 Madrid",
     "locale": "Café Berlín",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419589,
+    "lng": -3.707943,
     "artisti": [
       "Romain Garcia",
       "RUVEN (2)"
@@ -265590,7 +266119,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2471569",
@@ -265605,8 +266136,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Pariah"
     ],
@@ -265624,7 +266155,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2433738",
@@ -265639,8 +266172,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Tornado Wallace",
       "Alvaro Cabana",
@@ -265660,7 +266193,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2460639",
@@ -265675,8 +266210,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. Gamonal, 5, 28031 Madrid",
     "locale": "Lasociaciøn",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265692,7 +266227,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2470981",
@@ -265707,8 +266244,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Samm",
       "AJNA"
@@ -265727,7 +266264,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2472177",
@@ -265742,8 +266281,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Kraak & Smaak",
       "Madame Excuse",
@@ -265763,7 +266302,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2501046",
@@ -265778,8 +266319,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Santa Ana 9, 28005 Madrid",
     "locale": "Rastro Live Studio",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Ato Rodriguez",
       "Andrés Cremisini"
@@ -265798,7 +266339,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498958",
@@ -265813,8 +266356,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Nørbak",
       "Surgeon"
@@ -265833,7 +266376,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2408367",
@@ -265848,8 +266393,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Andres Campo",
       "Gerardo Niva",
@@ -265870,7 +266415,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2411647",
@@ -265885,8 +266432,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Andres Campo",
       "Gerardo Niva"
@@ -265905,7 +266452,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2470471",
@@ -265920,8 +266469,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Monile",
       "Desirée Falessi"
@@ -265940,7 +266489,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2472240",
@@ -265955,8 +266506,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Tour-Maubourg",
       "Nacho Marco"
@@ -265975,7 +266526,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2486620",
@@ -265990,8 +266543,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266007,7 +266560,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494365",
@@ -266022,8 +266577,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estación de Chamartín. Primera planta s/n 28036 Madrid",
     "locale": "LAB theCLUB",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Hot Since 82"
     ],
@@ -266041,7 +266596,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2501513",
@@ -266056,8 +266613,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estación de Chamartín. Primera planta s/n 28036 Madrid",
     "locale": "LAB theCLUB",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Adam Beyer"
     ],
@@ -266075,7 +266632,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2483871",
@@ -266090,8 +266649,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Dan Shake",
       "Damian Schwartz"
@@ -266110,7 +266669,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2490882",
@@ -266125,8 +266686,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Inland Knights",
       "Rafa Santos",
@@ -266146,7 +266707,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2443900",
@@ -266161,8 +266724,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 26 bajos Madrid 28020",
     "locale": "Specka",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Anthony Rother",
       "Uhf"
@@ -266181,7 +266744,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2470530",
@@ -266196,8 +266761,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Luisa",
       "ildec"
@@ -266216,7 +266781,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2472308",
@@ -266231,8 +266798,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Crazy P",
       "Acid Hero",
@@ -266252,7 +266819,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2494375",
@@ -266267,8 +266836,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Carl Craig",
       "Gerardo Niva",
@@ -266288,7 +266857,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2495405",
@@ -266303,8 +266874,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Fatboy Slim"
     ],
@@ -266322,7 +266893,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2318202",
@@ -266337,8 +266910,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "KUKO"
     ],
@@ -266356,7 +266929,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494377",
@@ -266371,8 +266946,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Bad Boombox",
       "salute",
@@ -266394,7 +266969,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494379",
@@ -266409,8 +266986,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Bad Boombox",
       "Club Angel",
@@ -266432,7 +267009,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2495425",
@@ -266447,8 +267026,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266464,7 +267043,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2457008",
@@ -266479,8 +267060,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Hilarión Eslava, 36, 28015 Madrid",
     "locale": "Mon Live",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "TWO LANES"
     ],
@@ -266498,7 +267079,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2459472",
@@ -266513,8 +267096,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266530,7 +267113,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2494380",
@@ -266545,8 +267130,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Silva Bumpa",
       "Gerardo Niva"
@@ -266565,7 +267150,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2430774",
@@ -266580,8 +267167,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 26 bajos Madrid 28020",
     "locale": "Specka",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Erik Luebs",
       "M. Freelance",
@@ -266601,7 +267188,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2472160",
@@ -266616,8 +267205,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Danilo Plessow",
       "Marcos Boricua",
@@ -266637,7 +267226,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2500709",
@@ -266652,8 +267243,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. Gamonal, 5, 28031 Madrid",
     "locale": "Lasociaciøn",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266669,7 +267260,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2443690",
@@ -266684,8 +267277,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Deetron",
       "freedomB"
@@ -266704,7 +267297,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2468444",
@@ -266719,8 +267314,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle del Duque de Osuna, 8; 28015 Madrid; Spain",
     "locale": "Tempo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "LORA.",
       "Barletti"
@@ -266739,7 +267334,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2486622",
@@ -266754,8 +267351,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Richi Risco"
     ],
@@ -266773,7 +267370,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2502690",
@@ -266788,8 +267387,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Fernando Costantini"
     ],
@@ -266807,7 +267406,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2438972",
@@ -266822,8 +267423,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Diamin",
       "TWO EX"
@@ -266842,7 +267443,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2472233",
@@ -266857,8 +267460,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Bernardino Obregón, 18, 28012 Madrid, Spain",
     "locale": "Sala Villanos",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.40397,
+    "lng": -3.78242,
     "artisti": [
       "Sadar Bahar"
     ],
@@ -266876,7 +267479,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2476074",
@@ -266891,8 +267496,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de las Maldonadas, 6, 28005 Madrid, España",
     "locale": "EL SÓTANO",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Xavi Metralla",
       "DJ Skudero"
@@ -266911,7 +267516,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2492344",
@@ -266926,8 +267533,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 26 bajos Madrid 28020",
     "locale": "Specka",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Rosy Specka"
     ],
@@ -266945,7 +267552,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2450428",
@@ -266960,8 +267569,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Cost. Avenida de los Ángeles, 20, 28013 Madrid",
     "locale": "Café Berlín",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419589,
+    "lng": -3.707943,
     "artisti": [
       "Dublon"
     ],
@@ -266979,7 +267588,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2487557",
@@ -266994,8 +267605,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Malive"
     ],
@@ -267013,7 +267624,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2487578",
@@ -267028,8 +267641,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estación de Chamartí­n, Planta ático",
     "locale": "Wagon",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.47144,
+    "lng": -3.682,
     "artisti": [
       "Digitalism"
     ],
@@ -267047,7 +267660,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2487713",
@@ -267062,8 +267677,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Cerámica, 76. Madrid, Spain",
     "locale": "Studio76 Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -267079,7 +267694,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2496534",
@@ -267094,8 +267711,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estación de Chamartín. Primera planta s/n 28036 Madrid",
     "locale": "LAB theCLUB",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Mathame"
     ],
@@ -267113,7 +267730,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2462961",
@@ -267128,8 +267747,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. del Caballero de Gracia, 10, Centro, 28013 Madrid, Spain",
     "locale": "Cadavra",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.419375,
+    "lng": -3.700819,
     "artisti": [
       "Loa Szala",
       "Luna Ludmila"
@@ -267148,7 +267767,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2489976",
@@ -267163,8 +267784,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "P.º de la Florida, 2, 28008 Madrid",
     "locale": "Sala ART",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -267180,7 +267801,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494156",
@@ -267195,8 +267818,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Torrione",
       "COLLISION",
@@ -267216,7 +267839,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494381",
@@ -267231,8 +267856,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Jeff Mills"
     ],
@@ -267250,7 +267875,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494383",
@@ -267265,8 +267892,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -267282,7 +267909,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494558",
@@ -267297,8 +267926,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Charlotte de Witte"
     ],
@@ -267316,7 +267945,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2490559",
@@ -267331,8 +267962,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 24",
     "locale": "Nazca Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -267348,7 +267979,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494385",
@@ -267363,8 +267996,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid",
     "locale": "Mondo Open Air",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Benwal",
       "Gerardo Niva"
@@ -267383,7 +268016,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2494386",
@@ -267398,8 +268033,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Benwal",
       "Gerardo Niva"
@@ -267418,7 +268053,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498859",
@@ -272033,8 +272670,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "",
     "locale": "TBA - Villa del Marchese - Viggiano - Potenza",
-    "lat": 44.4949,
-    "lng": 11.3426,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "D-Leria",
       "Lady Goccia"
@@ -272053,7 +272690,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2499012",
@@ -272068,8 +272707,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "Via Perossaro 187 - 41038 San Felice Sul Panaro (Mo), Emilia Romagna, Italia",
     "locale": "Parco Medipark",
-    "lat": 44.4949,
-    "lng": 11.3426,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Idriss D",
       "Germano Ventura",
@@ -272090,7 +272729,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2479670",
@@ -272105,8 +272746,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "Via Francesco Fantoni 21, 40127 Bologna (BO), Italy",
     "locale": "Link",
-    "lat": 44.4949,
-    "lng": 11.3426,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Indira Paganotto",
       "Mattia Trani",
@@ -272126,7 +272767,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2479254",
@@ -272141,8 +272784,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "Via Francesco Fantoni 21, 40127 Bologna (BO), Italy",
     "locale": "Link",
-    "lat": 44.4949,
-    "lng": 11.3426,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "tINI"
     ],
@@ -272160,7 +272803,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2496581",
@@ -272175,8 +272820,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "Via Francesco Fantoni 21, 40127 Bologna (BO), Italy",
     "locale": "Link",
-    "lat": 44.4949,
-    "lng": 11.3426,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -272192,7 +272837,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2503862",
@@ -274371,8 +275018,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "70 Am Wriezener Bahnhof; Friedrichshain; 10243 Berlin; Germany",
     "locale": "Kantine am Berghain",
-    "lat": null,
-    "lng": null,
+    "lat": 52.51098,
+    "lng": 13.44159,
     "artisti": [
       "Chloe Lula"
     ],
@@ -274390,7 +275037,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2429040",
@@ -274437,8 +275086,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt-Stralau 68, 10245 Berlin",
     "locale": "Neue Zukunft",
-    "lat": null,
-    "lng": null,
+    "lat": 52.497393,
+    "lng": 13.465828,
     "artisti": [
       "Dis Fig"
     ],
@@ -274456,7 +275105,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2449147",
@@ -275069,8 +275720,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revalerstr. 99, 10245 Berlin",
     "locale": "Maaya",
-    "lat": null,
-    "lng": null,
+    "lat": 52.508146,
+    "lng": 13.451814,
     "artisti": [
       "Amine K"
     ],
@@ -275088,7 +275739,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2495923",
@@ -275620,8 +276273,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revalerstr. 99, 10245 Berlin",
     "locale": "Maaya",
-    "lat": null,
-    "lng": null,
+    "lat": 52.508146,
+    "lng": 13.451814,
     "artisti": [],
     "genere": [
       "electronic"
@@ -275637,7 +276290,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2501671",
@@ -275652,8 +276307,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt-Stralau 68, 10245 Berlin",
     "locale": "Neue Zukunft",
-    "lat": null,
-    "lng": null,
+    "lat": 52.497393,
+    "lng": 13.465828,
     "artisti": [
       "Bleach (2)",
       "Dornika",
@@ -275673,7 +276328,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2502509",
@@ -275870,8 +276527,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Zenith"
     ],
@@ -275889,7 +276546,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2504106",
@@ -276068,8 +276727,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Secret Location",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "feyd.x",
       "Napakee",
@@ -276092,7 +276751,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2326242",
@@ -276331,8 +276992,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Feldberger Seenlandschaft",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -276348,7 +277009,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2421023",
@@ -276441,8 +277104,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Secret Location",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Monika Ross",
       "Alben",
@@ -276471,7 +277134,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2451066",
@@ -277005,8 +277670,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schnellerstrasse 137, 12439 Berlin",
     "locale": "RSO.BERLIN",
-    "lat": null,
-    "lng": null,
+    "lat": 52.46054,
+    "lng": 13.50445,
     "artisti": [
       "AADJA",
       "Chontane",
@@ -277027,7 +277692,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2488081",
@@ -277150,8 +277817,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "70 Am Wriezener Bahnhof; Friedrichshain; 10243 Berlin; Germany",
     "locale": "Kantine am Berghain",
-    "lat": null,
-    "lng": null,
+    "lat": 52.51098,
+    "lng": 13.44159,
     "artisti": [],
     "genere": [
       "electronic"
@@ -277167,7 +277834,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2492839",
@@ -277214,8 +277883,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Berlin - Secret Location - Neukölln",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Hypnoize",
       "Isaac Elejalde",
@@ -277238,7 +277907,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2493795",
@@ -277698,8 +278369,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Underground Rave -> Location only via Telegram ",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "nicole lukiys",
       "Thielking",
@@ -277721,7 +278392,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2501608",
@@ -277774,8 +278447,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx-Straße 101, 12043 Berlin",
     "locale": "Rough Trade Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.479428,
+    "lng": 13.437564,
     "artisti": [],
     "genere": [
       "electronic"
@@ -277791,7 +278464,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2502530",
@@ -277918,8 +278593,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Perro Loco / Sonntagstraße 5, 10245 Berlin",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Alterra"
     ],
@@ -277937,7 +278612,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2503832",
@@ -278383,8 +279060,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Follow @BerlinFloraFestival & @Ousiasound to know exact locations",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Jeena",
       "Rodo Garcia",
@@ -278407,7 +279084,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2461468",
@@ -278545,8 +279224,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -278562,7 +279241,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2474202",
@@ -278577,8 +279258,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Storkower Str. 123, 10407 Berlin, Germany",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -278594,7 +279275,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2474237",
@@ -280038,8 +280721,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Chausseestraße 131A, 10115 Berlin",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Palmistry",
       "bod [包家巷]",
@@ -280059,7 +280742,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2335756",
@@ -280982,8 +281667,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Berlin – Tiergarten Secret Location",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "bod [包家巷]",
       "Konakov"
@@ -281002,7 +281687,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498890",
@@ -281399,8 +282086,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Str. 99, 10245 Berlin, Germany",
     "locale": "Cassiopeia",
-    "lat": null,
-    "lng": null,
+    "lat": 52.507699,
+    "lng": 13.451906,
     "artisti": [],
     "genere": [
       "electronic"
@@ -281416,7 +282103,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2439172",
@@ -282125,8 +282814,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt-Stralau 68, 10245 Berlin",
     "locale": "Neue Zukunft",
-    "lat": null,
-    "lng": null,
+    "lat": 52.497393,
+    "lng": 13.465828,
     "artisti": [],
     "genere": [
       "electronic"
@@ -282142,7 +282831,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2503160",
@@ -295831,8 +296522,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cardiff",
     "indirizzo": "Clare Road",
     "locale": "Tramshed",
-    "lat": null,
-    "lng": null,
+    "lat": 51.475443,
+    "lng": -3.186919,
     "artisti": [],
     "genere": [
       "Rock",
@@ -295849,7 +296540,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-LvZ18QEkXg056Io0GS6iL",
@@ -296781,8 +297474,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Glasgow",
     "indirizzo": "24 Glassford Street",
     "locale": "SLAY",
-    "lat": null,
-    "lng": null,
+    "lat": 55.858214,
+    "lng": -4.248926,
     "artisti": [],
     "genere": [
       "Rock",
@@ -296799,7 +297492,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-G5dzZ_AdmTguQ",
@@ -297045,8 +297740,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cambridge ",
     "indirizzo": "15 Market Passage",
     "locale": "MASH",
-    "lat": null,
-    "lng": null,
+    "lat": 52.206702,
+    "lng": 0.120103,
     "artisti": [],
     "genere": [
       "Rock",
@@ -297063,7 +297758,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "tm-LvZ18Qxj_2CH7-8Z05Mth",
@@ -300040,8 +300737,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "London ",
     "indirizzo": " 316 Lewisham High St, ",
     "locale": "Fox and Firkin",
-    "lat": null,
-    "lng": null,
+    "lat": 51.45698,
+    "lng": -0.01441,
     "artisti": [],
     "genere": [
       "Dance/Electronic"
@@ -300057,7 +300754,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AdOZ_aGkRO6eRO",
@@ -306928,8 +307627,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Cardiff",
     "indirizzo": "Clare Road",
     "locale": "Tramshed",
-    "lat": null,
-    "lng": null,
+    "lat": 51.475443,
+    "lng": -3.186919,
     "artisti": [],
     "genere": [
       "Pop",
@@ -306946,7 +307645,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ticketmaster",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "tm-1AMZk3bGkd7MQFq",
@@ -351891,8 +352592,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Grimsby ",
     "indirizzo": " The Church King Edward Street, North East Lincolnshire, England, DN31 3JD, United Kingdom",
     "locale": "Docks Academy",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "PorkPie"
     ],
@@ -351914,7 +352615,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "skiddle-42596231",
@@ -353845,8 +354548,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Pontypridd",
     "indirizzo": "11 High Street",
     "locale": "Platform 11",
-    "lat": 0.0,
-    "lng": 0.0,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "Techno"
@@ -353862,7 +354565,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "skiddle-42580875",
@@ -356091,8 +356796,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer del Comerç, 21, Ciutat Vella, 08003 Barcelona",
     "locale": "Born 2B Music Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3865262,
+    "lng": 2.1824853,
     "artisti": [],
     "genere": [
       "electronic"
@@ -356108,7 +356813,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499802",
@@ -356123,8 +356830,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Playa Sant Sebastián",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -356140,7 +356847,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2505241",
@@ -356256,8 +356965,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - La Fira Villaroel",
-    "lat": 41.3825802,
-    "lng": 2.177073,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -356273,7 +356982,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2506238",
@@ -356883,8 +357594,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Estacion esqui La Pinilla, s/n, 40500 La Pinilla, Segovia",
     "locale": "La Pinilla Ski Resort",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "AMMARA",
       "Anso",
@@ -356931,7 +357642,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2506429",
@@ -356946,8 +357659,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Madrid",
     "locale": "X Private Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Herrera (ES)"
     ],
@@ -356965,7 +357678,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2501571",
@@ -356980,8 +357695,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Jardines 3, 28013 Madrid, Spain",
     "locale": "Sala El Sol",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.41906,
+    "lng": -3.70163,
     "artisti": [],
     "genere": [
       "electronic"
@@ -356997,7 +357712,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
   },
   {
     "id": "ra-2505526",
@@ -357012,8 +357729,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Goya, 43, 28001 Madrid, Spain",
     "locale": "Goya Social Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -357029,7 +357746,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2506436",
@@ -357044,8 +357763,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Madrid",
     "locale": "X Private Club",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Herrera (ES)"
     ],
@@ -357063,7 +357782,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2506883",
@@ -357078,8 +357799,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 26 bajos Madrid 28020",
     "locale": "Specka",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -357095,7 +357816,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2505811",
@@ -357110,8 +357833,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Alcalá 20, 28014 Madrid, Spain",
     "locale": "Sala Cocó",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Dj Pepo",
       "RODS (ES)"
@@ -357130,7 +357853,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2506391",
@@ -357145,8 +357870,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "",
     "locale": "TBA - Powered by: Void Acoustics",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -357162,7 +357887,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2312599",
@@ -357177,8 +357904,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle San Dimas, 3, 28015 Madrid, Spain",
     "locale": "Sala Siroco",
-    "lat": 40.4168,
-    "lng": -3.7038,
+    "lat": 40.426894,
+    "lng": -3.707738,
     "artisti": [
       "Leofix",
       "Satori"
@@ -357197,7 +357924,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "indirizzo_verificato"
   },
   {
     "id": "ra-2505107",
@@ -357828,8 +358557,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Neukolln. 52.47736265617827, 13.4592885932799",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "Ceili",
       "dreamerboy",
@@ -357852,7 +358581,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2498563",
@@ -358347,8 +359078,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - a",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [],
     "genere": [
       "electronic"
@@ -358364,7 +359095,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2382002",
@@ -358623,8 +359356,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA - Rummelsburger Bucht",
-    "lat": 52.5173885,
-    "lng": 13.3951309,
+    "lat": null,
+    "lng": null,
     "artisti": [
       "TBA"
     ],
@@ -358642,7 +359375,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "incerta",
+    "coordinate_fonte": null
   },
   {
     "id": "ra-2479380",

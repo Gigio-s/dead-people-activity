@@ -43,6 +43,7 @@ PENDING_JSON = os.path.join(DATA_DIR, "events_pending.json")  # coda in attesa d
 ARCHIVIO_JSON = os.path.join(DATA_DIR, "events_archivio.json")  # eventi passati (storico)
 EVENTS_DATA_JS = os.path.normpath(os.path.join(HERE, "..", "assets", "js", "events-data.js"))  # fallback locale
 GEOCACHE = os.path.join(HERE, "geocode_cache.json")           # cache coordinate (per non richiedere due volte)
+COORD_INCERTE_JSON = os.path.join(HERE, "events_coordinate_incerte.json")
 BACKUP_DIR = os.path.join(HERE, "backups")
 INCERTI_JSON = os.path.join(DATA_DIR, "events_dice_incerti.json")
 SCARTATI_JSON = os.path.join(DATA_DIR, "events_dice_scartati.json")
@@ -54,7 +55,8 @@ SCARTATI_JSON = os.path.join(DATA_DIR, "events_dice_scartati.json")
 SCHEMA_FIELDS = [
     "id", "nome", "descrizione", "locandina", "data", "ora",
     "paese", "paese_code", "regione", "citta", "indirizzo", "locale",
-    "lat", "lng", "artisti", "genere", "tipo", "prezzo", "gratuito",
+    "lat", "lng", "coordinate_precisione", "coordinate_fonte",
+    "artisti", "genere", "tipo", "prezzo", "gratuito",
     "biglietti_url", "biglietti", "promoter", "promoter_url", "social",
     "stato", "sponsorizzato", "fonte", "approvazione", "creato_il",
 ]
@@ -245,7 +247,8 @@ def backup_eventi():
         n += 1
 
     project_root = os.path.normpath(os.path.join(HERE, ".."))
-    files = [EVENTS_JSON, ARCHIVIO_JSON, EVENTS_DATA_JS, PENDING_JSON, INCERTI_JSON, SCARTATI_JSON]
+    files = [EVENTS_JSON, ARCHIVIO_JSON, EVENTS_DATA_JS, PENDING_JSON, INCERTI_JSON,
+             SCARTATI_JSON, COORD_INCERTE_JSON]
     included = []
     with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for path in files:
@@ -264,10 +267,12 @@ def backup_eventi():
 
 
 def geocode(indirizzo, citta, paese, cache):
-    """Restituisce (lat, lng). Prova cache -> Nominatim online -> dizionario citta."""
+    """Restituisce coordinate dell'indirizzo; non usa mai il centro città come ripiego."""
+    if not str(indirizzo or "").strip():
+        return None, None
     query = ", ".join([p for p in [indirizzo, citta, paese] if p])
     key = _slug(query)
-    if key in cache:
+    if key in cache and cache[key].get("precisione") in ("indirizzo", "locale_verificato"):
         return cache[key]["lat"], cache[key]["lng"]
 
     # Tentativo online (nessuna libreria esterna: solo urllib della libreria standard)
@@ -281,17 +286,12 @@ def geocode(indirizzo, citta, paese, cache):
             js = json.load(resp)
         if js:
             lat = float(js[0]["lat"]); lng = float(js[0]["lon"])
-            cache[key] = {"lat": lat, "lng": lng}
+            cache[key] = {"lat": lat, "lng": lng, "precisione": "indirizzo"}
             time.sleep(1)  # Nominatim: max 1 richiesta/secondo — rispettiamo le regole
             return lat, lng
     except Exception:
         pass  # niente rete: si usa il fallback
 
-    # Riserva: coordinate della citta (approssimate ma sufficienti per il puntino)
-    fb = CITY_FALLBACK.get(_slug(citta))
-    if fb:
-        cache[key] = {"lat": fb[0], "lng": fb[1]}
-        return fb
     return None, None
 
 
@@ -301,8 +301,22 @@ def geocode(indirizzo, citta, paese, cache):
 def normalizza(raw, fonte, cache):
     citta = raw.get("citta") or raw.get("city") or ""
     lat = raw.get("lat"); lng = raw.get("lng")
-    if lat is None or lng is None:
-        lat, lng = geocode(raw.get("indirizzo"), citta, raw.get("paese"), cache)
+    coordinate_precisione = raw.get("coordinate_precisione")
+    coordinate_fonte = raw.get("coordinate_fonte")
+    try:
+        coordinate_valide = (-90 <= float(lat) <= 90 and -180 <= float(lng) <= 180
+                              and not (float(lat) == 0 and float(lng) == 0))
+    except (TypeError, ValueError):
+        coordinate_valide = False
+    if coordinate_valide:
+        coordinate_precisione = coordinate_precisione or "provider"
+        coordinate_fonte = coordinate_fonte or fonte
+    else:
+        indirizzo_completo = ", ".join(p for p in [raw.get("locale") or raw.get("venue"),
+                                                    raw.get("indirizzo") or raw.get("address")] if p)
+        lat, lng = geocode(indirizzo_completo, citta, raw.get("paese"), cache)
+        coordinate_precisione = "indirizzo" if lat is not None and lng is not None else "incerta"
+        coordinate_fonte = "nominatim" if lat is not None and lng is not None else None
 
     genere = raw.get("genere") or raw.get("genres") or []
     if isinstance(genere, str):
@@ -325,6 +339,8 @@ def normalizza(raw, fonte, cache):
         "indirizzo": raw.get("indirizzo") or raw.get("address") or "",
         "locale": raw.get("locale") or raw.get("venue") or "",
         "lat": lat, "lng": lng,
+        "coordinate_precisione": coordinate_precisione,
+        "coordinate_fonte": coordinate_fonte,
         "artisti": artisti,
         "genere": genere,
         "tipo": raw.get("tipo") or raw.get("type") or "concerto",

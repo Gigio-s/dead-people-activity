@@ -8,6 +8,10 @@ scripts/geocode_cache.json
 scripts/genere_cache.json
 scripts/__pycache__/
 scripts/backups/
+scripts/events_coordinate_incerte.json
+scripts/venue_geocode_cache.json
+scripts/geocodifica_coordinate.log
+scripts/geocodifica_coordinate.err.log
 *.pyc
 
 # --- Code / archivi di lavoro: non parte del sito pubblico ---
