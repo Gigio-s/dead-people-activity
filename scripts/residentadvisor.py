@@ -49,6 +49,7 @@ import urllib.request
 import urllib.parse
 from datetime import date, timedelta
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "coordinate eventi"))
 import ingest  # riusa normalizza, coda, dedup, filtro generi, pubblicazione
 
 GRAPHQL_URL = "https://ra.co/graphql"

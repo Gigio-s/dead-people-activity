@@ -26,9 +26,9 @@ echo ============================================================
 echo   A) TICKETMASTER
 echo ============================================================
 echo == A1  Scarico e filtro eventi da tutta Europa ==
-python ingest.py
+python "coordinate eventi\ingest.py"
 echo == A2  Pubblico i nuovi Ticketmaster ==
-python ingest.py --approva-fonte ticketmaster
+python "coordinate eventi\ingest.py" --approva-fonte ticketmaster
 
 echo.
 echo ============================================================
@@ -55,7 +55,7 @@ echo ============================================================
 echo   D) MANUTENZIONE
 echo ============================================================
 echo == D1  Archivio gli eventi gia' passati ==
-python ingest.py --archivia-passati
+python "coordinate eventi\ingest.py" --archivia-passati
 
 echo.
 echo ================================================================

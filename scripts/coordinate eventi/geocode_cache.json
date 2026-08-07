@@ -1,0 +1,638 @@
+{
+  "via-delle-fornaci-12-vicenza-italia": {
+    "lat": 45.5455,
+    "lng": 11.5353
+  },
+  "via-cigna-96-torino-italia": {
+    "lat": 45.0703,
+    "lng": 7.6869
+  },
+  "athens-athens-greece": {
+    "lat": 37.9929071,
+    "lng": 23.7200787
+  },
+  "13-quay-st-manchester-great-britain": {
+    "lat": 53.4808,
+    "lng": -2.2426
+  },
+  "33-back-piccadilly-manchester-great-britain": {
+    "lat": 53.4808,
+    "lng": -2.2426
+  },
+  "carrer-de-guardia-3-08001-barcelona-barcelona-spain": {
+    "lat": 41.3780501,
+    "lng": 2.1736839
+  },
+  "08872-sitges-barcelona-barcelona-spain": {
+    "lat": 41.2394463,
+    "lng": 1.8351724
+  },
+  "carrer-d-alaba-30-08005-barcelona-barcelona-spain": {
+    "lat": 41.3942712,
+    "lng": 2.197051
+  },
+  "barcelona-spain": {
+    "lat": 41.3825802,
+    "lng": 2.177073
+  },
+  "calle-de-las-maldonadas-6-28005-madrid-espana-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-de-goya-43-28001-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-jardines-3-28013-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-de-cost-avenida-de-los-angeles-20-28013-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "sala-but-c-de-barcelo-11-local-b-centro-28004-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "c-del-caballero-de-gracia-10-centro-28013-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-san-dimas-3-28015-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-de-trujillos-7-28013-madrid-espana-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "c-de-la-aduana-21-centro-28013-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-de-martin-de-los-heros-14-28008-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-de-cedaceros-11-28014-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-de-canos-viejos-3-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "estacion-esqui-la-pinilla-s-n-40500-la-pinilla-segovia-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "estacion-de-chamartin-primera-planta-s-n-28036-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "gran-via-54-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "p-o-de-la-florida-2-28008-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "av-san-martin-de-valdeiglesias-22-28922-alcorcon-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "c-camino-de-perales-s-n-28041-madrid-espana-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "av-de-la-industria-82-28970-humanes-de-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "c-de-galileo-2628015-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-orense-26-bajos-madrid-28020-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "c-de-atocha-127-28012-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "ciudad-universitaria-de-cantoblanco-28049-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "c-gamonal-5-28031-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "c-de-bernardino-obregon-18-28012-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "av-partenon-5-28042-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "av-de-pedro-diez-28-carabanchel-28019-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-de-galileo-100-28015-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "paseo-de-la-virgen-del-puerto-madrid-espana-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "santa-ana-9-28005-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "las-inviernas-19491-guadalajara-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "arganda-del-rey-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-martin-de-los-heros-14-28008-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-hilarion-eslava-36-28015-madrid-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-del-duque-de-osuna-8-28015-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "estacion-de-chamartin-planta-atico-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-ceramica-76-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "calle-orense-24-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "bologna-italy": {
+    "lat": 44.4949,
+    "lng": 11.3426
+  },
+  "via-perossaro-187-41038-san-felice-sul-panaro-mo-emilia-romagna-italia-bologna-italy": {
+    "lat": 44.4949,
+    "lng": 11.3426
+  },
+  "via-francesco-fantoni-21-40127-bologna-bo-italy-bologna-italy": {
+    "lat": 44.4949,
+    "lng": 11.3426
+  },
+  "berlin-germany": {
+    "lat": 52.5173885,
+    "lng": 13.3951309
+  },
+  "revalerstr-99-10245-berlin-berlin-germany": {
+    "lat": 52.5064417,
+    "lng": 13.4572149
+  },
+  "schillerpromenade-11-12049-berlin-berlin-germany": {
+    "lat": 52.4757036,
+    "lng": 13.4221159
+  },
+  "alt-tempelhof-17-19-12099-berlin-berlin-germany": {
+    "lat": 52.4659138,
+    "lng": 13.3855858
+  },
+  "alt-stralau-1-2-friedrichshain-10245-berlin-germany": {
+    "lat": 52.4970527,
+    "lng": 13.4650639
+  },
+  "an-den-treptowers-10-12435-berlin-berlin-germany": {
+    "lat": 52.4952481,
+    "lng": 13.4627777
+  },
+  "schleusenufer-3-10997-berlin-berlin-germany": {
+    "lat": 52.4975973,
+    "lng": 13.45011
+  },
+  "holzmarktstrasse-25-10243-berlin-berlin-germany": {
+    "lat": 52.5119029,
+    "lng": 13.4253649
+  },
+  "schnellerstrasse-137-12439-berlin-berlin-germany": {
+    "lat": 52.4599968,
+    "lng": 13.5052662
+  },
+  "blockdammweg-1-10317-berlin-berlin-germany": {
+    "lat": 52.4838453,
+    "lng": 13.501479
+  },
+  "wiesenweg-5-9-10365-berlin-germany": {
+    "lat": 52.5075511,
+    "lng": 13.4758964
+  },
+  "vor-dem-schlesischen-tor-3-10997-berlin-berlin-germany": {
+    "lat": 52.4972254,
+    "lng": 13.4493283
+  },
+  "tempelhofer-damm-45-12101-berlin-berlin-germany": {
+    "lat": 52.4780881,
+    "lng": 13.3861638
+  },
+  "skalitzer-str-135-10999-berlin-berlin-germany": {
+    "lat": 52.4992586,
+    "lng": 13.4191407
+  },
+  "karl-liebknecht-str-11-10178-berlin-berlin-germany": {
+    "lat": 52.5225456,
+    "lng": 13.4088739
+  },
+  "revaler-str-99-10245-berlin-berlin-germany": {
+    "lat": 52.5064417,
+    "lng": 13.4572149
+  },
+  "fichtestrasse-23-10967-berlin-berlin-germany": {
+    "lat": 52.4894552,
+    "lng": 13.4136716
+  },
+  "dircksenstr-123-10178-berlin-berlin-germany": {
+    "lat": 52.5226319,
+    "lng": 13.4092273
+  },
+  "falckensteinstr-47-48-10997-berlin-berlin-germany": {
+    "lat": 52.4983626,
+    "lng": 13.4421927
+  },
+  "gustav-adolf-strae-2-13086-berlin-berlin-germany": {
+    "lat": 52.5519035,
+    "lng": 13.4311632
+  },
+  "bruckenstrae-1-10179-berlin-berlin-germany": {
+    "lat": 52.5114528,
+    "lng": 13.4174844
+  },
+  "leixlip-rd-lucan-dublin-ireland": {
+    "lat": 53.3606655,
+    "lng": -6.4791164
+  },
+  "pl-reial-17-08002-barcelona-barcelona-spain": {
+    "lat": 41.3796661,
+    "lng": 2.175241
+  },
+  "carrer-del-comerc-21-ciutat-vella-08003-barcelona-barcelona-spain": {
+    "lat": 41.3865262,
+    "lng": 2.1824853
+  },
+  "carrer-de-muntaner-246-08021-barcelona-barcelona-spain": {
+    "lat": 41.3945996,
+    "lng": 2.1490385
+  },
+  "carrer-del-plom-1-sants-montjuic-08038-barcelona-barcelona-spain": {
+    "lat": 41.351744,
+    "lng": 2.135379
+  },
+  "calle-llacuna-136-barcelona-08018-barcelona-spain": {
+    "lat": 41.470529,
+    "lng": 1.5348884
+  },
+  "08007-barcelona-spain": {
+    "lat": 41.390294,
+    "lng": 2.1654138
+  },
+  "carrer-cobalt-12-08907-l-hospitalet-de-llobregat-barcelona-spain": {
+    "lat": 41.3591554,
+    "lng": 2.1108894
+  },
+  "carrer-de-paris-186-08036-barcelona-barcelona-spain": {
+    "lat": 41.393587,
+    "lng": 2.153363
+  },
+  "passatge-can-politic-13-b-08907-hospitalet-de-llobregat-barcelona-barcelona-spain": {
+    "lat": 41.3544005,
+    "lng": 2.1072254
+  },
+  "avinguda-dr-maranon-17-barcelona-barcelona-spain": {
+    "lat": 41.381261,
+    "lng": 2.1143271
+  },
+  "calle-alcala-20-28014-madrid-spain-madrid-spain": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "gran-via-germanias-31-valencia-valencia-spain": {
+    "lat": 39.4637272,
+    "lng": -0.3760158
+  },
+  "carrer-del-mestre-josep-serrano-8-l-eixample-46005-valencia-valencia-valencia-spain": {
+    "lat": 39.4636982,
+    "lng": -0.3702102
+  },
+  "pinedo-valencia-valencia-spain": {
+    "lat": 39.4217164,
+    "lng": -0.3383367
+  },
+  "valencia-spain": {
+    "lat": 39.4697065,
+    "lng": -0.3763353
+  },
+  "c-de-ricardo-mico-3-campanar-46009-valencia-valencia-spain": {
+    "lat": 39.4812648,
+    "lng": -0.387557
+  },
+  "via-rimini-38-20142-milano-milan-italy": {
+    "lat": 45.4410993,
+    "lng": 9.1690891
+  },
+  "viale-achille-papa-30-20159-milano-mi-milan-italy": {
+    "lat": 45.4895624,
+    "lng": 9.1412193
+  },
+  "via-valtellina-21-20159-milano-mi-milan-italy": {
+    "lat": 45.4943879,
+    "lng": 9.1826121
+  },
+  "naples-italy": {
+    "lat": 40.8358846,
+    "lng": 14.2487679
+  },
+  "viale-della-liberazione-117-naples-italy": {
+    "lat": 40.8203365,
+    "lng": 14.1687265
+  },
+  "invalidenstrae-50-51-10557-berlin-berlin-germany": {
+    "lat": 52.52844,
+    "lng": 13.3720386
+  },
+  "schleusenufer-2-10997-berlin-berlin-germany": {
+    "lat": 52.4976087,
+    "lng": 13.4494297
+  },
+  "gerichtstrae-23-13347-berlin-berlin-germany": {
+    "lat": 52.5449968,
+    "lng": 13.3742384
+  },
+  "adalbertstrae-98-10999-berlin-berlin-germany": {
+    "lat": 52.4999219,
+    "lng": 13.4176547
+  },
+  "sanderstrae-11-12047-berlin-berlin-germany": {
+    "lat": 52.4923371,
+    "lng": 13.4259409
+  },
+  "lilli-henoch-strae-10-10405-berlin-berlin-germany": {
+    "lat": 52.5408686,
+    "lng": 13.4363653
+  },
+  "wiesenweg-5-9-10365-berlin-berlin-germany": {
+    "lat": 52.5075511,
+    "lng": 13.4758964
+  },
+  "karl-marx-strae-66-12043-berlin-berlin-germany": {
+    "lat": 52.4819669,
+    "lng": 13.4331356
+  },
+  "dunckerstrasse-64-10439-berlin-berlin-germany": {
+    "lat": 52.5468944,
+    "lng": 13.4227755
+  },
+  "wiesenweg-1-4-10365-berlin-berlin-germany": {
+    "lat": 52.5076121,
+    "lng": 13.4749435
+  },
+  "wuhlischstrae-43-10245-berlin-berlin-germany": {
+    "lat": 52.5086513,
+    "lng": 13.4608863
+  },
+  "orion-business-centre-surrey-canal-rd-se14-5rt-london-united-kingdom": {
+    "lat": 51.4849178,
+    "lng": -0.0484179
+  },
+  "95a-rye-lane-london-se15-4st-london-united-kingdom": {
+    "lat": 51.4707874,
+    "lng": -0.0670348
+  },
+  "20-hanway-street-london-w1t-1ug-london-united-kingdom": {
+    "lat": 51.5169156,
+    "lng": -0.1319593
+  },
+  "103-gaunt-st-london-se1-6dp-london-united-kingdom": {
+    "lat": 51.4977677,
+    "lng": -0.0994957
+  },
+  "burgess-park-albany-road-london-se5-0rj-london-united-kingdom": {
+    "lat": 51.4822147,
+    "lng": -0.0942756
+  },
+  "62-68-rivington-st-london-ec2a-3ay-london-united-kingdom": {
+    "lat": 51.5262597,
+    "lng": -0.0791298
+  },
+  "62-68-rivington-street-shoreditch-london-ec2a-3ay-london-united-kingdom": {
+    "lat": 51.5262597,
+    "lng": -0.0791298
+  },
+  "london-se10-9nn-london-united-kingdom": {
+    "lat": 51.5029954,
+    "lng": -0.0014602
+  },
+  "1-anthony-way-n18-3qt-london-united-kingdom": {
+    "lat": 51.6085127,
+    "lng": -0.0397653
+  },
+  "33-brixton-station-road-sw9-8pb-london-united-kingdom": {
+    "lat": 51.4632386,
+    "lng": -0.1132562
+  },
+  "5-13-vale-royal-london-n7-9ap-london-united-kingdom": {
+    "lat": 51.541921,
+    "lng": -0.1242164
+  },
+  "1a-rye-ln-london-se15-5ew-london-united-kingdom": {
+    "lat": 51.4733726,
+    "lng": -0.0696576
+  },
+  "3-kent-gate-way-croydon-cr0-5ar-london-united-kingdom": {
+    "lat": 51.3556685,
+    "lng": -0.0356555
+  },
+  "316-lewisham-high-street-london-se136jz-london-united-kingdom": {
+    "lat": 51.456851,
+    "lng": -0.0142378
+  },
+  "418-brixton-road-brixton-london-sw9-7ay-london-united-kingdom": {
+    "lat": 51.4644457,
+    "lng": -0.1145037
+  },
+  "mercury-house-117-waterloo-rd-london-se1-8ul-london-united-kingdom": {
+    "lat": 51.5027009,
+    "lng": -0.1102622
+  },
+  "110-pennington-street-wapping-london-e1w-2bb-london-united-kingdom": {
+    "lat": 51.508859,
+    "lng": -0.0612435
+  },
+  "60-dock-road-london-e16-1yz-london-united-kingdom": {
+    "lat": 51.5048644,
+    "lng": 0.016951
+  },
+  "westminster-pier-london-sw1a-2jh-london-united-kingdom": {
+    "lat": 51.5022544,
+    "lng": -0.1231736
+  },
+  "48-kingsland-road-shoreditch-e2-8aa-london-united-kingdom": {
+    "lat": 51.5286112,
+    "lng": -0.0777136
+  },
+  "8-queen-s-yard-london-e9-5en-london-united-kingdom": {
+    "lat": 51.522405,
+    "lng": -0.1349515
+  },
+  "109-peckham-high-st-london-se15-5se-london-united-kingdom": {
+    "lat": 51.4741464,
+    "lng": -0.0685686
+  },
+  "kingsbourne-house-229-231-high-holborn-london-united-kingdom": {
+    "lat": 51.5175312,
+    "lng": -0.119669
+  },
+  "91-93-kingsland-high-street-london-united-kingdom": {
+    "lat": 51.5476143,
+    "lng": -0.0755088
+  },
+  "2a-kensington-high-street-london-w8-4pt-london-united-kingdom": {
+    "lat": 51.5025449,
+    "lng": -0.1877803
+  },
+  "11a-buckfast-st-london-e2-6ey-london-united-kingdom": {
+    "lat": 51.5256938,
+    "lng": -0.0657388
+  },
+  "16-evelina-road-se15-2dx-london-united-kingdom": {
+    "lat": 51.4694867,
+    "lng": -0.052348
+  },
+  "325-camberwell-new-road-london-se5-0tf-london-united-kingdom": {
+    "lat": 51.4756666,
+    "lng": -0.0970891
+  },
+  "182-stoke-newington-rd-london-n16-7uy-london-united-kingdom": {
+    "lat": 51.5565926,
+    "lng": -0.0742238
+  },
+  "588-kingsland-road-e84ah-london-united-kingdom": {
+    "lat": 51.5458037,
+    "lng": -0.075466
+  },
+  "london-united-kingdom": {
+    "lat": 51.5074456,
+    "lng": -0.1277653
+  },
+  "438-kingsland-rd-london-e8-4aa-london-united-kingdom": {
+    "lat": 51.5423066,
+    "lng": -0.0758305
+  },
+  "318-new-cross-road-london-se14-6af-london-united-kingdom": {
+    "lat": 51.4754886,
+    "lng": -0.0367814
+  },
+  "55-nigel-rd-london-se15-4np-london-united-kingdom": {
+    "lat": 51.5465375,
+    "lng": 0.0390933
+  },
+  "56-peckham-high-street-se15-5dp-london-united-kingdom": {
+    "lat": 51.4731603,
+    "lng": -0.0705024
+  },
+  "1a-amhurst-road-hackney-london-e8-1ll-london-united-kingdom": {
+    "lat": 51.5471623,
+    "lng": -0.0556001
+  },
+  "131-lordship-lane-london-n17-6xe-london-united-kingdom": {
+    "lat": 51.598349,
+    "lng": -0.075939
+  },
+  "95-effra-road-brixton-london-sw2-1df-london-united-kingdom": {
+    "lat": 51.4553746,
+    "lng": -0.1132412
+  },
+  "77-welbeck-street-w1g-0bb-london-united-kingdom": {
+    "lat": 51.5158859,
+    "lng": -0.148585
+  },
+  "the-shed-sw19-1sd-london-united-kingdom": {
+    "lat": 51.4679714,
+    "lng": -0.2667777
+  },
+  "57-58-upper-st-london-n1-0ny-london-united-kingdom": {
+    "lat": 51.535664,
+    "lng": -0.1039461
+  },
+  "14-bohemia-place-hackney-london-e8-1du-london-united-kingdom": {
+    "lat": 51.5473319,
+    "lng": -0.0529246
+  },
+  "70-upper-street-london-united-kingdom": {
+    "lat": 51.5360633,
+    "lng": -0.103901
+  },
+  "92b-old-brompton-road-sw7-3lq-kensington-london-london-united-kingdom": {
+    "lat": 51.4925719,
+    "lng": -0.1773197
+  },
+  "66-albert-embankment-lambeth-london-se1-7tw-london-united-kingdom": {
+    "lat": 51.4941043,
+    "lng": -0.1210923
+  },
+  "60-southwark-st-london-se1-1un-london-united-kingdom": {
+    "lat": 51.5050176,
+    "lng": -0.0954041
+  },
+  "187-rye-lane-peckham-se15-4tp-london-united-kingdom": {
+    "lat": 51.4680366,
+    "lng": -0.0669321
+  },
+  "finsbury-park-london-n4-london-united-kingdom": {
+    "lat": 51.5641798,
+    "lng": -0.1059917
+  },
+  "467-469-brixton-rd-london-sw9-8hh-london-united-kingdom": {
+    "lat": 51.4615353,
+    "lng": -0.1149307
+  },
+  "40-stuart-road-nunhead-london-se15-3be-london-united-kingdom": {
+    "lat": 51.4581957,
+    "lng": -0.0520962
+  },
+  "7-archway-road-london-n19-3tx-london-united-kingdom": {
+    "lat": 51.5680906,
+    "lng": -0.1364291
+  },
+  "378-coldharbour-lane-london-sw9-8lf-london-united-kingdom": {
+    "lat": 51.4619358,
+    "lng": -0.1120024
+  },
+  "11-ordnance-crescent-london-se10-0jh-london-united-kingdom": {
+    "lat": 51.5013177,
+    "lng": -0.0012645
+  }
+}

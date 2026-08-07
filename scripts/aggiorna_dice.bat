@@ -28,7 +28,7 @@ echo == 2/4  Controllo il genere di ogni artista online e pulisco ==
 python arricchisci_genere.py
 
 echo == 3/4  Archivio eventi gia' passati ==
-python ingest.py --archivia-passati
+python "coordinate eventi\ingest.py" --archivia-passati
 
 echo == 4/4  Pubblico solo gli eventi col genere giusto ==
 python dice.py --approva

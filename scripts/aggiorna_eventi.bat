@@ -24,13 +24,13 @@ if "%TM_API_KEY%"=="" (
 )
 
 echo == 1/3  Scarico e filtro eventi da tutta Europa ==
-python ingest.py
+python "coordinate eventi\ingest.py"
 
 echo == 2/3  Archivio gli eventi gia' passati ==
-python ingest.py --archivia-passati
+python "coordinate eventi\ingest.py" --archivia-passati
 
 echo == 3/3  Pubblico i nuovi Ticketmaster (gia' filtrati per genere) ==
-python ingest.py --approva-fonte ticketmaster
+python "coordinate eventi\ingest.py" --approva-fonte ticketmaster
 
 echo.
 echo == FATTO. Mappa aggiornata. ==

@@ -45,6 +45,7 @@ import urllib.parse
 import urllib.request
 from datetime import date
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "coordinate eventi"))
 import ingest  # riusa whitelist generi, normalizza, coda, dedup, pubblicazione
 
 # Tipi di evento Skiddle che ci interessano -> nostra etichetta "tipo"

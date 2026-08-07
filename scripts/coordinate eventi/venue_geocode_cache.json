@@ -1,0 +1,3313 @@
+{
+  "masseria ferragnano|via cisternino 282|locorotondo|it": {
+    "status": "verificato",
+    "lat": 40.7551747,
+    "lng": 17.3279309,
+    "score": 15,
+    "display_name": "Via Cisternino, Locorotondo, Bari, Puglia, Italia",
+    "query": "Via Cisternino 282, Locorotondo, Italy"
+  },
+  "porto turistico|lungomare papa giovanni xxiii|pescara|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:43:18",
+    "retry_after": "2026-08-14T17:43:30"
+  },
+  "slaughter club|via angelo tagliabue 4|paderno dugnano milano|it": {
+    "status": "verificato",
+    "lat": 45.5755652,
+    "lng": 9.1520202,
+    "score": 20,
+    "display_name": "Slaughter Club, 4, Via Angelo Tagliabue, Cassina Amata, Paderno Dugnano, Zona Omogenea Milano Nord, Milano, Lombardia, 20037, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "street": "Via Angelo Tagliabue, 4",
+      "city": "Paderno Dugnano (Milano)"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:43:30",
+    "precisione": "indirizzo_verificato"
+  },
+  "parco delle cascine|parco delle cascine|firenze|it": {
+    "status": "verificato",
+    "lat": 43.7829311,
+    "lng": 11.2154935,
+    "score": 17,
+    "display_name": "Parco delle Cascine, Quartiere 1, Mantignano, Firenze, Toscana, Italia",
+    "query": "Parco Delle Cascine, Firenze, Italy"
+  },
+  "lime milano|via tullo massarani 6|milano|it": {
+    "status": "verificato",
+    "lat": 45.4444545,
+    "lng": 9.2161877,
+    "score": 11,
+    "display_name": "Ligh Lime, 6, Via Tullo Massarani, Gamboloita, Lodi - Corvetto, Municipio 4, Milano, Rodano, Milano, Lombardia, 20139, Italia",
+    "query": "Via Tullo Massarani, 6, Milano, Italy"
+  },
+  "parking walibi||biddinghuizen|nl": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:43:33",
+    "retry_after": "2026-08-14T17:43:39"
+  },
+  "tbd|spirou loui 1|athens|gr": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:43:39",
+    "motivo": "posizione_non_pubblica"
+  },
+  "casa di alex|via moncalieri 5|milano|it": {
+    "status": "verificato",
+    "lat": 45.5098384,
+    "lng": 9.1986796,
+    "score": 9,
+    "display_name": "Via Moncalieri, Quartiere Ca' Granda Nord, Niguarda - Cà Granda, Municipio 9, Milano, Rodano, Milano, Lombardia, 20162, Italia",
+    "query": "Via Moncalieri, 5, Milano, Italy"
+  },
+  "la cripta club|via giuseppe zucchi 39g|cusano milanino milano|it": {
+    "status": "verificato",
+    "lat": 45.5530361,
+    "lng": 9.1742165,
+    "score": 20,
+    "display_name": "La Cripta Club, 39G, Via Giuseppe Zucchi, Cusano, Cusano Milanino, Zona Omogenea Milano Nord, Milano, Lombardia, 20095, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "street": "Via Giuseppe Zucchi, 39G",
+      "city": "Cusano Milanino (Milano)"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:43:39",
+    "precisione": "indirizzo_verificato"
+  },
+  "arci tom||mantova|it": {
+    "status": "verificato",
+    "lat": 45.1428155,
+    "lng": 10.7639898,
+    "score": 13,
+    "display_name": "ARCI Tom, 1, Via Rino Gaetano, Due Pini, Mantova, Lombardia, 46100, Italia",
+    "query": "Arci Tom, Mantova, Italy"
+  },
+  "modigliani forum||livorno|it": {
+    "status": "verificato",
+    "lat": 43.5550361,
+    "lng": 10.3422651,
+    "score": 13,
+    "display_name": "Modigliani Forum, Via Dino Livio Frangioni, Consiglio di Zona 1, Livorno, Toscana, 57121, Italia",
+    "query": "Modigliani Forum, Livorno, Italy"
+  },
+  "vitrifrigo arena||pesaro|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:43:41",
+    "retry_after": "2026-08-14T17:43:48"
+  },
+  "palazzo del turismo jesolo||lido di jesolo|it": {
+    "status": "verificato",
+    "lat": 45.5024359,
+    "lng": 12.63051,
+    "score": 9,
+    "display_name": "Pala Invent, 11, Piazza Brescia, Lido di Jesolo, Jesolo, Venezia, Veneto, 30016, Italia",
+    "query": "Palazzo del Turismo Jesolo, Lido di Jesolo, Italy"
+  },
+  "hertford corn exchange|39 fore st|hertford|gb": {
+    "status": "verificato",
+    "lat": 51.7964148,
+    "lng": -0.0764037,
+    "score": 20,
+    "display_name": "Hertford Corn Exchange, 39, Fore Street, Folly Island, Hertford, East Hertfordshire, Hertfordshire, Inghilterra, SG14 1AL, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "39 Fore St",
+      "city": "Hertford"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:43:48",
+    "precisione": "indirizzo_verificato"
+  },
+  "port a bhaigh campsite|211 achiltibuie|ullapool|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:43:50",
+    "retry_after": "2026-08-14T17:44:02"
+  },
+  "project house|armley road|leeds|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:44:02",
+    "retry_after": "2026-08-14T17:44:14"
+  },
+  "dust|77 east street|brighton|gb": {
+    "status": "verificato",
+    "lat": 50.819841,
+    "lng": -0.1389406,
+    "score": 16,
+    "display_name": "Lola Lo, 77, East Street, Queen's Park, Brighton, Brighton and Hove, Inghilterra, BN1 1NF, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "77 East Street",
+      "city": "Brighton"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:44:14",
+    "precisione": "indirizzo_verificato"
+  },
+  "the old cold store|queensbridge road|nottingham|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:44:17",
+    "retry_after": "2026-08-14T17:44:28"
+  },
+  "volks club|3 madeira dr|brighton|gb": {
+    "status": "verificato",
+    "lat": 50.8192996,
+    "lng": -0.1327966,
+    "score": 20,
+    "display_name": "Volks, 3, Madeira Drive, Kemptown, Brighton, Brighton and Hove, Inghilterra, BN2 1PS, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "3 Madeira Dr",
+      "city": "Brighton"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:44:28",
+    "precisione": "indirizzo_verificato"
+  },
+  "the attic|3 sheaf st|leeds|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:44:31",
+    "retry_after": "2026-08-14T17:44:42"
+  },
+  "suburbia|29 onslow road|southampton|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:44:42",
+    "retry_after": "2026-08-14T17:45:01"
+  },
+  "electric ballroom camden|184 camden high street|london|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:45:01",
+    "retry_after": "2026-08-14T17:45:13"
+  },
+  "the black heart|3 greenland place|london|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:45:13",
+    "retry_after": "2026-08-14T17:45:26"
+  },
+  "zerox|48 52 sandhill|newcastle upon tyne|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:45:26",
+    "retry_after": "2026-08-14T17:45:38"
+  },
+  "cart horses|1 maryland point|london|gb": {
+    "status": "verificato",
+    "lat": 51.5458399,
+    "lng": 0.0043094,
+    "score": 20,
+    "display_name": "Cart and Horses, 1, Maryland Point, Stratford New Town, Stratford, London Borough of Newham, Londra, Inghilterra, E15 1PF, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "1 Maryland Point",
+      "city": "London"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:45:38",
+    "precisione": "indirizzo_verificato"
+  },
+  "papillon|61 commercial road|southampton|gb": {
+    "status": "verificato",
+    "lat": 50.9090774,
+    "lng": -1.4107275,
+    "score": 20,
+    "display_name": "Papillion, 61, Commercial Road, Cultural Quarter, The Polygon, Southampton, Inghilterra, SO15 1GG, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "61 Commercial Road",
+      "city": "Southampton"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:45:41",
+    "precisione": "indirizzo_verificato"
+  },
+  "komedia bath|22 23 westgate street|bath|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:45:44",
+    "retry_after": "2026-08-14T17:45:56"
+  },
+  "bear cave|24 26 holdenhurst road|bournemouth|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:45:56",
+    "retry_after": "2026-08-14T17:46:15"
+  },
+  "walthamstow trades hall|61 63 tower hamlets road|london|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:46:15",
+    "retry_after": "2026-08-14T17:46:26"
+  },
+  "the tung auditorium|60 oxford street|liverpool|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:46:26",
+    "retry_after": "2026-08-14T17:46:39"
+  },
+  "the grove|st michaelas road|newcastle upon tyne|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:46:39",
+    "retry_after": "2026-08-14T17:46:51"
+  },
+  "dounby showpark|dounby|orkney|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:46:51",
+    "retry_after": "2026-08-14T17:47:08"
+  },
+  "between the bridges|the queen s walk|london|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:47:08",
+    "retry_after": "2026-08-14T17:47:20"
+  },
+  "unlocked|118 curtain road|london|gb": {
+    "status": "verificato",
+    "lat": 51.5258318,
+    "lng": -0.0800814,
+    "score": 16,
+    "display_name": "118, Curtain Road, Shoreditch, London Borough of Hackney, Londra, Inghilterra, EC2A 3AH, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "118 CURTAIN ROAD",
+      "city": "London"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:47:20",
+    "precisione": "indirizzo_verificato"
+  },
+  "courtney s of lucan|leixlip rd lucan|dublin|ie": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:47:23",
+    "retry_after": "2026-08-14T17:47:36"
+  },
+  "the deers head|1 3 lower garfield street|belfast|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:47:36",
+    "retry_after": "2026-08-14T17:47:49"
+  },
+  "strathpeffer pavilion|the square|strathpeffer|gb": {
+    "status": "verificato",
+    "lat": 57.5883133,
+    "lng": -4.5381237,
+    "score": 13,
+    "display_name": "The Square, Strathpeffer, Highland, Scozia, IV14 9DW, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "The Square",
+      "city": "Strathpeffer"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:47:49",
+    "precisione": "indirizzo_verificato"
+  },
+  "the pipeline|6 little e st|brighton|gb": {
+    "status": "verificato",
+    "lat": 50.820176,
+    "lng": -0.1395686,
+    "score": 20,
+    "display_name": "The Pipeline, 6, Little East Street, The Lanes, Round Hill, Brighton, Brighton and Hove, Inghilterra, BN1 1HT, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "6 Little E St",
+      "city": "Brighton"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:47:51",
+    "precisione": "indirizzo_verificato"
+  },
+  "three tanners bank|tanners bank|north shields|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:47:55",
+    "retry_after": "2026-08-14T17:48:06"
+  },
+  "alphabet|11 dyke road|brighton|gb": {
+    "status": "verificato",
+    "lat": 50.8242198,
+    "lng": -0.1450714,
+    "score": 20,
+    "display_name": "A L P H A B E T, 11, Dyke Road, Brunswick, Brighton, Brighton and Hove, Inghilterra, BN1 3FE, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "11 Dyke Road",
+      "city": "Brighton"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:48:06",
+    "precisione": "indirizzo_verificato"
+  },
+  "glassbox theatre|midkent college medway campus|gillingham|gb": {
+    "status": "verificato",
+    "lat": 51.3933759,
+    "lng": 0.5413646,
+    "score": 13,
+    "display_name": "Glassbox Theatre, Medway Road, Sally Port Gardens, Brompton, Gillingham, Borgo di Medway, Inghilterra, ME7 1FN, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "street": "Midkent College Medway Campus",
+      "city": "Gillingham"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-07T17:48:09",
+    "precisione": "indirizzo_verificato"
+  },
+  "bongo club|66 cowgate edinburgh|edinburgh|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:48:12",
+    "retry_after": "2026-08-14T17:48:25"
+  },
+  "recreo bar|carrer de la merce 26 08002 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.2227311,
+    "lng": 1.7193188,
+    "score": 13,
+    "display_name": "Granja Recreo, 99, Carrer del Recreo, Sant Joan, Vilanova i la Geltrú, Garraf, Barcelona, Catalogna, 08800, Spagna",
+    "query": "Recreo Bar, Barcelona, Spain"
+  },
+  "noxe barcelona|placa rosa del vents 1 final pg de joan de borbo 08039 barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:48:25",
+    "retry_after": "2026-08-14T17:48:36"
+  },
+  "dr dou social club|carrer del dr dou 7 local 2 08001 barcelona spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:48:36",
+    "retry_after": "2026-08-14T17:48:49"
+  },
+  "sunseabar beach club|calle la pau platja del forum barcelona spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:48:49",
+    "retry_after": "2026-08-14T17:49:01"
+  },
+  "garage 442|avinguda diagonal 442 08037 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3970411,
+    "lng": 2.1606927,
+    "score": 13,
+    "display_name": "442, Avinguda Diagonal (lateral muntanya), la Dreta de l'Eixample, l'Eixample, Barcellona, Barcelonès, Barcelona, Catalogna, 08037, Spagna",
+    "query": "Avinguda Diagonal, 442, 08037 Barcelona, Barcelona, Spain"
+  },
+  "circulo|carrer del rec 62 08003 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3841851,
+    "lng": 2.1841441,
+    "score": 15,
+    "display_name": "Círculo, 62, Carrer del Rec, la Ribera, Sant Pere, Santa Caterina i la Ribera, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08003, Spagna",
+    "query": "Círculo, Barcelona, Spain"
+  },
+  "studio stereo|08007|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.390294,
+    "lng": 2.1654138,
+    "score": 15,
+    "display_name": "08007, l'Eixample, Barcellona, Barcelonès, Barcelona, Catalogna, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "08007, Barcelona, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-07T17:49:01",
+    "precisione": "indirizzo_verificato"
+  },
+  "slow club|carrer de paris 186 08036 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3935377,
+    "lng": 2.1533734,
+    "score": 13,
+    "display_name": "Slow, 186, Carrer de París, l'Antiga Esquerra de l'Eixample, l'Eixample, Barcellona, Barcelonès, Barcelona, Catalogna, 08036, Spagna",
+    "query": "Carrer de París, 186, 08036 Barcelona, Barcelona, Spain"
+  },
+  "moog club|arc del teatre 3 08001 barcelona spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:49:07",
+    "retry_after": "2026-08-14T17:49:18"
+  },
+  "m7 club|carrer de mexic 7 08004 barcelona spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:49:18",
+    "retry_after": "2026-08-14T17:49:30"
+  },
+  "macarena club|carrer nou de sant francesc 5 08002 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3794046,
+    "lng": 2.1768641,
+    "score": 17,
+    "display_name": "Macarena Club, 5, Carrer Nou de Sant Francesc, la Mercè, Gothic Quarter, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08002, Spagna",
+    "query": "Macarena Club, Barcelona, Spain"
+  },
+  "born 2b music bar|carrer del comerc 21 ciutat vella 08003 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3865262,
+    "lng": 2.1824853,
+    "score": 11,
+    "display_name": "Angel Jobal, 21, Carrer del Comerç, el Born, Sant Pere, Santa Caterina i la Ribera, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08003, Spagna",
+    "query": "Carrer del Comerç, 21, Ciutat Vella, 08003 Barcelona, Barcelona, Spain"
+  },
+  "luz de gas|carrer de muntaner 246 08021 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3945996,
+    "lng": 2.1490385,
+    "score": 15,
+    "display_name": "Luz de Gas, 246, Carrer de Muntaner, Galvany, Sant Gervasi - Galvany, Sarrià - Sant Gervasi, Barcellona, Barcelonès, Barcelona, Catalogna, 08021, Spagna",
+    "query": "Luz De Gas, Carrer de Muntaner, 246, 08021 Barcelona, Barcelona, Spain"
+  },
+  "tba secret location free access||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:49:30",
+    "motivo": "posizione_non_pubblica"
+  },
+  "tba backstage carrer casp 33||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:49:30",
+    "motivo": "posizione_non_pubblica"
+  },
+  "azul rooftop barceloneta|pg de joan de borbo 101 planta 8 ciutat vella 08038 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3688482,
+    "lng": 2.1882335,
+    "score": 15,
+    "display_name": "Azul Rooftop Barceloneta, Plaça Rosa dels Vents, la Barceloneta, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08039, Spagna",
+    "query": "Azul Rooftop Barceloneta, Barcelona, Spain"
+  },
+  "generator barcelona|carrer de corsega 373 08037 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3991439,
+    "lng": 2.1625978,
+    "score": 15,
+    "display_name": "Generator Barcelona, 373,375,377, Carrer de Còrsega, la Dreta de l'Eixample, Gràcia, Barcellona, Barcelonès, Barcelona, Catalogna, 08037, Spagna",
+    "query": "Generator Barcelona, Carrer de Còrsega, 373, 08037 Barcelona, Barcelona, Spain"
+  },
+  "purobeach barcelona|passeig del taulat 262 264 barcelona 08019 spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:49:30",
+    "retry_after": "2026-08-14T17:49:43"
+  },
+  "parc del forum|rambla prim 2 4 08019 barcelona spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:49:43",
+    "retry_after": "2026-08-14T17:49:55"
+  },
+  "bar viu|bar viu carrer de la perla 26|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:49:55",
+    "retry_after": "2026-08-14T17:50:08"
+  },
+  "jamboree dance club|pl reial 17 08002 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3797222,
+    "lng": 2.1752424,
+    "score": 15,
+    "display_name": "Jamboree Jazz & Dance Club, 17, Plaça Reial, el Palau, Gothic Quarter, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08002, Spagna",
+    "query": "Pl. Reial, 17, 08002 Barcelona, Barcelona, Spain"
+  },
+  "razzmatazz|c almogavers 122 c pamplona 88 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3975863,
+    "lng": 2.1912493,
+    "score": 15,
+    "display_name": "Razzmatazz, 122, Carrer dels Almogàvers, el Parc i la Llacuna del Poblenou, Sant Martí, Barcellona, Barcelonès, Barcelona, Catalogna, 08018, Spagna",
+    "query": "Razzmatazz, Barcelona, Spain"
+  },
+  "toc hostel|gran via de les corts catalanes 580 08011 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3847897,
+    "lng": 2.1625305,
+    "score": 17,
+    "display_name": "TOC Hostel Barcelona, 580, Gran Via de les Corts Catalanes (lateral mar), Sant Antoni, l'Eixample, Barcellona, Barcelonès, Barcelona, Catalogna, 08011, Spagna",
+    "query": "Gran Via de les Corts Catalanes, 580, 08011 Barcelona, Barcelona, Spain"
+  },
+  "boris club|carrer de bori i fontesta 25 sarria sant gervasi 08021 barcelona 2|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:50:08",
+    "retry_after": "2026-08-14T17:50:20"
+  },
+  "laut|carrer de vila i vila 63 08004 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3737857,
+    "lng": 2.1697111,
+    "score": 15,
+    "display_name": "Laut, Carrer de Vila i Vilà, les Hortes de Sant Bertran, el Poble-sec, Sants-Montjuïc, Barcellona, Barcelonès, Barcelona, Catalogna, 08001, Spagna",
+    "query": "LAUT, Barcelona, Spain"
+  },
+  "tba royal lounge club||barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3825802,
+    "lng": 2.177073,
+    "score": 9,
+    "display_name": "Barcellona, Barcelonès, Barcelona, Catalogna, Spagna",
+    "query": "Barcelona, Spain"
+  },
+  "sala upload barcelona|av francesc ferrer i guardia 13 08038 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3683044,
+    "lng": 2.1471107,
+    "score": 17,
+    "display_name": "Sala Upload, 13, Avinguda de Francesc Ferrer i Guàrdia, Magòria, el Poble-sec, Sants-Montjuïc, Barcellona, Barcelonès, Barcelona, Catalogna, 08014, Spagna",
+    "query": "Sala Upload Barcelona, Barcelona, Spain"
+  },
+  "almar beach club|carrer de dolores ibarruri pasionaria 08930 sant adria de besos barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:50:20",
+    "retry_after": "2026-08-14T17:50:32"
+  },
+  "bus hexperience|c port esportiu 14 08930 sant adria de besos barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:50:32",
+    "retry_after": "2026-08-14T17:50:44"
+  },
+  "seaseaclub barcelona|carrer port esportiu 14p 08930 barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:50:44",
+    "retry_after": "2026-08-14T17:50:56"
+  },
+  "7833 soundlab|carrer ferlandina 29 barcelona 08001 espanya|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:50:56",
+    "retry_after": "2026-08-14T17:51:08"
+  },
+  "tba playa sant sebastian||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:51:08",
+    "motivo": "posizione_non_pubblica"
+  },
+  "carrer del paradis 4|craft second floor private residence|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3831558,
+    "lng": 2.176977,
+    "score": 11,
+    "display_name": "Craft Barcelona, 4, Carrer del Paradís, la Catedral, Gothic Quarter, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08002, Spagna",
+    "query": "Carrer DEL Paradis 4, Barcelona, Spain"
+  },
+  "tba jorba piscina||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:51:08",
+    "motivo": "posizione_non_pubblica"
+  },
+  "la cantera underground techno|avenida mediterrani 24 17300 blanes girona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:51:08",
+    "retry_after": "2026-08-14T17:51:20"
+  },
+  "hola club sitges cala vallcarca|08872 sitges barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.2394463,
+    "lng": 1.8351724,
+    "score": 11,
+    "display_name": "08872, Sitges, Garraf, Barcelona, Catalogna, Spagna",
+    "query": "08872 Sitges, Barcelona, Barcelona, Spain"
+  },
+  "hotel negresco princess|c de roger de lluria 16 18 08010 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3905581,
+    "lng": 2.1726186,
+    "score": 15,
+    "display_name": "Hotel Negresco Princess, Carrer de Roger de Llúria, la Dreta de l'Eixample, l'Eixample, Barcellona, Barcelonès, Barcelona, Catalogna, 08010, Spagna",
+    "query": "Hotel Negresco Princess, Barcelona, Spain"
+  },
+  "hotel labtwentytwo|calle de peru 102 barcelona 08018 spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.4089858,
+    "lng": 2.1972417,
+    "score": 17,
+    "display_name": "LabTwentytwo, Carrer del Perú, Provençals del Poblenou, Sant Martí, Barcellona, Barcelonès, Barcelona, Catalogna, 08018, Spagna",
+    "query": "Hotel Labtwentytwo, Barcelona, Spain"
+  },
+  "detroit club|passatge can politic 13 b 08907 hospitalet de llobregat barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3544005,
+    "lng": 2.1072254,
+    "score": 13,
+    "display_name": "13, Passatge de Can Polític, Centre, Districte I, l'Hospitalet de Llobregat, Barcelonès, Barcelona, Catalogna, 08907, Spagna",
+    "query": "Passatge Can Polític, 13, b, 08907 Hospitalet de Llobregat, Barcelona, Barcelona, Spain"
+  },
+  "rachdingue|vilajuiga alt emporda costa brava spain 17493 vilajuiga cataluna spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:51:20",
+    "retry_after": "2026-08-14T17:51:32"
+  },
+  "puerto bahia club de mar|passeig del mare nostrum 61 08918 badalona barcelona spain|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:51:32",
+    "retry_after": "2026-08-14T17:51:44"
+  },
+  "w barcelona|placa de la rosa dels vents 1 08039 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3688328,
+    "lng": 2.1901152,
+    "score": 20,
+    "display_name": "W Barcelona, 1, Passeig del Mare Nostrum, la Barceloneta, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08039, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "W Barcelona, Barcelona, Spain"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:51:44",
+    "precisione": "indirizzo_verificato"
+  },
+  "ku barcelona|passeig maritim de la barceloneta 38 08003 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3825802,
+    "lng": 2.177073,
+    "score": 15,
+    "display_name": "Barcellona, Barcelonès, Barcelona, Catalogna, Spagna",
+    "query": "Ku Barcelona, Barcelona, Spain"
+  },
+  "tba mansion near plaza catalunya||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:51:53",
+    "motivo": "posizione_non_pubblica"
+  },
+  "marula cafe|carrer dels escudellers 49 08002 barcelona espana|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3801499,
+    "lng": 2.1768532,
+    "score": 17,
+    "display_name": "Marula Cafè, 49, Carrer dels Escudellers, el Palau, Gothic Quarter, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08002, Spagna",
+    "query": "Marula Cafe, Barcelona, Spain"
+  },
+  "tba rasquera terres de l ebre provincia de tarragona||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:51:54",
+    "motivo": "posizione_non_pubblica"
+  },
+  "localito 3 0|passeig de la marina 174 08860 castelldefels barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.2675793,
+    "lng": 1.9711903,
+    "score": 13,
+    "display_name": "174, Passeig de la Marina, les Botigues, Castelldefels, Baix Llobregat, Barcelona, Catalogna, 08860, Spagna",
+    "query": "Passeig de la Marina, 174, 08860 Castelldefels, Barcelona, Barcelona, Spain"
+  },
+  "tba fluxs||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:51:54",
+    "motivo": "posizione_non_pubblica"
+  },
+  "tba carrer casp 33b eixample 08010 barcelona||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:51:54",
+    "motivo": "posizione_non_pubblica"
+  },
+  "village underground barcelona|carrer cobalt 12 08907 l hospitalet de llobregat|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3591554,
+    "lng": 2.1108894,
+    "score": 17,
+    "display_name": "Carrer del Cobalt, Centre, Districte I, l'Hospitalet de Llobregat, Barcelonès, Barcelona, Catalogna, 08907, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Carrer Cobalt 12, 08907 L'Hospitalet de Llobregat, Barcelona, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-07T17:51:54",
+    "precisione": "indirizzo_verificato"
+  },
+  "terminal zero|calle estroncio s n 08820 el prat de llobregat barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:51:59",
+    "retry_after": "2026-08-14T17:52:12"
+  },
+  "bar viu|carrer de la perla 26 barcelona spain 08012|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:52:12",
+    "retry_after": "2026-08-14T17:52:23"
+  },
+  "tba carrer casp 33b||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:52:23",
+    "motivo": "posizione_non_pubblica"
+  },
+  "razzmatazz 3|calle pamplona 88 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3972784,
+    "lng": 2.1910762,
+    "score": 15,
+    "display_name": "Razzmatazz sales 2 & 3, Carrer de Pamplona, el Parc i la Llacuna del Poblenou, Sant Martí, Barcellona, Barcelonès, Barcelona, Catalogna, 08018, Spagna",
+    "query": "Razzmatazz 3, Barcelona, Spain"
+  },
+  "bastian beach club|passeig del mare nostrum 14 ciutat vella 08039 barcelona espana|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:52:23",
+    "retry_after": "2026-08-14T17:52:36"
+  },
+  "audiodise park montjuic|la font del gat passeig de santa madrona 28 sants montjuic 08038 barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:52:36",
+    "retry_after": "2026-08-14T17:52:48"
+  },
+  "hyde club|passatge de domingo 3 08007 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3926922,
+    "lng": 2.1625135,
+    "score": 13,
+    "display_name": "3, Passatge de Domingo, la Dreta de l'Eixample, l'Eixample, Barcellona, Barcelonès, Barcelona, Catalogna, 08008, Spagna",
+    "query": "Passatge de Domingo, 3, 08007 Barcelona, Barcelona, Spain"
+  },
+  "downtown barcelona|avinguda dr maranon 17 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.381261,
+    "lng": 2.1143271,
+    "score": 15,
+    "display_name": "Downtown Barcelona, 17, Avinguda del Doctor Marañón, Sant Ramon, la Maternitat i Sant Ramon, les Corts, Barcellona, Barcelonès, Barcelona, Catalogna, 08028, Spagna",
+    "query": "Downtown Barcelona, Avinguda Dr. Marañon, 17 ( Barcelona ), Barcelona, Spain"
+  },
+  "tba pratdip tarragona spain||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:52:48",
+    "motivo": "posizione_non_pubblica"
+  },
+  "tba||barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3967951,
+    "lng": 2.1521641,
+    "score": 9,
+    "display_name": "TBA Facilities, 191, 2º3ª, Carrer de Balmes, Sant Gervasi - Galvany, Sarrià - Sant Gervasi, Barcellona, Barcelonès, Barcelona, Catalogna, 08006, Spagna",
+    "query": "TBA, Barcelona, Spain"
+  },
+  "tba cami de sant pere del bosc s n des de ctra gi 600 08490 tordera barcelona||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:52:48",
+    "motivo": "posizione_non_pubblica"
+  },
+  "guixols arena|av de catalunya s n 17220 sant feliu de guixols girona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:52:48",
+    "retry_after": "2026-08-14T17:53:00"
+  },
+  "explanada maremagnum|edificio maremagnum moll d espanya 5 08039 barcelona espana|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:53:00",
+    "retry_after": "2026-08-14T17:53:12"
+  },
+  "tba kiosk del rec igualada||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:53:12",
+    "motivo": "posizione_non_pubblica"
+  },
+  "jardins de joan brossa|placa de dante 9999 08038 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3680688,
+    "lng": 2.1668704,
+    "score": 15,
+    "display_name": "Jardins de Joan Brossa, Sants-Montjuïc, Barcellona, Barcelonès, Barcelona, Catalogna, Spagna",
+    "query": "Jardins de Joan Brossa, Barcelona, Spain"
+  },
+  "mondo|sala but c de barcelo 11 local b centro 28004 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4178268,
+    "lng": -3.6989375,
+    "score": 15,
+    "display_name": "Mondo Disko, 20, Calle de Alcalá, Barrio de las Letras, Cortes, Centro, Madrid, Community of Madrid, 28014, Spagna",
+    "query": "Mondo, Madrid, Spain"
+  },
+  "el sotano|calle de las maldonadas 6 28005 madrid espana|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4109398,
+    "lng": -3.7077053,
+    "score": 24,
+    "display_name": "El Sótano, 6, Calle de las Maldonadas, Embajadores, Centro, Madrid, Community of Madrid, 28005, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "EL SÓTANO, Madrid, Spain"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:53:12",
+    "precisione": "indirizzo_verificato"
+  },
+  "strong the club|calle de trujillos 7 28013 madrid espana|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:53:21",
+    "retry_after": "2026-08-14T17:53:32"
+  },
+  "skin club|c de la aduana 21 centro 28013 madrid spain|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:53:32",
+    "retry_after": "2026-08-14T17:53:44"
+  },
+  "tba velvet rose||madrid|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:53:44",
+    "motivo": "posizione_non_pubblica"
+  },
+  "sala pirandelo|calle de martin de los heros 14 28008 madrid spain|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:53:44",
+    "retry_after": "2026-08-14T17:53:57"
+  },
+  "el internacional|calle de cedaceros 11 28014 madrid spain|madrid|es": {
+    "status": "verificato",
+    "lat": 40.438327,
+    "lng": -3.7205981,
+    "score": 11,
+    "display_name": "AECID Agencia Española de Cooperación Internacional para el Desarrollo, Avenida de los Reyes Católicos, Ciudad Universitaria, Moncloa-Aravaca, Madrid, Community of Madrid, 28008, Spagna",
+    "query": "El Internacional, Madrid, Spain"
+  },
+  "x private club|madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4237276,
+    "lng": -3.6899043,
+    "score": 13,
+    "display_name": "National Library of Spain, 20-22, Paseo de Recoletos, Recoletos, Salamanca, Madrid, Community of Madrid, 28071, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Madrid, Madrid, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-07T17:53:57",
+    "precisione": "indirizzo_verificato"
+  },
+  "goya social club|calle de goya 43 28001 madrid spain|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4254007,
+    "lng": -3.6829257,
+    "score": 15,
+    "display_name": "Goya social club, Calle de Núñez de Balboa, Recoletos, Salamanca, Madrid, Community of Madrid, 28001, Spagna",
+    "query": "Goya Social Club, Madrid, Spain"
+  },
+  "under bridge madrid|calle de canos viejos 3|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:54:03",
+    "retry_after": "2026-08-14T17:54:15"
+  },
+  "la pinilla ski resort|estacion esqui la pinilla s n 40500 la pinilla segovia|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:54:15",
+    "retry_after": "2026-08-14T17:54:26"
+  },
+  "lab theclub|estacion de chamartin primera planta s n 28036 madrid|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:54:26",
+    "retry_after": "2026-08-14T17:54:38"
+  },
+  "lula club|gran via 54|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4212349,
+    "lng": -3.7071374,
+    "score": 13,
+    "display_name": "Lula Club, 54, Gran Vía, Universidad, Centro, Madrid, Community of Madrid, 28013, Spagna",
+    "query": "Gran Via 54, Madrid, Spain"
+  },
+  "sala art|p o de la florida 2 28008 madrid|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:54:38",
+    "retry_after": "2026-08-14T17:54:52"
+  },
+  "tba||madrid|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:54:52",
+    "motivo": "posizione_non_pubblica"
+  },
+  "mondo open air|av san martin de valdeiglesias 22 28922 alcorcon madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.3580593,
+    "lng": -3.8354568,
+    "score": 20,
+    "display_name": "Jowke, 22, Avenida San Martín de Valdeiglesias, Carretera de San Martín, Norte, Alcorcón, Community of Madrid, 28922, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Av. San Martín de Valdeiglesias, 22, 28922 Alcorcón, Madrid, Madrid, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-07T17:54:52",
+    "precisione": "indirizzo_verificato"
+  },
+  "madrid caja magica|c camino de perales s n 28041 madrid espana|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:54:58",
+    "retry_after": "2026-08-14T17:55:10"
+  },
+  "fabrik|av de la industria 82 28970 humanes de madrid spain|madrid|es": {
+    "status": "verificato",
+    "lat": 40.2653008,
+    "lng": -3.8405653,
+    "score": 17,
+    "display_name": "Fabrik Madrid, 82, Avenida de la Industria, Madrid, Community of Madrid, 28970, Spagna",
+    "query": "Fabrik, Madrid, Spain"
+  },
+  "the bassement|c de galileo 2628015 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4324804,
+    "lng": -3.7102181,
+    "score": 15,
+    "display_name": "The Bassement Club, Calle de Galileo, Arapiles, Chamberí, Madrid, Community of Madrid, 28015, Spagna",
+    "query": "The Bassement, C. de Galileo, 2628015 Madrid, Madrid, Spain"
+  },
+  "specka|calle orense 26 bajos madrid 28020|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:55:10",
+    "retry_after": "2026-08-14T17:55:21"
+  },
+  "sala independance club|c de atocha 127 28012 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4096055,
+    "lng": -3.6926831,
+    "score": 11,
+    "display_name": "McDonald's, 127, Calle de Atocha, Cortes, Centro, Madrid, Community of Madrid, 28012, Spagna",
+    "query": "C. de Atocha, 127, 28012 Madrid, Madrid, Spain"
+  },
+  "universidad autonoma de madrid uam|ciudad universitaria de cantoblanco 28049 madrid|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:55:21",
+    "retry_after": "2026-08-14T17:55:33"
+  },
+  "lasociacin|c gamonal 5 28031 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.3722352,
+    "lng": -3.6465257,
+    "score": 9,
+    "display_name": "5, Calle Gamonal, Polígono Industrial Vallecas Sur, Casco Histórico de Vallecas, Villa de Vallecas, Madrid, Community of Madrid, 28018, Spagna",
+    "query": "C. Gamonal, 5, 28031 Madrid, Madrid, Spain"
+  },
+  "tba secret location madrid||madrid|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:55:33",
+    "motivo": "posizione_non_pubblica"
+  },
+  "ifema|av partenon 5 28042 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4785605,
+    "lng": -3.6221413,
+    "score": 13,
+    "display_name": "Ampliación Ifema, Timón, Barajas, Madrid, Community of Madrid, Spagna",
+    "query": "IFEMA, Madrid, Spain"
+  },
+  "madreams|av de pedro diez 28 carabanchel 28019 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.3919344,
+    "lng": -3.7324801,
+    "score": 13,
+    "display_name": "28, Avenida de Pedro Díez, San Isidro, Carabanchel, Madrid, Community of Madrid, 28019, Spagna",
+    "query": "Av. de Pedro Diez, 28, Carabanchel, 28019 Madrid, Madrid, Spain"
+  },
+  "sala galileo|calle de galileo 100 28015 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4384598,
+    "lng": -3.7098387,
+    "score": 15,
+    "display_name": "Sala Galileo Galilei, 100, Calle de Galileo, Arapiles, Chamberí, Madrid, Community of Madrid, 28015, Spagna",
+    "query": "Sala Galileo, Madrid, Spain"
+  },
+  "rastro live studio|santa ana 9 28005 madrid|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4098644,
+    "lng": -3.7082016,
+    "score": 20,
+    "display_name": "La Tapicería, 9, Calle de Santa Ana, Embajadores, Centro, Madrid, Community of Madrid, 28005, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Santa Ana 9, 28005 Madrid, Madrid, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-07T17:55:33",
+    "precisione": "indirizzo_verificato"
+  },
+  "heave festival|las inviernas 19491 guadalajara spain|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:55:40",
+    "retry_after": "2026-08-14T17:55:51"
+  },
+  "tba secret location||madrid|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:55:51",
+    "motivo": "posizione_non_pubblica"
+  },
+  "ciudad del rock|arganda del rey spain|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:55:51",
+    "retry_after": "2026-08-14T17:56:03"
+  },
+  "sala pirandello|calle martin de los heros 14 28008 madrid spain|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4248377,
+    "lng": -3.713805,
+    "score": 17,
+    "display_name": "Sala Pirandello, 14, Calle de Martín de los Heros, Argüelles, Moncloa-Aravaca, Madrid, Community of Madrid, 28008, Spagna",
+    "query": "Sala Pirandello, Madrid, Spain"
+  },
+  "mon live|calle hilarion eslava 36 28015 madrid|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:56:03",
+    "retry_after": "2026-08-14T17:56:15"
+  },
+  "tempo|calle del duque de osuna 8 28015 madrid spain|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4254487,
+    "lng": -3.7117951,
+    "score": 15,
+    "display_name": "Tempo, Plaza de Cristino Martos, Universidad, Centro, Madrid, Community of Madrid, 28015, Spagna",
+    "query": "Tempo, Madrid, Spain"
+  },
+  "studio76 club|calle ceramica 76 madrid spain|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:56:15",
+    "retry_after": "2026-08-14T17:56:27"
+  },
+  "nazca club|calle orense 24|madrid|es": {
+    "status": "verificato",
+    "lat": 40.4513836,
+    "lng": -3.6944566,
+    "score": 13,
+    "display_name": "Sala Nazca, 24, Calle de Orense, Cuatro Caminos, Tetuán, Madrid, Community of Madrid, 28020, Spagna",
+    "query": "Calle Orense, 24, Madrid, Spain"
+  },
+  "oven club|gran via germanias 31 valencia|valencia|es": {
+    "status": "verificato",
+    "lat": 39.4637272,
+    "lng": -0.3760158,
+    "score": 11,
+    "display_name": "31, Gran Via de les Germanies, Russafa, l'Eixample, Valencia, Comarca de València, Valencia, Comunità Valenzana, 46006, Spagna",
+    "query": "Gran Vía Germanías 31 Valencia, Valencia, Spain"
+  },
+  "killing time|doctor sumsi 21 ruzafa valencia|valencia|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:56:27",
+    "retry_after": "2026-08-14T17:56:39"
+  },
+  "33 45 club|c de l explorador andres 29 algiros 46022 valencia valencia|valencia|es": {
+    "status": "verificato",
+    "lat": 39.4717465,
+    "lng": -0.3456376,
+    "score": 13,
+    "display_name": "Carrer de l'Explorador Andrés, Ciutat Jardí, Algirós, Valencia, Comarca de València, Valencia, Comunità Valenzana, 46022, Spagna",
+    "query": "C/ de l'Explorador Andrés, 29, Algirós, 46022 València, Valencia, Valencia, Spain"
+  },
+  "resume valencia|carrer del mestre josep serrano 8 l eixample 46005 valencia valencia|valencia|es": {
+    "status": "verificato",
+    "lat": 39.4636982,
+    "lng": -0.3702102,
+    "score": 13,
+    "display_name": "8, Carrer del Mestre Josep Serrano, Russafa, l'Eixample, Valencia, Comarca de València, Valencia, Comunità Valenzana, 46005, Spagna",
+    "query": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia, Valencia, Spain"
+  },
+  "spook club|pinedo valencia|valencia|es": {
+    "status": "verificato",
+    "lat": 39.4105876,
+    "lng": -0.335184,
+    "score": 13,
+    "display_name": "Spook Club, Carrera del Riu, Pinedo, Pobles del Sud, Valencia, Comarca de València, Valencia, Comunità Valenzana, 46013, Spagna",
+    "query": "Spook Club, Pinedo Valencia, Valencia, Spain"
+  },
+  "medusa beach|46400 cullera valencia spain|valencia|es": {
+    "status": "verificato",
+    "lat": 39.1542811,
+    "lng": -0.2425765,
+    "score": 15,
+    "display_name": "Medusa Beach Club, Passeig del Riu, Nova Bega, Masia del Racó, Cullera, la Ribera Baixa, Valencia, Comunità Valenzana, 46400, Spagna",
+    "query": "Medusa Beach, Valencia, Spain"
+  },
+  "la fabrica de hielo|carrer de pavia 37 46011 valencia spain|valencia|es": {
+    "status": "verificato",
+    "lat": 39.4695092,
+    "lng": -0.3250717,
+    "score": 15,
+    "display_name": "La Fábrica de Hielo, Carrer dels Pescadors, el Cabanyal - el Canyamelar, Poblats Marítims, Valencia, Comarca de València, Valencia, Comunità Valenzana, 46011, Spagna",
+    "query": "La Fábrica de Hielo, Valencia, Spain"
+  },
+  "rototom sunsplash|carretera n 340 km 986 3 12560 benicassim spagna|valencia|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:56:39",
+    "retry_after": "2026-08-14T17:56:51"
+  },
+  "tba||valencia|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:56:51",
+    "motivo": "posizione_non_pubblica"
+  },
+  "bombas gens centre darts digitals|avenida de burjassot 54 56 46009 valencia spain|valencia|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:56:51",
+    "retry_after": "2026-08-14T17:57:03"
+  },
+  "16 toneladas|c de ricardo mico 3 campanar 46009 valencia|valencia|es": {
+    "status": "verificato",
+    "lat": 39.4812648,
+    "lng": -0.387557,
+    "score": 17,
+    "display_name": "16 Toneladas Rock Club, 3, Carrer de Ricardo Micó, Campanar, Valencia, Comarca de València, Valencia, Comunità Valenzana, 46009, Spagna",
+    "query": "C/ de Ricardo Micó, 3, Campanar, 46009 València, Valencia, Spain"
+  },
+  "tempio del futuro perduto|via luigi nono 9 20100 milan italy|milan|it": {
+    "status": "verificato",
+    "lat": 45.4856394,
+    "lng": 9.1756747,
+    "score": 15,
+    "display_name": "Tempio del Futuro Perduto, 7, Via Luigi Nono, Bullona, Sarpi, Municipio 8 di Milano, Milano, Rodano, Milano, Lombardia, 20154, Italia",
+    "query": "Tempio del Futuro Perduto, Milan, Italy"
+  },
+  "victorias club|via feltre 30 milano 20132|milan|it": {
+    "status": "verificato",
+    "lat": 45.491086,
+    "lng": 9.2392251,
+    "score": 13,
+    "display_name": "30, Via Feltre, Parco Lambro - Cimiano, Municipio 3, Milano, Rodano, Milano, Lombardia, 20132, Italia",
+    "query": "Via Feltre 30 Milano 20132, Milan, Italy"
+  },
+  "circolo magnolia|via circonvallazione idroscalo 20090 segrate mi italy|milan|it": {
+    "status": "verificato",
+    "lat": 45.4637036,
+    "lng": 9.286076,
+    "score": 17,
+    "display_name": "Circolo Magnolia, 41, Circonvallazione Idroscalo, Redecesio, Novegro, Segrate, Rodano, Milano, Lombardia, 20054, Italia",
+    "query": "Circolo Magnolia, Milan, Italy"
+  },
+  "gate milano|via valtellina 21 20159 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.4943778,
+    "lng": 9.1819083,
+    "score": 15,
+    "display_name": "Gate, 21, Via Valtellina, La Fontana, Isola, Municipio 9, Milano, Rodano, Milano, Lombardia, 20159, Italia",
+    "query": "Via Valtellina, 21, 20159 Milano MI, Milan, Italy"
+  },
+  "ex macello|viale molise 62 20137 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.457941,
+    "lng": 9.2273118,
+    "score": 15,
+    "display_name": "Ex Macello, Municipio 4, Milano, Rodano, Milano, Lombardia, Italia",
+    "query": "Ex Macello, Milan, Italy"
+  },
+  "castello sforzesco|piazza castello 20121 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.4703009,
+    "lng": 9.1780912,
+    "score": 15,
+    "display_name": "Castello Sforzesco, Piazza Castello, Cerchia dei Navigli, Municipio 1, Milano, Rodano, Milano, Lombardia, 20123, Italia",
+    "query": "Castello Sforzesco, Piazza Castello, 20121 Milano MI, Milan, Italy"
+  },
+  "dopo space|via carlo boncompagni 51 10 20139 milano mi|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:57:03",
+    "retry_after": "2026-08-14T17:57:15"
+  },
+  "parco la spezia|via rimini 38 20142 milano|milan|it": {
+    "status": "verificato",
+    "lat": 45.4410993,
+    "lng": 9.1690891,
+    "score": 11,
+    "display_name": "Bar Arca, 38, Via Rimini, San Cristoforo, Municipio 6, Milano, Rodano, Milano, Lombardia, 20142, Italia",
+    "query": "Via Rimini 38, 20142, Milano, Milan, Italy"
+  },
+  "oasi ca granda|via giuseppe ripamonti 428 20141 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.4133746,
+    "lng": 9.2060784,
+    "score": 11,
+    "display_name": "428, Via Giuseppe Ripamonti, Cascina Brandezzata, Parco delle Abbazie, Municipio 5, Milano, Rodano, Milano, Lombardia, 20141, Italia",
+    "query": "Via Giuseppe Ripamonti, 428, 20141 Milano MI, Milan, Italy"
+  },
+  "money club milano|viale achille papa 30 20159 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.4895624,
+    "lng": 9.1412193,
+    "score": 13,
+    "display_name": "30, Viale Achille Papa, Villapizzone, Municipio 8 di Milano, Milano, Lombardia, 20149, Italia",
+    "query": "Viale Achille Papa, 30, 20159 Milano MI, Milan, Italy"
+  },
+  "tunnel|via giovanni battista sammartini 30 20125 milano mi italy|milan|it": {
+    "status": "verificato",
+    "lat": 45.4883437,
+    "lng": 9.1462614,
+    "score": 11,
+    "display_name": "Tunnel Gattamelata, Villapizzone, Municipio 8 di Milano, Milano, Lombardia, 20156, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Tunnel, Milan, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:57:15",
+    "precisione": "indirizzo_verificato"
+  },
+  "rock n roll milano|20125 via bruschetti 11 milano|milan|it": {
+    "status": "verificato",
+    "lat": 45.4925338,
+    "lng": 9.2075644,
+    "score": 15,
+    "display_name": "Rock'n'Roll Milano, 11, Via Giuseppe Bruschetti, Centrale, Municipio 2, Milano, Rodano, Milano, Lombardia, 20125, Italia",
+    "query": "Rock 'n' Roll Milano, Milan, Italy"
+  },
+  "just cavalli milano restaurant club|torre branca via luigi camoens 20121 milano mi italy|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:57:24",
+    "retry_after": "2026-08-14T17:57:36"
+  },
+  "giardini argonne campi da basket|milano 20133 viale argonne 37 mi italy|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:57:36",
+    "retry_after": "2026-08-14T17:57:48"
+  },
+  "anfiteatro monte stella|via enrico terzaghi 26 20148 milano mi italia|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:57:48",
+    "retry_after": "2026-08-14T17:58:00"
+  },
+  "p za ventiquattro maggio|milano piazza 24 maggio 20144|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:58:00",
+    "retry_after": "2026-08-14T17:58:12"
+  },
+  "pac padiglione d arte contemporanea|via palestro 14|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:58:12",
+    "retry_after": "2026-08-14T17:58:24"
+  },
+  "bluesquare|via tortona 33 20144|milan|it": {
+    "status": "verificato",
+    "lat": 45.4511519,
+    "lng": 9.1612166,
+    "score": 11,
+    "display_name": "33, Via Tortona, Foppette, Tortona, Municipio 6, Milano, Rodano, Milano, Lombardia, 20144, Italia",
+    "query": "Via Tortona 33, 20144, Milan, Italy"
+  },
+  "detune|via felice casati 24 20124 milano|milan|it": {
+    "status": "verificato",
+    "lat": 45.4791317,
+    "lng": 9.2029345,
+    "score": 13,
+    "display_name": "24, Via Felice Casati, Centrale, Municipio 2, Milano, Rodano, Milano, Lombardia, 20124, Italia",
+    "query": "Via Felice Casati 24, 20124 Milano, Milan, Italy"
+  },
+  "parco industria alfa romeo portello|viale renato serra 31 20149 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.4876255,
+    "lng": 9.1452619,
+    "score": 15,
+    "display_name": "Parco Industria Alfa Romeo Portello, Municipio 8 di Milano, Milano, Lombardia, Italia",
+    "query": "Parco Industria Alfa Romeo - Portello, Milan, Italy"
+  },
+  "base milano|via bergognone 34 20144 milan italy|milan|it": {
+    "status": "verificato",
+    "lat": 45.4531125,
+    "lng": 9.1636486,
+    "score": 15,
+    "display_name": "BASE Milano, 26, Via Bergognone Da Fossano, Tortona, Municipio 6, Milano, Rodano, Milano, Lombardia, 20144, Italia",
+    "query": "BASE Milano, Milan, Italy"
+  },
+  "department 184|via varesina 184 20156 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.5040473,
+    "lng": 9.13816,
+    "score": 13,
+    "display_name": "184, Via Varesina, Villapizzone, Municipio 8 di Milano, Milano, Lombardia, 20156, Italia",
+    "query": "Via Varesina, 184, 20156 Milano MI, Milan, Italy"
+  },
+  "fiera milano|strada statale 33 del sempione 28 20145 rho milano italy|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:58:24",
+    "retry_after": "2026-08-14T17:58:36"
+  },
+  "carroponte|via luigi granelli sesto san giovanni cap 20099 milano|milan|it": {
+    "status": "verificato",
+    "lat": 45.529574,
+    "lng": 9.2209217,
+    "score": 17,
+    "display_name": "Carroponte, 1, Via Luigi Granelli, Torretta, Sesto San Giovanni, Zona Omogenea Milano Nord, Milano, Lombardia, 20099, Italia",
+    "query": "Carroponte, Milan, Italy"
+  },
+  "tba milano city north||milan|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:58:36",
+    "motivo": "posizione_non_pubblica"
+  },
+  "magazzini generali|via pietrasanta 14 20124 milano mi|milan|it": {
+    "status": "verificato",
+    "lat": 45.4438506,
+    "lng": 9.1964489,
+    "score": 13,
+    "display_name": "14, Via Pietrasanta, Ex Om - Morivione, Municipio 5, Milano, Rodano, Milano, Lombardia, 20141, Italia",
+    "query": "Via Pietrasanta 14, 20124 Milano (MI), Milan, Italy"
+  },
+  "tba secret location||milan|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T17:58:36",
+    "motivo": "posizione_non_pubblica"
+  },
+  "biko|via ettore ponti 40 20143 milano|milan|it": {
+    "status": "verificato",
+    "lat": 45.4421057,
+    "lng": 9.1538049,
+    "score": 13,
+    "display_name": "Circolo Arci Biko, 40, Via Ettore Ponti, San Cristoforo, Municipio 6, Milano, Lombardia, 20143, Italia",
+    "query": "BIKO, Via Ettore Ponti 40, 20143 Milano, Milan, Italy"
+  },
+  "hotel butterfly|viale dei gladiatori 68 00135 roma rm italia|rome|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:58:36",
+    "retry_after": "2026-08-14T17:58:48"
+  },
+  "the magick bar|via lungotevere oberdan 2 rome italy 00195|rome|it": {
+    "status": "verificato",
+    "lat": 41.9195621,
+    "lng": 12.4699294,
+    "score": 19,
+    "display_name": "The Magick Bar, 2, Lungotevere Guglielmo Oberdan, Municipio Roma I, Roma, Lazio, 00195, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "THE MAGICK BAR, Rome, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:58:48",
+    "precisione": "indirizzo_verificato"
+  },
+  "forte antenne|via del forte antenne 12 00199 roma rm italy|rome|it": {
+    "status": "verificato",
+    "lat": 41.9380991,
+    "lng": 12.5007543,
+    "score": 18,
+    "display_name": "Forte Antenne, Via del Forte Antenne, Parioli, Municipio Roma II, Roma, Lazio, 00199, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Forte Antenne, Rome, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:58:57",
+    "precisione": "indirizzo_verificato"
+  },
+  "neo club roma|via degli argonauti 18 00154 roma rm italy|rome|it": {
+    "status": "verificato",
+    "lat": 41.8646581,
+    "lng": 12.481313,
+    "score": 21,
+    "display_name": "Neo Club Roma, 18, Via degli Argonauti, Garbatella, Municipio Roma VIII, Roma, Lazio, 00154, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "NEO CLUB ROMA, Rome, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:59:06",
+    "precisione": "indirizzo_verificato"
+  },
+  "auditorium parco della musica|viale pietro de coubertin 00196 roma rm italy|rome|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:59:15",
+    "retry_after": "2026-08-14T17:59:28"
+  },
+  "largo venue|via biordo michelotti 2 00176 roma rm italy|rome|it": {
+    "status": "verificato",
+    "lat": 41.8927748,
+    "lng": 12.5381774,
+    "score": 18,
+    "display_name": "Largo Venue, Via Biordo Michelotti, Municipio Roma V, Roma, Lazio, 00176, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Largo Venue, Rome, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:59:28",
+    "precisione": "indirizzo_verificato"
+  },
+  "sophia club italy|04022 fondi province of latina|rome|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:59:36",
+    "retry_after": "2026-08-14T17:59:48"
+  },
+  "brancaleone|11 via levanna 00141 rome rm italy|rome|it": {
+    "status": "verificato",
+    "lat": 41.9369238,
+    "lng": 12.5407404,
+    "score": 19,
+    "display_name": "Brancaleone, 11, Via Levanna, Monte Sacro, Municipio Roma III, Roma, Lazio, 00141, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Brancaleone, Rome, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T17:59:48",
+    "precisione": "indirizzo_verificato"
+  },
+  "hacienda club|via di galla placidia 27 b roma 00159|rome|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T17:59:58",
+    "retry_after": "2026-08-14T18:00:10"
+  },
+  "tba villa del marchese viggiano potenza||bologna|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:00:10",
+    "motivo": "posizione_non_pubblica"
+  },
+  "parco medipark|via perossaro 187 41038 san felice sul panaro mo emilia romagna italia|bologna|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:00:10",
+    "retry_after": "2026-08-14T18:00:22"
+  },
+  "link|via francesco fantoni 21 40127 bologna bo italy|bologna|it": {
+    "status": "verificato",
+    "lat": 44.5124127,
+    "lng": 11.4157208,
+    "score": 17,
+    "display_name": "Link, Via Francesco Fantoni, Róveri, San Donato-San Vitale, Quarto Superiore, Bologna, Emilia-Romagna, 40055, Italia",
+    "query": "Link, Bologna, Italy"
+  },
+  "gianca murazzi|torino 10123 murazzi del po gipo farassino|turin|it": {
+    "status": "verificato",
+    "lat": 45.0628559,
+    "lng": 7.6953274,
+    "score": 18,
+    "display_name": "Gianca Murazzi, Via Murazzi del Po Giuseppe Farassino (Gipo), Borgo Nuovo, Centro, Circoscrizione 1, Torino, Piemonte, 10123, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Gianca - Murazzi, Turin, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T18:00:22",
+    "precisione": "indirizzo_verificato"
+  },
+  "bunker|via niccolo paganini 0 200 10154 torino to italy|turin|it": {
+    "status": "verificato",
+    "lat": 45.0843902,
+    "lng": 7.7047285,
+    "score": 16,
+    "display_name": "Bunker, Via Niccolò Paganini, Barriera di Milano, Circoscrizione 6, Torino, Piemonte, 10154, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Bunker, Turin, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T18:00:31",
+    "precisione": "indirizzo_verificato"
+  },
+  "azimut club|via modena 55 10153 torino to italy|turin|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:00:41",
+    "retry_after": "2026-08-14T18:00:53"
+  },
+  "q35 warehouse|lungo dora firenze 131 a|turin|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:00:53",
+    "retry_after": "2026-08-14T18:01:04"
+  },
+  "lingotto fiere|via nizza 294 10126 torino to italy|turin|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:01:04",
+    "retry_after": "2026-08-14T18:01:16"
+  },
+  "rumore nightclub capri|via roma 71 80073 capri italy|naples|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:01:16",
+    "retry_after": "2026-08-14T18:01:28"
+  },
+  "chalet nonna carmela|via spinesante n45 forio dischia 80075|naples|it": {
+    "status": "verificato",
+    "lat": 40.742694,
+    "lng": 13.8653777,
+    "score": 16,
+    "display_name": "Chalet Nonna Carmela, 45, Via Spinesante, Forio, Napoli, Campania, 80075, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Chalet Nonna Carmela, Naples, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T18:01:28",
+    "precisione": "indirizzo_verificato"
+  },
+  "flava beach|uscita litorale domitio localita ponte a mare castel volturno caserta castel volturno campania|naples|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:01:36",
+    "retry_after": "2026-08-14T18:01:47"
+  },
+  "calatheabeachclub|via giuseppe saverio mercadante 81030 castel volturno caserta|naples|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:01:47",
+    "retry_after": "2026-08-14T18:01:58"
+  },
+  "maya beach experience|via villazzano 3 massa lubrense|naples|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:01:58",
+    "retry_after": "2026-08-14T18:02:10"
+  },
+  "tba the club room worldwide||naples|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:02:10",
+    "motivo": "posizione_non_pubblica"
+  },
+  "tba||naples|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:02:10",
+    "motivo": "posizione_non_pubblica"
+  },
+  "tba slopes of mount vesuvius||naples|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:02:10",
+    "motivo": "posizione_non_pubblica"
+  },
+  "tba naples||naples|it": {
+    "status": "verificato",
+    "lat": 40.7944401,
+    "lng": 14.4635416,
+    "score": 9,
+    "display_name": "Napoli, Campania, Italia",
+    "query": "Naples, Italy"
+  },
+  "tba secret location vesuvius area||naples|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:02:10",
+    "motivo": "posizione_non_pubblica"
+  },
+  "umoya|castel volturno ce 81030 via mezzagni|naples|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:02:10",
+    "retry_after": "2026-08-14T18:02:22"
+  },
+  "ex base nato|viale della liberazione 117|naples|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:02:22",
+    "retry_after": "2026-08-14T18:02:34"
+  },
+  "discoteca paradiso|via fascione 4 80078 pozzuoli na italy|naples|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:02:34",
+    "retry_after": "2026-08-14T18:02:46"
+  },
+  "golden gate|dircksenstrasse 78 mitte 10178 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5159611,
+    "lng": 13.4169199,
+    "score": 17,
+    "display_name": "Golden Gate, Dircksenstraße, Neu-Cölln am Wasser, Mitte, Berlino, 10179, Germania",
+    "query": "Golden Gate, Berlin, Germany"
+  },
+  "prisma|bruckenstrae 1 10179 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5111653,
+    "lng": 13.4167079,
+    "score": 17,
+    "display_name": "Prisma, Brückenstraße, Heine-Viertel, Luisenstadt, Mitte, Berlino, 10179, Germania",
+    "query": "Prisma, Berlin, Germany"
+  },
+  "kitkatclub|kopenicker strasse 76 mitte 10179 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5112074,
+    "lng": 13.4169157,
+    "score": 17,
+    "display_name": "Kit Kat Club, 76, Köpenicker Straße, Heine-Viertel, Luisenstadt, Mitte, Berlino, 10179, Germania",
+    "query": "KitKatClub, Berlin, Germany"
+  },
+  "hor berlin|hasenheide 47 10967 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4888285,
+    "lng": 13.4115451,
+    "score": 13,
+    "display_name": "Hör, 47, Hasenheide, Graefekiez, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10967, Germania",
+    "query": "HÖR Berlin, Berlin, Germany"
+  },
+  "wendel|schlesische strasse 42 kreuzberg 10997 germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5005219,
+    "lng": 13.443511,
+    "score": 17,
+    "display_name": "Wendel, 42, Schlesische Straße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10997, Germania",
+    "query": "Wendel, Berlin, Germany"
+  },
+  "eschschloraque|rosenthaler str 39 10178 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5244696,
+    "lng": 13.4017208,
+    "score": 17,
+    "display_name": "Eschschloraque Rümschrümp, 39, Rosenthaler Straße, Spandauer Vorstadt, Mitte, Berlino, 10178, Germania",
+    "query": "Eschschloraque, Berlin, Germany"
+  },
+  "migas a listening bar|lindower strae 19 13347 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5437369,
+    "lng": 13.367712,
+    "score": 17,
+    "display_name": "migas, a listening bar, 19, Lindower Straße, Antonkiez, Wedding, Mitte, Berlino, 13347, Germania",
+    "query": "Lindower Straße 19 13347 Berlin, Berlin, Germany"
+  },
+  "silent green|gerichtstrae 35 13347 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5456853,
+    "lng": 13.36649,
+    "score": 13,
+    "display_name": "silent green Kulturquartier, 35, Gerichtstraße, Antonkiez, Wedding, Mitte, Berlino, 13347, Germania",
+    "query": "Silent Green, Berlin, Germany"
+  },
+  "martin gropius bau|niederkirchnerstrae 7 10963 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5066209,
+    "lng": 13.3819472,
+    "score": 17,
+    "display_name": "Gropius-Bau, 7, Niederkirchnerstraße, Friedrichstadt, Kreuzberg, Mitte, Berlino, 10963, Germania",
+    "query": "Martin-Gropius-Bau, Niederkirchnerstraße 7, 10963 Berlin, Berlin, Germany"
+  },
+  "about blank|markgrafendamm 24c 10245 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5024767,
+    "lng": 13.466302,
+    "score": 15,
+    "display_name": "://about blank, 24c, Markgrafendamm, Laskerkiez, Stralau, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "://about blank, Berlin, Germany"
+  },
+  "club der visionaere|am flutgraben 1 12435 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4967959,
+    "lng": 13.4504805,
+    "score": 15,
+    "display_name": "Club der Visionaere, 1, Am Flutgraben, Kungerkiez, Alt-Treptow, Treptow-Köpenick, Berlino, 12435, Germania",
+    "query": "Club der Visionaere, Berlin, Germany"
+  },
+  "bar131|chausseestrae 131a 10115 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:02:46",
+    "retry_after": "2026-08-14T18:02:57"
+  },
+  "tba near berlin secret forest||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:02:57",
+    "motivo": "posizione_non_pubblica"
+  },
+  "gretchen|obentrautstr 19 21 10963 kreuzberg berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5056689,
+    "lng": 13.5080026,
+    "score": 13,
+    "display_name": "Gretchen, Zachertstraße, Sewanviertel, Friedrichsfelde, Lichtenberg, Berlino, 10315, Germania",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "de",
+      "q": "Gretchen, Berlin, Germany"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T18:02:57",
+    "precisione": "indirizzo_verificato"
+  },
+  "hamburger bahnhof museum fur gegenwart|invalidenstrae 50 51 10557 berlin|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:03:06",
+    "retry_after": "2026-08-14T18:03:18"
+  },
+  "ohm|kopenicker str 70 10179 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5105954,
+    "lng": 13.4197888,
+    "score": 17,
+    "display_name": "Ohm, 70, Köpenicker Straße, Heine-Viertel, Luisenstadt, Mitte, Berlino, 10179, Germania",
+    "query": "OHM, Berlin, Germany"
+  },
+  "tba rummelsburger bucht||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:03:18",
+    "motivo": "posizione_non_pubblica"
+  },
+  "lido berlin|cuvrystrasse 7 kreuzberg 10997 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4992172,
+    "lng": 13.4450748,
+    "score": 15,
+    "display_name": "Lido, 7, Cuvrystraße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10997, Germania",
+    "query": "Lido Berlin, Berlin, Germany"
+  },
+  "minimal bar|rigaer strasse 31 friedrichshain 10247 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5164827,
+    "lng": 13.4639097,
+    "score": 17,
+    "display_name": "mini.mal, 31, Rigaer Straße, Samariterviertel, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10247, Germania",
+    "query": "Minimal Bar, Berlin, Germany"
+  },
+  "giri|hermannstrasse 14 12049 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4842037,
+    "lng": 13.4243857,
+    "score": 17,
+    "display_name": "Giri, 14, Hermannstraße, Flughafenkiez, Neukölln, Berlino, 12049, Germania",
+    "query": "Hermannstrasse 14, 12049 Berlin, Berlin, Germany"
+  },
+  "berghain panorama bar saule|70 am wriezener bahnhof friedrichshain 10243 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:03:18",
+    "retry_after": "2026-08-14T18:03:29"
+  },
+  "renate|alt stralau 70 friedrichshain 10245 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4973901,
+    "lng": 13.4653065,
+    "score": 17,
+    "display_name": "Wilde Renate, 70, Alt-Stralau, Laskerkiez, Stralau, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "Renate, Berlin, Germany"
+  },
+  "crack bellmer|revaler strasse 99 10245 berlin friedrichshain berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5075865,
+    "lng": 13.4547707,
+    "score": 17,
+    "display_name": "Crack Bellmer, 99, Revaler Straße, Boxhagener Kiez, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "Crack Bellmer, Berlin, Germany"
+  },
+  "oye kreuzkoelln|friedelstr 49 12047 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4895717,
+    "lng": 13.4275477,
+    "score": 13,
+    "display_name": "49, Friedelstraße, Reuterkiez, Neukölln, Berlino, 12047, Germania",
+    "query": "Friedelstr. 49, 12047 Berlin, Berlin, Germany"
+  },
+  "ikii|herrfurthplatz 8 12049 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4766339,
+    "lng": 13.4215356,
+    "score": 17,
+    "display_name": "ikii, 8, Herrfurthplatz, Schillerkiez, Neukölln, Berlino, 12049, Germania",
+    "query": "Ikii, Berlin, Germany"
+  },
+  "atemporal|boxhagener str 96 1st floor left 10245 berlin|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:03:30",
+    "retry_after": "2026-08-14T18:03:41"
+  },
+  "madame claude|lubbener str 19 10997 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4996096,
+    "lng": 13.4374056,
+    "score": 15,
+    "display_name": "Madame Claude, 19, Lübbener Straße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10997, Germania",
+    "query": "Madame Claude, Berlin, Germany"
+  },
+  "bulbul berlin|skalitzer str 114 10999 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4993312,
+    "lng": 13.4242521,
+    "score": 15,
+    "display_name": "Bulbul Berlin, 114, Skalitzer Straße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10999, Germania",
+    "query": "Bulbul Berlin, Berlin, Germany"
+  },
+  "der weie hase|revaler str 99 10245 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5075831,
+    "lng": 13.4545322,
+    "score": 13,
+    "display_name": "The White Rabbit, Revaler Straße, Boxhagener Kiez, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "Der Weiße Hase, Berlin, Germany"
+  },
+  "lokschuppen berlin|warschauer brucke revaler strae 99 zugang uber 10245 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5071698,
+    "lng": 13.4510769,
+    "score": 17,
+    "display_name": "Lokschuppen, 99, Revaler Straße, Mediaspree, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "Lokschuppen Berlin, Berlin, Germany"
+  },
+  "den|schleusenufer 2 10997 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4984065,
+    "lng": 13.4505202,
+    "score": 13,
+    "display_name": "Schleusenufer, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10997, Germania",
+    "query": "Schleusenufer 2, 10997 Berlin, Berlin, Germany"
+  },
+  "arkaoda berlin|karl marx platz 16 12043 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4738852,
+    "lng": 13.4425685,
+    "score": 17,
+    "display_name": "Arkaoda, 16, Karl-Marx-Platz, Richardkiez, Körnerkiez, Neukölln, Berlino, 12043, Germania",
+    "query": "arkaoda Berlin, Berlin, Germany"
+  },
+  "spati 4 you|frankfurter allee 27 10247 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5157239,
+    "lng": 13.4600425,
+    "score": 17,
+    "display_name": "Späti 4 you, Liebigstraße, Boxhagener Kiez, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10247, Germania",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "de",
+      "q": "Späti 4 You, Berlin, Germany"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T18:03:41",
+    "precisione": "indirizzo_verificato"
+  },
+  "ost|alt stralau 1 2 friedrichshain 10245|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4970681,
+    "lng": 13.4650321,
+    "score": 17,
+    "display_name": "OST, 1-2, Alt-Stralau, Laskerkiez, Stralau, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "OST, Alt-Stralau, 1-2 Friedrichshain 10245, Berlin, Germany"
+  },
+  "dna club urban space|adalbertstrae 98 10999 berlin|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:03:51",
+    "retry_after": "2026-08-14T18:04:03"
+  },
+  "ritter butzke|ritterstrasse 26 kreuzberg 10969 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5030121,
+    "lng": 13.4081361,
+    "score": 17,
+    "display_name": "Ritter Butzke, 26, Ritterstraße, Ritterkiez, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10969, Germania",
+    "query": "Ritter Butzke, Berlin, Germany"
+  },
+  "tba warschauer pl 18 10245 berlin||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:04:03",
+    "motivo": "posizione_non_pubblica"
+  },
+  "klunkerkranich|karl marx strae 66 12043 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4820706,
+    "lng": 13.4313317,
+    "score": 17,
+    "display_name": "Klunkerkranich, 66, Karl-Marx-Straße, Donaukiez, Neukölln, Berlino, 12043, Germania",
+    "query": "Klunkerkranich, Berlin, Germany"
+  },
+  "dunckerclub|dunckerstrasse 64 10439 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.546204,
+    "lng": 13.4237144,
+    "score": 15,
+    "display_name": "Duncker, 64, Dunckerstraße, Humann-Kiez, Prenzlauer Berg, Pankow, Berlino, 10439, Germania",
+    "query": "Dunckerclub, Dunckerstrasse 64, 10439 Berlin, Berlin, Germany"
+  },
+  "generator berlin alexanderplatz|otto braun strae 65 berlin 10178 germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5238133,
+    "lng": 13.4178901,
+    "score": 17,
+    "display_name": "Generator Berlin Alexanderplatz, 65, Otto-Braun-Straße, Mitte, Berlino, 10178, Germania",
+    "query": "Generator Berlin Alexanderplatz, Berlin, Germany"
+  },
+  "zum bohmischen dorf|sanderstrae 11 12047 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4923371,
+    "lng": 13.4259409,
+    "score": 17,
+    "display_name": "Zum böhmischen Dorf, 11, Sanderstraße, Reuterkiez, Neukölln, Berlino, 12047, Germania",
+    "query": "Zum Böhmischen Dorf, Sanderstraße 11, 12047 Berlin, Berlin, Germany"
+  },
+  "the door club|joachimsthaler str 25 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:04:03",
+    "retry_after": "2026-08-14T18:04:16"
+  },
+  "tba secret location near jannowitzbrucke||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:04:16",
+    "motivo": "posizione_non_pubblica"
+  },
+  "rosie s bar|weinbergsweg 1a rosenthaler platz 10119 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5301475,
+    "lng": 13.4018631,
+    "score": 17,
+    "display_name": "Rosie's, Weinbergsweg, Rosenthaler Vorstadt, Mitte, Berlino, 10119, Germania",
+    "query": "Rosie's Bar, Berlin, Germany"
+  },
+  "tba||berlin|de": {
+    "status": "verificato",
+    "lat": 52.4993694,
+    "lng": 13.3496349,
+    "score": 9,
+    "display_name": "TBA Erling G Berlin, Eisenacher Straße, Winterfeldtkiez, Nollendorfkiez, Schöneberg, Tempelhof-Schöneberg, Berlino, 10777, Germania",
+    "query": "TBA, Berlin, Germany"
+  },
+  "dv|oranienstrae 36 kreuzberg 10999 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4103994,
+    "lng": 13.1306275,
+    "score": 15,
+    "display_name": "DV, Glienicker Straße, Stolpe (Wannsee), Wannsee, Steglitz-Zehlendorf, Berlino, 14109, Germania",
+    "query": "DV, Berlin, Germany"
+  },
+  "tba secret location||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:04:16",
+    "motivo": "posizione_non_pubblica"
+  },
+  "waschhaus|schiffbauergasse 6 14467 potsdam|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:04:16",
+    "retry_after": "2026-08-14T18:04:28"
+  },
+  "tba feldberger seenlandschaft||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:04:28",
+    "motivo": "posizione_non_pubblica"
+  },
+  "m01|markgrafendamm 1 10245 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5173885,
+    "lng": 13.3951309,
+    "score": 11,
+    "display_name": "Berlino, Germania",
+    "query": "M01, Berlin, Germany"
+  },
+  "humboldthain club|hochstrae 46 13357 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5441625,
+    "lng": 13.3787124,
+    "score": 15,
+    "display_name": "Humboldthain Club, 46, Hochstraße, Brunnenviertel, Gesundbrunnen, Mitte, Berlino, 13357, Germania",
+    "query": "Humboldthain Club, Berlin, Germany"
+  },
+  "weekend|alexanderstrasse 7 mitte 10178 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5229029,
+    "lng": 13.4164231,
+    "score": 17,
+    "display_name": "Weekend Club, 7, Alexanderstraße, Rosenthaler Vorstadt, Mitte, Berlino, 10178, Germania",
+    "query": "Weekend, Berlin, Germany"
+  },
+  "tresor globus|kopenickerstrasse 70 mitte 10179 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:04:28",
+    "retry_after": "2026-08-14T18:04:40"
+  },
+  "soda club|kulturbrauerei knaackstrae 97 10435 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5395232,
+    "lng": 13.4142448,
+    "score": 15,
+    "display_name": "Soda Club, 97, Knaackstraße, Göhrener Ei, Kollwitzkiez, Prenzlauer Berg, Pankow, Berlino, 10435, Germania",
+    "query": "Soda Club, Berlin, Germany"
+  },
+  "panke|gerichtstrae 23 13347 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5449968,
+    "lng": 13.3742384,
+    "score": 17,
+    "display_name": "Panke, 23, Gerichtstraße, Gesundbrunnen, Mitte, Berlino, 13347, Germania",
+    "query": "Panke, Gerichtstraße 23, 13347 Berlin, Berlin, Germany"
+  },
+  "m bia|dircksenstr 123 10178 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5226319,
+    "lng": 13.4092273,
+    "score": 17,
+    "display_name": "M-BIA, 123-124, Dircksenstraße, Spandauer Vorstadt, Mitte, Berlino, 10178, Germania",
+    "query": "Dircksenstr. 123, 10178 Berlin, Berlin, Germany"
+  },
+  "amt|dircksenstrae 114 10178 berlin deutschland|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:04:40",
+    "retry_after": "2026-08-14T18:04:51"
+  },
+  "paloma|skalitzer str 135 10999 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4992586,
+    "lng": 13.4191407,
+    "score": 11,
+    "display_name": "135, Skalitzer Straße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10999, Germania",
+    "query": "Skalitzer Str. 135, 10999 Berlin, Berlin, Germany"
+  },
+  "oxi|wiesenweg 1 4 10365 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5076121,
+    "lng": 13.4749435,
+    "score": 13,
+    "display_name": "OXI Garten, 1-4, Wiesenweg, Frankfurter Allee Süd, Lichtenberg, Berlino, 10365, Germania",
+    "query": "OXI, Wiesenweg 1-4, 10365 Berlin, Berlin, Germany"
+  },
+  "suprise club|potsdamer str 84 10785 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5034016,
+    "lng": 13.3656474,
+    "score": 17,
+    "display_name": "Surprise Club, 84, Potsdamer Straße, Tiergarten, Mitte, Berlino, 10785, Germania",
+    "query": "Potsdamer Str. 84, 10785 Berlin, Berlin, Germany"
+  },
+  "hafenbar berlin|karl liebknecht str 11 10178 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5217615,
+    "lng": 13.4075481,
+    "score": 17,
+    "display_name": "Hafenbar, 11, Karl-Liebknecht-Straße, Nikolaiviertel, Spandauer Vorstadt, Mitte, Berlino, 10178, Germania",
+    "query": "Karl-Liebknecht-Str. 11, 10178 Berlin, Berlin, Germany"
+  },
+  "tba berlin secret location neukolln||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:04:51",
+    "motivo": "posizione_non_pubblica"
+  },
+  "void club|wiesenweg 5 9 10365|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:04:51",
+    "retry_after": "2026-08-14T18:05:03"
+  },
+  "fluxbau|pfuelstrae 5 10997 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5029678,
+    "lng": 13.4411582,
+    "score": 15,
+    "display_name": "FluxBau, 5, Pfuelstraße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10997, Germania",
+    "query": "Fluxbau, Pfuelstraße 5, 10997 Berlin, Berlin, Germany"
+  },
+  "mokka mitte bar james simon park|stadtbahnbogen 159 160 10178 berlin mitte im james simon park|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:05:03",
+    "retry_after": "2026-08-14T18:05:15"
+  },
+  "peter s|am tacheles friedrichstr 110a 10117|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5373751,
+    "lng": 13.6072741,
+    "score": 11,
+    "display_name": "Peter's Fahrschule, Lyonel-Feininger-Straße, Hellersdorfer Graben, Hellersdorf, Marzahn-Hellersdorf, Berlino, 12627, Germania",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "de",
+      "q": "PETER'S, Berlin, Germany"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T18:05:15",
+    "precisione": "indirizzo_verificato"
+  },
+  "tba underground rave location only via telegram||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:05:23",
+    "motivo": "posizione_non_pubblica"
+  },
+  "mucha|lili hennoch strasse 21 10405 berlin|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:05:23",
+    "retry_after": "2026-08-14T18:05:35"
+  },
+  "ysy|frankfurter allee 23|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5159207,
+    "lng": 13.4591426,
+    "score": 11,
+    "display_name": "23, Frankfurter Allee, Boxhagener Kiez, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10247, Germania",
+    "query": "Frankfurter Allee 23, Berlin, Germany"
+  },
+  "tba perro loco sonntagstrae 5 10245 berlin||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:05:35",
+    "motivo": "posizione_non_pubblica"
+  },
+  "c o berlin|hardenbergstr 22 24 10623 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5065947,
+    "lng": 13.3306266,
+    "score": 15,
+    "display_name": "C/O Berlin, 22-24, Hardenbergstraße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlino, 10623, Germania",
+    "query": "Hardenbergstr. 22-24, 10623 Berlin, Berlin, Germany"
+  },
+  "sage|kopenicker str 18 20 10997 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5110197,
+    "lng": 13.4169088,
+    "score": 17,
+    "display_name": "Sage, 76, Köpenicker Straße, Heine-Viertel, Luisenstadt, Mitte, Berlino, 10179, Germania",
+    "query": "SAGE, Berlin, Germany"
+  },
+  "kulturbrauerei|schonhauser allee 36 39 prenzlauer berg 10435 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:05:35",
+    "retry_after": "2026-08-14T18:05:47"
+  },
+  "clinker lounge in der backfabrik|saarbrucker strae 36a 10405|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5285069,
+    "lng": 13.4150476,
+    "score": 13,
+    "display_name": "36a;37, Saarbrücker Straße, Kollwitzkiez, Prenzlauer Berg, Pankow, Berlino, 10405, Germania",
+    "query": "Saarbrücker Straße 36A 10405, Berlin, Germany"
+  },
+  "tba follow berlinflorafestival ousiasound to know exact locations||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:05:47",
+    "motivo": "posizione_non_pubblica"
+  },
+  "tba storkower str 123 10407 berlin germany||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:05:47",
+    "motivo": "posizione_non_pubblica"
+  },
+  "zk u zentrum fur kunst und urbanistik|siemensstrae 27 10551 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:05:47",
+    "retry_after": "2026-08-14T18:05:59"
+  },
+  "bar neun|pucklerstrae 34 10997 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5023626,
+    "lng": 13.4311096,
+    "score": 15,
+    "display_name": "Bar Neun, 34, Pücklerstraße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10997, Germania",
+    "query": "Bar Neun, Berlin, Germany"
+  },
+  "ipse|vor dem schlesischen tor 2a berlin 10997 germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:05:59",
+    "retry_after": "2026-08-14T18:06:11"
+  },
+  "sensorium|warschauer platz 18 10245 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5046931,
+    "lng": 13.4488573,
+    "score": 13,
+    "display_name": "18, Warschauer Platz, Mediaspree, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "warschauer platz 18, 10245 Berlin, Berlin, Germany"
+  },
+  "monom|nalepastrae 18 12459 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4792421,
+    "lng": 13.4997366,
+    "score": 15,
+    "display_name": "MONOM, Nalepastraße, Funkhaus Berlin, Oberschöneweide, Treptow-Köpenick, Berlino, 12459, Germania",
+    "query": "MONOM, Berlin, Germany"
+  },
+  "golden flamingo|james simon park stadtbahnbogen 157 158 10178 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:06:11",
+    "retry_after": "2026-08-14T18:06:23"
+  },
+  "phantom bar berlin|torstrae 231 10115 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5270872,
+    "lng": 13.3879283,
+    "score": 15,
+    "display_name": "Phantom Bar, Torstraße, Oranienburger Vorstadt, Mitte, Berlino, 10115, Germania",
+    "query": "Phantom Bar Berlin, Berlin, Germany"
+  },
+  "amano east side|stralauer pl 30 31 10243 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5095954,
+    "lng": 13.4312948,
+    "score": 13,
+    "display_name": "AMANO, 31, Stralauer Platz, Andreasviertel, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10243, Germania",
+    "query": "Amano East-Side, Berlin, Germany"
+  },
+  "club der polnischen versager|ackerstrae 168 10115 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5298273,
+    "lng": 13.3971346,
+    "score": 15,
+    "display_name": "Club der polnischen Versager, 168, Ackerstraße, Spandauer Vorstadt, Mitte, Berlino, 10115, Germania",
+    "query": "Club Der Polnischen Versager, Berlin, Germany"
+  },
+  "biers currywurst checkpoint charlie|bier s currywurst checkpoint charlie friedrichstrae 207|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:06:23",
+    "retry_after": "2026-08-14T18:06:35"
+  },
+  "tba chausseestrae 131a 10115 berlin||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:06:35",
+    "motivo": "posizione_non_pubblica"
+  },
+  "kaos berlin|wilhelminenhofstrae 92 12459 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4624652,
+    "lng": 13.5092523,
+    "score": 15,
+    "display_name": "KAOS Halle, Wilhelminenhofstraße, Oberschöneweide, Treptow-Köpenick, Berlino, 12459, Germania",
+    "query": "Kaos Berlin, Berlin, Germany"
+  },
+  "kreuzwerk|lobeckstrae 30 35 10969 berlin deutschland|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5030057,
+    "lng": 13.407825,
+    "score": 15,
+    "display_name": "Kreuzwerk, 30-35, Lobeckstraße, Ritterkiez, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10969, Germania",
+    "query": "KREUZWERK, Berlin, Germany"
+  },
+  "zik zeit ist knapp|schlossstr 82 12165 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4563519,
+    "lng": 13.3208269,
+    "score": 13,
+    "display_name": "82, Schloßstraße, Steglitz, Steglitz-Zehlendorf, Berlino, 12165, Germania",
+    "query": "Schlossstr. 82, 12165 Berlin, Berlin, Germany"
+  },
+  "zenner|alt treptow 15 12435 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4872491,
+    "lng": 13.4774693,
+    "score": 13,
+    "display_name": "15, Alt-Treptow, Treptow-Köpenick, Berlino, 12435, Germania",
+    "query": "Alt-Treptow 15, 12435 Berlin, Berlin, Germany"
+  },
+  "haus der visionare|eichenstr 4a 12435 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4834778,
+    "lng": 13.5800458,
+    "score": 11,
+    "display_name": "4A, Eichenstraße, Kaulsdorf, Marzahn-Hellersdorf, Berlino, 12623, Germania",
+    "query": "Eichenstr. 4a, 12435 Berlin, Berlin, Germany"
+  },
+  "boat ms rhein|may ayim ufer berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:06:35",
+    "retry_after": "2026-08-14T18:06:48"
+  },
+  "90mil|an der michaelbrucke 1 10179 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5127946,
+    "lng": 13.424266,
+    "score": 15,
+    "display_name": "90MIL, Holzmarktstraße, Andreasviertel, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10243, Germania",
+    "query": "90mil, Berlin, Germany"
+  },
+  "anlegestelle spandau lindenufer|lindenufer 29 39 13597 berlin|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:06:48",
+    "retry_after": "2026-08-14T18:06:59"
+  },
+  "tba berlin tiergarten secret location||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:06:59",
+    "motivo": "posizione_non_pubblica"
+  },
+  "acud macht neu|veteranenstrae 21 10119 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:06:59",
+    "retry_after": "2026-08-14T18:07:11"
+  },
+  "suss war gestern|wuhlischstrae 43 10245 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5086027,
+    "lng": 13.4610994,
+    "score": 15,
+    "display_name": "Süß war gestern, 43, Wühlischstraße, Boxhagener Kiez, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10245, Germania",
+    "query": "Süss War Gestern, Wühlischstraße 43, 10245 Berlin, Berlin, Germany"
+  },
+  "spielbank berlin am potsdamer platz|marlene dietrich platz 1 mitte 10178 berlin germany|berlin|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:07:11",
+    "retry_after": "2026-08-14T18:07:23"
+  },
+  "gestrandet an der jannowitzbrucke|rolandufer 10179 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.514901,
+    "lng": 13.4173876,
+    "score": 15,
+    "display_name": "Gestrandet an der Jannowitzbrücke, Rolandufer, Neu-Cölln am Wasser, Mitte, Berlino, 10179, Germania",
+    "query": "Gestrandet An Der Jannowitzbrücke, Berlin, Germany"
+  },
+  "neue nationalgalerie|potsdamer strae 50 10785 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5070408,
+    "lng": 13.3676212,
+    "score": 17,
+    "display_name": "Neue Nationalgalerie, 50, Potsdamer Straße, Tiergarten, Mitte, Berlino, 10785, Germania",
+    "query": "Neue Nationalgalerie, Berlin, Germany"
+  },
+  "hootananny brixton|95 effra road brixton london sw2 1df|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:07:23",
+    "retry_after": "2026-08-14T18:07:35"
+  },
+  "boxpark shoreditch|2 10 bethnal green rd london e1 6gy|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:07:35",
+    "retry_after": "2026-08-14T18:07:47"
+  },
+  "boisdale of canary wharf|cabbot place london e14 4qt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:07:48",
+    "retry_after": "2026-08-14T18:07:59"
+  },
+  "boxpark croydon|99 george st london cr0 1ld united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:07:59",
+    "retry_after": "2026-08-14T18:08:11"
+  },
+  "brix ldn|16 great guildford st london se1 0hs united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:08:11",
+    "retry_after": "2026-08-14T18:08:23"
+  },
+  "somerset house|strand london wc2r 1la|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:08:23",
+    "retry_after": "2026-08-14T18:08:35"
+  },
+  "ballroom at palais|1a rye ln london se15 5ew|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:08:35",
+    "retry_after": "2026-08-14T18:08:47"
+  },
+  "goodhood|15 hanbury st london e1 6qr|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:08:47",
+    "retry_after": "2026-08-14T18:08:59"
+  },
+  "freight brixton|33 brixton station road sw9 8pb|london|uk": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:08:59",
+    "motivo": "posizione_non_pubblica"
+  },
+  "the jazz cafe|5 parkway camden town london nw1 7pg united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:08:59",
+    "retry_after": "2026-08-14T18:09:11"
+  },
+  "xoyo|32 37 cowper street shoreditch london ec2a 4ap united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:09:11",
+    "retry_after": "2026-08-14T18:09:23"
+  },
+  "ln cc|18 24 shacklewell lane dalston london e8 2ez|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:09:23",
+    "retry_after": "2026-08-14T18:09:36"
+  },
+  "prince of peckham|1 clayton rd peckham london se15 5ja|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:09:36",
+    "retry_after": "2026-08-14T18:09:48"
+  },
+  "union club vauxhall|66 albert embankment lambeth london se1 7tw|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:09:48",
+    "retry_after": "2026-08-14T18:09:59"
+  },
+  "m o t|orion business centre surrey canal rd se14 5rt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:09:59",
+    "retry_after": "2026-08-14T18:10:13"
+  },
+  "the broadcaster|89 wood ln london w12 7fx|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:10:13",
+    "retry_after": "2026-08-14T18:10:26"
+  },
+  "club silly bosi|bureau of silly ideas arch 555 valentia place london sw9 8pj|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:10:26",
+    "retry_after": "2026-08-14T18:10:38"
+  },
+  "the greyhound|109 peckham high st london se15 5se|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:10:38",
+    "retry_after": "2026-08-14T18:10:50"
+  },
+  "night tales|14 bohemia pl london e8 1du united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:10:50",
+    "retry_after": "2026-08-14T18:11:02"
+  },
+  "gallery|2a kensington high street london w8 4pt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:11:02",
+    "retry_after": "2026-08-14T18:11:13"
+  },
+  "the jago|440 kingsland road e8 4aa london united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:11:13",
+    "retry_after": "2026-08-14T18:11:26"
+  },
+  "multistory peckham|95a rye lane london se15 4st|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:11:26",
+    "retry_after": "2026-08-14T18:11:38"
+  },
+  "the social|5 little portland street fitzrovia london w1w 7jd united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:11:38",
+    "retry_after": "2026-08-14T18:11:51"
+  },
+  "rolling stock|48 kingsland road shoreditch e2 8aa|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:11:51",
+    "retry_after": "2026-08-14T18:12:03"
+  },
+  "club makossa|113 kingsland high street london e8 2pb|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:12:03",
+    "retry_after": "2026-08-14T18:12:15"
+  },
+  "planet wax|318 new cross road london se14 6af|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:12:15",
+    "retry_after": "2026-08-14T18:12:28"
+  },
+  "mitsu|10 50 willow st london ec2a 4bh|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:12:28",
+    "retry_after": "2026-08-14T18:12:40"
+  },
+  "jumbi|unit 4 1 copeland park 133 copeland rd london se15 3sn|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:12:40",
+    "retry_after": "2026-08-14T18:12:52"
+  },
+  "ormside projects|32 ormside st london se15 1tr uk|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:12:52",
+    "retry_after": "2026-08-14T18:13:04"
+  },
+  "trapeze bar|89 great eastern street london ec2a 3hx united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:13:04",
+    "retry_after": "2026-08-14T18:13:17"
+  },
+  "queen of hoxton|1 5 curtain road hoxton london ec2a 3jx united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:13:17",
+    "retry_after": "2026-08-14T18:13:29"
+  },
+  "basing house|25 kingsland road shoreditch london e2 8aa united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:13:29",
+    "retry_after": "2026-08-14T18:13:42"
+  },
+  "lightbox|6a s lambeth pl vauxhall london sw8 1sp united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:13:42",
+    "retry_after": "2026-08-14T18:13:54"
+  },
+  "brixton jamm|261 brixton road brixton london sw9 6lh united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:13:54",
+    "retry_after": "2026-08-14T18:14:06"
+  },
+  "tba east london announced to ticket holders on the day||london|uk": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:14:06",
+    "motivo": "posizione_non_pubblica"
+  },
+  "colour factory|8 queen s yard london e9 5en|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:14:06",
+    "retry_after": "2026-08-14T18:14:18"
+  },
+  "bubba oasis islington|57 58 upper st london n1 0ny|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:14:18",
+    "retry_after": "2026-08-14T18:14:30"
+  },
+  "finsbury park|finsbury park london n4|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:14:30",
+    "retry_after": "2026-08-14T18:14:42"
+  },
+  "old royal naval college|london se10 9nn|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:14:42",
+    "retry_after": "2026-08-14T18:14:55"
+  },
+  "the lighthouse bar club|62 68 rivington st london ec2a 3ay|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:14:55",
+    "retry_after": "2026-08-14T18:15:06"
+  },
+  "night tales loft|207 1 westgate st hackney london e8 3rl|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:15:06",
+    "retry_after": "2026-08-14T18:15:20"
+  },
+  "the cause|60 dock road london e16 1yz|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:15:20",
+    "retry_after": "2026-08-14T18:15:33"
+  },
+  "mezzanine tooting|unit 4 tooting market 20 totterdown st london sw17 8ta|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:15:33",
+    "retry_after": "2026-08-14T18:15:45"
+  },
+  "the underground nightclub|37 wharfdale road islington n1 9sd uk|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:15:45",
+    "retry_after": "2026-08-14T18:15:56"
+  },
+  "the steel yard|13 16 allhallows lane london ec4r 3ul|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:15:56",
+    "retry_after": "2026-08-14T18:16:08"
+  },
+  "fold|gillian house stephenson st london e16 4sa uk|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:16:08",
+    "retry_after": "2026-08-14T18:16:19"
+  },
+  "bricks|414 coldharbour lane london united kingdom sw9 8lf|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:16:19",
+    "retry_after": "2026-08-14T18:16:31"
+  },
+  "starlane pizza bar|12 cody road e16 4sr london united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:16:31",
+    "retry_after": "2026-08-14T18:16:43"
+  },
+  "77|77 welbeck street w1g 0bb|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:16:43",
+    "retry_after": "2026-08-14T18:16:55"
+  },
+  "club 8|8 stoke newington rd london n16 7xn|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:16:55",
+    "retry_after": "2026-08-14T18:17:07"
+  },
+  "ministry of sound|103 gaunt st london se1 6dp|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:17:07",
+    "retry_after": "2026-08-14T18:17:20"
+  },
+  "the old blue last|39 great eastern road shoreditch london ec2a 3es united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:17:20",
+    "retry_after": "2026-08-14T18:17:32"
+  },
+  "radial|39b markfield rd n154qa london united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:17:32",
+    "retry_after": "2026-08-14T18:17:43"
+  },
+  "distillery n17|unit 25 millmead industrial estate|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:17:43",
+    "retry_after": "2026-08-14T18:17:56"
+  },
+  "tba secret hackney location||london|uk": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:17:56",
+    "motivo": "posizione_non_pubblica"
+  },
+  "boxpark|2 4 bethnal green rd london e1 6gy|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:17:56",
+    "retry_after": "2026-08-14T18:18:07"
+  },
+  "grow|98c wallis road main yard london e9 5ln|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:18:07",
+    "retry_after": "2026-08-14T18:18:19"
+  },
+  "vespers club|133a rye lane london se15 4bq uk|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:18:19",
+    "retry_after": "2026-08-14T18:18:33"
+  },
+  "the hatch|25 26 lime street london ec3m7hr|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:18:33",
+    "retry_after": "2026-08-14T18:18:46"
+  },
+  "phonox|418 brixton road brixton london sw9 7ay|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:18:46",
+    "retry_after": "2026-08-14T18:18:58"
+  },
+  "spanners|spanners arch 504 loughborough junction sw9 7ex|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:18:58",
+    "retry_after": "2026-08-14T18:19:10"
+  },
+  "riverside east|5 thornton street london e20 2ad england|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:19:10",
+    "retry_after": "2026-08-14T18:19:23"
+  },
+  "studio 338|338 boord street greenwich london se10 0pf united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:19:23",
+    "retry_after": "2026-08-14T18:19:35"
+  },
+  "fabric|77a charterhouse st clerkenwell london ec1m 6hj united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:19:35",
+    "retry_after": "2026-08-14T18:19:48"
+  },
+  "aaja basement|63 69 deptford high streeet basement of accessed via comet place se8 4ep|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:19:48",
+    "retry_after": "2026-08-14T18:19:59"
+  },
+  "koko|1a camden high street camden town london nw1 7je united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:20:00",
+    "retry_after": "2026-08-14T18:20:11"
+  },
+  "the carpet shop|arch 164 115 rye lane london se15 4st united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:20:11",
+    "retry_after": "2026-08-14T18:20:23"
+  },
+  "the haggerston|438 kingsland rd london e8 4aa|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:20:23",
+    "retry_after": "2026-08-14T18:20:36"
+  },
+  "setlist somerset house|somerset house strand london wc2r 1la|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:20:36",
+    "retry_after": "2026-08-14T18:20:48"
+  },
+  "bubba oasis|44 48 clapham high st london sw4 7ur|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:20:48",
+    "retry_after": "2026-08-14T18:21:00"
+  },
+  "next door records two|182 stoke newington rd london n16 7uy|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:21:00",
+    "retry_after": "2026-08-14T18:21:12"
+  },
+  "lord napier|25 white post lane hackney wick e9 5er united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:21:12",
+    "retry_after": "2026-08-14T18:21:24"
+  },
+  "multi story|level 6 peckham levels 95a rye ln london se15 4st|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:21:24",
+    "retry_after": "2026-08-14T18:21:36"
+  },
+  "ridley road market bar|49 ridley road london e8 2np united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:21:36",
+    "retry_after": "2026-08-14T18:21:48"
+  },
+  "egg london|5 13 vale royal london n7 9ap|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:21:48",
+    "retry_after": "2026-08-14T18:22:00"
+  },
+  "the glove that fits|179 morning lane hackney e96lh united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:22:00",
+    "retry_after": "2026-08-14T18:22:12"
+  },
+  "tba secret soho location||london|uk": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:22:12",
+    "motivo": "posizione_non_pubblica"
+  },
+  "dalston den|91 93 kingsland high street|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:22:12",
+    "retry_after": "2026-08-14T18:22:24"
+  },
+  "the elmhurst|131 lordship lane london n17 6xe|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:22:24",
+    "retry_after": "2026-08-14T18:22:36"
+  },
+  "intimate lounge|intimate lounge 88 vittoria street birmingham|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:22:36",
+    "retry_after": "2026-08-14T18:22:47"
+  },
+  "the shed|the shed sw19 1sd|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:22:47",
+    "retry_after": "2026-08-14T18:22:59"
+  },
+  "ninety one|91 brick ln london e1 6ql uk|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:22:59",
+    "retry_after": "2026-08-14T18:23:11"
+  },
+  "notting hill arts club|21 notting hill gate notting hill london w11 3jq united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:23:11",
+    "retry_after": "2026-08-14T18:23:23"
+  },
+  "night tales terrace|14 bohemia place hackney london e8 1du|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:23:23",
+    "retry_after": "2026-08-14T18:23:36"
+  },
+  "tba east london location tba||london|uk": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:23:36",
+    "motivo": "posizione_non_pubblica"
+  },
+  "bar silver vinyl lounge the vault|70 upper street|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:23:36",
+    "retry_after": "2026-08-14T18:23:48"
+  },
+  "burgess park|burgess park albany road london se5 0rj|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:23:48",
+    "retry_after": "2026-08-14T18:24:00"
+  },
+  "festival pier|festival pier south bank london se1 8xz united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:24:00",
+    "retry_after": "2026-08-14T18:24:12"
+  },
+  "soul lounge clapham|76 clapham high st london sw4 7ul|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:24:12",
+    "retry_after": "2026-08-14T18:24:25"
+  },
+  "the lighthouse|62 68 rivington street shoreditch london ec2a 3ay|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:24:25",
+    "retry_after": "2026-08-14T18:24:40"
+  },
+  "gaffe|1 anthony way n18 3qt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:24:40",
+    "retry_after": "2026-08-14T18:24:53"
+  },
+  "last arch|392 wandsworth road sw84ph through the black gates last arch|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:24:53",
+    "retry_after": "2026-08-14T18:25:05"
+  },
+  "palais|1a rye ln london se15 5ew|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:25:05",
+    "retry_after": "2026-08-14T18:25:19"
+  },
+  "upper east|30 bidder street london e16 4sh united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:25:19",
+    "retry_after": "2026-08-14T18:25:32"
+  },
+  "two tribes campfire|tile yard studios tileyard road kings cross london n7 9ah|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:25:32",
+    "retry_after": "2026-08-14T18:25:43"
+  },
+  "addington park|3 kent gate way croydon cr0 5ar|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:25:43",
+    "retry_after": "2026-08-14T18:25:56"
+  },
+  "the fox and firkin|316 lewisham high street london se136jz|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:25:56",
+    "retry_after": "2026-08-14T18:26:09"
+  },
+  "circes rooftop|mercury house 117 waterloo rd london se1 8ul|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:26:09",
+    "retry_after": "2026-08-14T18:26:21"
+  },
+  "portico studios|6 beadman st west norwood london se27 0dn united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:26:21",
+    "retry_after": "2026-08-14T18:26:34"
+  },
+  "arch 535|arch 535 orphans yard brixton station rd london sw9 8qb|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:26:34",
+    "retry_after": "2026-08-14T18:26:46"
+  },
+  "e1|110 pennington street wapping london e1w 2bb|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:26:47",
+    "retry_after": "2026-08-14T18:26:59"
+  },
+  "vittoria wharf studio|vittoria wharf yard hackney wick e3 2nt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:26:59",
+    "retry_after": "2026-08-14T18:27:11"
+  },
+  "the bulstrode|the bulstrode 55 lampton rd hounslow tw3 1jg|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:27:11",
+    "retry_after": "2026-08-14T18:27:23"
+  },
+  "westminster pier|westminster pier london sw1a 2jh|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:27:23",
+    "retry_after": "2026-08-14T18:27:35"
+  },
+  "brixton radio|23 alphabet mews london sw9 0fn uk|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:27:35",
+    "retry_after": "2026-08-14T18:27:47"
+  },
+  "the horse groom|28 curtain road shoreditch london ec2a 3nz united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:27:47",
+    "retry_after": "2026-08-14T18:27:58"
+  },
+  "groovetank live|unit 67 containerville studios 40 the oval london e2 9dt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:27:58",
+    "retry_after": "2026-08-14T18:28:09"
+  },
+  "la yam rooftop|kingsbourne house 229 231 high holborn|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:28:10",
+    "retry_after": "2026-08-14T18:28:23"
+  },
+  "secret location|to be announced|london|uk": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:28:23",
+    "motivo": "posizione_non_pubblica"
+  },
+  "nico s bar at hackney bridge|units 1 28 echo building e bay ln london e15 2sj|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:28:23",
+    "retry_after": "2026-08-14T18:28:36"
+  },
+  "the eagle|349 kennington ln london se11 5qy united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:28:36",
+    "retry_after": "2026-08-14T18:28:47"
+  },
+  "kings arms e2|11a buckfast st london e2 6ey|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:28:47",
+    "retry_after": "2026-08-14T18:28:59"
+  },
+  "golden anchor|16 evelina road se15 2dx|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:28:59",
+    "retry_after": "2026-08-14T18:29:10"
+  },
+  "the old dispensary|325 camberwell new road london se5 0tf|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:29:10",
+    "retry_after": "2026-08-14T18:29:23"
+  },
+  "two more years|7 roach road hackney wick e3 2pa|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:29:23",
+    "retry_after": "2026-08-14T18:29:35"
+  },
+  "sui generis|588 kingsland road e84ah|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:29:35",
+    "retry_after": "2026-08-14T18:29:49"
+  },
+  "tba chop shop tavern tilbury road e10 6re||london|uk": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:29:49",
+    "motivo": "posizione_non_pubblica"
+  },
+  "set social|55 nigel rd london se15 4np|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:29:49",
+    "retry_after": "2026-08-14T18:30:01"
+  },
+  "tola|56 peckham high street se15 5dp|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:30:01",
+    "retry_after": "2026-08-14T18:30:13"
+  },
+  "oslo hackney|1a amhurst road hackney london e8 1ll|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:30:13",
+    "retry_after": "2026-08-14T18:30:25"
+  },
+  "fire|39 parry street south lambeth road london sw8 1rt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:30:25",
+    "retry_after": "2026-08-14T18:30:37"
+  },
+  "the archway tavern|7 archway road london n19 3tx|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:30:37",
+    "retry_after": "2026-08-14T18:30:49"
+  },
+  "chip shop brixton|378 coldharbour lane london sw9 8lf|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:30:49",
+    "retry_after": "2026-08-14T18:31:01"
+  },
+  "ldn east|30 bidder street london england e16 4sh united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:31:01",
+    "retry_after": "2026-08-14T18:31:12"
+  },
+  "the prince of wales|467 brixton road london sw9 8hh united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:31:12",
+    "retry_after": "2026-08-14T18:31:23"
+  },
+  "bureau of silly ideas|18 valentia pl brixton london sw9 8pj united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:31:23",
+    "retry_after": "2026-08-14T18:31:35"
+  },
+  "number 90 london|90 main yard wallis road london e9 5ln united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:31:35",
+    "retry_after": "2026-08-14T18:31:47"
+  },
+  "battersea barge|nine elms lane south lambeth london sw8 5bp united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:31:47",
+    "retry_after": "2026-08-14T18:31:59"
+  },
+  "algha s plantroom|floor 2 algha works 83 smeed road e3 2nr|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:31:59",
+    "retry_after": "2026-08-14T18:32:11"
+  },
+  "brixton storeys rooftop|49 brixton station road london sw9 8pq|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:32:11",
+    "retry_after": "2026-08-14T18:32:23"
+  },
+  "brixton storeys|467 469 brixton rd london sw9 8hh|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:32:23",
+    "retry_after": "2026-08-14T18:32:35"
+  },
+  "ivy house|40 stuart road nunhead london se15 3be|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:32:35",
+    "retry_after": "2026-08-14T18:32:47"
+  },
+  "crate brewery|unit 7 queens yard hackney wick london e9 5en|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:32:47",
+    "retry_after": "2026-08-14T18:33:00"
+  },
+  "simmons bar shoreditch|104 108 curtain road london england ec2a 3ah united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:33:00",
+    "retry_after": "2026-08-14T18:33:12"
+  },
+  "the bedford|77 bedford hill balham london sw12 9hd united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:33:12",
+    "retry_after": "2026-08-14T18:33:25"
+  },
+  "lab club|ground floor 189 shoreditch high st london e1 6hu|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:33:25",
+    "retry_after": "2026-08-14T18:33:38"
+  },
+  "private hire at fabric||london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:33:38",
+    "retry_after": "2026-08-14T18:33:44"
+  },
+  "low profile studios|94 vale rd harringay warehouse district london n4 1pt|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:33:44",
+    "retry_after": "2026-08-14T18:33:55"
+  },
+  "virtually nonexistent cinema|12 phillimore walk london w8 7rx|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:33:55",
+    "retry_after": "2026-08-14T18:34:07"
+  },
+  "london fields|137 mare street hackney london e8 3rh united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:34:07",
+    "retry_after": "2026-08-14T18:34:20"
+  },
+  "docks academy|the church king edward street north east lincolnshire england dn31 3jd united kingdom|grimsby|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:34:20",
+    "retry_after": "2026-08-14T18:34:38"
+  },
+  "platform 11|11 high street|pontypridd|gb": {
+    "status": "verificato",
+    "lat": 51.6000264,
+    "lng": -3.3409983,
+    "score": 13,
+    "display_name": "Platform 11, 11, High Street, Y Graig, Pontypridd, Distretto di contea di Rhondda Cynon Taf, Galles, CF37 1BA, Regno Unito",
+    "query": "Platform 11, 11 High Street, Pontypridd, Regno Unito"
+  },
+  "switch bar|carrer francisco giner 24 08012 barcelona spain|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3991715,
+    "lng": 2.1592621,
+    "score": 15,
+    "display_name": "Switch Pocket Club, 24, Carrer de Francisco Giner, la Vila de Gràcia, Gràcia, Barcellona, Barcelonès, Barcelona, Catalogna, 08008, Spagna",
+    "query": "Switch Bar, Barcelona, Spain"
+  },
+  "dreamboat bar deli|calle llacuna 136 barcelona 08018|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.470529,
+    "lng": 1.5348884,
+    "score": 13,
+    "display_name": "Carrer de Ramon Llull, la Llacuna, Anoia, Barcelona, Catalogna, 08779, Spagna",
+    "query": "Calle Llacuna 136, Barcelona, 08018, Barcelona, Spain"
+  },
+  "nobu hotel|av de roma 2 4 distrito de sants montjuic 08014 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3796588,
+    "lng": 2.1425262,
+    "score": 13,
+    "display_name": "Nobu Hotel Barcelona, 2, Avinguda de Roma, la Nova Esquerra de l'Eixample, l'Eixample, Barcellona, Barcelonès, Barcelona, Catalogna, 08014, Spagna",
+    "query": "Nobu Hotel, Barcelona, Spain"
+  },
+  "hotel barcelo raval|rambla del raval 17 21 08001 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3790285,
+    "lng": 2.1696369,
+    "score": 15,
+    "display_name": "Barceló Raval, Carrer de Maria Casas Mira, el Raval, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08001, Spagna",
+    "query": "Hotel Barcelo Raval, Barcelona, Spain"
+  },
+  "tba la fira villaroel||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:34:38",
+    "motivo": "posizione_non_pubblica"
+  },
+  "sala coco|calle alcala 20 28014 madrid spain|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:34:38",
+    "retry_after": "2026-08-14T18:34:51"
+  },
+  "tba powered by void acoustics||madrid|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:34:51",
+    "motivo": "posizione_non_pubblica"
+  },
+  "barraca|avd san roc s n sueca 46410 valencia spain|valencia|es": {
+    "status": "verificato",
+    "lat": 39.2549187,
+    "lng": -0.2666272,
+    "score": 17,
+    "display_name": "Barraca, CV-500, Motilla, Mareny de Barraquetes, Sueca, la Ribera Baixa, Valencia, Comunità Valenzana, 46410, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Barraca, Valencia, Spain"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-07T18:34:51",
+    "precisione": "indirizzo_verificato"
+  },
+  "malaga sin city|via enrico schievano 8 milano 20143 italy|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:34:59",
+    "retry_after": "2026-08-14T18:35:11"
+  },
+  "amnesia milano|via alfonso gatto angolo viale forlanini 20134 milano mi italy|milan|it": {
+    "status": "verificato",
+    "lat": 45.4630384,
+    "lng": 9.2404667,
+    "score": 17,
+    "display_name": "Amnesia, 7, Via Cavriana, Parco Forlanini - Ortica, Municipio 4, Milano, Rodano, Milano, Lombardia, 20134, Italia",
+    "query": "Amnesia Milano, Milan, Italy"
+  },
+  "tausend|schiffbauerdamm 11 mitte 10117 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5208236,
+    "lng": 13.3847097,
+    "score": 17,
+    "display_name": "Bar Tausend, 11, Schiffbauerdamm, Dorotheenstadt, Mitte, Berlino, 10117, Germania",
+    "query": "Tausend, Berlin, Germany"
+  },
+  "tba neukolln 52 47736265617827 13 4592885932799||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:35:11",
+    "motivo": "posizione_non_pubblica"
+  },
+  "nachtleben berlin|torstrae 58 10119 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5287235,
+    "lng": 13.40876,
+    "score": 15,
+    "display_name": "Nachtleben Berlin, 58, Torstraße, Rosenthaler Vorstadt, Mitte, Berlino, 10119, Germania",
+    "query": "Nachtleben Berlin, Berlin, Germany"
+  },
+  "pas berlin|first floor hinterhof aufgang ii kaiserin augusta allee 101 10553 berlin germany|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4843424,
+    "lng": 13.3194296,
+    "score": 11,
+    "display_name": "Peter-A.-Silbermann-Schule, 22, Blissestraße, Wilhelmsaue, Güntzelkiez, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlino, 10713, Germania",
+    "query": "Pas Berlin, Berlin, Germany"
+  },
+  "tba a||berlin|de": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-07T18:35:11",
+    "motivo": "posizione_non_pubblica"
+  },
+  "wilder als erwartet|caroline michaelis str 1 10115 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.531471,
+    "lng": 13.3857245,
+    "score": 15,
+    "display_name": "Das Caro, 1, Caroline-Michaelis-Straße, Oranienburger Vorstadt, Mitte, Berlino, 10115, Germania",
+    "query": "Caroline-Michaelis-Str. 1, 10115 Berlin, Berlin, Germany"
+  },
+  "pleasure patterns|forster str 51 10999 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.4953819,
+    "lng": 13.4337916,
+    "score": 11,
+    "display_name": "51, Forster Straße, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlino, 10999, Germania",
+    "query": "Forster Str. 51, 10999 Berlin, Berlin, Germany"
+  },
+  "8mm|schonhauser allee 177b 10119 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5312243,
+    "lng": 13.4115684,
+    "score": 17,
+    "display_name": "8MM, 177 B, Schönhauser Allee, Kollwitzkiez, Prenzlauer Berg, Pankow, Berlino, 10119, Germania",
+    "query": "Schönhauser Allee 177b, 10119 Berlin, Berlin, Germany"
+  },
+  "paloma|92b old brompton road sw7 3lq kensington london|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:35:11",
+    "retry_after": "2026-08-14T18:35:23"
+  },
+  "jin bo law|14th floor 9 dorsett city aldgate high st london ec3n 1ah|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:35:23",
+    "retry_after": "2026-08-14T18:35:36"
+  },
+  "electrowerkz|7 torrens street islington london ec1v 1nq united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:35:36",
+    "retry_after": "2026-08-14T18:35:47"
+  },
+  "colours hoxton|2 4 hoxton square london n1 6nu united kingdom|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:35:47",
+    "retry_after": "2026-08-14T18:35:59"
+  },
+  "unit 58|unit 58 millmead industrial estate mill mead road london n17 9qu uk|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:35:59",
+    "retry_after": "2026-08-14T18:36:12"
+  },
+  "kelvedon hall|kelvedon hall brentwood cm14 5tn|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-07T18:36:12",
+    "retry_after": "2026-08-14T18:36:23"
+  }
+}

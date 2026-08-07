@@ -251864,8 +251864,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Pg. de Joan de Borbó, 101, planta 8, Ciutat Vella, 08038 Barcelona",
     "locale": "Azul Rooftop Barceloneta",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3688482,
+    "lng": 2.1882335,
     "artisti": [
       "Althoff",
       "ERRANT"
@@ -251884,7 +251884,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503330",
@@ -251965,8 +251967,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Còrsega, 373, 08037 Barcelona",
     "locale": "Generator Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991439,
+    "lng": 2.1625978,
     "artisti": [
       "Juan Guerra",
       "Manu Chaile",
@@ -251986,7 +251988,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2446121",
@@ -252264,8 +252268,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Pl. Reial, 17, 08002 Barcelona",
     "locale": "Jamboree Dance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3797222,
+    "lng": 2.1752424,
     "artisti": [
       "Maadraassoo"
     ],
@@ -252283,7 +252287,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2476062",
@@ -252298,8 +252304,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C Almogavers 122 - C Pamplona 88; Barcelona; Spain",
     "locale": "Razzmatazz",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3975863,
+    "lng": 2.1912493,
     "artisti": [
       "Ross From Friends",
       "John Heaven",
@@ -252323,7 +252329,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2476179",
@@ -252338,8 +252346,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Gran Via de les Corts Catalanes, 580, 08011 Barcelona",
     "locale": "TOC Hostel",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3847897,
+    "lng": 2.1625305,
     "artisti": [],
     "genere": [
       "electronic"
@@ -252355,7 +252363,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2481636",
@@ -252509,8 +252519,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Vila i Vilà, 63, 08004 Barcelona, Spain",
     "locale": "LAUT",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3737857,
+    "lng": 2.1697111,
     "artisti": [
       "DJ Rino",
       "Dafoe"
@@ -252529,7 +252539,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493396",
@@ -252544,8 +252556,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA - Royal Lounge Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3825802,
+    "lng": 2.177073,
     "artisti": [],
     "genere": [
       "electronic"
@@ -252561,7 +252573,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493845",
@@ -252653,8 +252667,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Av. Francesc Ferrer i Guàrdia, 13, 08038 Barcelona",
     "locale": "Sala Upload Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3683044,
+    "lng": 2.1471107,
     "artisti": [
       "HeAndMe",
       "MARA BRAVO",
@@ -252674,7 +252688,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494677",
@@ -253155,8 +253171,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "CRAFT - second floor, private residence",
     "locale": "Carrer DEL Paradis 4",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3831558,
+    "lng": 2.176977,
     "artisti": [],
     "genere": [
       "electronic"
@@ -253172,7 +253188,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503122",
@@ -253360,8 +253378,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "08872 Sitges, Barcelona",
     "locale": "Hola Club Sitges (Cala Vallcarca)",
-    "lat": null,
-    "lng": null,
+    "lat": 41.2394463,
+    "lng": 1.8351724,
     "artisti": [],
     "genere": [
       "electronic"
@@ -253377,7 +253395,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2392532",
@@ -253500,8 +253520,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -253519,7 +253539,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2480648",
@@ -253534,8 +253556,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Calle de peru 102, Barcelona, 08018, Spain",
     "locale": "Hotel Labtwentytwo",
-    "lat": null,
-    "lng": null,
+    "lat": 41.4089858,
+    "lng": 2.1972417,
     "artisti": [],
     "genere": [
       "electronic"
@@ -253551,7 +253573,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2481256",
@@ -253711,8 +253735,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Passatge Can Polític, 13, b, 08907 Hospitalet de Llobregat, Barcelona",
     "locale": "DETROIT CLUB",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3544005,
+    "lng": 2.1072254,
     "artisti": [],
     "genere": [
       "electronic"
@@ -253728,7 +253752,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489422",
@@ -253743,8 +253769,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C Almogavers 122 - C Pamplona 88; Barcelona; Spain",
     "locale": "Razzmatazz",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3975863,
+    "lng": 2.1912493,
     "artisti": [
       "Nila",
       "DJ Stingray 313",
@@ -253766,7 +253792,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489451",
@@ -253848,8 +253876,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Vila i Vilà, 63, 08004 Barcelona, Spain",
     "locale": "LAUT",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3737857,
+    "lng": 2.1697111,
     "artisti": [
       "Dj Sul",
       "DAVID LOST",
@@ -253869,7 +253897,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493851",
@@ -253961,8 +253991,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Av. Francesc Ferrer i Guàrdia, 13, 08038 Barcelona",
     "locale": "Sala Upload Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3683044,
+    "lng": 2.1471107,
     "artisti": [
       "Avangart Tabldot",
       "Isa Rojas"
@@ -253981,7 +254011,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494588",
@@ -254382,8 +254414,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -254401,7 +254433,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2481577",
@@ -254805,8 +254839,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer dels Escudellers, 49, 08002 Barcelona, España",
     "locale": "Marula Cafe",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3801499,
+    "lng": 2.1768532,
     "artisti": [],
     "genere": [
       "electronic"
@@ -254822,7 +254856,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496490",
@@ -255189,8 +255225,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -255208,7 +255244,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486633",
@@ -255865,8 +255903,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Passeig de la Marina, 174, 08860 Castelldefels, Barcelona",
     "locale": "Localito 3.0",
-    "lat": null,
-    "lng": null,
+    "lat": 41.2675793,
+    "lng": 1.9711903,
     "artisti": [],
     "genere": [
       "electronic"
@@ -255882,7 +255920,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499824",
@@ -256254,8 +256294,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Gran Via de les Corts Catalanes, 580, 08011 Barcelona",
     "locale": "TOC Hostel",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3847897,
+    "lng": 2.1625305,
     "artisti": [],
     "genere": [
       "electronic"
@@ -256271,7 +256311,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2480384",
@@ -256498,8 +256540,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Vila i Vilà, 63, 08004 Barcelona, Spain",
     "locale": "LAUT",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3737857,
+    "lng": 2.1697111,
     "artisti": [
       "Breezy S",
       "Egyptian Greyhound"
@@ -256518,7 +256560,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496498",
@@ -256645,8 +256689,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C Almogavers 122 - C Pamplona 88; Barcelona; Spain",
     "locale": "Razzmatazz",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3975863,
+    "lng": 2.1912493,
     "artisti": [
       "LAMSI",
       "Nila",
@@ -256669,7 +256713,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504674",
@@ -257359,8 +257405,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Calle Pamplona 88 Barcelona",
     "locale": "Razzmatazz 3",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3972784,
+    "lng": 2.1910762,
     "artisti": [
       "Blazej Malinowski",
       "Cyklos"
@@ -257379,7 +257425,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2425609",
@@ -257465,8 +257513,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -257484,7 +257532,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2454779",
@@ -257679,8 +257729,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Vila i Vilà, 63, 08004 Barcelona, Spain",
     "locale": "LAUT",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3737857,
+    "lng": 2.1697111,
     "artisti": [
       "DJ Split",
       "Heather (ES)"
@@ -257699,7 +257749,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2495657",
@@ -257788,8 +257840,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C Almogavers 122 - C Pamplona 88; Barcelona; Spain",
     "locale": "Razzmatazz",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3975863,
+    "lng": 2.1912493,
     "artisti": [
       "Fold",
       "Dasha Rush",
@@ -257811,7 +257863,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501821",
@@ -258014,8 +258068,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -258033,7 +258087,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489490",
@@ -258286,8 +258342,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer dels Escudellers, 49, 08002 Barcelona, España",
     "locale": "Marula Cafe",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3801499,
+    "lng": 2.1768532,
     "artisti": [],
     "genere": [
       "electronic"
@@ -258303,7 +258359,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496504",
@@ -258701,8 +258759,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -258720,7 +258778,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489504",
@@ -259166,8 +259226,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Passatge de Domingo, 3, 08007 Barcelona",
     "locale": "Hyde Club",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3926922,
+    "lng": 2.1625135,
     "artisti": [
       "Polo (AR)",
       "Weedo"
@@ -259186,7 +259246,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499999",
@@ -259237,8 +259299,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Avinguda Dr. Marañon, 17 ( Barcelona )",
     "locale": "Downtown Barcelona",
-    "lat": null,
-    "lng": null,
+    "lat": 41.381261,
+    "lng": 2.1143271,
     "artisti": [],
     "genere": [
       "electronic"
@@ -259254,7 +259316,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501870",
@@ -259419,8 +259483,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "",
     "locale": "TBA",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3967951,
+    "lng": 2.1521641,
     "artisti": [
       "Saulo Pisa"
     ],
@@ -259439,8 +259503,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2420222",
@@ -259599,8 +259663,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Gran Via de les Corts Catalanes, 580, 08011 Barcelona",
     "locale": "TOC Hostel",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3847897,
+    "lng": 2.1625305,
     "artisti": [],
     "genere": [
       "electronic"
@@ -259616,7 +259680,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2476879",
@@ -259772,8 +259838,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Vila i Vilà, 63, 08004 Barcelona, Spain",
     "locale": "LAUT",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3737857,
+    "lng": 2.1697111,
     "artisti": [
       "Gazzi",
       "Lucient"
@@ -259792,7 +259858,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492268",
@@ -259881,8 +259949,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C Almogavers 122 - C Pamplona 88; Barcelona; Spain",
     "locale": "Razzmatazz",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3975863,
+    "lng": 2.1912493,
     "artisti": [
       "Amaliah",
       "Nahoomie",
@@ -259909,7 +259977,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500049",
@@ -260104,8 +260174,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -260123,7 +260193,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2449827",
@@ -260314,8 +260386,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C Almogavers 122 - C Pamplona 88; Barcelona; Spain",
     "locale": "Razzmatazz",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3975863,
+    "lng": 2.1912493,
     "artisti": [
       "Saint Ludo",
       "Kaidara",
@@ -260341,7 +260413,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489522",
@@ -260422,8 +260496,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer de Vila i Vilà, 63, 08004 Barcelona, Spain",
     "locale": "LAUT",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3737857,
+    "lng": 2.1697111,
     "artisti": [
       "Forest On Stasys",
       "Alderaan"
@@ -260442,7 +260516,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490790",
@@ -260829,8 +260905,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "C/ de Roger de Llúria, 16, 18, 08010 Barcelona",
     "locale": "Hotel Negresco Princess",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3905581,
+    "lng": 2.1726186,
     "artisti": [
       "Helen Me Lia"
     ],
@@ -260848,7 +260924,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2482182",
@@ -260863,8 +260941,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Plaça de Dante, 9999, 08038 Barcelona",
     "locale": "Jardins de Joan Brossa",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3680688,
+    "lng": 2.1668704,
     "artisti": [
       "Artbat",
       "Adam Ten",
@@ -260886,7 +260964,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489530",
@@ -261005,8 +261085,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Gerardo Niva",
       "doccudder"
@@ -261026,8 +261106,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2480158",
@@ -261414,8 +261494,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Cedaceros, 11, 28014, Madrid, Spain",
     "locale": "El Internacional",
-    "lat": null,
-    "lng": null,
+    "lat": 40.438327,
+    "lng": -3.7205981,
     "artisti": [],
     "genere": [
       "electronic"
@@ -261432,8 +261512,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503246",
@@ -261560,8 +261640,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Goya, 43, 28001 Madrid, Spain",
     "locale": "Goya Social Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4254007,
+    "lng": -3.6829257,
     "artisti": [
       "EVE (1)",
       "JAWS"
@@ -261581,8 +261661,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2444961",
@@ -261597,8 +261677,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "X-Coast",
       "Gerardo Niva",
@@ -261619,8 +261699,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2481195",
@@ -261956,8 +262036,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Gerardo Niva",
       "pavvvvvvlo",
@@ -261979,8 +262059,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2481327",
@@ -262251,8 +262331,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Morgan Seatree",
       "Gerardo Niva"
@@ -262272,8 +262352,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483431",
@@ -262394,8 +262474,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "bullet tooth",
       "Gerardo Niva",
@@ -262416,8 +262496,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483451",
@@ -262693,8 +262773,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Gerardo Niva",
       "Dan Newman"
@@ -262714,8 +262794,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483499",
@@ -262910,8 +262990,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Demi Riquisimo",
       "Gerardo Niva",
@@ -262932,8 +263012,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2478008",
@@ -263275,8 +263355,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "STÜM",
       "Gerardo Niva"
@@ -263296,8 +263376,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486599",
@@ -263312,8 +263392,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "CAMET",
       "COLLISION"
@@ -263333,8 +263413,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483606",
@@ -263493,8 +263573,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [],
     "genere": [
       "electronic"
@@ -263511,8 +263591,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496128",
@@ -263713,8 +263793,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Kyle Starkey",
       "DART",
@@ -263736,8 +263816,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2438965",
@@ -263828,8 +263908,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": null,
-    "lng": null,
+    "lat": 40.2653008,
+    "lng": -3.8405653,
     "artisti": [
       "The Martinez Brothers",
       "Ilario Alicante",
@@ -263854,8 +263934,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2475430",
@@ -263870,8 +263950,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4324804,
+    "lng": -3.7102181,
     "artisti": [
       "MARRØN",
       "DJ TOOL",
@@ -263892,8 +263972,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486607",
@@ -263908,8 +263988,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [],
     "genere": [
       "electronic"
@@ -263926,8 +264006,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504897",
@@ -263978,8 +264058,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Atocha, 127, 28012 Madrid",
     "locale": "Sala Independance Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4096055,
+    "lng": -3.6926831,
     "artisti": [
       "Sina Bathaie"
     ],
@@ -263998,8 +264078,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486609",
@@ -264014,8 +264094,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Maz (BR)"
     ],
@@ -264034,8 +264114,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2452844",
@@ -264086,8 +264166,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Jimi Jules"
     ],
@@ -264106,8 +264186,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2469273",
@@ -264273,8 +264353,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": null,
-    "lng": null,
+    "lat": 40.2653008,
+    "lng": -3.8405653,
     "artisti": [
       "Anetha",
       "ArceX",
@@ -264304,8 +264384,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498256",
@@ -264320,8 +264400,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. Gamonal, 5, 28031 Madrid",
     "locale": "Lasociaciøn",
-    "lat": null,
-    "lng": null,
+    "lat": 40.3722352,
+    "lng": -3.6465257,
     "artisti": [
       "ADRI.G",
       "MAL_HOMBRE",
@@ -264343,8 +264423,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2402007",
@@ -264432,8 +264512,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Faster Horses",
       "Gerardo Niva",
@@ -264454,8 +264534,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2464261",
@@ -264512,8 +264592,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "DESIREE (RSA)"
     ],
@@ -264532,8 +264612,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483721",
@@ -264734,8 +264814,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Francis Mercier"
     ],
@@ -264754,8 +264834,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494390",
@@ -264770,8 +264850,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Alarico",
       "DJ SWISHERMAN"
@@ -264791,8 +264871,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2353326",
@@ -264807,8 +264887,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. Partenón, 5, 28042 Madrid",
     "locale": "IFEMA",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4785605,
+    "lng": -3.6221413,
     "artisti": [
       "Adiel",
       "Adriatique",
@@ -264848,8 +264928,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2399223",
@@ -264901,8 +264981,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. Partenón, 5, 28042 Madrid",
     "locale": "IFEMA",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4785605,
+    "lng": -3.6221413,
     "artisti": [
       "Adiel",
       "Adriatique",
@@ -264943,8 +265023,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486611",
@@ -264959,8 +265039,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "AARON SEVILLA",
       "Claudia León"
@@ -264980,8 +265060,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489467",
@@ -264996,8 +265076,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de Pedro Diez, 28, Carabanchel, 28019 Madrid",
     "locale": "Madreams",
-    "lat": null,
-    "lng": null,
+    "lat": 40.3919344,
+    "lng": -3.7324801,
     "artisti": [
       "GOSLINGA",
       "KINDA",
@@ -265020,8 +265100,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494290",
@@ -265036,8 +265116,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4324804,
+    "lng": -3.7102181,
     "artisti": [
       "Ben Sims",
       "Oscar Mulero"
@@ -265057,8 +265137,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502069",
@@ -265151,8 +265231,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Pegassi",
       "Gerardo Niva",
@@ -265174,8 +265254,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2438652",
@@ -265268,8 +265348,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": null,
-    "lng": null,
+    "lat": 40.2653008,
+    "lng": -3.8405653,
     "artisti": [
       "Hardwell",
       "Sound Rush",
@@ -265290,8 +265370,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483745",
@@ -265342,8 +265422,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265360,8 +265440,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504103",
@@ -265412,8 +265492,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Galileo, 100, 28015 Madrid",
     "locale": "Sala Galileo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4384598,
+    "lng": -3.7098387,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265430,8 +265510,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2438675",
@@ -265482,8 +265562,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265500,8 +265580,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494373",
@@ -265516,8 +265596,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "southstar",
       "DJ SWISHERMAN",
@@ -265539,8 +265619,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500954",
@@ -265645,8 +265725,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. Partenón, 5, 28042 Madrid",
     "locale": "IFEMA",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4785605,
+    "lng": -3.6221413,
     "artisti": [],
     "genere": [
       "electronic"
@@ -265663,8 +265743,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2438616",
@@ -265717,8 +265797,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Emanuel Satie",
       "MAGA",
@@ -265739,8 +265819,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483715",
@@ -265914,8 +265994,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Gerardo Niva",
       "Kara Okay",
@@ -265936,8 +266016,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2438665",
@@ -265993,8 +266073,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Martín de los Heros 14 28008 Madrid, Spain",
     "locale": "Sala Pirandello",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4248377,
+    "lng": -3.713805,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266011,8 +266091,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2475434",
@@ -266027,8 +266107,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4324804,
+    "lng": -3.7102181,
     "artisti": [
       "DVS1",
       "Lindsey Herbert",
@@ -266049,8 +266129,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486618",
@@ -266065,8 +266145,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266083,8 +266163,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2387628",
@@ -266210,8 +266290,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. Gamonal, 5, 28031 Madrid",
     "locale": "Lasociaciøn",
-    "lat": null,
-    "lng": null,
+    "lat": 40.3722352,
+    "lng": -3.6465257,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266228,8 +266308,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2470981",
@@ -266244,8 +266324,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Samm",
       "AJNA"
@@ -266265,8 +266345,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2472177",
@@ -266356,8 +266436,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. de Galileo, 2628015 Madrid",
     "locale": "The Bassement",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4324804,
+    "lng": -3.7102181,
     "artisti": [
       "Nørbak",
       "Surgeon"
@@ -266377,8 +266457,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2408367",
@@ -266432,8 +266512,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Andres Campo",
       "Gerardo Niva"
@@ -266453,8 +266533,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2470471",
@@ -266543,8 +266623,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [],
     "genere": [
       "electronic"
@@ -266561,8 +266641,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494365",
@@ -266836,8 +266916,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Carl Craig",
       "Gerardo Niva",
@@ -266858,8 +266938,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2495405",
@@ -266874,8 +266954,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": null,
-    "lng": null,
+    "lat": 40.2653008,
+    "lng": -3.8405653,
     "artisti": [
       "Fatboy Slim"
     ],
@@ -266894,8 +266974,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2318202",
@@ -266910,8 +266990,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": null,
-    "lng": null,
+    "lat": 40.2653008,
+    "lng": -3.8405653,
     "artisti": [
       "KUKO"
     ],
@@ -266930,8 +267010,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494377",
@@ -266986,8 +267066,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Bad Boombox",
       "Club Angel",
@@ -267010,8 +267090,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2495425",
@@ -267130,8 +267210,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Silva Bumpa",
       "Gerardo Niva"
@@ -267151,8 +267231,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2430774",
@@ -267243,8 +267323,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "C. Gamonal, 5, 28031 Madrid",
     "locale": "Lasociaciøn",
-    "lat": null,
-    "lng": null,
+    "lat": 40.3722352,
+    "lng": -3.6465257,
     "artisti": [],
     "genere": [
       "electronic"
@@ -267261,8 +267341,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2443690",
@@ -267314,8 +267394,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle del Duque de Osuna, 8; 28015 Madrid; Spain",
     "locale": "Tempo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4254487,
+    "lng": -3.7117951,
     "artisti": [
       "LORA.",
       "Barletti"
@@ -267335,8 +267415,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486622",
@@ -267351,8 +267431,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Richi Risco"
     ],
@@ -267371,8 +267451,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502690",
@@ -267605,8 +267685,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Malive"
     ],
@@ -267625,8 +267705,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2487578",
@@ -267818,8 +267898,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Gran Via 54",
     "locale": "Lula Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4212349,
+    "lng": -3.7071374,
     "artisti": [
       "Torrione",
       "COLLISION",
@@ -267840,8 +267920,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494381",
@@ -267892,8 +267972,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [],
     "genere": [
       "electronic"
@@ -267910,8 +267990,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494558",
@@ -267926,8 +268006,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Av. de la Industria 82, 28970 Humanes de Madrid, Spain",
     "locale": "Fabrik",
-    "lat": null,
-    "lng": null,
+    "lat": 40.2653008,
+    "lng": -3.8405653,
     "artisti": [
       "Charlotte de Witte"
     ],
@@ -267946,8 +268026,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490559",
@@ -267962,8 +268042,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle Orense, 24",
     "locale": "Nazca Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4513836,
+    "lng": -3.6944566,
     "artisti": [],
     "genere": [
       "electronic"
@@ -267980,8 +268060,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494385",
@@ -268033,8 +268113,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Sala But, C. de Barceló, 11, Local B, Centro, 28004 Madrid",
     "locale": "Mondo",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4178268,
+    "lng": -3.6989375,
     "artisti": [
       "Benwal",
       "Gerardo Niva"
@@ -268054,8 +268134,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498859",
@@ -268070,8 +268150,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Cone"
     ],
@@ -268089,7 +268169,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503413",
@@ -268173,8 +268255,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "C/ de l'Explorador Andrés, 29, Algirós, 46022 València, Valencia",
     "locale": "33/45 Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4717465,
+    "lng": -0.3456376,
     "artisti": [
       "Luigi Rossi",
       "The Liquid Dude"
@@ -268193,7 +268275,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498492",
@@ -268208,8 +268292,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia",
     "locale": "Resume Valencia",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4636982,
+    "lng": -0.3702102,
     "artisti": [],
     "genere": [
       "electronic"
@@ -268225,7 +268309,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498861",
@@ -268240,8 +268326,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Velasco",
       "Pin"
@@ -268260,7 +268346,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2445716",
@@ -268275,8 +268363,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "Zisko",
       "Mac Declos"
@@ -268295,7 +268383,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498493",
@@ -268310,8 +268400,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia",
     "locale": "Resume Valencia",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4636982,
+    "lng": -0.3702102,
     "artisti": [
       "Pin",
       "IKAKO"
@@ -268330,7 +268420,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498864",
@@ -268345,8 +268437,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Baloo",
       "Pau Pérez",
@@ -268367,7 +268459,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494263",
@@ -268382,8 +268476,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "Fran.cis",
       "Dawidu"
@@ -268402,7 +268496,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498865",
@@ -268417,8 +268513,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Gregori"
     ],
@@ -268436,7 +268532,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498866",
@@ -268451,8 +268549,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Fran.cis"
     ],
@@ -268470,7 +268568,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2451997",
@@ -268485,8 +268585,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "46400 Cullera, Valencia, Spain",
     "locale": "Medusa Beach",
-    "lat": null,
-    "lng": null,
+    "lat": 39.1542811,
+    "lng": -0.2425765,
     "artisti": [
       "Carl Cox",
       "Hugel",
@@ -268527,7 +268627,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498494",
@@ -268542,8 +268644,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia",
     "locale": "Resume Valencia",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4636982,
+    "lng": -0.3702102,
     "artisti": [
       "Felipe Valenzuela"
     ],
@@ -268561,7 +268663,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498868",
@@ -268576,8 +268680,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Hello Sasy",
       "Ariezzz"
@@ -268596,7 +268700,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2441545",
@@ -268611,8 +268717,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia",
     "locale": "Resume Valencia",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4636982,
+    "lng": -0.3702102,
     "artisti": [],
     "genere": [
       "electronic"
@@ -268628,7 +268734,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2445718",
@@ -268643,8 +268751,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "DJ SEXSTASY",
       "Ariezzz",
@@ -268664,7 +268772,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498497",
@@ -268679,8 +268789,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia",
     "locale": "Resume Valencia",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4636982,
+    "lng": -0.3702102,
     "artisti": [
       "Tommaso Pizzelli",
       "Guile"
@@ -268699,7 +268809,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498869",
@@ -268714,8 +268826,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Pau Pérez",
       "Melo (ES)"
@@ -268734,7 +268846,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2431799",
@@ -268749,8 +268863,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer de Pavia, 37, 46011 València, Spain",
     "locale": "La Fábrica de Hielo",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4695092,
+    "lng": -0.3250717,
     "artisti": [
       "Guile",
       "Tommaso Pizzelli"
@@ -268769,7 +268883,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494264",
@@ -268784,8 +268900,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "Sueezo"
     ],
@@ -268803,7 +268919,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2488475",
@@ -268850,8 +268968,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Disco Sour"
     ],
@@ -268869,7 +268987,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498873",
@@ -268884,8 +269004,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Blanch",
       "Ladrillovitz"
@@ -268904,7 +269024,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501264",
@@ -268919,8 +269041,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia",
     "locale": "Resume Valencia",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4636982,
+    "lng": -0.3702102,
     "artisti": [
       "Broken boy",
       "Bodio",
@@ -268940,7 +269062,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498350",
@@ -268955,8 +269079,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer de Pavia, 37, 46011 València, Spain",
     "locale": "La Fábrica de Hielo",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4695092,
+    "lng": -0.3250717,
     "artisti": [
       "Comptche St."
     ],
@@ -268974,7 +269098,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498875",
@@ -268989,8 +269115,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "JUAAN",
       "Pin"
@@ -269009,7 +269135,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2445721",
@@ -269024,8 +269152,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "KARAH",
       "In Furcht",
@@ -269045,7 +269173,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498877",
@@ -269060,8 +269190,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "BAR (DE)"
     ],
@@ -269079,7 +269209,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494267",
@@ -269094,8 +269226,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "Iko",
       "Caballeri",
@@ -269115,7 +269247,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498878",
@@ -269130,8 +269264,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [],
     "genere": [
       "electronic"
@@ -269147,7 +269281,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498879",
@@ -269162,8 +269298,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Aguirre",
       "Robson"
@@ -269182,7 +269318,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498881",
@@ -269197,8 +269335,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Cheriii",
       "Ariezzz",
@@ -269219,7 +269357,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2445722",
@@ -269234,8 +269374,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "OGUZ",
       "Aida Arko"
@@ -269254,7 +269394,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498501",
@@ -269269,8 +269411,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Carrer del Mestre Josep Serrano, 8, L'Eixample, 46005 València, Valencia",
     "locale": "Resume Valencia",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4636982,
+    "lng": -0.3702102,
     "artisti": [
       "Argenis Brito",
       "IKAKO"
@@ -269289,7 +269431,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498884",
@@ -269304,8 +269448,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Gran Vía Germanías 31 Valencia",
     "locale": "Oven Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4637272,
+    "lng": -0.3760158,
     "artisti": [
       "Robert Drewek"
     ],
@@ -269323,7 +269467,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494258",
@@ -269338,8 +269484,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "Blanch",
       "The Cap Boy"
@@ -269358,7 +269504,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493887",
@@ -269409,8 +269557,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "PRADA2000",
       "Kander"
@@ -269429,7 +269577,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2445726",
@@ -269444,8 +269594,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "Krl Mx"
     ],
@@ -269463,7 +269613,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2445728",
@@ -269478,8 +269630,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "BLANKA",
       "Ellen Allien"
@@ -269498,7 +269650,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499248",
@@ -269513,8 +269667,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "Silverlining",
       "Tama Sumo",
@@ -269539,7 +269693,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2445730",
@@ -269554,8 +269710,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "Pinedo Valencia",
     "locale": "Spook Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4105876,
+    "lng": -0.335184,
     "artisti": [
       "DAX J",
       "VIL (PT)"
@@ -269574,7 +269730,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489553",
@@ -269723,8 +269881,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "C/ de Ricardo Micó, 3, Campanar, 46009 València",
     "locale": "16 Toneladas",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4812648,
+    "lng": -0.387557,
     "artisti": [
       "DJ Marcelle",
       "Eomac"
@@ -269743,7 +269901,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489054",
@@ -269790,8 +269950,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "SHŪ (1)",
       "Morva",
@@ -269811,7 +269971,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503562",
@@ -269826,8 +269988,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Feltre 30 Milano 20132",
     "locale": "Victoria’s Club",
-    "lat": null,
-    "lng": null,
+    "lat": 45.491086,
+    "lng": 9.2392251,
     "artisti": [],
     "genere": [
       "electronic"
@@ -269843,7 +270005,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2447176",
@@ -269858,8 +270022,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "M.I.T.A.",
       "Elisa Bee",
@@ -269881,7 +270045,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484819",
@@ -269896,8 +270062,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Morva",
       "Zenyee",
@@ -269917,7 +270083,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2447178",
@@ -269932,8 +270100,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Dolce Potente",
       "Industrial Romantico"
@@ -269952,7 +270120,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484821",
@@ -269967,8 +270137,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Raeya Chen",
       "Zenyee",
@@ -269988,7 +270158,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498408",
@@ -270003,8 +270175,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Naydiaa",
       "Futuro Tropicale",
@@ -270024,7 +270196,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484826",
@@ -270039,8 +270213,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "SHŪ (1)",
       "Morva",
@@ -270060,7 +270234,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498087",
@@ -270075,8 +270251,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Circonvallazione Idroscalo, 20090 Segrate (MI), Italy",
     "locale": "Circolo Magnolia",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4637036,
+    "lng": 9.286076,
     "artisti": [
       "Spiller",
       "Vannelli Bros",
@@ -270097,7 +270273,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498405",
@@ -270112,8 +270290,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Alimac",
       "Acidalia",
@@ -270133,7 +270311,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2478558",
@@ -270148,8 +270328,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "Lilya Mandre"
     ],
@@ -270167,7 +270347,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2495477",
@@ -270182,8 +270364,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Circonvallazione Idroscalo, 20090 Segrate (MI), Italy",
     "locale": "Circolo Magnolia",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4637036,
+    "lng": 9.286076,
     "artisti": [
       "Ely Oaks"
     ],
@@ -270201,7 +270383,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500022",
@@ -270216,8 +270400,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Local Suicide",
       "Waldo",
@@ -270238,7 +270422,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500584",
@@ -270253,8 +270439,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "HEMPTOTE",
       "GLADJEE",
@@ -270274,7 +270460,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2432324",
@@ -270289,8 +270477,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Molise, 62, 20137 Milano MI",
     "locale": "Ex Macello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.457941,
+    "lng": 9.2273118,
     "artisti": [
       "Charlotte de Witte"
     ],
@@ -270308,7 +270496,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2466274",
@@ -270323,8 +270513,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Piazza Castello, 20121 Milano MI",
     "locale": "Castello Sforzesco",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4703009,
+    "lng": 9.1780912,
     "artisti": [],
     "genere": [
       "electronic"
@@ -270340,7 +270530,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2478561",
@@ -270355,8 +270547,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "Alarico",
       "Yanamaste",
@@ -270376,7 +270568,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501662",
@@ -270428,8 +270622,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Rimini 38, 20142, Milano",
     "locale": "Parco La Spezia",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4410993,
+    "lng": 9.1690891,
     "artisti": [],
     "genere": [
       "electronic"
@@ -270445,7 +270639,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490813",
@@ -270460,8 +270656,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Giuseppe Ripamonti, 428, 20141 Milano MI",
     "locale": "Oasi Ca' Granda",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4133746,
+    "lng": 9.2060784,
     "artisti": [],
     "genere": [
       "electronic"
@@ -270477,7 +270673,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492756",
@@ -270492,8 +270690,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Achille Papa, 30, 20159 Milano MI",
     "locale": "Money Club Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4895624,
+    "lng": 9.1412193,
     "artisti": [],
     "genere": [
       "electronic"
@@ -270509,7 +270707,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501822",
@@ -270559,8 +270759,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "20125 via Bruschetti 11 Milano",
     "locale": "Rock 'n' Roll Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4925338,
+    "lng": 9.2075644,
     "artisti": [],
     "genere": [
       "electronic"
@@ -270576,7 +270776,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2497795",
@@ -270591,8 +270793,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Molise, 62, 20137 Milano MI",
     "locale": "Ex Macello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.457941,
+    "lng": 9.2273118,
     "artisti": [
       "Giale",
       "Creamy",
@@ -270614,7 +270816,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490028",
@@ -270731,8 +270935,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Tania Kim",
       "Dolce Potente",
@@ -270753,7 +270957,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503861",
@@ -270838,8 +271044,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Circonvallazione Idroscalo, 20090 Segrate (MI), Italy",
     "locale": "Circolo Magnolia",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4637036,
+    "lng": 9.286076,
     "artisti": [
       "Mr. Belt & Wezol",
       "Vithz",
@@ -270859,7 +271065,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504234",
@@ -270874,8 +271082,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Tortona 33, 20144",
     "locale": "Bluesquare",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4511519,
+    "lng": 9.1612166,
     "artisti": [
       "Fred Simon"
     ],
@@ -270893,7 +271101,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2479792",
@@ -270908,8 +271118,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "Quelza",
       "BLANKA",
@@ -270929,7 +271139,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492668",
@@ -270944,8 +271156,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Felice Casati 24, 20124 Milano",
     "locale": "Detune",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4791317,
+    "lng": 9.2029345,
     "artisti": [],
     "genere": [
       "electronic"
@@ -270961,7 +271173,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500663",
@@ -270976,8 +271190,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Renato Serra, 31, 20149 Milano MI",
     "locale": "Parco Industria Alfa Romeo - Portello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4876255,
+    "lng": 9.1452619,
     "artisti": [],
     "genere": [
       "electronic"
@@ -270993,7 +271207,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500707",
@@ -271008,8 +271224,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [
       "Kora Lyssa",
       "Marthial",
@@ -271030,7 +271246,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500963",
@@ -271045,8 +271263,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Bergognone, 34 20144 Milan, Italy",
     "locale": "BASE Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4531125,
+    "lng": 9.1636486,
     "artisti": [
       "NZIRIA",
       "Monica Witty"
@@ -271065,7 +271283,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498889",
@@ -271080,8 +271300,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Varesina, 184, 20156 Milano MI",
     "locale": "Department 184",
-    "lat": null,
-    "lng": null,
+    "lat": 45.5040473,
+    "lng": 9.13816,
     "artisti": [
       "Andrei Ciubuc",
       "Simon T"
@@ -271100,7 +271320,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2374011",
@@ -271149,8 +271371,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Luigi Granelli, Sesto San Giovanni, cap 20099, Milano",
     "locale": "Carroponte",
-    "lat": null,
-    "lng": null,
+    "lat": 45.529574,
+    "lng": 9.2209217,
     "artisti": [
       "Carl Cox",
       "Loco Dice",
@@ -271172,7 +271394,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2487181",
@@ -271219,8 +271443,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Molise, 62, 20137 Milano MI",
     "locale": "Ex Macello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.457941,
+    "lng": 9.2273118,
     "artisti": [
       "Michael Bibi"
     ],
@@ -271238,7 +271462,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2479829",
@@ -271253,8 +271479,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "Kobosil",
       "HEMPTOTE",
@@ -271274,7 +271500,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2475926",
@@ -271289,8 +271517,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Molise, 62, 20137 Milano MI",
     "locale": "Ex Macello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.457941,
+    "lng": 9.2273118,
     "artisti": [
       "Solomun"
     ],
@@ -271308,7 +271536,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489788",
@@ -271323,8 +271553,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Varesina, 184, 20156 Milano MI",
     "locale": "Department 184",
-    "lat": null,
-    "lng": null,
+    "lat": 45.5040473,
+    "lng": 9.13816,
     "artisti": [
       "Dusk Poem",
       "Enygma",
@@ -271345,7 +271575,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493319",
@@ -271360,8 +271592,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "via Luigi Nono 9 20100 Milan, Italy",
     "locale": "Tempio del Futuro Perduto",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4856394,
+    "lng": 9.1756747,
     "artisti": [],
     "genere": [
       "electronic"
@@ -271377,7 +271609,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2479835",
@@ -271392,8 +271626,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "ANNĒ",
       "Elli Acula",
@@ -271414,7 +271648,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496593",
@@ -271429,8 +271665,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Pietrasanta 14, 20124 Milano (MI)",
     "locale": "Magazzini Generali",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4438506,
+    "lng": 9.1964489,
     "artisti": [
       "The Blaze"
     ],
@@ -271448,7 +271684,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501137",
@@ -271463,8 +271701,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Molise, 62, 20137 Milano MI",
     "locale": "Ex Macello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.457941,
+    "lng": 9.2273118,
     "artisti": [
       "Joe Lewandowski",
       "STYLOPHONIC",
@@ -271485,7 +271723,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490492",
@@ -271500,8 +271740,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "O.B.I. (DE)",
       "Dstm"
@@ -271520,7 +271760,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504188",
@@ -271535,8 +271777,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "ØTTA",
       "Pegassi",
@@ -271556,7 +271798,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2487185",
@@ -271603,8 +271847,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "KNTRLVRLST",
       "PACKAPUNCH909"
@@ -271623,7 +271867,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2481217",
@@ -271638,8 +271884,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "Ueberrest",
       "In Verruf"
@@ -271658,7 +271904,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498271",
@@ -271673,8 +271921,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Valtellina, 21, 20159 Milano MI",
     "locale": "Gate Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4943778,
+    "lng": 9.1819083,
     "artisti": [
       "Neon Graveyard",
       "Alex Akashi"
@@ -271693,7 +271941,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2487186",
@@ -271740,8 +271990,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Ettore Ponti 40, 20143 Milano",
     "locale": "BIKO",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4421057,
+    "lng": 9.1538049,
     "artisti": [
       "S!RENE"
     ],
@@ -271759,7 +272009,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502602",
@@ -272746,8 +272998,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "Via Francesco Fantoni 21, 40127 Bologna (BO), Italy",
     "locale": "Link",
-    "lat": null,
-    "lng": null,
+    "lat": 44.5124127,
+    "lng": 11.4157208,
     "artisti": [
       "Indira Paganotto",
       "Mattia Trani",
@@ -272768,8 +273020,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2479254",
@@ -272784,8 +273036,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "Via Francesco Fantoni 21, 40127 Bologna (BO), Italy",
     "locale": "Link",
-    "lat": null,
-    "lng": null,
+    "lat": 44.5124127,
+    "lng": 11.4157208,
     "artisti": [
       "tINI"
     ],
@@ -272804,8 +273056,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496581",
@@ -272820,8 +273072,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Bologna",
     "indirizzo": "Via Francesco Fantoni 21, 40127 Bologna (BO), Italy",
     "locale": "Link",
-    "lat": null,
-    "lng": null,
+    "lat": 44.5124127,
+    "lng": 11.4157208,
     "artisti": [],
     "genere": [
       "electronic"
@@ -272838,8 +273090,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503862",
@@ -274179,8 +274431,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Naples",
     "indirizzo": "",
     "locale": "TBA - Naples",
-    "lat": null,
-    "lng": null,
+    "lat": 40.7944401,
+    "lng": 14.4635416,
     "artisti": [
       "Unai Trotti",
       "Valerio Della Notte",
@@ -274200,7 +274452,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2469038",
@@ -274499,8 +274753,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dircksenstrasse 78; Mitte; 10178 Berlin; Germany",
     "locale": "Golden Gate",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5159611,
+    "lng": 13.4169199,
     "artisti": [
       "Marcela",
       "Neco",
@@ -274520,7 +274774,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2497460",
@@ -274535,8 +274791,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Brückenstraße 1, 10179 Berlin",
     "locale": "Prisma",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5111653,
+    "lng": 13.4167079,
     "artisti": [
       "Roberto Corrales",
       "The Shredder"
@@ -274555,7 +274811,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498420",
@@ -274570,8 +274828,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Strasse 76; Mitte; 10179 Berlin; Germany",
     "locale": "KitKatClub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5112074,
+    "lng": 13.4169157,
     "artisti": [
       "Wiebe Roose",
       "Joe Shmoo"
@@ -274590,7 +274848,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498929",
@@ -274605,8 +274865,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Hasenheide 47, 10967 Berlin, Germany",
     "locale": "HÖR Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4888285,
+    "lng": 13.4115451,
     "artisti": [
       "Surgeons Girl",
       "Johannes Klingebiel",
@@ -274626,7 +274886,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499228",
@@ -274641,8 +274903,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schlesische Strasse 42; Kreuzberg; 10997; Germany",
     "locale": "Wendel",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5005219,
+    "lng": 13.443511,
     "artisti": [
       "Larhythmix"
     ],
@@ -274660,7 +274922,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499723",
@@ -274675,8 +274939,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rosenthaler Str. 39, 10178 Berlin, Germany",
     "locale": "Eschschloraque",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5244696,
+    "lng": 13.4017208,
     "artisti": [],
     "genere": [
       "electronic"
@@ -274692,7 +274956,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500568",
@@ -274707,8 +274973,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Lindower Straße 19 13347 Berlin",
     "locale": "migas, a listening bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5437369,
+    "lng": 13.367712,
     "artisti": [],
     "genere": [
       "electronic"
@@ -274724,7 +274990,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501901",
@@ -274739,8 +275007,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Gerichtstraße 35, 13347 Berlin, Germany",
     "locale": "Silent Green",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5456853,
+    "lng": 13.36649,
     "artisti": [
       "JakoJako",
       "Pole",
@@ -274761,7 +275029,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504034",
@@ -274776,8 +275046,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Niederkirchnerstraße 7, 10963 Berlin",
     "locale": "Martin-Gropius-Bau",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5066209,
+    "lng": 13.3819472,
     "artisti": [
       "TRU:L"
     ],
@@ -274795,7 +275065,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504173",
@@ -274810,8 +275082,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [],
     "genere": [
       "electronic"
@@ -274827,7 +275099,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504415",
@@ -274842,8 +275116,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "Andrea Cossu",
       "Josefina Tapia (2)",
@@ -274863,7 +275137,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504547",
@@ -275156,8 +275432,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Str. 70, 10179 Berlin, Germany",
     "locale": "OHM",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5105954,
+    "lng": 13.4197888,
     "artisti": [
       "Bloody Mary",
       "Fear-E",
@@ -275177,7 +275453,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2469552",
@@ -275192,8 +275470,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Gerichtstraße 35, 13347 Berlin, Germany",
     "locale": "Silent Green",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5456853,
+    "lng": 13.36649,
     "artisti": [
       "Pole",
       "JakoJako",
@@ -275213,7 +275491,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2475399",
@@ -275228,8 +275508,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [
       "L.22",
       "GVMEDNA",
@@ -275254,7 +275534,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2477564",
@@ -275303,8 +275585,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Cuvrystrasse 7; Kreuzberg; 10997 Berlin; Germany",
     "locale": "Lido Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4992172,
+    "lng": 13.4450748,
     "artisti": [],
     "genere": [
       "electronic"
@@ -275320,7 +275602,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2482942",
@@ -275335,8 +275619,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [
       "Pablo Cornejo"
     ],
@@ -275354,7 +275638,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483545",
@@ -275369,8 +275655,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Hermannstrasse 14, 12049 Berlin",
     "locale": "Giri",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4842037,
+    "lng": 13.4243857,
     "artisti": [
       "Andriy K.",
       "Ulf Herold",
@@ -275391,7 +275677,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2485449",
@@ -275442,8 +275730,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt Stralau 70; Friedrichshain; 10245 Berlin; Germany",
     "locale": "Renate",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4973901,
+    "lng": 13.4653065,
     "artisti": [],
     "genere": [
       "electronic"
@@ -275459,7 +275747,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2487739",
@@ -275474,8 +275764,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Strasse 99; 10245 Berlin-Friedrichshain; Berlin; Germany",
     "locale": "Crack Bellmer",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5075865,
+    "lng": 13.4547707,
     "artisti": [
       "DotDash"
     ],
@@ -275493,7 +275783,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490874",
@@ -275508,8 +275800,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Friedelstr. 49, 12047 Berlin",
     "locale": "OYE Kreuzkoelln",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4895717,
+    "lng": 13.4275477,
     "artisti": [
       "Elvin",
       "Kat Davids",
@@ -275531,7 +275823,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492724",
@@ -275546,8 +275840,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Herrfurthplatz 8, 12049 Berlin, Germany",
     "locale": "Ikii",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4766339,
+    "lng": 13.4215356,
     "artisti": [
       "MR TC",
       "Fergus Clark",
@@ -275567,7 +275861,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493321",
@@ -275616,8 +275912,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Lübbener Str. 19, 10997 Berlin, Germany",
     "locale": "Madame Claude",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4996096,
+    "lng": 13.4374056,
     "artisti": [],
     "genere": [
       "electronic"
@@ -275633,7 +275929,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493790",
@@ -275648,8 +275946,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Skalitzer str. 114, 10999 Berlin, Germany",
     "locale": "Bulbul Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4993312,
+    "lng": 13.4242521,
     "artisti": [
       "·gabriel·",
       "Do you know Juno",
@@ -275669,7 +275967,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493901",
@@ -275684,8 +275984,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Str 99, 10245 Berlin",
     "locale": "Der Weiße Hase",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5075831,
+    "lng": 13.4545322,
     "artisti": [
       "Fran-Cee",
       "Fabian Fischbach",
@@ -275705,7 +276005,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2495255",
@@ -275756,8 +276058,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [],
     "genere": [
       "electronic"
@@ -275773,7 +276075,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496311",
@@ -275788,8 +276092,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schleusenufer 2, 10997 Berlin",
     "locale": "ÆDEN",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4984065,
+    "lng": 13.4505202,
     "artisti": [
       "Take1More",
       "Fazi",
@@ -275811,7 +276115,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494230",
@@ -275826,8 +276132,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx Platz 16 12043 Berlin, Germany",
     "locale": "arkaoda Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4738852,
+    "lng": 13.4425685,
     "artisti": [
       "CRUHDA",
       "Kappa Cat",
@@ -275847,7 +276153,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504894",
@@ -275894,8 +276202,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt-Stralau, 1-2 Friedrichshain 10245",
     "locale": "OST",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4970681,
+    "lng": 13.4650321,
     "artisti": [
       "EZA (DE)",
       "Westside Bass"
@@ -275914,7 +276222,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2488736",
@@ -275961,8 +276271,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dircksenstrasse 78; Mitte; 10178 Berlin; Germany",
     "locale": "Golden Gate",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5159611,
+    "lng": 13.4169199,
     "artisti": [
       "Harry Axt",
       "Nils Ohrmann"
@@ -275981,7 +276291,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496960",
@@ -275996,8 +276308,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Ritterstrasse 26; Kreuzberg; 10969 Berlin; Germany",
     "locale": "Ritter Butzke",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5030121,
+    "lng": 13.4081361,
     "artisti": [
       "Josefina Tapia",
       "Nizar Sarakbi",
@@ -276022,7 +276334,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498028",
@@ -276069,8 +276383,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx Platz 16 12043 Berlin, Germany",
     "locale": "arkaoda Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4738852,
+    "lng": 13.4425685,
     "artisti": [
       "DJ Life",
       "evin",
@@ -276090,7 +276404,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498847",
@@ -276105,8 +276421,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx-Straße 66, 12043 Berlin",
     "locale": "Klunkerkranich",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4820706,
+    "lng": 13.4313317,
     "artisti": [
       "Andeel",
       "Lima",
@@ -276127,7 +276443,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499360",
@@ -276142,8 +276460,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dunckerstrasse 64, 10439 Berlin",
     "locale": "Dunckerclub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.546204,
+    "lng": 13.4237144,
     "artisti": [],
     "genere": [
       "electronic"
@@ -276159,7 +276477,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499926",
@@ -276174,8 +276494,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Otto-Braun-Straße 65, Berlin, 10178, Germany",
     "locale": "Generator Berlin Alexanderplatz",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5238133,
+    "lng": 13.4178901,
     "artisti": [],
     "genere": [
       "electronic"
@@ -276191,7 +276511,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500570",
@@ -276206,8 +276528,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Lindower Straße 19 13347 Berlin",
     "locale": "migas, a listening bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5437369,
+    "lng": 13.367712,
     "artisti": [],
     "genere": [
       "electronic"
@@ -276223,7 +276545,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500685",
@@ -276238,8 +276562,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Sanderstraße 11, 12047 Berlin",
     "locale": "Zum Böhmischen Dorf",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4923371,
+    "lng": 13.4259409,
     "artisti": [
       "Haider",
       "bad_dubs"
@@ -276258,7 +276582,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500698",
@@ -276415,8 +276741,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schleusenufer 2, 10997 Berlin",
     "locale": "ÆDEN",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4984065,
+    "lng": 13.4505202,
     "artisti": [
       "Connor Wall",
       "ENÈH",
@@ -276443,7 +276769,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503203",
@@ -276458,8 +276786,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Weinbergsweg 1a, Rosenthaler Platz, 10119 Berlin",
     "locale": "Rosie's Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5301475,
+    "lng": 13.4018631,
     "artisti": [
       "Roy Mansur"
     ],
@@ -276477,7 +276805,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503318",
@@ -276492,8 +276822,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rosenthaler Str. 39, 10178 Berlin, Germany",
     "locale": "Eschschloraque",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5244696,
+    "lng": 13.4017208,
     "artisti": [
       "patte",
       "Yves Taubert"
@@ -276512,7 +276842,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503481",
@@ -276527,8 +276859,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4993694,
+    "lng": 13.3496349,
     "artisti": [
       "Zenith"
     ],
@@ -276547,8 +276879,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504106",
@@ -276627,8 +276959,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [],
     "genere": [
       "electronic"
@@ -276644,7 +276976,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504213",
@@ -276659,8 +276993,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Oranienstraße 36  Kreuzberg, 10999 Berlin, Germany",
     "locale": "DV",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4103994,
+    "lng": 13.1306275,
     "artisti": [
       "SENERGI",
       "PAULAH",
@@ -276680,7 +277014,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2247479",
@@ -276768,8 +277104,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Strasse 76; Mitte; 10179 Berlin; Germany",
     "locale": "KitKatClub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5112074,
+    "lng": 13.4169157,
     "artisti": [
       "Alyne",
       "Brtinzz",
@@ -276799,7 +277135,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2329534",
@@ -276849,8 +277187,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [
       "STÜM",
       "Blame The Mono",
@@ -276879,7 +277217,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2347114",
@@ -277151,8 +277491,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 1, 10245 Berlin, Germany",
     "locale": "M01",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5173885,
+    "lng": 13.3951309,
     "artisti": [
       "Lenny Fuck",
       "VIVI909",
@@ -277179,7 +277519,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2459230",
@@ -277194,8 +277536,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Hochstraße 46; 13357 Berlin; Germany",
     "locale": "Humboldthain Club",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5441625,
+    "lng": 13.3787124,
     "artisti": [],
     "genere": [
       "electronic"
@@ -277211,7 +277553,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2465768",
@@ -277226,8 +277570,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alexanderstrasse 7; Mitte; 10178 Berlin; Germany",
     "locale": "Weekend",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5229029,
+    "lng": 13.4164231,
     "artisti": [
       "Enis Asfah"
     ],
@@ -277245,7 +277589,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2467147",
@@ -277342,8 +277688,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "KulturBrauerei, Knaackstraße 97, 10435 Berlin, Germany",
     "locale": "Soda Club",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5395232,
+    "lng": 13.4142448,
     "artisti": [],
     "genere": [
       "electronic"
@@ -277359,7 +277705,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2482213",
@@ -277374,8 +277722,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Gerichtstraße 23, 13347 Berlin",
     "locale": "Panke",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5449968,
+    "lng": 13.3742384,
     "artisti": [
       "PAULAH",
       "Simón JaVa",
@@ -277395,7 +277743,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483070",
@@ -277410,8 +277760,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dircksenstr. 123, 10178 Berlin",
     "locale": "M-BIA",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5226319,
+    "lng": 13.4092273,
     "artisti": [
       "Lil Texas",
       "Bass",
@@ -277433,7 +277783,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2483619",
@@ -277448,8 +277800,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Hermannstrasse 14, 12049 Berlin",
     "locale": "Giri",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4842037,
+    "lng": 13.4243857,
     "artisti": [
       "SOCIAL VLAD",
       "Guava",
@@ -277469,7 +277821,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484492",
@@ -277527,8 +277881,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [],
     "genere": [
       "electronic"
@@ -277544,7 +277898,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2485452",
@@ -277597,8 +277953,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Str. 70, 10179 Berlin, Germany",
     "locale": "OHM",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5105954,
+    "lng": 13.4197888,
     "artisti": [
       "Eduardo de la Calle",
       "ORION (IT)",
@@ -277619,7 +277975,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2485928",
@@ -277634,8 +277992,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Skalitzer Str. 135, 10999 Berlin",
     "locale": "Paloma",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4992586,
+    "lng": 13.4191407,
     "artisti": [
       "Pierre B (1)",
       "11:68PM",
@@ -277655,7 +278013,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2487264",
@@ -277709,8 +278069,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Wiesenweg 1-4, 10365 Berlin",
     "locale": "OXI",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5076121,
+    "lng": 13.4749435,
     "artisti": [
       "Sonia Sol",
       "Stimulus"
@@ -277729,7 +278089,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2488155",
@@ -277744,8 +278106,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Potsdamer Str. 84, 10785 Berlin",
     "locale": "Suprise Club",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5034016,
+    "lng": 13.3656474,
     "artisti": [],
     "genere": [
       "electronic"
@@ -277761,7 +278123,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490488",
@@ -277776,8 +278140,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "Titonton Duvanté",
       "Julie Marghilano",
@@ -277802,7 +278166,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490760",
@@ -277851,8 +278217,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Liebknecht-Str. 11, 10178 Berlin",
     "locale": "Hafenbar Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5217615,
+    "lng": 13.4075481,
     "artisti": [],
     "genere": [
       "electronic"
@@ -277868,7 +278234,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493523",
@@ -277924,8 +278292,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Skalitzer str. 114, 10999 Berlin, Germany",
     "locale": "Bulbul Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4993312,
+    "lng": 13.4242521,
     "artisti": [
       "Aria Santillana",
       "CHRANDY",
@@ -277946,7 +278314,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493920",
@@ -277961,8 +278331,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Str 99, 10245 Berlin",
     "locale": "Der Weiße Hase",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5075831,
+    "lng": 13.4545322,
     "artisti": [
       "Emma (8)",
       "TechNovaBader",
@@ -277983,7 +278353,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494821",
@@ -278069,8 +278441,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Pfuelstraße 5, 10997 Berlin",
     "locale": "Fluxbau",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5029678,
+    "lng": 13.4411582,
     "artisti": [],
     "genere": [
       "electronic"
@@ -278086,7 +278458,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494316",
@@ -278101,8 +278475,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [
       "Anna Hjalmarsson",
       "babxi",
@@ -278128,7 +278502,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504884",
@@ -278175,8 +278551,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Strasse 99; 10245 Berlin-Friedrichshain; Berlin; Germany",
     "locale": "Crack Bellmer",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5075865,
+    "lng": 13.4547707,
     "artisti": [
       "Hitomi (DE)",
       "MLE (UK)",
@@ -278198,7 +278574,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2485753",
@@ -278213,8 +278591,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt Stralau 70; Friedrichshain; 10245 Berlin; Germany",
     "locale": "Renate",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4973901,
+    "lng": 13.4653065,
     "artisti": [
       "SERA (2)",
       "Cleymoore",
@@ -278238,7 +278616,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499373",
@@ -278253,8 +278633,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dunckerstrasse 64, 10439 Berlin",
     "locale": "Dunckerclub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.546204,
+    "lng": 13.4237144,
     "artisti": [],
     "genere": [
       "electronic"
@@ -278270,7 +278650,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499975",
@@ -278409,8 +278791,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx-Straße 66, 12043 Berlin",
     "locale": "Klunkerkranich",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4820706,
+    "lng": 13.4313317,
     "artisti": [
       "Lex Ludlow",
       "Kaldera",
@@ -278432,7 +278814,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501661",
@@ -278481,8 +278865,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "Thomas Melchior",
       "Elia Nafzger",
@@ -278505,7 +278889,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502588",
@@ -278558,8 +278944,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Frankfurter Allee 23",
     "locale": "YSY",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5159207,
+    "lng": 13.4591426,
     "artisti": [
       "Lyndon Lewis",
       "Tempestfeather"
@@ -278578,7 +278964,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503157",
@@ -278729,8 +279117,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Hardenbergstr. 22-24, 10623 Berlin",
     "locale": "C/O Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5065947,
+    "lng": 13.3306266,
     "artisti": [
       "LACATY"
     ],
@@ -278748,7 +279136,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2391980",
@@ -278763,8 +279153,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Str. 18-20 10997 Berlin, Germany",
     "locale": "SAGE",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5110197,
+    "lng": 13.4169088,
     "artisti": [
       "Bradley Zero",
       "Dj Norma",
@@ -278790,7 +279180,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2399638",
@@ -278805,8 +279197,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schleusenufer 2, 10997 Berlin",
     "locale": "ÆDEN",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4984065,
+    "lng": 13.4505202,
     "artisti": [
       "Lukas Meunier",
       "David Strasser",
@@ -278831,7 +279223,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2404288",
@@ -278878,8 +279272,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Wiesenweg 1-4, 10365 Berlin",
     "locale": "OXI",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5076121,
+    "lng": 13.4749435,
     "artisti": [
       "Baptist (UK)",
       "Basilisque",
@@ -278908,7 +279302,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2422844",
@@ -278959,8 +279355,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Saarbrücker Straße 36A 10405",
     "locale": "Clinker Lounge in der Backfabrik",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5285069,
+    "lng": 13.4150476,
     "artisti": [
       "Mython",
       "Jon10"
@@ -278979,7 +279375,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2434354",
@@ -278994,8 +279392,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [],
     "genere": [
       "electronic"
@@ -279011,7 +279409,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2458287",
@@ -279026,8 +279426,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Ritterstrasse 26; Kreuzberg; 10969 Berlin; Germany",
     "locale": "Ritter Butzke",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5030121,
+    "lng": 13.4081361,
     "artisti": [
       "Eli & Fur"
     ],
@@ -279045,7 +279445,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2458401",
@@ -279142,8 +279544,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Gerichtstraße 23, 13347 Berlin",
     "locale": "Panke",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5449968,
+    "lng": 13.3742384,
     "artisti": [
       "Ziúr",
       "bela",
@@ -279164,7 +279566,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2467259",
@@ -279224,8 +279628,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "",
     "locale": "TBA",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4993694,
+    "lng": 13.3496349,
     "artisti": [],
     "genere": [
       "electronic"
@@ -279242,8 +279646,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-04",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2474202",
@@ -279329,8 +279733,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Strasse 99; 10245 Berlin-Friedrichshain; Berlin; Germany",
     "locale": "Crack Bellmer",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5075865,
+    "lng": 13.4547707,
     "artisti": [
       "Habibi Grooves",
       "KANA",
@@ -279350,7 +279754,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2478233",
@@ -279365,8 +279771,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Pücklerstraße 34, 10997 Berlin, Germany",
     "locale": "Bar Neun",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5023626,
+    "lng": 13.4311096,
     "artisti": [
       "Mandel Turner",
       "Balthazar Martinez"
@@ -279385,7 +279791,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2479112",
@@ -279477,8 +279885,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "KulturBrauerei, Knaackstraße 97, 10435 Berlin, Germany",
     "locale": "Soda Club",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5395232,
+    "lng": 13.4142448,
     "artisti": [],
     "genere": [
       "electronic"
@@ -279494,7 +279902,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484213",
@@ -279509,8 +279919,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "warschauer platz 18, 10245 Berlin",
     "locale": "Sensorium",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5046931,
+    "lng": 13.4488573,
     "artisti": [
       "Blck-Swan",
       "Monalisa Michaelis",
@@ -279530,7 +279940,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484248",
@@ -279545,8 +279957,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx Platz 16 12043 Berlin, Germany",
     "locale": "arkaoda Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4738852,
+    "lng": 13.4425685,
     "artisti": [
       "A.Wild",
       "Diamin",
@@ -279566,7 +279978,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484694",
@@ -279581,8 +279995,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Nalepastraße 18, 12459 Berlin",
     "locale": "MONOM",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4792421,
+    "lng": 13.4997366,
     "artisti": [
       "Nadia Struiwigh"
     ],
@@ -279600,7 +280014,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484860",
@@ -279615,8 +280031,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [
       "DAZA"
     ],
@@ -279634,7 +280050,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2485763",
@@ -279649,8 +280067,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt Stralau 70; Friedrichshain; 10245 Berlin; Germany",
     "locale": "Renate",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4973901,
+    "lng": 13.4653065,
     "artisti": [
       "Manta",
       "babxi",
@@ -279678,7 +280096,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486393",
@@ -279693,8 +280113,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Str. 70, 10179 Berlin, Germany",
     "locale": "OHM",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5105954,
+    "lng": 13.4197888,
     "artisti": [
       "George FitzGerald"
     ],
@@ -279712,7 +280132,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486596",
@@ -279876,8 +280298,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Torstraße 231, 10115 Berlin Germany",
     "locale": "Phantom Bar Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5270872,
+    "lng": 13.3879283,
     "artisti": [
       "IDLIBRA",
       "BOTOX FATAL",
@@ -279899,7 +280321,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2489492",
@@ -280026,8 +280450,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Stralauer Pl. 30-31, 10243 Berlin, Germany",
     "locale": "Amano East-Side",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5095954,
+    "lng": 13.4312948,
     "artisti": [
       "CAMET",
       "FR3ADY",
@@ -280047,7 +280471,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492666",
@@ -280062,8 +280488,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Hochstraße 46; 13357 Berlin; Germany",
     "locale": "Humboldthain Club",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5441625,
+    "lng": 13.3787124,
     "artisti": [
       "Athina",
       "elfie",
@@ -280095,7 +280521,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492840",
@@ -280142,8 +280570,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Herrfurthplatz 8, 12049 Berlin, Germany",
     "locale": "Ikii",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4766339,
+    "lng": 13.4215356,
     "artisti": [
       "Delikwe",
       "SALTI",
@@ -280164,7 +280592,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493316",
@@ -280179,8 +280609,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Ackerstraße 168, 10115 Berlin, Germany",
     "locale": "Club Der Polnischen Versager",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5298273,
+    "lng": 13.3971346,
     "artisti": [
       "Robot Girl",
       "Lancer (2)",
@@ -280200,7 +280630,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493653",
@@ -280247,8 +280679,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Skalitzer str. 114, 10999 Berlin, Germany",
     "locale": "Bulbul Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4993312,
+    "lng": 13.4242521,
     "artisti": [
       "Julien Josh",
       "Ashbeat",
@@ -280269,7 +280701,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493924",
@@ -280503,8 +280937,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Ritterstrasse 26; Kreuzberg; 10969 Berlin; Germany",
     "locale": "Ritter Butzke",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5030121,
+    "lng": 13.4081361,
     "artisti": [
       "Malouna",
       "Markus Klee"
@@ -280523,7 +280957,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2370094",
@@ -280606,8 +281042,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [
       "a:tok",
       "Artifex (DE)",
@@ -280634,7 +281070,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504705",
@@ -280686,8 +281124,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Ritterstrasse 26; Kreuzberg; 10969 Berlin; Germany",
     "locale": "Ritter Butzke",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5030121,
+    "lng": 13.4081361,
     "artisti": [
       "FYNN",
       "Annie O"
@@ -280706,7 +281144,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498035",
@@ -280759,8 +281199,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [
       "Beau Didier",
       "Alex Friday",
@@ -280790,7 +281230,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499785",
@@ -280907,8 +281349,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Wilhelminenhofstraße 92, 12459 Berlin, Germany",
     "locale": "Kaos Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4624652,
+    "lng": 13.5092523,
     "artisti": [
       "Mandel Turner",
       "Mat Fink",
@@ -280931,7 +281373,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501912",
@@ -280946,8 +281390,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx Platz 16 12043 Berlin, Germany",
     "locale": "arkaoda Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4738852,
+    "lng": 13.4425685,
     "artisti": [
       "DJ Fart in the Club",
       "Cousin"
@@ -280966,7 +281410,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502492",
@@ -281016,8 +281462,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Lobeckstraße 30-35, 10969 Berlin, Deutschland",
     "locale": "KREUZWERK",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5030057,
+    "lng": 13.407825,
     "artisti": [
       "Alex Kassian",
       "CEM",
@@ -281046,7 +281492,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2446666",
@@ -281061,8 +281509,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schlossstr. 82, 12165 Berlin",
     "locale": "ZIK Zeit ist Knapp",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4563519,
+    "lng": 13.3208269,
     "artisti": [
       "Moodymann",
       "Tom Kutsche",
@@ -281083,7 +281531,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496903",
@@ -281098,8 +281548,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [
       "Artifex (DE)",
       "fbi (1)",
@@ -281123,7 +281573,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2497662",
@@ -281175,8 +281627,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Strasse 76; Mitte; 10179 Berlin; Germany",
     "locale": "KitKatClub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5112074,
+    "lng": 13.4169157,
     "artisti": [
       "Daora"
     ],
@@ -281194,7 +281646,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2279653",
@@ -281209,8 +281663,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [
       "a:tok",
       "Belen Zer"
@@ -281229,7 +281683,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2402213",
@@ -281244,8 +281700,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Alt-Treptow 15, 12435 Berlin",
     "locale": "ZENNER",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4872491,
+    "lng": 13.4774693,
     "artisti": [
       "Haseeb Iqbal"
     ],
@@ -281263,7 +281719,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484862",
@@ -281278,8 +281736,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [
       "Flip Marlou"
     ],
@@ -281297,7 +281755,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486592",
@@ -281312,8 +281772,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Eichenstr. 4a, 12435 Berlin",
     "locale": "Haus der Visionäre",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4834778,
+    "lng": 13.5800458,
     "artisti": [
       "Eris Drew",
       "Octo Octa",
@@ -281334,7 +281794,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2487956",
@@ -281349,8 +281811,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schleusenufer 2, 10997 Berlin",
     "locale": "ÆDEN",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4984065,
+    "lng": 13.4505202,
     "artisti": [
       "DJ Ramoco"
     ],
@@ -281368,7 +281830,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490581",
@@ -281420,8 +281884,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Pfuelstraße 5, 10997 Berlin",
     "locale": "Fluxbau",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5029678,
+    "lng": 13.4411582,
     "artisti": [
       "Toto Waak",
       "Tina (DE)",
@@ -281443,7 +281907,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492238",
@@ -281458,8 +281924,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "An der Michaelbrücke 1, 10179 Berlin",
     "locale": "90mil",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5127946,
+    "lng": 13.424266,
     "artisti": [
       "O.M.Theorem",
       "yungfya",
@@ -281479,7 +281945,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493215",
@@ -281494,8 +281962,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Wiesenweg 1-4, 10365 Berlin",
     "locale": "OXI",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5076121,
+    "lng": 13.4749435,
     "artisti": [
       "Andre Zimmer",
       "Michal Zietara",
@@ -281517,7 +281985,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493417",
@@ -281598,8 +282068,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [],
     "genere": [
       "electronic"
@@ -281615,7 +282085,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502174",
@@ -281630,8 +282102,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "Cesar Merveille",
       "Lorenzo Chiabotti",
@@ -281652,7 +282124,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504387",
@@ -281704,8 +282178,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx-Straße 66, 12043 Berlin",
     "locale": "Klunkerkranich",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4820706,
+    "lng": 13.4313317,
     "artisti": [
       "Cem Orlow",
       "Nils Ohrmann"
@@ -281724,7 +282198,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499396",
@@ -281739,8 +282215,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dunckerstrasse 64, 10439 Berlin",
     "locale": "Dunckerclub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.546204,
+    "lng": 13.4237144,
     "artisti": [],
     "genere": [
       "electronic"
@@ -281756,7 +282232,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502082",
@@ -281771,8 +282249,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [],
     "genere": [
       "electronic"
@@ -281788,7 +282266,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2472146",
@@ -281837,8 +282317,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Strasse 76; Mitte; 10179 Berlin; Germany",
     "locale": "KitKatClub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5112074,
+    "lng": 13.4169157,
     "artisti": [
       "Bert",
       "Elene",
@@ -281860,7 +282340,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494222",
@@ -281913,8 +282395,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "HEAR",
       "Flandez",
@@ -281934,7 +282416,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498906",
@@ -281949,8 +282433,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Karl-Marx-Straße 66, 12043 Berlin",
     "locale": "Klunkerkranich",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4820706,
+    "lng": 13.4313317,
     "artisti": [
       "yvois"
     ],
@@ -281968,7 +282452,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501565",
@@ -282052,8 +282538,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Wühlischstraße 43, 10245 Berlin",
     "locale": "Süss War Gestern",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5086027,
+    "lng": 13.4610994,
     "artisti": [
       "Sugar Jim Jr."
     ],
@@ -282071,7 +282557,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2429996",
@@ -282156,8 +282644,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [
       "Chroma"
     ],
@@ -282175,7 +282663,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2486158",
@@ -282190,8 +282680,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "Stephanie Sykes",
       "Robin Ordell",
@@ -282213,7 +282703,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492647",
@@ -282228,8 +282720,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Hochstraße 46; 13357 Berlin; Germany",
     "locale": "Humboldthain Club",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5441625,
+    "lng": 13.3787124,
     "artisti": [],
     "genere": [
       "electronic"
@@ -282245,7 +282737,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2494269",
@@ -282260,8 +282754,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Wiesenweg 1-4, 10365 Berlin",
     "locale": "OXI",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5076121,
+    "lng": 13.4749435,
     "artisti": [
       "Marcel Fengler",
       "Rakans",
@@ -282282,7 +282776,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2495939",
@@ -282297,8 +282793,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [
       "k4mi",
       "ALLES ATZIG",
@@ -282318,7 +282814,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2497601",
@@ -282367,8 +282865,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Strasse 99; 10245 Berlin-Friedrichshain; Berlin; Germany",
     "locale": "Crack Bellmer",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5075865,
+    "lng": 13.4547707,
     "artisti": [],
     "genere": [
       "electronic"
@@ -282384,7 +282882,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499680",
@@ -282399,8 +282899,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rosenthaler Str. 39, 10178 Berlin, Germany",
     "locale": "Eschschloraque",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5244696,
+    "lng": 13.4017208,
     "artisti": [
       "MissVergnügen"
     ],
@@ -282418,7 +282918,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2501599",
@@ -282433,8 +282935,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "Claudio PRC",
       "Costanza",
@@ -282455,7 +282957,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2503573",
@@ -282470,8 +282974,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schleusenufer 2, 10997 Berlin",
     "locale": "ÆDEN",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4984065,
+    "lng": 13.4505202,
     "artisti": [],
     "genere": [
       "electronic"
@@ -282487,7 +282991,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2352015",
@@ -282502,8 +283008,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [
       "CARGO (DE)",
       "páthos",
@@ -282523,7 +283029,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2419602",
@@ -282538,8 +283046,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "warschauer platz 18, 10245 Berlin",
     "locale": "Sensorium",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5046931,
+    "lng": 13.4488573,
     "artisti": [
       "Zaphy",
       "UniKhatu",
@@ -282559,7 +283067,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2449890",
@@ -282608,8 +283118,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rolandufer, 10179 Berlin, Germany",
     "locale": "Gestrandet An Der Jannowitzbrücke",
-    "lat": null,
-    "lng": null,
+    "lat": 52.514901,
+    "lng": 13.4173876,
     "artisti": [],
     "genere": [
       "electronic"
@@ -282625,7 +283135,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2479469",
@@ -282677,8 +283189,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Strasse 76; Mitte; 10179 Berlin; Germany",
     "locale": "KitKatClub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5112074,
+    "lng": 13.4169157,
     "artisti": [
       "DJ Jordan",
       "Bombata",
@@ -282699,7 +283211,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484871",
@@ -282714,8 +283228,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Potsdamer Straße 50, 10785 Berlin, Germany",
     "locale": "Neue Nationalgalerie",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5070408,
+    "lng": 13.3676212,
     "artisti": [
       "Gigi Masin",
       "upsammy",
@@ -282735,7 +283249,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484874",
@@ -282750,8 +283266,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [],
     "genere": [
       "electronic"
@@ -282767,7 +283283,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490715",
@@ -282848,8 +283366,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Potsdamer Straße 50, 10785 Berlin, Germany",
     "locale": "Neue Nationalgalerie",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5070408,
+    "lng": 13.3676212,
     "artisti": [
       "Gigi Masin",
       "Valentina Magaletti",
@@ -282873,7 +283391,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2504359",
@@ -282923,8 +283443,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dircksenstrasse 78; Mitte; 10178 Berlin; Germany",
     "locale": "Golden Gate",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5159611,
+    "lng": 13.4169199,
     "artisti": [
       "Elene",
       "Bruno Otranto",
@@ -282944,7 +283464,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2497399",
@@ -354548,8 +355070,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Pontypridd",
     "indirizzo": "11 High Street",
     "locale": "Platform 11",
-    "lat": null,
-    "lng": null,
+    "lat": 51.6000264,
+    "lng": -3.3409983,
     "artisti": [],
     "genere": [
       "Techno"
@@ -354566,8 +355088,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "skiddle",
     "approvazione": "approvato",
     "creato_il": "2026-08-06",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "skiddle-42580875",
@@ -356622,8 +357144,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Spacer"
     ],
@@ -356641,7 +357163,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506422",
@@ -356725,8 +357249,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Alexxx",
       "PAZ WAZ HERE",
@@ -356746,7 +357270,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505541",
@@ -356761,8 +357287,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Calle Llacuna 136, Barcelona, 08018",
     "locale": "Dreamboat Bar & Deli",
-    "lat": null,
-    "lng": null,
+    "lat": 41.470529,
+    "lng": 1.5348884,
     "artisti": [
       "Hanakito",
       "Guille De Juan"
@@ -356781,7 +357307,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506355",
@@ -356864,8 +357392,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Andrea Dama",
       "Omega III"
@@ -356884,7 +357412,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505398",
@@ -356899,8 +357429,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Av. de Roma, 2, 4, Distrito de Sants-Montjuïc, 08014 Barcelona",
     "locale": "Nobu Hotel",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3796588,
+    "lng": 2.1425262,
     "artisti": [
       "Cucut"
     ],
@@ -356918,7 +357448,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505569",
@@ -356933,8 +357465,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Rambla del Raval, 17-21, 08001 Barcelona",
     "locale": "Hotel Barcelo Raval",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3790285,
+    "lng": 2.1696369,
     "artisti": [],
     "genere": [
       "electronic"
@@ -356950,7 +357482,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505992",
@@ -357149,8 +357683,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [],
     "genere": [
       "electronic"
@@ -357166,7 +357700,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505248",
@@ -357181,8 +357717,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Civic Grief"
     ],
@@ -357200,7 +357736,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505249",
@@ -357215,8 +357753,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [],
     "genere": [
       "electronic"
@@ -357232,7 +357770,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2500133",
@@ -357349,8 +357889,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Alex Cahe"
     ],
@@ -357368,7 +357908,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505383",
@@ -357383,8 +357925,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Av. de Roma, 2, 4, Distrito de Sants-Montjuïc, 08014 Barcelona",
     "locale": "Nobu Hotel",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3796588,
+    "lng": 2.1425262,
     "artisti": [
       "ANYA (2)",
       "Gee Beat"
@@ -357403,7 +357945,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505256",
@@ -357418,8 +357962,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Jaggy",
       "Rochelle"
@@ -357438,7 +357982,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505258",
@@ -357453,8 +357999,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "RNXRX",
       "Dj Sul"
@@ -357473,7 +358019,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505261",
@@ -357488,8 +358036,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Omen",
       "MENTA"
@@ -357508,7 +358056,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505262",
@@ -357523,8 +358073,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Malcolm Moore",
       "Arildo"
@@ -357543,7 +358093,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505263",
@@ -357558,8 +358110,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Barcelona",
     "indirizzo": "Carrer Francisco Giner, 24, 08012 Barcelona, Spain",
     "locale": "Switch Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 41.3991715,
+    "lng": 2.1592621,
     "artisti": [
       "Luis Leon",
       "Mutul",
@@ -357579,7 +358131,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2257004",
@@ -357729,8 +358283,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Madrid",
     "indirizzo": "Calle de Goya, 43, 28001 Madrid, Spain",
     "locale": "Goya Social Club",
-    "lat": null,
-    "lng": null,
+    "lat": 40.4254007,
+    "lng": -3.6829257,
     "artisti": [],
     "genere": [
       "electronic"
@@ -357747,8 +358301,8 @@ window.DPA_EVENTS_FALLBACK = [
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-06",
-    "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506436",
@@ -357941,8 +358495,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Valencia",
     "indirizzo": "C/ de l'Explorador Andrés, 29, Algirós, 46022 València, Valencia",
     "locale": "33/45 Club",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4717465,
+    "lng": -0.3456376,
     "artisti": [],
     "genere": [
       "electronic"
@@ -357958,7 +358512,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2505883",
@@ -358210,8 +358766,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Circonvallazione Idroscalo, 20090 Segrate (MI), Italy",
     "locale": "Circolo Magnolia",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4637036,
+    "lng": 9.286076,
     "artisti": [],
     "genere": [
       "electronic"
@@ -358227,7 +358783,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506510",
@@ -358242,8 +358800,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Via Alfonso Gatto angolo Viale Forlanini, 20134 Milano (MI), Italy",
     "locale": "Amnesia Milano",
-    "lat": null,
-    "lng": null,
+    "lat": 45.4630384,
+    "lng": 9.2404667,
     "artisti": [
       "KiNK",
       "Hiroko Hacci"
@@ -358262,7 +358820,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2475920",
@@ -358277,8 +358837,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Molise, 62, 20137 Milano MI",
     "locale": "Ex Macello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.457941,
+    "lng": 9.2273118,
     "artisti": [
       "Michael Bibi"
     ],
@@ -358296,7 +358856,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2475926",
@@ -358311,8 +358873,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Milan",
     "indirizzo": "Viale Molise, 62, 20137 Milano MI",
     "locale": "Ex Macello",
-    "lat": null,
-    "lng": null,
+    "lat": 45.457941,
+    "lng": 9.2273118,
     "artisti": [
       "Solomun"
     ],
@@ -358330,7 +358892,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506866",
@@ -358455,8 +359019,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Lübbener Str. 19, 10997 Berlin, Germany",
     "locale": "Madame Claude",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4996096,
+    "lng": 13.4374056,
     "artisti": [],
     "genere": [
       "electronic"
@@ -358472,7 +359036,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506542",
@@ -358487,8 +359053,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schiffbauerdamm 11; Mitte; 10117 Berlin; Germany",
     "locale": "Tausend",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5208236,
+    "lng": 13.3847097,
     "artisti": [
       "C.M.A."
     ],
@@ -358506,7 +359072,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496930",
@@ -358521,8 +359089,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Dircksenstrasse 78; Mitte; 10178 Berlin; Germany",
     "locale": "Golden Gate",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5159611,
+    "lng": 13.4169199,
     "artisti": [
       "Luis Radio",
       "Topper",
@@ -358542,7 +359110,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2497468",
@@ -358598,8 +359168,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schiffbauerdamm 11; Mitte; 10117 Berlin; Germany",
     "locale": "Tausend",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5208236,
+    "lng": 13.3847097,
     "artisti": [],
     "genere": [
       "electronic"
@@ -358615,7 +359185,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2498567",
@@ -358707,8 +359279,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Lübbener Str. 19, 10997 Berlin, Germany",
     "locale": "Madame Claude",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4996096,
+    "lng": 13.4374056,
     "artisti": [],
     "genere": [
       "electronic"
@@ -358724,7 +359296,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506184",
@@ -358739,8 +359313,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Torstraße 58, 10119 Berlin, Germany",
     "locale": "Nachtleben Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5287235,
+    "lng": 13.40876,
     "artisti": [],
     "genere": [
       "electronic"
@@ -358756,7 +359330,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2492802",
@@ -358771,8 +359347,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "warschauer platz 18, 10245 Berlin",
     "locale": "Sensorium",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5046931,
+    "lng": 13.4488573,
     "artisti": [
       "Loco (IT)"
     ],
@@ -358790,7 +359366,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499785",
@@ -358839,8 +359417,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "First Floor, Hinterhof Aufgang II, Kaiserin-Augusta-Allee 101, 10553 Berlin, Germany",
     "locale": "Pas Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4843424,
+    "lng": 13.3194296,
     "artisti": [
       "Jus-Ed",
       "mitallerliebe",
@@ -358861,7 +359439,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2502392",
@@ -358910,8 +359490,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Lübbener Str. 19, 10997 Berlin, Germany",
     "locale": "Madame Claude",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4996096,
+    "lng": 13.4374056,
     "artisti": [],
     "genere": [
       "electronic"
@@ -358927,7 +359507,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2506090",
@@ -359008,8 +359590,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Revaler Strasse 99; 10245 Berlin-Friedrichshain; Berlin; Germany",
     "locale": "Crack Bellmer",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5075865,
+    "lng": 13.4547707,
     "artisti": [
       "Neksi",
       "QOPA'K",
@@ -359031,7 +359613,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2488778",
@@ -359112,8 +359696,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Markgrafendamm 24c, 10245 Berlin, Germany",
     "locale": "://about blank",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5024767,
+    "lng": 13.466302,
     "artisti": [
       "Marcel Heese",
       "CSL",
@@ -359140,7 +359724,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2449150",
@@ -359318,8 +359904,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Str. 70, 10179 Berlin, Germany",
     "locale": "OHM",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5105954,
+    "lng": 13.4197888,
     "artisti": [
       "Deadbeat",
       "Monty Luke",
@@ -359341,7 +359927,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2477565",
@@ -359392,8 +359980,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Caroline-Michaelis-Str. 1, 10115 Berlin",
     "locale": "Wilder als Erwartet",
-    "lat": null,
-    "lng": null,
+    "lat": 52.531471,
+    "lng": 13.3857245,
     "artisti": [],
     "genere": [
       "electronic"
@@ -359409,7 +359997,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2480422",
@@ -359458,8 +360048,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Potsdamer Straße 50, 10785 Berlin, Germany",
     "locale": "Neue Nationalgalerie",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5070408,
+    "lng": 13.3676212,
     "artisti": [
       "Space Afrika",
       "Dopplereffekt"
@@ -359478,7 +360068,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2484877",
@@ -359493,8 +360085,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Rigaer Strasse 31; Friedrichshain; 10247 Berlin; Germany",
     "locale": "Minimal Bar",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5164827,
+    "lng": 13.4639097,
     "artisti": [
       "Sciarada"
     ],
@@ -359512,7 +360104,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2485457",
@@ -359564,8 +360158,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Forster Str. 51, 10999 Berlin",
     "locale": "Pleasure Patterns",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4953819,
+    "lng": 13.4337916,
     "artisti": [
       "alizé.e",
       "femnms",
@@ -359585,7 +360179,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2490738",
@@ -359632,8 +360228,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Skalitzer str. 114, 10999 Berlin, Germany",
     "locale": "Bulbul Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4993312,
+    "lng": 13.4242521,
     "artisti": [
       "Flaaviø",
       "dj prinskorv",
@@ -359653,7 +360249,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2493938",
@@ -359702,8 +360300,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Warschauer Brücke, Revaler Straße 99 Zugang über, 10245 Berlin, Germany",
     "locale": "Lokschuppen Berlin",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5071698,
+    "lng": 13.4510769,
     "artisti": [],
     "genere": [
       "electronic"
@@ -359719,7 +360317,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2496740",
@@ -359801,8 +360401,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Köpenicker Strasse 76; Mitte; 10179 Berlin; Germany",
     "locale": "KitKatClub",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5112074,
+    "lng": 13.4169157,
     "artisti": [
       "DJ Henk",
       "Cobb Douglas"
@@ -359821,7 +360421,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499417",
@@ -359836,8 +360438,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Schönhauser Allee 177b, 10119 Berlin",
     "locale": "8MM",
-    "lat": null,
-    "lng": null,
+    "lat": 52.5312243,
+    "lng": 13.4115684,
     "artisti": [
       "SUPPLANT",
       "Paulina Panik"
@@ -359856,7 +360458,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2499968",
@@ -359903,8 +360507,8 @@ window.DPA_EVENTS_FALLBACK = [
     "citta": "Berlin",
     "indirizzo": "Am Flutgraben 1, 12435 Berlin, Germany",
     "locale": "Club der Visionaere",
-    "lat": null,
-    "lng": null,
+    "lat": 52.4967959,
+    "lng": 13.4504805,
     "artisti": [
       "Robin RB",
       "Idit Frenkel",
@@ -359926,7 +360530,9 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "ra",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "nominatim_verificato"
   },
   {
     "id": "ra-2470433",

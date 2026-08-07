@@ -15,7 +15,7 @@ cd /d "%~dp0"
 if exist "%~dp0config.bat" call "%~dp0config.bat"
 
 echo [%date% %time%] --- BACKUP DATI PRIMA DELL'AGGIORNAMENTO ---
-python ingest.py --backup
+python "coordinate eventi\ingest.py" --backup
 if errorlevel 1 (
     echo [%date% %time%] ERRORE BACKUP: aggiornamento annullato.
     if not "%1"=="auto" pause
@@ -23,8 +23,8 @@ if errorlevel 1 (
 )
 
 echo [%date% %time%] --- TICKETMASTER ---
-python ingest.py
-python ingest.py --approva-fonte ticketmaster
+python "coordinate eventi\ingest.py"
+python "coordinate eventi\ingest.py" --approva-fonte ticketmaster
 
 echo [%date% %time%] --- DICE.FM ---
 python dice.py
@@ -40,11 +40,11 @@ python residentadvisor.py
 python residentadvisor.py --approva
 
 echo [%date% %time%] --- Archivio eventi passati (rimossi dalla mappa) ---
-python ingest.py --archivia-passati
+python "coordinate eventi\ingest.py" --archivia-passati
 
 echo [%date% %time%] --- Coordinate locali (cache + verifica prudente) ---
-python coordinate_eventi.py --apply
-python geocodifica_coordinate.py --apply --limit 100 --delay 2.5
+python "coordinate eventi\coordinate_eventi.py" --apply
+python "coordinate eventi\geocodifica_coordinate.py" --apply --limit 100 --delay 2.5 --retry-incerti-giorni 7
 
 echo [%date% %time%] --- Pubblico il sito online (git push) ---
 git -C "%~dp0.." add -A
