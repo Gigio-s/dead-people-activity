@@ -441,12 +441,24 @@ def fonte_ticketmaster(api_key, paese="IT", keyword="", size=100, page=0, classi
     if keyword:
         params["keyword"] = keyword
     url = "https://app.ticketmaster.com/discovery/v2/events.json?" + urllib.parse.urlencode(params)
-    try:
-        with urllib.request.urlopen(url, timeout=20) as resp:
-            data = json.load(resp)
-    except Exception as e:
-        print("  ! Ticketmaster errore (", paese, "):", e)
-        return []
+    data = None
+    for attempt in range(4):
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "DeadPeopleActivity/2.0 (+https://deadpeopleactivity.com)",
+                "Accept": "application/json",
+            })
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                data = json.load(resp)
+            break
+        except Exception as e:
+            if attempt == 3:
+                print("  ! Ticketmaster non raggiungibile dopo 4 tentativi (", paese, "):", e)
+                return None
+            wait_seconds = (5, 15, 30)[attempt]
+            print("  ! Ticketmaster connessione interrotta (", paese,
+                  "): nuovo tentativo tra", wait_seconds, "secondi.")
+            time.sleep(wait_seconds)
     out = []
     for e in data.get("_embedded", {}).get("events", []):
         venue = (e.get("_embedded", {}).get("venues") or [{}])[0]
@@ -496,7 +508,9 @@ def raccogli():
                 for pg in range(pagine):
                     tm = fonte_ticketmaster(TM_KEY, paese=paese, classification=cls, size=100, page=pg)
                     chiamate += 1
-                    time.sleep(0.2)  # rispetta il limite di 5 richieste/secondo
+                    time.sleep(0.6)  # resta sotto il limite prudente di 2 richieste/secondo
+                    if tm is None:
+                        raise RuntimeError("Ticketmaster non raggiungibile: raccolta interrotta senza pubblicare dati parziali")
                     if not tm:
                         break  # niente piu' risultati per questo paese+genere
                     tm_ok = [r for r in tm if genere_ammesso(r)]

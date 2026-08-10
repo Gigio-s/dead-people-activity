@@ -14,8 +14,21 @@ REM ============================================================
 cd /d "%~dp0"
 if exist "%~dp0config.bat" call "%~dp0config.bat"
 
+where py >nul 2>&1
+if not errorlevel 1 (
+    set "DPA_PYTHON=py -3"
+) else (
+    where python >nul 2>&1
+    if errorlevel 1 (
+        echo [%date% %time%] ERRORE: Python non trovato. Aggiornamento annullato.
+        if not "%1"=="auto" pause
+        exit /b 1
+    )
+    set "DPA_PYTHON=python"
+)
+
 echo [%date% %time%] --- BACKUP DATI PRIMA DELL'AGGIORNAMENTO ---
-python "coordinate eventi\ingest.py" --backup
+%DPA_PYTHON% "coordinate eventi\ingest.py" --backup
 if errorlevel 1 (
     echo [%date% %time%] ERRORE BACKUP: aggiornamento annullato.
     if not "%1"=="auto" pause
@@ -23,36 +36,65 @@ if errorlevel 1 (
 )
 
 echo [%date% %time%] --- TICKETMASTER ---
-python "coordinate eventi\ingest.py"
-python "coordinate eventi\ingest.py" --approva-fonte ticketmaster
+%DPA_PYTHON% "coordinate eventi\ingest.py"
+if errorlevel 1 goto :errore
+%DPA_PYTHON% "coordinate eventi\ingest.py" --approva-fonte ticketmaster
+if errorlevel 1 goto :errore
 
 echo [%date% %time%] --- DICE.FM ---
-python dice.py
-python arricchisci_genere.py
-python dice.py --approva
+%DPA_PYTHON% dice.py
+if errorlevel 1 goto :errore
+%DPA_PYTHON% arricchisci_genere.py
+if errorlevel 1 goto :errore
+%DPA_PYTHON% dice.py --approva
+if errorlevel 1 goto :errore
 
 echo [%date% %time%] --- SKIDDLE ---
-python skiddle.py
-python skiddle.py --approva
+%DPA_PYTHON% skiddle.py
+if errorlevel 1 goto :errore
+%DPA_PYTHON% skiddle.py --approva
+if errorlevel 1 goto :errore
 
 echo [%date% %time%] --- RESIDENT ADVISOR ---
-python residentadvisor.py
-python residentadvisor.py --approva
+%DPA_PYTHON% residentadvisor.py
+if errorlevel 1 goto :errore
+%DPA_PYTHON% residentadvisor.py --approva
+if errorlevel 1 goto :errore
 
 echo [%date% %time%] --- Archivio eventi passati (rimossi dalla mappa) ---
-python "coordinate eventi\ingest.py" --archivia-passati
+%DPA_PYTHON% "coordinate eventi\ingest.py" --archivia-passati
+if errorlevel 1 goto :errore
 
 echo [%date% %time%] --- Coordinate locali (cache + verifica prudente) ---
-python "coordinate eventi\coordinate_eventi.py" --apply
-python "coordinate eventi\geocodifica_coordinate.py" --apply --limit 100 --delay 2.5 --retry-incerti-giorni 7
+%DPA_PYTHON% "coordinate eventi\coordinate_eventi.py" --apply
+if errorlevel 1 goto :errore
+%DPA_PYTHON% "coordinate eventi\geocodifica_coordinate.py" --apply --limit 100 --delay 2.5 --retry-incerti-giorni 7
+if errorlevel 1 goto :errore
 
 echo [%date% %time%] --- Pubblico il sito online (git push) ---
 git -C "%~dp0.." add -A
-git -C "%~dp0.." commit -m "Aggiornamento settimanale eventi (auto)"
+if errorlevel 1 goto :errore
+git -C "%~dp0.." diff --cached --quiet
+if errorlevel 1 (
+    git -C "%~dp0.." commit -m "Aggiornamento settimanale eventi (auto)"
+    if errorlevel 1 goto :errore
+) else (
+    echo [%date% %time%] Nessuna modifica nuova da committare.
+)
 git -C "%~dp0.." pull --rebase
+if errorlevel 1 goto :errore
 git -C "%~dp0.." push
+if errorlevel 1 goto :errore
 
 echo [%date% %time%] FATTO.
 
 REM Se lanciato a mano (doppio click) mostra la pausa; se schedulato (arg "auto") no.
 if not "%1"=="auto" pause
+exit /b 0
+
+:errore
+echo.
+echo [%date% %time%] ERRORE: aggiornamento interrotto. Nessun push successivo verra eseguito.
+echo Puoi rilanciare lo stesso file: backup e controlli duplicati proteggono i dati.
+if not "%1"=="auto" pause
+exit /b 1

@@ -12,6 +12,14 @@ scripts/events_coordinate_incerte.json
 scripts/venue_geocode_cache.json
 scripts/geocodifica_coordinate.log
 scripts/geocodifica_coordinate.err.log
+scripts/coordinate eventi/geocode_cache.json
+scripts/coordinate eventi/genere_cache.json
+scripts/coordinate eventi/__pycache__/
+scripts/coordinate eventi/backups/
+scripts/coordinate eventi/events_coordinate_incerte.json
+scripts/coordinate eventi/venue_geocode_cache.json
+scripts/coordinate eventi/geocodifica_coordinate.log
+scripts/coordinate eventi/geocodifica_coordinate.err.log
 *.pyc
 
 # --- Code / archivi di lavoro: non parte del sito pubblico ---

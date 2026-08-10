@@ -634,5 +634,40 @@
   "11-ordnance-crescent-london-se10-0jh-london-united-kingdom": {
     "lat": 51.5013177,
     "lng": -0.0012645
+  },
+  "slaughter-club-via-angelo-tagliabue-4-paderno-dugnano-milano-italy": {
+    "lat": 45.5755652,
+    "lng": 9.1520202,
+    "precisione": "indirizzo"
+  },
+  "arci-tom-mantova-italy": {
+    "lat": 45.1428155,
+    "lng": 10.7639898,
+    "precisione": "indirizzo"
+  },
+  "porto-turistico-lungomare-papa-giovanni-xxiii-pescara-italy": {
+    "lat": 42.4664028,
+    "lng": 14.2285454,
+    "precisione": "indirizzo"
+  },
+  "modigliani-forum-livorno-italy": {
+    "lat": 43.5550361,
+    "lng": 10.3422651,
+    "precisione": "indirizzo"
+  },
+  "vitrifrigo-arena-pesaro-italy": {
+    "lat": 43.9028766,
+    "lng": 12.8672258,
+    "precisione": "indirizzo"
+  },
+  "palazzo-del-turismo-jesolo-lido-di-jesolo-italy": {
+    "lat": 45.5024359,
+    "lng": 12.63051,
+    "precisione": "indirizzo"
+  },
+  "planet-wax-318-new-cross-road-london-se14-6af-london-united-kingdom": {
+    "lat": 51.475514,
+    "lng": -0.0367755,
+    "precisione": "indirizzo"
   }
 }

@@ -3309,5 +3309,9 @@
     "status": "incerto",
     "checked_at": "2026-08-07T18:36:12",
     "retry_after": "2026-08-14T18:36:23"
+  },
+  "the strines nightingale|105 strines road|stockport|gb": {
+    "status": "errore",
+    "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=gb&street=105+Strines+Road&city=Stockport']' returned non-zero exit status 22."
   }
 }
