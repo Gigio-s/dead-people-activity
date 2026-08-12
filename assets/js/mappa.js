@@ -98,7 +98,7 @@
             buildChatbot();
             loadBorders().then(function () {
                 goEurope();
-                if (!openEventFromQuery()) maybeGeolocate();
+                if (!openEventFromQuery() && !openChatFiltersFromQuery()) maybeGeolocate();
             });
         });
     }
@@ -109,6 +109,23 @@
         var ev = byId(id);
         if (!ev) return false;
         focusEvent(ev, true);
+        return true;
+    }
+
+    function openChatFiltersFromQuery() {
+        var params = new URLSearchParams(window.location.search);
+        var genre = params.get("genere") || "";
+        var wantedCountry = params.get("paese") || "";
+        if (!genre && !wantedCountry) return false;
+        if (["rock", "rap", "electronic"].indexOf(genre) >= 0) setSel("f-genere", genre);
+        if (wantedCountry) {
+            wantedCountry = toIT(wantedCountry);
+            var matched = uniq(ALL.map(function (e) { return e.paese; })).find(function (name) {
+                return String(name || "").trim().toLowerCase() === String(wantedCountry || "").trim().toLowerCase();
+            });
+            if (matched) selectCountry(matched, countryBounds[matched]);
+            else refreshCurrent();
+        } else refreshCurrent();
         return true;
     }
 
@@ -622,6 +639,16 @@
 
     /* ---------- UI WIRING ---------- */
     function wireUI() {
+        var filtersToggle = document.getElementById("filtersToggle");
+        var filtersForm = document.getElementById("mapFilters");
+        if (filtersToggle && filtersForm) {
+            filtersToggle.addEventListener("click", function () {
+                var open = filtersForm.classList.toggle("open");
+                filtersToggle.setAttribute("aria-expanded", open ? "true" : "false");
+                filtersToggle.innerHTML = open ? "Chiudi filtri &#9652;" : "Filtri &#9662;";
+            });
+        }
+
         // Filtri base -> ridisegna il livello corrente
         ["f-genere", "f-tipo", "f-data", "f-data-fine", "f-gratis"].forEach(function (id) {
             var el = document.getElementById(id);

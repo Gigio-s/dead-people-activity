@@ -174,6 +174,100 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!_i18nNodes) _i18nNodes = _collectI18nNodes();
         _i18nNodes.forEach(o => { o.node.nodeValue = o.lead + (lang === 'en' ? o.en : o.it) + o.trail; });
     };
+
+    // Assistente eventi globale. Sulla mappa viene gestito da mappa.js;
+    // nelle altre pagine apre la mappa con genere e paese gia selezionati.
+    function injectGlobalChatbot() {
+        if (document.getElementById('chatbotFab')) return;
+
+        const fab = document.createElement('button');
+        fab.type = 'button';
+        fab.className = 'chatbot-fab';
+        fab.id = 'chatbotFab';
+        fab.setAttribute('aria-label', 'Assistente eventi');
+        fab.setAttribute('aria-expanded', 'false');
+        fab.textContent = '?!';
+
+        const panel = document.createElement('div');
+        panel.className = 'chatbot-panel';
+        panel.id = 'chatbotPanel';
+        panel.setAttribute('aria-hidden', 'true');
+        panel.innerHTML =
+            '<div class="chatbot-head"><span>Trova il tuo evento</span>' +
+            '<button type="button" class="chatbot-close" id="chatbotClose" aria-label="Chiudi assistente">&times;</button></div>' +
+            '<div class="chatbot-body" id="chatbotBody"></div>';
+        document.body.appendChild(fab);
+        document.body.appendChild(panel);
+
+        let choice = { genre: '', country: '' };
+        let countriesPromise = null;
+        const bodyEl = panel.querySelector('#chatbotBody');
+        const escChat = value => String(value == null ? '' : value).replace(/[&<>"']/g, c => ({
+            '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        })[c]);
+        const genreLabel = value => ({
+            rock: 'Rock / Punk / Metal / Indie',
+            rap: 'Rap / Hip-Hop',
+            electronic: 'Techno / Elettronica'
+        })[value] || 'Qualsiasi genere';
+
+        function loadCountries() {
+            if (countriesPromise) return countriesPromise;
+            countriesPromise = fetch('assets/data/events.json')
+                .then(response => { if (!response.ok) throw new Error('events'); return response.json(); })
+                .then(events => {
+                    const seen = new Set();
+                    return (Array.isArray(events) ? events : []).map(event => event.paese)
+                        .filter(country => country && !seen.has(country) && seen.add(country))
+                        .sort((a, b) => String(a).localeCompare(String(b)));
+                })
+                .catch(() => []);
+            return countriesPromise;
+        }
+
+        function renderGenre() {
+            bodyEl.innerHTML = '<p class="bot-msg">Che musica cerchi?</p><div class="bot-opts">' +
+                ['rock', 'rap', 'electronic'].map(value =>
+                    '<button type="button" class="bot-opt" data-genre="' + value + '">' + genreLabel(value) + '</button>'
+                ).join('') + '<button type="button" class="bot-opt" data-genre="">Qualsiasi</button></div>';
+            bodyEl.querySelectorAll('[data-genre]').forEach(button => button.addEventListener('click', () => {
+                choice.genre = button.getAttribute('data-genre') || '';
+                renderCountry();
+            }));
+            loadCountries();
+        }
+
+        function renderCountry() {
+            bodyEl.innerHTML = '<p class="bot-msg">Carico i paesi con eventi...</p>';
+            loadCountries().then(list => {
+                if (!list.length) {
+                    bodyEl.innerHTML = '<p class="bot-msg">Non riesco a caricare i paesi. Puoi comunque aprire tutti gli eventi.</p>' +
+                        '<button type="button" class="bot-opt" data-country="">Apri la mappa</button>';
+                } else {
+                    bodyEl.innerHTML = '<p class="bot-msg">In che paese?</p><div class="bot-opts bot-country-opts">' +
+                        list.map(country => '<button type="button" class="bot-opt" data-country="' + escChat(country) + '">' + escChat(country) + '</button>').join('') +
+                        '<button type="button" class="bot-opt" data-country="">Ovunque</button></div>';
+                }
+                bodyEl.querySelectorAll('[data-country]').forEach(button => button.addEventListener('click', () => {
+                    choice.country = button.getAttribute('data-country') || '';
+                    const params = new URLSearchParams();
+                    if (choice.genre) params.set('genere', choice.genre);
+                    if (choice.country) params.set('paese', choice.country);
+                    window.location.href = 'mappa.html' + (params.toString() ? '?' + params.toString() : '');
+                }));
+            });
+        }
+
+        function setOpen(open) {
+            panel.classList.toggle('open', open);
+            panel.setAttribute('aria-hidden', open ? 'false' : 'true');
+            fab.setAttribute('aria-expanded', open ? 'true' : 'false');
+            if (open) renderGenre();
+        }
+        fab.addEventListener('click', () => setOpen(!panel.classList.contains('open')));
+        panel.querySelector('#chatbotClose').addEventListener('click', () => setOpen(false));
+        document.addEventListener('keydown', event => { if (event.key === 'Escape') setOpen(false); });
+    }
     const injectLangToggle = () => {
         const nav = document.querySelector('.nav-container');
         if (!nav || nav.querySelector('.lang-toggle')) return;
@@ -389,6 +483,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ---- Attiva selettore lingua (EN/IT) e gestisci il primo accesso ----
+    injectGlobalChatbot();
     injectLangToggle();
     var _hasLangChoice = false;
     try { _hasLangChoice = !!localStorage.getItem("dpa_lang"); } catch (e) {}

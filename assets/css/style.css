@@ -1141,6 +1141,7 @@ label {
 .chatbot-body { padding: 14px; }
 .bot-msg { font-family: var(--font-punk-body); color: #ffffff; margin-bottom: 12px; }
 .bot-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.bot-country-opts { max-height: 230px; overflow-y: auto; padding-right: 4px; }
 .bot-opt {
     font-family: var(--font-punk-body);
     background: #000000;
@@ -1258,6 +1259,8 @@ label {
     .filters-toggle { display: inline-block; }
     .map-filters { display: none; }
     .map-filters.open { display: grid; }
+    .filters-toggle { width: 100%; min-height: 46px; }
+    .map-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .zona-controls { flex-direction: column; align-items: stretch; }
     .event-detail { width: 100%; border-left: none; border-top: 3px dashed #ffffff; }
     .list-reopen { right: 12px; }
@@ -1330,6 +1333,11 @@ select, input, textarea, .form-control { max-width: 100%; }
 
     /* Mappa: barra strumenti in colonna, viste elenco/calendario a 1 colonna */
     .map-toolbar-inner { flex-direction: column; align-items: stretch; }
+    .map-filters { grid-template-columns: 1fr; gap: 12px; }
+    .map-filters select,
+    .map-filters input[type="date"],
+    .btn-reset { width: 100%; min-height: 46px; }
+    .filter-checks { justify-content: flex-start; min-height: 46px; }
     .view-switch { width: 100%; }
     .view-btn { flex: 1; text-align: center; }
     .map-layout.view-elenco .events-list,
