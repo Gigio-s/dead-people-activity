@@ -1,0 +1,275 @@
+/* ==========================================================================
+   THE WALL — Dead People Activity
+   Bacheca post-it underground. Usa le variabili gia definite in style.css
+   (:root). NON ridefinisce l'identita: solo gli stili nuovi di questa pagina.
+   ========================================================================== */
+
+/* --- Sfondo muro (graffito DEAD PEOPLE ACTIVITY) ------------------------- */
+body.the-wall-page {
+    /* Se l'immagine manca, resta il nero asfalto di sempre (--bg-color) */
+    background-color: var(--bg-color);
+    /* Overlay piu leggero e sfumato: scuro dietro l'header e in fondo (per
+       leggibilita), quasi trasparente al centro cosi il muro e il graffito
+       "DEAD PEOPLE ACTIVITY" si vedono bene. */
+    background-image:
+        linear-gradient(rgba(10, 10, 12, 0.80), rgba(10, 10, 12, 0.30) 45%, rgba(10, 10, 12, 0.55) 75%, rgba(10, 10, 12, 0.92)),
+        url('../img/wall/wall.png');
+    background-size: cover;
+    background-position: center 32%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Logo/titolo centrato (solo su questa pagina) */
+body.the-wall-page .title-underground {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Intro pagina */
+.wall-intro {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 10px;
+    color: #f2ede2;
+    font-size: 1.05rem;
+    text-shadow: 0 1px 5px rgba(0,0,0,0.95), 0 0 2px rgba(0,0,0,0.9);
+}
+
+/* Avviso stato (demo / moderazione / backend) */
+.wall-notice {
+    max-width: 760px;
+    margin: 18px auto 30px;
+    padding: 12px 16px;
+    border: var(--border-thin);
+    border-left: 4px solid var(--accent-color);
+    background: rgba(24, 24, 28, 0.85);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-align: center;
+}
+.wall-notice strong { color: var(--text-color); }
+
+/* --- Barra azioni -------------------------------------------------------- */
+.wall-actions {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 34px;
+}
+
+/* --- Griglia post-it (muratura a colonne) -------------------------------- */
+.wall-grid {
+    column-count: 4;
+    column-gap: 22px;
+    margin-top: 10px;
+}
+@media (max-width: 1100px) { .wall-grid { column-count: 3; } }
+@media (max-width: 760px)  { .wall-grid { column-count: 2; column-gap: 16px; } }
+@media (max-width: 460px)  { .wall-grid { column-count: 1; } }
+
+/* --- Il singolo POST-IT -------------------------------------------------- */
+.postit {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 0 22px;
+    padding: 26px 20px 20px;
+    color: #14100f;                       /* inchiostro scuro su carta colorata */
+    /* Fallback colore per genere se l'immagine post-it non c'e ancora */
+    background-color: var(--genre-rock);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 6px 0 rgba(0,0,0,0.55);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transform: rotate(-1.5deg);
+}
+.postit:nth-child(2n)  { transform: rotate(1.8deg); }
+.postit:nth-child(3n)  { transform: rotate(-0.8deg); }
+.postit:nth-child(4n)  { transform: rotate(2.2deg); }
+.postit:hover {
+    transform: rotate(0deg) scale(1.03);
+    box-shadow: 6px 9px 0 rgba(0,0,0,0.7);
+    z-index: 3;
+}
+
+/* Colore / immagine per genere */
+.postit[data-genre="rock"]   { background-color: var(--genre-rock);       background-image: url('../img/wall/postit-rock.png'); }
+.postit[data-genre="rap"]    { background-color: var(--genre-rap);        background-image: url('../img/wall/postit-rap.png'); }
+.postit[data-genre="techno"] { background-color: var(--genre-electronic); background-image: url('../img/wall/postit-techno.png'); }
+.postit[data-genre="neutral"]{ background-color: #d9d2c3;                  background-image: url('../img/wall/postit-rock.png'); }
+
+/* Pezzetto di nastro adesivo in cima */
+.postit::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-3deg);
+    width: 64px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.28);
+    border: 1px dashed rgba(0,0,0,0.25);
+}
+
+.postit-genre {
+    display: inline-block;
+    font-family: var(--font-punk-body);
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    padding: 2px 8px;
+    margin-bottom: 10px;
+}
+/* Pannello "carta" semi-opaco: rende il testo leggibile su qualsiasi
+   zona (anche scura) dell'immagine post-it, mantenendo l'immagine come
+   sticker/cornice attorno. */
+.postit-body {
+    font-family: var(--font-punk-body);
+    font-size: 1rem;
+    line-height: 1.45;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: #17120f;
+    background: rgba(247, 243, 230, 0.90);
+    padding: 11px 13px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.35), 2px 2px 0 rgba(0,0,0,0.25);
+}
+.postit-meta {
+    margin-top: 12px;
+    font-family: var(--font-punk-body);
+    font-size: 0.78rem;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.postit-author { font-weight: bold; }
+.postit-author::before { content: "— "; }
+
+/* Toggle commenti */
+.postit-comments-toggle {
+    background: rgba(0,0,0,0.55);
+    border: none;
+    font-family: var(--font-punk-body);
+    font-size: 0.78rem;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 3px 8px;
+    margin-top: 10px;
+}
+
+/* Blocco commenti dentro il post-it (su carta chiara per leggibilita) */
+.postit-comments {
+    margin-top: 12px;
+    padding: 10px 12px;
+    background: rgba(247, 243, 230, 0.92);
+    border-top: 3px solid rgba(0,0,0,0.25);
+}
+.postit-comment {
+    font-family: var(--font-punk-body);
+    font-size: 0.85rem;
+    padding: 6px 0;
+    border-bottom: 1px dotted rgba(0,0,0,0.2);
+}
+.postit-comment .c-author { font-weight: bold; }
+.postit-comment .c-author::after { content: ": "; }
+
+.postit-comment-form { margin-top: 10px; }
+.postit-comment-form input,
+.postit-comment-form textarea {
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 6px 8px;
+    font-family: var(--font-punk-body);
+    font-size: 0.85rem;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid rgba(0,0,0,0.4);
+    color: #14100f;
+}
+.postit-comment-form button {
+    font-family: var(--font-punk-body);
+    font-size: 0.8rem;
+    background: #14100f;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.postit-comment-status { font-size: 0.78rem; margin-top: 6px; color: #14100f; }
+
+/* --- Form NUOVO post-it (modale semplice) -------------------------------- */
+.wall-form-wrap {
+    max-width: 620px;
+    margin: 0 auto 40px;
+    padding: 26px 24px;
+    background: rgba(24, 24, 28, 0.92);
+    border: var(--border-punk);
+}
+.wall-form-wrap[hidden] { display: none; }
+.wall-form-wrap h3 { color: var(--accent-color); margin-bottom: 16px; }
+.wall-form label {
+    display: block;
+    font-family: var(--font-punk-body);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 12px 0 5px;
+}
+.wall-form input,
+.wall-form textarea,
+.wall-form select {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: var(--font-punk-body);
+    font-size: 0.95rem;
+    background: var(--bg-color);
+    border: 1px solid #444;
+    color: var(--text-color);
+}
+.wall-form textarea { min-height: 110px; resize: vertical; }
+.wall-form .genre-pick {
+    display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px;
+}
+.wall-form .genre-pick label {
+    flex: 1; min-width: 120px; text-align: center; cursor: pointer;
+    border: 2px solid #444; padding: 10px; margin: 0;
+    color: var(--text-color); text-transform: uppercase; letter-spacing: 1px;
+}
+.wall-form .genre-pick input { display: none; }
+.wall-form .genre-pick input:checked + span { font-weight: bold; }
+.wall-form .genre-pick label:has(input[value="rock"]:checked)   { border-color: var(--map-genre-rock);       }
+.wall-form .genre-pick label:has(input[value="rap"]:checked)    { border-color: var(--map-genre-rap);        }
+.wall-form .genre-pick label:has(input[value="techno"]:checked) { border-color: var(--map-genre-electronic); }
+.wall-form .form-row { display: flex; gap: 14px; flex-wrap: wrap; }
+.wall-form .form-row > div { flex: 1; min-width: 180px; }
+.wall-form .honeypot { position: absolute; left: -9999px; }  /* anti-bot */
+.wall-form-status {
+    margin-top: 14px; padding: 10px 12px;
+    font-size: 0.9rem; text-align: center;
+}
+.wall-form-status.ok  { border: 1px dashed var(--map-genre-electronic); color: #fff; }
+.wall-form-status.err { border: 1px dashed var(--accent-color); color: #fff; }
+
+/* Stato vuoto / caricamento */
+.wall-empty {
+    text-align: center; color: var(--text-muted);
+    font-family: var(--font-punk-body); padding: 40px 0;
+}
+
+@media (max-width: 480px) {
+    .wall-actions .btn { width: 100%; }
+    .postit { padding: 24px 16px 16px; }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wall | Bacheca Underground | Dead People Activity</title>
+    <meta name="description" content="Il muro della community: attacca il tuo post-it, cerca musicisti, serate, scambi e segnala progetti. Rock, hip-hop, techno. Underground e DIY.">
+    <link rel="stylesheet" href="assets/css/style.css?v=10">
+    <link rel="stylesheet" href="assets/css/the-wall.css?v=4">
+</head>
+<body class="the-wall-page">
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Mappa <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="mappa.html" class="nav-link">Mappa</a></li>
+                        <li><a href="eventi.html" class="nav-link">Eventi</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle active" aria-haspopup="true" aria-expanded="false">The Wall <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="the-wall.html" class="nav-link active">The Wall</a></li>
+                        <li><a href="articoli.html" class="nav-link">Articoli</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="store.html" class="nav-link">Store</a></li>
+                <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="header-socials">
+                <a href="#" class="social-icon" target="_blank" rel="noopener">IG</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">TT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">YT</a>
+                <a href="#" class="social-icon" target="_blank" rel="noopener">LN</a>
+            </div>
+            <button class="hamburger" aria-label="Apri Menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <main class="section-padding">
+            <div class="container">
+                <h1 class="title-underground">The Wall</h1>
+                <p class="wall-intro">Il muro della community. Attacca un post-it: cerca una band, lancia una serata, scambia strumenti, segnala un progetto o lascia solo rumore. Rock, hip-hop, techno, e quel cazzo che ti pare.</p>
+
+                <div class="wall-actions">
+                    <button type="button" class="btn" id="wallOpenForm">Attacca un post-it</button>
+                </div>
+
+                <!-- FORM NUOVO POST-IT (nascosto finche non si clicca) -->
+                <div class="wall-form-wrap" id="wallFormWrap" hidden>
+                    <h3>Nuovo post-it</h3>
+                    <form class="wall-form" id="wallForm" autocomplete="off">
+                        <label for="wf-body">Il tuo messaggio *</label>
+                        <textarea id="wf-body" name="body" maxlength="500" required placeholder="Scrivi qui. Max 500 caratteri."></textarea>
+
+                        <label>Genere / colore del post-it</label>
+                        <div class="genre-pick">
+                            <label><input type="radio" name="genre" value="rock" checked><span>Rock / Punk</span></label>
+                            <label><input type="radio" name="genre" value="rap"><span>Rap / Hip-Hop</span></label>
+                            <label><input type="radio" name="genre" value="techno"><span>Techno / Elettr.</span></label>
+                            <label><input type="radio" name="genre" value="neutral"><span>Altro</span></label>
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="wf-author">Nome / alias (facoltativo)</label>
+                                <input type="text" id="wf-author" name="author" maxlength="40" placeholder="come ti firmi">
+                            </div>
+                        </div>
+
+                        <!-- anti-bot: gli umani non lo vedono -->
+                        <div class="honeypot" aria-hidden="true">
+                            <label>Non compilare</label>
+                            <input type="text" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <div class="form-row" style="margin-top:18px;">
+                            <div><button type="submit" class="btn btn-block">Invia al muro</button></div>
+                        </div>
+                        <div class="wall-form-status" id="wallFormStatus" aria-live="polite"></div>
+                        <p style="font-size:0.78rem;color:var(--text-muted);margin-top:12px;text-align:center;">
+                            Ogni post-it passa dalla moderazione: niente pubblicazione automatica.
+                        </p>
+                    </form>
+                </div>
+
+                <!-- IL MURO -->
+                <div class="wall-grid" id="wallGrid"></div>
+
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+                <p>Piattaforma media indipendente e archivio radicale delle scene alternative italo-spagnole. Nessun padrone, solo attitudine.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Naviga</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="archivio.html">Archivio</a></li>
+                    <li><a href="articoli.html">Articoli</a></li>
+                    <li><a href="eventi.html">Eventi</a></li>
+                    <li><a href="the-wall.html">The Wall</a></li>
+                    <li><a href="diy.html">DIY</a></li>
+                    <li><a href="buried.html">BURIED</a></li>
+                    <li><a href="apparire.html">Apparire</a></li>
+                    <li><a href="collaboratori.html">Collaboratori</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Seguici</h4>
+                <div class="footer-social-icons">
+                    <a href="#" class="social-icon">Instagram</a><a href="#" class="social-icon">TikTok</a><a href="#" class="social-icon">YouTube</a><a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Dead People Activity. Tutti i diritti riservati. Testi, contenuti e marchio non possono essere copiati o riprodotti senza autorizzazione. Keep it underground.</p>
+        </div>
+    </footer>
+
+    <!-- Supabase JS (backend bacheca). Se offline, la pagina resta in modalita demo. -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="assets/js/main.js?v=6"></script>
+    <script src="assets/js/the-wall.js?v=2"></script>
+</body>
+</html>
