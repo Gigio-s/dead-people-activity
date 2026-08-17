@@ -669,5 +669,30 @@
     "lat": 51.475514,
     "lng": -0.0367755,
     "precisione": "indirizzo"
+  },
+  "les-enfants-brillants-carrer-de-guardia-3-08001-barcelona-barcelona-spain": {
+    "lat": 41.3780486,
+    "lng": 2.1736809,
+    "precisione": "indirizzo"
+  },
+  "biko-via-ettore-ponti-40-20143-milano-milan-italy": {
+    "lat": 45.4421057,
+    "lng": 9.1538049,
+    "precisione": "indirizzo"
+  },
+  "maya-beach-experience-via-villazzano-3-massa-lubrense-naples-italy": {
+    "lat": 40.6186455,
+    "lng": 14.3426262,
+    "precisione": "indirizzo"
+  },
+  "phonox-418-brixton-road-brixton-london-sw9-7ay-london-united-kingdom": {
+    "lat": 51.4644457,
+    "lng": -0.1145037,
+    "precisione": "indirizzo"
+  },
+  "the-greyhound-109-peckham-high-st-london-se15-5se-london-united-kingdom": {
+    "lat": 51.4741464,
+    "lng": -0.0685686,
+    "precisione": "indirizzo"
   }
 }

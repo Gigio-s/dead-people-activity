@@ -9,8 +9,8 @@
   },
   "porto turistico|lungomare papa giovanni xxiii|pescara|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:43:18",
-    "retry_after": "2026-08-14T17:43:30"
+    "checked_at": "2026-08-17T02:07:28",
+    "retry_after": "2026-08-24T02:10:44"
   },
   "slaughter club|via angelo tagliabue 4|paderno dugnano milano|it": {
     "status": "verificato",
@@ -50,8 +50,8 @@
   },
   "parking walibi||biddinghuizen|nl": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:43:33",
-    "retry_after": "2026-08-14T17:43:39"
+    "checked_at": "2026-08-17T02:10:44",
+    "retry_after": "2026-08-24T02:10:50"
   },
   "tbd|spirou loui 1|athens|gr": {
     "status": "in_attesa_indirizzo",
@@ -104,8 +104,8 @@
   },
   "vitrifrigo arena||pesaro|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:43:41",
-    "retry_after": "2026-08-14T17:43:48"
+    "checked_at": "2026-08-17T02:10:50",
+    "retry_after": "2026-08-24T02:10:56"
   },
   "palazzo del turismo jesolo||lido di jesolo|it": {
     "status": "verificato",
@@ -137,13 +137,13 @@
   },
   "port a bhaigh campsite|211 achiltibuie|ullapool|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:43:50",
-    "retry_after": "2026-08-14T17:44:02"
+    "checked_at": "2026-08-17T02:10:56",
+    "retry_after": "2026-08-24T02:11:09"
   },
   "project house|armley road|leeds|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:44:02",
-    "retry_after": "2026-08-14T17:44:14"
+    "checked_at": "2026-08-17T02:11:09",
+    "retry_after": "2026-08-24T02:18:25"
   },
   "dust|77 east street|brighton|gb": {
     "status": "verificato",
@@ -167,8 +167,8 @@
   },
   "the old cold store|queensbridge road|nottingham|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:44:17",
-    "retry_after": "2026-08-14T17:44:28"
+    "checked_at": "2026-08-17T02:18:25",
+    "retry_after": "2026-08-24T02:18:38"
   },
   "volks club|3 madeira dr|brighton|gb": {
     "status": "verificato",
@@ -192,18 +192,18 @@
   },
   "the attic|3 sheaf st|leeds|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:44:31",
-    "retry_after": "2026-08-14T17:44:42"
+    "checked_at": "2026-08-17T02:18:38",
+    "retry_after": "2026-08-24T02:18:49"
   },
   "suburbia|29 onslow road|southampton|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:44:42",
-    "retry_after": "2026-08-14T17:45:01"
+    "checked_at": "2026-08-17T02:18:49",
+    "retry_after": "2026-08-24T02:19:07"
   },
   "electric ballroom camden|184 camden high street|london|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:45:01",
-    "retry_after": "2026-08-14T17:45:13"
+    "checked_at": "2026-08-17T02:19:07",
+    "retry_after": "2026-08-24T02:19:19"
   },
   "the black heart|3 greenland place|london|gb": {
     "status": "incerto",
@@ -212,8 +212,8 @@
   },
   "zerox|48 52 sandhill|newcastle upon tyne|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:45:26",
-    "retry_after": "2026-08-14T17:45:38"
+    "checked_at": "2026-08-17T02:19:19",
+    "retry_after": "2026-08-24T02:19:31"
   },
   "cart horses|1 maryland point|london|gb": {
     "status": "verificato",
@@ -262,23 +262,23 @@
   },
   "bear cave|24 26 holdenhurst road|bournemouth|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:45:56",
-    "retry_after": "2026-08-14T17:46:15"
+    "checked_at": "2026-08-17T02:19:31",
+    "retry_after": "2026-08-24T02:19:48"
   },
   "walthamstow trades hall|61 63 tower hamlets road|london|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:46:15",
-    "retry_after": "2026-08-14T17:46:26"
+    "checked_at": "2026-08-17T02:19:48",
+    "retry_after": "2026-08-24T02:20:00"
   },
   "the tung auditorium|60 oxford street|liverpool|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:46:26",
-    "retry_after": "2026-08-14T17:46:39"
+    "checked_at": "2026-08-17T02:20:01",
+    "retry_after": "2026-08-24T02:20:12"
   },
   "the grove|st michaelas road|newcastle upon tyne|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:46:39",
-    "retry_after": "2026-08-14T17:46:51"
+    "checked_at": "2026-08-17T02:20:12",
+    "retry_after": "2026-08-24T02:20:24"
   },
   "dounby showpark|dounby|orkney|gb": {
     "status": "incerto",
@@ -287,8 +287,8 @@
   },
   "between the bridges|the queen s walk|london|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:47:08",
-    "retry_after": "2026-08-14T17:47:20"
+    "checked_at": "2026-08-17T02:20:24",
+    "retry_after": "2026-08-24T02:20:36"
   },
   "unlocked|118 curtain road|london|gb": {
     "status": "verificato",
@@ -312,13 +312,13 @@
   },
   "courtney s of lucan|leixlip rd lucan|dublin|ie": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:47:23",
-    "retry_after": "2026-08-14T17:47:36"
+    "checked_at": "2026-08-17T02:20:36",
+    "retry_after": "2026-08-24T02:20:48"
   },
   "the deers head|1 3 lower garfield street|belfast|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:47:36",
-    "retry_after": "2026-08-14T17:47:49"
+    "checked_at": "2026-08-17T02:20:48",
+    "retry_after": "2026-08-24T02:20:59"
   },
   "strathpeffer pavilion|the square|strathpeffer|gb": {
     "status": "verificato",
@@ -362,8 +362,8 @@
   },
   "three tanners bank|tanners bank|north shields|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:47:55",
-    "retry_after": "2026-08-14T17:48:06"
+    "checked_at": "2026-08-17T02:20:59",
+    "retry_after": "2026-08-24T02:21:11"
   },
   "alphabet|11 dyke road|brighton|gb": {
     "status": "verificato",
@@ -407,8 +407,8 @@
   },
   "bongo club|66 cowgate edinburgh|edinburgh|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:48:12",
-    "retry_after": "2026-08-14T17:48:25"
+    "checked_at": "2026-08-17T02:21:11",
+    "retry_after": "2026-08-24T02:21:23"
   },
   "recreo bar|carrer de la merce 26 08002 barcelona spain|barcelona|es": {
     "status": "verificato",
@@ -420,8 +420,8 @@
   },
   "noxe barcelona|placa rosa del vents 1 final pg de joan de borbo 08039 barcelona|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:48:25",
-    "retry_after": "2026-08-14T17:48:36"
+    "checked_at": "2026-08-17T02:21:23",
+    "retry_after": "2026-08-24T02:21:35"
   },
   "dr dou social club|carrer del dr dou 7 local 2 08001 barcelona spain|barcelona|es": {
     "status": "incerto",
@@ -430,8 +430,8 @@
   },
   "sunseabar beach club|calle la pau platja del forum barcelona spain|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:48:49",
-    "retry_after": "2026-08-14T17:49:01"
+    "checked_at": "2026-08-17T02:21:59",
+    "retry_after": "2026-08-24T02:22:11"
   },
   "garage 442|avinguda diagonal 442 08037 barcelona|barcelona|es": {
     "status": "verificato",
@@ -478,13 +478,13 @@
   },
   "moog club|arc del teatre 3 08001 barcelona spain|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:49:07",
-    "retry_after": "2026-08-14T17:49:18"
+    "checked_at": "2026-08-17T02:21:35",
+    "retry_after": "2026-08-24T02:21:47"
   },
   "m7 club|carrer de mexic 7 08004 barcelona spain|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:49:18",
-    "retry_after": "2026-08-14T17:49:30"
+    "checked_at": "2026-08-17T02:31:24",
+    "retry_after": "2026-08-24T02:31:43"
   },
   "macarena club|carrer nou de sant francesc 5 08002 barcelona spain|barcelona|es": {
     "status": "verificato",
@@ -538,8 +538,8 @@
   },
   "purobeach barcelona|passeig del taulat 262 264 barcelona 08019 spain|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:49:30",
-    "retry_after": "2026-08-14T17:49:43"
+    "checked_at": "2026-08-17T02:22:11",
+    "retry_after": "2026-08-24T02:22:22"
   },
   "parc del forum|rambla prim 2 4 08019 barcelona spain|barcelona|es": {
     "status": "incerto",
@@ -548,8 +548,8 @@
   },
   "bar viu|bar viu carrer de la perla 26|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:49:55",
-    "retry_after": "2026-08-14T17:50:08"
+    "checked_at": "2026-08-17T02:21:47",
+    "retry_after": "2026-08-24T02:21:59"
   },
   "jamboree dance club|pl reial 17 08002 barcelona|barcelona|es": {
     "status": "verificato",
@@ -577,8 +577,8 @@
   },
   "boris club|carrer de bori i fontesta 25 sarria sant gervasi 08021 barcelona 2|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:50:08",
-    "retry_after": "2026-08-14T17:50:20"
+    "checked_at": "2026-08-17T02:22:22",
+    "retry_after": "2026-08-24T02:22:36"
   },
   "laut|carrer de vila i vila 63 08004 barcelona spain|barcelona|es": {
     "status": "verificato",
@@ -606,8 +606,8 @@
   },
   "almar beach club|carrer de dolores ibarruri pasionaria 08930 sant adria de besos barcelona|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:50:20",
-    "retry_after": "2026-08-14T17:50:32"
+    "checked_at": "2026-08-17T02:31:43",
+    "retry_after": "2026-08-24T02:31:57"
   },
   "bus hexperience|c port esportiu 14 08930 sant adria de besos barcelona|barcelona|es": {
     "status": "incerto",
@@ -616,8 +616,8 @@
   },
   "seaseaclub barcelona|carrer port esportiu 14p 08930 barcelona|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:50:44",
-    "retry_after": "2026-08-14T17:50:56"
+    "checked_at": "2026-08-17T02:23:15",
+    "retry_after": "2026-08-24T02:23:26"
   },
   "7833 soundlab|carrer ferlandina 29 barcelona 08001 espanya|barcelona|es": {
     "status": "incerto",
@@ -686,8 +686,8 @@
   },
   "puerto bahia club de mar|passeig del mare nostrum 61 08918 badalona barcelona spain|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:51:32",
-    "retry_after": "2026-08-14T17:51:44"
+    "checked_at": "2026-08-17T02:22:36",
+    "retry_after": "2026-08-24T02:22:49"
   },
   "w barcelona|placa de la rosa dels vents 1 08039 barcelona spain|barcelona|es": {
     "status": "verificato",
@@ -840,13 +840,13 @@
   },
   "guixols arena|av de catalunya s n 17220 sant feliu de guixols girona|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:52:48",
-    "retry_after": "2026-08-14T17:53:00"
+    "checked_at": "2026-08-17T02:22:49",
+    "retry_after": "2026-08-24T02:23:03"
   },
   "explanada maremagnum|edificio maremagnum moll d espanya 5 08039 barcelona espana|barcelona|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:53:00",
-    "retry_after": "2026-08-14T17:53:12"
+    "checked_at": "2026-08-17T02:23:03",
+    "retry_after": "2026-08-24T02:23:15"
   },
   "tba kiosk del rec igualada||barcelona|es": {
     "status": "in_attesa_indirizzo",
@@ -890,13 +890,13 @@
   },
   "strong the club|calle de trujillos 7 28013 madrid espana|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:53:21",
-    "retry_after": "2026-08-14T17:53:32"
+    "checked_at": "2026-08-17T02:24:27",
+    "retry_after": "2026-08-24T02:24:39"
   },
   "skin club|c de la aduana 21 centro 28013 madrid spain|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:53:32",
-    "retry_after": "2026-08-14T17:53:44"
+    "checked_at": "2026-08-17T02:23:26",
+    "retry_after": "2026-08-24T02:23:38"
   },
   "tba velvet rose||madrid|es": {
     "status": "in_attesa_indirizzo",
@@ -905,8 +905,8 @@
   },
   "sala pirandelo|calle de martin de los heros 14 28008 madrid spain|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:53:44",
-    "retry_after": "2026-08-14T17:53:57"
+    "checked_at": "2026-08-17T02:23:38",
+    "retry_after": "2026-08-24T02:23:51"
   },
   "el internacional|calle de cedaceros 11 28014 madrid spain|madrid|es": {
     "status": "verificato",
@@ -945,8 +945,8 @@
   },
   "under bridge madrid|calle de canos viejos 3|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:54:03",
-    "retry_after": "2026-08-14T17:54:15"
+    "checked_at": "2026-08-17T02:23:51",
+    "retry_after": "2026-08-24T02:24:02"
   },
   "la pinilla ski resort|estacion esqui la pinilla s n 40500 la pinilla segovia|madrid|es": {
     "status": "incerto",
@@ -955,8 +955,8 @@
   },
   "lab theclub|estacion de chamartin primera planta s n 28036 madrid|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:54:26",
-    "retry_after": "2026-08-14T17:54:38"
+    "checked_at": "2026-08-17T02:24:02",
+    "retry_after": "2026-08-24T02:24:14"
   },
   "lula club|gran via 54|madrid|es": {
     "status": "verificato",
@@ -968,8 +968,8 @@
   },
   "sala art|p o de la florida 2 28008 madrid|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:54:38",
-    "retry_after": "2026-08-14T17:54:52"
+    "checked_at": "2026-08-17T02:24:14",
+    "retry_after": "2026-08-24T02:24:27"
   },
   "tba||madrid|es": {
     "status": "in_attesa_indirizzo",
@@ -997,8 +997,8 @@
   },
   "madrid caja magica|c camino de perales s n 28041 madrid espana|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:54:58",
-    "retry_after": "2026-08-14T17:55:10"
+    "checked_at": "2026-08-17T02:24:39",
+    "retry_after": "2026-08-24T02:24:50"
   },
   "fabrik|av de la industria 82 28970 humanes de madrid spain|madrid|es": {
     "status": "verificato",
@@ -1031,8 +1031,8 @@
   },
   "universidad autonoma de madrid uam|ciudad universitaria de cantoblanco 28049 madrid|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:55:21",
-    "retry_after": "2026-08-14T17:55:33"
+    "checked_at": "2026-08-17T02:24:50",
+    "retry_after": "2026-08-24T02:25:02"
   },
   "lasociacin|c gamonal 5 28031 madrid|madrid|es": {
     "status": "verificato",
@@ -1092,8 +1092,8 @@
   },
   "heave festival|las inviernas 19491 guadalajara spain|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:55:40",
-    "retry_after": "2026-08-14T17:55:51"
+    "checked_at": "2026-08-17T02:25:02",
+    "retry_after": "2026-08-24T02:25:14"
   },
   "tba secret location||madrid|es": {
     "status": "in_attesa_indirizzo",
@@ -1102,8 +1102,8 @@
   },
   "ciudad del rock|arganda del rey spain|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:55:51",
-    "retry_after": "2026-08-14T17:56:03"
+    "checked_at": "2026-08-17T02:25:14",
+    "retry_after": "2026-08-24T02:25:26"
   },
   "sala pirandello|calle martin de los heros 14 28008 madrid spain|madrid|es": {
     "status": "verificato",
@@ -1115,8 +1115,8 @@
   },
   "mon live|calle hilarion eslava 36 28015 madrid|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:56:03",
-    "retry_after": "2026-08-14T17:56:15"
+    "checked_at": "2026-08-17T02:25:26",
+    "retry_after": "2026-08-24T02:25:37"
   },
   "tempo|calle del duque de osuna 8 28015 madrid spain|madrid|es": {
     "status": "verificato",
@@ -1128,8 +1128,8 @@
   },
   "studio76 club|calle ceramica 76 madrid spain|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:56:15",
-    "retry_after": "2026-08-14T17:56:27"
+    "checked_at": "2026-08-17T02:25:37",
+    "retry_after": "2026-08-24T02:25:49"
   },
   "nazca club|calle orense 24|madrid|es": {
     "status": "verificato",
@@ -1149,8 +1149,8 @@
   },
   "killing time|doctor sumsi 21 ruzafa valencia|valencia|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:56:27",
-    "retry_after": "2026-08-14T17:56:39"
+    "checked_at": "2026-08-17T02:25:49",
+    "retry_after": "2026-08-24T02:26:01"
   },
   "33 45 club|c de l explorador andres 29 algiros 46022 valencia valencia|valencia|es": {
     "status": "verificato",
@@ -1204,8 +1204,8 @@
   },
   "bombas gens centre darts digitals|avenida de burjassot 54 56 46009 valencia spain|valencia|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:56:51",
-    "retry_after": "2026-08-14T17:57:03"
+    "checked_at": "2026-08-17T02:26:01",
+    "retry_after": "2026-08-24T02:26:13"
   },
   "16 toneladas|c de ricardo mico 3 campanar 46009 valencia|valencia|es": {
     "status": "verificato",
@@ -1265,8 +1265,8 @@
   },
   "dopo space|via carlo boncompagni 51 10 20139 milano mi|milan|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:57:03",
-    "retry_after": "2026-08-14T17:57:15"
+    "checked_at": "2026-08-17T02:26:13",
+    "retry_after": "2026-08-24T02:26:25"
   },
   "parco la spezia|via rimini 38 20142 milano|milan|it": {
     "status": "verificato",
@@ -1321,28 +1321,28 @@
   },
   "just cavalli milano restaurant club|torre branca via luigi camoens 20121 milano mi italy|milan|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:57:24",
-    "retry_after": "2026-08-14T17:57:36"
+    "checked_at": "2026-08-17T02:26:25",
+    "retry_after": "2026-08-24T02:26:36"
   },
   "giardini argonne campi da basket|milano 20133 viale argonne 37 mi italy|milan|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:57:36",
-    "retry_after": "2026-08-14T17:57:48"
+    "checked_at": "2026-08-17T02:26:37",
+    "retry_after": "2026-08-24T02:26:48"
   },
   "anfiteatro monte stella|via enrico terzaghi 26 20148 milano mi italia|milan|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:57:48",
-    "retry_after": "2026-08-14T17:58:00"
+    "checked_at": "2026-08-17T02:26:48",
+    "retry_after": "2026-08-24T02:27:00"
   },
   "p za ventiquattro maggio|milano piazza 24 maggio 20144|milan|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:58:00",
-    "retry_after": "2026-08-14T17:58:12"
+    "checked_at": "2026-08-17T02:27:00",
+    "retry_after": "2026-08-24T02:27:11"
   },
   "pac padiglione d arte contemporanea|via palestro 14|milan|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:58:12",
-    "retry_after": "2026-08-14T17:58:24"
+    "checked_at": "2026-08-17T02:27:11",
+    "retry_after": "2026-08-24T02:27:23"
   },
   "bluesquare|via tortona 33 20144|milan|it": {
     "status": "verificato",
@@ -1386,8 +1386,8 @@
   },
   "fiera milano|strada statale 33 del sempione 28 20145 rho milano italy|milan|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:58:24",
-    "retry_after": "2026-08-14T17:58:36"
+    "checked_at": "2026-08-17T02:27:23",
+    "retry_after": "2026-08-24T02:27:35"
   },
   "carroponte|via luigi granelli sesto san giovanni cap 20099 milano|milan|it": {
     "status": "verificato",
@@ -1487,8 +1487,8 @@
   },
   "auditorium parco della musica|viale pietro de coubertin 00196 roma rm italy|rome|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:59:15",
-    "retry_after": "2026-08-14T17:59:28"
+    "checked_at": "2026-08-17T02:27:35",
+    "retry_after": "2026-08-24T02:27:48"
   },
   "largo venue|via biordo michelotti 2 00176 roma rm italy|rome|it": {
     "status": "verificato",
@@ -1511,8 +1511,8 @@
   },
   "sophia club italy|04022 fondi province of latina|rome|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:59:36",
-    "retry_after": "2026-08-14T17:59:48"
+    "checked_at": "2026-08-17T02:27:48",
+    "retry_after": "2026-08-24T02:28:00"
   },
   "brancaleone|11 via levanna 00141 rome rm italy|rome|it": {
     "status": "verificato",
@@ -1535,8 +1535,8 @@
   },
   "hacienda club|via di galla placidia 27 b roma 00159|rome|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T17:59:58",
-    "retry_after": "2026-08-14T18:00:10"
+    "checked_at": "2026-08-17T02:28:00",
+    "retry_after": "2026-08-24T02:28:12"
   },
   "tba villa del marchese viggiano potenza||bologna|it": {
     "status": "in_attesa_indirizzo",
@@ -1545,8 +1545,8 @@
   },
   "parco medipark|via perossaro 187 41038 san felice sul panaro mo emilia romagna italia|bologna|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:00:10",
-    "retry_after": "2026-08-14T18:00:22"
+    "checked_at": "2026-08-17T02:28:12",
+    "retry_after": "2026-08-24T02:28:24"
   },
   "link|via francesco fantoni 21 40127 bologna bo italy|bologna|it": {
     "status": "verificato",
@@ -1596,23 +1596,23 @@
   },
   "azimut club|via modena 55 10153 torino to italy|turin|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:00:41",
-    "retry_after": "2026-08-14T18:00:53"
+    "checked_at": "2026-08-17T02:28:24",
+    "retry_after": "2026-08-24T02:28:36"
   },
   "q35 warehouse|lungo dora firenze 131 a|turin|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:00:53",
-    "retry_after": "2026-08-14T18:01:04"
+    "checked_at": "2026-08-17T02:28:36",
+    "retry_after": "2026-08-24T02:28:48"
   },
   "lingotto fiere|via nizza 294 10126 torino to italy|turin|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:01:04",
-    "retry_after": "2026-08-14T18:01:16"
+    "checked_at": "2026-08-17T02:28:48",
+    "retry_after": "2026-08-24T02:29:00"
   },
   "rumore nightclub capri|via roma 71 80073 capri italy|naples|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:01:16",
-    "retry_after": "2026-08-14T18:01:28"
+    "checked_at": "2026-08-17T02:29:00",
+    "retry_after": "2026-08-24T02:29:12"
   },
   "chalet nonna carmela|via spinesante n45 forio dischia 80075|naples|it": {
     "status": "verificato",
@@ -1635,18 +1635,18 @@
   },
   "flava beach|uscita litorale domitio localita ponte a mare castel volturno caserta castel volturno campania|naples|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:01:36",
-    "retry_after": "2026-08-14T18:01:47"
+    "checked_at": "2026-08-17T02:29:35",
+    "retry_after": "2026-08-24T02:29:47"
   },
   "calatheabeachclub|via giuseppe saverio mercadante 81030 castel volturno caserta|naples|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:01:47",
-    "retry_after": "2026-08-14T18:01:58"
+    "checked_at": "2026-08-17T02:29:24",
+    "retry_after": "2026-08-24T02:29:35"
   },
   "maya beach experience|via villazzano 3 massa lubrense|naples|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:01:58",
-    "retry_after": "2026-08-14T18:02:10"
+    "checked_at": "2026-08-17T02:29:12",
+    "retry_after": "2026-08-24T02:29:24"
   },
   "tba the club room worldwide||naples|it": {
     "status": "in_attesa_indirizzo",
@@ -1678,18 +1678,18 @@
   },
   "umoya|castel volturno ce 81030 via mezzagni|naples|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:02:10",
-    "retry_after": "2026-08-14T18:02:22"
+    "checked_at": "2026-08-17T02:29:47",
+    "retry_after": "2026-08-24T02:29:59"
   },
   "ex base nato|viale della liberazione 117|naples|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:02:22",
-    "retry_after": "2026-08-14T18:02:34"
+    "checked_at": "2026-08-17T02:29:59",
+    "retry_after": "2026-08-24T02:30:11"
   },
   "discoteca paradiso|via fascione 4 80078 pozzuoli na italy|naples|it": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:02:34",
-    "retry_after": "2026-08-14T18:02:46"
+    "checked_at": "2026-08-17T02:30:11",
+    "retry_after": "2026-08-24T02:30:24"
   },
   "golden gate|dircksenstrasse 78 mitte 10178 berlin germany|berlin|de": {
     "status": "verificato",
@@ -2092,8 +2092,8 @@
   },
   "tresor globus|kopenickerstrasse 70 mitte 10179 berlin germany|berlin|de": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:04:28",
-    "retry_after": "2026-08-14T18:04:40"
+    "checked_at": "2026-08-17T02:34:05",
+    "retry_after": "2026-08-24T02:34:17"
   },
   "soda club|kulturbrauerei knaackstrae 97 10435 berlin germany|berlin|de": {
     "status": "verificato",
@@ -2482,8 +2482,8 @@
   },
   "xoyo|32 37 cowper street shoreditch london ec2a 4ap united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:09:11",
-    "retry_after": "2026-08-14T18:09:23"
+    "checked_at": "2026-08-17T02:34:23",
+    "retry_after": "2026-08-24T02:34:35"
   },
   "ln cc|18 24 shacklewell lane dalston london e8 2ez|london|uk": {
     "status": "incerto",
@@ -2682,8 +2682,8 @@
   },
   "ministry of sound|103 gaunt st london se1 6dp|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:17:07",
-    "retry_after": "2026-08-14T18:17:20"
+    "checked_at": "2026-08-17T02:35:12",
+    "retry_after": "2026-08-24T02:35:25"
   },
   "the old blue last|39 great eastern road shoreditch london ec2a 3es united kingdom|london|uk": {
     "status": "incerto",
@@ -2717,8 +2717,8 @@
   },
   "vespers club|133a rye lane london se15 4bq uk|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:18:19",
-    "retry_after": "2026-08-14T18:18:33"
+    "checked_at": "2026-08-17T02:35:00",
+    "retry_after": "2026-08-24T02:35:12"
   },
   "the hatch|25 26 lime street london ec3m7hr|london|uk": {
     "status": "incerto",
@@ -2797,8 +2797,8 @@
   },
   "ridley road market bar|49 ridley road london e8 2np united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:21:36",
-    "retry_after": "2026-08-14T18:21:48"
+    "checked_at": "2026-08-17T02:35:25",
+    "retry_after": "2026-08-24T02:35:37"
   },
   "egg london|5 13 vale royal london n7 9ap|london|uk": {
     "status": "incerto",
@@ -2912,8 +2912,8 @@
   },
   "the fox and firkin|316 lewisham high street london se136jz|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:25:56",
-    "retry_after": "2026-08-14T18:26:09"
+    "checked_at": "2026-08-17T02:34:35",
+    "retry_after": "2026-08-24T02:34:48"
   },
   "circes rooftop|mercury house 117 waterloo rd london se1 8ul|london|uk": {
     "status": "incerto",
@@ -3132,8 +3132,8 @@
   },
   "docks academy|the church king edward street north east lincolnshire england dn31 3jd united kingdom|grimsby|gb": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:34:20",
-    "retry_after": "2026-08-14T18:34:38"
+    "checked_at": "2026-08-17T02:30:24",
+    "retry_after": "2026-08-24T02:30:42"
   },
   "platform 11|11 high street|pontypridd|gb": {
     "status": "verificato",
@@ -3182,8 +3182,8 @@
   },
   "sala coco|calle alcala 20 28014 madrid spain|madrid|es": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:34:38",
-    "retry_after": "2026-08-14T18:34:51"
+    "checked_at": "2026-08-17T02:30:42",
+    "retry_after": "2026-08-24T02:30:54"
   },
   "tba powered by void acoustics||madrid|es": {
     "status": "in_attesa_indirizzo",
@@ -3311,7 +3311,217 @@
     "retry_after": "2026-08-14T18:36:23"
   },
   "the strines nightingale|105 strines road|stockport|gb": {
-    "status": "errore",
-    "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=gb&street=105+Strines+Road&city=Stockport']' returned non-zero exit status 22."
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:30:54",
+    "retry_after": "2026-08-24T02:31:05"
+  },
+  "projekts skate park|41 baring st|manchester|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:31:05",
+    "retry_after": "2026-08-24T02:31:24"
+  },
+  "les enfants brillants|carrer de guardia 3 08001 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3780486,
+    "lng": 2.1736809,
+    "score": 20,
+    "display_name": "Les Enfants Brillants, 3, Carrer de Guàrdia, el Raval, Old Town, Barcellona, Barcelonès, Barcelona, Catalogna, 08002, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Carrer de Guàrdia, 3, 08001 Barcelona, Barcelona, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-17T02:31:57",
+    "precisione": "indirizzo_verificato"
+  },
+  "tba private location tba 48h before the event to all ticket holders||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:32:02",
+    "motivo": "posizione_non_pubblica"
+  },
+  "the labs barcelona acmadu|carrer del doctor trueta 172 sant marti 08005 barcelona|barcelona|es": {
+    "status": "verificato",
+    "lat": 41.3967232,
+    "lng": 2.2011437,
+    "score": 20,
+    "display_name": "172, Carrer del Doctor Trueta, la Plata, el Poblenou, Sant Martí, Barcellona, Barcelonès, Barcelona, Catalogna, 08005, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Carrer del Doctor Trueta, 172, Sant Martí, 08005 Barcelona, Barcelona, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-17T02:32:02",
+    "precisione": "indirizzo_verificato"
+  },
+  "merlin discoclub|carrer de la diputacio 233 eixample 08007 barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:32:08",
+    "retry_after": "2026-08-24T02:32:21"
+  },
+  "tba secret location sant marti bcn||barcelona|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:32:21",
+    "motivo": "posizione_non_pubblica"
+  },
+  "nix barcelon|diputacion 92 barcelona|barcelona|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:32:21",
+    "retry_after": "2026-08-24T02:32:32"
+  },
+  "next clubbing|c del poeta joan maragall 19 tetuan 28020 madrid|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:32:32",
+    "retry_after": "2026-08-24T02:32:45"
+  },
+  "terraza atenas|calle segovia s n 28005 madrid espana|madrid|es": {
+    "status": "verificato",
+    "lat": 40.6233665,
+    "lng": -4.0341436,
+    "score": 13,
+    "display_name": "Calle Segovia, Colonia España, España, Galapagar, Community of Madrid, 28292, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Calle Segovia, S/N, 28005 Madrid, España, Madrid, Spain"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-17T02:32:45",
+    "precisione": "indirizzo_verificato"
+  },
+  "tba lfo exp||madrid|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:32:51",
+    "motivo": "posizione_non_pubblica"
+  },
+  "lfo exp|secret location|madrid|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:32:51",
+    "motivo": "posizione_non_pubblica"
+  },
+  "club malasana|calle de san vicente ferrer 23 28004 madrid spain|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:32:51",
+    "retry_after": "2026-08-24T02:33:03"
+  },
+  "ayala 120 club|ayala|madrid|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:33:03",
+    "retry_after": "2026-08-24T02:33:16"
+  },
+  "tba almogavers paterna||valencia|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:33:16",
+    "motivo": "posizione_non_pubblica"
+  },
+  "madre el cabanyal|c d eugenia vines 227 poblats maritims 46011 valencia spain|valencia|es": {
+    "status": "verificato",
+    "lat": 39.4723163,
+    "lng": -0.3258544,
+    "score": 19,
+    "display_name": "Madre, Carrer d'Eugènia Viñes, el Cabanyal - el Canyamelar, Poblats Marítims, Valencia, Comarca de València, Valencia, Comunità Valenzana, 46011, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "q": "Madre el Cabanyal, Valencia, Spain"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-17T02:33:16",
+    "precisione": "indirizzo_verificato"
+  },
+  "tba xl xtralrge vlc||valencia|es": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:33:25",
+    "motivo": "posizione_non_pubblica"
+  },
+  "autosilo richard|viale giulio richard 3 a 20143 milano italia|milan|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:33:25",
+    "retry_after": "2026-08-24T02:33:37"
+  },
+  "tba skatepark parco lambro||milan|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:33:37",
+    "motivo": "posizione_non_pubblica"
+  },
+  "apophis club|via carlo giuseppe merlo 3 844 36 km 20122 milan italy|milan|it": {
+    "status": "verificato",
+    "lat": 45.4625856,
+    "lng": 9.1960482,
+    "score": 22,
+    "display_name": "Apophis Club, 3, Via Carlo Giuseppe Merlo, Brolo, Duomo, Municipio 1, Milano, Rodano, Milano, Lombardia, 20122, Italia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "it",
+      "q": "Apophis Club, Milan, Italy"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-17T02:33:37",
+    "precisione": "indirizzo_verificato"
+  },
+  "tba kryptofabbrikk the lab via circonvallazione idroscalo 51 20054 novegro tregarezzo mi italy||milan|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:33:47",
+    "motivo": "posizione_non_pubblica"
+  },
+  "spazio cavea|via di salone 290 roma 00131|rome|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:33:47",
+    "retry_after": "2026-08-24T02:34:00"
+  },
+  "tankclub||bologna|it": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:34:00",
+    "retry_after": "2026-08-24T02:34:05"
+  },
+  "tba masseria ferraioli afragola||naples|it": {
+    "status": "in_attesa_indirizzo",
+    "checked_at": "2026-08-17T02:34:05",
+    "motivo": "posizione_non_pubblica"
+  },
+  "kater|holzmarktstrasse 25 10243 berlin|berlin|de": {
+    "status": "verificato",
+    "lat": 52.5119029,
+    "lng": 13.4253649,
+    "score": 20,
+    "display_name": "Kater Blau, 25, Holzmarktstraße, Andreasviertel, Friedrichshain, Friedrichshain-Kreuzberg, Berlino, 10243, Germania",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "de",
+      "q": "Holzmarktstrasse 25, 10243 Berlin, Berlin, Germany"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-17T02:34:17",
+    "precisione": "indirizzo_verificato"
+  },
+  "sjq|10a bradbury street dalston n16 8jh|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-17T02:34:48",
+    "retry_after": "2026-08-24T02:35:00"
   }
 }
