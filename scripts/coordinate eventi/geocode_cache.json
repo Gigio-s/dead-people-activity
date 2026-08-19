@@ -694,5 +694,75 @@
     "lat": 51.4741464,
     "lng": -0.0685686,
     "precisione": "indirizzo"
+  },
+  "ministry-of-sound-103-gaunt-st-london-se1-6dp-london-united-kingdom": {
+    "lat": 51.4977677,
+    "lng": -0.0994957,
+    "precisione": "indirizzo"
+  },
+  "four-quarters-187-rye-lane-peckham-se15-4tp-london-united-kingdom": {
+    "lat": 51.4680069,
+    "lng": -0.0670145,
+    "precisione": "indirizzo"
+  },
+  "birgit-schleusenufer-3-10997-berlin-berlin-germany": {
+    "lat": 52.4975973,
+    "lng": 13.45011,
+    "precisione": "indirizzo"
+  },
+  "ost-alt-stralau-1-2-friedrichshain-10245-berlin-germany": {
+    "lat": 52.4970681,
+    "lng": 13.4650321,
+    "precisione": "indirizzo"
+  },
+  "else-an-den-treptowers-10-12435-berlin-berlin-germany": {
+    "lat": 52.4952481,
+    "lng": 13.4627777,
+    "precisione": "indirizzo"
+  },
+  "index-57-middle-abbey-st-north-city-dublin-1-d01-w573-dublin-ireland": {
+    "lat": 53.3479863,
+    "lng": -6.2618522,
+    "precisione": "indirizzo"
+  },
+  "kirkos-little-green-street-d07-k744-dublin-ireland": {
+    "lat": 53.3483106,
+    "lng": -6.2705454,
+    "precisione": "indirizzo"
+  },
+  "club-sauvage-schuurkenstraat-2-9000-gent-ghent-belgium": {
+    "lat": 51.0534915,
+    "lng": 3.721543,
+    "precisione": "indirizzo"
+  },
+  "pip-den-haag-binckhorstlaan-36-2513-the-hague-netherlands-the-hague-netherlands": {
+    "lat": 52.0736106,
+    "lng": 4.3334146,
+    "precisione": "indirizzo"
+  },
+  "lofi-basisweg-63-amsterdam-1043an-netherlands-amsterdam-netherlands": {
+    "lat": 52.3912546,
+    "lng": 4.8242219,
+    "precisione": "indirizzo"
+  },
+  "die-rakete-vogelweiherstrae-64-90441-nurnberg-nurnberg-germany": {
+    "lat": 49.4267508,
+    "lng": 11.0713771,
+    "precisione": "indirizzo"
+  },
+  "minna-thiel-bernd-eichinger-platz-1-80333-munchen-munich-germany": {
+    "lat": 48.1470288,
+    "lng": 11.5695569,
+    "precisione": "indirizzo"
+  },
+  "spook-club-pinedo-valencia-valencia-spain": {
+    "lat": 39.4105876,
+    "lng": -0.335184,
+    "precisione": "indirizzo"
+  },
+  "tba-valencia-spain": {
+    "lat": 37.9637984,
+    "lng": -0.7041006,
+    "precisione": "indirizzo"
   }
 }
