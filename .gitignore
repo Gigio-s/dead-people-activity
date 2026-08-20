@@ -26,6 +26,9 @@ scripts/coordinate eventi/geocodifica_coordinate.err.log
 assets/data/events_pending.json
 assets/data/events_dice_incerti.json
 assets/data/events_dice_scartati.json
+assets/data/events_europee_test.json
+assets/data/events_festival_pending.json
+assets/data/events_concerti_europei_pending.json
 
 # --- Chiave API locale: NON deve MAI finire su GitHub ---
 scripts/config.bat

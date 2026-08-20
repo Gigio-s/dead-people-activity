@@ -5,7 +5,7 @@ REM  Lo lancia l'attivita' pianificata di Windows (pianifica_settimanale.bat),
 REM  oppure puoi lanciarlo a mano.
 REM  Cosa fa, in ordine:
 REM    1) Raccoglie e pubblica i nuovi eventi da TUTTE le fonti attive
-REM       (Ticketmaster, Dice, Skiddle, Resident Advisor)
+REM       (Ticketmaster, Dice, Skiddle, Resident Advisor e concerti dei promoter/festival)
 REM    2) Toglie dalla mappa gli eventi gia' passati (li archivia)
 REM    3) Aggiorna il sito online (git push)
 REM  Le chiavi stanno in config.bat (non su GitHub).
@@ -59,6 +59,12 @@ echo [%date% %time%] --- RESIDENT ADVISOR ---
 %DPA_PYTHON% residentadvisor.py
 if errorlevel 1 goto :errore
 %DPA_PYTHON% residentadvisor.py --approva
+if errorlevel 1 goto :errore
+
+echo [%date% %time%] --- CONCERTI DA SITI FESTIVAL E PROMOTER ---
+%DPA_PYTHON% fonti_europee.py --concert-only --enqueue-events --max-pages 30 --delay 1.5 --output "..\assets\data\events_concerti_europei_pending.json"
+if errorlevel 1 goto :errore
+%DPA_PYTHON% "coordinate eventi\ingest.py" --approva-prefisso "europa:"
 if errorlevel 1 goto :errore
 
 echo [%date% %time%] --- Archivio eventi passati (rimossi dalla mappa) ---

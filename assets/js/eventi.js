@@ -7,6 +7,7 @@
     var visible = PAGE_SIZE;
     var userPos = null;
     var nearActive = false;
+    var pageMode = "events";
 
     var CODE2IT = {
         IT: "Italia", ES: "Spagna", FR: "Francia", DE: "Germania",
@@ -30,11 +31,13 @@
 
     function init() {
         if (!document.getElementById("eventsGrid")) return;
+        pageMode = document.body.getAttribute("data-events-mode") === "festival" ? "festival" : "events";
         wireUI();
         loadEvents().then(function (events) {
             var today = localISODate(new Date());
             ALL = (Array.isArray(events) ? events : []).filter(function (ev) {
-                return ev && ev.stato !== "BURIED" && ev.data && ev.data >= today;
+                if (!ev || ev.stato === "BURIED" || !ev.data || ev.data < today) return false;
+                return pageMode === "festival" ? isFestival(ev) : !isFestival(ev);
             }).map(normalizeEvent).sort(sortByDate);
             populateFilters();
             applyFilters();
@@ -52,6 +55,7 @@
 
     function normalizeEvent(ev) {
         var copy = Object.assign({}, ev);
+        if (pageMode === "festival" && isFestival(copy)) copy.tipo = "festival";
         copy.paese = CODE2IT[copy.paese_code] || EN2IT[copy.paese] || copy.paese || "";
         copy.citta = copy.citta || "";
         copy.genere = Array.isArray(copy.genere) ? copy.genere.filter(Boolean) : [];
@@ -70,6 +74,11 @@
             if (/rock|alternative|noise|shoegaze|grunge|psych|garage|punk|hardcore|crust|d-beat|emo|screamo|metal|grind|doom|deathcore|blackgaze|pop|indie/.test(text)) return "rock";
         }
         return "rock";
+    }
+
+    function isFestival(ev) {
+        if (String(ev && ev.tipo || "").toLowerCase() === "festival") return true;
+        return /(^|\W)(festival|fest|openair|open air)(\W|$)/i.test(String(ev && ev.nome || ""));
     }
 
     function populateFilters() {

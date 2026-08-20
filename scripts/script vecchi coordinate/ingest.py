@@ -28,7 +28,6 @@ import json
 import os
 import re
 import sys
-import tempfile
 import time
 import unicodedata
 import zipfile
@@ -38,12 +37,11 @@ from datetime import datetime, date
 # PERCORSI
 # ----------------------------------------------------------------------------
 HERE = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.normpath(os.path.join(HERE, "..", ".."))
-DATA_DIR = os.path.join(PROJECT_ROOT, "assets", "data")
+DATA_DIR = os.path.normpath(os.path.join(HERE, "..", "assets", "data"))
 EVENTS_JSON = os.path.join(DATA_DIR, "events.json")            # pubblicati (fonte canonica della mappa)
 PENDING_JSON = os.path.join(DATA_DIR, "events_pending.json")  # coda in attesa di approvazione
 ARCHIVIO_JSON = os.path.join(DATA_DIR, "events_archivio.json")  # eventi passati (storico)
-EVENTS_DATA_JS = os.path.join(PROJECT_ROOT, "assets", "js", "events-data.js")  # fallback locale
+EVENTS_DATA_JS = os.path.normpath(os.path.join(HERE, "..", "assets", "js", "events-data.js"))  # fallback locale
 GEOCACHE = os.path.join(HERE, "geocode_cache.json")           # cache coordinate (per non richiedere due volte)
 COORD_INCERTE_JSON = os.path.join(HERE, "events_coordinate_incerte.json")
 BACKUP_DIR = os.path.join(HERE, "backups")
@@ -234,17 +232,8 @@ def _load_json(path, default):
 
 def _save_json(path, obj):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    temp_path = None
-    try:
-        with tempfile.NamedTemporaryFile(
-                mode="w", encoding="utf-8", dir=os.path.dirname(path),
-                prefix=os.path.basename(path) + ".", suffix=".tmp", delete=False) as f:
-            temp_path = f.name
-            json.dump(obj, f, ensure_ascii=False, indent=2)
-        os.replace(temp_path, path)
-    finally:
-        if temp_path and os.path.exists(temp_path):
-            os.remove(temp_path)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
 def backup_eventi():
@@ -257,7 +246,7 @@ def backup_eventi():
         out = os.path.join(BACKUP_DIR, "eventi-" + stamp + "-" + str(n) + ".zip")
         n += 1
 
-    project_root = PROJECT_ROOT
+    project_root = os.path.normpath(os.path.join(HERE, ".."))
     files = [EVENTS_JSON, ARCHIVIO_JSON, EVENTS_DATA_JS, PENDING_JSON, INCERTI_JSON,
              SCARTATI_JSON, COORD_INCERTE_JSON]
     included = []
@@ -441,24 +430,12 @@ def fonte_ticketmaster(api_key, paese="IT", keyword="", size=100, page=0, classi
     if keyword:
         params["keyword"] = keyword
     url = "https://app.ticketmaster.com/discovery/v2/events.json?" + urllib.parse.urlencode(params)
-    data = None
-    for attempt in range(4):
-        try:
-            req = urllib.request.Request(url, headers={
-                "User-Agent": "DeadPeopleActivity/2.0 (+https://deadpeopleactivity.com)",
-                "Accept": "application/json",
-            })
-            with urllib.request.urlopen(req, timeout=45) as resp:
-                data = json.load(resp)
-            break
-        except Exception as e:
-            if attempt == 3:
-                print("  ! Ticketmaster non raggiungibile dopo 4 tentativi (", paese, "):", e)
-                return None
-            wait_seconds = (5, 15, 30)[attempt]
-            print("  ! Ticketmaster connessione interrotta (", paese,
-                  "): nuovo tentativo tra", wait_seconds, "secondi.")
-            time.sleep(wait_seconds)
+    try:
+        with urllib.request.urlopen(url, timeout=20) as resp:
+            data = json.load(resp)
+    except Exception as e:
+        print("  ! Ticketmaster errore (", paese, "):", e)
+        return []
     out = []
     for e in data.get("_embedded", {}).get("events", []):
         venue = (e.get("_embedded", {}).get("venues") or [{}])[0]
@@ -508,9 +485,7 @@ def raccogli():
                 for pg in range(pagine):
                     tm = fonte_ticketmaster(TM_KEY, paese=paese, classification=cls, size=100, page=pg)
                     chiamate += 1
-                    time.sleep(0.6)  # resta sotto il limite prudente di 2 richieste/secondo
-                    if tm is None:
-                        raise RuntimeError("Ticketmaster non raggiungibile: raccolta interrotta senza pubblicare dati parziali")
+                    time.sleep(0.2)  # rispetta il limite di 5 richieste/secondo
                     if not tm:
                         break  # niente piu' risultati per questo paese+genere
                     tm_ok = [r for r in tm if genere_ammesso(r)]
@@ -630,15 +605,6 @@ def approva_fonte(fonte):
     _pubblica(sel, "fonte=" + fonte)
 
 
-def approva_prefisso(prefisso):
-    """Pubblica gli eventi le cui fonti iniziano con un prefisso (es. europa:)."""
-    pending = _load_json(PENDING_JSON, [])
-    sel = [e for e in pending if str(e.get("fonte") or "").startswith(prefisso)]
-    if not sel:
-        print("Nessun evento in coda per il prefisso:", prefisso); return
-    _pubblica(sel, "prefisso=" + prefisso)
-
-
 def rimuovi_fonte(fonte):
     """Elimina eventi di una certa fonte SIA dalla coda SIA dai pubblicati (utile per togliere i demo)."""
     for path in (PENDING_JSON, EVENTS_JSON):
@@ -723,8 +689,6 @@ if __name__ == "__main__":
         mostra()
     elif "--approva-fonte" in sys.argv:
         approva_fonte(arg("--approva-fonte"))
-    elif "--approva-prefisso" in sys.argv:
-        approva_prefisso(arg("--approva-prefisso"))
     elif "--approva-genere" in sys.argv:
         approva_genere(arg("--approva-genere"))
     elif "--approva" in sys.argv:

@@ -30,6 +30,7 @@
         "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson"
     ];
     var searchResults = [];  // risultati della barra di ricerca (livello "search")
+    var quickFilter = "all"; // tutti | rock | rap | electronic | festival
 
     // Nomi paese GeoJSON (inglese) -> nostri nomi (italiano)
     var EN2IT = {
@@ -82,6 +83,10 @@
         if (group === "rap") return "Rap / Hip-Hop";
         if (group === "electronic") return "Techno / Elettronica";
         return "Rock / Punk / Metal / Indie";
+    }
+    function isFestival(ev) {
+        if (String(ev && ev.tipo || "").toLowerCase() === "festival") return true;
+        return /(^|\W)(festival|fest|openair|open air)(\W|$)/i.test(String(ev && ev.nome || ""));
     }
 
     document.addEventListener("DOMContentLoaded", init);
@@ -280,6 +285,7 @@
     }
     function matchesBase(ev, f) {
         if (ev.stato === "BURIED") return false;
+        if (quickFilter === "festival" && !isFestival(ev)) return false;
         if (f.genere && genreFamily(ev.genere) !== f.genere) return false;
         if (f.tipo && ev.tipo !== f.tipo) return false;
         if (f.gratis && !ev.gratuito) return false;
@@ -652,7 +658,26 @@
         // Filtri base -> ridisegna il livello corrente
         ["f-genere", "f-tipo", "f-data", "f-data-fine", "f-gratis"].forEach(function (id) {
             var el = document.getElementById(id);
-            if (el) el.addEventListener("change", refreshCurrent);
+            if (el) el.addEventListener("change", function () {
+                if (id === "f-genere") quickFilter = el.value || "all";
+                if (id === "f-tipo" && quickFilter === "festival") quickFilter = "all";
+                syncQuickFilters();
+                refreshCurrent();
+            });
+        });
+        document.querySelectorAll("[data-quick-filter]").forEach(function (button) {
+            button.addEventListener("click", function () {
+                quickFilter = button.getAttribute("data-quick-filter") || "all";
+                if (quickFilter === "festival" || quickFilter === "all") {
+                    setSel("f-genere", "");
+                    setSel("f-tipo", "");
+                } else {
+                    setSel("f-genere", quickFilter);
+                    setSel("f-tipo", "");
+                }
+                syncQuickFilters();
+                refreshCurrent();
+            });
         });
         // Date: apri il calendarietto nativo cliccando sul campo (niente scrittura a mano)
         ["f-data", "f-data-fine"].forEach(function (id) {
@@ -688,6 +713,8 @@
             var g = document.getElementById("f-gratis");
             if (g) g.checked = false;
             var r = document.getElementById("f-raggio"); if (r) r.value = 0;
+            quickFilter = "all";
+            syncQuickFilters();
             goEurope();
         });
 
@@ -743,9 +770,18 @@
         if (cc && panel) cc.addEventListener("click", function () { panel.classList.remove("open"); panel.setAttribute("aria-hidden", "true"); });
     }
 
+    function syncQuickFilters() {
+        document.querySelectorAll("[data-quick-filter]").forEach(function (button) {
+            var active = button.getAttribute("data-quick-filter") === quickFilter;
+            button.classList.toggle("active", active);
+            button.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+    }
+
     function refreshCurrent() {
         if (level === "search") { doSearch(); return; }
-        if (level === "zona") selectCity(city);
+        if (level === "vicino") { drawMarkers(nearEvents()); renderList(); }
+        else if (level === "zona") selectCity(city);
         else if (level === "paese") { drawMarkers(countryEvents()); renderList(); }
         else { renderList(); if (!bordersOk) drawCountryPins(); }
     }

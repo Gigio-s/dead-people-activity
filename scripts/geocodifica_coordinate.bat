@@ -1,6 +1,7 @@
 @echo off
 setlocal
-cd /d "%~dp0"
+REM Versione ufficiale degli script coordinate: scripts\coordinate eventi
+cd /d "%~dp0coordinate eventi"
 
 echo ============================================================
 echo   DEAD PEOPLE ACTIVITY - RICERCA COORDINATE REALI
@@ -13,9 +14,9 @@ echo.
 
 where py >nul 2>&1
 if not errorlevel 1 (
-    py -3 geocodifica_coordinate.py --apply --limit 500 --delay 2.5
+    py -3 geocodifica_coordinate.py --apply --limit 500 --delay 2.5 --retry-incerti-giorni 7
 ) else (
-    python geocodifica_coordinate.py --apply --limit 500 --delay 2.5
+    python geocodifica_coordinate.py --apply --limit 500 --delay 2.5 --retry-incerti-giorni 7
 )
 
 if errorlevel 1 (

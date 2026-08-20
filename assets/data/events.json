@@ -597910,5 +597910,701 @@
     "fonte": "ra",
     "approvazione": "approvato",
     "creato_il": "2026-08-19"
+  },
+  {
+    "id": "eu-d7048ee6c0497cdd",
+    "nome": "Route Resurrection: Eluveitie",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-12-01",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "La Riviera",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "Eluveitie"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/eluveitie-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/eluveitie-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:10",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/eluveitie-tour-2026/"
+  },
+  {
+    "id": "eu-68ede09ff07e85c3",
+    "nome": "Route Resurrection: Eluveitie",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-12-02",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Barcelona",
+    "indirizzo": "",
+    "locale": "Razzmatazz",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "Eluveitie"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/eluveitie-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/eluveitie-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:10",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/eluveitie-tour-2026/"
+  },
+  {
+    "id": "eu-967e3997d6c29705",
+    "nome": "Route Resurrection 2026: KAMIJO",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-09-26",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "Sala Cats",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "2026: KAMIJO"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/kamijo-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/kamijo-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:17",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/kamijo-tour-2026/"
+  },
+  {
+    "id": "eu-9bb57381e597d07e",
+    "nome": "Route Resurrection: Megadeth 2027",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2027-04-10",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Barcelona",
+    "indirizzo": "",
+    "locale": "Olimpic Arena Badalona",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "Megadeth 2027"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/megadeth-tour-2027/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/megadeth-tour-2027/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:25",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/megadeth-tour-2027/"
+  },
+  {
+    "id": "eu-b87c445432cf1d52",
+    "nome": "Route Resurrection: Megadeth 2027",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2027-04-12",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "Movistar Arena",
+    "lat": 40.42394,
+    "lng": -3.6758,
+    "artisti": [
+      "Megadeth 2027"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/megadeth-tour-2027/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/megadeth-tour-2027/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:25",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/megadeth-tour-2027/",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
+  },
+  {
+    "id": "eu-885a5ecad07345fc",
+    "nome": "Route Resurrection: Ministry 2027",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2027-04-14",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "La Riviera",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "Ministry 2027"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/ministry-tour-2027/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/ministry-tour-2027/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:27",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/ministry-tour-2027/"
+  },
+  {
+    "id": "eu-3d88c5641915d1ac",
+    "nome": "Route Resurrection: Ministry 2027",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2027-04-15",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Barcelona",
+    "indirizzo": "",
+    "locale": "Paral·lel 62",
+    "lat": 41.3751,
+    "lng": 2.16973,
+    "artisti": [
+      "Ministry 2027"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/ministry-tour-2027/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/ministry-tour-2027/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:27",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/ministry-tour-2027/",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
+  },
+  {
+    "id": "eu-cbfe970f444cf660",
+    "nome": "Route Resurrection 2026: Papa Roach",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-12-04",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "Palacio Vistalegre",
+    "lat": 40.386,
+    "lng": -3.7385,
+    "artisti": [
+      "2026: Papa Roach"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/papa-roach-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/papa-roach-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:37",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/papa-roach-tour-2026/",
+    "coordinate_precisione": "locale_verificato",
+    "coordinate_fonte": "locale_verificato"
+  },
+  {
+    "id": "eu-d75cfd7a40529082",
+    "nome": "Route Resurrection 2027: SiM",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2027-02-15",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "Mon Live",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "2027: SiM"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/sim-tour-2027/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/sim-tour-2027/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:41",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/sim-tour-2027/"
+  },
+  {
+    "id": "eu-9e79791728b13ef7",
+    "nome": "Route Resurrection 2027: SiM",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2027-02-16",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Barcelona",
+    "indirizzo": "",
+    "locale": "Razzmatazz 2",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "2027: SiM"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/sim-tour-2027/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/sim-tour-2027/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:41",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/sim-tour-2027/"
+  },
+  {
+    "id": "eu-e268813680242703",
+    "nome": "Route Resurrection: STVW 2026",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-10-16",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Barcelona",
+    "indirizzo": "",
+    "locale": "Razzmatazz 3",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "STVW 2026"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/stvw-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/stvw-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:45",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/stvw-tour-2026/"
+  },
+  {
+    "id": "eu-dfefa2ac96bae838",
+    "nome": "Route Resurrection: STVW 2026",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-10-18",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "ReviLive",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "STVW 2026"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/stvw-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/stvw-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:45",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/stvw-tour-2026/"
+  },
+  {
+    "id": "eu-389e795a0ff2007c",
+    "nome": "Route Resurrection 2026: The Browning",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-11-02",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Barcelona",
+    "indirizzo": "",
+    "locale": "Razzmatazz 2",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "2026: The Browning"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:51",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/"
+  },
+  {
+    "id": "eu-5fab0b75999293ec",
+    "nome": "Route Resurrection 2026: The Browning",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-11-03",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Madrid",
+    "indirizzo": "",
+    "locale": "Nazca",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "2026: The Browning"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:51",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/"
+  },
+  {
+    "id": "eu-95b48321d41ee4e0",
+    "nome": "Route Resurrection 2026: The Browning",
+    "descrizione": "Data pubblicata da Route Resurrection.",
+    "locandina": "",
+    "data": "2026-11-04",
+    "ora": "",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "regione": "",
+    "citta": "Vitoria",
+    "indirizzo": "",
+    "locale": "Jimmy Jazz",
+    "lat": null,
+    "lng": null,
+    "artisti": [
+      "2026: The Browning"
+    ],
+    "genere": [
+      "rock",
+      "punk",
+      "metal",
+      "hardcore"
+    ],
+    "tipo": "concerto",
+    "prezzo": null,
+    "gratuito": false,
+    "biglietti_url": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/",
+    "biglietti": [
+      {
+        "fonte": "Resurrection Fest / Route Resurrection",
+        "url": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/",
+        "prezzo": null,
+        "gratuito": false
+      }
+    ],
+    "promoter": "Resurrection Fest / Route Resurrection",
+    "promoter_url": "https://www.resurrectionfest.es/",
+    "social": [],
+    "stato": "LIVE",
+    "sponsorizzato": false,
+    "fonte": "europa:resurrection",
+    "approvazione": "approvato",
+    "creato_il": "2026-08-20T22:36:51",
+    "pagina_fonte": "https://www.resurrectionfest.es/en/route/the-browning-tour-2026/"
   }
 ]

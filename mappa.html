@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
 
-    <link rel="stylesheet" href="assets/css/style.css?v=10">
+    <link rel="stylesheet" href="assets/css/style.css?v=11">
 
     <!-- Stile del banner "schermo intero" (solo questa pagina) -->
     <style>
@@ -40,6 +40,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="mappa.html" class="nav-link active">Mappa</a></li>
                         <li><a href="eventi.html" class="nav-link">Eventi</a></li>
+                        <li><a href="festival.html" class="nav-link">Festival</a></li>
                     </ul>
                 </li>
                 <li class="nav-item has-dropdown">
@@ -154,10 +155,12 @@
         </div>
     </div>
 
-    <div class="container genre-legend map-genre-legend" aria-label="Legenda colori dei generi musicali">
-        <span class="genre-rock"><i></i>Rock / Punk / Metal / Indie</span>
-        <span class="genre-rap"><i></i>Rap / Hip-Hop</span>
-        <span class="genre-electronic"><i></i>Techno / Elettronica</span>
+    <div class="container genre-legend map-genre-legend map-quick-filters" aria-label="Filtri rapidi per categoria">
+        <button type="button" class="quick-filter quick-all active" data-quick-filter="all" aria-pressed="true"><i></i>Tutti</button>
+        <button type="button" class="quick-filter genre-rock" data-quick-filter="rock" aria-pressed="false"><i></i>Rock / Punk / Metal / Indie</button>
+        <button type="button" class="quick-filter genre-rap" data-quick-filter="rap" aria-pressed="false"><i></i>Rap / Hip-Hop</button>
+        <button type="button" class="quick-filter genre-electronic" data-quick-filter="electronic" aria-pressed="false"><i></i>Techno / Elettronica</button>
+        <button type="button" class="quick-filter quick-festival" data-quick-filter="festival" aria-pressed="false"><i></i>Festival</button>
     </div>
 
     <!-- CONTENUTO PRINCIPALE: MAPPA + LISTA -->
@@ -235,7 +238,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
     <script src="assets/js/events-data.js"></script>
-    <script src="assets/js/mappa.js?v=10"></script>
+    <script src="assets/js/mappa.js?v=12"></script>
     <script src="assets/js/main.js?v=6"></script>
 </body>
 </html>

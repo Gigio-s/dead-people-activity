@@ -2492,8 +2492,8 @@
   },
   "prince of peckham|1 clayton rd peckham london se15 5ja|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:09:36",
-    "retry_after": "2026-08-14T18:09:48"
+    "checked_at": "2026-08-20T22:42:58",
+    "retry_after": "2026-08-27T22:43:11"
   },
   "union club vauxhall|66 albert embankment lambeth london se1 7tw|london|uk": {
     "status": "incerto",
@@ -2542,8 +2542,8 @@
   },
   "the social|5 little portland street fitzrovia london w1w 7jd united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:11:38",
-    "retry_after": "2026-08-14T18:11:51"
+    "checked_at": "2026-08-20T22:41:40",
+    "retry_after": "2026-08-27T22:41:53"
   },
   "rolling stock|48 kingsland road shoreditch e2 8aa|london|uk": {
     "status": "incerto",
@@ -2567,8 +2567,8 @@
   },
   "jumbi|unit 4 1 copeland park 133 copeland rd london se15 3sn|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:12:40",
-    "retry_after": "2026-08-14T18:12:52"
+    "checked_at": "2026-08-20T22:43:48",
+    "retry_after": "2026-08-27T22:44:01"
   },
   "ormside projects|32 ormside st london se15 1tr uk|london|uk": {
     "status": "incerto",
@@ -2597,8 +2597,8 @@
   },
   "brixton jamm|261 brixton road brixton london sw9 6lh united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:13:54",
-    "retry_after": "2026-08-14T18:14:06"
+    "checked_at": "2026-08-20T22:41:27",
+    "retry_after": "2026-08-27T22:41:40"
   },
   "tba east london announced to ticket holders on the day||london|uk": {
     "status": "in_attesa_indirizzo",
@@ -2642,8 +2642,8 @@
   },
   "mezzanine tooting|unit 4 tooting market 20 totterdown st london sw17 8ta|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:15:33",
-    "retry_after": "2026-08-14T18:15:45"
+    "checked_at": "2026-08-20T22:42:32",
+    "retry_after": "2026-08-27T22:42:45"
   },
   "the underground nightclub|37 wharfdale road islington n1 9sd uk|london|uk": {
     "status": "incerto",
@@ -2657,8 +2657,8 @@
   },
   "fold|gillian house stephenson st london e16 4sa uk|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:16:08",
-    "retry_after": "2026-08-14T18:16:19"
+    "checked_at": "2026-08-20T22:41:53",
+    "retry_after": "2026-08-27T22:42:06"
   },
   "bricks|414 coldharbour lane london united kingdom sw9 8lf|london|uk": {
     "status": "incerto",
@@ -2667,13 +2667,13 @@
   },
   "starlane pizza bar|12 cody road e16 4sr london united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:16:31",
-    "retry_after": "2026-08-14T18:16:43"
+    "checked_at": "2026-08-20T22:40:35",
+    "retry_after": "2026-08-27T22:40:48"
   },
   "77|77 welbeck street w1g 0bb|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:16:43",
-    "retry_after": "2026-08-14T18:16:55"
+    "checked_at": "2026-08-20T22:41:00",
+    "retry_after": "2026-08-27T22:41:14"
   },
   "club 8|8 stoke newington rd london n16 7xn|london|uk": {
     "status": "incerto",
@@ -2692,8 +2692,8 @@
   },
   "radial|39b markfield rd n154qa london united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:17:32",
-    "retry_after": "2026-08-14T18:17:43"
+    "checked_at": "2026-08-20T22:40:48",
+    "retry_after": "2026-08-27T22:41:00"
   },
   "distillery n17|unit 25 millmead industrial estate|london|uk": {
     "status": "incerto",
@@ -2707,8 +2707,8 @@
   },
   "boxpark|2 4 bethnal green rd london e1 6gy|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:17:56",
-    "retry_after": "2026-08-14T18:18:07"
+    "checked_at": "2026-08-20T22:42:45",
+    "retry_after": "2026-08-27T22:42:58"
   },
   "grow|98c wallis road main yard london e9 5ln|london|uk": {
     "status": "incerto",
@@ -2727,8 +2727,8 @@
   },
   "phonox|418 brixton road brixton london sw9 7ay|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:18:46",
-    "retry_after": "2026-08-14T18:18:58"
+    "checked_at": "2026-08-20T22:43:23",
+    "retry_after": "2026-08-27T22:43:36"
   },
   "spanners|spanners arch 504 loughborough junction sw9 7ex|london|uk": {
     "status": "incerto",
@@ -2747,8 +2747,8 @@
   },
   "fabric|77a charterhouse st clerkenwell london ec1m 6hj united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:19:35",
-    "retry_after": "2026-08-14T18:19:48"
+    "checked_at": "2026-08-20T22:43:11",
+    "retry_after": "2026-08-27T22:43:23"
   },
   "aaja basement|63 69 deptford high streeet basement of accessed via comet place se8 4ep|london|uk": {
     "status": "incerto",
@@ -2757,8 +2757,8 @@
   },
   "koko|1a camden high street camden town london nw1 7je united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:20:00",
-    "retry_after": "2026-08-14T18:20:11"
+    "checked_at": "2026-08-20T22:40:23",
+    "retry_after": "2026-08-27T22:40:35"
   },
   "the carpet shop|arch 164 115 rye lane london se15 4st united kingdom|london|uk": {
     "status": "incerto",
@@ -2777,8 +2777,8 @@
   },
   "bubba oasis|44 48 clapham high st london sw4 7ur|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:20:48",
-    "retry_after": "2026-08-14T18:21:00"
+    "checked_at": "2026-08-20T22:44:01",
+    "retry_after": "2026-08-27T22:44:13"
   },
   "next door records two|182 stoke newington rd london n16 7uy|london|uk": {
     "status": "incerto",
@@ -2807,8 +2807,8 @@
   },
   "the glove that fits|179 morning lane hackney e96lh united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:22:00",
-    "retry_after": "2026-08-14T18:22:12"
+    "checked_at": "2026-08-20T22:44:39",
+    "retry_after": "2026-08-27T22:44:52"
   },
   "tba secret soho location||london|uk": {
     "status": "in_attesa_indirizzo",
@@ -2872,8 +2872,8 @@
   },
   "soul lounge clapham|76 clapham high st london sw4 7ul|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:24:12",
-    "retry_after": "2026-08-14T18:24:25"
+    "checked_at": "2026-08-20T22:44:13",
+    "retry_after": "2026-08-27T22:44:27"
   },
   "the lighthouse|62 68 rivington street shoreditch london ec2a 3ay|london|uk": {
     "status": "incerto",
@@ -2902,8 +2902,8 @@
   },
   "two tribes campfire|tile yard studios tileyard road kings cross london n7 9ah|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:25:32",
-    "retry_after": "2026-08-14T18:25:43"
+    "checked_at": "2026-08-20T22:42:06",
+    "retry_after": "2026-08-27T22:42:19"
   },
   "addington park|3 kent gate way croydon cr0 5ar|london|uk": {
     "status": "incerto",
@@ -2937,8 +2937,8 @@
   },
   "vittoria wharf studio|vittoria wharf yard hackney wick e3 2nt|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:26:59",
-    "retry_after": "2026-08-14T18:27:11"
+    "checked_at": "2026-08-20T22:42:19",
+    "retry_after": "2026-08-27T22:42:32"
   },
   "the bulstrode|the bulstrode 55 lampton rd hounslow tw3 1jg|london|uk": {
     "status": "incerto",
@@ -3889,5 +3889,20 @@
     "status": "incerto",
     "checked_at": "2026-08-19T02:58:05",
     "retry_after": "2026-08-26T02:58:18"
+  },
+  "all my friends|unit 1 hamlet estate 96 white post ln london e9 5en|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-20T22:41:14",
+    "retry_after": "2026-08-27T22:41:27"
+  },
+  "the queen adelaide|483 hackney rd london e2 9bf|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-20T22:43:36",
+    "retry_after": "2026-08-27T22:43:48"
+  },
+  "the view from the shard|joiner street se1 9qu|london|uk": {
+    "status": "incerto",
+    "checked_at": "2026-08-20T22:44:27",
+    "retry_after": "2026-08-27T22:44:38"
   }
 }

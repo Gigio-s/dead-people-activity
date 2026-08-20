@@ -1585,7 +1585,8 @@ select, input, textarea, .form-control { max-width: 100%; }
     font-size: 0.72rem;
     text-transform: uppercase;
 }
-.genre-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.genre-legend span,
+.genre-legend button { display: inline-flex; align-items: center; gap: 7px; }
 .genre-legend i {
     display: inline-block;
     width: 11px;
@@ -1600,6 +1601,30 @@ select, input, textarea, .form-control { max-width: 100%; }
 .map-genre-legend .genre-rock i { background: var(--map-genre-rock); }
 .map-genre-legend .genre-rap i { background: var(--map-genre-rap); }
 .map-genre-legend .genre-electronic i { background: var(--map-genre-electronic); }
+.map-quick-filters { align-items: center; justify-content: center; }
+.map-quick-filters .quick-filter {
+    padding: 6px 9px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--text-muted);
+    font: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.map-quick-filters .quick-filter:hover,
+.map-quick-filters .quick-filter:focus-visible,
+.map-quick-filters .quick-filter.active {
+    border-color: #ffffff;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+}
+.map-quick-filters .quick-all i { background: #ffffff; }
+.map-quick-filters .quick-festival i { background: #ff2a2a; }
+.map-quick-filters .quick-festival.active { border-color: #ff2a2a; }
+@media (max-width: 620px) {
+    .map-quick-filters { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
+    .map-quick-filters .quick-filter { flex: 0 0 auto; min-height: 38px; }
+}
 .events-empty { padding: 45px 20px; border: 1px dashed #666666; color: var(--text-muted); text-align: center; }
 .events-more-wrap { margin: 38px 0 0; text-align: center; }
 .events-more { font-size: 1rem; padding: 11px 24px; }
