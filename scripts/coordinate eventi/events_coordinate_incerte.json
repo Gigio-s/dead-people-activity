@@ -40978,5 +40978,65 @@
     "paese": "Spagna",
     "paese_code": "ES",
     "motivo": "coordinate_mancanti"
+  },
+  {
+    "id": "eu-29ef040b588f9e3e",
+    "nome": "Festival Garorock 2027",
+    "data": "2027-06-25",
+    "fonte": "europa:garorock",
+    "locale": "Plaine de la Filhole",
+    "indirizzo": "Plaine de la Filhole",
+    "citta": "Marmande",
+    "paese": "Francia",
+    "paese_code": "FR",
+    "motivo": "coordinate_mancanti"
+  },
+  {
+    "id": "eu-9ff8e872b825e76b",
+    "nome": "Creamfields 2026",
+    "data": "2026-08-27",
+    "fonte": "europa:creamfields",
+    "locale": "Daresbury Estate",
+    "indirizzo": "Daresbury, Cheshire",
+    "citta": "Daresbury",
+    "paese": "Regno Unito",
+    "paese_code": "GB",
+    "motivo": "coordinate_mancanti"
+  },
+  {
+    "id": "eu-de1209ce43d27e7b",
+    "nome": "Azkena Rock Festival 2027",
+    "data": "2027-06-17",
+    "fonte": "europa:azkena-rock",
+    "locale": "Mendizabala",
+    "indirizzo": "Mendizabala",
+    "citta": "Vitoria-Gasteiz",
+    "paese": "Spagna",
+    "paese_code": "ES",
+    "motivo": "coordinate_mancanti"
+  },
+  {
+    "id": "eu-bb74c3b8ea5f1d85",
+    "nome": "Bukta Tromso Open Air Festival 2027",
+    "data": "2027-07-23",
+    "fonte": "europa:bukta",
+    "locale": "Telegrafbukta",
+    "indirizzo": "Telegrafbukta",
+    "citta": "Tromso",
+    "paese": "Norvegia",
+    "paese_code": "NO",
+    "motivo": "coordinate_mancanti"
+  },
+  {
+    "id": "eu-80e89e052cf4a70a",
+    "nome": "Blacklist Festival 2026",
+    "data": "2026-10-09",
+    "fonte": "europa:blacklist-festival",
+    "locale": "Turbinenhalle Oberhausen",
+    "indirizzo": "Im Lipperfeld 23",
+    "citta": "Oberhausen",
+    "paese": "Germania",
+    "paese_code": "DE",
+    "motivo": "coordinate_mancanti"
   }
 ]

@@ -3909,7 +3909,187 @@
     "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=es&street=Parc+de+Can+Zam&city=Santa+Coloma+de+Gramenet']' returned non-zero exit status 35."
   },
   "desierto de los monegros|carretera n ii km 416|fraga|es": {
-    "status": "errore",
-    "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=es&street=Carretera+N-II+km+416&city=Fraga']' returned non-zero exit status 35."
+    "status": "incerto",
+    "checked_at": "2026-08-22T16:01:54",
+    "retry_after": "2026-08-29T16:02:05"
+  },
+  "deutsche bank park|moerfelder landstrasse 362|francoforte sul meno|de": {
+    "status": "verificato",
+    "lat": 50.0686103,
+    "lng": 8.6454154,
+    "score": 16,
+    "display_name": "Deutsche Bank Park, 362, Mörfelder Landstraße, Sachsenhausen Süd, Sachsenhausen, Süd, Francoforte sul Meno, Assia, 60528, Germania",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "de",
+      "street": "Moerfelder Landstrasse 362",
+      "city": "Francoforte sul Meno"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-22T16:02:05",
+    "precisione": "indirizzo_verificato"
+  },
+  "plaine de la filhole|plaine de la filhole|marmande|fr": {
+    "status": "incerto",
+    "checked_at": "2026-08-22T16:02:08",
+    "retry_after": "2026-08-29T16:02:17"
+  },
+  "daresbury estate|daresbury cheshire|daresbury|gb": {
+    "status": "incerto",
+    "checked_at": "2026-08-22T16:02:17",
+    "retry_after": "2026-08-29T16:02:30"
+  },
+  "de populier|letterkouter 8|zottegem|be": {
+    "status": "verificato",
+    "lat": 50.870205,
+    "lng": 3.7746518,
+    "score": 11,
+    "display_name": "Populier op de Vollander, Strijpen, Zottegem, Aalst, Provincia delle Fiandre Orientali, Fiandre, 9620, Belgio",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "be",
+      "q": "De Populier, Zottegem, Belgio"
+    },
+    "modalita": "locale_citta",
+    "checked_at": "2026-08-22T18:01:06",
+    "precisione": "indirizzo_verificato"
+  },
+  "flugplatz rotenburg wumme|flugplatz rotenburg wumme|rotenburg wumme|de": {
+    "status": "verificato",
+    "lat": 53.129717,
+    "lng": 9.3513785,
+    "score": 17,
+    "display_name": "Flugplatz Rotenburg, Zum Flugplatz, Domäne Luhne, Rotenburg, Landkreis Rotenburg (Wümme), Bassa Sassonia, 27356, Germania",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "de",
+      "q": "Flugplatz Rotenburg (Wumme), Rotenburg (Wumme), Germania"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-22T18:01:15",
+    "precisione": "indirizzo_verificato"
+  },
+  "mendizabala|mendizabala|vitoria gasteiz|es": {
+    "status": "incerto",
+    "checked_at": "2026-08-22T18:01:21",
+    "retry_after": "2026-08-29T18:01:30"
+  },
+  "kupittaanpuisto|kupittaanpuisto|turku|fi": {
+    "status": "verificato",
+    "lat": 60.4448128,
+    "lng": 22.2934152,
+    "score": 17,
+    "display_name": "Kupittaanpuisto, City Centre, Turku, Turku sub-region, Southwest Finland, Mainland Finland, Finlandia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "fi",
+      "q": "Kupittaanpuisto, Turku, Finlandia"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-22T18:01:30",
+    "precisione": "indirizzo_verificato"
+  },
+  "telegrafbukta|telegrafbukta|tromso|no": {
+    "status": "incerto",
+    "checked_at": "2026-08-22T18:01:37",
+    "retry_after": "2026-08-29T18:01:47"
+  },
+  "aeroporto di trencin|letisko trencin|trencin|sk": {
+    "status": "verificato",
+    "lat": 48.8665128,
+    "lng": 18.0061162,
+    "score": 15,
+    "display_name": "Airport Trencin, Biskupická, Noviny, Biskupice, Trenčín, District of Trenčín, Region of Trenčín, 911 04, Slovacchia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "sk",
+      "q": "Letisko Trencin, Trencin, Slovacchia"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-22T18:01:47",
+    "precisione": "indirizzo_verificato"
+  },
+  "pla d en sala|via cannetum s n|canet de mar|es": {
+    "status": "verificato",
+    "lat": 41.5940875,
+    "lng": 2.5694835,
+    "score": 13,
+    "display_name": "Carrer de la Via Cannetum, Canet de Mar, Maresme, Barcelona, Catalogna, 08360, Spagna",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "es",
+      "street": "Via Cannetum s/n",
+      "city": "Canet de Mar"
+    },
+    "modalita": "indirizzo_strutturato",
+    "checked_at": "2026-08-22T18:10:29",
+    "precisione": "indirizzo_verificato"
+  },
+  "ile des impressionnistes|ile des impressionnistes|chatou|fr": {
+    "status": "verificato",
+    "lat": 48.891825,
+    "lng": 2.1645897,
+    "score": 17,
+    "display_name": "Île des Impressionnistes, Chatou, Saint-Germain-en-Laye, Yvelines, Isola di Francia, Francia metropolitana, 78400, Francia",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "fr",
+      "q": "Ile des Impressionnistes, Chatou, Francia"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-22T18:10:31",
+    "precisione": "indirizzo_verificato"
+  },
+  "turbinenhalle oberhausen|im lipperfeld 23|oberhausen|de": {
+    "status": "incerto",
+    "checked_at": "2026-08-22T18:10:37",
+    "retry_after": "2026-08-29T18:10:50"
+  },
+  "butlin s skegness resort|ingoldmells pe25 1nj|skegness|gb": {
+    "status": "verificato",
+    "lat": 53.1742756,
+    "lng": 0.3316048,
+    "score": 11,
+    "display_name": "Skegness (Ingoldmells) Aerodrome, Mill Lane, Skegness, Winthorpe, East Lindsey, Lincolnshire, Greater Lincolnshire, Inghilterra, PE25 1HW, Regno Unito",
+    "query": {
+      "format": "jsonv2",
+      "limit": 8,
+      "addressdetails": 1,
+      "namedetails": 1,
+      "dedupe": 1,
+      "countrycodes": "gb",
+      "q": "Ingoldmells, PE25 1NJ, Skegness, Regno Unito"
+    },
+    "modalita": "indirizzo_libero",
+    "checked_at": "2026-08-22T18:10:50",
+    "precisione": "indirizzo_verificato"
   }
 }

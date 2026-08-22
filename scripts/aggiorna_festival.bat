@@ -15,7 +15,10 @@ echo   DEAD PEOPLE ACTIVITY - AGGIORNAMENTO FESTIVAL
 echo ============================================================
 echo.
 echo Fonti festival attive: Resurrection, Barcelona Rock Fest,
-echo Sonar, Bilbao BBK Live, Monegros e NOS Alive.
+echo Sonar, Bilbao BBK Live, Monegros, NOS Alive, Garorock,
+echo World Club Dome, Creamfields, Dunk, Ferdinands Feld, Azkena,
+echo Aura Fest, Bukta, Grape, Canet Rock, Elektric Park,
+echo Blacklist Festival e Bang Face Weekender.
 echo I concerti e i tour vengono esclusi da questa pipeline.
 echo.
 

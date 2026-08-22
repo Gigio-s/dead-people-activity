@@ -30,6 +30,10 @@ assets/data/events_europee_test.json
 assets/data/events_festival_pending.json
 assets/data/events_concerti_europei_pending.json
 assets/data/test-*.json
+assets/data/festival_sources_pending.json
+assets/data/festival_sources_scartate.json
+assets/data/festival_sources_verificate.json
+assets/data/festival_sources_da_controllare.json
 
 # --- Chiave API locale: NON deve MAI finire su GitHub ---
 scripts/config.bat
