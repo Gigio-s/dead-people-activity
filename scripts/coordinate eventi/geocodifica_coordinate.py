@@ -213,7 +213,7 @@ def fetch_results(url, delay):
             completed = subprocess.run(
                 ["curl.exe", "--silent", "--show-error", "--fail", "--max-time", "30",
                  "--user-agent", USER_AGENT, "--header", "Accept-Language: it,en", url],
-                check=True, capture_output=True, text=True, encoding="utf-8")
+                check=True, capture_output=True, text=True, encoding="utf-8", errors="replace")
             LAST_REQUEST_AT = time.monotonic()
             return json.loads(completed.stdout)
         except subprocess.CalledProcessError as exc:
@@ -261,11 +261,15 @@ def should_retry(result, retry_days):
         return True
 
 
-def run(limit, apply_changes, delay, retry_days=7):
+def run(limit, apply_changes, delay, retry_days=7, event_type="", source_prefix=""):
     eventi = ingest._load_json(ingest.EVENTS_JSON, [])
     cache = ingest._load_json(CACHE_PATH, {})
     grouped = {}
     for evento in eventi:
+        if event_type and str(evento.get("tipo") or "").lower() != event_type.lower():
+            continue
+        if source_prefix and not str(evento.get("fonte") or "").startswith(source_prefix):
+            continue
         if not coordinate_eventi.coord(evento):
             grouped.setdefault(venue_key(evento), evento)
 
@@ -319,6 +323,8 @@ if __name__ == "__main__":
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--retry-incerti-giorni", type=int, default=7,
                         help="dopo quanti giorni riprovare i risultati incerti")
+    parser.add_argument("--tipo", default="", help="interroga soltanto questo tipo di evento")
+    parser.add_argument("--fonte-prefisso", default="", help="interroga soltanto fonti con questo prefisso")
     args = parser.parse_args()
     run(max(0, args.limit), args.apply, max(1.1, args.delay),
-        max(1, args.retry_incerti_giorni))
+        max(1, args.retry_incerti_giorni), args.tipo, args.fonte_prefisso)

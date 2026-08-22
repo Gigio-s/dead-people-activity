@@ -639,6 +639,17 @@ def approva_prefisso(prefisso):
     _pubblica(sel, "prefisso=" + prefisso)
 
 
+def approva_festival_prefisso(prefisso):
+    """Pubblica soltanto i festival appartenenti alle fonti indicate."""
+    pending = _load_json(PENDING_JSON, [])
+    sel = [e for e in pending
+           if str(e.get("fonte") or "").startswith(prefisso)
+           and str(e.get("tipo") or "").lower() == "festival"]
+    if not sel:
+        print("Nessun festival in coda per il prefisso:", prefisso); return
+    _pubblica(sel, "festival prefisso=" + prefisso)
+
+
 def rimuovi_fonte(fonte):
     """Elimina eventi di una certa fonte SIA dalla coda SIA dai pubblicati (utile per togliere i demo)."""
     for path in (PENDING_JSON, EVENTS_JSON):
@@ -725,6 +736,8 @@ if __name__ == "__main__":
         approva_fonte(arg("--approva-fonte"))
     elif "--approva-prefisso" in sys.argv:
         approva_prefisso(arg("--approva-prefisso"))
+    elif "--approva-festival-prefisso" in sys.argv:
+        approva_festival_prefisso(arg("--approva-festival-prefisso"))
     elif "--approva-genere" in sys.argv:
         approva_genere(arg("--approva-genere"))
     elif "--approva" in sys.argv:

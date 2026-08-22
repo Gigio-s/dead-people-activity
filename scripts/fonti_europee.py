@@ -4,7 +4,7 @@
 
 Legge prima i dati Event/MusicEvent/Festival in JSON-LD, poi usa piccoli
 adattatori solo quando una fonte non offre dati strutturati. Normalmente crea
-un file di prova; con --concert-only --enqueue-events accoda i soli concerti
+un file di prova; con --enqueue-events o --enqueue-festivals accoda il risultato
 alla pipeline canonica, che applica deduplica e approvazione separatamente.
 """
 
@@ -228,7 +228,7 @@ def official_static_event(source):
         "paese": data.get("paese", ""), "paese_code": source.get("paese_code", ""),
         "regione": data.get("regione", ""), "citta": data.get("citta", ""),
         "indirizzo": data.get("indirizzo", ""), "locale": data.get("locale", ""),
-        "lat": None, "lng": None, "artisti": [], "genere": list(source.get("generi_default", [])),
+        "lat": data.get("lat"), "lng": data.get("lng"), "artisti": [], "genere": list(source.get("generi_default", [])),
         "tipo": "festival", "prezzo": None, "gratuito": False, "biglietti_url": ticket_url,
         "biglietti": tickets, "promoter": source["nome"], "promoter_url": source["url"],
         "social": [], "stato": "LIVE", "sponsorizzato": False, "fonte": "europa:" + source["id"],
@@ -348,19 +348,26 @@ def discover_sitemap(collector, source):
         text, _, _ = collector.fetch(sitemap)
         if not text:
             continue
+        child_sitemaps = 0
         for loc in re.findall(r"<loc>(.*?)</loc>", text, re.I | re.S):
             url = html.unescape(loc.strip())
             if url.endswith(".xml"):
+                if child_sitemaps >= 6 or len(found) >= collector.max_pages * 4:
+                    continue
+                child_sitemaps += 1
                 child, _, _ = collector.fetch(url)
                 if child:
                     found.extend(html.unescape(item.strip()) for item in re.findall(r"<loc>(.*?)</loc>", child, re.I | re.S))
             elif relevant_link(url, source):
                 found.append(url)
+            if len(found) >= collector.max_pages * 4:
+                break
         if found:
             break
     urls = [url for url in found if same_domain(url, source["url"]) and relevant_link(url, source)]
     # Le pagine evento singole hanno priorita' su news, lineup e pagine generiche.
-    return sorted(dict.fromkeys(urls), key=lambda url: ("/route/" not in urllib.parse.urlsplit(url).path.lower(), url))
+    ordered = sorted(dict.fromkeys(urls), key=lambda url: ("/route/" not in urllib.parse.urlsplit(url).path.lower(), url))
+    return ordered[:collector.max_pages * 4]
 
 
 def collect_source(collector, source):
@@ -370,6 +377,8 @@ def collect_source(collector, source):
     static_event = official_static_event(source)
     if static_event:
         events.append(static_event)
+        if source.get("adattatore") == "statico":
+            return deduplicate(events), 0, [static_event.get("pagina_fonte") or source["url"]]
     while queue and len(seen) < collector.max_pages:
         url = queue.pop(0).split("#", 1)[0]
         if url in seen or not same_domain(url, source["url"]) or not collector.allowed(url):
@@ -409,8 +418,8 @@ def deduplicate(events):
     return [event for event in result.values() if not event.get("data") or event["data"] >= today]
 
 
-def enqueue_events(events):
-    """Accoda i concerti alla pipeline canonica riusando la sua deduplica."""
+def enqueue_pipeline(events):
+    """Accoda gli eventi alla pipeline canonica riusando la sua deduplica."""
     spec = importlib.util.spec_from_file_location("dpa_ingest", INGEST_PATH)
     if not spec or not spec.loader:
         raise RuntimeError("Impossibile caricare la pipeline canonica: " + INGEST_PATH)
@@ -421,6 +430,20 @@ def enqueue_events(events):
     new_events = ingest.nuovi_per_coda(events, pending, published)
     pending.extend(new_events)
     ingest._save_json(ingest.PENDING_JSON, pending)
+    upgraded = 0
+    for incoming in events:
+        if incoming.get("lat") is None or incoming.get("lng") is None:
+            continue
+        current = next((item for item in published
+                        if ingest.dedup_key(item) == ingest.dedup_key(incoming)), None)
+        if current and (current.get("lat") is None or current.get("lng") is None):
+            current["lat"], current["lng"] = incoming["lat"], incoming["lng"]
+            current["coordinate_precisione"] = "locale_verificato"
+            current["coordinate_fonte"] = "fonte_ufficiale"
+            upgraded += 1
+    if upgraded:
+        ingest._save_json(ingest.EVENTS_JSON, published)
+        ingest.mirror_fallback()
     return len(new_events), len(pending)
 
 
@@ -431,10 +454,18 @@ def main():
     parser.add_argument("--festival-only", action="store_true", help="usa solo fonti con festival futuro confermato e conserva soltanto i festival")
     parser.add_argument("--concert-only", action="store_true", help="usa le fonti abilitate ai concerti e conserva soltanto gli eventi non festival")
     parser.add_argument("--enqueue-events", action="store_true", help="accoda il risultato alla normale pipeline eventi con deduplica")
+    parser.add_argument("--enqueue-festivals", action="store_true", help="accoda i festival alla pipeline canonica con deduplica")
     parser.add_argument("--max-pages", type=int, default=30)
     parser.add_argument("--delay", type=float, default=1.5)
     parser.add_argument("--output", default=DEFAULT_OUTPUT)
     args = parser.parse_args()
+
+    if args.enqueue_events and args.enqueue_festivals:
+        parser.error("usa un solo tipo di accodamento")
+    if args.enqueue_events and not args.concert_only:
+        parser.error("--enqueue-events richiede --concert-only")
+    if args.enqueue_festivals and not args.festival_only:
+        parser.error("--enqueue-festivals richiede --festival-only")
 
     sources = load_registry()
     if args.source:
@@ -465,19 +496,18 @@ def main():
     all_events = deduplicate(all_events)
     os.makedirs(os.path.dirname(os.path.abspath(args.output)), exist_ok=True)
     payload = {
-        "modalita": "CODA_CONCERTI" if args.enqueue_events else "TEST_NON_PUBBLICATO",
+        "modalita": ("CODA_CONCERTI" if args.enqueue_events else
+                     "CODA_FESTIVAL" if args.enqueue_festivals else "TEST_NON_PUBBLICATO"),
         "generato_il": datetime.now().isoformat(timespec="seconds"),
         "totale": len(all_events), "fonti": report, "errori": collector.errors, "events": all_events
     }
     with open(args.output, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
     print("\nCreato:", os.path.abspath(args.output))
-    if args.enqueue_events:
-        if not args.concert_only:
-            print("ERRORE: --enqueue-events richiede --concert-only; nessun dato accodato.")
-            return 2
-        added, pending_total = enqueue_events(all_events)
-        print("Concerti aggiunti alla coda normale:", added)
+    if args.enqueue_events or args.enqueue_festivals:
+        added, pending_total = enqueue_pipeline(all_events)
+        label = "Festival" if args.enqueue_festivals else "Concerti"
+        print(label + " aggiunti alla coda normale:", added)
         print("Totale eventi ora in attesa:", pending_total)
     else:
         print("Eventi in prova:", len(all_events), "- nessuna pubblicazione eseguita.")

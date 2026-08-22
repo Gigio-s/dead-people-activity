@@ -2432,8 +2432,8 @@
   },
   "hootananny brixton|95 effra road brixton london sw2 1df|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:07:23",
-    "retry_after": "2026-08-14T18:07:35"
+    "checked_at": "2026-08-20T22:45:47",
+    "retry_after": "2026-08-27T22:45:59"
   },
   "boxpark shoreditch|2 10 bethnal green rd london e1 6gy|london|uk": {
     "status": "incerto",
@@ -2582,8 +2582,8 @@
   },
   "queen of hoxton|1 5 curtain road hoxton london ec2a 3jx united kingdom|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:13:17",
-    "retry_after": "2026-08-14T18:13:29"
+    "checked_at": "2026-08-20T22:45:18",
+    "retry_after": "2026-08-27T22:45:31"
   },
   "basing house|25 kingsland road shoreditch london e2 8aa united kingdom|london|uk": {
     "status": "incerto",
@@ -2781,9 +2781,8 @@
     "retry_after": "2026-08-27T22:44:13"
   },
   "next door records two|182 stoke newington rd london n16 7uy|london|uk": {
-    "status": "incerto",
-    "checked_at": "2026-08-07T18:21:00",
-    "retry_after": "2026-08-14T18:21:12"
+    "status": "errore",
+    "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=uk&q=Next+Door+Records+Two%2C+London%2C+United+Kingdom']' returned non-zero exit status 28."
   },
   "lord napier|25 white post lane hackney wick e9 5er united kingdom|london|uk": {
     "status": "incerto",
@@ -2792,8 +2791,8 @@
   },
   "multi story|level 6 peckham levels 95a rye ln london se15 4st|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:21:24",
-    "retry_after": "2026-08-14T18:21:36"
+    "checked_at": "2026-08-20T22:44:52",
+    "retry_after": "2026-08-27T22:45:05"
   },
   "ridley road market bar|49 ridley road london e8 2np united kingdom|london|uk": {
     "status": "incerto",
@@ -2817,8 +2816,8 @@
   },
   "dalston den|91 93 kingsland high street|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:22:12",
-    "retry_after": "2026-08-14T18:22:24"
+    "checked_at": "2026-08-20T22:45:59",
+    "retry_after": "2026-08-27T22:46:13"
   },
   "the elmhurst|131 lordship lane london n17 6xe|london|uk": {
     "status": "incerto",
@@ -2877,8 +2876,8 @@
   },
   "the lighthouse|62 68 rivington street shoreditch london ec2a 3ay|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:24:25",
-    "retry_after": "2026-08-14T18:24:40"
+    "checked_at": "2026-08-20T22:45:31",
+    "retry_after": "2026-08-27T22:45:47"
   },
   "gaffe|1 anthony way n18 3qt|london|uk": {
     "status": "incerto",
@@ -2887,8 +2886,8 @@
   },
   "last arch|392 wandsworth road sw84ph through the black gates last arch|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:24:53",
-    "retry_after": "2026-08-14T18:25:05"
+    "checked_at": "2026-08-20T22:45:05",
+    "retry_after": "2026-08-27T22:45:18"
   },
   "palais|1a rye ln london se15 5ew|london|uk": {
     "status": "incerto",
@@ -2977,8 +2976,8 @@
   },
   "nico s bar at hackney bridge|units 1 28 echo building e bay ln london e15 2sj|london|uk": {
     "status": "incerto",
-    "checked_at": "2026-08-07T18:28:23",
-    "retry_after": "2026-08-14T18:28:36"
+    "checked_at": "2026-08-20T22:46:13",
+    "retry_after": "2026-08-27T22:46:26"
   },
   "the eagle|349 kennington ln london se11 5qy united kingdom|london|uk": {
     "status": "incerto",
@@ -3904,5 +3903,13 @@
     "status": "incerto",
     "checked_at": "2026-08-20T22:44:27",
     "retry_after": "2026-08-27T22:44:38"
+  },
+  "parc de can zam|parc de can zam|santa coloma de gramenet|es": {
+    "status": "errore",
+    "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=es&street=Parc+de+Can+Zam&city=Santa+Coloma+de+Gramenet']' returned non-zero exit status 35."
+  },
+  "desierto de los monegros|carretera n ii km 416|fraga|es": {
+    "status": "errore",
+    "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=es&street=Carretera+N-II+km+416&city=Fraga']' returned non-zero exit status 35."
   }
 }

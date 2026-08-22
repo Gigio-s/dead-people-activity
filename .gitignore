@@ -29,6 +29,7 @@ assets/data/events_dice_scartati.json
 assets/data/events_europee_test.json
 assets/data/events_festival_pending.json
 assets/data/events_concerti_europei_pending.json
+assets/data/test-*.json
 
 # --- Chiave API locale: NON deve MAI finire su GitHub ---
 scripts/config.bat
