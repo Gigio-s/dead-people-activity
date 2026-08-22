@@ -263873,7 +263873,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42611238",
-    "nome": "",
+    "nome": "Paul Heaton: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live stripped back performance from Paul Heaton in support of his new album 'Jenius'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/9/0/2310183_c1cda6f5_paul-heaton-album-launch-show.jpg",
     "data": "2026-12-01",
@@ -263904,11 +263904,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Preston/53-Degrees/Paul-Heaton-Album-Launch-Show/42611238/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41997504",
-    "nome": "",
+    "nome": "Ministry Of Sound Classical - Hitchin Live at the Priory",
     "descrizione": "With support from Roger Sanchez, Sonique, Seb Fontaine & Danny Rampling!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/6/3/2198831_bb7daa54_ministry-of-sound-orchestra-hitchin-live-at-the-priory.jpg",
     "data": "2026-08-30",
@@ -263941,11 +263949,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stevenage/Hitchin-Priory/Ministry-Of-Sound-Classical---Hitchin-Live-at-the-Priory/41997504/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604559",
-    "nome": "",
+    "nome": "Ravers Reunited The Black Party 20 Years In The Game!",
     "descrizione": "Ravers Reunited celebrates 20 Years of Hardcore at The Emporium Superclub, Coalville!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/7/a/2308017_075d05ce_ravers-reunited-the-black-party-20-years-in-the-game-.jpg",
     "data": "2026-11-28",
@@ -263985,11 +264001,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leicester/The-Emporium/Ravers-Reunited-The-Black-Party-20-Years-In-The-Game/42604559/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41956891",
-    "nome": "",
+    "nome": "RUDIM3NTAL - Hitchin Live at the Priory",
     "descrizione": "Rudimental bring their high-energy, genre-defying show to Hitchin Priory on Friday 28th August.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/f/2189733_f9b55c4a_rudim3ntal-hitchin-priory-hertfordshire.jpg",
     "data": "2026-08-28",
@@ -264032,18 +264056,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Stevenage/Hitchin-Priory/RUDIM3NTAL---Hitchin-Live-at-the-Priory/41956891/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Stevenage/Hitchin-Priory/RUDIM3NTAL---Hitchin-Live-at-the-Priory/42618497/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42608885",
-    "nome": "",
+    "nome": "Shed Seven: 'A Maximum High' Live",
     "descrizione": "Jacaranda Records presents a live performance from Shed Seven in support of their new self-titled album.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/f/1/2309418_f527daa0_shed-seven-album-launch-show.jpg",
     "data": "2026-10-15",
@@ -264080,24 +264098,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/02-Institute-Birmingham/Shed-Seven-A-Maximum-High-Live/42608885/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/LSD-and-the-Search-for-God/42141604/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/Gentlemans-Dub-Club-20th-Anniversary-Tour--Birmingham/42357830/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41956370",
-    "nome": "",
+    "nome": "The Human League - Hitchin Live at the Priory",
     "descrizione": "Come see THE HUMAN LEAGUE With Special Guests, Hitchin Live at the Priory, Hertfordshire, Thursday 27th August",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/a/2189559_10b06a2a_the-human-league.jpg",
     "data": "2026-08-27",
@@ -264135,18 +264141,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Stevenage/Hitchin-Priory/The-Human-League---Hitchin-Live-at-the-Priory/41956370/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Stevenage/Hitchin-Priory/Hitchin-Live-at-the-Priory-weekend-tickets/42414958/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42570618",
-    "nome": "",
+    "nome": "Ibiza Proms in Manchester Cathedral",
     "descrizione": "Join us in October as we return for an evening of Ibiza Classics performed by a  40 Piece Live Orchestra to the breathtaking Manchester Cathedral",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/f/a/2299002_35776100_Ibiza-Proms-in-Manchester-Cathedral.jpg",
     "data": "2026-10-10",
@@ -264184,42 +264184,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Manchester-Cathedral/Ibiza-Proms-in-Manchester-Cathedral/42570618/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Victoria-Baths/Escapism-with-Deep-Dish-Smokin-Jo--Pattn/42438767/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Bowlers-Exhibition-Centre/BTID-Zn-2026/42618768/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/IDRA/Two-and-a-Half-Cats-Manchester/42629765/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Cristoph--Joshua-Brooks-Manchester/42614180/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Day-Time-Disco-The-Shapeshifters--Jade-Edwards/42517697/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42573539",
-    "nome": "",
+    "nome": "Forever Young - September Weekend Sunday Sesh",
     "descrizione": "Relive your youth - Glasgow Clubs Revival (Archaos | Silver | Victorias)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/2/1/2299841_7226fcc7_forever-young-september-weekend-sunday-sesh.jpg",
     "data": "2026-09-27",
@@ -264260,30 +264230,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Drygate/Forever-Young---September-Weekend-Sunday-Sesh/42573539/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Elevate--Paco-Osuna--Fluer-Shore/42596331/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Revolution-Mitchell-Street/Life-of-Reilly---Day-Clubbing-Experience---Sun-27th-Sept/42477777/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Elevate-Paco-Osuna/42596828/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42608924",
-    "nome": "",
+    "nome": "Echo & the Bunnymen: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from Echo & the Bunnymen in support of their new album 'Apples For Isaac'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/6/b/2309453_76a331e8_echo-and-the-bunnymen-album-launch-show.jpg",
     "data": "2026-09-20",
@@ -264313,11 +264265,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Echo--the-Bunnymen-Album-Launch-Show/42608924/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42529861",
-    "nome": "",
+    "nome": "Ibiza Anthems Live At Peterborough Cathedral",
     "descrizione": "Join us this Autumn as the legendary DJ/Sax duo Laura & Santiago perform a headline gig inside the stunning Peterborough Cathedral for Ibiza Anthems",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/e/e/2292233_beb497d1_ibiza-anthems-live-at-peterborough-cathedral.jpg",
     "data": "2026-10-31",
@@ -264351,11 +264311,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Peterborough/Peterborough-Cathedral/Ibiza-Anthems-Live-At-Peterborough-Cathedral/42529861/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42568037",
-    "nome": "",
+    "nome": "Ibiza Anthems Live At Chester Cathedral",
     "descrizione": "Join us this Autumn as the legendary DJ/Sax duo Laura & Santiago perform a headline gig inside the stunning Chester Cathedral for Ibiza Anthems",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/b/5/2298027_24917513_Ibiza-Anthems-Live-At-Chester-Cathedral.jpg",
     "data": "2026-10-24",
@@ -264389,11 +264357,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chester/Chester-Cathedral/Ibiza-Anthems-Live-At-Chester-Cathedral/42568037/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42508176",
-    "nome": "",
+    "nome": "Definitely Oasis | Binks Yard, Nottingham",
     "descrizione": "The world's number 1 Oasis tribute act is coming back again for the second time in 2026 to Binks Yard.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/5/4/2286379_bdd3b2b7_definitely-oasis-binks-yard-nottingham.jpg",
     "data": "2026-09-11",
@@ -264425,11 +264401,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/Binks-Yard/Definitely-Oasis--Binks-Yard-Nottingham/42508176/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42353151",
-    "nome": "",
+    "nome": "Clubland Live On The Pier",
     "descrizione": "Clubland takes over The Gaiety in South Parade Pier In Portsmouth!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/8/2/2249782_e4f033e1_clubland-live-on-the-pier.jpg",
     "data": "2026-09-26",
@@ -264474,18 +264458,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Gaiety-Southsea/Clubland-Live-On-The-Pier/42353151/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Gaiety-Southsea/Clubland-On-The-Pier/42366274/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42370920",
-    "nome": "",
+    "nome": "Marvin Humes Noughties Baby| Binks Yard",
     "descrizione": "This August Bank Holiday, Marvin Humes returns to Binks Yard for Noughties Baby, the ultimate 00s party!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/f/3/2254746_8c17500a_marvin-humes-noughties-baby-binks-yard.jpg",
     "data": "2026-08-30",
@@ -264525,18 +264503,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/Binks-Yard/Marvin-Humes-Noughties-Baby-Binks-Yard/42370920/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Nest/BULLET-TOOTH-B2B-LAIDLAW--Groovebox-at-The-Nest/42473877/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42604359",
-    "nome": "",
+    "nome": "The Cheap Thrills: Album Launch Show (14+ with an Adult)",
     "descrizione": "Jacaranda Records presents a live performance from The Cheap Thrills in support of their new album 'Keep Cheap'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/e/e/2307901_f8b1479a_cheap-thrills-album-launch-show.jpg",
     "data": "2026-09-18",
@@ -264574,24 +264546,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/The-Cheap-Thrills-Album-Launch-Show-14-with-an-Adult/42604359/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Red-Hot-Chilli-Peppers-LIVE-tribute-at-Camp-and-Furnace/41612696/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Artefact%2C-Liverpool/Roscoe-Street-Music-Festival-2026/42616592/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42509275",
-    "nome": "",
+    "nome": "Ibiza Anthems Live At Coventry Cathedral",
     "descrizione": "Join us this Autumn as the legendary DJ/Sax duo Laura & Santiago perform a headline gig inside the stunning Coventry Cathedral for Ibiza Anthems",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/e/8/2286641_67451680_Ibiza-Anthems-Live-At-Coventry-Cathedral.jpg",
     "data": "2026-10-03",
@@ -264632,18 +264592,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Coventry/Coventry-Cathedral/Ibiza-Anthems-Live-At-Coventry-Cathedral/42509275/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Coventry/Kasbah-Nightclub/Amnesia-House-History-of-Rave-Part-II/42313099/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42611020",
-    "nome": "",
+    "nome": "Mucky Alldayer On The Pier",
     "descrizione": "Get ready for Mucky Alldayer On The Pier, featuring Dub Pistols, Utah Saints, The Cuban Brothers, and Freestylers!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/e/b/2310080_a91b7a8d_mucky-alldayer-on-the-pier.jpg",
     "data": "2026-11-07",
@@ -264676,11 +264630,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Gaiety-Bar-South-Parade-Pier/Mucky-Alldayer-On-The-Pier/42611020/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581823",
-    "nome": "",
+    "nome": "DMA'S: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from DMA'S in support of their new self-titled album.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/4/4/2301695_7229e0bb_dma-s-album-launch-show.jpg",
     "data": "2026-08-26",
@@ -264712,11 +264674,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Middlesbrough/The-Middlesbrough-Empire/DMAS-Album-Launch-Show/42581823/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42606058",
-    "nome": "",
+    "nome": "Silver Springs UK - The Fleetwood Mac Experience",
     "descrizione": "Silver Springs UK is a seven-piece band from Scotland, bringing the timeless music of Fleetwood Mac to life.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/c/f/2308353_e75a9832_silver-springs-uk-the-fleetwood-mac-experience.jpg",
     "data": "2026-11-27",
@@ -264744,11 +264714,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Paisley/Venue-Paisley/Silver-Springs-UK---The-Fleetwood-Mac-Experience/42606058/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42419660",
-    "nome": "",
+    "nome": "Led Zeppelin and The Doors performed by The Classic Double Band",
     "descrizione": "LED ZEPPELIN & THE DOORS - The brilliant Classic Double Band are back, celebrating two of the greatest and most influential bands of our time!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/c/f/2263423_b11996c7_led-zeppelin-and-the-doors-performed-by-the-classic-double-band.jpg",
     "data": "2026-08-22",
@@ -264783,36 +264761,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Led-Zeppelin-and-The-Doors-performed-by-The-Classic-Double-Band/42419660/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Jamie-Webster-Album-Launch-Show/42569247/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/One-Direction-Vs/42536037/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Hippie-Chic-/AS-ONE---Sunset-Sessions/42409864/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Wav-Liverpool/Genesis-ILLUMINA--The-Thrillseekers-Indecent-Noise-K90-/41972619/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42420725",
-    "nome": "",
+    "nome": "Defected London",
     "descrizione": "Defected return to Drumsheds on Saturday 19th September to kick off the AW26/27 season.",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-09-19",
@@ -264847,60 +264801,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Drumsheds/Defected-London/42420725/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/HERE-At-Outernet/Clockwork-Orange---Here-at-Outernet---London/42482664/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/93-Feet-East/Deep-into-Soul/42593697/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Phonox/Voltage-Presents-Come-Rave-With-Me-ft-RC1-Soundsystem/42516857/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/No90-Hackney-Wick/Technimatic-pres-For-All-Of-Us/42489198/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Alexandra-Palace/Boris-Brejcha-Reflections-Tour-2026/42142457/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/XOYO/Edele-All-Dayer-2/42094049/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Brixton-Storeys/30Overit-London/42644452/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/FIRE-Nightclub-London/Sex-Circus---10-Years-of-Sex-Circus/42633625/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42512546",
-    "nome": "",
+    "nome": "Dizzee Rascal",
     "descrizione": "\"  We   Want   Bass  \"",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/c/f/2288085_1c2532fd_dizzee-rascal.jpg",
     "data": "2026-11-07",
@@ -264941,18 +264847,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Coventry/Kasbah/Dizzee-Rascal/42512546/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Coventry/Holiday-Inn-Coventry/Tropical-Nostalgia-Annual-Black--White-Ball-Hotel-Room-Deal/42457887/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42620768",
-    "nome": "",
+    "nome": "The Big Indie Fest",
     "descrizione": "The biggest indie tribute festival is set to take the roof off of Carlisle for a Christmas special!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/a/2313341_95662825_The-Big-Indie-Fest.jpg",
     "data": "2026-12-19",
@@ -264981,11 +264881,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/The-Big-Indie-Fest/42620768/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42622878",
-    "nome": "",
+    "nome": "Julia Jacklin: Album Launch Show (14+ with an Adult)",
     "descrizione": "Jacaranda Records presents a live solo performance from Julia Jacklin in support of her new album 'The Gem'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/2/b/2314021_59386068_Julia-Jacklin--Album-Launch-Show--14--with-an-Adult-.jpg",
     "data": "2026-11-30",
@@ -265017,11 +264925,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Julia-Jacklin-Album-Launch-Show-14-with-an-Adult/42622878/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42619482",
-    "nome": "",
+    "nome": "Snug Live Sessions w/Witness + The Jesus Bolt",
     "descrizione": "Witness perform Before The Calm in full to celebrate its first-ever vinyl release, joined by The Jesus Bolt at The Snug, Atherton.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/b/3/2312904_5983dff1_snug-live-sessions-w-witness-the-jesus-bolt.jpg",
     "data": "2026-11-14",
@@ -265057,18 +264973,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/The-Snug-Coffee-House/Snug-Live-Sessions-wWitness--The-Jesus-Bolt/42619482/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP--Teletech-presents-Klangkuenstler/42541875/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42600289",
-    "nome": "",
+    "nome": "Offal Fest 2027",
     "descrizione": "Offal Fest returns July 23 - 25 for more absolute chaos at our new home; Boundary!",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2027-07-23",
@@ -265098,11 +265008,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Boundary/Offal-Fest-2027/42600289/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42263794",
-    "nome": "",
+    "nome": "Ultimate Coldplay Live At Camp and Furnace",
     "descrizione": "Ultimate Coldplay return to Campand Furnace: experience Coldplay's greatest hits live with stunning vocals, epic anthems, and unforgettable energy",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/3/d/2230552_d20503ad_ultimate-coldplay-live-at-camp-and-furnace.jpg",
     "data": "2026-08-29",
@@ -265134,11 +265052,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Ultimate-Coldplay-Live-At-Camp-and-Furnace/42263794/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604372",
-    "nome": "",
+    "nome": "The Cheap Thrills: Album Launch Show (14+ with an Adult)",
     "descrizione": "Jacaranda Records presents a live performance from The Cheap Thrills in support of their new album 'Keep Cheap'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/6/6/2307913_86424666_The-Cheap-Thrills--Album-Launch-Show--14--with-an-Adult-.jpg",
     "data": "2026-09-19",
@@ -265176,54 +265102,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/The-Cheap-Thrills-Album-Launch-Show-14-with-an-Adult/42604372/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Bruce-Springsteen-performed-LIVE-in-Liverpool/41613442/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Brick-Street-/For-The-Record-X-24KS-Present-Crazy-P-Day-Party/42607246/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Wav-Garden/909-x-LTS-presents-Groove-Garden-w-Dj-Rush-Blasha--Allatt/42417446/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Bruce-Springsteen-performed-LIVE-by-Forever-Springsteen/41613442/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/PorkPie-Live-at-Arts-Club-Liverpool/41999271/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Corella-Album-Launch-Show-14-with-an-Adult/42494550/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Club-Anthems---Daytime-Special/42434754/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42604558",
-    "nome": "",
+    "nome": "N.A EVENTS Presents: Jamie Fielding",
     "descrizione": "N.A EVENTS is bringing Jamie Fielding to the iconic Concorde 2, Brighton, for a huge night of house music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/7/2308016_93c76036_n-a-events-x-sce-presents-jamie-fielding.jpg",
     "data": "2026-08-22",
@@ -265261,24 +265145,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Brighton/Concorde-2/NA-EVENTS-Presents--Jamie-Fielding/42604558/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Concorde-2/NA-EVENTS-Presents-Jamie-Fielding/42604558/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/The-Volks-Nightclub/epidemik-Brighton-Takeover---Sat-22nd-August--VOLKS-Brighton/42474846/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41661132",
-    "nome": "",
+    "nome": "The Tumbling Paddies",
     "descrizione": "Irelands hottest band, The Tumbling Paddies are coming back to the UK. Songs include The Way I am, Pretty Girl and Closing Time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/3/4/2166090_92274486_The-Tumbling-Paddies.jpg",
     "data": "2026-11-13",
@@ -265311,11 +265183,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/The-Foundry-Sheffield-University-Students%27-Union/The-Tumbling-Paddies/41661132/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42404251",
-    "nome": "",
+    "nome": "Chicane LIVE | Manchester",
     "descrizione": "Chicane heads to the Albert Hall on Saturday 28th November for a full live band performance!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/e/6/2259006_a227e3b0_chicane-live-manchester.jpg",
     "data": "2026-11-28",
@@ -265351,11 +265231,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Albert-Hall/Chicane-LIVE--Manchester/42404251/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604133",
-    "nome": "",
+    "nome": "Bloc Party: Matinee Album Launch Show (14+ with an Adult)",
     "descrizione": "Jacaranda Records presents a live performance from Bloc Party in support of their new album 'Anatomy Of A Brief Romance'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/3/2307786_e6489541_bloc-party-album-launch-show.jpg",
     "data": "2026-09-11",
@@ -265394,42 +265282,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Bloc-Party-Matinee-Album-Launch-Show-14-with-an-Adult/42604133/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Pulp-and-Blur-performed-LIVE-in-Liverpool/42456398/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Black-Sabbath---Performed-LIVE-by-Blax-Abbath/41612688/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Jacaranda-Club/Freight---Liverpool/42618729/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Amos-Trust-Presents-Sumud/42613484/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Bloc-Party-Album-Launch-Show-14-with-an-Adult/42604136/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42415029",
-    "nome": "",
+    "nome": "Pink Floyd by Candlelight - Glasgow",
     "descrizione": "Experience the music of Pink Floyd in a live, candlelit setting at Òran Mór. A seated concert designed for a more immersive listening experience.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/a/7/2261845_baa2be86_pink-floyd-by-candlelight-glasgow.jpg",
     "data": "2026-10-08",
@@ -265466,18 +265324,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Oran-Mor/Pink-Floyd-by-Candlelight---Glasgow/42415029/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3-Warehouse/ArrDee/42613479/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42608896",
-    "nome": "",
+    "nome": "Shed Seven: 'A Maximum High' Live (Early Show)",
     "descrizione": "Jacaranda Records presents a live performance from Shed Seven in support of their new self-titled album.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/7/9/2309425_52320387_Shed-Seven--Album-Launch-Show.jpg",
     "data": "2026-10-17",
@@ -265514,42 +265366,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Scala/Shed-Seven-A-Maximum-High-Live-Early-Show/42608896/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Paddle-Steamer-Dixie-Queen/Lounge-Parties/42429703/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Studio-338---London/Liberation-pres-PVD-LDN-Paul-Van-Dyk/42410188/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/HERE-At-Outernet/Chris-Avantgarde-HERE--Outernet-London/42618851/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/ELECTROWERKZ/35-Years-of-DJ-Vibes/42614145/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Cause-London/Indira-Paganotto---Curates--The-Cause-London/42569147/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42473061",
-    "nome": "",
+    "nome": "Joy Division and New Order Performed Live By Shadowplay",
     "descrizione": "CEREMONY celebrates the music of Joy Division & New Order live at Camp and Furnace, performed by acclaimed tribute band Shadowplay.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/7/b/2276335_f243c200_joy-division-and-new-order-performed-live-by-shadowplay.jpg",
     "data": "2026-09-04",
@@ -265586,18 +265408,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Joy-Division-and-New-Order-Performed-Live-By-Shadowplay/42473061/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Boyce-Avenue/42361687/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42596016",
-    "nome": "",
+    "nome": "Quireboys",
     "descrizione": "Rock legends Quireboys bring their electrifying live show to EngineRooms Southampton on Saturday 17th October, 6pm-10pm!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/0/4/2305145_7a43f95f_the-quireboys.jpg",
     "data": "2026-10-17",
@@ -265627,11 +265443,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/Quireboys/42596016/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42469371",
-    "nome": "",
+    "nome": "Ian Prowse & Amsterdam",
     "descrizione": "Ellesmere Port native Ian Prowse returns home for his first headline show in 14 years, celebrating his new album No Names at the brand new Flea Market",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/a/e/2274641_e29fefa4_ian-prowse-amsterdam.jpg",
     "data": "2026-09-12",
@@ -265664,11 +265488,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chester/Ellesmere-Port-Flea-Market/Ian-Prowse--Amsterdam/42469371/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42307191",
-    "nome": "",
+    "nome": "Pink Floyd by Candlelight,  Live at The Albany Greenock",
     "descrizione": "Experience the music of Pink Floyd performed live by candlelight at The Albany Greenock on Saturday 10 October 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/8/0/2238756_ed3dc6df_pink-floyd-by-candlelight-live-at-the-albany-greenock.jpg",
     "data": "2026-10-10",
@@ -265697,11 +265529,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Greenock/The-Albany/Pink-Floyd-by-Candlelight--Live-at-The-Albany-Greenock/42307191/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42427489",
-    "nome": "",
+    "nome": "The Feeling - Twenty Years and Home Pt. 2",
     "descrizione": "Twenty Years and Home Pt. 2 will see the band performing 'Twelve Stops & Home' in full, plus all their chart-topping hits",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/0/e/2264916_57025668_The-Feeling---Twenty-Years-and-Home-Pt--2.jpg",
     "data": "2026-11-15",
@@ -265734,11 +265574,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Torquay/Arena-Torquay/The-Feeling---Twenty-Years-and-Home-Pt-2/42427489/?sktag=15777&skcampaign=sito",
+        "prezzo": ".",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42124708",
-    "nome": "",
+    "nome": "Tom Meighan",
     "descrizione": "The original voice of Kasabian Tom Meighan returns to EngineRooms for an intimate show.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/9/2210597_b8e855c4_tom-meighan.jpg",
     "data": "2027-03-06",
@@ -265768,11 +265616,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/Tom-Meighan/42124708/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42618419",
-    "nome": "",
+    "nome": "DJ Vance - The Montford",
     "descrizione": "Relive your youth - Glasgow Clubs Revival (Archaos | Silver | Victorias)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/2/d/2312538_828585a6_dj-vance-the-montford.jpg",
     "data": "2026-10-03",
@@ -265811,24 +265667,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/The-Montford/DJ-Vance---The-Montford/42618419/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Barras-Art-And-Design-%28BAaD%29/October-Jam-Pot--the-Barras/42581706/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/The-Garage-Glasgow/Beatles-Complete---Glasgow/42581564/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42154209",
-    "nome": "",
+    "nome": "The Hoosiers Compassion Tour - Southampton",
     "descrizione": "The Hoosiers head to EngineRooms Southampton this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/e/e/2217085_22d4dabc_the-hoosiers-compassion-tour-southampton.jpg",
     "data": "2026-10-18",
@@ -265858,11 +265702,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/The-Hoosiers-Compassion-Tour---Southampton/42154209/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42486651",
-    "nome": "",
+    "nome": "THE FEELING: Celebrating 20 Years of 'Twelve Stops and Home'",
     "descrizione": "Now, twenty years on from the release of their multi-million selling debut album 'Twelve Stops and Home', the group celebrate their wonderful journey.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/d/c/2280537_0e8b96e9_the-feeling-celebrating-20-years-of-twelve-stops-and-home-.jpg",
     "data": "2026-11-25",
@@ -265895,11 +265747,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/THE-FEELING-Celebrating-20-Years-of-Twelve-Stops-and-Home/42486651/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42091155",
-    "nome": "",
+    "nome": "The Complete Stone Roses & Definitely Oasis - Newcastle",
     "descrizione": "The complete Stone Roses and Definitely Oasis return to Newcastle University Student Union for a night of Indie classiscs. Support from DJ SoulDfect!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/2/5/2207297_6d3e27d7_the-complete-stone-roses-definitely-oasis-newcastle.jpg",
     "data": "2026-11-27",
@@ -265931,11 +265791,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Newcastle-University-Students-Union/The-Complete-Stone-Roses--Definitely-Oasis---Newcastle/42091155/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42539876",
-    "nome": "",
+    "nome": "BEN OTTEWELL (Gomez) | Carlton Club Whalley Range | Thu 3rd Sept",
     "descrizione": "Ben Ottewell, main vocalist of Mercury Music Prize  winning band Gomez plays an intimate seated show at The Carlton Club in Whalley Range, Manchester!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/9/b/2294323_5f030afd_ben-ottewell-gomez-carlton-club-whalley-range-thu-3rd-sept.jpg",
     "data": "2026-09-03",
@@ -265970,11 +265838,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/BEN-OTTEWELL-Gomez--Carlton-Club-Whalley-Range--Thu-3rd-Sept/42539876/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42274618",
-    "nome": "",
+    "nome": "From the Jam",
     "descrizione": "From The Jam brings the legendary energy of The Jam to OFS. All the hits, the anthems, and the mod spirit live.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/e/5/2232666_514beb30_from-the-jam.jpg",
     "data": "2026-09-25",
@@ -266005,11 +265881,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/From-the-Jam/42274618/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42573159",
-    "nome": "",
+    "nome": "Marshall Jefferson at The Terrace",
     "descrizione": "The 'Godfather of House Music', Marshall Jefferson, is coming to The Terrace Dewsbury!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/d/2299672_a257fda9_marshall-jefferson-at-the-terrace.jpg",
     "data": "2026-09-18",
@@ -266039,11 +265923,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wakefield/The-Terrace%2C-Dewsbury/Marshall-Jefferson-at-The-Terrace/42573159/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42610254",
-    "nome": "",
+    "nome": "Susy Good Album Launch",
     "descrizione": "Susy Good performs her debut album 'Lost In Your Glory' with support from Evie Macdonald",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/9/0/2309751_9c1c3646_susy-good-album-launch.jpg",
     "data": "2026-11-02",
@@ -266074,11 +265966,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Belfast/The-Black-Box-Belfast/Susy-Good-Album-Launch/42610254/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42587276",
-    "nome": "",
+    "nome": "This City is Ours:  Join us celebrating making 'our city' safer",
     "descrizione": "Celebrating a year of efforts to make Liverpool City Centre one of the safest cities in the UK",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/5/4/2302982_8e3307a8_this-city-is-ours-join-us-celebrating-making-our-city-safer.jpg",
     "data": "2026-09-02",
@@ -266110,11 +266010,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Boxpark-Liverpool/This-City-is-Ours--Join-us-celebrating-making-our-city-safer/42587276/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42610290",
-    "nome": "",
+    "nome": "Jason Isaacs & His 8 Piece Band - Christmas at Prohibition",
     "descrizione": "Step into Christmas at Prohibition with Jason Isaacs & his live 8-piece band. Swing, Rat Pack, Elvis, Blues Brothers, festive favourites and more.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/5/c/2309777_c7b350b2_jason-isaacs-his-8-piece-band-christmas-at-prohibition.jpg",
     "data": "2026-12-06",
@@ -266146,11 +266054,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Middlesbrough/Prohibition-Middlesbrough/Jason-Isaacs--His-8-Piece-Band---Christmas-at-Prohibition/42610290/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42612509",
-    "nome": "",
+    "nome": "Phil Hartnoll (Orbital) LIVE in Whitstable",
     "descrizione": "Phil Hartnoll is one half of the legendary electronic duo Orbital, pioneers whose groundbreaking sound helped define the UK's rave movement.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/8/9/2310438_b50bd3e1_phil-hartnoll-orbital-live-in-whitstable.jpg",
     "data": "2026-10-30",
@@ -266185,11 +266101,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Canterbury/The-Whitstable-Soundhouse/Phil-Hartnoll-Orbital-LIVE-in-Whitstable/42612509/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41668232",
-    "nome": "",
+    "nome": "Gutalax - Manchester",
     "descrizione": "Gutalax, Basement Torture Killings, Coprocephalic Mutation & Lymphoedema at Rebellion",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/8/c/2168408_6f688590_gutalax-manchester.jpg",
     "data": "2026-09-19",
@@ -266227,18 +266151,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Rebellion/Gutalax---Manchester/41668232/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-presents-Rampa--Me/42567480/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41991578",
-    "nome": "",
+    "nome": "Ibiza In Symphony",
     "descrizione": "An electrifying live show that brings the biggest Ibiza anthems to life with a 10 piece orchestra and world class singers.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/6/2197238_65547898_Ibiza-In-Symphony.jpg",
     "data": "2026-11-20",
@@ -266270,11 +266188,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Ibiza-In-Symphony/41991578/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42437573",
-    "nome": "",
+    "nome": "Nerdvember 2",
     "descrizione": "The largest gathering of Nerdcore artists and fans in Europe, back for the second year and bigger than ever!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/8/c/2268382_24667900_nerdvember-2.jpg",
     "data": "2026-11-21",
@@ -266318,18 +266244,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Rich-Mix/Nerdvember-2/42437573/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Fabric-London/Peach--Strawberry-Sundae-fabric/42489739/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42375851",
-    "nome": "",
+    "nome": "Now I'm Here | A Queen Tribute | Binks Yard, Nottingham",
     "descrizione": "This September, join us at Binks Yard as acclaimed Queen tribute Now I’m Here deliver iconic hits and epic singalongs in an electrifying night!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/5/5/2256192_b9fe7eaf_queen-tribute-now-i-m-here-binks-yard.jpg",
     "data": "2026-09-04",
@@ -266359,11 +266279,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/Binks-Yard/Now-Im-Here--A-Queen-Tribute--Binks-Yard-Nottingham/42375851/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42259699",
-    "nome": "",
+    "nome": "Emo Fest",
     "descrizione": "TEENAGE NOSTALGIA featuring all your biggest emo songs in existence with A LIVE BAND & LIVE DJs.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/1/2228328_90743159_Emo-Fest.jpg",
     "data": "2026-09-26",
@@ -266394,11 +266322,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Emo-Fest/42259699/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999685",
-    "nome": "",
+    "nome": "PorkPie Live plus Pretty Green (The Jam) Christmas Special",
     "descrizione": "PorkPie Live plus Pretty Green (The Jam) Christmas Special at The Queen's Hall, Edinburgh on Friday 11th December 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/f/6/2199610_ee3545c1_porkpie-live-plus-pretty-green-the-jam-christmas-special.jpg",
     "data": "2026-12-11",
@@ -266433,11 +266369,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/The-Queen%27s-Hall/PorkPie-Live-plus-Pretty-Green-The-Jam-Christmas-Special/41999685/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42534130",
-    "nome": "",
+    "nome": "Afterglow 2: w/ Eddie Craig (Kiss FM), Doctor Feelgood, Ridney",
     "descrizione": "Afterglow 2: Day Fest w/ Eddie Craig, Doctor Feelgood, Ridney",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/1/e/2293866_79431064_Afterglow-2--Day-Fest-w--Eddie-Craig--Doctor-Feelgood--Ridney.jpg",
     "data": "2026-08-29",
@@ -266472,11 +266416,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/The-Mailmans/Afterglow-2-w-Eddie-Craig-Kiss-FM-Doctor-Feelgood-Ridney/42534130/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42459017",
-    "nome": "",
+    "nome": "Way Dynamic *SOLD OUT*",
     "descrizione": "Way Dynamic, the solo project of Melbourne's Dylan Young, makes minimalist folk-pop, art rock and baroque pop.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/6/0/2272091_d89da7a0_way-dynamic.jpg",
     "data": "2026-08-24",
@@ -266506,11 +266458,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Way-Dynamic/42459017/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41472335",
-    "nome": "",
+    "nome": "Becky Hill",
     "descrizione": "Cuffe & Taylor presents Becky Hill at Colchester Castle Park on 22nd August 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/d/4/2135319_436b0fdb_becky-hill.jpg",
     "data": "2026-08-22",
@@ -266542,11 +266502,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Colchester/Colchester-Castle/Becky-Hill/41472335/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42302147",
-    "nome": "",
+    "nome": "High Fade - Twice As Nice Tour - Clwb Ifor Bach, Cardiff",
     "descrizione": "Funk/Rock trio High Fade has grown from Scotland's most excited busking band into a household name across the world after bursting onto the scene.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/0/9/2237939_12215646_High-Fade---Twice-As-Nice-Tour---Clwb-Ifor-Bach--Cardiff.jpg",
     "data": "2026-11-04",
@@ -266579,11 +266547,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/Clwb-Ifor-Bach/High-Fade---Twice-As-Nice-Tour---Clwb-Ifor-Bach-Cardiff/42302147/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42488878",
-    "nome": "",
+    "nome": "EXTC 'This is Pop'",
     "descrizione": "XTC's legendary drummer, Terry Chambers, is back on the road with his band EXTC (named and approved by XTC frontman, Andy Partridge).",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/7/b/2281376_43c11363_extc-this-is-pop-.jpg",
     "data": "2027-05-22",
@@ -266614,11 +266590,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/229---London/EXTC-This-is-Pop/42488878/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42286692",
-    "nome": "",
+    "nome": "The Orb (Live) VS Banco de Gaia",
     "descrizione": "Two legendary forces of electronic psychedelia return to the stage together for a\nlimited run of immersive audiovisual events!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/e/2234842_b6616777_the-orb-live-vs-system-7-live-.jpg",
     "data": "2026-10-02",
@@ -266656,18 +266640,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/The-Orb-Live-VS-System-7-Live/42286692/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/Encrypted-Presents-4th-Birthday-Showcase-W-Mason-Collective/42593840/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42612158",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Sheffield!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/e/a/2310386_99137899_The-Gorillaz-Experience-in-Sheffield-.jpg",
     "data": "2026-12-19",
@@ -266699,11 +266677,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/Network-Sheffield-14-16-Matilda-Street-S14qd/The-Gorillaz-Experience-in-Sheffield/42612158/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41782581",
-    "nome": "",
+    "nome": "Definitely Oasis & The Complete Stone Roses",
     "descrizione": "Definitely Oasis & The Complete Stone Roses return to O2 Academy Glasgow this December for their annual show - and it's set to be bigger than ever.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/5/e/2174083_5aece887_definitely-oasis-the-complete-stone-roses.jpg",
     "data": "2026-12-19",
@@ -266743,24 +266729,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/O2-Academy/Definitely-Oasis--The-Complete-Stone-Roses/41782581/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Drygate/Plug-In-Maybe-Muse-Tribute---Live-at-Drygate-Glasgow/42307103/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Jazzy---Peace--Patience-Tour/42530285/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42569191",
-    "nome": "",
+    "nome": "Beans on Toast",
     "descrizione": "An unforgettable evening of songs, stories and celebration from one of Britain's most loved folk troubadours.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/9/b/2298420_a358a805_beans-on-toast.jpg",
     "data": "2026-11-25",
@@ -266791,11 +266765,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Preston/The-Continental/Beans-on-Toast/42569191/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41988260",
-    "nome": "",
+    "nome": "Torridon",
     "descrizione": "HIghland folk-rockers Torridon return to Aberdeen for their biggest headline show in the city so far.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/c/3/2196433_e23cc917_torridon.jpg",
     "data": "2026-10-31",
@@ -266833,18 +266815,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Aberdeen/The-Lemon-Tree/Torridon/41988260/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Aberdeen/The-Priory/RARE-Club--RAREOWEEN-w-Vuncle--Friends/42614576/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42573092",
-    "nome": "",
+    "nome": "GRANDMASTER FLASH- The Bread Shed, Manchester",
     "descrizione": "Tapestry Promotions present GRANDMASTER FLASH- THE FOUR ELEMENTS TOUR. Support TBC",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/3/0/2299619_cab370bd_grandmaster-flash-the-bread-shed-manchester.jpg",
     "data": "2026-10-23",
@@ -266883,24 +266859,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/The-Bread-Shed/GRANDMASTER-FLASH--The-Bread-Shed-Manchester/42573092/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Aatma/Earth-Tongue-NZ--TBAYN-Live-at-Aatma/42604120/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Manchester-Academy/Antony-Szmierek/42368833/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41802619",
-    "nome": "",
+    "nome": "Definitely Oasis - Edinburgh 2026",
     "descrizione": "Definitely Oasis return to Edinburgh in 2025 for their annual November sell out show show",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/0/7/2177873_6a11e96b_definitely-oasis-edinburgh-2026.jpg",
     "data": "2026-11-28",
@@ -266932,11 +266896,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/The-Liquid-Room/Definitely-Oasis---Edinburgh-2026/41802619/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42129642",
-    "nome": "",
+    "nome": "Chasing Mumford",
     "descrizione": "Chasing Mumford are an awesome 5-piece fully live band of multi instrumentalists with 4 part vocal harmonies and the image to match.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/6/2211791_a5255486_chasing-mumford.jpg",
     "data": "2026-09-19",
@@ -266967,11 +266939,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Chasing-Mumford/42129642/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41936084",
-    "nome": "",
+    "nome": "The Black Charade x Fell Out Boy | Belfast Empire",
     "descrizione": "The Black Charade & Fell Out Boy return to Belfast Empire Sept 11th, this event always sells out, book now to avoid missing out!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/c/b/2185009_81456652_The-Black-Charade-x-Fell-Out-Boy---Belfast-Empire.jpg",
     "data": "2026-09-11",
@@ -267002,11 +266982,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Belfast/The-Belfast-Empire-Music-Hall/The-Black-Charade-x-Fell-Out-Boy--Belfast-Empire/41936084/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42514311",
-    "nome": "",
+    "nome": "Fell Out Boy & Black Charade | Binks Yard",
     "descrizione": "They're back! After an incredible first visit earlier this year, Fell Out Boy returns to Binks Yard for another massive show.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/b/0/2289036_acb648c2_fell-out-boy-black-charade-tribute-binks-yard.jpg",
     "data": "2026-09-27",
@@ -267038,11 +267026,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/Binks-Yard/Fell-Out-Boy--Black-Charade--Binks-Yard/42514311/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41625684",
-    "nome": "",
+    "nome": "Antarctic Monkeys",
     "descrizione": "The UK's No.1 tribute to the Arctic Monkeys.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/3/f/2156725_23d62b00_antarctic-monkeys.jpg",
     "data": "2026-10-24",
@@ -267073,11 +267069,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Antarctic-Monkeys/41625684/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41665911",
-    "nome": "",
+    "nome": "Live Wire The AC/DC Show",
     "descrizione": "AC/DC are brought to life by Live/Wire with the true passion you would expect from musicians who share your love of this legendary live act.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/4/1/2167801_47352912_Live-Wire-The-AC-DC-Show.jpg",
     "data": "2026-11-28",
@@ -267107,11 +267111,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Live-Wire-The-ACDC-Show/41665911/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42469908",
-    "nome": "",
+    "nome": "Golden Years: Celebrating 50 Years of Punk (Live)",
     "descrizione": "Golden Years presents a celebration of punk, with Vaselines performing music from The Clash, Sex Pistols, Buzzcocks, The Stranglers & more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/6/e/2275057_926fad95_golden-years-celebrating-50-years-of-punk-live-.jpg",
     "data": "2026-08-29",
@@ -267147,18 +267159,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Golden-Years-Celebrating-50-Years-of-Punk-Live/42469908/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO-Rooftop/Summer-Garage-Rooftop-Rave---Saturday-29th-August---Birmingham/42497955/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42364133",
-    "nome": "",
+    "nome": "Keeno LIVE ft. Vibre Strings",
     "descrizione": "𝗞𝗲𝗲𝗻𝗼 & 𝗩𝗶𝗯𝗿𝗲 𝗦𝘁𝗿𝗶𝗻𝗴𝘀 present a 100% LIVE Drum & Bass event featuring live piano + live string quartet!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/e/e/2252019_635ebb6d_keeno-vibre-strings.jpg",
     "data": "2026-11-28",
@@ -267195,24 +267201,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Village-Underground/Keeno-LIVE-ft-Vibre-Strings/42364133/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/93-Feet-East/Twisted-Filth/42573544/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Queen-Of-Hoxton/Club-Sweetness---The-Winter-Warmer/42332670/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42263209",
-    "nome": "",
+    "nome": "Across The Universe",
     "descrizione": "The Beatles' 'Studio years' with live band and orchestra.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/7/c/2230305_d996c15f_across-the-universe.jpg",
     "data": "2026-09-05",
@@ -267242,11 +267236,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dundee/Gardyne-Theatre/Across-The-Universe/42263209/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42460073",
-    "nome": "",
+    "nome": "Modestep Live",
     "descrizione": "Modestep returns to London for their biggest Europe tour ever!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/a/b/2272547_2980f900_modestep-live.jpg",
     "data": "2026-12-04",
@@ -267287,18 +267289,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/Modestep-Live/42460073/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/KOKO/The-Bracknall----London/41638665/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42607260",
-    "nome": "",
+    "nome": "Carpe Noctum: The Sisters of Murphy",
     "descrizione": "The galaxy's finest Sisters of Mercy tribute return with an epic set, plus club night to follow.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/f/2309022_a7984bde_carpe-noctum-the-sisters-of-murphy.jpg",
     "data": "2026-10-03",
@@ -267336,36 +267332,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Lending-Room--The-Library/Carpe-Noctum-The-Sisters-of-Murphy/42607260/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-Irish-Centre/Frankly-The-Smiths-Joy-Diversion-LEEDS-post-punkindie-disco/42604175/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Xl/Mint-XL-presents-DJ-EZ/42616600/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/The-Warehouse/Teletech-Leeds-Warehouse-Leeds/42476107/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Under-The-Arches/NOTHING-STAYS-THE-SAME-Mella-Dee--Shanti-Celeste/42570614/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42277838",
-    "nome": "",
+    "nome": "Definitely Oasis - Lancaster",
     "descrizione": "Definitely Oasis bring their explosive live show to Lancaster on Saturday 29th August for a huge night of Britpop and indie anthems.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/5/a/2233780_82b4ee8d_definitely-oasis-lancaster.jpg",
     "data": "2026-08-29",
@@ -267399,11 +267371,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Lancaster/Kanteena/Definitely-Oasis---Lancaster/42277838/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42535933",
-    "nome": "",
+    "nome": "Adam F [LIVE] - Circles Revisited Tour",
     "descrizione": "Adam F presents Circles Revisited - an 8-piece band bringing his legendary jungle and drum & bass sound to the stage.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/c/5/2294134_ae7fdbcc_adam-f-live-circles-revisited-tour.jpg",
     "data": "2026-11-28",
@@ -267444,18 +267424,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Adam-F-LIVE---Circles-Revisited-Tour/42535933/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/DNB-Collective-X-CruCast-A-Decade-In-Motion/42457923/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42429790",
-    "nome": "",
+    "nome": "Skinny Lister 10th Anniversary tour",
     "descrizione": "British folk/punk band SKINNY LISTER fuse folk/punk energy with shanties and singalongs, earning them a reputation for raucous, good-time shows.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/7/0/2265830_7d46a7e7_skinny-lister-10th-anniversary-tour.jpg",
     "data": "2026-11-01",
@@ -267487,11 +267461,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Peterborough/The-Met-Lounge/Skinny-Lister-10th-Anniversary-tour/42429790/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42260813",
-    "nome": "",
+    "nome": "Erasured",
     "descrizione": "The ultimate tribute to the ultimate 80s synth duo, Erasure.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/b/8/2228798_78250344_Erasured.jpg",
     "data": "2027-02-27",
@@ -267524,11 +267506,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Erasured/42260813/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41980885",
-    "nome": "",
+    "nome": "THIS IS FLOYD - A Tribute to PINK FLOYD Saturday 29/08/26",
     "descrizione": "With 5 Star reviews, thousands of fans across the UK and a new theatre show for 2026, This Is Floyd celebrates the best of Pink Floyd's music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/f/4/2194801_c7a76fd2_this-is-pink-floyd-saturday-29-08-26.jpg",
     "data": "2026-08-29",
@@ -267558,11 +267548,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Coventry/The-Assembly-Leamington/THIS-IS-FLOYD---A-Tribute-to-PINK-FLOYD-Saturday-290826/41980885/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42427477",
-    "nome": "",
+    "nome": "The Feeling - Twenty Years and Home Pt. 2",
     "descrizione": "Twenty Years and Home Pt. 2 will see the band performing 'Twelve Stops & Home' in full, plus all their chart-topping hits",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/c/e/2264908_c1bc21ef_the-feeling-twenty-years-and-home-pt-2.jpg",
     "data": "2026-11-12",
@@ -267595,11 +267593,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Margate/The-Drill-Shed/The-Feeling---Twenty-Years-and-Home-Pt-2/42427477/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42477544",
-    "nome": "",
+    "nome": "Skids & Theatre Of Hate",
     "descrizione": "Skids return to EngineRooms this October with Theatre Of Hate",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-10-20",
@@ -267630,11 +267636,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/Skids--Theatre-Of-Hate/42477544/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614046",
-    "nome": "",
+    "nome": "Headwired @ Electric Daisy Derby",
     "descrizione": "Fast-rising Black Country four-piece Headwired bring anthemic hooks & huge choruses to Derby. Headline show! Electric Daisy, Sat 12 Sept, 6pm.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/a/8/2311052_742f5064_headwired-electric-daisy-derby.jpg",
     "data": "2026-09-12",
@@ -267675,18 +267689,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Derby/Electric-Daisy/Headwired--Electric-Daisy-Derby/42614046/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Derby/The-Bluenote/Motion---Factor-B-The-Thrillseekers-Maria-Healy-Dark-Fusion/42373252/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41599140",
-    "nome": "",
+    "nome": "Bastille",
     "descrizione": "Cuffe & Taylor presents Bastille at Colchester Castle Summer Series on 23rd August 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/f/2150911_37e75d93_bastille.jpg",
     "data": "2026-08-23",
@@ -267717,11 +267725,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Colchester/Colchester-Castle/Bastille/41599140/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42569250",
-    "nome": "",
+    "nome": "Jamie Webster: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from Jamie Webster in support of his new album 'Running Round The Sun'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/5/a/2298467_ede5db53_jamie-webster-album-launch-show.jpg",
     "data": "2026-08-23",
@@ -267752,11 +267768,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Jamie-Webster-Album-Launch-Show/42569250/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42610443",
-    "nome": "",
+    "nome": "The Brighton Ska Train August Bank Holiday Weekender 2026!",
     "descrizione": "3 nights of scorching ska, 60's reggae, bluebeat, rocksteady & 2Tone revival sounds. With top ranking parties all weekend long at the Volks.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/1/4/2309875_c7235a46_the-brighton-ska-train-weekender-2026.jpg",
     "data": "2026-08-28",
@@ -267788,11 +267812,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Brighton/The-Volks-Nightclub/The-Brighton-Ska-Train-August-Bank-Holiday-Weekender-2026/42610443/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42078632",
-    "nome": "",
+    "nome": "A Foreigners Journey",
     "descrizione": "The next best thing to Foreigner and Journey is here in the shape of this award-winning band!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/9/c/2202932_6bd809a5_a-foreigners-journey.jpg",
     "data": "2026-10-03",
@@ -267824,11 +267856,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/A-Foreigners-Journey/42078632/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999279",
-    "nome": "",
+    "nome": "PorkPie Live plus Pretty Green (The Jam) at St Luke's, Glasgow",
     "descrizione": "PorkPie Live plus Pretty Green (The Jam) at St Luke's, Glasgow on Saturday 26th September 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/f/5/2199499_12a5ac4e_porkpie-live-plus-pretty-green-the-jam-at-st-luke-s-glasgow.jpg",
     "data": "2026-09-26",
@@ -267863,11 +267903,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Saint-Lukes-And-The-Winged-Ox/PorkPie-Live-plus-Pretty-Green-The-Jam-at-St-Lukes-Glasgow/41999279/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42427889",
-    "nome": "",
+    "nome": "Leap + Glazed Curtains",
     "descrizione": "Rock band from London",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/7/e/2265141_70cb23e3_leap.jpg",
     "data": "2026-11-30",
@@ -267903,24 +267951,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Leap--Glazed-Curtains/42427889/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Mama-Roux%27s-Birmingham/Andrew-Cushin/42469595/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Leap/42658891/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42081987",
-    "nome": "",
+    "nome": "The Wedding Present Seamonsters Tour 2026",
     "descrizione": "We welcome The Wedding Present to Rockin Chair Wrexham with their Seamonsters Tour 2026\n\nJoin us for a big night in North Wales",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/7/5/2204471_ae88d51e_the-wedding-present-seamonsters-tour-3026.jpg",
     "data": "2026-10-17",
@@ -267952,11 +267988,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wrexham/The-Rockin-Chair/The-Wedding-Present-Seamonsters-Tour-2026/42081987/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42509191",
-    "nome": "",
+    "nome": "The Eminem Experience",
     "descrizione": "An explosive live tribute to one of hip-hop’s most iconic artists!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/7/8/2286603_6f58b61c_the-eminem-experience.jpg",
     "data": "2027-02-12",
@@ -267984,11 +268028,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/The-Eminem-Experience/42509191/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42005440",
-    "nome": "",
+    "nome": "Ultimate RnB  /Marrs Bar, Worcester",
     "descrizione": "This isn't some karaoke night - three killer vocalists, a ridiculously tight band, and every RnB anthem you ever danced or fell in love to.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/6/5/2200686_bd7a0001_ultimate-rnb-marrs-bar-worcester.jpg",
     "data": "2026-09-04",
@@ -268022,11 +268074,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Worcester/Marrs-Bar/Ultimate-RnB--Marrs-Bar-Worcester/42005440/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42619523",
-    "nome": "",
+    "nome": "The Avelons - Darlington",
     "descrizione": "The Avelons return to the live scene with a 3 gig run across our beloved North East.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/f/3/2312933_a6de0334_the-avelons-darlington.jpg",
     "data": "2026-09-04",
@@ -268056,11 +268116,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Darlington/Angels-Cut-Bar/The-Avelons---Darlington/42619523/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42097583",
-    "nome": "",
+    "nome": "Irvine Welsh & others DJ Set",
     "descrizione": "DJ Set by Irvine and other local DJs, raising funds for the beautiful Leith Theatre!",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-10-10",
@@ -268100,18 +268168,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Edinburgh/Leith-Theatre/Irvine-Welsh--others-DJ-Set/42097583/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Edinburgh/Liquid-Rooms/Khaotic-Presents-DUAL-DAMAGE-5VRGN--more/42607140/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42313416",
-    "nome": "",
+    "nome": "Faster Pussycat 40th Anniversary Tour",
     "descrizione": "80s Sunset Strip Glam Rockers and metal heads Faster Pussycat are embarking on a special 40th Anniversary show at a handfull of intimate venues.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/1/c/2240277_62e5d391_faster-pussycat-40th-anniversary-tour.jpg",
     "data": "2026-09-04",
@@ -268143,11 +268205,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Faster-Pussycat-40th-Anniversary-Tour/42313416/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42587442",
-    "nome": "",
+    "nome": "Forever Young - Boxing Day Party",
     "descrizione": "Relive your youth - Glasgow Clubs Revival (Archaos | Silver | Victorias)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/a/5/2303099_d19eb2f4_forever-young-boxing-day-party.jpg",
     "data": "2026-12-26",
@@ -268179,11 +268249,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Drygate/Forever-Young---Boxing-Day-Party/42587442/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42601881",
-    "nome": "",
+    "nome": "4AM KRU & Aries",
     "descrizione": "Live jungle duo 4AM KRU make their Frome debut alongside special guest Aries, Anna Prank and JAYCEE B2B TJB",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/c/1/2307001_f264c0f0_4am-kru-aries.jpg",
     "data": "2026-10-17",
@@ -268215,11 +268293,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bath/Cheese--And--Grain--Frome/4AM-KRU--Aries/42601881/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42520478",
-    "nome": "",
+    "nome": "Sunday SOUL Sessions-September",
     "descrizione": "This month we bring more radio DJ's in Simon Petts as he returns to clubland and joins the team for another exceptional afternoon",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/b/9/2290184_92712032_Sunday-SOUL-Sessions-September.jpg",
     "data": "2026-09-06",
@@ -268251,11 +268337,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stevenage/The-Tranquil-Turtle/Sunday-SOUL-Sessions-September/42520478/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41905120",
-    "nome": "",
+    "nome": "Britallica (Britney Spears Metal Tribute) Holy Diver, Stockport",
     "descrizione": "Britallica is the world's first metal tribute to Britney Spears, a high energy mashup of pop princess anthems and headbanging metal attitude.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/8/f/2179187_50357019_Britallica--Britney-Spears-Metal-Tribute--Holy-Diver--Stockport.jpg",
     "data": "2026-10-17",
@@ -268287,11 +268381,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Britallica-Britney-Spears-Metal-Tribute-Holy-Diver-Stockport/41905120/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42542876",
-    "nome": "",
+    "nome": "KRS-One",
     "descrizione": "KRS-One makes his long awaited return to Southampton this September!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/9/9/2294670_28f324d8_krs-one.jpg",
     "data": "2026-09-18",
@@ -268321,11 +268423,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/KRS-One/42542876/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41965698",
-    "nome": "",
+    "nome": "Lime Garden",
     "descrizione": "This Is Tmrw presents Lime Garden live at the Castle & Falcon on Tuesday, October 20th.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/5/8/2192204_544024de_lime-garden.jpg",
     "data": "2026-10-20",
@@ -268362,18 +268472,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Lime-Garden/41965698/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Girl-In-The-Year-Above--Rageflower/42580967/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41616952",
-    "nome": "",
+    "nome": "The 1975 performed LIVE by the The 9075",
     "descrizione": "Get ready for a night of Matty Healy soaked indie pop as 9075 bring The 1975's biggest hits and energy to Camp and Furnace!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/5/e/2154240_626efa7a_the-1975-performed-live-by-the-the-9075.jpg",
     "data": "2026-10-09",
@@ -268412,18 +268516,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/The-1975-performed-LIVE-by-the-The-9075/41616952/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/BINARY-Presents-Joss-Dean-b2b-Tommy-Phillips/42563644/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41504741",
-    "nome": "",
+    "nome": "Walter Trout : Live in 2026",
     "descrizione": "A masterclass in blues-rock. A night you'll never forget.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/6/0/2143932_f70a2074_walter-trout-live-in-2026.jpg",
     "data": "2026-10-07",
@@ -268454,11 +268552,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Walter-Trout--Live-in-2026/41504741/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42277849",
-    "nome": "",
+    "nome": "Christmas Rocks Glasgow",
     "descrizione": "Get ready for an unforgettable night featuring:\nAC/DC GB, Ozzy Ozzborn, Guns On Roses, Def Leppad, Bad Name (Bon Jovi) & Tyne Maiden",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/9/6/2233791_4820021c_christmas-rocks-glasgow.jpg",
     "data": "2026-12-05",
@@ -268493,18 +268599,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Slay-Glasgow%2C-Scotland/Christmas-Rocks-Glasgow/42277849/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Barras-Art-And-Design-%28BAaD%29/Xmas-Jam-Pot--the-Barras/42581697/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42610629",
-    "nome": "",
+    "nome": "Mr Traumatik UK TOUR ft ELRO",
     "descrizione": "The Mr Traumatik uk tour arrives back in Manchester with special guest Elro joining the lineup.\n\nExpect complexed lyrics and high energy beats \n18+",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/2/2309992_25253228_Mr-Traumatik-UK-TOUR-ft-ELRO.jpg",
     "data": "2026-09-11",
@@ -268544,18 +268644,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/The-Deaf-Institute/Mr-Traumatik-UK-TOUR-ft-ELRO/42610629/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Picadilly-Central/No-Plan--Picadilly-Central/42614396/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42404839",
-    "nome": "",
+    "nome": "PO4 Live Presents: The Feeling - Twelve Stops and Home Part 2",
     "descrizione": "The Feeling head to The Gaiety Southsea this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/3/3/2259166_73b149e2_po4-live-presents-the-feeling-twelve-stops-and-home-part-2.jpg",
     "data": "2026-11-03",
@@ -268586,11 +268680,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Gaiety-Southsea/PO4-Live-Presents-The-Feeling---Twelve-Stops-and-Home-Part-2/42404839/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42619982",
-    "nome": "",
+    "nome": "The Avelons - Newcastle",
     "descrizione": "The Avelons make their live return with a three run gig across their beloved North East!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/6/2312983_02df72f4_the-avelons-newcastle.jpg",
     "data": "2026-09-12",
@@ -268627,18 +268729,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Little-Buildings-Venue-And-Rehearsal-Rooms-/The-Avelons---Newcastle/42619982/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/World-HQ/Containment-Presents-BMBERJCK/42628416/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42470442",
-    "nome": "",
+    "nome": "Indie BRASS Club",
     "descrizione": "INDIE BRASS CLUB brings indie anthems from bands including Arctic Monkeys, Oasis, Pulp and Courteeners to life with a high-energy live brass band.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/0/5/2275391_aea03432_dizzy-brasscals-presents-indie-brass-club.jpg",
     "data": "2026-10-15",
@@ -268675,18 +268771,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/The-Deaf-Institute/Indie-BRASS-Club/42470442/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/IAN-McNABB-Icicle-Works--Carlton-Club--Manchester-Thu-15-Oct/42589041/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42388836",
-    "nome": "",
+    "nome": "Indie Fest Southampton",
     "descrizione": "The UK's biggest indie tribute night returns to Southampton!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/0/3/2256439_5463b48f_indie-fest-southampton.jpg",
     "data": "2026-09-25",
@@ -268721,18 +268811,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/Indie-Fest-Southampton/42388836/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Southampton/The-1865/Foo-Fighters-GB---Unreal-Blood--1865-Southampton/41642172/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42437720",
-    "nome": "",
+    "nome": "Monsters of Rock - District (Liverpool 24/10/2026)",
     "descrizione": "You wanted the best, you got the best!! Prepare for a night filled with your favourite rock anthems from the glory days of the Monsters of Rock!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/4/8/2268506_10187827_Monsters-of-Rock---District--Liverpool-24-10-2026-.jpg",
     "data": "2026-10-24",
@@ -268771,36 +268855,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/District/Monsters-of-Rock---District-Liverpool-24102026/42437720/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/ENRG-10th-Birthday---IPC-Malugi-Notion-Girls-Dont-Sync-more/42483846/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/Love-to-be-Liverpool/42464806/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Cast/42593993/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Fleetwood-Mac-performed-LIVE-by-The-Classic-Double-Band/42330814/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41585286",
-    "nome": "",
+    "nome": "Music is the Answer Presents Summer Days 2026",
     "descrizione": "We return to the magic castle for the 2026 edition of Summer Days.\n\nOur first phase headliners: Graeme Park, Jon Dasilva and Lexicon Avenue.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/c/5/2147345_0ee45cdb_music-is-the-answer-presents-summer-days-2026.jpg",
     "data": "2026-08-29",
@@ -268836,11 +268896,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dundee/Mains-Castle-Dundee/Music-is-the-Answer-Presents-Summer-Days-2026/41585286/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42084945",
-    "nome": "",
+    "nome": "Golden Years: Goth & Post-Punk Special w/ The Cureheads & more",
     "descrizione": "An all-dayer celebrating all things Goth & 80s post-punk with The Cureheads, Echoes of the Bunnymen, Transmission (Joy Division) & more live!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/a/d/2205562_e048d29a_golden-years-goth-post-punk-special-w-the-cureheads-more.jpg",
     "data": "2026-10-03",
@@ -268874,11 +268942,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Crossing-Digbeth/Golden-Years-Goth--Post-Punk-Special-w-The-Cureheads--more/42084945/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42267579",
-    "nome": "",
+    "nome": "JOHN BRAMWELL | Warrington | Sun 20th Sept | I Am Kloot |Solo",
     "descrizione": "John Bramwell returns to Warrington Irish Club..... Expect a night of beautiful music & great stories!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/2/8/2231342_303cfa82_john-bramwell-warrington-sun-20th-sept-i-am-kloot-solo.jpg",
     "data": "2026-09-20",
@@ -268913,11 +268989,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Warrington/The-Irish-Club/JOHN-BRAMWELL--Warrington--Sun-20th-Sept--I-Am-Kloot-Solo/42267579/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42314949",
-    "nome": "",
+    "nome": "Moving Pictures | Rush Tribute",
     "descrizione": "The sounds of Canadian prog rockers brought to life so authentically by Scottish trio Moving Pictures. Stunning live performers.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/8/a/2240627_020e450a_moving-pictures-rush-tribute.jpg",
     "data": "2026-09-18",
@@ -268946,11 +269030,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ayr/The-Ayr-Pavilion/Moving-Pictures--Rush-Tribute/42314949/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42273926",
-    "nome": "",
+    "nome": "Devlin - Bristol",
     "descrizione": "UK Grime heavyweight Devlin takes over Electric, Bristol this September.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/7/f/2232597_5f3319bf_devlin-bristol.jpg",
     "data": "2026-09-25",
@@ -268988,24 +269080,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Electric-Bristol/Devlin---Bristol/42273926/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Document-Opening-Party-bullet-tooth-Cristina-Lazic-Kepler-/42483195/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Sawmills/IVY-presents-XTAS--Bristol/42504850/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41668237",
-    "nome": "",
+    "nome": "Gutalax - Glasgow",
     "descrizione": "Gutalax will be hitting Glasgow in September with support from Basement Torture Killings & Coprocephalic Mutation",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/7/2168413_369db11d_gutalax-glasgow.jpg",
     "data": "2026-09-20",
@@ -269043,18 +269123,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Slay/Gutalax---Glasgow/41668237/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Sub-Club/All-Night-Laing---Hannah-Laing--Sub-Club/42622958/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42300675",
-    "nome": "",
+    "nome": "Part Chimp",
     "descrizione": "Noise-rock/punk band making it their business to shake speaker-stacks, fry brains and induce jouissance and tinnitus alike across the UK.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/3/f/2237623_d8d026b6_part-chimp.jpg",
     "data": "2026-08-27",
@@ -269085,11 +269159,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Part-Chimp/42300675/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42078049",
-    "nome": "",
+    "nome": "Bootleg Blondie",
     "descrizione": "The world's No. 1 official Debbie Harry and Blondie tribute band, established in 2001.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/5/2202804_3f13d9d3_bootleg-blondie.jpg",
     "data": "2026-11-21",
@@ -269121,11 +269203,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Bootleg-Blondie/42078049/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42428918",
-    "nome": "",
+    "nome": "The Moonlandingz",
     "descrizione": "Now Wave presents The Moonlandingz plus support Y at The White Hotel on 21st November 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/a/4/2265705_9982b61b_the-moonlandingz.jpg",
     "data": "2026-11-21",
@@ -269156,11 +269246,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/The-White-Hotel/The-Moonlandingz/42428918/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42601882",
-    "nome": "",
+    "nome": "Bruce Springsteen Tribute - Live in Reading",
     "descrizione": "Bruce Springsteen Tribute - Live in Reading",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/3/5/2307002_22605226_Bruce-Springsteen-Tribute---Live-in-Reading.jpg",
     "data": "2026-09-04",
@@ -269188,11 +269286,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Reading/SUB89/Bruce-Springsteen-Tribute---Live-in-Reading/42601882/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42376132",
-    "nome": "",
+    "nome": "Pete & Bas",
     "descrizione": "Pete & Bas bring their unmistakable blend of gritty UK drill and tongue-in-cheek charisma to EngineRooms Southampton!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/c/a/2256317_a47a335c_pete-bas.jpg",
     "data": "2026-10-23",
@@ -269223,11 +269329,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/Pete--Bas/42376132/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41997744",
-    "nome": "",
+    "nome": "R.E.M by Stipe",
     "descrizione": "Stipe return for a bumper set of R.E.M classics in their authentic style.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/0/2198922_bddf2b8a_r-e-m-by-stipe.jpg",
     "data": "2026-09-11",
@@ -269265,18 +269379,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/REM-by-Stipe/41997744/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/Encrypted-Presents-Ilario-Alicante--Support/42476333/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41999584",
-    "nome": "",
+    "nome": "PorkPie Live at The Georgian Theatre, Stockton-on-Tees",
     "descrizione": "PorkPie Live at The Georgian Theatre, Stockton-on-Tees on Saturday 28th November 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/f/c/2199570_f6c53497_porkpie-live-at-the-georgian-theatre-stockton-on-tees.jpg",
     "data": "2026-11-28",
@@ -269310,11 +269418,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockton-on-tees/The-Georgian-Theatre/PorkPie-Live-at-The-Georgian-Theatre-Stockton-on-Tees/41999584/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42375495",
-    "nome": "",
+    "nome": "Anvil - The Carlisle, Hastings - Friday 6th November 2026",
     "descrizione": "Playing songs from their first three albums only, Anvil bring their Pounding the Past tour to Hastings with special guests Killer plus Rok Ali.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/e/5/2256044_4c52671f_anvil-the-carlisle-hastings-friday-6th-november-2026.jpg",
     "data": "2026-11-06",
@@ -269345,11 +269461,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Hastings/The-Carlisle/Anvil---The-Carlisle-Hastings---Friday-6th-November-2026/42375495/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999559",
-    "nome": "",
+    "nome": "PorkPie plus Support (TBC) at The Lemon Tree, Aberdeen",
     "descrizione": "PorkPie plus Support (TBC) at The Lemon Tree, Aberdeen on Saturday 24th October 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/f/2199547_94ceb5cf_porkpie-plus-support-tbc-at-the-lemon-tree-aberdeen.jpg",
     "data": "2026-10-24",
@@ -269390,18 +269514,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Aberdeen/The-Lemon-Tree/PorkPie-plus-Support-TBC-at-The-Lemon-Tree-Aberdeen/41999559/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Aberdeen/The-Tunnels/Space/41988586/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42430274",
-    "nome": "",
+    "nome": "Class of '79",
     "descrizione": "If you love Punk, Ska & New Wave, CLASS OF 79 are a 'supergroup' performing the soundtrack of your life.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/2/c/2266035_d4c62d63_class-of-79.jpg",
     "data": "2026-09-06",
@@ -269435,11 +269553,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Class-of-79/42430274/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42607708",
-    "nome": "",
+    "nome": "ArrDee",
     "descrizione": "SJM Concerts presents ArrDee plus supports at Bristol Fleece, on 12th October 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/1/b/2309275_4bf9a17d_arrdee.jpg",
     "data": "2026-10-12",
@@ -269469,11 +269595,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/The-Fleece/ArrDee/42607708/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42596908",
-    "nome": "",
+    "nome": "Meryl Streek @ The 100 Club 08.10.26",
     "descrizione": "Meryl Streek + Shooting Daggers live at the 100 Club. Official London album release show for 'Stories They Don't Teach You at School'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/4/0/2305688_983f3333_meryl-streek-the-100-club-08-10-26.jpg",
     "data": "2026-10-08",
@@ -269505,11 +269639,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/100-Club/Meryl-Streek--The-100-Club-081026/42596908/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42596744",
-    "nome": "",
+    "nome": "Tom Meighan RAW26 live in OLDHAM",
     "descrizione": "Tom performs classic Kasabian and solo songs for his return to Oldham Whittles plus support from Delbhoy Kennedy. For the people!",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-08-28",
@@ -269539,11 +269681,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oldham/Whittles/Tom-Meighan-RAW26-live-in-OLDHAM/42596744/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41458222",
-    "nome": "",
+    "nome": "The Chain  - Live at The Bungalow",
     "descrizione": "The Chain - Scotland Tribute to Fleetwood Mac headline The Bungalow on Sat 17th October 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/2/e/2130870_82410099_The-Chain----Live-at-The-Bungalow.jpg",
     "data": "2026-10-17",
@@ -269574,11 +269724,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Paisley/The-Bungalow-Bar/The-Chain----Live-at-The-Bungalow/41458222/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41599228",
-    "nome": "",
+    "nome": "Richard Ashcroft",
     "descrizione": "Cuffe & Taylor presents Richard Ashcroft at Colchester Castle Park on 27th August 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/8/f/2150955_7ef2fc9f_richard-ashcroft.jpg",
     "data": "2026-08-27",
@@ -269609,11 +269767,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Colchester/Colchester-Castle/Richard-Ashcroft/41599228/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42509875",
-    "nome": "",
+    "nome": "The 9075 | The Nest, Nottingham",
     "descrizione": "The world's No.1 1975 tribute act is coming to The Nest in Nottingham this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/6/5/2286880_74b1db14_the-9075-the-nest-nottingham.jpg",
     "data": "2026-10-02",
@@ -269644,11 +269810,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Nest-%28%40-Notts-County-FC%29/The-9075--The-Nest-Nottingham/42509875/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42146180",
-    "nome": "",
+    "nome": "The Ultimate Christmas Cracker With Frankie Mack",
     "descrizione": "The Ultimate Christmas Cracker With Frankie Mack",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/3/5/2215477_3a4bda86_the-ultimate-christmas-cracker-with-frankie-mack.jpg",
     "data": "2026-11-29",
@@ -269682,11 +269856,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Cottiers-Theatre/The-Ultimate-Christmas-Cracker-With-Frankie-Mack/42146180/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580381",
-    "nome": "",
+    "nome": "Sunday SOUL Sessions _October",
     "descrizione": "October sees the long awaited return to the decks of TEE HARRIS. One of the innovators to modern dance scene mixing Jazzfunk & Soul for the dancefloor",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/f/9/2301086_11034239_Sunday-SOUL-Sessions--October.jpg",
     "data": "2026-10-04",
@@ -269720,11 +269902,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stevenage/The-Tranquil-Turtle/Sunday-SOUL-Sessions-October/42580381/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999687",
-    "nome": "",
+    "nome": "PorkPie plus Support (TBC) at Music Hall, Dundee",
     "descrizione": "PorkPie plus Support (TBC) at Music Hall, Dundee on Saturday 19th December 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/3/b/2199612_fd992cb6_porkpie-plus-support-tbc-at-music-hall-dundee.jpg",
     "data": "2026-12-19",
@@ -269765,24 +269955,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Dundee/Music-Hall-Dundee/PorkPie-plus-Support-TBC-at-Music-Hall-Dundee/41999687/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Dundee/Live-House/GirlyPop-Live--Live-House-Dundee/42634309/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Dundee/Live-House/GirlyPop-Christmas-Party--Live-House-Dundee/42634309/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42072389",
-    "nome": "",
+    "nome": "Space / MK11 Milton Keynes",
     "descrizione": "Space return to MK11",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/7/d/2201891_14273702_Space---MK11-Milton-Keynes.jpg",
     "data": "2026-09-11",
@@ -269813,11 +269991,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/MK11-LIVE-MUSIC-VENUE/Space--MK11-Milton-Keynes/42072389/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42091120",
-    "nome": "",
+    "nome": "The Complete stone Roses - Aberdeen",
     "descrizione": "The Complete Stone Roses return to The Lemon Tree, Aberdeen for two nights of Roses anthems!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/b/8/2207278_23997674_The-Complete-stone-Roses---Aberdeen.jpg",
     "data": "2026-12-28",
@@ -269848,11 +270034,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Aberdeen/The-Lemon-Tree%2C-Scotland/The-Complete-stone-Roses---Aberdeen/42091120/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41772662",
-    "nome": "",
+    "nome": "Seattle Thrift Store - a live tribute to Grunge",
     "descrizione": "Seattle Thrift Store are a tribute to the Grunge scene coming out of the Pacific Northwest in the early 90's.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/c/d/2171321_35884d4a_seattle-thrift-store-a-live-tribute-to-grunge.jpg",
     "data": "2026-11-20",
@@ -269883,11 +270077,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dundee/Beat-Generator/Seattle-Thrift-Store---a-live-tribute-to-Grunge/41772662/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42530092",
-    "nome": "",
+    "nome": "The Vaselines",
     "descrizione": "Happy 40th Anniversary to The Vaselines!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/0/6/2292323_c60d1067_the-vaselines.jpg",
     "data": "2027-03-03",
@@ -269919,11 +270121,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/The-Vaselines/42530092/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42428734",
-    "nome": "",
+    "nome": "Graham Bonnet Band",
     "descrizione": "Graham Bonnet, legendary voice of Rainbow, Alcatraz, Anthem and many more takes to the Holy Diver stage for 2 select UK only Dates!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/6/0/2265596_7acc3624_graham-bonnet-band.jpg",
     "data": "2026-11-27",
@@ -269951,11 +270161,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Graham-Bonnet-Band/42428734/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42470404",
-    "nome": "",
+    "nome": "SML Presents James Yorkston",
     "descrizione": "Celebrating 25 years of critically acclaimed songwriting, James Yorkston brings his songwriting craft to the Grade One Listed, St Michaels Church.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/3/3/2275369_f85b9805_sml-presents-james-yorkston.jpg",
     "data": "2026-12-12",
@@ -269993,30 +270211,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/St-Michaels-Church-/SML-Presents-James-Yorkston/42470404/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Tisto---Blackstone-St-Warehouse---Liverpool/42468896/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Paradisco-end-of-year-Christmas-Show/42474331/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/Dave-McCabe--James-Jay-Lewis/42408342/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42613439",
-    "nome": "",
+    "nome": "Širom (Slovenia) & Dean McPhee Live in Sowerby Bridge",
     "descrizione": "Highly praised Slovenian 'Imaginary folk' multi-instrumentalist trio and solo dub-ambient electric guitar from Bradford",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/7/5/2310796_1d07336b_-irom-slovenia-dean-mcphee-live-in-sowerby-bridge.jpg",
     "data": "2026-09-18",
@@ -270050,11 +270250,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Halifax/Sowerby-Bridge-Fire-And-Water/irom-Slovenia--Dean-McPhee-Live-in-Sowerby-Bridge/42613439/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42310320",
-    "nome": "",
+    "nome": "Then Jerico",
     "descrizione": "FIRST (The Sound of Music)’ 40th Anniversary Tour",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/0/f/2239688_3ed89bc0_then-jerico.jpg",
     "data": "2026-11-21",
@@ -270086,11 +270294,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Then-Jerico/42310320/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42093267",
-    "nome": "",
+    "nome": "TOM MEIGHAN (Acoustic) + Support",
     "descrizione": "Tom will be performing hits from his time as the Kasabian frontman, plus a selection of tracks from his own two solo albums.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/3/6/2208299_0aa4c636_tom-meighan-acoustic-support.jpg",
     "data": "2026-10-24",
@@ -270121,11 +270337,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Falkirk/Alloa-Town-Hall/TOM-MEIGHAN-Acoustic--Support/42093267/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42329976",
-    "nome": "",
+    "nome": "Ventura Highway",
     "descrizione": "Live West Coast yacht rock & soul as this super-group returns to our stage after an incredible debut on our stage in 2025.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/4/8/2243756_e0fa2408_ventura-highway.jpg",
     "data": "2026-08-23",
@@ -270153,11 +270377,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/PILGRIM/Ventura-Highway/42329976/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42098295",
-    "nome": "",
+    "nome": "BLUETONES - Warrington Irish Club - Fri 28th Aug  - FULL BAND!!",
     "descrizione": "The Bluetones return to Warrington Irish Club for what will be another sell out!!!\nHear Classic Bluetones songs spanning a 30 year career",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/4/2209461_3c0188d6_bluetones-warrington-irish-club-fri-28th-aug-full-band-.jpg",
     "data": "2026-08-28",
@@ -270192,11 +270424,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Warrington/The-Irish-Club/BLUETONES---Warrington-Irish-Club---Fri-28th-Aug----FULL-BAND/42098295/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42450128",
-    "nome": "",
+    "nome": "Eminem performed LIVE in Liverpool by Michael Mathers",
     "descrizione": "Experience Eminem LIVE at Camp & Furnace as Michael Mathers performs Slim Shady classics with full concert energy, live DJ & huge hip-hop anthems!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/a/2270650_e8337de6_eminem-performed-live-in-liverpool-by-michael-mathers.jpg",
     "data": "2027-02-27",
@@ -270228,11 +270468,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Eminem-performed-LIVE-in-Liverpool-by-Michael-Mathers/42450128/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42612702",
-    "nome": "",
+    "nome": "Destination Bowie",
     "descrizione": "They're back! 12-piece live band of top session musicians blasting through five decades of Bowie's fabulous back catalogue. Do not miss this!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/c/3/2310576_a3f00bb1_destination-bowie.jpg",
     "data": "2027-02-05",
@@ -270262,11 +270510,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/PILGRIM/Destination-Bowie/42612702/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42331190",
-    "nome": "",
+    "nome": "The Buzzcocks - Attitude Adjustment",
     "descrizione": "Punk Legends The Buzzcocks are heading to Holy Diver for Two very special homecoming shows this October. With Special supports TBA",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/d/c/2244235_e6fc753a_the-buzzcocks-attitude-adjustment-.jpg",
     "data": "2026-10-23",
@@ -270294,11 +270550,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/The-Buzzcocks---Attitude-Adjustment/42331190/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42463596",
-    "nome": "",
+    "nome": "Rich Chance",
     "descrizione": "Preston singer/songwriter Rich Chance brings vibrant, quirky material from his new album to the Continental",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/7/b/2273648_75680cf4_rich-chance.jpg",
     "data": "2027-01-15",
@@ -270329,11 +270593,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Preston/The-Continental/Rich-Chance/42463596/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42585303",
-    "nome": "",
+    "nome": "Something To Say - A Tribute For Dave Speakman (Charity Event)",
     "descrizione": "A one music festival in memory of a much loved friend. All proceeds will be donated to Mind Charity and MacMillan.\n\nLine up TBC",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/6/5/2302524_dd8fd643_something-to-say-a-tribute-for-dave-speakman-charity-event-.jpg",
     "data": "2026-09-12",
@@ -270363,11 +270635,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Crewe/Kings-Lock-Inn/Something-To-Say---A-Tribute-For-Dave-Speakman-Charity-Event/42585303/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42004270",
-    "nome": "",
+    "nome": "The Warner E Hodges International All Stars",
     "descrizione": "The Warner E Hodges International All Stars band will be coming to Kendal with a killer lineup plus very special guest Stacie Collins.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/c/2/2200628_84775ca4_the-warner-e-hodges-international-all-stars.jpg",
     "data": "2026-09-19",
@@ -270400,11 +270680,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Kendal/Ruskins-Bar/The-Warner-E-Hodges-International-All-Stars/42004270/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42482913",
-    "nome": "",
+    "nome": "DMAs",
     "descrizione": "DMA'S // DMA'S Album Tour // hmv Empire Coventry\n\nWednesday 3rd February 2027",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/f/9/2279045_5073f314_dmas.jpg",
     "data": "2027-02-03",
@@ -270434,11 +270722,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Coventry/HMV-EMPIRE-COVENTRY/DMAs/42482913/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42585203",
-    "nome": "",
+    "nome": "Gene Loves Jezebel + Dawn After Dark",
     "descrizione": "Gene Loves Jezebel + Dawn After Dark",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/e/1/2302424_93d8d33b_gene-loves-jezebel-dawn-after-dark.jpg",
     "data": "2026-12-05",
@@ -270475,18 +270771,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Gene-Loves-Jezebel--Dawn-After-Dark/42585203/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Mama-Roux%27s-Birmingham/Decadence-Christmas-Birmingham/42415309/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42482903",
-    "nome": "",
+    "nome": "The Skids + Theatre of Hate",
     "descrizione": "Scottish punk legends The Skids are set to return to the iconic Ayr Pavilion for the first time since December 1980 supported by Theatre of Hate.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/5/f/2279035_d652feb2_the-skids-theatre-of-hate.jpg",
     "data": "2026-12-10",
@@ -270520,11 +270810,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ayr/The-Ayr-Pavilion/The-Skids--Theatre-of-Hate/42482903/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42509190",
-    "nome": "",
+    "nome": "The Eminem Experience in Portsmouth",
     "descrizione": "The Eminem Experience heads to The Gaiety Southsea for an explosive live tribute to one of hip-hop's most iconic artists!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/5/d/2286602_0e128a43_the-eminem-experience-in-portsmouth.jpg",
     "data": "2027-02-19",
@@ -270553,11 +270851,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Gaiety-Southsea/The-Eminem-Experience-in-Portsmouth/42509190/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41472208",
-    "nome": "",
+    "nome": "The Complete stone Roses - Edinburgh",
     "descrizione": "The Complete stone Roses return to The Liquid Rooms, Edinburgh for a night of indie anthems with OCS tribute & Retro Dave as support!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/c/b/2135258_88803248_The-Complete-stone-Roses---Edinburgh.jpg",
     "data": "2026-11-07",
@@ -270587,11 +270893,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/Liquid-Room-Edinburgh/The-Complete-stone-Roses---Edinburgh/41472208/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42469915",
-    "nome": "",
+    "nome": "An Evening with The Magic Numbers",
     "descrizione": "This Is Tmrw presents an evening with The Magic Numbers live at Bradshaw Hall, Royal Birmingham Conservatoire.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/2/c/2275064_e29ca493_an-evening-with-the-magic-numbers.jpg",
     "data": "2026-11-29",
@@ -270623,11 +270937,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Bradshaw-Hall-Royal-Birmingham-Conservatoire/An-Evening-with-The-Magic-Numbers/42469915/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42334748",
-    "nome": "",
+    "nome": "Beneath The Arches 2026",
     "descrizione": "Chelmsford's premier 1 day metalfest featuring some of the UK's finest metal acts.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/4/9/2245238_0c50d076_beneath-the-arches-2026.jpg",
     "data": "2026-11-14",
@@ -270661,11 +270983,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chelmsford/Radio-City-Social/Beneath-The-Arches-2026/42334748/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42439032",
-    "nome": "",
+    "nome": "Yellow Brick Road The young Elton John Show",
     "descrizione": "Step into the flamboyant, fearless, and unforgettable early years of a global superstar with Yellow Brick Road The Young Elton Spectacular",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/c/4/2268980_85d8c439_yellow-brick-road-the-young-elton-john-show.jpg",
     "data": "2026-11-13",
@@ -270703,30 +271033,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/The-Bentley/Yellow-Brick-Road-The-young-Elton-John-Show/42439032/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/Dvoid-Presents-Lekkerfaces--More/42580961/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Invisible-Wind-Factory/Jazzy---Peace--Patience-Tour---Liverpool/42541843/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Anna-von-Hausswolff/42438962/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42516782",
-    "nome": "",
+    "nome": "Bettys Club, The Frescoes, The Claes, Lewis Wilson, TRNDS",
     "descrizione": "RCMS Presents.....Summer Showcase at Saint Luke's Glasgow. Doors open 6.45pm. Over 14s, u16s with Adult.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/f/1/2289506_b4acc9ee_bettys-club-the-frescoes-the-claes-lewis-wilson-trnds.jpg",
     "data": "2026-08-29",
@@ -270763,24 +271075,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Saint-Lukes-And-The-Winged-Ox/Bettys-Club-The-Frescoes-The-Claes-Lewis-Wilson-TRNDS/42516782/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Classic-Grand./Darkside-27-Years---Rage-Cage/42321047/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Classic-Grand./Darkside-27-Years---Rage-Cage-with-The-Dark-Horror--Yoshiko/42321047/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42415280",
-    "nome": "",
+    "nome": "Definitely Oasis - Milton Keynes",
     "descrizione": "Definitely Oasis return to Milton keynes in 2026 expect all your favourite Oasis hits and B sides.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/0/1/2261961_92015799_Definitely-Oasis---Milton-Keynes.jpg",
     "data": "2026-09-12",
@@ -270811,11 +271111,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/MK11-LIVE-MUSIC-VENUE/Definitely-Oasis---Milton-Keynes/42415280/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42494285",
-    "nome": "",
+    "nome": "Athomkraft",
     "descrizione": "Multi-instrumnetalists Alberto Pauletto and Sandro Martino perform electronic reworkings of Pink Floyd's “Live At Pompeii and Atom Heart Mother”",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/e/c/2282707_07f8943a_athomkraft.jpg",
     "data": "2026-09-28",
@@ -270850,24 +271158,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Athomkraft/42494285/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/KEO-Album-Launch-Show/42627176/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/KEO-Unplugged-Acoustic-Album-Launch-Show-Matinee/42627195/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42485222",
-    "nome": "",
+    "nome": "Movin' On - Manchester",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/8/2/2279851_b12c2409_movin-on-manchester.jpg",
     "data": "2026-09-12",
@@ -270905,30 +271201,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Off-The-Square/Movin-On---Manchester/42485222/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Gorilla/Devlin---Manchester/42273666/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bolton/Ewe-Restaurant-And-Bar/The-Hills/42624535/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/The-Yard-Manchester/Do-You-World-Back-Yard-Party/42430408/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42463231",
-    "nome": "",
+    "nome": "Clarion + Jazzcat",
     "descrizione": "Shoegaze, post-punk, and alternative rock trio from Los Angeles.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/2/7/2273558_a001c262_clarion.jpg",
     "data": "2026-08-26",
@@ -270966,18 +271244,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Clarion/42463231/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Clarion--Jazzcat/42463231/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41330423",
-    "nome": "",
+    "nome": "Guns N Yorkshire Roses",
     "descrizione": "\"Appetite for Yorkshire Puddings Tour - 26\". Playing the entire \"Appetite for Destruction\" album in full plus all the hits.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/e/2096959_1928ca1b_guns-n-yorkshire-roses.jpg",
     "data": "2026-09-12",
@@ -271007,11 +271279,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Guns-N-Yorkshire-Roses/41330423/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42511198",
-    "nome": "",
+    "nome": "Catfishing The Bottlemen live in Wrexham",
     "descrizione": "UKs best Catfish and The Bottlemen tribute are coming to North Wales here at The Rockin Chair Wrexham",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/4/7/2287347_a7b285e0_catfishing-the-bottlemen-live-in-wrexham.jpg",
     "data": "2027-01-23",
@@ -271041,11 +271321,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wrexham/The-Rockin-Chair/Catfishing-The-Bottlemen-live-in-Wrexham/42511198/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42091114",
-    "nome": "",
+    "nome": "Fleeting Rumours: live dedication to Fleetwood Mac",
     "descrizione": "They're back on our stage after TWO packed-out shows in 2025. Superb live band presenting Fleetwood Mac's iconic back catalogue. Do not miss this...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/5/1/2207273_bf2b7624_fleeting-rumours-live-dedication-to-fleetwood-mac.jpg",
     "data": "2026-09-27",
@@ -271075,11 +271363,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/PILGRIM/Fleeting-Rumours-live-dedication-to-Fleetwood-Mac/42091114/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42526784",
-    "nome": "",
+    "nome": "Liam Cromby + The Morning Star",
     "descrizione": "For the first time, playing We Are The Ocean and Solo Material side by side",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/a/e/2290607_daff8cfd_liam-cromby-the-morning-star.jpg",
     "data": "2026-10-30",
@@ -271120,18 +271416,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Oporto/Liam-Cromby--The-Morning-Star/42526784/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/The-Warehouse/Jamie-Fielding-Hidde-Van-Wee-MadAgain--Abbs-La/42608909/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42374793",
-    "nome": "",
+    "nome": "Gun Ghaol - Upstairs, Inverness",
     "descrizione": "The world's only Gaelic metalcore band kick off their first headline tour in Inverness.\nSupport comes from Atlantic Rift and Foosum.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/e/f/2255786_85f9db32_gun-ghaol-upstairs-inverness.jpg",
     "data": "2026-11-06",
@@ -271162,11 +271452,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Inverness/Upstairs-Inverness/Gun-Ghaol---Upstairs-Inverness/42374793/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42159326",
-    "nome": "",
+    "nome": "Scouting For Girls Live in Durham Cathedral",
     "descrizione": "Scouting For Girls will be performing the greatest hits live in the breathtaking Durham Cathedral in October.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/f/0/2218858_21116488_Scouting-For-Girls-Live-in-Durham-Cathedral.jpg",
     "data": "2026-10-29",
@@ -271200,11 +271498,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Durham/Durham-Cathedral/Scouting-For-Girls-Live-in-Durham-Cathedral/42159326/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41906922",
-    "nome": "",
+    "nome": "No Future Fest - GBH - SUBHUMANS - W.O.R.M",
     "descrizione": "Punk All day fest  No Future lands at Holy Diver 2026! with headliners GBH!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/d/8/2179436_ee991114_no-future-fest-gbh-subhumans-w-o-r-m.jpg",
     "data": "2026-11-28",
@@ -271235,11 +271541,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/No-Future-Fest---GBH---SUBHUMANS---WORM/41906922/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41643586",
-    "nome": "",
+    "nome": "Wishbone Ash - The Time Was Tour 2026 - Saturday 10 October 2026",
     "descrizione": "For over 50 years, Wishbone Ash has shaped rock with their pioneering twin-lead guitars, inspiring generations of rock, metal, and progressive artists",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/d/6/2161096_ed9c1fcb_wishbone-ash-the-time-was-tour-2026-saturday-10-october-2026.jpg",
     "data": "2026-10-10",
@@ -271271,11 +271585,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Medway-Rochester/Casino-Rooms/Wishbone-Ash---The-Time-Was-Tour-2026---Saturday-10-October-2026/41643586/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999683",
-    "nome": "",
+    "nome": "PorkPie Live plus Pretty Green (The Jam) at The Old Firestation",
     "descrizione": "PorkPie Live plus Pretty Green (The Jam) at The Old Firestation, Carlisle on Saturday 5th December 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/7/2199608_e9f0c9ad_porkpie-live-plus-pretty-green-the-jam-at-the-old-firestation.jpg",
     "data": "2026-12-05",
@@ -271310,11 +271632,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/PorkPie-Live-plus-Pretty-Green-The-Jam-at-The-Old-Firestation/41999683/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42138250",
-    "nome": "",
+    "nome": "Indiepalooza! Indie Tribute Festival",
     "descrizione": "The Killers, Arctic Monkeys, Oasis, Sam Fender, Kasabian + Kaiser Chiefs....Indiepalooza returns with its amazing touring indie-rock tribute festival!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/c/6/2213360_45fd76e9_indiepalooza-indie-tribute-festival.jpg",
     "data": "2026-11-14",
@@ -271352,30 +271682,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Indiepalooza-Indie-Tribute-Festival/42138250/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Glitterbox-Sat-14th-Nov-Liverpool/42409131/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Palm-House-Sefton-Park/Everybody-Dance-Presents-Headliner-TBA--The-Palm-House/42300839/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Club-051/HardstyleMoguls-Presents-Da-Tweekaz/42428558/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42585356",
-    "nome": "",
+    "nome": "The Wolfgang Press and Paul Kendall at the Green Door Store",
     "descrizione": "The Wolfgang Press and Paul Kendall at the Green Door Store, Brighton on Saturday 10th October 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/2/7/2302567_e7da28b2_the-wolfgang-press-and-paul-kendall-at-the-green-door-store.jpg",
     "data": "2026-10-10",
@@ -271407,11 +271719,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Brighton/Green-Door-Store/The-Wolfgang-Press-and-Paul-Kendall-at-the-Green-Door-Store/42585356/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42434762",
-    "nome": "",
+    "nome": "Pa Sheehy",
     "descrizione": "Out of Phase Presents Pa Sheehy as part of his 'The Magic We Found Tour'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/8/7/2267021_a9784b30_pa-sheehy.jpg",
     "data": "2026-12-05",
@@ -271448,18 +271768,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/St-Michaels-Church-/Pa-Sheehy/42434762/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Phil-Collins-and-Genesis-performed-LIVE-by-Seriously-Collins/42587978/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42357826",
-    "nome": "",
+    "nome": "Gentleman's Dub Club 20th Anniversary Tour | Southampton",
     "descrizione": "Gentleman's Dub Club head to EngineRooms Southampton this October to celebrate their 20th Anniversary",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/d/1/2250503_95273772_gentleman-s-dub-club-20th-anniversary-tour-southampton.jpg",
     "data": "2026-10-16",
@@ -271491,11 +271805,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/Gentlemans-Dub-Club-20th-Anniversary-Tour--Southampton/42357826/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42597316",
-    "nome": "",
+    "nome": "Corto.Alto: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from Corto.Alto in support of their new album 'Some Small Fortune'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/8/6/2305942_6a3f59c8_corto-alto-album-launch-show.jpg",
     "data": "2026-09-09",
@@ -271525,11 +271847,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Jacaranda-Club/CortoAlto-Album-Launch-Show/42597316/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41978670",
-    "nome": "",
+    "nome": "Prodigy And Pendulum Tributes Live At The Arena",
     "descrizione": "The UK's premier Prodigy & Pendulum tributes collide at The Arena, 17 Oct. Raw electronic-rock energy. Secure your tickets now!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/2/a/2194064_9c1df265_prodigy-and-pendulum-tributes-live-at-the-arena.jpg",
     "data": "2026-10-17",
@@ -271563,11 +271893,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Crewe/The-Arena-Crewe/Prodigy-And-Pendulum-Tributes-Live-At-The-Arena/41978670/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999020",
-    "nome": "",
+    "nome": "PorkPie Live plus Pretty Green (The Jam) @ Brudenell Social Club",
     "descrizione": "PorkPie Live plus Pretty Green (The Jam) @ Brudenell Social Club, Leeds on Saturday 5th September 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/8/0/2199360_b5e96a4d_porkpie-live-plus-pretty-green-the-jam-brudenell-social-club.jpg",
     "data": "2026-09-05",
@@ -271609,24 +271947,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Brudenell-Social-Club/PorkPie-Live-plus-Pretty-Green-The-Jam--Brudenell-Social-Club/41999020/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/The-Belgrave-Music-Hall-And-Canteen/Euphoric/42410189/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Beaverworks/United-Sounds/42541722/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42000173",
-    "nome": "",
+    "nome": "Ian McNabb - Live at the Cavern Club",
     "descrizione": "Liverpool legend Ian McNabb returns to the Cavern Club, performing Icicle Works classics and highlights from his acclaimed solo career.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/e/5/2199910_45520425_Ian-McNabb---Live-at-the-Cavern-Club.jpg",
     "data": "2026-12-06",
@@ -271658,11 +271984,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Cavern-Club/Ian-McNabb---Live-at-the-Cavern-Club/42000173/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42262910",
-    "nome": "",
+    "nome": "Hayseed Dixie",
     "descrizione": "Celebrating 25 years of Maximum Rockgrass",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/5/2/2230073_75b660d0_hayseed-dixie.jpg",
     "data": "2026-10-28",
@@ -271693,11 +272027,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Hayseed-Dixie/42262910/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42464942",
-    "nome": "",
+    "nome": "The Belair Lip Bombs + Retail Store",
     "descrizione": "Australian indie-rock band making waves over the world.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/5/2273858_bd0626b7_the-belair-lip-bombs.jpg",
     "data": "2026-08-23",
@@ -271727,11 +272069,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/The-Belair-Lip-Bombs--Retail-Store/42464942/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42375022",
-    "nome": "",
+    "nome": "Ines Rae",
     "descrizione": "Ines Rae is one of the UK’s most exciting rising alt-pop artists, earning multiple BBC Radio 1 plays, Spotify New Music Friday support, and coverage f",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/0/a/2255887_329f966b_ines-rae.jpg",
     "data": "2026-09-27",
@@ -271759,11 +272109,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Sunflower-Lounge/Ines-Rae/42375022/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42514964",
-    "nome": "",
+    "nome": "Aleks Syntek & The Falling Doves Live at Cavern Club LiverpoolUK",
     "descrizione": "Latin star Aleks Syntek makes his UK debut at Cavern Club Liverpool with The Falling Doves.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/f/f/2289223_454fd66c_aleks-syntek-the-falling-doves-live-at-cavern-club-liverpooluk.jpg",
     "data": "2026-10-15",
@@ -271793,11 +272151,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Cavern-Club/Aleks-Syntek--The-Falling-Doves-Live-at-Cavern-Club-LiverpoolUK/42514964/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42394175",
-    "nome": "",
+    "nome": "Ibibio Sound Machine + Ziyad Al-Samman",
     "descrizione": "Genre-defying afro-futurist collective blending West African rhythms, electronic textures, disco, post-punk and global club energy.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/d/6/2256843_d3ee9c9c_ibibio-sound-machine.jpg",
     "data": "2026-10-07",
@@ -271831,11 +272197,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Ibibio-Sound-Machine--Ziyad-Al-Samman/42394175/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41636883",
-    "nome": "",
+    "nome": "'The Rozzers' A Tribute to Sting & The Police",
     "descrizione": "The most authentic Sting tribute in Europe, fronted by Owen James.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/f/5/2158947_900ace33_-the-rozzers-a-tribute-to-sting-the-police.jpg",
     "data": "2026-10-09",
@@ -271866,11 +272240,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/The-Rozzers-A-Tribute-to-Sting--The-Police/41636883/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42596338",
-    "nome": "",
+    "nome": "Tom Meighan live in Northenden",
     "descrizione": "Tom plays a stripped-back set at 5pm as part of the month-long For The People festival - limited space available!",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-08-29",
@@ -271900,11 +272282,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Lounge-About/Tom-Meighan-live-in-Northenden/42596338/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41352508",
-    "nome": "",
+    "nome": "MOR '86 Revisited",
     "descrizione": "MOR 86 Revisited, is the 40th anniversary tribute event to the famous Monsters Of Rock at Donington in 1986.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/9/9/2104705_00686f65_mor-86-revisited.jpg",
     "data": "2026-09-05",
@@ -271932,11 +272322,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Black-Market/MOR-86-Revisited/41352508/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42618847",
-    "nome": "",
+    "nome": "Continental GT STEPPERS Drumsheds London",
     "descrizione": "We're about to make history with the biggest ever steppers. expect a memorable experience. Get your Tickets NOW!!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/8/2312700_e2ef2231_continental-gt-steppers-drumsheds-london.jpg",
     "data": "2026-09-26",
@@ -271976,30 +272374,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Drumsheds/Continental-GT-STEPPERS-Drumsheds-London/42618847/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/KOKO/Sigma---KOKO-London/42484205/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Century-Club/Hedkandi-Present-Disco-Heaven--London/42611024/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/Madmen-XXTREME/42649728/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42449894",
-    "nome": "",
+    "nome": "TRMNL Summer Street Party ft. Jamie Jones",
     "descrizione": "The legend Jamie jones returns to Birmingham for our biggest street party to date! Tickets on sale Friday 29th May at 10am. Sign up now!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/8/2270511_80637225_TRMNL-August-Bank-Holiday-Sunday-Street-Party.jpg",
     "data": "2026-08-30",
@@ -272044,30 +272424,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/TRMNL-Summer-Street-Party-ft-Jamie-Jones/42449894/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/O2-Institute/Jungle-Gathering-The-Jungle-Years--Doktor-Micky-Finn-Bryan-G/42251952/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Luna-Springs-Digbeth-/FAC51-The-Haienda-Open-Air---Birmingham/42332669/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Sector-57/Bassline-in-the-Yard-with-Trilla--Friends-Birmingham/42587409/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42572073",
-    "nome": "",
+    "nome": "SOSA - Open Air - Liverpool",
     "descrizione": "Tickets on sale Tuesday 4th August at 10am",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/d/f/2299359_08449f4b_sosa-open-air-liverpool.jpg",
     "data": "2026-09-12",
@@ -272105,24 +272467,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Liverpool-TBC/SOSA---Open-Air---Liverpool/42572073/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Whats-My-Age-Again---Emo--Pop-Punk-Night/42596461/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/Exhilaration-x-Dvoid-Presents-YOSHIKO-INFLICTION--MORE/42580717/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42604390",
-    "nome": "",
+    "nome": "WAH Drumsheds 2026 | Wilkinson + 40 more artists",
     "descrizione": "Worried About Henry returns to Drumsheds on Saturday 7 November 2026 for another monumental indoor drum and bass festival, headlined by Wilkinson.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/0/2307928_5a907eaf_wah-drumsheds-2026-wilkinson-40-more-artists.jpg",
     "data": "2026-11-07",
@@ -272162,18 +272512,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Drumsheds-London/WAH-Drumsheds-2026--Wilkinson--40-more-artists/42604390/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Troxy/Trance-Sanctuary-presents-Kearnage-X/42300330/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42560689",
-    "nome": "",
+    "nome": "Circus Presents ROSSI.",
     "descrizione": "Sign up now for Remind Me. Tickets on sale Friday 10th July at 10am",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/6/3/2296210_24404328_Circus-Presents-ROSSI-.jpg",
     "data": "2026-10-10",
@@ -272211,18 +272555,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Circus-Presents-ROSSI/42560689/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Allday-Indie-Indoor-Festival---Liverpool/41776043/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42469575",
-    "nome": "",
+    "nome": "A State of Trance | Drumsheds, London - 25 Years of ASOT",
     "descrizione": "A State of Trance returns to London for their first ever indoor Festival in the UK. Featuring Armin Van Buuren + more, celebrating 25 Years of ASOT",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/c/1/2274729_c036744f_a-state-of-trance-drumsheds-london-25-years-of-asot.jpg",
     "data": "2026-11-14",
@@ -272262,24 +272600,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Drumsheds-London/A-State-of-Trance--Drumsheds-London---25-Years-of-ASOT/42469575/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/EartH/Pola--Bryson-Live-World-Debut/42631426/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Night-Tales/A-One-Night-Stand--Gass-Club-Reunion---Part-2/42644255/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42623993",
-    "nome": "",
+    "nome": "Centreforce Presents - Signal City",
     "descrizione": "Centreforce Presents - Signal City",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/b/2314285_5174a685_centreforce-presents-signal-city.jpg",
     "data": "2026-10-10",
@@ -272311,11 +272637,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/The-Cause-London/Centreforce-Presents---Signal-City/42623993/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42596972",
-    "nome": "",
+    "nome": "Above & Beyond presents Anjunabeats Liverpool",
     "descrizione": "Tickets now on sale. Above & Beyond - Amy Wiles - Ferry Corsten - Marsh - J Ribbon - Kloset",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/1/6/2305752_70060bf8_above-beyond-presents-anjunabeats-liverpool.jpg",
     "data": "2026-10-17",
@@ -272356,24 +272690,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Above--Beyond-presents-Anjunabeats-Liverpool/42596972/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Jacaranda-Club/The-Howlers-Album-Launch-Show/42486299/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/ASH-30th-Anniversary-1977-Stripped-Back-Album-Show/42637461/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42482921",
-    "nome": "",
+    "nome": "SOSA EXTENDED SET | Groovebox at SteelYard, Sheffield",
     "descrizione": "This August, we are back at SteelYard in Sheffield, where we will be joined by headliner SOSA who will deliver an extended set. Full lineup TBA...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/5/9/2279053_1fdb14ef_sosa-extended-set-groovebox-at-steelyard-sheffield.jpg",
     "data": "2026-08-22",
@@ -272410,36 +272732,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Sheffield/SYSheffield-%28Steel-Yard%29/SOSA-EXTENDED-SET--Groovebox-at-SteelYard-Sheffield/42482921/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/Network-Sheffield-14-16-Matilda-Street-S14qd/Rebooted---Made-in-England---Inside---Outside---Day--Night/42627544/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/The-Brick-Yard/Bassline-in-the-Yard-with-Trilla--Friends-Sheffield/42587405/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/Caribbean-Sports-Club/Steel-City-Dancehall-Festival-2026/42428345/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/Southbank-Warehouse/--HYSTERIUM-X-NOTTS-HARD-SERVICE-x-ERROR-STATE-/42543260/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42428308",
-    "nome": "",
+    "nome": "Nightvision presents Armand Van Helden // Edinburgh",
     "descrizione": "We bring one of house music's true greats back to the capital - his only Scottish show of the year! Full line up TBA.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/1/6/2265310_91c735e7_nightvison-presents-armand-van-helden.jpg",
     "data": "2026-09-05",
@@ -272477,18 +272775,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Edinburgh/Edinburgh-Corn-Exchange/Nightvision-presents-Armand-Van-Helden--Edinburgh/42428308/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Edinburgh/The-Mash-House/Clover--The-Mash-House/42589614/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42426996",
-    "nome": "",
+    "nome": "Second Speed: blk. Liverpool",
     "descrizione": "Final Release tickets now on sale",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/2/f/2264791_b98f50e1_second-speed-blk-liverpool.jpg",
     "data": "2026-10-03",
@@ -272530,36 +272822,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Second-Speed-blk-Liverpool/42426996/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Heebie-Jeebies/00s-Indie-Afternoon-Party---Dark-Of-The-Matine-Liverpool/42421108/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Mas-Alto-presents-Massano/42461039/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/O2-Academy-Liverpool/Exhilaration-Presents-RAGETRAIN-All-Night-Long/42464702/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Palmhouse-Sefton-Park/303-Presents-The-Soundgarden/42352293/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42589555",
-    "nome": "",
+    "nome": "Cream Classics - Cardiff",
     "descrizione": "Join us in Cardiff as the most influential clubbing brand returns to Tramshed for an amazing day party with a very special line up",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/a/3/2303926_32b66940_cream-classics-cardiff.jpg",
     "data": "2026-11-14",
@@ -272595,11 +272863,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/Tramshed/Cream-Classics---Cardiff/42589555/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42620023",
-    "nome": "",
+    "nome": "Hyperactive World presents: TeeDee (All Day Long)",
     "descrizione": "TeeDee 8-hour OPEN-AIR set at Sawmills Bristol to close off Summer, final down-south open to close set of the year.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/4/2313023_bf6b5a50_hyperactive-world-presents-teedee-all-day-long-.jpg",
     "data": "2026-09-19",
@@ -272630,11 +272906,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/Sawmills/Hyperactive-World-presents-TeeDee-All-Day-Long/42620023/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41976026",
-    "nome": "",
+    "nome": "Woodland Dance Project - The Bristol Launch 2026",
     "descrizione": "Set in the lush and picturesque surroundings of Bristol, just 25 minutes from central Bristol. Kings of the Rollers, YUQT + more join us ..",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/4/4/2193321_961bab36_woodland-dance-project-the-bristol-launch-2026.jpg",
     "data": "2026-09-26",
@@ -272697,18 +272981,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/woodland-dance-project-bristol/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Sawmills/Airspace-Day-Festival--Sawmills/42627717/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41622975",
-    "nome": "",
+    "nome": "Cru2 Halloween",
     "descrizione": "The biggest Halloween rave in the midlands!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/f/2/2155780_b55c4b07_cru2-halloween-.jpg",
     "data": "2026-10-24",
@@ -272745,30 +273023,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Forum-Digbeth/Cru2-Halloween/41622975/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Night-Owl/Rip-It-Up-and-Kings-of-Hong-Kong-Present-Thee-Creature-Club/42572083/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ABOVE--BEYOND-presents-Anjunabeats-Warehouse-at-GASWRX/42596982/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Love-Affair-Presents-GREG-WILSON/42628292/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42587281",
-    "nome": "",
+    "nome": "Greg Wilson All Night Long at The Palm House - Liverpool",
     "descrizione": "The UK pioneer of electro-funk & Disco returns for very special 5 hour reel to reel set in the incredible Palm House this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/c/7/2302987_85421727_Greg-Wilson-All-Night-Long-at-The-Palm-House---Liverpool.jpg",
     "data": "2026-11-28",
@@ -272801,11 +273061,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Palm-House-Sefton-Park/Greg-Wilson-All-Night-Long-at-The-Palm-House---Liverpool/42587281/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614852",
-    "nome": "",
+    "nome": "We Are WHSE Presents: Obskür & Sidney Charles",
     "descrizione": "Sidney Charles makes his return to We Are WHSE, joined by Dublin duo Obskür for their debut on a special Saturday night.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/7/d/2311392_80163867_We-Are-WHSE-Presents--Obsk--r---Sidney-Charles.jpg",
     "data": "2026-12-12",
@@ -272840,11 +273108,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Derby/Ultra-Warehouse/We-Are-WHSE-Presents-Obskr--Sidney-Charles/42614852/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42606864",
-    "nome": "",
+    "nome": "WAH X Bedlam | Cardiff Ft. Hybrid Minds & more!",
     "descrizione": "Worried About Henry link up with Bedlam for another HUGE rave at Depot, Cardiff!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/d/b/2308870_b7aba57a_wah-x-bedlam-cardiff-ft-hybrid-minds-more-.jpg",
     "data": "2026-10-16",
@@ -272879,11 +273155,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/WAH-X-Bedlam--Cardiff-Ft-Hybrid-Minds--more/42606864/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42563116",
-    "nome": "",
+    "nome": "Shangri-La Presents: Rossi",
     "descrizione": "After our huge sell out show last year it felt only right... Rossi returns to DEPOT!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/8/2296568_716390ec_shangri-la-presents-rossi.jpg",
     "data": "2026-10-09",
@@ -272920,18 +273204,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/Shangri-La-Presents-Rossi/42563116/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/TREMOR-X-MASS6-Toxic-Machinery-Extended-Set--BLNK--JALO/42541567/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41380438",
-    "nome": "",
+    "nome": "Frantic & Nukleuz present Nukleuz 30th Birthday Xmas Party",
     "descrizione": "Frantic & Nukleuz at the iconic Ministry of Sound on Saturday 5th December to celebrate 30 years of Nukleuz!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/8/a/2113088_6e28ce22_frantic-nukleuz-present-nukleuz-30th-birthday-xmas-party.jpg",
     "data": "2026-12-05",
@@ -272990,30 +273268,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Ministry-Of-Sound/Frantic--Nukleuz-present-Nukleuz-30th-Birthday-Xmas-Party/41380438/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Electric-Brixton/35-Years-of-the-Ragga-Twins--London/42596262/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/KOKO/DJ-Marky--Friends-London--December-2026/42627865/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/Crossy-Presents-The-Breakthrough--London/42526657/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42596964",
-    "nome": "",
+    "nome": "Circus Presents Chris Stassy Sun 22nd Nov Liverpool",
     "descrizione": "Saturday - Sold Out.\nSunday - Final Release",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/1/c/2305744_5d5f68e7_circus-presents-chris-stussy-liverpool.jpg",
     "data": "2026-11-22",
@@ -273046,11 +273306,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Circus-Presents-Chris-Stussy-Sun-22nd-Nov-Liverpool/42596964/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42578321",
-    "nome": "",
+    "nome": "PRTY x HSSH: KLOFAMA [All Night Long]",
     "descrizione": "For the first time ever in the UK, KLOFAMA goes all night long at Glasgow's O2 Academy with PRTY & HSSH on 4th September.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/5/6/2300701_4a28fed8_prty-x-hssh-klofama-all-night-long-.jpg",
     "data": "2026-09-04",
@@ -273089,24 +273357,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/O2-Academy/PRTY-x-HSSH-KLOFAMA-All-Night-Long/42578321/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Audio/Generation-Grunge-presents-Hey-Pixies---Glasgow---Audio/42603196/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Slay-Glasgow/Nu-Revolution-Tribute-Fest/42638999/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42563118",
-    "nome": "",
+    "nome": "Shangri-La Presents: Kolter & Jamback",
     "descrizione": "This one is not to be missed! Kolter & Jamback touch down at DEPOT for a huge Shang debut in October.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/7/b/2296570_e75a7478_shangri-la-presents-kolter-jamback.jpg",
     "data": "2026-10-17",
@@ -273145,18 +273401,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/Shangri-La-Presents-Kolter--Jamback/42563118/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/Portland-House-Bank-And-The-Vaults/Lashed-Cardiff/42628396/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42610241",
-    "nome": "",
+    "nome": "Mint XL presents ALISHA + more",
     "descrizione": "The first Mint XL Presents is here! ALISHA, Robbie Doherty, wAFF and more are joining us for our opening season this November.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/f/c/2309739_31bbd8c0_mint-xl-presents-alisha-more.jpg",
     "data": "2026-11-07",
@@ -273192,11 +273442,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Xl/Mint-XL-presents-ALISHA--more/42610241/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42595400",
-    "nome": "",
+    "nome": "PURE Garage at Leake Street Tunnels",
     "descrizione": "PURE Garage takes over the iconic Leake Street Tunnels for a very special evening of UK Garage.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/a/2/2304996_955657f0_pure-garage-at-leake-street-tunnels.jpg",
     "data": "2026-10-03",
@@ -273234,36 +273492,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/26-Leake-Street/PURE-Garage-at-Leake-Street-Tunnels/42595400/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Drumsheds/NEXUP-The-Return/42570855/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Ironworks/Jamie-Jones-Presents-Voyager/42586835/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/Virus---Face-2-Face/42473867/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Water-Rats/The-Pedals---London/42644343/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42614315",
-    "nome": "",
+    "nome": "Eastenderz, Manchester",
     "descrizione": "Eastenderz, Manchester - 20/11/26",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/5/2311233_e42766bc_eastenderz-manchester.jpg",
     "data": "2026-11-20",
@@ -273315,18 +273549,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Eastenderz-Manchester/42614315/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/Matt-Black-Coldcut-Plays-the-Carlton-Club/42632575/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42568026",
-    "nome": "",
+    "nome": "PURE Garage Birmingham",
     "descrizione": "PURE Garage returns to Birmingham in October with an all star line up of UKG legends!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/f/1/2298019_59740796_PURE-Garage-Birmingham.jpg",
     "data": "2026-10-17",
@@ -273373,30 +273601,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/PURE-Garage-Birmingham/42568026/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Utah-Saints/42128358/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/11-Bromley-Street/Colette--CNTRL-Presents-Contact-WKepler/42617359/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/future-days/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42573719",
-    "nome": "",
+    "nome": "STREETrave Birthday Party",
     "descrizione": "Special shout going out STREETrave Originals - We are celebrating 37 years of STREETrave back in our original home Ayr Pavilion.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/e/a/2299908_859d4f1a_streetrave-birthday-party.jpg",
     "data": "2026-10-03",
@@ -273433,11 +273643,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ayr/The-Ayr-Pavilion/STREETrave-Birthday-Party/42573719/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42534112",
-    "nome": "",
+    "nome": "4am Kru | [THE BLAST] Halloween Carnival of the Dead x LSTD",
     "descrizione": "Bristol's most notorious Halloween rave! Full-decor, two-area showcase headlined by 4am Kru. Second wave of exclusive tickets just went live...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/3/4/2293851_d69dcbab_4am-kru-the-blast-halloween-carnival-of-the-dead-x-lstd.jpg",
     "data": "2026-10-31",
@@ -273479,18 +273697,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/4am-Kru--THE-BLAST-Halloween-Carnival-of-the-Dead-x-LSTD/42534112/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/MHITR-Halloween-Bristol-w-Hedex--Eksman--Raze-Soundsystem/42568064/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42617127",
-    "nome": "",
+    "nome": "History Of Rave: Eats Everything, Groove Armada + More TBA",
     "descrizione": "Eats Everything and Groove Armada headline History of Rave at The Prospect Building this October.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/e/1/2312096_bb1045ab_history-of-rave-eats-everything-groove-armada-more-tba.jpg",
     "data": "2026-10-17",
@@ -273523,11 +273735,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/History-Of-Rave-Eats-Everything-Groove-Armada--More-TBA/42617127/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42606501",
-    "nome": "",
+    "nome": "Forever presents: The History Of Jungle @ Nowhere",
     "descrizione": "The History Of Jungle hits Manchester. Sign up now for priority access to tickets.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/8/1/2308694_785d163b_forever-presents-the-history-of-jungle-nowhere.jpg",
     "data": "2026-10-03",
@@ -273580,30 +273800,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Nowhere/Forever-presents-The-History-Of-Jungle--Nowhere/42606501/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Off-The-Square/The-Harbours---Manchester/42573682/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Manchester-Academy-3/PorkPie-Live-plus-Pretty-Green-The-Jam-at-Manchester-Academy-3/41999282/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/rong-indoor-festival/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42603138",
-    "nome": "",
+    "nome": "Teletech Bristol",
     "descrizione": "Teletech returns to Bristol, taking over The Prospect Building for our biggest event yet in the city!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/b/c/2307301_505bad6f_teletech-bristol.jpg",
     "data": "2026-11-27",
@@ -273646,18 +273848,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/Teletech-Bristol/42603138/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Boxing-Gym/Gray-Presents-Antisocial-Sound-w-Electrikal-Soundsystem/42490288/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42342290",
-    "nome": "",
+    "nome": "Cru2 Manchester",
     "descrizione": "Cru2 is back in Manchester with a stacked lineup",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/f/4/2247753_3f1515a4_cru2-manchester.jpg",
     "data": "2026-08-22",
@@ -273702,30 +273898,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/HIDDEN-MANCHESTER/Cru2-Manchester/42342290/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Venus-Manchester--22-08-26/42477534/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Six-Trees/UP-with-Grace-Sands/42305697/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Bee-Noir/Rave-Odyssey-Uk-The-resistance/42487550/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42579135",
-    "nome": "",
+    "nome": "Nightvision presents Funk Tribu // Glasgow",
     "descrizione": "Nightvision bring Funk Tribu's trance inspired sound to Glasgow.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/b/2/2300757_5375ba76_funk-tribu-glasgow.jpg",
     "data": "2026-09-18",
@@ -273764,18 +273942,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Nightvision-presents-Funk-Tribu--Glasgow/42579135/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/NIGHTVISION-Presents-Funk-Tribu/42585543/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42614862",
-    "nome": "",
+    "nome": "OBSKÜR - Testbed [Leeds]",
     "descrizione": "Back for their biggest headline show in the city, the Dublin duo take over the newly refurbished TESTBED on Friday 9th October.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/f/1/2311402_7c96eef3_obsk-r-testbed-leeds-.jpg",
     "data": "2026-10-09",
@@ -273813,24 +273985,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/TESTBED---Leeds/OBSKR---Testbed-Leeds/42614862/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Xl/Marsolo-Invites-at-Mint-XL/42581516/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/O2-Academy-Leeds/4am-Kru/42641032/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42300834",
-    "nome": "",
+    "nome": "LOVEZOO Final Party 2026 at Unit 13 - Nottingham",
     "descrizione": "Get ready for an unforgettable send-off to 2026 as LOVEZOO presents its Final Party of 2026 at Unit 13",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/1/6/2237776_37f26ca2_lovezoo-final-party-2026-at-unit-13-nottingham.jpg",
     "data": "2026-11-28",
@@ -273869,11 +274029,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/Unit-13/LOVEZOO-Final-Party-2026-at-Unit-13---Nottingham/42300834/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42597315",
-    "nome": "",
+    "nome": "Forward Motion Birmingham",
     "descrizione": "Forward Motion returns to BIRMINGHAM in the legendary LAB11!\n\nWe're bringing a huge day & night party \nDeep / Soulful house\nOver 25's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/2/5/2305941_f77da706_forward-motion-birmingham.jpg",
     "data": "2026-09-05",
@@ -273909,30 +274077,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/Forward-Motion-Birmingham/42597315/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/AFTA-DARK-Pres-EVIE-All-Night-Long---Sat-5th-September/42580476/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/U-Fest---Birmingham---XOYO---Saturday-5th-September/42506669/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/Remember-Them-Dayz-Fest---Birmingham---XOYO/42402928/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42497919",
-    "nome": "",
+    "nome": "We Are WHSE Presents: TeeDee + More",
     "descrizione": "Sheffield sensation TeeDee heads to Ultra Warehouse this October as part of WHSE SZN 002.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/9/d/2283472_0c4ca0bb_we-are-whse-presents-teedee-more.jpg",
     "data": "2026-10-03",
@@ -273966,11 +274116,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Derby/Ultra-Warehouse/We-Are-WHSE-Presents-TeeDee--More/42497919/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604269",
-    "nome": "",
+    "nome": "We Are WHSE Presents: Max Dean & Friends - Boxing Day",
     "descrizione": "The biggest night of the year just got even bigger as Max Dean returns to Derby with more of your favourite DJs this Boxing Day.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/4/f/2307863_5eb9fd34_we-are-whse-presents-max-dean-friends-boxing-day.jpg",
     "data": "2026-12-26",
@@ -274001,11 +274159,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Derby/Ultra-Warehouse/We-Are-WHSE-Presents-Max-Dean--Friends---Boxing-Day/42604269/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42482932",
-    "nome": "",
+    "nome": "SIDNEY CHARLES, LUUK VAN DIJK & more | Groovebox at SteelYard",
     "descrizione": "This September, we bring Sidney Charles, Luuk Van Dijk & more to SteelYard in Sheffield for an all-day party!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/7/0/2279064_d9f7180b_sidney-charles-luuk-van-dijk-more-groovebox-at-steelyard.jpg",
     "data": "2026-09-26",
@@ -274037,11 +274203,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/SYSheffield-%28Steel-Yard%29/SIDNEY-CHARLES-LUUK-VAN-DIJK--more--Groovebox-at-SteelYard/42482932/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42605954",
-    "nome": "",
+    "nome": "Throwdown LDN",
     "descrizione": "We are back. But this time bigger. LDN.East Street Party",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/9/5/2308314_ca019c86_throwdown-ldn.jpg",
     "data": "2026-08-23",
@@ -274071,11 +274245,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/LDN-EAST/Throwdown-LDN/42605954/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42490499",
-    "nome": "",
+    "nome": "Serum's Gaff: Bristol - The Big Night Out",
     "descrizione": "DnB's finest landlord sets up his newest Gaff adventure in Bristol with the rib rattling Electrikal Soundsystem!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/1/0/2282075_4158b825_serum-s-gaff-bristol-the-big-night-out.jpg",
     "data": "2026-10-16",
@@ -274106,11 +274288,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/Electric-Bristol/Serums-Gaff-Bristol---The-Big-Night-Out/42490499/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42405256",
-    "nome": "",
+    "nome": "Square One Halloween: Kanine, Delta Heavy +more",
     "descrizione": "Nottingham's biggest Halloween warehouse rave w/ Kanine, Delta Heavy, Oko, Tantron, El Pablo, Jayfor + lots more.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/4/2259414_29413515_Square-One-DnB-Halloween.jpg",
     "data": "2026-10-30",
@@ -274149,11 +274339,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Nest/Square-One-Halloween-Warehouse-2026/42405256/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42463248",
-    "nome": "",
+    "nome": "Love to be... Sheffield",
     "descrizione": "We kick off our huge winter series of events in our home, Sheffield! at the amazing new Hangr warehouse at Steelyard! 2 rooms of house",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/f/c/2273575_22914482_Love-to-be----Sheffield.jpg",
     "data": "2026-10-17",
@@ -274193,18 +274391,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Sheffield/Hangr-Warehouse/Love-to-be-Sheffield/42463248/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/Trafalgar-Warehouse/Darren-Styles---Sheffield/42517281/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42621635",
-    "nome": "",
+    "nome": "The 77 return",
     "descrizione": "Every summer has that one event.\n\nThe one everyone wishes they got a ticket for.\n\nThis is ours.\n\nThe 77 return \n\nSummer never ends",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/6/8/2313559_1cdc76b6_the-77-return.jpg",
     "data": "2026-08-22",
@@ -274240,48 +274432,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/77/The-77-return/42621635/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/XOYO/AAA-Fusion-presents-Daxson-extended-set-plus-support/42326656/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Magazine-Open-Air/Purple-Disco-Machine/42145793/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Cause-London/Signal-Festival-2026/42254185/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/FIRE-Nightclub-London/Beyond/42611263/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Rollernation/RollerDisco/42543395/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/all-points-east/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42542976",
-    "nome": "",
+    "nome": "Andy C: AliVe | Document Bristol",
     "descrizione": "Andy C returns to Bristol with AliVe on Saturday 3rd October",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/8/8/2294719_02386d79_andy-c-presents-alive-document-bristol.jpg",
     "data": "2026-10-03",
@@ -274318,24 +274474,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Andy-C-AliVe--Document-Bristol/42542976/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Boxing-Gym/Bris-Tek-x-Zone-1-Birthday-Bash/42618300/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/O2-Academy-Bristol/Jungle-Gathering/42574326/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42564707",
-    "nome": "",
+    "nome": "Emerge pres. Hernan Cattaneo B2B Nick Warren",
     "descrizione": "After last year’s 6 hour masterclass we are delighted to welcome back Nick Warren & Hernan Cattaneo for round 2!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/2/c/2297136_278bb015_emerge-pres-hernan-cattaneo-b2b-nick-warren.jpg",
     "data": "2026-10-18",
@@ -274366,11 +274510,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Bridge-Gardens/Emerge-pres-Hernan-Cattaneo-B2B-Nick-Warren/42564707/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42483046",
-    "nome": "",
+    "nome": "Document Presents: East End Dubs",
     "descrizione": "House legend East End Dubs comes to Document, Bristol",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/a/8/2279112_e69488f6_document-presents-east-end-dubs.jpg",
     "data": "2026-11-14",
@@ -274408,18 +274560,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Document-Presents-East-End-Dubs/42483046/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/UKF-Bristol-2026/42587763/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41485691",
-    "nome": "",
+    "nome": "The Return to V7 Saxon Street - The Final Chapter",
     "descrizione": "We return one last time to the hallowed ground of V7 Saxon Street for the final dance - One last time. One last chance - ON SALE THIS THURSDAY 9am!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/e/b/2138872_49253c2f_the-return-to-v7-saxon-street-the-final-chapter.jpg",
     "data": "2026-11-07",
@@ -274494,11 +274640,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Arena-MK/The-Return-to-V7-Saxon-Street---The-Final-Chapter/41485691/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42091177",
-    "nome": "",
+    "nome": "Peach - Return to Camden-The 33rd Birthday- KOKO London",
     "descrizione": "Peach returns to KOKO this September and this time we'll be bringing you the full Camden Palace experience from 1996..",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/c/8/2207316_0f6396b0_peach-return-to-camden-koko-london.jpg",
     "data": "2026-09-05",
@@ -274542,42 +274696,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/KOKO/Peach---Return-to-Camden-The-33rd-Birthday--KOKO-London/42091177/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Dutch-Master-Boat-Party---Greenwich-Pier/The-Nextmen-and-ASkillz-Daytime-Boat-Party/42585544/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Various-Venues-Hackney-Wick/Jazz-on-Wick-2026/41477458/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/XOYO/Cafe-Mambo-Ibiza-Day-to-Night-Party-at-XOYO-London/42517625/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/jazz-on-wick-festival/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Rae%27s/Dark-Scene-London---Eclipse-inc-Simon-Carter--Trianglecuts/42485726/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42573733",
-    "nome": "",
+    "nome": "Progress - Celebrating 34 Years",
     "descrizione": "Celebrate 34 years of Progress, bringing together some of the DJs who helped define an era of house music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/1/d/2299920_1fcc03af_progress-celebrating-34-years.jpg",
     "data": "2026-12-05",
@@ -274610,11 +274734,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Derby/Ultra-Warehouse/Progress---Celebrating-34-Years/42573733/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42610225",
-    "nome": "",
+    "nome": "The Loft Party Leith Presents TERRY HUNTER | BEAR WINDER + More",
     "descrizione": "Chicago's in the house! The Loft Party returns with another world-class line-up 2 rooms of Underground House & Uplifting Disco, oh and the views!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/5/f/2309726_8801d4aa_the-loft-party-leith-presents-terry-hunter-bear-winder-more.jpg",
     "data": "2026-09-12",
@@ -274651,11 +274783,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/Port-Of-Leith-Distillery-Leith%2C-Edinburgh/The-Loft-Party-Leith-Presents-TERRY-HUNTER--BEAR-WINDER--More/42610225/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603273",
-    "nome": "",
+    "nome": "TheCore Presents: Spoontech Label Night",
     "descrizione": "TheCore and Spoontech unite for Scotland's first-ever Spoontech Label Night at City Nightclub, Falkirk. Experience the movement.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/1/2307432_74c0104a_thecore-presents-spoontech-label-night.jpg",
     "data": "2026-11-20",
@@ -274685,11 +274825,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Falkirk/City-Falkirk/TheCore-Presents-Spoontech-Label-Night/42603273/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42622702",
-    "nome": "",
+    "nome": "Jamie Fielding | Fringe Festival Pop-Up Rave",
     "descrizione": "DJ/Producer Jamie Fielding comes to Edinburgh for a pop-up rave inside a permanently closed piano bar.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/b/e/2313936_6f9c2557_jamie-fielding-fringe-festival-pop-up-rave.jpg",
     "data": "2026-08-28",
@@ -274721,11 +274869,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Aberdeen/Rat-Pack-Piano-Bar/Jamie-Fielding--Fringe-Festival-Pop-Up-Rave/42622702/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42620756",
-    "nome": "",
+    "nome": "Gatecrasher Immersive",
     "descrizione": "Gatecrasher returns to Coventry with a superstar line-up, in a superstar venue, for a superstar crowd.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/b/c/2313329_73842692_Gatecrasher-Immersive.jpg",
     "data": "2026-12-27",
@@ -274766,11 +274922,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Coventry/Kasbah/Gatecrasher-Immersive/42620756/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580904",
-    "nome": "",
+    "nome": "FLY | House Heads pres. Luuk Van Dijk, Robbie Doherty & Prunk",
     "descrizione": "Dutch house icon Luuk Van Dijk heads to SWG3 Galvanizers, alongside a packed line up, for FLY House Heads Glasgow on Friday 25 September 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/a/2301313_227ec99d_fly-house-heads-pres-luuk-van-dijk-robbie-doherty-prunk.jpg",
     "data": "2026-09-25",
@@ -274810,18 +274974,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--House-Heads-pres-Luuk-Van-Dijk-Robbie-Doherty--Prunk/42580904/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Glasgow-School-Of-Art/PRTY-SLVL---Glasgow/42585173/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42567474",
-    "nome": "",
+    "nome": "Worried About Henry",
     "descrizione": "Worried About Henry - Friday 9th October",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/2/b/2297913_e7e6c1d2_worried-about-henry.jpg",
     "data": "2026-10-09",
@@ -274880,24 +275038,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Worried-About-Henry/42567474/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Night-And-Day-Cafe/The-Crooks---Manchester/42506622/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Aviva-Studios-%28Factory-International%29/Chris-Stussy-presents-USS--Aviva-Studios-Manchester/42569374/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42618513",
-    "nome": "",
+    "nome": "Hedkandi Present Disco Heaven : The Stereo Reunion @ Aveika",
     "descrizione": "Hedkandi Return To Newcastle With A Full Day & Night Party Of Classic Kandi Anthems. It Began With Stereo & It Continues @ Aveika On Sat 10th Oct",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/0/8/2312574_6bc1a07d_hedkandi-present-disco-heaven-aveika-newcastle.jpg",
     "data": "2026-10-10",
@@ -274931,11 +275077,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Aveika/Hedkandi-Present-Disco-Heaven--Aveika--Newcastle/42618513/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42412939",
-    "nome": "",
+    "nome": "The HONEYCLUB Reunion LOVEZOO / SEVEN SINS Brighton",
     "descrizione": "DAY TO NIGHT. THEN... AFTER DARK. \nOriginal Honeyclub Venue (Horizon)  Afterparty at TIDE\nLOVEZOO\nSEVEVEN SINS",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/1/2261416_db189532_the-honeyclub-reunion-lovezoo-seven-sins-brighton.jpg",
     "data": "2026-09-19",
@@ -274977,18 +275131,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Brighton/Horizon-Club/The-HONEYCLUB-Reunion-LOVEZOO--SEVEN-SINS-Brighton/42412939/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Concorde-2/Moody-Disco-SOSA/42647836/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42585169",
-    "nome": "",
+    "nome": "PRTY: SLVL - Edinburgh",
     "descrizione": "SLVL comes to PRTY Edinburgh for the first stop of the Scotland tour. Expect relentless energy from one of the scene's fastest-rising names.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/c/2/2302390_c0c03fff_prty-slvl-edinburgh.jpg",
     "data": "2026-09-04",
@@ -275021,11 +275169,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/Liquid-Room-Edinburgh/PRTY-SLVL---Edinburgh/42585169/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42435618",
-    "nome": "",
+    "nome": "Fantazia | Document Open Air",
     "descrizione": "30th August, Fantazia returns for a bank holiday takeover with legends old and new  for the brand new Document Open Air summer series!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/e/2267452_80844a6a_fantazia-document-open-air.jpg",
     "data": "2026-08-30",
@@ -275078,18 +275234,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Fantazia--Document-Open-Air/42435618/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Death-Disco/Rosado-Street-Party/42608922/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42473821",
-    "nome": "",
+    "nome": "Terrace Party: Locklead, Cam Stockman, Bullet Tooth + more",
     "descrizione": "August Bank Holiday on the terrace with Cam Stockman, Bullet Tooth, Locklead and much more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/9/b/2276401_57855788_Terrace-Party--Locklead--Cam-Stockman--Bullet-Tooth---more.jpg",
     "data": "2026-08-30",
@@ -275129,24 +275279,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Warehouse/Terrace-Party-Locklead-Cam-Stockman-Bullet-Tooth--more/42473821/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Project-House-Leeds/Club-Classics-90s--00s-Courtyard-Party/42464860/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Crowded-House/LIT-Ibiza-Takeover-August-Bank-Holiday-Sunday-Closing-Party/42592195/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42483050",
-    "nome": "",
+    "nome": "SLAPFUNK & RUCKUS24 HALLOWEEN [Leeds]",
     "descrizione": "The annual SLAPFUNK & RUCKUS24 HALLOWEEN day & night party! 16 hours across TESTBED and UNDER THE ARCHES with a killer lineup & very special guest.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/5/2279116_dc581bc8_slapfunk-ruckus24-halloween-leeds-.jpg",
     "data": "2026-10-31",
@@ -275186,30 +275324,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/TESTBED---Leeds/SLAPFUNK--RUCKUS24-HALLOWEEN-Leeds/42483050/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Xl/Ewan-Mcvicar-Presents-Halloween--Mint-XL/42616605/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Irish-Centre/UB40-Experience/42572990/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Warehouse/Our-House-Day-of-The-Dead-Halloween-Party/42624002/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42613486",
-    "nome": "",
+    "nome": "Gray Presents: Antisocial Sound | London",
     "descrizione": "Gray is returning to his hometown for his first ever London 'Antisocial Sound' show...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/1/1/2310811_e9767e43_gray-presents-antisocial-sound-london.jpg",
     "data": "2026-10-09",
@@ -275247,30 +275367,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/The-Cause-London/Gray-Presents-Antisocial-Sound--London/42613486/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Drumsheds/Dont-Let-Daddy-Know/42478225/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Stags-Head/Dead-Cherry---London/42629828/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Oslo/SYN-LDN-Eliminate-w-Special-Guest-RIOT/42628403/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42566355",
-    "nome": "",
+    "nome": "Ellie Sax presents Ibiza Anthems Live",
     "descrizione": "Get ready for an unforgettable evening as the iconic Ellie Sax presents Ibiza Anthems Live at the stunning Town Hall on Saturday 5th December.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/3/a/2297639_3907d807_ellie-sax.jpg",
     "data": "2026-12-05",
@@ -275305,11 +275407,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Lancaster/Lancaster-Town-Hall/Ellie-Sax-presents-Ibiza-Anthems-Live/42566355/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614855",
-    "nome": "",
+    "nome": "Don't F**k with Disco - Liverpool Street Party",
     "descrizione": "On the 5th September we will be closing off a whole street for our first ever summer party in Liverpool. - THEME: HATS... NO HAT, NO FUCKING ENTRY.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/8/d/2311395_766f98b1_don-t-f-k-with-disco-liverpool-street-party.jpg",
     "data": "2026-09-05",
@@ -275347,18 +275457,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Jamaica-Street/Dont-Fk-with-Disco---Liverpool-Street-Party/42614855/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/Arrested-Development/42439132/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42622748",
-    "nome": "",
+    "nome": "The Night Institute Presents: Paranoid London",
     "descrizione": "After our debut party at Shorts earlier this year, we return with Paranoid London. Expect acid with attitude, and prepare to sweat!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/d/4/2313965_66ceb371_the-night-institute-presents-paranoid-london.jpg",
     "data": "2026-08-29",
@@ -275392,11 +275496,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Belfast/Shorts-Recreation-And-8203-Club/The-Night-Institute-Presents-Paranoid-London/42622748/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42503511",
-    "nome": "",
+    "nome": "CUE 3rd Birthday w. Julian Fijma, Lucas Alexander & more",
     "descrizione": "Back at the mothership to celebrate our third lap around the sun with a mega line up. Tickets starting at just £15.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/f/f/2284572_294d01ef_cue-3rd-birthday-w-julian-fijma-lucas-alexander-more.jpg",
     "data": "2026-09-26",
@@ -275432,11 +275544,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/CUE-3rd-Birthday-w-Julian-Fijma-Lucas-Alexander--more/42503511/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42490493",
-    "nome": "",
+    "nome": "Kings of the Rollers Royal Rumble Halloween: Birmingham",
     "descrizione": "We have set up camp inside the fortress of Forum Digeth, our quest? To take on the brummy zombie hordes using maximum bass frequencies ..",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/f/2282069_ac5efa59_kings-of-the-rollers-royal-rumble-halloween-birmingham.jpg",
     "data": "2026-10-30",
@@ -275478,18 +275598,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Forum-Digbeth/Kings-of-the-Rollers-Royal-Rumble-Halloween-Birmingham/42490493/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/Substance-Halloween-w-Chad-Harrison-Burgaboy---Special-Guest/42564122/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42450342",
-    "nome": "",
+    "nome": "Tidy presents B2B (Back 2 Bournemouth)",
     "descrizione": "Tidy comes back to Bournemouth. Expect the unexpected...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/9/d/2270735_5596b37d_tidy-presents-b2b-back-2-bournemouth-.jpg",
     "data": "2026-11-28",
@@ -275529,11 +275643,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bournemouth/O2-Academy-Bournemouth/Tidy-presents-B2B-Back-2-Bournemouth/42450342/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42082157",
-    "nome": "",
+    "nome": "Bonkers 30 Years",
     "descrizione": "Bonkers returns to the iconic Ministry of Sound on Saturday 12th September to celebrate 30 years of Bonkers!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/1/a/2204565_6cf9c956_bonkers-30-years.jpg",
     "data": "2026-09-12",
@@ -275591,24 +275713,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Ministry-Of-Sound/Bonkers-30-Years/42082157/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Rolling-Stock-The-Bunker/FunkYouUp/42627713/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/XOYO/Philly-Blunt-XOYO-London/42490507/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42415679",
-    "nome": "",
+    "nome": "Touch Of Class",
     "descrizione": "Step into elegance at A Touch of Class Party - a stylish night of music, vibes,and sophistication. Join us on Saturday 7th November2026 at Cedar Court",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/c/8/2262222_a98ece24_touch-of-class.jpg",
     "data": "2026-11-07",
@@ -275641,11 +275751,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Huddersfield/Cedar-Court-Hotel/Touch-Of-Class/42415679/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42590078",
-    "nome": "",
+    "nome": "The Birthday Link up | 16 Years of Electrikal & 26 Years of RC1",
     "descrizione": "14 Hours day into night rave!\n\n2 titan sound system unite for one massive Birthday celebration.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/3/2304165_32184699_the-birthday-link-up-16-years-of-electrikal-26-years-of-rc1.jpg",
     "data": "2026-09-05",
@@ -275687,18 +275805,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Lakota/The-Birthday-Link-up--16-Years-of-Electrikal--26-Years-of-RC1/42590078/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Clock-Factory/Cru2-Bristol/42458877/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42463258",
-    "nome": "",
+    "nome": "Ely Oaks - London",
     "descrizione": "Ely Oaks come to London to headline Number 90 (Lock) on Fri 25th September.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/0/6/2273583_f8d89c8f_ely-oaks-london.jpg",
     "data": "2026-09-25",
@@ -275730,11 +275842,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/Number-90-Lock/Ely-Oaks---London/42463258/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42482916",
-    "nome": "",
+    "nome": "SOSA EXTENDED SET | Groovebox at Rock City",
     "descrizione": "This September, we head to one of the best nightclubs in Nottingham, Rock City. Joined by SOSA, who will deliver an extended set, full lineup TBA...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/8/7/2279048_99d3eff9_sosa-extended-set-groovebox-at-rock-city.jpg",
     "data": "2026-09-05",
@@ -275773,18 +275893,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/Rock-City-Nottingham/SOSA-EXTENDED-SET--Groovebox-at-Rock-City/42482916/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/Nottingham-Castle/The-Bootleg-Beatles-ft-Live-Orchestra--Nottingham-Castle/42260106/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42246521",
-    "nome": "",
+    "nome": "Moondance 31 - Summer Session",
     "descrizione": "Following the sold out Spring Session, Moondance returns to Studio 338 for an end of summer celebration on Saturday 26th September!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/5/f/2223840_11516276_Moondance.jpg",
     "data": "2026-09-26",
@@ -275839,11 +275953,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/Studio-338/Moondance-31---Summer-Session/42246521/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42565564",
-    "nome": "",
+    "nome": "É Soul Cultura Daytime at Hidden & After Party -Hidden Basement",
     "descrizione": "Join Luke Una for a 7 hour solo set at Hidden Courtyard 2-9pm. After party just announced 9pm-3am with Chris Duckenfield, Joey T & Louie Wainwright.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/c/f/2297316_5dde9201_-soul-cultura-daytime-at-hidden-after-party-hidden-basement.jpg",
     "data": "2026-08-30",
@@ -275887,42 +276009,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Hidden/-Soul-Cultura-Daytime-at-Hidden--After-Party--Hidden-Basement/42565564/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Bee-Noir/The-Lab-Presents--Jamie-Fielding--Jacob-Matthews/42580838/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/The-Loft-MCR/Animal-Crossing--Dr-Banana-presents-The-Afters/42596782/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Monton-Cricket-Sports-Club/Monton-Soul--Pop-festival/42300670/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Freight-Island/Allday-Indie-Outdoor-Festival---Manchester/41770198/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/New-Century/Current-Joys/42333337/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42596334",
-    "nome": "",
+    "nome": "Tre Reynolds | Joshua Brooks Manchester",
     "descrizione": "Liverpool's Tre Reynolds heads to the Joshua Brooks basement in Manchester. Minimal, deep tech and vocal-led house. Support from James Nash.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/e/4/2305319_0bd6d4e7_tre-reynolds-joshua-brooks-manchester.jpg",
     "data": "2026-09-26",
@@ -275961,48 +276053,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Tre-Reynolds--Joshua-Brooks-Manchester/42596334/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/O2-Victoria-Warehouse/Teletech-Slush-SLVL-B2B-USH-All-Night-long---Manchester/42630399/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/IDRA/Kaluki-presents-Idra-Opening/42613551/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Sankeys-Manchester/Sankeys-Saturdays/42285108/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/The-Yard-Manchester/Tempo--Resonate-pres-Brian-Tappert--Grant-Nelson/42502487/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/Homobloc/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Fuel-Bar-Cafe/Neck-of-the-Woods-Festival/42664118/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42435766",
-    "nome": "",
+    "nome": "U.K vs Belgium Tour: Nottingham",
     "descrizione": "U.K vs Belgium are back on tour! Nottingham this one is for you!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/c/1/2267528_1fd16cc2_u-k-vs-belgium-tour-nottingham.jpg",
     "data": "2026-09-19",
@@ -276044,36 +276100,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/The-Palais-Nottingham/UK-vs-Belgium-Tour-Nottingham/42435766/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/Unit-13/Cru2-Nottingham/42570502/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/Binks-Yard/Trancecoda--Groovebox-pres-Shine-Open-Air-with-Paul-van-Dyk/41999283/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/Binks-Yard/PAUL-VAN-DYK-Open-Air--Trancecoda-X-Groovebox-X-Shine-at-Binks/41993034/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/THE-BOAT-CLUB/Orange-Fest/42526775/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42604395",
-    "nome": "",
+    "nome": "Bonkers 30 Years - Glasgow - Classics Edition",
     "descrizione": "Bonkers is back in our favourite city to celebrate 30 Years with a night packed with Classics.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/2/8/2307933_249513f7_bonkers-30-years-glasgow-classics-edition.jpg",
     "data": "2026-10-10",
@@ -276115,18 +276147,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Classic-Grand./Bonkers-30-Years---Glasgow---Classics-Edition/42604395/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Audio/Ncrypted-Events-THE-FIRST-RITUAL/42630703/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42541838",
-    "nome": "",
+    "nome": "SOTA, CIRCADIAN & MORE | Groovebox X Submerged at The Nest",
     "descrizione": "This November Groovebox x Submerged returns to The Nest for an all-night session with headliner SOTA + a stacked lineup of support acts.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/9/8/2294578_0c6b6812_sota-circadian-more-groovebox-x-submerged-at-the-nest.jpg",
     "data": "2026-11-14",
@@ -276160,11 +276186,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/Nottingham%27s-The-Nest-%28Notts-County-FC%29/SOTA-CIRCADIAN--MORE--Groovebox-X-Submerged-at-The-Nest/42541838/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42613408",
-    "nome": "",
+    "nome": "La Discotheque Festival, Manchester",
     "descrizione": "La Discotheque Festival, Manchester - 07/11/26",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/8/2310786_aa45a37c_la-discotheque-festival-manchester.jpg",
     "data": "2026-11-07",
@@ -276223,24 +276257,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/La-Discotheque-Festival-Manchester/42613408/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/damnation/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/HIDDEN-MANCHESTER/True-Pride/42617039/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42579125",
-    "nome": "",
+    "nome": "5 Years of Airspace: Notion + MORE",
     "descrizione": "MiNT XL | Oct 10th | NOTION, KYLE STARKEY, CAMILLE DOE, SHUFFA | Join us for a massive 2,500 capacity show in Leeds newest venue.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/a/b/2300747_b21c3874_5-years-of-airspace-notion-more.jpg",
     "data": "2026-10-10",
@@ -276281,18 +276303,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Xl/5-Years-of-Airspace-Notion--MORE/42579125/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Beaverworks/Born-on-Road--Leeds/42580827/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42604270",
-    "nome": "",
+    "nome": "Then, Now, Beyond: The Emporium's 31st Birthday",
     "descrizione": "The Emporium’s 31st Birthday. Three arenas of Trance & Hard House with world-class artists. Then. Now. Beyond.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/9/c/2307864_3f70667d_then-now-beyond-the-emporium-s-31st-birthday.jpg",
     "data": "2026-12-27",
@@ -276324,11 +276340,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leicester/The-Emporium/Then-Now-Beyond-The-Emporiums-31st-Birthday/42604270/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42567471",
-    "nome": "",
+    "nome": "MPH - Kitchen Street, Liverpool",
     "descrizione": "Final 50 tickets on sale now",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/1/e/2297910_c83109e0_mph-kitchen-street-liverpool.jpg",
     "data": "2026-11-20",
@@ -276361,11 +276385,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/24-Kitchen-Street/MPH---Kitchen-Street-Liverpool/42567471/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42286363",
-    "nome": "",
+    "nome": "WHP + Teletech presents DOOF - Hannah Laing + Guests",
     "descrizione": "Hannah Laing heads to The Depot, Mayfield on Friday 16th October for WHP + Teletech presents DOOF. Ages 18+",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/d/9/2234670_eae96952_whp-teletech-presents-doof-hannah-laing-guests.jpg",
     "data": "2026-10-16",
@@ -276404,11 +276436,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP--Teletech-presents-DOOF---Hannah-Laing--Guests/42286363/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42529833",
-    "nome": "",
+    "nome": "Shy FX | Northampton",
     "descrizione": "The legendary Shy FX comes to Roadmender this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/0/2292208_10168781_Shy-FX---Northampton.jpg",
     "data": "2026-10-17",
@@ -276440,11 +276480,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Northampton/Roadmender-Northampton/Shy-FX--Northampton/42529833/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42420684",
-    "nome": "",
+    "nome": "RARE Club Presents: The Warehouse Rave w/ Ewan Mcvicar",
     "descrizione": "The biggest party we've ever thrown in Aberdeen, Ewan McVicar headlines our warehouse down at the harbour. Big Miz and RARE residents on support.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/6/c/2263486_decba91f_rare-club-presents-the-warehouse-rave-w-ewan-mcvicar.jpg",
     "data": "2026-10-03",
@@ -276475,11 +276523,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Aberdeen/Harbourworks/RARE-Club-Presents-The-Warehouse-Rave-w-Ewan-Mcvicar/42420684/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42620592",
-    "nome": "",
+    "nome": "Trashdisco - Craigmile Revisited - Michael Kilkie & Jon Mancini",
     "descrizione": "Michael Kilkie and Jon Mancini join Kev Green and Gary Nicol for another nostalgic night of old skool house at The Craigmile.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/8/0/2313229_ebb6a8fb_trashdisco-craigmile-revisited-michael-kilkie-jon-mancini.jpg",
     "data": "2026-10-17",
@@ -276511,11 +276567,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Aberdeen/Leys-Hotel/Trashdisco---Craigmile-Revisited---Michael-Kilkie--Jon-Mancini/42620592/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42529827",
-    "nome": "",
+    "nome": "Shy FX | Leeds",
     "descrizione": "The legendary Shy FX comes to The Warehouse this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/e/8/2292202_f985de6b_shy-fx-leeds.jpg",
     "data": "2026-10-24",
@@ -276547,11 +276611,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/The-Warehouse/Shy-FX--Leeds/42529827/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42602754",
-    "nome": "",
+    "nome": "UKG Brunch - Bristol Ft. Kele Le Roc, Sweet Female Attitude ++",
     "descrizione": "UKG Brunch lands in Bristol this November for a HUGE indoor festival with some of UKG's biggest names",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/8/6/2307232_8d5f1ce2_ukg-brunch-bristol-ft-kele-le-roc-sweet-female-attitude-.jpg",
     "data": "2026-11-07",
@@ -276596,18 +276668,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/UKG-Brunch---Bristol-Ft-Kele-Le-Roc-Sweet-Female-Attitude-/42602754/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Exchange-Bristol/Exchange-Takeover/42309324/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42607274",
-    "nome": "",
+    "nome": "Raw Material 18th Birthday FT Devilman X MR.Traumatik + More",
     "descrizione": "Raw Material returns to celebrate 18 years in the game Ft: Devilman- Mr.Traumatik - Elro - Upgrade - Serial Killaz & More",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/d/0/2309036_eba37aca_raw-material-18th-birthday-ft-devilman-x-traumatik-more.jpg",
     "data": "2026-10-17",
@@ -276642,11 +276708,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Norwich/Kudos-Bar-And-Nightclub/Raw-Material-18th-Birthday-FT-Devilman-X-MRTraumatik--More/42607274/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42567618",
-    "nome": "",
+    "nome": "Critical Sound London 2026 | FABRICLIVE",
     "descrizione": "We are back : Critical Sound all three areas at fabric. Presale completely sold out - remaining tickets go live at 7pm.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/3/b/2297992_b478fd98_critical-sound-london-2026-fabriclive.jpg",
     "data": "2026-10-23",
@@ -276703,18 +276777,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Fabric-London/Critical-Sound-London-2026--FABRICLIVE/42567618/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/Lavern-360-Show/42596737/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42405520",
-    "nome": "",
+    "nome": "IllumiNaughty: 20 Years Of Chaos - Vini Vici & More",
     "descrizione": "For one night only, London becomes home to an indoor psytrance experience.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/d/2259552_ec40109d_illuminaughty-20-years-of-chaos-vini-vici-more.jpg",
     "data": "2026-11-07",
@@ -276745,11 +276813,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/Studio-338/IllumiNaughty-20-Years-Of-Chaos---Vini-Vici--More/42405520/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42491687",
-    "nome": "",
+    "nome": "system. presents Mint XL Opening Party",
     "descrizione": "The opening party sets the tone for a new era, with system. taking over all three rooms at the new Mint XL.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/5/0/2282292_7fc837ad_system-presents-mint-xl-opening-party.jpg",
     "data": "2026-09-25",
@@ -276797,18 +276873,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Xl/system-presents-Mint-XL-Opening-Party/42491687/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/O2-Academy/Breakin-Science--Drumatics-Leeds/42427155/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42596345",
-    "nome": "",
+    "nome": "CamelPhat",
     "descrizione": "Grammy-nominated powerhouse duo CAMELPHAT are bringing their signature sound to London's newest venue, Ironworks.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/6/7/2305330_6a48d976_camelphat.jpg",
     "data": "2026-10-24",
@@ -276846,24 +276916,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Ironworks/CamelPhat/42596345/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/XOYO/My-House---Get-Your-Freak-On/42326309/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Fabric-London/Fools-Paradise-Mark-Knight-Mousse-T-Michael-Gray--more/42579854/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42457539",
-    "nome": "",
+    "nome": "Garage Nation Sopers House",
     "descrizione": "Garage Nation returns to Sopers House for one more party for the year!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/9/2/2271537_25b25d74_garage-nation-sopers-house.jpg",
     "data": "2026-10-10",
@@ -276891,11 +276949,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Enfield/Sopers-House/Garage-Nation-Sopers-House/42457539/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42447149",
-    "nome": "",
+    "nome": "Sunday West Soundsystem at Notting Hill Carnival 2026",
     "descrizione": "Sunday West returns to Loft Studios for Carnival 2026 with Spirit of 96 - house, garage & jungle legends celebrating 30 years of vibes. Unmissable.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/2/0/2269901_d609c869_sunday-west-soundsystem-x-notting-hill-carnival-spirit-of-96-.jpg",
     "data": "2026-08-30",
@@ -276936,24 +277002,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Loft-Studios/Sunday-West-Soundsystem-at-Notting-Hill-Carnival-2026/42447149/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Ministry-Of-Sound/Tribal-Life---Carnival-After-Party/42569866/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/XOYO/Joss-Dean-All-Night-Long-w-Special-Guests/42463211/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42617123",
-    "nome": "",
+    "nome": "ATW pres. Interplanetary Criminal + Guests",
     "descrizione": "This November, Interplanetary Criminal heads up his ATW label showcase at The Prospect Building, joined by a stacked lineup still to be announced.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/9/5/2312093_7fc98a55_atw-pres-interplanetary-criminal-guests.jpg",
     "data": "2026-11-28",
@@ -276991,18 +277045,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/ATW-pres-Interplanetary-Criminal--Guests/42617123/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Jazzy---Peace--Patience-Tour--Bristol/42535226/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42617258",
-    "nome": "",
+    "nome": "Emerge pres. Guy J, Mariano Mellino, Alex O'Rion, GMJ & Matter",
     "descrizione": "Along with our friends from Progressive Hub Amsterdam we are delighted to close out 2026 with a showcase of talent from the progressive house scene!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/8/b/2312136_e87fc805_emerge-pres-guy-j-mariano-mellino-alex-o-rion-gmj-matter.jpg",
     "data": "2026-10-25",
@@ -277037,11 +277085,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Bridge-Gardens/Emerge-pres-Guy-J-Mariano-Mellino-Alex-ORion-GMJ--Matter/42617258/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42483041",
-    "nome": "",
+    "nome": "SOSA Presents: COCO | Document Bristol",
     "descrizione": "We're so excited to announce that SOSA is bringing COCO to Document this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/0/8/2279107_47446972_sosa-presents-coco-document-bristol.jpg",
     "data": "2026-10-10",
@@ -277080,18 +277136,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/SOSA-Presents-COCO--Document-Bristol/42483041/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Sawmills/Kelvin-373-Presents-Boiling-Point-XL-w-Electrikal-Soundsystem/42580663/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42435064",
-    "nome": "",
+    "nome": "An Evening With Chicane - Nottingham",
     "descrizione": "The legendary CHICANE headlines Nottingham for an evening of Balearic sounds. This one will be special.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/7/0/2267240_12708333_An-Evening-With-Chicane---Nottingham.jpg",
     "data": "2026-10-24",
@@ -277123,11 +277173,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Palais-Nottingham/An-Evening-With-Chicane---Nottingham/42435064/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42605340",
-    "nome": "",
+    "nome": "Halloween Rave w/ Andy C, Sota, [IVY] + more",
     "descrizione": "This Halloween, Dazed Muzic is bringing one of the biggest drum & bass events of the year to The Great Hall, Cardiff!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/a/2308176_cc1fa182_halloween-rave-w-andy-c-sota-ivy-more.jpg",
     "data": "2026-10-31",
@@ -277162,11 +277220,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/The-Great-Hall/Halloween-Rave-w-Andy-C-Sota-IVY--more/42605340/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42529835",
-    "nome": "",
+    "nome": "Shy FX | Cambridge",
     "descrizione": "The legendary Shy FX comes to Junction this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/0/0/2292210_73676018_Shy-FX---Cambridge.jpg",
     "data": "2026-11-28",
@@ -277198,11 +277264,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cambridge/Cambridge-Junction%2C-England/Shy-FX--Cambridge/42529835/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42570902",
-    "nome": "",
+    "nome": "Shy FX | Oxford",
     "descrizione": "The legendary Shy FX comes to O2 Academy Oxford this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/6/4/2299088_c8192b3f_shy-fx-oxford.jpg",
     "data": "2026-10-30",
@@ -277234,11 +277308,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oxford/O2-Academy-Oxford/Shy-FX--Oxford/42570902/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42570909",
-    "nome": "",
+    "nome": "Shy FX | Cardiff",
     "descrizione": "The legendary Shy FX comes to District this December!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/7/2299093_59385611_Shy-FX---Cardiff.jpg",
     "data": "2026-12-04",
@@ -277270,11 +277352,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/Shy-FX--Cardiff/42570909/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42081965",
-    "nome": "",
+    "nome": "Saturday Afternoon Disco - Strictly Over 30's",
     "descrizione": "Saturday Afternoon Disco lands at SALT! Dance to the best 80s, 90s & 00s hits with DJs from Blue Lace, Maestro, Cloud Nine, Livingstone's & Rio's.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/5/2/2204461_14392065_Saturday-Afternoon-Disco---Strictly-Over-30-s.jpg",
     "data": "2026-11-28",
@@ -277304,11 +277394,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bradford/Salt-Beer-Factory/Saturday-Afternoon-Disco---Strictly-Over-30s/42081965/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42587945",
-    "nome": "",
+    "nome": "Menu Music x Rosado - Summer Terrace Party",
     "descrizione": "Two Bristol collectives join forces for a one-off summer terrace day party.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/2/8/2303328_2a44de31_menu-music-x-rosado-summer-terrace-party.jpg",
     "data": "2026-08-22",
@@ -277346,24 +277444,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Bambalan/Menu-Music-x-Rosado---Summer-Terrace-Party/42587945/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Lakota/Outdoor-Emo-Festival-Comes-to-Bristol/42333330/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Lakota/Leighton-x-Kuns-Jungle-Summer-Motive/42332308/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42587939",
-    "nome": "",
+    "nome": "GOO - Daniel Avery & Richard Fearless",
     "descrizione": "GOO\nDaniel Avery & Richard Fearless B2B DJ set",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-10-02",
@@ -277397,11 +277483,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oldham/The-Golden-Lion-Todmorden/GOO---Daniel-Avery--Richard-Fearless/42587939/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42458066",
-    "nome": "",
+    "nome": "QUADRANT PARK : Autumn Party",
     "descrizione": "Join original QUADRANT PARK DJ's Andy Carroll and John Kelly with some very special guests in the WAV Garden, Liverpool 4pm-2am.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/0/c/2271746_11444482_Quadrant-Park-Autumn-Party.jpg",
     "data": "2026-09-26",
@@ -277445,30 +277539,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Wav-Garden/QUADRANT-PARK-Autumn-Party/42458066/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Wav-Garden/QUADRANT-PARK--Autumn-Party/42458066/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/44-Brick-Street-L1-0BN/Calibre-Open-Air---The-Wonder-Pot--SubHarmonic/42616631/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Invisible-Wind-Factory/Circus-Birthday-Official-After-Party-Sat-26-Sept-at-IWF/42665246/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42473431",
-    "nome": "",
+    "nome": "Garlands Presents Fairies On The Mersey",
     "descrizione": "Garlands is back on the water. The first boat sold out in 24 hours now we're doing it again. Bank Holiday weekend on The Daffodil. Limited tickets.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/a/5/2276354_c92c653d_garlands-presents-fairies-on-the-mersey.jpg",
     "data": "2026-08-30",
@@ -277504,24 +277580,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Daffodil-Liverpool/Garlands-Presents-Fairies-On-The-Mersey/42473431/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Liberte-Sky-Garden/Come-Together---Bank-Holiday-Sunday-Rooftop-Party/42495246/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Wav-Garden/State-of-Mind---The-Launch/42437697/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42570852",
-    "nome": "",
+    "nome": "Say WHAT? presents Ralph Lawson & Tristan Da Cunha",
     "descrizione": "Say WHAT? welcomes back two House music heavyweights Ralph Lawson & Tristan Da Cunha",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/0/3/2299054_9a0ff57b_say-what-presents-ralph-lawson-tristan-da-cunha.jpg",
     "data": "2026-08-22",
@@ -277556,11 +277620,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oldham/Golden-Lion-Todmorden/Say-WHAT-presents-Ralph-Lawson--Tristan-Da-Cunha/42570852/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42587386",
-    "nome": "",
+    "nome": "CUE - Lincoln, Halloween w. TeeDee, Ryan Resso, Chopper & more",
     "descrizione": "We take on Lincoln's iconic ENGINE SHED for a monster Halloween event. Sign up for early access to tickets.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/d/2303054_bacefa3b_cue-lincoln-halloween-w-teedee-ryan-resso-chopper-more.jpg",
     "data": "2026-10-31",
@@ -277597,11 +277669,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Lincoln/The-Engine-Shed/CUE---Lincoln-Halloween-w-TeeDee-Ryan-Resso-Chopper--more/42587386/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42486365",
-    "nome": "",
+    "nome": "Word of Mouth THE OVER 25'S CLUB Fox Stourton 7PM - Midnight",
     "descrizione": "Strictly for Over 25's a night of House Anthems, Club Classics and UK Garage.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/1/a/2280439_49529176_Word-of-Mouth-THE-OVER-25-S-CLUB-Fox-Stourton-7PM---Midnight.jpg",
     "data": "2026-08-28",
@@ -277634,11 +277714,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stourbridge/The-Fox-Inn-Stourton/Word-of-Mouth-THE-OVER-25S-CLUB-Fox-Stourton-7PM---Midnight/42486365/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42288403",
-    "nome": "",
+    "nome": "Rave Heaven with George Bowie (GBX)",
     "descrizione": "Rave Heaven is back with GBX in the house!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/e/3/2235463_dd3bf061_rave-heaven-with-george-bowie-gbx-.jpg",
     "data": "2026-09-19",
@@ -277680,30 +277768,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Classic-Grand./Rave-Heaven-with-George-Bowie-GBX/42288403/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--Dance-Forever-pres-Benwal--Kyle-Starkey/42580906/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/2Passo--Hidde-Van-Wee-All-Night-Long/42617129/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Queens-Park-Recreation/Complete-Stone-Roses-Live-In-The-Big-Top/41970865/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42349594",
-    "nome": "",
+    "nome": "Planet V Brighton | Summer All Dayer",
     "descrizione": "V Recordings & Def:inition present 2 Arenas of Drum & Bass including Liquid V on the Outdoor Terrace!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/a/1/2249081_7a851da5_planet-v-brighton-summer-all-dayer.jpg",
     "data": "2026-08-29",
@@ -277755,18 +277825,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Brighton/The-Concorde-2/Planet-V-Brighton--Summer-All-Dayer/42349594/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Brighton-Marina-Ross-Boats/Size-Summer-Boat-Party/42470247/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42489653",
-    "nome": "",
+    "nome": "Trancecoda & Louder Present Paul van Dyk, Plymouth",
     "descrizione": "Paul van Dyk returns to Plymouth for a one off event in the brand new Depo.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/d/c/2281789_a318b7c3_trancecoda-louder-present-paul-van-dyk-plymouth.jpg",
     "data": "2026-09-18",
@@ -277805,18 +277869,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Plymouth/The-Depot/Trancecoda--Louder-Present-Paul-van-Dyk-Plymouth/42489653/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Plymouth/THE-DEPO/Trancecoda--Louder-Present-Paul-van-Dyk/42491544/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42570911",
-    "nome": "",
+    "nome": "Shy FX | Bournemouth",
     "descrizione": "The legendary Shy FX comes to The Old Fire Station this December!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/7/7/2299095_56502072_Shy-FX---Bournemouth.jpg",
     "data": "2026-12-05",
@@ -277848,11 +277906,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bournemouth/The-Old-Fire-Station/Shy-FX--Bournemouth/42570911/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42491727",
-    "nome": "",
+    "nome": "Chicane",
     "descrizione": "Chicane (Day Party) \n+ Lee Parkinson, Hiddenagenda",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/6/5/2282331_de971380_chicane.jpg",
     "data": "2026-11-07",
@@ -277883,11 +277949,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/Electric-Studios/Chicane/42491727/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42542910",
-    "nome": "",
+    "nome": "SuperMotive Bristol 16+ Halloween Rave",
     "descrizione": "The UK's biggest & best 16+ rave returns to Bristol this Halloween!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/c/e/2294702_3fc32985_supermotive-bristol-16-halloween-rave.jpg",
     "data": "2026-10-28",
@@ -277922,11 +277996,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/SuperMotive-Bristol-16-Halloween-Rave/42542910/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42596010",
-    "nome": "",
+    "nome": "Retro x Timeless x Sanction",
     "descrizione": "HISTORY REPEATS ITSELF....",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/c/b/2305139_6d9fe084_retro-x-timeless-x-sanction.jpg",
     "data": "2026-12-26",
@@ -277966,11 +278048,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Sankeys-Manchester/Retro-x-Timeless-x-Sanction/42596010/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42615722",
-    "nome": "",
+    "nome": "PO4 Live Presents: Chicane + Support",
     "descrizione": "A true pioneer of a genre, Chicane, heads to The Gaiety Southsea this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/c/2311738_a7af84dd_po4-live-presents-chicane-support.jpg",
     "data": "2026-10-10",
@@ -278001,11 +278091,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Gaiety-Southsea/PO4-Live-Presents-Chicane--Support/42615722/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41581279",
-    "nome": "",
+    "nome": "Shelleys Laserdome 2026",
     "descrizione": "We return for 2026 after our sell out 2025 event",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/d/3/2146679_59640965_Shelleys-Laserdome-2026.jpg",
     "data": "2026-11-14",
@@ -278045,11 +278143,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-under-lyme/Keele-SU-%28Keele-University-Students%27-Union%29/Shelleys-Laserdome-2026/41581279/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42468284",
-    "nome": "",
+    "nome": "The Streets",
     "descrizione": "The Streets - Thursday 5th November",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/3/1/2274526_4583089e_the-streets.jpg",
     "data": "2026-11-05",
@@ -278081,11 +278187,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/The-Streets/42468284/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603149",
-    "nome": "",
+    "nome": "8 Cliff & 22 pres: The Ghost (extended set) + Brennan b2b Arty",
     "descrizione": "8 Cliff returns to Birmingham with 22 Collective joined by The Ghost, Brennan b2b Arty + more",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/a/d/2307312_f7c72505_8-cliff-22-pres-the-ghost-extended-set-brennan-b2b-arty.jpg",
     "data": "2026-10-10",
@@ -278117,11 +278231,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Club-Colette/8-Cliff--22-pres-The-Ghost-extended-set--Brennan-b2b-Arty/42603149/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42613398",
-    "nome": "",
+    "nome": "FMS 6 Deck | London",
     "descrizione": "FMS finishes off his 6 Deck Tour in London with a Halloween special.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/8/4/2310778_be6c0066_fms-6-deck-london.jpg",
     "data": "2026-10-31",
@@ -278158,18 +278280,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Phonox/FMS-6-Deck--London/42613398/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/E1/Jungle-Mania-meets-AWOL-Halloween--London/42436362/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42596849",
-    "nome": "",
+    "nome": "Up Close: Summer Day Party",
     "descrizione": "After our sold out Opening Party we return with our Summer Day Party on Saturday 22nd August at a new Open Air Garden space in Leamington Spa!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/5/f/2305632_b23ae155_up-close-summer-day-party.jpg",
     "data": "2026-08-22",
@@ -278200,11 +278316,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Coventry/Bedford-Street/Up-Close-Summer-Day-Party/42596849/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42560020",
-    "nome": "",
+    "nome": "Glove Seazon",
     "descrizione": "Glove Seazon make's it debut at Manchester's newest premier electronic venue, Amber's.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/1/d/2295937_dd54c565_glove-seazon.jpg",
     "data": "2026-08-29",
@@ -278245,24 +278369,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Amber%27s/Glove-Seazon/42560020/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Hidden/Homoelectric-at-Hidden-August-Bank-Holiday-weekend/42507485/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/KAMPUS/Love-Party-2026/42585191/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42473911",
-    "nome": "",
+    "nome": "BULLET TOOTH | Groovebox x Bounded at SteelYard Sheff",
     "descrizione": "This August Bank Holiday, we return to SteelYard with a stacked lineup including headliner Bullet Tooth!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/6/7/2276455_e052a4c1_bullet-tooth-groovebox-at-steelyard-sheff.jpg",
     "data": "2026-08-30",
@@ -278295,11 +278407,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/SYSheffield-%28Steel-Yard%29/BULLET-TOOTH--Groovebox-x-Bounded-at-SteelYard-Sheff/42473911/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42570428",
-    "nome": "",
+    "nome": "Shy FX | Southampton",
     "descrizione": "The legendary Shy FX comes to EngineRooms this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/9/b/2298920_86609263_Shy-FX---Southampton.jpg",
     "data": "2026-10-10",
@@ -278331,11 +278451,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/Engine-Rooms-Southampton/Shy-FX--Southampton/42570428/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42486652",
-    "nome": "",
+    "nome": "Dave Pearce Presents Trance Anthems",
     "descrizione": "Dave Pearce Trance Anthems / Day Party",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/a/2/2280538_58944392_dave-pearce-presents-trance-anthems.jpg",
     "data": "2026-10-24",
@@ -278366,11 +278494,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/NX-Newcastle/Dave-Pearce-Presents-Trance-Anthems/42486652/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42434977",
-    "nome": "",
+    "nome": "UKF x FABRICLIVE | London",
     "descrizione": "After 10 years, a historic collaboration returns. Three rooms representing cross-spectrum sonics. Remaining tickets live now!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/2/7/2267219_11c2ee51_ukf-x-fabriclive-london.jpg",
     "data": "2026-09-04",
@@ -278420,18 +278556,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Fabric-London/UKF-x-FABRICLIVE--London/42434977/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/big-london-tattoo-show/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42529845",
-    "nome": "",
+    "nome": "REESHY - ALL NIGHT LONG [Leeds]",
     "descrizione": "It's finally happening! Queen of the scene REESHY does her first all-night-long in Leeds at her favourite spot Under The Arches. Sign-up for tickets!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/7/1/2292219_1e337ff0_reeshy-all-night-long-leeds-.jpg",
     "data": "2026-08-29",
@@ -278470,24 +278600,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Under-The-Arches/REESHY---ALL-NIGHT-LONG-Leeds/42529845/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/rnb-mania-leeds/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Crowded-House/RETRO-on-the-ROOFTOPS-Leeds/42434825/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42585172",
-    "nome": "",
+    "nome": "PRTY: SLVL - Dundee",
     "descrizione": "SLVL comes to PRTY Dundee for the second stop of the Scotland tour. Expect relentless hard techno from one of the scene's fastest-rising names.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/8/b/2302393_d1b37cf2_prty-slvl-dundee.jpg",
     "data": "2026-09-18",
@@ -278521,11 +278639,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dundee/Livehouse-Dundee/PRTY-SLVL---Dundee/42585172/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42502156",
-    "nome": "",
+    "nome": "WHE Presents: 4am Kru + Support",
     "descrizione": "4am Kru return to EngineRooms this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/7/e/2284149_81acfcd9_whe-presents-4am-kru-support.jpg",
     "data": "2026-11-27",
@@ -278556,11 +278682,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/WHE-Presents-4am-Kru--Support/42502156/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42570881",
-    "nome": "",
+    "nome": "Skin On Skin",
     "descrizione": "Skin On Skin,\nFaster Horses,\nBella Claxton,\n+ More TBA",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/9/2299068_ed70f4ee_skin-on-skin.jpg",
     "data": "2026-10-17",
@@ -278596,11 +278730,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/NX-Newcastle/Skin-On-Skin/42570881/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41782113",
-    "nome": "",
+    "nome": "inU with Guy J & Jeremy Olander",
     "descrizione": "ALL ROADS LEAD US HERE!! Join inU with Guy J for an extended set with Jeremy Olander - NOT TO BE MISSED!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/8/1/2173853_59f796a7_inu-with-guy-j-jeremy-olander.jpg",
     "data": "2026-11-07",
@@ -278636,11 +278778,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Digital-Newcastle/inU-with-Guy-J--Jeremy-Olander/41782113/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42367615",
-    "nome": "",
+    "nome": "KI/KI Manchester",
     "descrizione": "Ki/Ki Manchester at The Depot, Mayfield on Friday 18th September 2026. Event times 9:30pm - 4:00am. Last entry 11pm.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/5/5/2253292_3095f1cd_ki-ki-manchester.jpg",
     "data": "2026-09-18",
@@ -278679,24 +278829,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/KIKI-Manchester/42367615/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Hidden/Teletech-Manchester-Mandidextrous--Mates/42404833/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/The-Bread-Shed/THE-SURFRAJETTES---The-Bread-Shed-Manchester/42147577/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42408202",
-    "nome": "",
+    "nome": "Garage Nation Swindon Summer Day Fest",
     "descrizione": "Join us for a massive summer day fest in Swindon!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/4/0/2260452_14920165_Garage-Nation-Swindon-Summer-Day-Fest.jpg",
     "data": "2026-09-12",
@@ -278727,11 +278865,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Swindon/Kioki-Swindon/Garage-Nation-Swindon-Summer-Day-Fest/42408202/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42618296",
-    "nome": "",
+    "nome": "Stack City Inverness - MULTUNES",
     "descrizione": "Stack City comes to Inverness for the first time!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/d/8/2312508_ac9319c0_stack-city-inverness-multunes.jpg",
     "data": "2026-08-22",
@@ -278765,11 +278911,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Inverness/Botanic-House/Stack-City-Inverness---MULTUNES/42618296/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41290772",
-    "nome": "",
+    "nome": "Positive Sounds Beach Party",
     "descrizione": "The final beach party of 2026 with special guest Eddie Richards, alongside Simon Atkinson and guests.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/b/1/2083645_63092741_positive-sounds-beach-party.jpg",
     "data": "2026-09-05",
@@ -278804,11 +278958,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Brighton/Carats-Cafe/Positive-Sounds-Beach-Party/41290772/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614051",
-    "nome": "",
+    "nome": "Second Speed: Yoshiko, Anderex, Jason Cluff (Cardiff)",
     "descrizione": "Second Speed: Yoshiko, Anderex, Jason Cluff + more",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/6/f/2311057_60aca276_second-speed-yoshiko-anderex-jason-cluff-cardiff-.jpg",
     "data": "2026-10-30",
@@ -278850,18 +279012,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/Second-Speed-Yoshiko-Anderex-Jason-Cluff-Cardiff/42614051/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/Shangri-La-Halloween-w-Bullet-Tooth/42621622/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42412987",
-    "nome": "",
+    "nome": "Low presents WIlkinson",
     "descrizione": "WILKINSON finally touches down at The Depo on Friday September 25th",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/8/6/2261454_d591527f_low-presents-wilkinson.jpg",
     "data": "2026-09-25",
@@ -278891,11 +279047,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Plymouth/THE-DEPO/Low-presents-WIlkinson/42412987/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42606060",
-    "nome": "",
+    "nome": "Charlie Tee presents: UNITEE [Halloween]",
     "descrizione": "Charlie Tee heads to Thekla this Halloween for a special Charlie Tee & Friends takeover!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/8/2308355_28821619_charlie-tee-presents-unitee-halloween-.jpg",
     "data": "2026-10-30",
@@ -278937,30 +279101,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Thekla/Charlie-Tee-presents-UNITEE-Halloween/42606060/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Trinity-Centre/Alternate-Apocalypse-2026/42588859/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Electric-Bristol/Dusky/42508289/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/Above--Beyond-presents-Anjunabeats-Warehouse/42603970/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42434868",
-    "nome": "",
+    "nome": "Drum and Bass Classics Coventry",
     "descrizione": "Join us in Coventry for the first time, as we step back in time to the 1995-2015 golden era of Drum & Bass, when classics were made & legends born!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/a/3/2267124_49c52ab8_drum-and-bass-classics-coventry.jpg",
     "data": "2026-09-19",
@@ -278998,11 +279144,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Coventry/HMV-EMPIRE-COVENTRY/Drum-and-Bass-Classics-Coventry/42434868/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42613392",
-    "nome": "",
+    "nome": "FMS 6 Deck | Bristol",
     "descrizione": "FMS returns to Bristol for the 2nd stop of his brand new 6 Deck tour.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/0/5/2310772_b657effa_fms-6-deck-bristol.jpg",
     "data": "2026-10-09",
@@ -279032,11 +279186,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/Lost-Horizion-Bristol/FMS-6-Deck--Bristol/42613392/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42412193",
-    "nome": "",
+    "nome": "Trance Sanctuary Outdoor Party, The Courtyard Ministry of Sound",
     "descrizione": "Trance Sanctuary hosts an outdoor party in London this August Bank Holiday following the success of our bash last year at Ministry of Sound.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/0/8/2261215_01e6daff_trance-sanctuary-outdoor-party-2026-courtyard-ministry-of-sound.jpg",
     "data": "2026-08-29",
@@ -279077,48 +279239,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/Ministry-Of-Sound/Trance-Sanctuary-Outdoor-Party-The-Courtyard-Ministry-of-Sound/42412193/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/93-Feet-East/Soul-Session---Carnival/42579852/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/FIRE-Nightclub-London/MEAT-XXL-with-Tommy-Love/42610717/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Greenwich-Pier/Select-Rewind---Boat-Party/42564000/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/Acres/Detached-Pre-carnival-special/42502840/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Cause-London/Dankie-Sounds---SINCE-2021-5-YEARS-OF-AFRO-ELECTRONIC-MUSIC/42613480/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/FIRE-Nightclub-London/MEAT-with-Tommy-Love/42610717/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42573172",
-    "nome": "",
+    "nome": "Funkadelic All Dayer in Sutton SM1 1Dj",
     "descrizione": "F U N K A D E L I C | All Dayer | 2pm - 2am | \n\nSupa D & Pioneer",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/4/0/2299684_7dc420ea_funkadelic-all-dayer-in-sutton-sm1-1dj.jpg",
     "data": "2026-09-05",
@@ -279153,11 +279279,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sutton/Ranger%27s-Bar-Lounge-And-Restaurant/Funkadelic-All-Dayer-in-Sutton-SM1-1Dj/42573172/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42484519",
-    "nome": "",
+    "nome": "Word of Mouth The Over 30's DAYCLUB Bridgnorth",
     "descrizione": "Word of Mouth presents Over 30’s DAYCLUB\nA full production ‘Club Night’ from 2PM - 8PM at the stunning The Atrium BRIDGNORTH.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/e/2279632_85868191_Word-of-Mouth-The-Over-30-s-DAYCLUB-Bridgnorth.jpg",
     "data": "2026-09-12",
@@ -279189,11 +279323,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wolverhampton/The-Atrium-Bridgnorth/Word-of-Mouth-The-Over-30s-DAYCLUB-Bridgnorth/42484519/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42083356",
-    "nome": "",
+    "nome": "Sander Van Doorn / Marco V / Lange / Standerwick - Southampton",
     "descrizione": "Frequency returns to the garden on Saturday 19th September 2026 with an elite lineup, featuring a UK-exclusive B2B never before seen in the UK.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/9/2204829_5381c5bb_sander-van-doorn-marco-v-lange-standerwick-southampton.jpg",
     "data": "2026-09-19",
@@ -279228,11 +279370,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/Sobar-Southampton/Sander-Van-Doorn--Marco-V--Lange--Standerwick---Southampton/42083356/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42469928",
-    "nome": "",
+    "nome": "Dave Pearce in Milton Keynes W/ Lost Witness",
     "descrizione": "Join Dave Pearce on Saturday 10th October for a night of the biggest & best Trance & Dance Anthems!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/5/9/2275077_a2ce8b7c_dave-pearce-in-milton-keynes-w-lost-witness.jpg",
     "data": "2026-10-10",
@@ -279265,11 +279415,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/Dave-Pearce-in-Milton-Keynes-W-Lost-Witness/42469928/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42536055",
-    "nome": "",
+    "nome": "Jo Whiley's 90s Anthems",
     "descrizione": "Bringing you all the best tracks from the greatest decade for music. Think Blur vs Oasis, Fatboy Slim, Primal Scream, The Verve, The Chemical Brothers",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/f/2294192_c35e9308_jo-whiley-s-90s-anthems.jpg",
     "data": "2027-01-29",
@@ -279302,11 +279460,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Brighton/The-Concorde-2/Jo-Whileys-90s-Anthems/42536055/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42494375",
-    "nome": "",
+    "nome": "RNB MANIA | Plymouth's R&B Festival",
     "descrizione": "Plymouth, are you ready to experience the very best of R&B music? R&B MANIA comes to DEPO on Saturday 3 October 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/3/6/2282789_73334e31_rnb-mania-plymouth-s-r-b-festival.jpg",
     "data": "2026-10-03",
@@ -279337,11 +279503,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Plymouth/Depo-Plymouth/RNB-MANIA--Plymouths-RB-Festival/42494375/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42507567",
-    "nome": "",
+    "nome": "KØR Rooftop & Night Cardiff w/ KIRK / ANDREW CAIRNS / DEEVEY",
     "descrizione": "KØR End of Summer Rooftop & Night Party at District Cardiff, Sept 5. 12 hours of music with Kirk, Deevey, Andrew Cairns & more. Don't miss it!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/6/2286234_445f0c36_kor-rooftop-night-cardiff-w-kirk-andrew-cairns-deevey.jpg",
     "data": "2026-09-05",
@@ -279385,18 +279559,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/KR-Rooftop--Night-Cardiff-w-KIRK--ANDREW-CAIRNS--DEEVEY/42507567/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/Tiger-Yard/Allday-Indie---Open-Air-Outdoor-Indie-Festival---Cardiff/42428563/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42151283",
-    "nome": "",
+    "nome": "Encoded & Hi Oktane - Let's Get Vicious + Official After Party",
     "descrizione": "Three iconic brands unite for one unforgettable day and night of no-holds-barred Hard House. \n\nTall Room For Main Event - Basement For After Party.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/5/2216127_dd68c362_encoded-hi-oktane-vicious-circle.jpg",
     "data": "2026-09-12",
@@ -279439,18 +279607,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Beaverwork/Encoded--Hi-Oktane---Lets-Get-Vicious--Official-After-Party/42151283/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/The-Space/Retro-Heaven--Space---Leeds/42403788/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42563420",
-    "nome": "",
+    "nome": "V CLASSICS - Bryan Gee, Jumpin Jack Frost, DJ Krust & More",
     "descrizione": "Join us on Friday 4th September for V CLASSICS debut at Unit Nine!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/b/2296688_cc704311_v-classics-brian-gee-jumping-jack-frost-dj-krust-more.jpg",
     "data": "2026-09-04",
@@ -279488,11 +279650,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/V-CLASSICS---Bryan-Gee-Jumpin-Jack-Frost-DJ-Krust--More/42563420/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42607258",
-    "nome": "",
+    "nome": "Electric Dreams - Nov 7th - CHARLIES LOFT, Milngavie",
     "descrizione": "Electric Dreams - Nov 7th - CHARLIES LOFT, MILNGAVIE",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/5/4/2309020_b949fd87_electric-dreams-nov-4th-charlies-loft-milngavie.jpg",
     "data": "2026-11-07",
@@ -279522,11 +279692,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Charlies-Loft-/Electric-Dreams---Nov-7th---CHARLIES-LOFT-Milngavie/42607258/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42464999",
-    "nome": "",
+    "nome": "WHP presents: Solomun",
     "descrizione": "Solomun - 25th September",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/0/4/2273899_7547c0b7_whp-presents-solomun.jpg",
     "data": "2026-09-25",
@@ -279557,11 +279735,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-presents-Solomun/42464999/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42526648",
-    "nome": "",
+    "nome": "Crossy Presents: The Breakthrough | Birmingham",
     "descrizione": "Crossy is here with his first UK tour... 5 cities, 3-hour sets, one vision.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/c/2290533_62f9dfea_crossy-the-breakthrough-birmingham.jpg",
     "data": "2026-09-18",
@@ -279590,11 +279776,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/Crossy-Presents-The-Breakthrough--Birmingham/42526648/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42438576",
-    "nome": "",
+    "nome": "Breakin Science x Drumatics Leicester | Summer Terrace Party",
     "descrizione": "Breakin Science & Drumatics return to Leicester for a very special intimate Summer party on the outdoor terrace of the O2 Academy... only 400 people!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/b/9/2268754_aaad071e_breakin-science-x-drumatics-leicester-summer-terrace-party.jpg",
     "data": "2026-08-29",
@@ -279630,11 +279824,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leicester/O2-Academy-2-Leicester/Breakin-Science-x-Drumatics-Leicester--Summer-Terrace-Party/42438576/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42594149",
-    "nome": "",
+    "nome": "Dance The Pain Away",
     "descrizione": "Daytime Dancin' @ Porty The Town Hall. \n\nQuality tunes to make you move your body",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-09-12",
@@ -279673,24 +279875,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Edinburgh/Portobello-Town-Hall/Dance-The-Pain-Away/42594149/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Edinburgh/Ross-Bandstand/FLY-Festival-Edinburgh-2026/42469439/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/fly-festival-edinburgh/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42611017",
-    "nome": "",
+    "nome": "Depo pres: Badger",
     "descrizione": "From uk garage, to dnb, bass house to jungle. Expect bangers from a multitude of places making him one of the UK's most exciting artists right now",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/e/e/2310077_26dca416_depo-pres-badger.jpg",
     "data": "2026-10-09",
@@ -279723,11 +279913,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Plymouth/THE-DEPO/Depo-pres-Badger/42611017/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42514308",
-    "nome": "",
+    "nome": "Macky Gee: Guildford",
     "descrizione": "DNB Collective & Touchbase bring Macky Gee to Guildford",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/c/6/2289033_101d1dec_macky-gee-guildford.jpg",
     "data": "2026-10-16",
@@ -279757,11 +279955,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Guildford/Thirty3Hz/Macky-Gee-Guildford/42514308/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42610229",
-    "nome": "",
+    "nome": "SAOIRSE - UNDER THE ARCHES [Leeds]",
     "descrizione": "One of Ireland's most respected selectors, SAOIRSE brings her signature blend of house, techno and leftfield sounds to Leeds.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/f/2/2309730_85f568dd_saoirise-under-the-arches-leeds-.jpg",
     "data": "2026-10-17",
@@ -279793,11 +279999,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Under-The-Arches/SAOIRSE---UNDER-THE-ARCHES-Leeds/42610229/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42284685",
-    "nome": "",
+    "nome": "Technodome - Event V - Dyewitness and much more",
     "descrizione": "We're bring you a special one... Dyewitness ft. MC Cyclone and much more",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/7/3/2234410_af3fdcb1_technodome-event-v-proper-oldskool.jpg",
     "data": "2026-09-05",
@@ -279841,18 +280055,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Classic-Grand./Technodome---Event-V---Dyewitness-and-much-more/42284685/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Saint-Judes-After-Dark/I-Am-A-Raver-LUGZY---Nanna-Makina/42603228/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42490505",
-    "nome": "",
+    "nome": "Basslayerz: Rock City Nottingham 360",
     "descrizione": "Basslayerz return to Nottingham for their biggest ever headline show at the city's finest venue, Rock City!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/9/6/2282081_4272142b_basslayerz-rock-city-nottingham-the-homecoming.jpg",
     "data": "2026-10-10",
@@ -279892,18 +280100,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/Rock-City/Basslayerz-Rock-City-Nottingham-360/42490505/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/Unit-13%2C-Burton-St%2C-Nottingham-NG1-4BT/LOVEZOO-28th-Birthday--TALL-PAUL--ALLISTER-WHITEHEAD---MORE/42573543/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42613395",
-    "nome": "",
+    "nome": "FMS 6 Deck | Nottingham",
     "descrizione": "FMS returns to Nottingham for the 3rd stop of his brand new 6 Deck tour.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/9/e/2310775_43768c9c_fms-6-deck-nottingham.jpg",
     "data": "2026-10-16",
@@ -279940,18 +280142,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/Stealth/FMS-6-Deck--Nottingham/42613395/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Brickworks/The-Brickworks-MR-SCRUFF/42573706/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42595784",
-    "nome": "",
+    "nome": "Downtown Disco With Michael Gray and Jaegerossa",
     "descrizione": "Saturday 14th November we're back at Archive, Leeds for another night celebrating the very best in disco, funky grooves and uplifting house.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/5/6/2305067_c847cd9d_downtown-disco-with-michael-gray-and-jaegerossa.jpg",
     "data": "2026-11-14",
@@ -279986,11 +280182,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Archive/Downtown-Disco-With-Michael-Gray-and-Jaegerossa/42595784/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42533897",
-    "nome": "",
+    "nome": "DIGITAL Presents Jazzy: Peace & Patience Tour",
     "descrizione": "House legend Jazzy brings her Peace & Patience tour to Digital this November",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/e/2/2293747_7a147eb3_digital-presents-jazzy-peace-patience-tour.jpg",
     "data": "2026-11-21",
@@ -280027,24 +280231,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Digital-Newcastle/DIGITAL-Presents-Jazzy-Peace--Patience-Tour/42533897/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/NX-Newcastle/Interplanetary-Criminal/42643240/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/The-Cluny/Seattle-Thrift-Store---a-live-tribute-to-Grunge/41772664/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42509461",
-    "nome": "",
+    "nome": "Detonate x The Brickworks: LTJ BUKEM",
     "descrizione": "Detonate links up with The Brickworks to present LTJ BUKEM who plays an extended set on 25.09.26",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/2/6/2286734_07e2e4cc_detonate-x-the-brickworks-ltj-bukem.jpg",
     "data": "2026-09-25",
@@ -280075,11 +280267,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Brickworks/Detonate-x-The-Brickworks-LTJ-BUKEM/42509461/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42566934",
-    "nome": "",
+    "nome": "KHAOTIC DVOID EXHILARATION presents: LIL TEXAS, EXPROZ & MORE",
     "descrizione": "Liverpool we are back with our hardest edition yet, a terrifying line-up for a Halloween day party",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/8/3/2297696_c14ae088_khaotic-dvoid-exhilaration-presents-lil-texas-exproz-more.jpg",
     "data": "2026-11-01",
@@ -280115,11 +280315,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Content%2C-Liverpool/KHAOTIC-DVOID-EXHILARATION-presents-LIL-TEXAS-EXPROZ--MORE/42566934/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42292869",
-    "nome": "",
+    "nome": "FLAUNT - Alien Invasion With The TIDY BOYS (85% sold out)",
     "descrizione": "Intergalactic Hard House and Trance Rave with\nTHE TIDY BOYS \nNick Rafferty\nPete Bennett (Big Brother)\nJLF\nMalicious M",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/c/4/2236336_faa8faa7_flaunt-alien-invasion-with-the-tidy-boys-75-sold-out-.jpg",
     "data": "2026-10-09",
@@ -280155,11 +280363,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Worcester/Atique-Room-At-The-Velvet-Lounge/FLAUNT---Alien-Invasion-With-The-TIDY-BOYS-80-sold-out/42292869/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42587399",
-    "nome": "",
+    "nome": "Resolute x Project Seven Presents Wheats Ruze James Poole + More",
     "descrizione": "We're back for round 2 of our Summer Series. This time we are going bigger than we ever have before! Sheffield, are you ready? 4+ Headliners 3 Stages!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/d/8/2303067_8cc966d5_resolute-x-project-seven-present-summer-series-vol-2.jpg",
     "data": "2026-09-05",
@@ -280193,11 +280409,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/FORGE/Resolute-x-Project-Seven-Present-Summer-Series-Vol-2/42587399/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42399640",
-    "nome": "",
+    "nome": "Kisstory vs UK Garage Bottomless Brunch",
     "descrizione": "This is Garage done right in the heart of Canterbury, for the ravers, the heads, the two-steppers. UKG runs through your veins, this is your brunch!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/a/e/2257945_11c4f5c3_kisstory-vs-uk-garage-bottomless-brunch.jpg",
     "data": "2026-09-12",
@@ -280229,11 +280453,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Canterbury/The-Cuban/Kisstory-vs-UK-Garage-Bottomless-Brunch/42399640/?sktag=15777&skcampaign=sito",
+        "prezzo": "45",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42399933",
-    "nome": "",
+    "nome": "Cowgirl & Cowboy Country, Rock & Indie Bottomless Brunch",
     "descrizione": "We are bringing the Wild Wild West to Canterbury, expect Country Anthems, Rock n Roll Bangers, Indie Singalongs for the ultimate real life hoedown!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/d/a/2258081_49a71ee2_cowgirl-cowboy-country-rock-indie-bottomless-brunch.jpg",
     "data": "2026-10-24",
@@ -280265,11 +280497,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Canterbury/The-Cuban/Cowgirl--Cowboy-Country-Rock--Indie-Bottomless-Brunch/42399933/?sktag=15777&skcampaign=sito",
+        "prezzo": "45",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42308299",
-    "nome": "",
+    "nome": "Day Fever Outdoors - Chester",
     "descrizione": "The day-time clubbing event started by Vicky McClure, Jonny Owen and Reverend & The Makers comes to Chester this August!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/9/a/2239121_84ff25b7_day-fever-outdoors-chester.jpg",
     "data": "2026-08-29",
@@ -280301,11 +280541,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chester/Carriage-Shed/Day-Fever-Outdoors---Chester/42308299/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42404854",
-    "nome": "",
+    "nome": "WHE Presents: Lashed Birmingham",
     "descrizione": "Lashed hits Birmingham this November with a STACKED line up!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/a/b/2259180_61ad02df_whe-presents-lashed-birmingham.jpg",
     "data": "2026-11-07",
@@ -280338,11 +280586,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/WHE-Presents-Lashed-Birmingham/42404854/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42497718",
-    "nome": "",
+    "nome": "Seriously Uplifting 8",
     "descrizione": "Seriously Uplifting returns to The Globe for Chapter 8, featuring Amos & Riot Night, James Cottle, Steve Allen and Xijaro and Pitch",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/b/e/2283323_b348cb41_seriously-uplifting-8.jpg",
     "data": "2026-10-31",
@@ -280381,24 +280637,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/The-Globe-Newcastle/Seriously-Uplifting-8/42497718/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/NX-Newcastle/Enzo-Siragusa-Dr-Banana-bullet-tooth-PACH-LILI/42498006/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/-Times-Square-Scotswood-Road-Newcastle-Upon-Tyne-NE1-4E/DAYTIME-DISCO-w-GOK-WAN--ELLIE-SAX-Live/42649568/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42491994",
-    "nome": "",
+    "nome": "Club Luna Ft Ian Van Dahl, Ultrabeat, Kris Hill plus more!",
     "descrizione": "Clubland classics & Dance Anthems from back in the day!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/7/3/2282393_1e1a2321_club-luna-ft-ian-van-dahl-ultrabeat-kris-hill-plus-more-.jpg",
     "data": "2026-08-30",
@@ -280433,11 +280677,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bridgend/Luna-Live-Lounge/Club-Luna-Ft-Ian-Van-Dahl-Ultrabeat-Kris-Hill-plus-more/42491994/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42277769",
-    "nome": "",
+    "nome": "KEPLER, LUUK VAN DIJK & MORE | Groovebox & MUZAK Mansfield",
     "descrizione": "Groovebox & Muzak return to The Swan in Mansfield on Sunday the 30th of August for a day rave with Kepler, Luuk Van Dijk, M-High & more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/9/4/2233711_dfd10d6c_kepler-luuk-van-dijk-more-groovebox-muzak-mansfield.jpg",
     "data": "2026-08-30",
@@ -280477,18 +280729,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/The-Swan-Mansfield/KEPLER-LUUK-VAN-DIJK--MORE--Groovebox--MUZAK-Mansfield/42277769/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Swan-Mansfield/KEPLER-LUUK-VAN-DIJK--MORE-MUZAK--Groovebox-Mansfield/42284776/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42598630",
-    "nome": "",
+    "nome": "The Botanic Presents: Will Atkinson",
     "descrizione": "Be prepared for a high energy party as Will Atkinson takes to the Botanic Stage for an incredible night not to be missed!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/7/4/2306475_9964e880_the-botanic-presents-will-atkinson.jpg",
     "data": "2026-11-28",
@@ -280522,11 +280768,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Inverness/The-Botanic-House/The-Botanic-Presents-Will-Atkinson/42598630/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42448096",
-    "nome": "",
+    "nome": "Overmono presents Pure Devotion - World Tour, Manchester",
     "descrizione": "Overmono's Pure Devotion - World Tour heads to Depot Mayfield in Manchester on Friday 30th October...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/0/a/2270309_cf59d6cc_overmono-presents-pure-devotion-world-tour-manchester.jpg",
     "data": "2026-10-30",
@@ -280577,18 +280831,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Overmono-presents-Pure-Devotion---World-Tour-Manchester/42448096/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/186-Deansgate/The-VIP-Greenroom-with-K-Koke/42639875/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42415698",
-    "nome": "",
+    "nome": "PlayHaus Presents: Tre Reynolds + more",
     "descrizione": "Tre Reynolds makes his PlayHaus debut at Clwb Crown, Merthyr Tydfil 22nd August.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/7/9/2262241_54816095_playhaus-presents-tre-reynolds-more.jpg",
     "data": "2026-08-22",
@@ -280620,11 +280868,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/Clwb-Crown/PlayHaus-Presents-Tre-Reynolds--more/42415698/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42093718",
-    "nome": "",
+    "nome": "Halloween H.A.S - This will sell out!!",
     "descrizione": "H.A.S is here to take over your Halloween, Full dress up is encouraged but everyone is welcome regardless.\n\nCome and join the H.A.S family!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/3/0/2208451_90411914_Halloween-H-A-S---This-will-sell-out--.jpg",
     "data": "2026-10-24",
@@ -280679,18 +280935,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/Halloween-HAS---This-will-sell-out/42093718/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Arena-MK/Eric-Prydz--Milton-Keynes/42624092/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42617259",
-    "nome": "",
+    "nome": "Scottish House and Disco Brunch x Ayr Beach",
     "descrizione": "The Scottish House & Disco Brunch featuring UK Diva Juliet Roberts and legendary DJ's aswell as a 2 course meal in Ayr Pavilion",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/0/2312137_0a5133a1_scottish-house-and-disco-brunch-x-ayr-beach.jpg",
     "data": "2026-09-20",
@@ -280722,11 +280972,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ayr/The-Ayr-Pavilion/Scottish-House-and-Disco-Brunch-x-Ayr-Beach/42617259/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42566899",
-    "nome": "",
+    "nome": "Teletech: KIRSTY [All Night Long] - Bristol",
     "descrizione": "Rising star Kirsty lands in Bristol as part of her UK wide All Night Long tour. Catch her Tuesday 22nd September @ Clock Factory.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/8/d/2297688_6d621071_teletech-kirsty-all-night-long-bristol.jpg",
     "data": "2026-09-22",
@@ -280757,11 +281015,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/Clock-Factory-Bristol/Teletech-KIRSTY-All-Night-Long---Bristol/42566899/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42611269",
-    "nome": "",
+    "nome": "(Un) Stables Rave - Common Ground Fringe Takeover -Uplands Roast",
     "descrizione": "Five sold out mornings later, we're switching gears.\n\nWelcome to the first of our Common Ground Takeovers, a new series of longer sessions where we",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/2/e/2310205_3ed4b764_-un-stables-rave-common-ground-fringe-takeover-uplands-roast.jpg",
     "data": "2026-08-22",
@@ -280792,11 +281058,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/Uplands-Roast/Un-Stables-Rave---Common-Ground-Fringe-Takeover--Uplands-Roast/42611269/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42596000",
-    "nome": "",
+    "nome": "Jamie Fielding [3 HOUR EXTENDED SET] - THIRTY3HZ // GUILDFORD",
     "descrizione": "Join \"Come Dance With Me\" for their Guildford debut at Thirty3hz, headlined by rising star Jamie Fielding, supported by Surrey's local talent.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/6/6/2305129_2f10c270_jamie-fielding-3-hour-extended-set-.jpg",
     "data": "2026-09-19",
@@ -280827,11 +281101,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Guildford/Thirty3Hz/Jamie-Fielding-3-HOUR-EXTENDED-SET---THIRTY3HZ--GUILDFORD/42596000/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42513639",
-    "nome": "",
+    "nome": "Bora Bora Music presents Ibiza Classics, The Grand Pier",
     "descrizione": "Relive the magic of Bora Bora Ibiza on the Grand Pier to a  soundtrack of the finest Ibiza Classics.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/b/2288759_a6dd05db_bora-bora-music-presents-ibiza-classics-the-grand-pier.jpg",
     "data": "2026-08-22",
@@ -280866,11 +281148,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/The-Grand-Pier/Bora-Bora-Music-presents-Ibiza-Classics-The-Grand-Pier/42513639/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42575300",
-    "nome": "",
+    "nome": "REVS & Afterdark Present DAPPY LIVE",
     "descrizione": "Due to high demands, We are proud to announce multi platinum selling superstar Dappy aka lead singer of N-dubz is coming down to Revolution Nightclub",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/e/5/2300225_b207de9e_revs-afterdark-present-dappy-live.jpg",
     "data": "2026-08-28",
@@ -280902,11 +281192,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Great-Yarmouth/Revolution-Night-Club-GY/REVS--Afterdark-Present-DAPPY-LIVE/42575300/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42618301",
-    "nome": "",
+    "nome": "PRTY Halloween: Livehouse, Dundee",
     "descrizione": "PRTY return to Livehouse in Dundee as part of their Halloween Weekender. Lineup TBA",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/b/3/2312513_22b1c6d9_prty-halloween-livehouse-dundee.jpg",
     "data": "2026-10-30",
@@ -280935,11 +281233,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dundee/Livehouse-Dundee/PRTY-Halloween-Livehouse-Dundee/42618301/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42437102",
-    "nome": "",
+    "nome": "Trancecoda pres Fright Night: Resurrection",
     "descrizione": "Trancecoda returns to The Emporium this Halloween, Saturday 31st October 2026 for the Biggest Trance & Hard Dance Halloween Event of 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/0/9/2268113_f93cfc86_trancecoda-pres-fright-night-resurrection.jpg",
     "data": "2026-10-31",
@@ -280980,11 +281286,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leicester/The-Emporium/Trancecoda-pres-Fright-Night-Resurrection/42437102/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42457229",
-    "nome": "",
+    "nome": "CrashThe90s/ Bora Bora Music Sunset Boat Cruise (Bigger Boat!)",
     "descrizione": "Bora Bora Music - The ibiza legend returns to the English Riviera for our annual Bank Holiday boat cruise. Early birds now on sale! More info soon.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/f/2271398_2826b730_crashthe90s-bora-bora-music-sunset-boat-cruise-bigger-boat-.jpg",
     "data": "2026-08-29",
@@ -281019,11 +281333,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Torquay/Below-Decks/CrashThe90s-Bora-Bora-Music-Sunset-Boat-Cruise-Bigger-Boat/42457229/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42534109",
-    "nome": "",
+    "nome": "Dusky: Signals Tour | Manchester",
     "descrizione": "Dusky bring their global Signals tour to the brick arches of Joshua Brooks: house, techno and melodic club music on the Void system.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/5/3/2293848_a515a2f3_dusky-signals-tour-manchester.jpg",
     "data": "2026-10-24",
@@ -281061,18 +281383,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Dusky-Signals-Tour--Manchester/42534109/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/The-Bread-Shed/JERAMIAH-FERRARI---The-Bread-Shed-Manchester/42573140/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42469943",
-    "nome": "",
+    "nome": "Heavy House Society: Sidney Charles, Locky, Gigsta",
     "descrizione": "Digital presents: Heavy House Society\nSidney Charles brings his global label showcase back to Newcastle.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/f/1/2275092_df702e2c_heavy-house-society-sidney-charles-more.jpg",
     "data": "2026-10-09",
@@ -281109,18 +281425,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Digital-Newcastle/Heavy-House-Society-Sidney-Charles--more/42469943/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Digital-Newcastle/Heavy-House-Society-Sidney-Charles-Locky-Gigsta/42469943/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42267775",
-    "nome": "",
+    "nome": "Emerge pres.  Anthony Pappa, Kasey Taylor & Jamie Stevens",
     "descrizione": "From the underground we Emerge. Join us for the exclusive 40/40 tour featuring Anthony Pappa & Kasey Taylor with Infusion legend Jamie Stevens.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/b/b/2231511_c4abf4c8_emerge-pres-anthony-pappa-kasey-taylor-jamie-stevens.jpg",
     "data": "2026-08-30",
@@ -281153,11 +281463,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Box-Hub/Emerge-pres--Anthony-Pappa-Kasey-Taylor--Jamie-Stevens/42267775/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41953232",
-    "nome": "",
+    "nome": "The BIG end of year RETRO party 2026",
     "descrizione": "WE ARE BACK!\n\nFollowing our hugely popular and sold out event on this date last year, RETRO returns to the TILEYARD Wakefield \n\nWE CALL IT RETRO",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/b/f/2188355_926db721_the-big-end-of-year-retro-party-2026.jpg",
     "data": "2026-12-27",
@@ -281187,11 +281505,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wakefield/Tileyard-North/The-BIG-end-of-year-RETRO-party-2026/41953232/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42484514",
-    "nome": "",
+    "nome": "Word of Mouth Aug Bank Hol Sun Club Classics & Old Skool RnB",
     "descrizione": "Join us at this stunning setting for an unmissable evening of House Anthems, Club Classics & Old Skool RnB.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/6/5/2279627_87996500_Word-of-Mouth-Aug-Bank-Hol-Sun-Club-Classics---Old-Skool-RnB.jpg",
     "data": "2026-08-30",
@@ -281224,11 +281550,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wolverhampton/Crown-Joules-Codsall/Word-of-Mouth-Aug-Bank-Hol-Sun-Club-Classics--Old-Skool-RnB/42484514/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41617210",
-    "nome": "",
+    "nome": "EngineRooms Presents: Mauro Picotto + Support",
     "descrizione": "Mauro Picotto is set to unleash Komodo, Lizard and Iguana vibes as he tears up EngineRooms Southampton on Saturday 5th September 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/a/e/2154353_9ea81cea_enginerooms-presents-mauro-picotto-support.jpg",
     "data": "2026-09-05",
@@ -281258,11 +281592,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/EngineRooms-Presents-Mauro-Picotto--Support/41617210/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42436111",
-    "nome": "",
+    "nome": "DELTA HEAVY, Circadian, Titan & More! Milton Keynes",
     "descrizione": "Join Delta Heavy & More on Friday16th October for a debut night in Milton Keynes.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/0/3/2267600_2599f3f9_delta-heavy-circadian-titan-more-milton-keynes.jpg",
     "data": "2026-10-16",
@@ -281294,11 +281636,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/DELTA-HEAVY-Circadian-Titan--More-Milton-Keynes/42436111/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42435735",
-    "nome": "",
+    "nome": "U.K vs Belgium Tour: London",
     "descrizione": "U.K vs Belgium are back on tour!\n\nLondon, The steel yard this one is for you!\n\nNO ID NO ENTRY.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/b/c/2267499_20145aa8_u-k-vs-belgium-tour-london.jpg",
     "data": "2026-09-18",
@@ -281342,18 +281692,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/UK-vs-Belgium-Tour-London/42435735/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Water-Rats/Spangled---London/42577381/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42468095",
-    "nome": "",
+    "nome": "Tall Paul & Seb Fontaine",
     "descrizione": "Tall Paul & Seb Fontaine bring Trance Classics & Dance Anthems to Carlisle Old Fire Station!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/1/2274389_30198f5f_tall-paul-seb-fontaine.jpg",
     "data": "2027-03-13",
@@ -281387,11 +281731,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Tall-Paul--Seb-Fontaine/42468095/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42617043",
-    "nome": "",
+    "nome": "Outrage 'The Outrageous 5th Birthday'",
     "descrizione": "Five years of unforgettable memories! \nFive years of the most lethal Harder Styles in Wales! \nThis September, we celebrate five years of OUTRAGE!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/7/2312017_0b32904d_outrage-the-outrageous-5th-birthday-.jpg",
     "data": "2026-09-25",
@@ -281426,11 +281778,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/Kooler-Nightclub/Outrage-The-Outrageous-5th-Birthday/42617043/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42410173",
-    "nome": "",
+    "nome": "Retro Halloween Special @ Fusion Burnley",
     "descrizione": "THIS HALLOWEEN... WE GO RETRO!\nAn iconic brand that started right here in Burnley is back to bring the memories, the music and the madness",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/f/6/2260997_f7a74ad2_retro-halloween-special-fusion-burnley.jpg",
     "data": "2026-10-31",
@@ -281464,11 +281824,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Burnley/Fusion-Event-Space/Retro-Halloween-Special--Fusion-Burnley/42410173/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42589796",
-    "nome": "",
+    "nome": "Reckless Raves: THE TEMPLE 007 [ONE YEAR ANNIVERSARY]",
     "descrizione": "This SEPTEMBER we are back to THE MOST UNIQUE VENUE IN THE COUNTRY for an EXTRA SPECIAL ONE YEAR ANNIVERSARY!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/2/8/2304081_fdcc6249_reckless-raves-the-temple-007-one-year-anniversary-.jpg",
     "data": "2026-09-19",
@@ -281506,11 +281874,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Belfast/THE-TEMPLE/Reckless-Raves-THE-TEMPLE-007-ONE-YEAR-ANNIVERSARY/42589796/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42407828",
-    "nome": "",
+    "nome": "Mr Traumatik tour 2026 ft ELRO",
     "descrizione": "The official Mr Traumatik UK tour is coming to THE CHURCH Derby this September!! \n\nExpect fast paced energetic dnb music all night! \n18+ \nPhoto I.D",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/a/2260435_62834749_Mr-Traumatik-tour-2026.jpg",
     "data": "2026-09-26",
@@ -281550,18 +281926,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Derby/The-Church/Mr-Traumatik-tour-2026/42407828/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Derby/The-Church/Mr-Traumatik-tour-2026-ft-ELRO/42407828/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42585181",
-    "nome": "",
+    "nome": "Fabio & Grooverider Up Close & Personal Tour - Milton Keynes",
     "descrizione": "Join Fabio & Grooverider on Friday 11th on the Milton Keynes leg of their Up Close & Personal Tour",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/5/e/2302402_f2b4f34a_fabio-grooverider-special-milton-keynes.jpg",
     "data": "2026-12-11",
@@ -281592,11 +281962,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/Fabio--Grooverider-Up-Close--Personal-Tour---Milton-Keynes/42585181/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42436975",
-    "nome": "",
+    "nome": "U.K vs Belgium Tour: Birmingham",
     "descrizione": "U.K vs Belgium are back on tour! Birmingham this one is for you!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/4/3/2268068_8c095963_u-k-vs-belgium-tour-birmingham.jpg",
     "data": "2026-09-25",
@@ -281630,11 +282008,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Lab-11-Loft/UK-vs-Belgium-Tour-Birmingham/42436975/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580831",
-    "nome": "",
+    "nome": "DIGITAL Presents: Tania Vulcano, Inland Knights, Bobby Odonnell",
     "descrizione": "DIGITAL brings Tania Vulcano, Inland Knights, Bobby Odonnell B2B Foz to Ouseburn Garden this September.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/f/2301264_eb8190f4_digital-presents-tania-vulcano-inland-knights-bobby-odonnell.jpg",
     "data": "2026-09-19",
@@ -281666,11 +282052,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Ouseburn-Garden/DIGITAL-Presents-Tania-Vulcano-Inland-Knights-Bobby-Odonnell/42580831/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42526653",
-    "nome": "",
+    "nome": "Crossy Presents: The Breakthrough | Nottingham",
     "descrizione": "Crossy is back with his first UK tour... 5 cities, 3-hour sets, one vision.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/a/b/2290538_26063349_CROSSY--The-Breakthrough--Nottingham.jpg",
     "data": "2026-11-20",
@@ -281701,11 +282095,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/Stealth/Crossy-Presents-The-Breakthrough--Nottingham/42526653/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603798",
-    "nome": "",
+    "nome": "Ben Hemsley - Leeds",
     "descrizione": "Reboot presents: Ben Hemsley @ The Warehouse Leeds",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/0/1/2307643_a1ff3d87_ben-hemsley-leeds.jpg",
     "data": "2026-09-19",
@@ -281744,24 +282146,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/The-Warehouse/Ben-Hemsley---Leeds/42603798/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-Irish-Centre/Sex-Pistols-Expos-Lizzie--The-Banshees-Clashed-Damned-Ruts/42071641/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Beaver-Works/Better-Days-Festival-Chapter-14---Summer-Closing/42642950/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42482476",
-    "nome": "",
+    "nome": "Menno Solo UK Reunion - Digital Society Leeds",
     "descrizione": "Dutch Trance star Menno de Jong brings the UK Edition of Menno Solo the Reunion to The Warehouse Leeds!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/0/d/2278815_a1cee86f_menno-solo-uk-reunion-digital-society-leeds-.jpg",
     "data": "2026-11-28",
@@ -281798,30 +282188,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/The-Wharehouse-Leeds/Menno-Solo-UK-Reunion---Digital-Society-Leeds/42482476/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-Irish-Centre/Ultimate-GREEN-DAY--Ultimate-BLINK-182-Leeds-Irish-Centre/42256935/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Merkur-Casino-Leeds/Leeds-Gallery-Reunion-2026/42604122/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-Beckett-Students%27-Union/The-Slates---Leeds/42366096/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42621866",
-    "nome": "",
+    "nome": "Good Times Live Presents Kaiser Chiefs & Special Guests",
     "descrizione": "Get ready for an unforgettable evening with Kaiser Chiefs, Lottery Winners & The Ramona Flowers in Chipping Sodbury near Bristol",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/9/6/2313641_41407818_good-times-live-presents-kaiser-chiefs-special-guests.jpg",
     "data": "2027-05-28",
@@ -281862,18 +282234,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Good-Times-At-The-Ridings/Good-Times-Live-Presents-Kaiser-Chiefs--Special-Guests/42621866/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/the-beat-goes-on/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41336660",
-    "nome": "",
+    "nome": "Lindisfarne Festival 2026",
     "descrizione": "Lindisfarne Festival is back for 2026 for it's 11th Chapter on the 3rd, 4th and 5th September on the stunning Northumberland coast!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/f/d/2098739_1d0172f6_lindisfarne-festival-2026.jpg",
     "data": "2026-09-03",
@@ -281950,11 +282316,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/lindisfarne-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41397237",
-    "nome": "",
+    "nome": "Second Speed Accelerate Festival 2026",
     "descrizione": "Second Speed Accelerate Festival 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/1/a/2117651_8f473634_second-speed-accelerate-festival-2026.jpg",
     "data": "2026-09-26",
@@ -282006,18 +282380,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/accelerate-festival/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Gateshead/Gateshead-Quayside/Side-Quest-Festival/42617138/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41306333",
-    "nome": "",
+    "nome": "SOULTOWN - Festival 2026",
     "descrizione": "Bringing together the biggest Soul, Motown, Disco, Funk & House acts from across the globe on Saturday 5th September 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/7/c/2089861_83129d23_soultown-festival-2026.jpg",
     "data": "2026-09-05",
@@ -282065,11 +282433,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/soultown-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42340061",
-    "nome": "",
+    "nome": "Beyond Boundaries w/ Max Dean, Hybrid Minds, MK, Wilkinson +more",
     "descrizione": "Brand new festival at Stanmer Park in Brighton this September.\nFeaturing: Max Dean, MK & Wilkinson, Hybrid Minds, JME & many more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/6/f/2246810_f81747e7_beyond-boundaries-w-max-dean-wilkinson-more.jpg",
     "data": "2026-09-26",
@@ -282136,24 +282512,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/beyond-boundaries/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Quarters-Brighton/Black-Octopus-8th-Birthday-Part-1-with-Danilo-Plessow-aka-MCDE/42631053/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Horizon/Founded-On-The-Beach---Brighton/42577901/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41206212",
-    "nome": "",
+    "nome": "Love to be... festival 2026",
     "descrizione": "Back on The Stray for year 3! Another massive day of House music at North Yorkshires biggest House music festival!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/2/4/2061465_27373343_Love-to-be----festival-2026.jpg",
     "data": "2026-09-05",
@@ -282210,18 +282574,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/love-to-be-festival/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Harrogate/Ivory-Bar/Love-to-be-festival-official-Afterparty-with-FML/42630471/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41963102",
-    "nome": "",
+    "nome": "Clubland Live On The Beach",
     "descrizione": "Clubland Live On The Beach returns to Weston Super Mare!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/5/8/2191474_e7f757a6_clubland-live-on-the-beach.jpg",
     "data": "2026-09-05",
@@ -282260,11 +282618,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/clubland-live-on-the-beach/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42092334",
-    "nome": "",
+    "nome": "Clubland Live Weekender 2026",
     "descrizione": "Our Flagship Weekender Event Returns!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/0/8/2207783_35e3c5a5_clubland-live-weekender-2026.jpg",
     "data": "2026-10-02",
@@ -282312,11 +282678,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/Clubland-Live-Weekender/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42159242",
-    "nome": "",
+    "nome": "Woodland Dance Project - Edinburgh 2026",
     "descrizione": "Set in the lush and picturesque surroundings of Vogrie Country park just 30 minutes from central Edinburgh",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/3/1/2218830_ab32ecbf_woodland-dance-project-edinburgh-2026.jpg",
     "data": "2026-10-03",
@@ -282357,11 +282731,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/woodland-dance-project/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41381840",
-    "nome": "",
+    "nome": "FAC51 The Haçienda at Wollaton Hall - Nottingham",
     "descrizione": "FAC51 The Haçienda returns to Nottingham for a huge open air show with one of the biggest line ups to ever hit the city",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/3/1/2113645_9ba2aba9_fac51-the-ha-ienda-at-wollaton-hall-nottingham.jpg",
     "data": "2026-08-22",
@@ -282409,18 +282791,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/Wollaton-Hall/FAC51-The-Haienda-at-Wollaton-Hall---Nottingham/41381840/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/rum-and-reggae-festival-nottingham/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42608981",
-    "nome": "",
+    "nome": "Knockengorroch 2027",
     "descrizione": "Knockengorroch brings the best and original hoedown in the hills for 2027 event, with a perfectly formed capacity and number of tickets available...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/8/2309468_82787903_Knockengorroch-2027.jpg",
     "data": "2027-05-27",
@@ -282452,11 +282828,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/Knockengorroch/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42147217",
-    "nome": "",
+    "nome": "Summer Underground - Breakin Science, Jungle Mania, D&B Classics",
     "descrizione": "Eutopia WHS is the destination for London's biggest celebration of underground D&B + Jungle, with an Outdoor Courtyard stage  + 3 Warehouse Arenas!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/0/3/2215909_98620367_Breakin-Science-Summer-Underground---Jungle-Mania---D-B-Classics.jpg",
     "data": "2026-09-05",
@@ -282536,11 +282920,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/summer-underground/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41735474",
-    "nome": "",
+    "nome": "Himley Live 2026: The Groove Society",
     "descrizione": "Disco, soul and funk reimagined The Groove Society delivers a high-energy live orchestra festival experience.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/8/2/2168740_10fb00c8_himley-live-2026-the-groove-society.jpg",
     "data": "2026-08-22",
@@ -282578,11 +282970,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dudley/Himley-Hall/Himley-Live-2026-The-Groove-Society/41735474/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42293596",
-    "nome": "",
+    "nome": "Cheshire Fest 2026 | Live at Tatton Park",
     "descrizione": "Cheshire Fest heads to Tatton Park on 22nd August from 12 - 11pm. Live acts, DJs, street food, bars & VIP areas. A full-day peak summer experience.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/8/3/2236605_59d89f5a_cheshire-fest-2026-live-at-tatton-park.jpg",
     "data": "2026-08-22",
@@ -282627,11 +283027,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/cheshire-fest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42171055",
-    "nome": "",
+    "nome": "New World 2026 ft. Craig David | Chelmsford Central Park",
     "descrizione": "New World Festival returns on Sunday 30th August to a brand new stunning location of Chelmsford Central Park headlined by Craig David.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/0/e/2221316_cb66d929_new-world-2026-ft-craig-david-chelmsford-central-park.jpg",
     "data": "2026-08-30",
@@ -282681,11 +283089,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/newworldfest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41350919",
-    "nome": "",
+    "nome": "Noughty 90's Festival Newcastle 2026",
     "descrizione": "Noughty 90's returns to Leazes Park for a 6th year.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/2/3/2104015_27563566_Noughty-90-s-Festival-Newcastle-2026.jpg",
     "data": "2026-08-29",
@@ -282750,18 +283166,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/noughty-90s-festival-newcastle/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Freight-Island-Newcastle/RB-Lovers---Summer-Festival---Freight-Island-Newcastle/42589321/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41364708",
-    "nome": "",
+    "nome": "FeastyFest 2026",
     "descrizione": "FeastyFest 2026 Sat 12 and Sun 13 Sept. Family festival of food drink and music for all ages voted one of the UKs safest family events",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/4/5/2108345_18602377_FeastyFest-2027.jpg",
     "data": "2026-09-12",
@@ -282801,11 +283211,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/feastyfest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42136641",
-    "nome": "",
+    "nome": "The Libertines - Hitchin Live at the Priory",
     "descrizione": "The Libertines headline Hitchin Live at the Priory with support from Maximo Park, Reverend and The Makers, Mystery Jets and many more",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/f/4/2213181_fbdeb59b_the-libertines-hitchin-live-at-the-priory.jpg",
     "data": "2026-08-29",
@@ -282840,11 +283258,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stevenage/Hitchin-Priory/The-Libertines---Hitchin-Live-at-the-Priory/42136641/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614054",
-    "nome": "",
+    "nome": "Cream Classical @ Liverpool Cathedral - Friday",
     "descrizione": "18's and over - Challenge 21 in place. Valid photo ID required. General Admission Standing Event. Dresscode: Strictly No Fancy Dress",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/1/7/2311060_82ab1c80_cream-classical-liverpool-cathedral-friday.jpg",
     "data": "2026-10-23",
@@ -282873,11 +283299,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Liverpool-Cathedral/Cream-Classical--Liverpool-Cathedral---Friday/42614054/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42270594",
-    "nome": "",
+    "nome": "Off Grid Festival: Chapter One",
     "descrizione": "From the creators of LAB11 and the family within. A brand new festival site that the Midlands deserves. No Signal Required. Its time to go off grid.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/5/4/2231997_86d3e50c_off-grid-festival-chapter-one.jpg",
     "data": "2026-08-30",
@@ -282924,11 +283358,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/off-grid-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42329113",
-    "nome": "",
+    "nome": "Chelmsford Summer Series 2026: McFly",
     "descrizione": "Chelmsford Summer Series presents: McFly, who will return to Essex for a special outdoor show in Central Park on Saturday 29th August.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/a/7/2243377_b4057bfd_chelmsford-summer-series-2026-mcfly.jpg",
     "data": "2026-08-29",
@@ -282971,18 +283413,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Chelmsford/Chelmsford-Central-Park/Chelmsford-Summer-Series-2026-McFly/42329113/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Chelmsford/Wheelers-Farm-/Summer-Outdoor-Garage-Festival---Wheelers-Farm-Chelmsford/42141620/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42577129",
-    "nome": "",
+    "nome": "KOMPND Carnival",
     "descrizione": "A full-spectrum carnival celebration of sound system culture, movement & energy. A multi-genre experience rooted in the essence of community and vibes",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/1/b/2300366_442d57a9_kompnd-carnival.jpg",
     "data": "2026-08-30",
@@ -283020,11 +283456,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Salford/Untitled-Studio/KOMPND-Carnival/42577129/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614053",
-    "nome": "",
+    "nome": "Lost Minds",
     "descrizione": "Lost Minds 2027 - sign up now!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/e/2311059_7ba04415_lost-minds.jpg",
     "data": "2027-07-10",
@@ -283053,11 +283497,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/lost-minds-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41349310",
-    "nome": "",
+    "nome": "Burn It Down Festival 2026",
     "descrizione": "Burn It Down Festival is an alternative, emo, hardcore festival held in Torquay, UK, across multiple grassroots venues.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/b/a/2103257_c00200b1_burn-it-down-festival-2026.jpg",
     "data": "2026-09-03",
@@ -283140,11 +283592,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/burn-it-down-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581689",
-    "nome": "",
+    "nome": "Maid of Stone 2027",
     "descrizione": "Three unforgettable days of rock, blues rock, southern rock and metal in the heart of Kent. Two stages. No clashes. Pure rock.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/4/c/2301606_aa570d7d_maid-of-stone-2027.jpg",
     "data": "2027-07-16",
@@ -283174,11 +283634,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/maid-of-stone-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42571021",
-    "nome": "",
+    "nome": "Run Away Halloween 2026 - Chelmsford Racecourse Essex",
     "descrizione": "Sat 31 October @ Chelmsford Racecourse, Essex. Press SET A REMINDER to get acccess to pre sale tickets",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/d/6/2299153_a8c74fec_run-away-halloween-2027-chelmsford-racecourse-essex.jpg",
     "data": "2026-10-31",
@@ -283206,11 +283674,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chelmsford/Chelmsford-Racecourse/Run-Away-Halloween-2026---Chelmsford-Racecourse-Essex/42571021/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42159795",
-    "nome": "",
+    "nome": "RUN All Day 2026",
     "descrizione": "Bristol's most notorious Summer DNB Day Party is back. With multiple areas, stacked lineup + big soundsystems, for a huge 21 year celebration!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/1/3/2219093_c0a877af_run21-all-day.jpg",
     "data": "2026-09-12",
@@ -283297,24 +283773,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Sawmills/RUN-All-Day-2026/42159795/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Thekla/Technics-presents-The-DMC-World-DJ-Championships-2026-Uk-Final/42596203/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Lost-Horizon-HQ/Talib-Kweli-Live-in-Bristol-Plus-after-party-with-Talib-DJ-Set/42443594/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42087922",
-    "nome": "",
+    "nome": "Opulence",
     "descrizione": "Opulence festival presents two stages of quintessential house music. Saturday 5th September",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/2/2206251_363e08d2_opulence.jpg",
     "data": "2026-09-05",
@@ -283360,11 +283824,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/opulence/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581693",
-    "nome": "",
+    "nome": "Rock The Mote 2027",
     "descrizione": "Three stages of the UK's leading live tribute shows, celebrating the greatest music ever written in one unforgettable festival weekend.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/4/4/2301608_fe140e4c_rock-the-mote-2027.jpg",
     "data": "2027-07-23",
@@ -283396,11 +283868,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/rock-the-mote/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42124643",
-    "nome": "",
+    "nome": "ARMAND VAN HELDEN, SOSA & MORE | Groovebox Keel SQ Summer Fest",
     "descrizione": "This coming August Bank Holiday, we head to Keel Square in Sunderland for a huge day festival with Armand Van Helden, SOSA, Sidney Charles & more...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/1/b/2210557_9ce830e6_armand-van-helden-sosa-more-groovebox-in-the-square.jpg",
     "data": "2026-08-29",
@@ -283435,11 +283915,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/groovebox-keel-square-summer-fest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41366954",
-    "nome": "",
+    "nome": "Equinox Festival 2026",
     "descrizione": "6 stages feat. as many genres as possible,arts, crafts, kids area, healers, workshops walkabouts,, fireshows, \nThe best party in the universe(?) :)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/7/2109088_62425909_Equinox-Festival-2026.jpg",
     "data": "2026-09-17",
@@ -283522,11 +284010,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/equinox-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42589384",
-    "nome": "",
+    "nome": "Boogietown 2027",
     "descrizione": "Boogietown returns to Apps Court, Surrey on Saturday 10th July for the BIGGEST boogie of 2027!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/9/7/2303787_65c923c6_boogietown-2027.jpg",
     "data": "2027-07-10",
@@ -283557,11 +284053,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/boogietown/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42476722",
-    "nome": "",
+    "nome": "Ben Hemsley & Ewan McVicar Halloween Day -  Newcastle",
     "descrizione": "Ben Hemsley returns to Newcastle with Ewan McVicar for HALLOWEEN DAY",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/8/8/2277420_cf41e1ba_ben-hemsley-ewan-mcvicar-halloween-day-newcastle.jpg",
     "data": "2026-10-31",
@@ -283594,11 +284098,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Gateshead/Gateshead-Stadium/Ben-Hemsley--Ewan-McVicar-Halloween-Day----Newcastle/42476722/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42517617",
-    "nome": "",
+    "nome": "Bonfest 2027",
     "descrizione": "The 21st Edition of The International Bon Scott Rock Festival - set in Bon Scott's hometown of Kirriemuir, Scotland!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/a/2289949_5e1cdce9_bonfest-2027.jpg",
     "data": "2027-04-30",
@@ -283635,11 +284147,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dundee/Bonfest-Festival-Site-Kirriemuir-DD8-5PU/Bonfest-2027/42517617/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42490323",
-    "nome": "",
+    "nome": "Run Away presents OUT RUN FESTIVAL",
     "descrizione": "Sat 12 September at Kent County Showground. Just Announced TeeDee, Modern Funktion, Dr Banana, Kepler + more",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/c/f/2282003_656fea11_run-away-presents-out-run-festival.jpg",
     "data": "2026-09-12",
@@ -283688,11 +284208,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Maidstone/Kent-County-Showground/Run-Away-presents-OUT-RUN-FESTIVAL/42490323/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42534091",
-    "nome": "",
+    "nome": "Loverocks Classic Rock and Blues Festival X",
     "descrizione": "Three days of the best up and coming rock/metal/blues/southern rock held on an AA 4 star campsite in Dorset!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/3/1/2293832_21133a59_loverocks-classic-rock-and-blues-festival-x.jpg",
     "data": "2027-06-17",
@@ -283724,11 +284252,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bournemouth/St-Leonards-Farm-Caravan-And-Camping-Park/Loverocks-Classic-Rock-and-Blues-Festival-X/42534091/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42423124",
-    "nome": "",
+    "nome": "Vodafone at Reading Festival",
     "descrizione": "Hire one of our battery packs and swap once a day for a fully charged one. £10 deposit required, refunded on battery pack return.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/a/4/2264248_81022623_Vodafone-at-Reading-Festival.jpg",
     "data": "2026-08-27",
@@ -283767,18 +284303,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Reading/Richfield-Avenue-Festival-Site/Vodafone-at-Reading-Festival/42423124/?sktag=15777&skcampaign=sito",
         "prezzo": "18.95",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/Reading/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42535233",
-    "nome": "",
+    "nome": "Reminisce Festival 2026",
     "descrizione": "Reminisce Festival returns for 2026 with another huge celebration of dance music nostalgia, bringing together some of the most iconic club artists",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/1/8/2293993_2dcaac07_reminisce-festival-2026.jpg",
     "data": "2026-09-12",
@@ -283851,11 +284381,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/reminisce-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41363939",
-    "nome": "",
+    "nome": "Weekend in the Woods",
     "descrizione": "After a sell out 205 event we return in 2026 with an increased capacity!\nThree days & nights of Old Skool, Jungle, Hardcore & Hard House",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/b/2107882_92dae06c_weekend-in-the-woods.jpg",
     "data": "2026-08-28",
@@ -283944,18 +284482,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/weekend-in-the-woods/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Northampton/Wold-Farm-Festival-Field-/Equinox-Festival/42284766/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42429795",
-    "nome": "",
+    "nome": "Hifields 2026",
     "descrizione": "We're taking Hifields into the woods for an epic 12 hour party.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/9/1/2265835_dc5e1bad_hifields-2026.jpg",
     "data": "2026-08-22",
@@ -284002,18 +284534,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cambridge/Dullingham-Polo-Club/Hifields-2026/42429795/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cambridge/The-Tivoli-Cambridge/Catch-a-Feeling-Open-Air-Rooftop-Day-Party---Tivoli/42569837/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41349320",
-    "nome": "",
+    "nome": "FOMO Fest 2026",
     "descrizione": "FOMO Fest returns in 2026... Bringing BIG NAMES to the heart of suffolk!\nAn awesome one day festival for the whole family!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/2/2103265_18112405_FOMO-Fest.jpg",
     "data": "2026-09-05",
@@ -284057,11 +284583,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/fomo-fest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42271859",
-    "nome": "",
+    "nome": "Save The Rave: Old Skool Outdoor Festival, Cornwall 2026",
     "descrizione": "Sep 12th 2026 - 90's & 00's dance , Old Skool , Rave Classics",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/7/a/2232361_47439752_Save-The-Rave--Old-Skool-Outdoor-Festival--Cornwall-2026.jpg",
     "data": "2026-09-12",
@@ -284109,18 +284643,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Plymouth/Royal-Cornwall-Showground/Save-The-Rave-Old-Skool-Outdoor-Festival-Cornwall-2026/42271859/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Plymouth/Royal-Cornwall-Showground/Save-The-Rave---Family-Rave--Fun-Day/42598638/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41939804",
-    "nome": "",
+    "nome": "Party In Acklam Park",
     "descrizione": "A  fantastic outdoor family music festival featuring some of the country's top tribute bands. this year we are celebrating its 10th anniversary!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/b/d/2185540_75607764_Party-In-Acklam-Park.jpg",
     "data": "2026-08-30",
@@ -284157,11 +284685,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Middlesbrough/Middlesbrough-Rugby-And-Cricket-Club/Party-In-Acklam-Park/41939804/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42364160",
-    "nome": "",
+    "nome": "Chelmsford Summer Series: Sugababes, Annie Mac, Melanie C (DJ)",
     "descrizione": "Chelmsford Summer Series presents: Sugababes, who will return to Essex for a special outdoor show in Central Park on Friday 28th August.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2252045_a1e05104_chelmsford-summer-series-2026-sugababes.jpg",
     "data": "2026-08-28",
@@ -284198,11 +284734,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chelmsford/Chelmsford-Central-Park/Chelmsford-Summer-Series-Sugababes-Annie-Mac-Melanie-C-DJ/42364160/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42423130",
-    "nome": "",
+    "nome": "Vodafone at Leeds Festival",
     "descrizione": "Hire one of our battery packs and swap once a day for a fully charged one. £10 deposit required, refunded on battery pack return.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/9/f/2264251_49122914_Vodafone-at-Leeds-Festival.jpg",
     "data": "2026-08-27",
@@ -284241,18 +284785,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leeds/Bramham-Park/Vodafone-at-Leeds-Festival/42423130/?sktag=15777&skcampaign=sito",
         "prezzo": "18.95",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/Leeds/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42282276",
-    "nome": "",
+    "nome": "Unfussy Festival: Morgan Seatree",
     "descrizione": "Second Speed x Reboot presents Unfussy Festival in Newcastle/Gateshead",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/c/8/2233913_098fe932_unfussey-festival-morgan-seatree.jpg",
     "data": "2026-09-25",
@@ -284284,11 +284822,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Gateshead/Gateshead-International-Stadium/Unfussy-Festival-Morgan-Seatree/42282276/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41997747",
-    "nome": "",
+    "nome": "Bournefest 2026",
     "descrizione": "BOURNEFEST is set to light up the shores of sunny Eastbourne with a brand-new beachside festival from Saturday 29th of August",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/b/4/2198925_19f73ede_bournefest-2026.jpg",
     "data": "2026-08-29",
@@ -284340,11 +284886,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/bournefest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42258141",
-    "nome": "",
+    "nome": "Remember Them Dayz Fest - London - Boxpark Wembley",
     "descrizione": "REMEMBER THEM DAYZ - A Celebration of UK 2015 - 2019 Music, Headline artist TBA",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/b/c/2227720_2f8ac849_remember-them-dayz-fest-boxpark-wembley.jpg",
     "data": "2026-08-22",
@@ -284380,11 +284934,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Harrow/Boxpark-Wembley/Remember-Them-Dayz-Fest---London---Boxpark-Wembley/42258141/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42374776",
-    "nome": "",
+    "nome": "The History of Jungle - CARDIFF",
     "descrizione": "History of Jungle lands in Cardiff for the 2026-2027 UK Tour.\nA full-spectrum journey through jungle music - from the roots to the rave.\nON SALE 01.05",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/9/8/2255780_67497663_The-History-of-Jungle---CARDIFF.jpg",
     "data": "2026-09-19",
@@ -284438,18 +285000,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/The-History-of-Jungle---CARDIFF/42374776/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/Clwb-Ifor-Bach/Loveletter--Monochrome--Derail/42587539/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42459695",
-    "nome": "",
+    "nome": "Godskitchen XXX : Birmingham",
     "descrizione": "The Angel is back where it belongs, right at the top. After a barnstorming return to Birmingham this May, we return in May 2027 to celebrate 30 years!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/5/8/2272353_2a572469_godskitchen-xxx-birmingham.jpg",
     "data": "2027-05-30",
@@ -284479,11 +285035,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/godskitchen-birmingham/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42494317",
-    "nome": "",
+    "nome": "Restricted Forest 2027",
     "descrizione": "Set in their stunning private woodlands next to Formby, they will be hosting some of the biggest names in dance across 4 unique stages.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/f/2/2282737_1c7753e1_restricted-forest-2027.jpg",
     "data": "2027-06-26",
@@ -284514,11 +285078,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/restricted-forest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41943022",
-    "nome": "",
+    "nome": "Southbound Fest",
     "descrizione": "Southbound Fest returns to Eastbourne, 22-23 August.\nSaturday 18+ House & DnB (12-10PM).\nSunday Family Day - Ibiza Anthems & Dance Classics (12-8PM)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/b/2186293_82b77257_southbound-fest.jpg",
     "data": "2026-08-22",
@@ -284559,11 +285131,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/southbound-fest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42622133",
-    "nome": "",
+    "nome": "Torre Blimey",
     "descrizione": "Torre Blimey is new mini festival based in the South West of England, Family friendly with Charities in mind.",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-09-05",
@@ -284594,11 +285174,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Taunton/Torre-Cider-Farm/Torre-Blimey/42622133/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42262258",
-    "nome": "",
+    "nome": "Banff Castle Rocks",
     "descrizione": "Big Country Headline The Deveron Direct Main Stage!!\n\nTickets go on sale tomorrow morning at 8am. Set those alarms!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/6/b/2229709_24730483_Banff-Castle-Rocks.jpg",
     "data": "2026-08-22",
@@ -284635,11 +285223,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/banffcastlerocks/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42479194",
-    "nome": "",
+    "nome": "The Gathering 2027",
     "descrizione": "Join us at The Gathering 2027 at Inverness Northern Meeting Park on 29th May for a one-day festival celebrating the very best of The Highlands...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/1/9/2278224_dc7baf62_the-gathering-2027.jpg",
     "data": "2027-05-29",
@@ -284670,11 +285266,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/thegathering/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42268260",
-    "nome": "",
+    "nome": "Betley Boogie Farm 2026!",
     "descrizione": "Betley Boogie Farm is back for 2026! \nOur biggest line up yet!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/9/c/2231615_cb6e9dc1_betley-boogie-farm-2026-.jpg",
     "data": "2026-09-12",
@@ -284713,11 +285317,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Crewe/Betley-Court-Farm/Betley-Boogie-Farm-2026/42268260/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42078028",
-    "nome": "",
+    "nome": "Family Fest ft. K-Pop Live | Keel Square, Sunderland",
     "descrizione": "This is the ultimate family day out! Featuring world-class tribute, K-Pop LIVE, festival production & so much more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/e/5/2202783_cba47251_k-pop-x-family-fest-keel-square-sunderland.jpg",
     "data": "2026-08-31",
@@ -284754,11 +285366,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/family-fest-sunderland/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42474395",
-    "nome": "",
+    "nome": "Send it 100! @ Pitt St. Skatepark",
     "descrizione": "A wheeled Sports & music event celebrating 100 years of Portsmouth being a city at Pitt. St. Skatepark.\n2 days of Live bands, DJs & rad-ness.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/1/a/2276743_25f1582e_send-it-100-pitt-st-skatepark.jpg",
     "data": "2026-09-19",
@@ -284807,18 +285427,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Portsmouth/Pitt-St-Skatepark/Send-it-100--Pitt-St-Skatepark/42474395/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Astoria/Ritzy-Portsmouth-Day-Club-for-over-30s/42276259/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42534137",
-    "nome": "",
+    "nome": "Retrospective Festival 2026",
     "descrizione": "Retrospective Festival returns to Sherdley Park, celebrating iconic 80s, 90s and 00s music and nostalgia.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/4/f/2293871_fdcb3fd1_retrospective-festival-2026.jpg",
     "data": "2026-09-11",
@@ -284863,11 +285477,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/retrospective-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42462731",
-    "nome": "",
+    "nome": "GemFest 2027",
     "descrizione": "Thursday and Friday Entry Weekend Tickets are NOW LIVE!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/b/b/2273379_d119680f_gemfest-2027.jpg",
     "data": "2027-06-17",
@@ -284899,11 +285521,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/gemfest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42467937",
-    "nome": "",
+    "nome": "Second Speed Accelerate: VIEZE ASBAK  (ALL DAY LONG)",
     "descrizione": "Second Speed Accelerate: VIEZE ASBAK  (ALL DAY LONG) Halloween Massacre",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/b/5/2274333_c71aaa69_second-speed-accelerate-vieze-asbak-all-day-long-.jpg",
     "data": "2026-10-30",
@@ -284935,11 +285565,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Gateshead/Gateshead-International-Stadium/Second-Speed-Accelerate-VIEZE-ASBAK--ALL-DAY-LONG/42467937/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41488438",
-    "nome": "",
+    "nome": "FearFest 2026",
     "descrizione": "The UKs biggest Halloween Rave is back for 2026!! Grab your early HALFPRICE tickets NOW!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/7/5/2139869_9981fa9e_fearfest-2026.jpg",
     "data": "2026-10-30",
@@ -284971,11 +285609,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/fearfest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41332366",
-    "nome": "",
+    "nome": "Chargecandy at Creamfields",
     "descrizione": "Get 1x full charger for each day you are there. £10 deposit required on collection - refunded on return of last charger.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/1/2097733_83828287_Chargecandy-at-Creamfields.jpg",
     "data": "2026-08-27",
@@ -285007,11 +285653,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Warrington/Creamfields/Chargecandy-at-Creamfields/41332366/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42573081",
-    "nome": "",
+    "nome": "Isle Of Wight Dance Weekender - Summer Closing Party",
     "descrizione": "The Summer Finale You've Been Waiting For\nSummer is drawing to a close, but we're not letting it go quietly. The Isle of Wight Dance Weekender returns",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/0/1/2299608_bffcbde7_isle-of-wight-dance-weekender-summer-closing-party.jpg",
     "data": "2026-09-12",
@@ -285051,11 +285705,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Isle-of-Wight/Robin-Hill-Advenutre-Park/Isle-Of-Wight-Dance-Weekender---Summer-Closing-Party/42573081/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42510984",
-    "nome": "",
+    "nome": "Coalesce Festival 2027",
     "descrizione": "Coalesce Festival returns for 2027 - A five year celebration of UK club and sound system culture in South Wales!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/5/f/2287247_63184191_coalesce-festival-2027.jpg",
     "data": "2027-05-28",
@@ -285094,18 +285756,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/coalesce-festival/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newport/Secret-Venue-Wales/Little-Fields-Festival-2027/42510978/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42443339",
-    "nome": "",
+    "nome": "Undercover Festival",
     "descrizione": "The first edition of UNDERCOVER arrives in Newport with world-class artists, festival production and an unforgettable atmosphere.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/3/3/2269387_b503f480_undercover-festival.jpg",
     "data": "2026-09-04",
@@ -285141,11 +285797,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newport/Rodney-Parade-Stadium/Undercover-Festival/42443339/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41909474",
-    "nome": "",
+    "nome": "Moon Festival 2026: The Extraordinary Civilisation",
     "descrizione": "We will be returning this New Year's Eve, 31st December.\n\nThe cheapest tickets are now available.\n\nCome and join The Extraordinary Civilisation...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/7/2/2180063_af913388_moon-festival-2026-the-extraordinary-civilisation.jpg",
     "data": "2026-12-31",
@@ -285177,11 +285841,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bristol/Sawmills/Moon-Festival-2026-The-Extraordinary-Civilisation/41909474/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42475431",
-    "nome": "",
+    "nome": "Dubtendo Day Party - London",
     "descrizione": "The ultimate raving & gaming experience returns to London's Fox & Firkin on Saturday the 22nd of August for a day & night event.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/7/f/2277204_8cab6386_dubtendo-day-party-london.jpg",
     "data": "2026-08-22",
@@ -285222,11 +285894,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/The-Fox-And-Firkin/Dubtendo-Day-Party---London/42475431/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42092999",
-    "nome": "",
+    "nome": "The Bootleg Beatles | Keel Square, Sunderland",
     "descrizione": "The world's No.1 Beatles tribute act is coming to Keel Square for the Summer Series in the square in Sunderland.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/0/4/2208132_c9ed1dc9_the-bootleg-beatles-keel-square-sunderland.jpg",
     "data": "2026-08-28",
@@ -285258,11 +285938,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sunderland/Keel-Square/The-Bootleg-Beatles--Keel-Square-Sunderland/42092999/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42613282",
-    "nome": "",
+    "nome": "HebCelt 2027",
     "descrizione": "Nestled in the stunning landscapes of the Isle of Lewis, HebCelt Festival is an unmissable celebration of Celtic music, arts, and culture.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/0/f/2310722_d20f028e_hebcelt-2027.jpg",
     "data": "2027-07-15",
@@ -285293,11 +285981,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/HEBRIDES/Lews-Castle-Green/HebCelt-2027/42613282/?sktag=15777&skcampaign=sito",
+        "prezzo": "170",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42366959",
-    "nome": "",
+    "nome": "RNB MANIA | Derby's R&B Festival",
     "descrizione": "Derby, are you ready for an incredible all-eras R&B showcase? RNB MANIA is bringing our iconic vibes to Ultra Warehouse!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/6/9/2253161_48118317_rnb-mania-derby-s-r-b-festival.jpg",
     "data": "2026-08-30",
@@ -285335,18 +286031,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/rnb-mania-derby/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Derby/The-Old-Blacksmith%27s-Yard%2C-Sadler-Gate%2C-Derby/Mr-Shaw-Reminisce-Bank-Holiday-August-30th---2026/42470297/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42284740",
-    "nome": "",
+    "nome": "BACK IN TIME Festival 2027",
     "descrizione": "Throwback Grooves, Good Vibes, and Positive Energy for over 25's\n\nIt's Time to Go Back... WAY BACK!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/d/2/2234444_c0141b4d_back-in-time-festival-2027.jpg",
     "data": "2027-05-01",
@@ -285378,11 +286068,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/back-in-time-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42475319",
-    "nome": "",
+    "nome": "We Call it Dance Weekender",
     "descrizione": "WCID is an indoor weekend long festival at Butlin's Skegness. \n\nCome party with Claptone, Joel Corry, Hannah Wants, Sigma, Nathan Dawe & more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/1/6/2277152_92c9c456_we-call-it-dance-weekender.jpg",
     "data": "2026-11-06",
@@ -285435,11 +286133,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Skegness/Butlins/We-Call-it-Dance-Weekender/42475319/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42413171",
-    "nome": "",
+    "nome": "Inverness Goes Large!",
     "descrizione": "Judge Jules, Tall Paul, Agnelli & Nelson & Lost Witness Headline!!\n\nTickets go on sale tomorrow morning at 8am!!\n\nSell out incoming!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/b/6/2261563_21cc5504_inverness-goes-large-.jpg",
     "data": "2026-10-24",
@@ -285476,11 +286182,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Inverness/Inverness-Leisure-Centre/Inverness-Goes-Large/42413171/?sktag=15777&skcampaign=sito",
+        "prezzo": "£22.50",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42276685",
-    "nome": "",
+    "nome": "Sidewinder Halloween Festival 2026",
     "descrizione": "The UK's biggest Uk Garage, House, Bassline, Rnb, Bashment and Afro House music festival returns!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/0/2233255_3a3eadc7_sidewinder-halloween-festival-2026.jpg",
     "data": "2026-10-31",
@@ -285518,30 +286232,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/sidewinder-halloween/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Rebellion/Ball-to-the-Wall/42403610/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Six-Trees/Mannyfest-Halloween-Special/42628698/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/NeXup/42567289/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42329468",
-    "nome": "",
+    "nome": "RNB MANIA | Lincoln's R&B Festival",
     "descrizione": "Lincoln, are you ready to experience the very best of R&B music? R&B MANIA returns to STACK on Sunday 30 August 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/2/2243486_6c263703_rnb-mania-lincoln-s-r-b-festival.jpg",
     "data": "2026-08-30",
@@ -285572,11 +286268,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/rnb-mania-lincoln/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42622128",
-    "nome": "",
+    "nome": "UB40 featuring ALI CAMPBELL",
     "descrizione": "UB40 featuring ALI CAMPBELL return to Southend for an unmissable Summer concert .\nSupport acts include GENTLEMANS DUB CLUB, & CARROL THOMPSON",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/5/a/2313767_1ff6c730_ub40-featuring-ali-campbell.jpg",
     "data": "2026-08-30",
@@ -285611,11 +286315,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southend-on-Sea/Garon-Park/UB40-featuring-ALI-CAMPBELL/42622128/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42601555",
-    "nome": "",
+    "nome": "Since92 - Mini Fest Summer Closing",
     "descrizione": "Manchester's ultimate end-of-summer day party. R&B, Hip-Hop, Afrobeats, food, drinks, fairground rides & unforgettable energy",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/1/2306875_ec638a5a_since92-mini-fest-summer-closing.jpg",
     "data": "2026-09-05",
@@ -285656,24 +286368,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/The-Irish-Heritage-Centre-Manchester/Since92---Mini-Fest-Summer-Closing/42601555/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Six-Trees/Progmatic/42277171/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/manchester-psych-fest/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42569009",
-    "nome": "",
+    "nome": "The Red Lion Garden Party",
     "descrizione": "Music by DJ Tricksta, street food, BBQ and dancing. Over 30s",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/f/2298380_e2b31222_the-red-lion-garden-party.jpg",
     "data": "2026-08-22",
@@ -285705,11 +286405,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stourbridge/The-Red-Lion-Inn/The-Red-Lion-Garden-Party/42569009/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42459735",
-    "nome": "",
+    "nome": "Good Vibes Only. 29th & 30th August 2026.",
     "descrizione": "Good Vibes Only is back at Newlands Park for 2 days jam packed with incredible headline artists and the very best local talent around. Let's dance!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/a/2272382_93037320_Good-Vibes-Only--29th---30th-August-2026-.jpg",
     "data": "2026-08-29",
@@ -285753,11 +286461,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cheltenham/Cheltenham-RFC-Newlands-Park-/Good-Vibes-Only-29th--30th-August-2026/42459735/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41623587",
-    "nome": "",
+    "nome": "Glastonferret 2026",
     "descrizione": "GLASTONFERRET 2026 - The Original Indoor Turfed Festival returns for 4 days of live music! GANS, Black Foxxes & many more to be announced!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/4/0/2156031_b9a31ae1_glastonferret-2026.jpg",
     "data": "2026-08-27",
@@ -285792,11 +286508,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/glastonferret/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42470288",
-    "nome": "",
+    "nome": "90's & 00's Nation presents SED Festival",
     "descrizione": "South East Dance Festival is back in Southend for 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/c/e/2275305_89524883_90-s---00-s-Nation-presents-SED-Festival.jpg",
     "data": "2026-08-29",
@@ -285837,24 +286561,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Southend-on-Sea/Garon-Park/90s--00s-Nation-presents-SED-Festival/42470288/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Southend-on-Sea/Garon-Park/SED-Fest-2026/42603185/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Southend-on-Sea/Blackbox-Brewery/Spangled-X-Rough-Tempo--TNA-NuElementz---Azza--Grima-P-Money/42517248/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42610256",
-    "nome": "",
+    "nome": "Collide Summer Gathering Part 4",
     "descrizione": "We return our 4th installment at a new outdoor space in Derbyshire.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/f/d/2309753_5530a404_collide-summer-gathering-part-4.jpg",
     "data": "2027-06-11",
@@ -285884,11 +286596,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Derby/TBA-Derby/Collide-Summer-Gathering-Part-4/42610256/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42363659",
-    "nome": "",
+    "nome": "Mucky Weekender Festival 2026",
     "descrizione": "Mucky Weekender is Winchester's favourite three-day music & arts festival, organised by Dub Pistols' frontman Barry Ashworth.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/5/3/2251820_efe0511b_mucky-weekender-festival-2026.jpg",
     "data": "2026-09-10",
@@ -285971,11 +286691,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/mucky-weekender/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42572995",
-    "nome": "",
+    "nome": "RNB MANIA | Brighton's R&B Festival",
     "descrizione": "Brighton, are you ready to experience the very best of R&B music? R&B MANIA comes to Quarters on Saturday 21st November 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/3/3/2299593_d1c01bfc_rnb-mania-brighton-s-r-b-festival.jpg",
     "data": "2026-11-21",
@@ -286006,11 +286734,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/rnb-mania-brighton/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42439143",
-    "nome": "",
+    "nome": "RNB MANIA | Newcastle's R&B Festival",
     "descrizione": "Geordies, are you ready to experience the very best of R&B music? R&B MANIA is returning to NX on Saturday 26 September 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/3/8/2269037_7058e1a1_rnb-mania-newcastle-s-r-b-festival.jpg",
     "data": "2026-09-26",
@@ -286048,18 +286784,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/rnb-mania-newcastle/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Ouseburn-Garden/DIGITAL-presents-Dan-Ghenacia-Captain-Wallop--more/42593481/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41779593",
-    "nome": "",
+    "nome": "Boxout Fest 2026",
     "descrizione": "Birmingham's BIGGEST Festival celebrating culture and music",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/e/6/2172643_cfa2111d_boxout-fest-2026-special-guests.jpg",
     "data": "2026-08-22",
@@ -286106,54 +286836,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Luna-Springs-Digbeth-/Boxout-Fest-2026/41779593/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Automatic/42373243/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Automatic--Magnatas-Court/42373243/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO-Rooftop/HEVI---On-The-Roof/42570611/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Club-Colette/Alt-baile-Presents-CAIO-HOT--Baile-Funk/42613211/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Tunnel-Club/DISTORTED---The-Next-Phase/42484676/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/The-Return-of-Brum-Tropicana/42533795/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/AFTA-DARK-w-VERY-SPECIAL-GUEST---Sat-22nd-August/42476323/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42410191",
-    "nome": "",
+    "nome": "Revenant IV - Whitby Goth Weekend (WGW) - Autumn",
     "descrizione": "An Official Whitby Goth Weekend Fringe Event.\n3 Nights, 9 Epic Alt Bands, DJ's, nonstop music & mayhem\nFull info www.whitbyrevenant.com",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/b/f/2261015_41687119_Revenant-IV---Whitby-Goth-Weekend--WGW-.jpg",
     "data": "2026-10-30",
@@ -286195,11 +286883,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/revenant/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42573082",
-    "nome": "",
+    "nome": "The Big One",
     "descrizione": "Dumbarton Rocks is back and bigger than ever!\nGet your tickets for Dumbartons biggest live music event supported by local businesses and DFC.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/2/0/2299609_784cd6a3_the-big-one.jpg",
     "data": "2026-09-27",
@@ -286241,18 +286937,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Dumbarton-Football-Club/The-Big-One/42573082/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/dumbarton-rocks-festival/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42564700",
-    "nome": "",
+    "nome": "NucleusFEST",
     "descrizione": "A 2 Day Festival, in Rochester, Kent. Saturday House & Garage Music & then on  Sunday Family Live Day. Live entertainment across the weekend for all.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/2/c/2297131_eaa63c77_nucleusfest.jpg",
     "data": "2026-08-22",
@@ -286292,11 +286982,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Medway-Rochester/Nucleus-Winery-At-Fort-Borstal/NucleusFEST/42564700/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41916307",
-    "nome": "",
+    "nome": "Madisons 90s Festival",
     "descrizione": "Madisons 90s Festival with Camping \n29th August 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/2/2181517_2421ed93_madisons-90s-festival.jpg",
     "data": "2026-08-29",
@@ -286326,11 +287024,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Workington/Rivendell/Madisons-90s-Festival/41916307/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41970984",
-    "nome": "",
+    "nome": "Dubs of Rock 2026",
     "descrizione": "A full-scale festival experience for a fraction of the price! With multiple stages, stage production, campsite facilities, food vendors, and more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/b/d/2192528_87d8824c_dubs-of-rock-2026.jpg",
     "data": "2026-08-28",
@@ -286392,11 +287098,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/dubs-of-rock/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42461683",
-    "nome": "",
+    "nome": "Casa Festival",
     "descrizione": "CASA brings one of South Wales’ biggest house music festivals to Rodney Parade, featuring two stages, Goodboys, Belters Only, Nathan Dawe and more.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/0/a/2273145_cdc92ea0_casa.jpg",
     "data": "2026-09-05",
@@ -286445,18 +287159,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Newport/Rodney-Parade/Casa/42461683/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newport/Rodney-Parade/Casa-Festival/42461683/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42447128",
-    "nome": "",
+    "nome": "Ibiza Radio 1 Ibiza Festival @ Swigg Swansea",
     "descrizione": "Taking you back to those wonderful hazy days on THAT special Ibiza terrace and bringing you right up to speed with current White Isle vibes.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/0/3/2269880_f2546b9f_ibiza-radio-1-ibiza-festival-swigg-swansea.jpg",
     "data": "2026-08-30",
@@ -286488,11 +287196,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Swansea/The-Swigg-Swansea/Ibiza-Radio-1-Ibiza-Festival--Swigg-Swansea/42447128/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41573553",
-    "nome": "",
+    "nome": "House OF Eira - Castle Take-over Part II",
     "descrizione": "We're back at the iconic Gwrych Castle in North Wales as we bring 10 hours of non-stop House, echo, UKG & DnB to the North Wales coastline.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/6/8/2145220_f1b5edff_house-of-eira-castle-take-over-part-ii.jpg",
     "data": "2026-09-05",
@@ -286533,11 +287249,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Llandudno/Gwrych-Castle-Preservation-Trust-Ltd/House-OF-Eira---Castle-Take-over-Part-II/41573553/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42492044",
-    "nome": "",
+    "nome": "FOMO Multi Genre Music Festival",
     "descrizione": "F.O.M.O - Multi Genre Music Festival lands at RM Arena Outdoor on Saturday 12th September 2026.\n\nA brand new outdoor festival !!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/c/8/2282441_fa454bba_fomo-multi-genre-music-festival.jpg",
     "data": "2026-09-12",
@@ -286575,11 +287299,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Durham/The-Rainton-Arena/FOMO-Multi-Genre-Music-Festival/42492044/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581561",
-    "nome": "",
+    "nome": "Livefields Festival 2027",
     "descrizione": "Livefields Festival was founded in 2019 to feature the UK’s top tribute acts for people from West Yorkshire, Manchester, Sheffield and beyond to enjoy",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/e/a/2301478_10acd3ea_livefields-festival-2027.jpg",
     "data": "2027-07-10",
@@ -286616,18 +287348,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Wakefield/Oakwell-Hall-Country-Park/Livefields-Festival-2027/42581561/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/livefields-festival/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42486620",
-    "nome": "",
+    "nome": "NBG Garden Party (16-18)",
     "descrizione": "NBG returns for its biggest event to date with an unforgettable daytime drum & bass garden party at one of Bristol's most iconic venue!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/b/9/2280517_513efc1d_nbg-garden-party-16-18-.jpg",
     "data": "2026-08-28",
@@ -286671,24 +287397,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Lakota-Gardens/NBG-Garden-Party-16-18/42486620/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Louisiana/downcast--Stay-Safe--Special-Guests/41981826/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/The-Thunderbolt/ThunderfestGrassroots-Music-Festival-in-Totterdown-Bristol/42457038/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42467977",
-    "nome": "",
+    "nome": "The Essex Ska & Reggae Festival 2027",
     "descrizione": "Back in its third successful year in Harlow with more of the genres finest bands and performers",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/a/e/2274363_71b48aff_the-essex-ska-reggae-festival-2027.jpg",
     "data": "2027-05-29",
@@ -286717,11 +287431,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Harlow/Harlow-Rugby-Club/The-Essex-Ska--Reggae-Festival-2027/42467977/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42459693",
-    "nome": "",
+    "nome": "Loud & Clear",
     "descrizione": "Welcome to Loud & Clear. A new rock/hardcore/punk/emo festival taking place in Liverpool this November. Headlining: Saves The Day",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/1/7/2272351_305d5121_loud-clear.jpg",
     "data": "2026-11-21",
@@ -286759,11 +287481,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Multiple-Venues/Loud--Clear/42459693/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42577904",
-    "nome": "",
+    "nome": "Pioneer Plays: End of Summer Party",
     "descrizione": "Close out summer at Pioneer Plays Mini Fest! Top DJs, street food, bars, festival vibes and unforgettable memories.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/7/d/2300575_c63a0f8b_pioneer-plays-end-of-summer-party.jpg",
     "data": "2026-09-12",
@@ -286803,11 +287533,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ilford/Eutopia-Warehouse/Pioneer-Plays-End-of-Summer-Party/42577904/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604015",
-    "nome": "",
+    "nome": "Soul Disco Society",
     "descrizione": "Following a sell-out launch event in 2026, Soul Disco returns to Lichfield for another unforgettable celebration of Soul, Disco and House music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/9/2307719_d13d1095_soul-disco-society.jpg",
     "data": "2027-07-17",
@@ -286839,11 +287577,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/soul-disco-society/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42508175",
-    "nome": "",
+    "nome": "4 Corners Day Party",
     "descrizione": "THE MIGHTY 4 CORNERS TAKE OVER THE EUTOPIA WEAR HOUSE  IN EAST LONDON FOR A DAY PARTY FOR 2000+",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/a/a/2286378_0355ba57_4-corners-day-party.jpg",
     "data": "2026-08-22",
@@ -286881,11 +287627,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ilford/Eutopia-Warehouse/4-Corners-Day-Party/42508175/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41496497",
-    "nome": "",
+    "nome": "Onboard the Craft 2026",
     "descrizione": "3 days of amazing space rock prog & blues -  music festival set in the beautiful surroundings of Stoke Prior - Bromsgrove . Worcestershire.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/0/d/2141612_a0a362be_onboard-the-craft-2026.jpg",
     "data": "2026-09-10",
@@ -286925,18 +287679,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Stoke-Prior-Sports--And--Country-Club/Onboard-the-Craft-2026/41496497/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/onboard-the-craft/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42415400",
-    "nome": "",
+    "nome": "Manchester Forever",
     "descrizione": "Manchester Forever returns to Bowlers on Saturday 1st May 2027 - the ultimate 90's rave reunion. On sale this Friday at 9am!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/e/2262064_40594828_Manchester-Forever.jpg",
     "data": "2027-05-01",
@@ -286968,11 +287716,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Bowlers-Exhibition-Centre/Manchester-Forever/42415400/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42477177",
-    "nome": "",
+    "nome": "All Back To Ours  - Into the Woods - 1 day festival",
     "descrizione": "After last years sellout event ,  the ABTO DJs are back with soul-fusion band Twinn ft Joe Roberts & our headline dj Herbie Sacanni. Into the woods",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/8/4/2277498_296a722b_all-back-to-ours-into-the-woods-1-day-festival.jpg",
     "data": "2026-09-05",
@@ -287004,11 +287760,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockport/The-Strines-Nightingale/All-Back-To-Ours----Into-the-Woods---1-day-festival/42477177/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42589631",
-    "nome": "",
+    "nome": "Electric Heart Surrey 2027",
     "descrizione": "Electric Heart returns to Apps Court, Surrey on Sunday 11th July for a huge day of indie!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/0/2303972_1a5efd45_electric-heart-surrey-2027.jpg",
     "data": "2027-07-11",
@@ -287037,11 +287801,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/electric-heart-surrey/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42154884",
-    "nome": "",
+    "nome": "Origins Festival",
     "descrizione": "Original music festival. Rock, Heavy Metal, and Burlesque",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/6/1/2217311_c2aba682_origins-festival.jpg",
     "data": "2026-09-25",
@@ -287069,11 +287841,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Hereford/Hereford-Racecourse-Roman-Road-Hereford-HR4-9QU/Origins-Festival/42154884/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42077234",
-    "nome": "",
+    "nome": "FarmFest 2026",
     "descrizione": "FarmFest is 4 day Indie, Alt, Post-Punk Music Festival, supporting Asylum Seeking women and children. with London based very talented un-signed bands.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/8/f/2202462_86c90db7_farmfest-2026.jpg",
     "data": "2026-08-28",
@@ -287111,11 +287891,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Watford/WD39XJ/FarmFest-2026/42077234/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41442630",
-    "nome": "",
+    "nome": "Preston Summerfest 2026",
     "descrizione": "We are a family friendly music festival in the heart of Kent that raises money for good causes. Check out our Facebook page for photos of our events.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/c/b/2126823_54304493_Preston-Summerfest-2026.jpg",
     "data": "2026-08-28",
@@ -287150,11 +287938,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Canterbury/CT3-1HB/Preston-Summerfest-2026/41442630/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42439137",
-    "nome": "",
+    "nome": "RNB MANIA | Hertford's R&B Festival",
     "descrizione": "Hertford, are you ready to experience the very best of R&B music? R&B MANIA comes to Dog and Whistle on Saturday, 19 September 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/c/4/2269032_36a997ea_rnb-mania-hertford-s-r-b-festival.jpg",
     "data": "2026-09-19",
@@ -287185,11 +287981,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/rnb-mania-hertford/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42620570",
-    "nome": "",
+    "nome": "J F Polo 20th Anniversary Party",
     "descrizione": "A marquee party in a marquee on our polo field. Lots of house, dance and absolute belters all night. Celebrating 20 years in business!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/4/2/2313214_9fa979e1_j-f-polo-20th-anniversary-party.jpg",
     "data": "2026-09-12",
@@ -287217,11 +288021,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chester/J-F-Polo-Academy/J-F-Polo-20th-Anniversary-Party/42620570/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42434843",
-    "nome": "",
+    "nome": "Summer Outdoor Garage Festival - Studio 338 London",
     "descrizione": "London! We are back for another HUGE Summer Outdoor Garage Festival coming this September 2026! If you love your garage anthems, you'll love this!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/a/f/2267100_70754f51_summer-outdoor-garage-festival-studio-338-london.jpg",
     "data": "2026-09-05",
@@ -287251,11 +288063,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/Studio-338/Summer-Outdoor-Garage-Festival---Studio-338-London/42434843/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42364911",
-    "nome": "",
+    "nome": "Donkey fest",
     "descrizione": "Get ready to dive into the vibrant festival vibes of donkey fest. Join the donkey for a day full of fun, music and communitity spirit.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/2/4/2252498_3abe44b0_donkey-fest.jpg",
     "data": "2026-08-22",
@@ -287286,11 +288106,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oldham/Ol12-9tb/Donkey-fest/42364911/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42141602",
-    "nome": "",
+    "nome": "Allday Indie Indoor Festival - Margate",
     "descrizione": "AllDay Indie Indoor Festival - Dreamland Margate\nA massive allday throwback party celebrating the sound of your youth.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/6/1/2214504_918bc823_allday-indie-indoor-festival-margate.jpg",
     "data": "2026-09-26",
@@ -287320,11 +288148,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Margate/Dreamland/Allday-Indie-Indoor-Festival---Margate/42141602/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42599559",
-    "nome": "",
+    "nome": "Circulate @ junction 4 skatepark presents NINETREE",
     "descrizione": "Round two.\n\nFor CIRCULATE // 002, we're taking over a skatepark. \n\nAnother unique location into a full party setting.\n\nCome join us!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/e/e/2306517_d230fafb_circulate-junction-4-skatepark-.jpg",
     "data": "2026-09-05",
@@ -287355,11 +288191,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Blackburn/Junction-4-Blackburn-Road-Darwen-BB3-0AL-England/Circulate--junction-4-skatepark-presents-NINETREE/42599559/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41634046",
-    "nome": "",
+    "nome": "Reading Rising 2026",
     "descrizione": "Reading Rising returns in 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/2/7/2158145_45ca670a_reading-rising-2026.jpg",
     "data": "2026-11-07",
@@ -287390,11 +288234,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Reading/The-FaceBar/Reading-Rising-2026/41634046/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42535241",
-    "nome": "",
+    "nome": "Oracle-Club Vega",
     "descrizione": "Get ready for a night of relentless energy, unstoppable tracks and unforgettable moments as we transform Club Vega into a full-scale techno experience",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/e/6/2294000_15192350_Oracle-Club-Vega.jpg",
     "data": "2026-09-05",
@@ -287422,11 +288274,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Hull/Club-Vega/Oracle-Club-Vega/42535241/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42276242",
-    "nome": "",
+    "nome": "Novacaine Festival 2026",
     "descrizione": "Novacaine Festival - The UK's New Music Discovery Festival - returns on Saturday 28th November 2026 at Corporation, Sheffield.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/b/8/2232858_86482ec2_novacaine-festival-2026.jpg",
     "data": "2026-11-28",
@@ -287465,11 +288325,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/Corporation-Sheffield/Novacaine-Festival-2026/42276242/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42303025",
-    "nome": "",
+    "nome": "Tigerfest 2026 Saturday/Sunday Combo",
     "descrizione": "Tigerfest 2026 is a 2 day charity music festival. In Newcastle u Lyme and Stoke on Trent UK. Raising money to protect Tigers in their natural habitat.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/0/f/2238054_92351500_Tigerfest-2026-Saturday-Sunday-Combo.jpg",
     "data": "2026-10-10",
@@ -287500,11 +288368,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-under-lyme/The-Rigger/Tigerfest-2026-SaturdaySunday-Combo/42303025/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42448226",
-    "nome": "",
+    "nome": "PURE R&B - Summer Outdoor Day Party Cardiff - August 29th",
     "descrizione": "PURE RNB\nOUTDOOR SUMMER DAY PARTY\nBank Holiday Saturday 29th August 2026\n3PM - 10.30\nLo Lounge, Cardiff Bay",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/4/8/2270412_8a4e9706_pure-r-b-summer-outdoor-day-party-cardiff-august-29th.jpg",
     "data": "2026-08-29",
@@ -287536,11 +288412,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/Lo-Lounge-Cardiff-Bay/PURE-RB---Summer-Outdoor-Day-Party-Cardiff---August-29th/42448226/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42612695",
-    "nome": "",
+    "nome": "Ibiza Summer Of Dance Season Closing Party",
     "descrizione": "Another Summer Season is coming to the end in Ibiza and also at Thornhill Cricket & Bowling Club. Lets go out with a bang with an afternoon of music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/d/2310569_ef84b2bc_ibiza-summer-of-dance-season-closing-party.jpg",
     "data": "2026-09-19",
@@ -287572,11 +288456,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wakefield/Thornhill-Cricket-And-Bowling-Club/Ibiza-Summer-Of-Dance-Season-Closing-Party/42612695/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581509",
-    "nome": "",
+    "nome": "doof in the Park 2027",
     "descrizione": "After an incredible 2nd year, doof in the park returns to Dundee in 2027. Early Bird Tickets on sale now.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/1/2301428_65a46dd3_doof-in-the-park-2027.jpg",
     "data": "2027-07-03",
@@ -287608,11 +288500,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/doof-in-the-park/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42487080",
-    "nome": "",
+    "nome": "Goodlife Festival 2027",
     "descrizione": "A Bold, Beautiful & Boutique Festival at the picturesque grounds of Harewood House.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/1/2280702_e5b31097_goodlife-festival-2027.jpg",
     "data": "2027-06-12",
@@ -287644,11 +288544,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/goodlife-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42468292",
-    "nome": "",
+    "nome": "Terminal V Festival 2027",
     "descrizione": "Glasgow hosts 10 years of Terminal V in an undiscovered outdoor location in the industrial heart of the city,",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/4/5/2274534_57aa31f0_terminal-v-festival-2027.jpg",
     "data": "2027-06-05",
@@ -287679,11 +288587,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/terminal-v-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42503290",
-    "nome": "",
+    "nome": "Glorious Day Festival 2027",
     "descrizione": "A boutique festival at Hove Lawns on Brighton & Hove Seafront",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/5/3/2284394_87b7d49f_glorious-day-festival-2027.jpg",
     "data": "2027-06-05",
@@ -287715,11 +288631,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/glorious-day-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42516822",
-    "nome": "",
+    "nome": "Daresbury Festival 2027",
     "descrizione": "Join us for a day of House, Disco & Happiness at the highly anticipated Daresbury Festival taking place at the picturesque settings of Walton hall",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/b/3/2289539_25550665_Daresbury-Festival-2027.jpg",
     "data": "2027-06-19",
@@ -287751,11 +288675,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/daresbury-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41927820",
-    "nome": "",
+    "nome": "Live In Inverurie",
     "descrizione": "Red Hot Chilli Pipers and Urban Cookie Collective headline!!\n\nTickets on sale now!\nEarly Bird & Second Release - Sold out\n3rd Release - Selling fast.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/3/2183866_110c6a35_live-in-inverurie.jpg",
     "data": "2026-09-05",
@@ -287791,11 +288723,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Aberdeen/Garioch-Indoor-Bowling-Centre/Live-In-Inverurie/41927820/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42427474",
-    "nome": "",
+    "nome": "Mint Festival 2027",
     "descrizione": "After an Incredible 2026 edition. Tickets for Mint Festival 2027 back on sale! \n\nMissed out on 2026? Now is your chance to secure!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/f/8/2264906_02138945_mint-festival-2027.jpg",
     "data": "2027-05-01",
@@ -287827,11 +288767,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/mint-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581923",
-    "nome": "",
+    "nome": "Granite City Festival 2027",
     "descrizione": "Granite City Festival returns to Hazelhead Park on Saturday 26 June 2027!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/1/2301757_9249639c_granite-city-festival-2027.jpg",
     "data": "2027-06-26",
@@ -287861,11 +288809,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/granite-city-fest/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42535219",
-    "nome": "",
+    "nome": "Silverburn Festival 2027",
     "descrizione": "A two day music extravaganza in Fife featuring the finest rock, ska, funk, indie and folk bands plus DJs over 3 stages in a beautiful natural setting!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/9/f/2293982_44742945_Silverburn-Festival-2027.jpg",
     "data": "2027-06-18",
@@ -287897,11 +288853,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/silverburn-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42438761",
-    "nome": "",
+    "nome": "The Invasion: 5.0 - A New Dawn",
     "descrizione": "Limited super early access tickets now live.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/6/e/2268882_0f5baf1c_the-invasion-5-0-a-new-dawn.jpg",
     "data": "2027-05-29",
@@ -287929,11 +288893,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/%2A%2A%2ASecret-Location%2A%2A%2A/The-Invasion-50---A-New-Dawn/42438761/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42533758",
-    "nome": "",
+    "nome": "LEGACY outdoors summer closing party",
     "descrizione": "We are outside and inside for our summer closing party with 3 arenas and over 40 Djs with your favourite Live PA's and Mc's",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-09-19",
@@ -287965,11 +288937,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ilford/Eutopia/LEGACY-outdoors-summer-closing-party/42533758/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42161482",
-    "nome": "",
+    "nome": "Pulloxhill Events 2026 - Ellie Sax Endless Summer",
     "descrizione": "Pulloxhill Events The Paddock Pulloxhill MK45 5HB, Featuring Ellie Sax Endless Summer, The Stickmen Project, Marcella Woods",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/7/d/2219599_fc38667b_pulloxhill-events-2026-ellie-sax-endless-summer.jpg",
     "data": "2026-08-22",
@@ -288005,11 +288985,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/pulloxhill-events/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41585609",
-    "nome": "",
+    "nome": "SOS Weekender 2026",
     "descrizione": "3 day music event with 19 DJs playing the very best in Soul, R&B, Neo Soul & Funk with a touch of Soulful House,  Jazz Funk and Reggae",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/6/0/2147478_a24f28eb_spirit-of-soul.jpg",
     "data": "2026-10-09",
@@ -288043,11 +289031,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bolton/Last-Drop-Village-Hotel-and-Spa/SOS-Weekender-2026/41585609/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42295561",
-    "nome": "",
+    "nome": "Beyond The Music 2026",
     "descrizione": "Manchester's global music conference and showcase festival. Building a fairer future for artists and delegates. Join the revolution.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/6/1/2236872_a30617ae_beyond-the-music-2026.jpg",
     "data": "2026-10-07",
@@ -288079,11 +289075,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Salford/Media-City-UK/Beyond-The-Music-2026/42295561/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42472070",
-    "nome": "",
+    "nome": "Cafe Mambo Ibiza Classics at Coombe Abbey 2027",
     "descrizione": "The iconic Ibiza brand Cafe Mambo comes to the incredible Grade II Listed Coombe Abbey this May for an Ibiza Classics Festival",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/1/7/2275895_95603666_Cafe-Mambo-Ibiza-Classics-at-Coombe-Abbey-2027.jpg",
     "data": "2027-05-22",
@@ -288115,11 +289119,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/cafe-mambo-ibiza-classics-coventry/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42364141",
-    "nome": "",
+    "nome": "This Feeling By The Sea",
     "descrizione": "A weekend showcasing the best new music from around the UK",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/3/6/2252027_14994504_This-Feeling-By-The-Sea.jpg",
     "data": "2027-04-09",
@@ -288149,11 +289161,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/this-feeling-by-the-sea/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42596898",
-    "nome": "",
+    "nome": "Lost Groove Festival 2027",
     "descrizione": "Lost Groove Festival is back in 2027, 3rd - 6th June. \n\nSign up for exclusive pre-sale access.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/d/3/2305681_3595590c_lost-groove-festival-2027.jpg",
     "data": "2027-06-03",
@@ -288184,11 +289204,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Andover/Monxton/Lost-Groove-Festival-2027/42596898/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42577957",
-    "nome": "",
+    "nome": "Celestry 2027",
     "descrizione": "CELESTRY 2027 returns for another unforgettable journey of house, atmosphere and escapism. Expect world-class DJs & breathtaking production.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/2/2300614_852e3756_celestry-2027.jpg",
     "data": "2027-07-03",
@@ -288216,11 +289244,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Slough/Royal-Windsor-Racecourse/Celestry-2027/42577957/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42278176",
-    "nome": "",
+    "nome": "Show Of Hands",
     "descrizione": "Show of Hands is a new Jazz festival taking place at Gilcombe farm in Bruton over the May bank holiday weekend in 2026 for 2,500 people.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/1/2233908_26bba306_show-of-hands.jpg",
     "data": "2027-07-16",
@@ -288283,11 +289319,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bath/Gilcombe-Farm/Show-Of-Hands/42278176/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42506627",
-    "nome": "",
+    "nome": "Makemake Brewing Co. Presents: Far Out Festival",
     "descrizione": "Makemake Brewing Co & Pitt Street Skate Park welcome you to join us for an event like no other.\n\nFusing Beer, Music, Food and the Dude into an experie",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/9/0/2285811_27233337_Makemake-Brewing-Co--Presents--Far-Out-Festival.jpg",
     "data": "2027-06-12",
@@ -288317,11 +289361,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Portsmouth/Pitt-St-Indoor-Skatepark/Makemake-Brewing-Co-Presents-Far-Out-Festival/42506627/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42497711",
-    "nome": "",
+    "nome": "Street Eat N Beats Festival 2027",
     "descrizione": "Award winning, family friendly, Electronic Dance Music Festival in Essex. UK \nSTREET FOOD| BOUTIQUE BARS| COOL BEATS\n11th Sept 2027, 12.00 till 10.30",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/f/1/2283317_58326346_Street-Eat-N-Beats-Festival-2027.jpg",
     "data": "2027-09-11",
@@ -288358,11 +289410,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/street-eat-n-beats-festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42085016",
-    "nome": "",
+    "nome": "LOUD and LOADED 2026 - Live Rock, Metal and Beer festival",
     "descrizione": "Bands in the Barn presents.... Loud and Loaded!\nOur first Rock and Metal music and beer festival near Holmfirth\n\nSaturday 22nd August 1:00pm-11:30pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/0/b/2205630_d7d9570e_loud-and-loaded.jpg",
     "data": "2026-08-22",
@@ -288396,11 +289456,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Huddersfield/Coddy%27s-Farm%2C-Holmfirth/LOUD-and-LOADED-2026---Live-Rock-Metal-and-Beer-festival/42085016/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42462727",
-    "nome": "",
+    "nome": "Run Away Festival 2027 - Bank Hol Sat 29 & Sun 30 May - Essex",
     "descrizione": "29 + 30 May Bank Holiday @ Chelmsford Racecourse, Essex.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/3/e/2273376_3f01d50d_run-away-festival-2027-bank-hol-sat-29-sun-30-may-essex.jpg",
     "data": "2027-05-29",
@@ -288428,11 +289496,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/run-away-festival-essex/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42563023",
-    "nome": "",
+    "nome": "Strictly Bangerz Indoor Winter Festival",
     "descrizione": "Something Big Is Coming... The first-ever Strictly Bangerz Indoor Festival lands on Friday 4th December. Line-up revealed 15 Aug. Join the movement!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/6/2296531_33c4d70d_strictly-bangerz-indoor-winter-festival.jpg",
     "data": "2026-12-04",
@@ -288472,18 +289548,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Strictly-Bangerz-Indoor-Winter-Festival/42563023/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Classic-Grand./Nanna-Makina--MC-Tazo-Headline-Show/42643501/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41387428",
-    "nome": "",
+    "nome": "T.H.E Truckers Tunes Ltd @ The Truck Show Barnard Castle",
     "descrizione": "Local Acts // Tribute Bands // Dance Tent Powered By PITCH  Re-Union Events\n\nBank Holiday Weekend \nAugust Bank Holiday 2026\n\nLive Music & Dance Tent",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/d/2114936_c851f0b7_synthony-music-festival-on-tour-the-truck-show-barnard-castle.jpg",
     "data": "2026-08-28",
@@ -288515,11 +289585,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Darlington/Streatlam-Event-Field/THE-Truckers-Tunes-Ltd--The-Truck-Show-Barnard-Castle/41387428/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41608621",
-    "nome": "",
+    "nome": "Live At The Queens Fest",
     "descrizione": "Welcome back to Bridlington's Grassroots Music Festival - Live At The Queens Fest 2026!\n\n22 original artists - DJ till late - 13 hours of live music!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/e/9/2152701_2d779399_live-at-the-queens-fest.jpg",
     "data": "2026-08-29",
@@ -288551,11 +289629,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/York/Queens-Bar-And-Coffee-House/Live-At-The-Queens-Fest/41608621/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42470237",
-    "nome": "",
+    "nome": "Ibiza Terrace Party 2026",
     "descrizione": "Bank Holiday Sunday just got bigger as our annual Ibiza Terrace Party returns on 30th August.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/3/2275271_4c571e2f_ibiza-terrace-party-2026.jpg",
     "data": "2026-08-30",
@@ -288590,11 +289676,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bradford/George%27s-Bistro-And-Bar/Ibiza-Terrace-Party-2026/42470237/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41975874",
-    "nome": "",
+    "nome": "Hella Rock Festival",
     "descrizione": "!!! OVER 400 TICKETS ALREADY SOLD !!!\nHella Rock Festival - A Tribute To Phil Campbell",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/8/6/2193282_ca205346_hella-rock-festival.jpg",
     "data": "2026-09-05",
@@ -288636,11 +289730,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/hella-rock/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41911404",
-    "nome": "",
+    "nome": "Cosmic Vibration Festival III",
     "descrizione": "Heavy Metal and Doom festival in the Steel City",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/2/0/2180528_ed6c27ab_cosmic-vibration-festival-iii.jpg",
     "data": "2026-08-29",
@@ -288677,11 +289779,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/Sidney-And-Matilda/Cosmic-Vibration-Festival-III/41911404/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42415136",
-    "nome": "",
+    "nome": "Brixton Disco Festival 2027",
     "descrizione": "We are back on Saturday 1st May 2027. The 9th Annual Multi-Venue Celebration of Disco Culture in the heart of Brixton. Sign Up Below!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/b/f/2261944_15016926_brixton-disco-festival-2027.jpg",
     "data": "2027-05-01",
@@ -288710,11 +289820,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/Brixton-Disco-Festival/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42289227",
-    "nome": "",
+    "nome": "Epidemik in the Woods",
     "descrizione": "Epidemik returns again this August Bank Holiday Saturday for a night of magic at the Weekend in the Woods Festival\nDay Tickets & Weekend Tickets",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/a/2235549_0a767021_epidemik-in-the-woods.jpg",
     "data": "2026-08-29",
@@ -288760,11 +289878,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Northampton/Wold-Farm-Festival-Field-/Epidemik-in-the-Woods/42289227/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42086108",
-    "nome": "",
+    "nome": "VIOLENT NIGHT - The Bread Shed, Manchester",
     "descrizione": "KINGS OF THE NORTH present\n\nVIOLENT NIGHT\n\nHardcore/ Beatdown Metal Festival",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/0/5/2205986_cf9beb8c_violent-night-the-bread-shed-manchester.jpg",
     "data": "2026-12-12",
@@ -288793,11 +289919,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/The-Bread-Shed/VIOLENT-NIGHT---The-Bread-Shed-Manchester/42086108/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42465051",
-    "nome": "",
+    "nome": "GLUESNORT: The Saturday",
     "descrizione": "GLUESNORT Saturday will be from 2PM, October 10th taking over The Cab, Le Pub & The Stowaway with 25 incredible acts across all three venues.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/9/0/2273919_85668877_GLUESNORT--The-Saturday.jpg",
     "data": "2026-10-10",
@@ -288826,11 +289960,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newport/LePub/GLUESNORT-The-Saturday/42465051/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42486374",
-    "nome": "",
+    "nome": "Future Days w/ Working Men's Club, Ulrika Spacek & more",
     "descrizione": "This Is Tmrw presents Future Days 2026, an alternative/indie music festival in Birmingham on October 16 + 17th 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/5/2280448_ed265172_future-days-2026.jpg",
     "data": "2026-10-16",
@@ -288871,18 +290013,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/future-days/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ERIC-PRYDZ---GASWRX-Birmingham/42624600/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42620264",
-    "nome": "",
+    "nome": "Campfire Country Club - London Country Music Spring Festival",
     "descrizione": "This event has been postponed. You will be emailed with information ASAP.",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-12-19",
@@ -288913,11 +290049,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/Campfire-Country-Club---London-Country-Music-Spring-Festival/42620264/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42428003",
-    "nome": "",
+    "nome": "Goth City Festival 2026",
     "descrizione": "Goth City 2026 is a one-off week-long gothstravaganza in Leeds to celebrate ten years since the first Goth City Festival!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/3/f/2265218_2afba427_goth-city-festival-2026.jpg",
     "data": "2026-10-12",
@@ -288948,11 +290092,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-City-Centre/Goth-City-Festival-2026/42428003/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42273256",
-    "nome": "",
+    "nome": "Rock am River 2026",
     "descrizione": "Rock am River festival returns to the New Continental in Preston for its fifth birthday celebrations.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/b/2232537_4c6c23ae_rock-am-river-2026.jpg",
     "data": "2026-10-23",
@@ -288983,11 +290135,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Preston/The-New-Continental/Rock-am-River-2026/42273256/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42465046",
-    "nome": "",
+    "nome": "GLUESNORT: The Friday Night",
     "descrizione": "Gluesnort Friday night only at The Cab, Newport featuring Machiavellian Art, Sophrosyne, Lung & Mental Pressure.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/7/e/2273914_8ea025e5_gluesnort-friday-night.jpg",
     "data": "2026-10-09",
@@ -289016,11 +290176,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newport/The-Cab---Newport/GLUESNORT-The-Friday-Night/42465046/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42439038",
-    "nome": "",
+    "nome": "RNB MANIA | Brighton's R&B Festival",
     "descrizione": "Brighton, are you ready to experience the very best of R&B music? R&B MANIA comes to Quarters on Saturday 21st November 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/5/0/2268986_213acdf9_rnb-mania-brighton-s-r-b-festival.jpg",
     "data": "2026-09-05",
@@ -289058,24 +290226,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/festivals/rnb-mania-brighton/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Quarters-Brighton/RNB-MANIA--Brightons-RB-Festival/42572995/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Horizon-Nightclub/Movers-Mansion/42512534/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42577959",
-    "nome": "",
+    "nome": "ECLIPSE - Windsor Racecourse",
     "descrizione": "ECLIPSE 2027 is the ultimate celebration of R&B, Soul and UK Garage. Expect legendary artists, iconic DJs in the idillic backdrop of Windsor Racecours",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/c/3/2300616_91ca4041_eclipse-windsor-racecourse.jpg",
     "data": "2027-07-02",
@@ -289105,11 +290261,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Slough/Windsor-Racecourse/ECLIPSE---Windsor-Racecourse/42577959/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42565897",
-    "nome": "",
+    "nome": "Open Arms Fest 2027",
     "descrizione": "We're back.\n\nWatch this space...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/9/d/2297450_46711135_Open-Arms-Fest-2027.jpg",
     "data": "2027-07-09",
@@ -289140,11 +290304,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Salisbury/Allenford-Farms/Open-Arms-Fest-2027/42565897/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42570963",
-    "nome": "",
+    "nome": "Tik-Tech IX",
     "descrizione": "Tik-Tech have done it again !!! round 2 of our open air !!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/5/2299117_79ad5f9f_tik-tech-viiii.jpg",
     "data": "2026-08-29",
@@ -289180,18 +290352,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Lincoln/Glory-Holes/Tik-Tech-VIIII/42570963/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Lincoln/Glory-Holes/Tik-Tech-IX/42570963/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42512512",
-    "nome": "",
+    "nome": "BeatMasters Outdoor Music Festival",
     "descrizione": "Relive the 90s & 00s at BeatMasters Newport! Huge lineup, outdoor festival vibes, and pure nostalgia. Don't miss the golden era!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/9/f/2288054_75501197_BeatMasters-Outdoor-Music-Festival.jpg",
     "data": "2026-09-12",
@@ -289219,11 +290385,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Swindon/Charlton-Park/BeatMasters-Outdoor-Music-Festival/42512512/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42498725",
-    "nome": "",
+    "nome": "Raver Tots x Garage Nation Festival",
     "descrizione": "Raver Tots & Garage Nation Festival in Essex this Summer - massive day for all the family!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/4/b/2283827_d8675ae1_raver-tots-x-garage-nation-festival.jpg",
     "data": "2026-08-31",
@@ -289252,11 +290426,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southend-on-Sea/Garon-Park---Southend-On-Sea/Raver-Tots-x-Garage-Nation-Festival/42498725/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42470098",
-    "nome": "",
+    "nome": "No Bounds Festival 2026",
     "descrizione": "No Bounds Festival returns on 9-11th October 2026 and takes us back to our raw, grassroots, rave-fuelled genesis.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/3/2275158_fad40f56_no-bounds-festival-2026.jpg",
     "data": "2026-10-09",
@@ -289311,18 +290493,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Sheffield/TBA---Multiple-Venues-Across-Sheffield-And-Rotherham/No-Bounds-Festival-2026/42470098/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/Peddler-Warehouse/No-Bounds-26-Opening-Concert-ft-Max-Cooper-3DAV-Live--More/42643445/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42467501",
-    "nome": "",
+    "nome": "Land Beyond Festival 2027",
     "descrizione": "Land Beyond Festival returns for 2027.\nSuper early bird loyalty tickets now live.\n\nPlease note: location is STC and details may change.",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2027-05-30",
@@ -289354,11 +290530,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Brighton/East-Brighton-Park/Land-Beyond-Festival-2027/42467501/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42509013",
-    "nome": "",
+    "nome": "Robbers Dogs Growler Rally 2026",
     "descrizione": "Camping - Live Music - Stalls - Motorcycle Competition",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/6/3/2286544_f14ea988_robbers-dogs-growler-rally-2026.jpg",
     "data": "2026-08-27",
@@ -289392,11 +290576,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chester/The-Whitby-Club/Robbers-Dogs-Growler-Rally-2026/42509013/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42505149",
-    "nome": "",
+    "nome": "Stories In The Park 2027",
     "descrizione": "Stories In The Park returns June 5, 2027 at Palmer Park. UK's biggest independent dance festival, 10,000 capacity.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/2/c/2285657_d31b103b_stories-in-the-park-2027.jpg",
     "data": "2027-06-05",
@@ -289426,11 +290618,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Reading/Palmer-Park/Stories-In-The-Park-2027/42505149/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42542908",
-    "nome": "",
+    "nome": "Push The Daytime",
     "descrizione": "PUSH presents eight hours of high class House, Funky House & Club Classics from 4 northern house DJs in the iconic Brew York Brew Hall & Tap Room.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/1/2294700_eb170510_push-the-daytime.jpg",
     "data": "2026-08-30",
@@ -289461,11 +290661,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/York/Brew-York-Craft-Brewery-And-Tap-Room/Push-The-Daytime/42542908/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42175598",
-    "nome": "",
+    "nome": "Bats in the Attic 2026",
     "descrizione": "West Coast Gothic returns! Bats in the Attic, our boutique international goth festival, celebrates its 5th anniversary in Morecambe.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/9/c/2223234_2c7e14bd_bats-in-the-attic-2026.jpg",
     "data": "2026-09-18",
@@ -289494,11 +290702,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Lancaster/Alhambra-Live/Bats-in-the-Attic-2026/42175598/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42250202",
-    "nome": "",
+    "nome": "Meadow Fest",
     "descrizione": "Music Festival celebrating the best of British Music and British Farming! Music and Food to Feed The Soul!\n1st - 3rd May 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/b/3/2224746_80a05c2b_meadow-fest.jpg",
     "data": "2027-05-28",
@@ -289534,11 +290750,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oxford/Rangers-Lodge%2C-Cornbury-Park%2C/Meadow-Fest/42250202/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42265117",
-    "nome": "",
+    "nome": "Tigerfest 2026",
     "descrizione": "Tigerfest 2026 is a two day charity rock music festival. In Newcastle under Lyme, Staffs UK. Raising money to protect Tigers in their natural habitat.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/6/f/2231016_c87d516c_tigerfest-2026.jpg",
     "data": "2026-10-10",
@@ -289569,11 +290793,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-under-lyme/The-Rigger-Venue/Tigerfest-2026/42265117/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42284767",
-    "nome": "",
+    "nome": "Lazy Sunday Festival",
     "descrizione": "We return in 2026, with a refreshed look, bigger capacity and new nighttime stages!\n\nOLD SKOOL // JUNGLE // HARDCORE // HARD HOUSE STAGES",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/b/0/2234470_cc36e527_lazy-sunday-festival.jpg",
     "data": "2026-08-30",
@@ -289616,11 +290848,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Northampton/Wold-Farm-Festival-Field-/Lazy-Sunday-Festival/42284767/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42333084",
-    "nome": "",
+    "nome": "INJM Fest",
     "descrizione": "AUGUST 21st - THE SOUND OF THE UNDERGROUND \n\nFrom 12PM - 10PM, step into a full day of pure Drum & Bass and Jungle energy. Heavy basslines!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/e/1/2244879_46768db3_injm-fest.jpg",
     "data": "2027-08-21",
@@ -289654,11 +290894,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stevenage/Eternit-Sport-And-Social-Club/INJM-Fest/42333084/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42564684",
-    "nome": "",
+    "nome": "Essential Saturday's",
     "descrizione": "Essential Saturday's presents luvstruck",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/9/2297116_e2251163_essential-saturday-s.jpg",
     "data": "2026-09-05",
@@ -289691,11 +290939,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Grimsby/Boston-Brothers-%40-DN31-Grimsby/Essential-Saturdays/42564684/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42307091",
-    "nome": "",
+    "nome": "Christmas Brunch Festival",
     "descrizione": "Bringing you a Brunch Festival like no other! Christmas Surprises, Drag Queens, Special Guest DJs, Games, Bottomless Food & Drink & More!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/6/2/2238656_69582668_Christmas-Brunch-Festival.jpg",
     "data": "2026-12-12",
@@ -289727,11 +290983,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Maidstone/BALLIN%27-Maidstone/Christmas-Brunch-Festival/42307091/?sktag=15777&skcampaign=sito",
+        "prezzo": "39.50",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-41993843",
-    "nome": "",
+    "nome": "BeCider Seaside 22",
     "descrizione": "Our final festival of the summer will be held on the August Bank Holiday Weekend: 28th-30th. The little festival that packs a big punch!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/9/7/2197930_0c1d25b1_becider-seaside-22.jpg",
     "data": "2026-08-28",
@@ -289770,11 +291034,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dorchester/Bredy-Farm/BeCider-Seaside-22/41993843/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42569015",
-    "nome": "",
+    "nome": "Crewe Rocks",
     "descrizione": "14 Bands. 3 Venues. 1 Massive Rock Finale. Crewe Rocks 2026 takes over the town on Saturday, August 29th-don't miss the loudest day of the summer",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/f/a/2298386_6ae435ce_crewe-rocks.jpg",
     "data": "2026-08-29",
@@ -289804,11 +291076,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Crewe/The-Arena-Crewe/Crewe-Rocks/42569015/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41994534",
-    "nome": "",
+    "nome": "PorkPie Live at Button Factory, Dublin",
     "descrizione": "PorkPie Live at Button Factory, Dublin on Friday 13th November 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/6/8/2198160_232a985b_porkpie-live-at-button-factory-dublin.jpg",
     "data": "2026-11-13",
@@ -289849,18 +291129,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Button-Factory/PorkPie-Live-at-Button-Factory-Dublin/41994534/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Selective-Memory-presents-WIDOWSPEAK/42514974/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42415315",
-    "nome": "",
+    "nome": "Definitely Oasis - Dublin Haloween",
     "descrizione": "Definitely Oasis return to Dublin this Halloween for a massive night at The Sound House",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/a/6/2261996_91714038_definitely-oasis-dublin-haloween.jpg",
     "data": "2026-10-31",
@@ -289899,24 +291173,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Soundhouse-Dublin/Definitely-Oasis---Dublin-Haloween/42415315/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Josiah-And-The-Bonnevilles/42438017/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412403/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42596245",
-    "nome": "",
+    "nome": "TWO2TWO - Dublin @ The Sound House",
     "descrizione": "The underground sound of UK & Ibiza house music comes to Dublin for 1 night only.Get ready for the 222 experience. Tech house & rollers all night long",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/f/2305242_50f7277f_two2two-dublin-the-sound-house.jpg",
     "data": "2026-10-10",
@@ -289953,24 +291215,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/TWO2TWO---Dublin--The-Sound-House/42596245/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Cobblestone/Limbo-Days---How-To-Get-Up-and-Fly-Tour-Dublin/42470335/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412400/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42611371",
-    "nome": "",
+    "nome": "Madhouse presents: Tool Shed a tribute to Tool",
     "descrizione": "Celebrating 30 years of Ænima and 20 years of 10,000 days\nLive at the Pavilion Cork",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-10-17",
@@ -290002,11 +291252,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Pavilion-Cork/Madhouse-presents-Tool-Shed-a-tribute-to-Tool/42611371/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42618498",
-    "nome": "",
+    "nome": "A Night of Venusian Jazz Fusion",
     "descrizione": "Ex Oh Presents; A Night of Venusian Jazz Fusion feat; Ollnóva with support from Holylight & Conor Kinsella at Sin É (15 Ormond Quay Upper, Dublin 7)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/8/2312559_815caa89_olln-va-with-support-from-holylight-conor-kinsella.jpg",
     "data": "2026-09-06",
@@ -290037,11 +291295,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Sin-%C3%89/A-Night-of-Venusian-Jazz-Fusion/42618498/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42512351",
-    "nome": "",
+    "nome": "De Staat",
     "descrizione": "De Staat are a Dutch alternative rock band opening the floodgates to an intoxicating, even dizzying, array of genres",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/3/9/2287985_69272501_De-Staat.jpg",
     "data": "2026-11-11",
@@ -290080,18 +291346,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/De-Staat/42512351/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Car-Bomb/42438029/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42515005",
-    "nome": "",
+    "nome": "MCD Productions presents Genesis Owusu",
     "descrizione": "Over the past five years, Ghanaian-Australian artist Genesis Owusu has emerged as one of the most exciting artists of the moment.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/d/1/2289246_47989777_MCD-Productions-presents-Genesis-Owusu.jpg",
     "data": "2026-12-04",
@@ -290123,11 +291383,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/MCD-Productions-presents-Genesis-Owusu/42515005/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42437837",
-    "nome": "",
+    "nome": "Dice",
     "descrizione": "Dice comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/d/9/2268619_c3b33d46_dice.jpg",
     "data": "2026-10-08",
@@ -290165,24 +291433,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Dice/42437837/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Soundhouse-Dublin/Girls-of-the-Internet-Live/42593773/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Bridge-City-Sinners/42437835/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42437825",
-    "nome": "",
+    "nome": "Alela Diane",
     "descrizione": "Alela Diane comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/4/d/2268607_c4b7027c_alela-diane.jpg",
     "data": "2026-09-30",
@@ -290219,18 +291475,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Alela-Diane/42437825/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Foggy-Notions-Presents-Lute/42512326/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42514323",
-    "nome": "",
+    "nome": "Foggy Notions presents Prostitute",
     "descrizione": "Due to phenomenal demand Prostitute's Irish Debut has been upgraded to Workman's Club on Monday 24th August. All existing tickets remain valid.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/0/2289048_25358043_Foggy-Notions-presents-Prostitute.jpg",
     "data": "2026-08-24",
@@ -290261,11 +291511,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workman%27s-Club/Foggy-Notions-presents-Prostitute/42514323/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42606042",
-    "nome": "",
+    "nome": "High Fade",
     "descrizione": "Grown from Scotland's most exciting busking band into a household name across the world after bursting onto the scene with viral sensations",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/a/0/2308339_39836437_High-Fade.jpg",
     "data": "2026-11-20",
@@ -290305,24 +291563,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Opium/High-Fade/42606042/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Tony--The-Kiki/42603141/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/1000-Mods/42438037/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42437828",
-    "nome": "",
+    "nome": "Vonda Shepard",
     "descrizione": "Vonda Shepard comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/a/8/2268610_1dbfa8b4_vonda-shepard.jpg",
     "data": "2026-10-01",
@@ -290359,24 +291605,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Vonda-Shepard/42437828/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Singular-Artists-presents-Pebbledash/42514969/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Alice-Costelloe/42437831/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42438016",
-    "nome": "",
+    "nome": "Mark Dignam",
     "descrizione": "Mark Dignam comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/0/5/2268688_17cfa0a6_mark-dignam.jpg",
     "data": "2026-10-30",
@@ -290405,11 +291639,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Mark-Dignam/42438016/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42511290",
-    "nome": "",
+    "nome": "Selective Memory Presents: Lowertown",
     "descrizione": "Originally emerging from the Atlanta DIY scene, indie rock, folk, and experimental pop duo Lowertone hit The Grand Social.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/d/2/2287392_27973110_Selective-Memory-Presents--Lowertown.jpg",
     "data": "2026-09-01",
@@ -290446,18 +291688,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Selective-Memory-Presents-Lowertown/42511290/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Lily-Fitts/42437797/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42437842",
-    "nome": "",
+    "nome": "Valeria Castro",
     "descrizione": "Valeria Castro comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/b/f/2268624_75b8443b_valeria-castro.jpg",
     "data": "2026-10-15",
@@ -290488,11 +291724,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Valeria-Castro/42437842/?sktag=15777&skcampaign=sito",
+        "prezzo": "X",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42514587",
-    "nome": "",
+    "nome": "Singular Artists presents Lauren Wallace",
     "descrizione": "Lauren is developing her own sound, rooted in both modern pop and with an undeniably Indie flavour celebrating her intimate yet artful lyricism.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/8/2289125_82494172_Singular-Artists-presents-Lauren-Wallace.jpg",
     "data": "2026-09-17",
@@ -290530,18 +291774,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Singular-Artists-presents-Lauren-Wallace/42514587/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Havok/42437808/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42512477",
-    "nome": "",
+    "nome": "MCD Presetnts: wilt",
     "descrizione": "wilt has become one of the buzziest bands in LA's emerging alt rock scene, with over 12m streams and 100m views on Instagram and TikTok.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/2/4/2288037_14640410_MCD-Presetnts--wilt.jpg",
     "data": "2026-11-26",
@@ -290580,18 +291818,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/MCD-Presetnts-wilt/42512477/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Singular-Artists-presents-Jamie-Fine/42514980/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42512336",
-    "nome": "",
+    "nome": "Aiken Promotions Presents: Sofy",
     "descrizione": "Channeling the late 90s & early-naughties, hip-hop-esque, indie-pop newcomer SOFY",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/f/1/2287970_48498380_Aiken-Promotions-Presents--Sofy.jpg",
     "data": "2026-10-12",
@@ -290622,11 +291854,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Aiken-Promotions-Presents-Sofy/42512336/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42512347",
-    "nome": "",
+    "nome": "MCD Presents: Ryan Warwick & The Fighting Hearts",
     "descrizione": "Solo Artist and frontman of Black Star Riders, The Almighty, Thin Lizzy and now The Fighting Hearts, Ricky Warwick hits The Grand Social.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/b/f/2287981_16644546_MCD-Presents--Ryan-Warwick---The-Fighting-Hearts.jpg",
     "data": "2026-11-06",
@@ -290662,30 +291902,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/MCD-Presents-Ryan-Warwick--The-Fighting-Hearts/42512347/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Pelican/42438019/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workman%27s-Club/Selective-Memory-presents-Dublon/42514973/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Power-of-Dreams/42606032/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42603123",
-    "nome": "",
+    "nome": "Boo Seeka",
     "descrizione": "Over the past decade, Boo Seeka has built a reputation as one of Australia's most captivating live acts.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/f/2307288_99730766_Boo-Seeka.jpg",
     "data": "2026-11-07",
@@ -290722,24 +291944,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Boo-Seeka/42603123/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Elephant-Sessions/42438020/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Mark-ODonnell/42438022/?sktag=15777&skcampaign=sito",
-        "prezzo": "X",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42438013",
-    "nome": "",
+    "nome": "Therapy Horse",
     "descrizione": "Therapy Horse comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/1/9/2268685_76237b09_therapy-horse.jpg",
     "data": "2026-10-27",
@@ -290776,18 +291986,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Therapy-Horse/42438013/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-Asher-White/42512339/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42437834",
-    "nome": "",
+    "nome": "Eric Steckel",
     "descrizione": "Eric Steckel comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/4/7/2268616_8a64be6c_eric-steckel.jpg",
     "data": "2026-10-06",
@@ -290817,11 +292021,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Eric-Steckel/42437834/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42512353",
-    "nome": "",
+    "nome": "Singular Artists Present: Sundots",
     "descrizione": "Combining the feelings from freak-folk and ambient to slowcore and indie-rock, Sundots hit the venue on Nov 14th, 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/0/3/2287987_26719793_Singular-Artists-Present--Sundots.jpg",
     "data": "2026-11-14",
@@ -290857,30 +292069,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Present-Sundots/42512353/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Gotts-Street-Park/42606038/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-Swapmeet/42512352/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Tidy-Dublin-in-association-with-Adrenalin-Sessions/42618495/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42514595",
-    "nome": "",
+    "nome": "FOGGY NOTIONS & U:MACK present DEAD BOB",
     "descrizione": "Dead Bob continues to be dynamic unpredictable and of course, f*****g loud!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/8/c/2289129_85940705_FOGGY-NOTIONS---U-MACK-present-DEAD-BOB.jpg",
     "data": "2026-09-19",
@@ -290917,24 +292111,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/FOGGY-NOTIONS--UMACK-present-DEAD-BOB/42514595/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412397/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Block./block-x-Soundmate-Janeret-Bernie--Vandi/42642914/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42512322",
-    "nome": "",
+    "nome": "MCD Presents: Smithereens",
     "descrizione": "Defined by excitement and authenticity and fun, Cork heroes Smithereens hit the venue on September 24th, 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/9/f/2287956_61247480_MCD-Presents--Smithereens.jpg",
     "data": "2026-09-24",
@@ -290963,11 +292145,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/MCD-Presents-Smithereens/42512322/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42437838",
-    "nome": "",
+    "nome": "The Bluetones",
     "descrizione": "The Bluetones come to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/5/2268620_97dbb2dc_the-bluetones.jpg",
     "data": "2026-10-09",
@@ -291007,18 +292197,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/The-Bluetones/42437838/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Yamamori-Tengu/Spraoi-Mr-with-special-guest/42640844/?sktag=15777&skcampaign=sito",
-        "prezzo": "15",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42174635",
-    "nome": "",
+    "nome": "The Undertones - 50th Anniversary Tour",
     "descrizione": "Punk legends The Undertones celebrate 50 years of timeless tunes with a special anniversary tour in 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/d/2/2222957_15f1fa58_the-undertones-50th-anniversary-tour.jpg",
     "data": "2026-11-05",
@@ -291051,11 +292235,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/The-Undertones---50th-Anniversary-Tour/42174635/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42514661",
-    "nome": "",
+    "nome": "Singular Artists presents Nicotine Dolls",
     "descrizione": "Nicotine Dolls make the kind of music you can't hide from. The storytelling is front-and- center, beckoning your attention.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/d/9/2289155_95184714_Singular-Artists-presents-Nicotine-Dolls.jpg",
     "data": "2026-10-03",
@@ -291093,24 +292285,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Singular-Artists-presents-Nicotine-Dolls/42514661/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/MCD-Presents-Molotovs/42512328/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412399/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42511294",
-    "nome": "",
+    "nome": "Singular Artists Presents: Freak Slug *RESCHEDULED*",
     "descrizione": "Indie rock powerhouse Freak Slug announces highly anticipated Dub headliner following her stand out set at last year's Borderline Fest.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/9/2287396_33784648_Singular-Artists-Presents--Freak-Slug--RESCHEDULED-.jpg",
     "data": "2026-09-03",
@@ -291140,11 +292320,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-Freak-Slug-RESCHEDULED/42511294/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42174634",
-    "nome": "",
+    "nome": "The Beat",
     "descrizione": "The Beat were undoubtedly one of the most original bands the UK has produced.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/d/7/2222956_04e8180b_the-beat.jpg",
     "data": "2026-11-01",
@@ -291176,11 +292364,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/The-Beat/42174634/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42437840",
-    "nome": "",
+    "nome": "Koch Marshall Trio Ft. Greg Koch",
     "descrizione": "Koch Marshall Trio Ft. Greg Koch comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/8/2268622_ab8d6da9_koch-marshall-trio-ft-greg-koch.jpg",
     "data": "2026-10-14",
@@ -291219,18 +292415,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Koch-Marshall-Trio-Ft-Greg-Koch/42437840/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Smorgasboard-Presents-Dave-East/42514909/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42511469",
-    "nome": "",
+    "nome": "The Lemonheads",
     "descrizione": "An intament night with the legendary alternative rock band the lemonheads.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/2/2287475_26649829_The-Lemonheads.jpg",
     "data": "2026-09-18",
@@ -291271,18 +292461,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/The-Lemonheads/42511469/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Block./blockCulture-Night/42660436/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42514660",
-    "nome": "",
+    "nome": "Singular Artists presents Dar Williams",
     "descrizione": "Dar Williams was always in the right place at the right time, for the success she’s had over a 25-plus year career.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/3/a/2289154_22395584_Singular-Artists-presents-Dar-Williams.jpg",
     "data": "2026-09-26",
@@ -291321,30 +292505,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Singular-Artists-presents-Dar-Williams/42514660/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Dead-Calm/42604370/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Sixpence-None-The-Richer/42437819/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412398/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42511291",
-    "nome": "",
+    "nome": "MCD Presents Jaguar Sun",
     "descrizione": "Dream Pop, Rock, and Folk artist Jaguar Sun hits The Grand Social",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/a/e/2287393_82049592_MCD-Presents-Jaguar-Sun.jpg",
     "data": "2026-09-02",
@@ -291381,24 +292547,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/MCD-Presents-Jaguar-Sun/42511291/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Desperity/42601880/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Speed--Spy/42603800/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42511491",
-    "nome": "",
+    "nome": "Live tonite Presents: María José Llergo",
     "descrizione": "Andalusian singer-songwriter María José Llergo blends Flamenco's deep traditional roots with modern, urban, and electronic soundscapes.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/a/b/2287492_69923127_Live-tonite-Presents--Mar--a-Jos---Llergo.jpg",
     "data": "2026-09-22",
@@ -291437,24 +292591,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Live-tonite-Presents-Mara-Jos-Llergo/42511491/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Singular-Artists-presents-Francis-Of-Delirium/42514657/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artist-Presents-Mary-In-the-Junk-Yard/42511481/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42437820",
-    "nome": "",
+    "nome": "Tom Robinson",
     "descrizione": "Tom Robinson comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/1/1/2268602_095882a6_tom-robinson.jpg",
     "data": "2026-09-27",
@@ -291488,11 +292630,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Tom-Robinson/42437820/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42438044",
-    "nome": "",
+    "nome": "Leenalchi",
     "descrizione": "Leenalchi comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/e/b/2268715_683f96ba_leenalchi.jpg",
     "data": "2026-11-24",
@@ -291533,18 +292683,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Leenalchi/42438044/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Harakiri-For-The-Sky/42606049/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42610649",
-    "nome": "",
+    "nome": "Dave Lofts",
     "descrizione": "A former member of the Irish Defence Forces, he brings a real-life perspective to his songwriting that gives his work added depth and weight.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/5/c/2310012_30676540_Dave-Lofts.jpg",
     "data": "2026-09-12",
@@ -291573,11 +292717,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Dave-Lofts/42610649/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603135",
-    "nome": "",
+    "nome": "Mike Brookfield",
     "descrizione": "Mike Brookfield is an internationally acclaimed blues rock artist who started his career as a rock n roll guitarist in 1989 on the band scene.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/6/f/2307298_38028135_Mike-Brookfield.jpg",
     "data": "2026-11-15",
@@ -291614,24 +292766,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Mike-Brookfield/42603135/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/MCD-Presents-Sarah-Julia/42512360/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-Boko-Yout/42512357/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42437967",
-    "nome": "",
+    "nome": "Cry Before Dawn",
     "descrizione": "Cry Before Dawn comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/a/d/2268660_b36e6125_cry-before-dawn.jpg",
     "data": "2026-10-17",
@@ -291667,24 +292807,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Cry-Before-Dawn/42437967/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/MCD-Productions-presents-Tigercub/42514917/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412401/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42174625",
-    "nome": "",
+    "nome": "Keywest",
     "descrizione": "This five-piece band built their reputation performing on city corners day after day, forging a deep, loyal fanbase the old-fashioned way.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/a/2222949_46962053_keywest.jpg",
     "data": "2026-09-18",
@@ -291722,18 +292850,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Keywest/42174625/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Keywest/42432976/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42514966",
-    "nome": "",
+    "nome": "MCD Presents The Small Fortunes",
     "descrizione": "Their reputation has been built the hard way: onstage. High-impact, no-frills, and relentless, every single one of their live shows has sold out.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/3/5/2289225_38404989_MCD-Presents-The-Small-Fortunes.jpg",
     "data": "2026-10-22",
@@ -291765,11 +292887,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/MCD-Presents-The-Small-Fortunes/42514966/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42437812",
-    "nome": "",
+    "nome": "Man/Woman/Chainsaw",
     "descrizione": "Man/Woman/Chainsaw comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/2/a/2268595_c394ace0_man-woman-chainsaw.jpg",
     "data": "2026-09-20",
@@ -291800,11 +292930,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/ManWomanChainsaw/42437812/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42606051",
-    "nome": "",
+    "nome": "Evergrey",
     "descrizione": "From Ashes to Architects - EVERGREY Expand Their Journey Through Vibrant Dismalness With 15th Studio Album",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/c/2308347_54165177_Evergrey.jpg",
     "data": "2026-11-29",
@@ -291841,18 +292979,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Evergrey/42606051/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Chuck-Prophet/42438683/?sktag=15777&skcampaign=sito",
-        "prezzo": "x",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42512478",
-    "nome": "",
+    "nome": "MCD Presents: LEAP",
     "descrizione": "A fast-rising London-based indie-rock band known for their blend of heavy riffs, anthemic pop, and vulnerable songwriting focusing on mental health",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/e/0/2288038_34116633_MCD-Presents--LEAP.jpg",
     "data": "2026-12-09",
@@ -291881,11 +293013,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/MCD-Presents-LEAP/42512478/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42514975",
-    "nome": "",
+    "nome": "Aiken Promotions presents WesGhost",
     "descrizione": "Masked by his signature balaclava, he strips away image to focus on connection turning vulnerability into something loud, distorted, and shared.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/8/d/2289234_47821890_Aiken-Promotions-presents-WesGhost.jpg",
     "data": "2026-11-17",
@@ -291922,18 +293062,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Aiken-Promotions-presents-WesGhost/42514975/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Ron-Pope/42438030/?sktag=15777&skcampaign=sito",
-        "prezzo": "X",
-        "gratuito": false
       }
     ]
   },
   {
     "id": "skiddle-42437817",
-    "nome": "",
+    "nome": "Laura Veirs",
     "descrizione": "Laura Veirs comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/f/6/2268599_1b801652_laura-veirs.jpg",
     "data": "2026-09-23",
@@ -291965,11 +293099,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Laura-Veirs/42437817/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42514358",
-    "nome": "",
+    "nome": "The Alan Fletcher band: Doctor Karl Kennedy from Neighbours",
     "descrizione": "Doctor Karl Kennedy from Australian hit soap neighbours.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/3/7/2289077_94819935_The-Alan-Fletcher-band--Doctor-Karl-Kennedy-from-Neighbours.jpg",
     "data": "2026-08-27",
@@ -292007,24 +293149,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/The-Alan-Fletcher-band-Doctor-Karl-Kennedy-from-Neighbours/42514358/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-Sex-Mask/42511033/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Alan-Fletcher-and-Jen-Hansen-With-Riley-Catherall/42514325/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42174636",
-    "nome": "",
+    "nome": "Andy Fairweather Low and The Low Riders",
     "descrizione": "From chart topping hits in the 1960's to a career as a revered guitarist!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/d/4/2222958_bfd33e57_andy-fairweather-low-and-the-low-riders.jpg",
     "data": "2026-11-30",
@@ -292054,11 +293184,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Andy-Fairweather-Low-and-The-Low-Riders/42174636/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42438039",
-    "nome": "",
+    "nome": "Chapterhouse",
     "descrizione": "Chapterhouse comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/b/b/2268710_33ca0855_chapterhouse.jpg",
     "data": "2026-11-21",
@@ -292097,24 +293235,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Chapterhouse/42438039/?sktag=15777&skcampaign=sito",
         "prezzo": "X",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Selective-Memory-presents-AUTUMNS/42514977/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Xentrix/42606043/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42438033",
-    "nome": "",
+    "nome": "Fat Dog",
     "descrizione": "Fat Dog comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/6/6/2268705_607b16ab_fat-dog.jpg",
     "data": "2026-11-18",
@@ -292147,11 +293273,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Fat-Dog/42438033/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42511030",
-    "nome": "",
+    "nome": "Prewn",
     "descrizione": "Unafraid to confront heavy themes with raw honesty and unshakable resolve.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/5/e/2287273_84274568_Prewn.jpg",
     "data": "2026-08-26",
@@ -292180,11 +293314,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Prewn/42511030/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603153",
-    "nome": "",
+    "nome": "The Whiskey Brothers - Dust Road Tour",
     "descrizione": "Don't miss the UK leg of The Whiskey Brothers' first-ever World Tour, \"Dust Road Tour\" at Dublin's legendary venue, The Sound House.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/0/f/2307316_32159728_The-Whiskey-Brothers---Dust-Road-Tour.jpg",
     "data": "2027-03-13",
@@ -292213,11 +293355,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/The-Whiskey-Brothers---Dust-Road-Tour/42603153/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42174587",
-    "nome": "",
+    "nome": "Katherine Priddy",
     "descrizione": "Katherine Priddy has announced the release of her third album, These Frightening Machines for March 2026 via Cooking Vinyl.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/2/3/2222928_21539fb8_katherine-priddy.jpg",
     "data": "2026-09-17",
@@ -292248,11 +293398,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Katherine-Priddy/42174587/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42437833",
-    "nome": "",
+    "nome": "James McMurtry",
     "descrizione": "James McMurtry comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/4/2268615_e949d229_james-mcmurtry.jpg",
     "data": "2026-10-04",
@@ -292289,18 +293447,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/James-McMurtry/42437833/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/Singular-Artists-presents-Nicotine-Dolls/42514664/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42174585",
-    "nome": "",
+    "nome": "Nirvana Tribute",
     "descrizione": "NIRVANA TRIBUTE are the world renowned, #1 international touring tribute to NIRVANA & Kurt Cobain.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/2/1/2222926_16b09e47_nirvana-tribute.jpg",
     "data": "2026-09-11",
@@ -292330,11 +293482,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Nirvana-Tribute/42174585/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42514967",
-    "nome": "",
+    "nome": "Foggy Notions presents Nick Hakim",
     "descrizione": "To hear him speak of music is to encounter someone who fully understands its power, who has been moved by its magic and seen its miracles.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/5/5/2289226_28939433_Foggy-Notions-presents-Nick-Hakim.jpg",
     "data": "2026-10-30",
@@ -292367,11 +293527,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workman%27s-Club/Foggy-Notions-presents-Nick-Hakim/42514967/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42512381",
-    "nome": "",
+    "nome": "Uld",
     "descrizione": "Norwegian trio ULD with three voices, piano and accordion, they unites Norwegian folk song, folk, alternative pop and Nordic sonic traditions in an in",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/5/a/2288000_94260697_Uld.jpg",
     "data": "2026-11-22",
@@ -292400,11 +293568,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Uld/42512381/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42611212",
-    "nome": "",
+    "nome": "Lemoncello",
     "descrizione": "It’s hard not to feel seen by Lemoncello, a band whose live performances and recordings shimmer with the tones of modern Ireland.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/2/b/2310159_38014024_Lemoncello.jpg",
     "data": "2026-09-23",
@@ -292434,11 +293610,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Lemoncello/42611212/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42437818",
-    "nome": "",
+    "nome": "Unique Freaks",
     "descrizione": "Unique Freaks comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/d/0/2268600_450e7220_unique-freaks.jpg",
     "data": "2026-09-25",
@@ -292469,11 +293653,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Unique-Freaks/42437818/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42437791",
-    "nome": "",
+    "nome": "Day We Ran",
     "descrizione": "Day We Ran comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/2/7/2268575_42428fc4_day-we-ran.jpg",
     "data": "2026-08-25",
@@ -292502,11 +293694,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Day-We-Ran/42437791/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42438034",
-    "nome": "",
+    "nome": "Fat Dog",
     "descrizione": "Fat Dog comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/c/4/2268706_36847156_Fat-Dog.jpg",
     "data": "2026-11-19",
@@ -292546,18 +293746,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Fat-Dog/42438034/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-No-Cigar/42512361/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42602473",
-    "nome": "",
+    "nome": "The Inflatable Dolls",
     "descrizione": "The Inflatable Dolls play the Alternative Sunday Social Club to promote their new album, \"Punk Rock, Guitars and Girls\"",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/c/c/2307171_12229993_The-Inflatable-Dolls.jpg",
     "data": "2026-09-13",
@@ -292593,18 +293787,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/The-Inflatable-Dolls/42602473/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Missio/42511465/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42437801",
-    "nome": "",
+    "nome": "Focus",
     "descrizione": "Focus comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/3/1/2268585_d9f77858_focus.jpg",
     "data": "2026-09-10",
@@ -292635,11 +293823,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Focus/42437801/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42437796",
-    "nome": "",
+    "nome": "Allah-Las",
     "descrizione": "Allah-Las  comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/2/0/2268580_519e6d75_allah-las.jpg",
     "data": "2026-08-31",
@@ -292676,18 +293872,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Allah-Las/42437796/?sktag=15777&skcampaign=sito",
         "prezzo": "x",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-Clarion/42511208/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42437802",
-    "nome": "",
+    "nome": "The Rising",
     "descrizione": "The Rising comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/b/7/2268586_17fd0069_the-rising.jpg",
     "data": "2026-09-14",
@@ -292718,11 +293908,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/The-Rising/42437802/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42437971",
-    "nome": "",
+    "nome": "Overpass",
     "descrizione": "Overpass comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/8/9/2268664_80147b7c_overpass.jpg",
     "data": "2026-10-24",
@@ -292761,18 +293959,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Overpass/42437971/?sktag=15777&skcampaign=sito",
         "prezzo": "X",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412402/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42515006",
-    "nome": "",
+    "nome": "MCD Productions presents Good Health Good Wealth",
     "descrizione": "Good Health Good Wealth possess a flair for making life’s minor moments feel like they’re worth documenting.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/d/b/2289247_93793056_MCD-Productions-presents-Good-Health-Good-Wealth.jpg",
     "data": "2027-01-29",
@@ -292805,11 +293997,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/MCD-Productions-presents-Good-Health-Good-Wealth/42515006/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42610219",
-    "nome": "",
+    "nome": "Babyshambles",
     "descrizione": "After eleven long years Babyshambles returned to the stage for the ‘Dandy Hooligan Tour’ at the end of 2025.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/e/f/2309720_55087419_Babyshambles.jpg",
     "data": "2026-08-22",
@@ -292839,11 +294039,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Babyshambles/42610219/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42506608",
-    "nome": "",
+    "nome": "MC Hammersmith \"Ice Ice Nepo Baby\"",
     "descrizione": "MC Hammersmith is posh West London's leading freestyle rapper, with 500 million views online",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/4/a/2285792_71099d1e_mc-hammersmith-ice-ice-nepo-baby-.jpg",
     "data": "2027-06-02",
@@ -292873,11 +294081,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sugar-Club/MC-Hammersmith-Ice-Ice-Nepo-Baby/42506608/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42512384",
-    "nome": "",
+    "nome": "Singular Artist: Adult DVD",
     "descrizione": "Debut IE Tour.  Bold, forward-thinking music from one of the UK's most hotly tipped new bands.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/9/6/2288003_42985592_Singular-Artist--Adult-DVD.jpg",
     "data": "2026-11-25",
@@ -292911,11 +294127,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artist-Adult-DVD/42512384/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603126",
-    "nome": "",
+    "nome": "Jon Allen",
     "descrizione": "With his gravel-edged voice, finely crafted songs, and magnetic stage presence: Jon Allen",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/3/8/2307291_24779132_Jon-Allen.jpg",
     "data": "2026-11-08",
@@ -292946,11 +294170,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Jon-Allen/42603126/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42438015",
-    "nome": "",
+    "nome": "MT Jones",
     "descrizione": "MT Jones comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/7/b/2268687_328ec0c6_mt-jones.jpg",
     "data": "2026-10-29",
@@ -292982,11 +294214,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/MT-Jones/42438015/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42174629",
-    "nome": "",
+    "nome": "Sixpence None The Richer",
     "descrizione": "Sixpence None the Richer are renowned for their distinctive blend of indie-rock and introspective songwriting.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/2/d/2222951_6f016782_sixpence-none-the-richer.jpg",
     "data": "2026-09-24",
@@ -293016,11 +294256,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Sixpence-None-The-Richer/42174629/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42174632",
-    "nome": "",
+    "nome": "Black Stone Cherry",
     "descrizione": "Black Stone Cherry return to the stage with The Celebrate Tour, marking a special moment for fans old and new.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/2/b/2222954_5d9845e6_black-stone-cherry.jpg",
     "data": "2026-10-27",
@@ -293051,11 +294299,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Black-Stone-Cherry/42174632/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42515002",
-    "nome": "",
+    "nome": "MCD presents ETHAN REGAN",
     "descrizione": "Ethan Regan is just the troubadour Gen Z needs.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/a/2/2289243_21213398_MCD-presents-ETHAN-REGAN---.jpg",
     "data": "2026-12-03",
@@ -293086,11 +294342,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/MCD-presents-ETHAN-REGAN/42515002/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42514904",
-    "nome": "",
+    "nome": "Singular Artists presents Jared Benjamin",
     "descrizione": "During the Covid-19 pandemic, he picked up his first guitar and learned every cover he could think of before beginning to release his own music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/1/7/2289198_70757502_Singular-Artists-presents-Jared-Benjamin.jpg",
     "data": "2026-10-06",
@@ -293120,11 +294384,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Workman%27s-Club/Singular-Artists-presents-Jared-Benjamin/42514904/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42605931",
-    "nome": "",
+    "nome": "Ciro y Los Persa",
     "descrizione": "Ciro y los Persas, led by Andrés Ciro Martínez, one of the most recognisable voices in Argentine rock, return to Dublin",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/7/6/2308309_52544261_Ciro-y-Los-Persa.jpg",
     "data": "2026-09-28",
@@ -293153,11 +294425,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Opium/Ciro-y-Los-Persa/42605931/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42512333",
-    "nome": "",
+    "nome": "Singular Artists Presents: Shelf Lives (RESCHEDULED)",
     "descrizione": "Self-proclaimed 'electro-bass punkists' Shelf Lives bring their catchy, energetic & abrasive sound to The Grand Social.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/4/6/2287967_67085358_Singular-Artists-Presents--Shelf-Lives--RESCHEDULED-.jpg",
     "data": "2026-10-11",
@@ -293188,11 +294468,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Singular-Artists-Presents-Shelf-Lives-RESCHEDULED/42512333/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42611214",
-    "nome": "",
+    "nome": "Briars",
     "descrizione": "Briars are an alternative/indie-folk and trad band from Cork City, Ireland.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/8/6/2310161_86445645_Briars.jpg",
     "data": "2026-09-25",
@@ -293229,18 +294517,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Briars/42611214/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Paul-Oakenfold/42611219/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42438685",
-    "nome": "",
+    "nome": "Duke Special",
     "descrizione": "Duke Special comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/3/6/2268807_e1c9bca6_duke-special.jpg",
     "data": "2026-12-13",
@@ -293274,11 +294556,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/Duke-Special/42438685/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42511295",
-    "nome": "",
+    "nome": "Wallis Bird",
     "descrizione": "Meteor Prize winning artist Wallis Bird brings her irrepressible energy to The Grand Social as part of their country-wide tour.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/f/2287397_66137021_Wallis-Bird.jpg",
     "data": "2026-09-04",
@@ -293319,18 +294609,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Grand-Social/Wallis-Bird/42511295/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Block./block-Kyle-Starkey--Tjade/42627187/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42514392",
-    "nome": "",
+    "nome": "POD presents Hudson Freeman",
     "descrizione": "Hudson Freeman marks his debut Irish performance, following a breakout year that has seen his music connect with a rapidly growing global audience.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/c/f/2289095_68755923_POD-presents-Hudson-Freeman.jpg",
     "data": "2026-09-12",
@@ -293366,18 +294650,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/The-Workmans-Club/POD-presents-Hudson-Freeman/42514392/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412396/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42603218",
-    "nome": "",
+    "nome": "Get to Funk: Irish takeover - Dublin post fight night party",
     "descrizione": "Get to Funk come to Dublin on September 5, for a party at the iconic MONO bar @ Bohemian FC. Post fight night at Croke Park, this is the place to be",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/f/2307381_96648882_Get-to-Funk--Irish-takeover---Dublin-post-fight-night-party.jpg",
     "data": "2026-09-05",
@@ -293415,24 +294693,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/MONO%27s-Bar-At-Bohemians-FC/Get-to-Funk-Irish-takeover---Dublin-post-fight-night-party/42603218/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Block./block-x-Omni-M-High-Captain-Wallop-b2b-RTK-Tarantino/42627272/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412395/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42574339",
-    "nome": "",
+    "nome": "TRANCE8 PRESENTS: IBIZA TRANCE CLASSICS -End of Summer Day Party",
     "descrizione": "Live from The Sound House Terrace",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/b/b/2300000_18805043_TRANCE8-PRESENTS--IBIZA-TRANCE-CLASSICS--End-of-Summer-Day-Party.jpg",
     "data": "2026-08-28",
@@ -293460,11 +294726,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/TRANCE8-PRESENTS-IBIZA-TRANCE-CLASSICS--End-of-Summer-Day-Party/42574339/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42427470",
-    "nome": "",
+    "nome": "Redroom at Soho",
     "descrizione": "Saturdays at Soho officially turned red",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/8/c/2264886_60192202_Redroom-at-Soho.jpg",
     "data": "2026-08-29",
@@ -293501,18 +294775,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Redroom-at-Soho/42427470/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412394/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42427469",
-    "nome": "",
+    "nome": "Redroom at Soho",
     "descrizione": "Saturdays at Soho officially turned red",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/2/2264886_60192202_Redroom-at-Soho.jpg",
     "data": "2026-08-22",
@@ -293549,18 +294817,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Redroom-at-Soho/42427469/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Ireland/Soho-Dublin/Amour-Saturdays/42412393/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42505074",
-    "nome": "",
+    "nome": "DJ Krush [Late Show]",
     "descrizione": "DJ Krush is a pioneering Japanese producer and DJ, widely regarded as one of the most influential figures in instrumental hip-hop and trip-hop.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/e/2285620_4a27df51_dj-krush-late-show-.jpg",
     "data": "2026-10-03",
@@ -293590,11 +294852,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sugar-Club/DJ-Krush-Late-Show/42505074/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41654540",
-    "nome": "",
+    "nome": "Electric Picnic 2026",
     "descrizione": "Ireland's biggest music & arts festival, Electric Picnic, is a unique mix of music, art, theatre, comedy, food & wellness a summer celebration",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/1/5/2165203_4795df4c_electric-picnic-2026.jpg",
     "data": "2026-08-28",
@@ -293658,11 +294928,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-04"
+    "creato_il": "2026-08-04",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/electric-picnic/?sktag=15777&skcampaign=sito",
+        "prezzo": ".",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42621897",
-    "nome": "",
+    "nome": "Wasia Project: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from Wasia Project in support of their new album 'Nocturne'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/9/6/2313672_fc1e57ed_wasia-project-album-launch-show.jpg",
     "data": "2026-09-22",
@@ -293694,11 +294972,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Wasia-Project-Album-Launch-Show/42621897/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42307100",
-    "nome": "",
+    "nome": "Letz Zep - The UK's Leading Led Zeppelin Tribute",
     "descrizione": "Tribute to Led Zeppelin",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/7/4/2238665_74ce4ca9_letz-zep-the-uk-s-leading-led-zeppelin.jpg",
     "data": "2026-10-18",
@@ -293729,11 +295015,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/La-Belle-Angele/Letz-Zep---The-UKs-Leading-Led-Zeppelin-Tribute/42307100/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42404754",
-    "nome": "",
+    "nome": "GirlyPop Live - Pink Pony Birthday Party | Project House, Leeds",
     "descrizione": "GirlyPop is returning to outdoor venue Project House, Leeds with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/6/5/2259087_70d2f0db_girlypop-live-project-house-leeds.jpg",
     "data": "2026-08-31",
@@ -293765,11 +295059,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Project-House/GirlyPop-Live---Pink-Pony-Birthday-Party--Project-House-Leeds/42404754/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42447808",
-    "nome": "",
+    "nome": "GirlyPop Live | EngineRooms, Southampton",
     "descrizione": "GirlyPop is returning to indoor venue EngineRooms, Southampton with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/6/0/2270125_2d4bb5df_girlypop-live-enginerooms-southampton.jpg",
     "data": "2026-09-27",
@@ -293801,11 +295103,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/GirlyPop-Live--EngineRooms-Southampton/42447808/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42407225",
-    "nome": "",
+    "nome": "GirlyPop Live - Hannah Montana Party| Athena, Leicester",
     "descrizione": "GirlyPop Live is returning to indoor venue Athena, Leicester with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/3/1/2260150_1a679f47_girlypop-live-hannah-montana-theme-athena-leicester.jpg",
     "data": "2026-08-23",
@@ -293844,18 +295154,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Leicester/Athena/GirlyPop-Live---Hannah-Montana-Takeover--Athena-Leicester/42407225/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Leicester/Athena/GirlyPop-Live---Hannah-Montana-Party-Athena-Leicester/42407225/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41277425",
-    "nome": "",
+    "nome": "Oh What a Night!",
     "descrizione": "OH WHAT A NIGHT! takes you back in time on a musical journey through the incredible career of Frankie Valli & The Four Seasons.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/0/a/2078928_45d52062_oh-what-a-night-.jpg",
     "data": "2026-12-04",
@@ -293887,11 +295191,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cambridge/West-Road-Concert-Hall/Oh-What-a-Night/41277425/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42502381",
-    "nome": "",
+    "nome": "GirlyPop Live - Zara Larsson Party | THE DEPO, Plymouth",
     "descrizione": "GirlyPop Live is coming to indoor venue DEPO, Plymouth with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/4/9/2284210_bcbf19a8_girlypop-live-zara-larsson-takeover-the-depo-plymouth.jpg",
     "data": "2026-10-04",
@@ -293923,11 +295235,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Plymouth/Depo-Plymouth/GirlyPop-Live---Zara-Larsson-Takeover--THE-DEPO-Plymouth/42502381/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42509460",
-    "nome": "",
+    "nome": "Clubland Live In The Valleys - Halloween Special!",
     "descrizione": "Clubland Live is coming to Ebbw Vale Sports centre on Friday 30th October 2026 for South Wales biggest spooky  indoor festival",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/2/8/2286733_745ef306_clubland-live-in-the-valleys-halloween-special-.jpg",
     "data": "2026-10-30",
@@ -293956,11 +295276,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newport/Ebbw-Vale-Sports-Centre/Clubland-Live-In-The-Valleys---Halloween-Special/42509460/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42407226",
-    "nome": "",
+    "nome": "GirlyPop Live - Zara Larsson Party | SteelYard, Sheffield",
     "descrizione": "GirlyPop is returning to outdoor venue SteelYard, Sheffield with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/3/b/2260151_ec6d5c8a_girlypop-live-steelyard-sheffield.jpg",
     "data": "2026-08-31",
@@ -293999,18 +295327,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Sheffield/Steelyard/GirlyPop-Live---Zara-Larsson-Takeover--SteelYard-Sheffield/42407226/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/SYSheffield-%28Steel-Yard%29/GirlyPop-Live---Zara-Larsson-Takeover--SteelYard-Sheffield/42407226/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42307096",
-    "nome": "",
+    "nome": "Letz Zep - The UK's Leading Led Zeppelin Tribute",
     "descrizione": "Tribute to Led Zeppelin",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/c/b/2238661_530418eb_letz-zep-the-uk-s-leading-led-zeppelin.jpg",
     "data": "2026-10-16",
@@ -294048,24 +295370,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Drygate/Letz-Zep---The-UKs-Leading-Led-Zeppelin-Tribute/42307096/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/OVO-Hydro/Terminal-V-Presents--Holy-Priest---Holy-Sht-Show/42586775/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/O2-Academy/PRTY-x-HSSH-Toxic-Machinery-All-Night-Long/42586816/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42330122",
-    "nome": "",
+    "nome": "Letz Zep - The UK's Leading Led Zeppelin Tribute",
     "descrizione": "Tribute to Led Zeppelin",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/6/5/2243902_fa3c7fc9_letz-zep-the-uk-s-leading-led-zeppelin.jpg",
     "data": "2026-10-17",
@@ -294096,11 +295406,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dundee/Music-Hall-Dundee/Letz-Zep---The-UKs-Leading-Led-Zeppelin-Tribute/42330122/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604266",
-    "nome": "",
+    "nome": "GirlyPop Live - Harry Styles VS Taylor Swift | Keele SU, Stoke",
     "descrizione": "GirlyPop Live is returning to indoor venue Keele SU, Stoke with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/0/6/2307860_b180c99d_girlypop-live-keele-su-stoke.jpg",
     "data": "2026-11-08",
@@ -294132,11 +295450,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-under-lyme/Keele-SU-%28Keele-University-Students%27-Union%29/GirlyPop-Live---Harry-Styles-VS-Taylor-Swift--Keele-SU-Stoke/42604266/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42508111",
-    "nome": "",
+    "nome": "GirlyPop Live - Zara Larsson Party | Asylum, Hull",
     "descrizione": "GirlyPop Live is returning to indoor venue Asylum, Hull with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/a/5/2286363_65e1ee47_girlypop-live-zara-larson-themed-asylum-hull.jpg",
     "data": "2026-10-11",
@@ -294168,11 +295494,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Hull/Asylum-Hull-University/GirlyPop-Live---Zara-Larsson-Takeover--Asylum-Hull/42508111/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42321620",
-    "nome": "",
+    "nome": "Emilio Santoro as Elvis",
     "descrizione": "Crowned 2024 Ultimate Elvis Tribute Artist World Champion Emilio Santoro brings his award-winning Elvis show to Norwich.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/2/d/2241710_e02cb3f2_emilio-santoro-as-elvis.jpg",
     "data": "2026-09-26",
@@ -294213,18 +295547,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Norwich/The-Halls---Norwich/Emilio-Santoro-as-Elvis/42321620/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Norwich/Junkyard/The-Biggest-Day-Party-To-End-The-Summer-With-Dj-Kennyallstar/42643413/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42407657",
-    "nome": "",
+    "nome": "GirlyPop Live | Winter Gardens, Blackpool",
     "descrizione": "GirlyPop is coming to indoor venue Winter Gardens, Blackpool with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/8/2260380_7bf28147_girlypop-live-winter-gardens-blackpool.jpg",
     "data": "2026-08-30",
@@ -294263,24 +295591,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Blackpool/Empress-Ballroom-Winter-Gardens/GirlyPop-Live--Winter-Gardens-Blackpool/42407657/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Blackpool/The-Retro-Lounge/90s-Day-Rave-with-Jeremy-Healy--more/42349596/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Blackpool/Trilogy-Blackpool/Wiley-performing-live--Trilogy-Nightclub-Blackpool/42487621/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42626942",
-    "nome": "",
+    "nome": "The Specials LTD in Wrexham",
     "descrizione": "The Specials LTD in Wrexham As part of their Gangsters Tour 2027\n\nUKs No 1 tribute to The Specials are coming to town",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/b/0/2314698_a5c8cdd7_the-specials-ltd-in-wrexham.jpg",
     "data": "2027-01-29",
@@ -294309,11 +295625,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wrexham/The-Rockin-Chair/The-Specials-LTD-in-Wrexham/42626942/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42251354",
-    "nome": "",
+    "nome": "Letz Zep - The UK's Leading Led Zeppelin Tribute",
     "descrizione": "Tribute to Led Zeppelin",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/a/f/2225333_06f20d51_letz-zep-the-uk-s-leading-led-zeppelin.jpg",
     "data": "2026-10-15",
@@ -294344,11 +295668,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Lancaster/The-Alhambra-Theatre/Letz-Zep---The-UKs-Leading-Led-Zeppelin-Tribute/42251354/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42375014",
-    "nome": "",
+    "nome": "Gun Ghaol - Cabaret Voltaire, Edinburgh [SOLD OUT]",
     "descrizione": "The world's only Gaelic metalcore band comes to Edinburgh.\nSupport from Trauma Bonds and Atlantic Rift.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/9/4/2255880_3c1a2f05_gun-ghaol-cabaret-voltaire-edinburgh-upgraded-.jpg",
     "data": "2026-11-22",
@@ -294379,11 +295711,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/Cabaret-Voltaire/Gun-Ghaol---Cabaret-Voltaire-Edinburgh-UPGRADED/42375014/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999557",
-    "nome": "",
+    "nome": "PorkPie Live plus Pretty Green (The Jam) at 53 Degrees, Preston",
     "descrizione": "PorkPie Live plus Pretty Green (The Jam) at 53 Degrees, Preston on Saturday 10th October 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/3/0/2199545_7e4c6fe5_porkpie-live-plus-pretty-green-the-jam-at-53-degrees-preston.jpg",
     "data": "2026-10-10",
@@ -294418,11 +295758,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Preston/53-Degrees/PorkPie-Live-plus-Pretty-Green-The-Jam-at-53-Degrees-Preston/41999557/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41603160",
-    "nome": "",
+    "nome": "Altered Images - Happy Birthday",
     "descrizione": "Clare Grogan and her band perform the iconic album happy birthday in full plus all the hits",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/d/8/2151700_c64bb58a_altered-images-happy-birthday.jpg",
     "data": "2026-09-24",
@@ -294454,11 +295802,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Altered-Images---Happy-Birthday/41603160/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42091166",
-    "nome": "",
+    "nome": "Wrong Jovi - The #1 Bon Jovi Tribute",
     "descrizione": "The best Bon Jovi tribute band in the world!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/4/6/2207305_0e346958_wrong-jovi-the-1-bon-jovi-tribute.jpg",
     "data": "2026-09-05",
@@ -294490,11 +295846,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Preston/The-Continental/Wrong-Jovi---The-1-Bon-Jovi-Tribute/42091166/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41914868",
-    "nome": "",
+    "nome": "LIMEHOUSE LIZZY Friday 13/11/26",
     "descrizione": "Limehouse Lizzy: Celebrating Over Three Decades of Celtic Rock Excellence. Coming the the Assembly Leamington",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/5/1/2180993_6401771c_limehouse-lizzy-friday-13-11-26.jpg",
     "data": "2026-11-13",
@@ -294526,11 +295890,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Coventry/The-Assembly-Leamington/LIMEHOUSE-LIZZY-Friday-131126/41914868/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42375584",
-    "nome": "",
+    "nome": "Bonnie Prince Billy + Special guests",
     "descrizione": "Supersonic Presents: Bonnie Prince Billy + Special guests live at O2 Institute, Birmingham on Friday 13th of November 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/f/e/2256082_f3b77c40_bonnie-prince-billy-special-guests.jpg",
     "data": "2026-11-13",
@@ -294562,11 +295934,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/O2-Institute-Birmingham/Bonnie-Prince-Billy--Special-guests/42375584/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41611779",
-    "nome": "",
+    "nome": "Madness & Specials performed LIVE by Gladness & Stereotype",
     "descrizione": "Celebrate 2-Tone & 80s Madness live! Gladness & Stereotype bring horns, hits, and festival vibes to Liverpool's Camp and Furnace.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/f/2153397_2d759123_madness-specials-performed-live-by-gladness-the-specials-ltd.jpg",
     "data": "2026-08-28",
@@ -294598,11 +295978,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Madness--Specials-performed-LIVE-by-Gladness--Stereotype/41611779/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42338191",
-    "nome": "",
+    "nome": "Livewire | The ACDC Show",
     "descrizione": "The sounds of AC/DC with top UK tribute Livewire will rock the foundations of the Ayr Pavilion this autumn",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/0/f/2246436_15e433dc_livewire-the-acdc-show.jpg",
     "data": "2026-10-16",
@@ -294634,11 +296022,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ayr/The-Ayr-Pavilion/Livewire--The-ACDC-Show/42338191/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41474926",
-    "nome": "",
+    "nome": "Oasiz  -  Oasis Tribute | Bier Keller",
     "descrizione": "Definitely Maybe one of the UKs most famous and longest running Oasis Tribute bands\nDoors open 7pm, Band from 9.45pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/1/d/2136189_602885c7_oasiz-oasis-tribute.jpg",
     "data": "2026-12-05",
@@ -294672,11 +296068,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bracknell/Bier-Keller/Oasiz-----Oasis-Tribute--Bier-Keller/41474926/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42308899",
-    "nome": "",
+    "nome": "MC Devvo 20th Anniversary show + special guests Marx",
     "descrizione": "MC Devvo heads to Peterborough for a very special 20th Anniversary show celebrating two decades of chaos and cult-classic moments.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/c/9/2239274_df3240a5_mc-devvo-20th-anniversary-show-special-guests-marx.jpg",
     "data": "2026-12-12",
@@ -294707,11 +296111,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Peterborough/The-Met-Lounge/MC-Devvo-20th-Anniversary-show--special-guests-Marx/42308899/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41930882",
-    "nome": "",
+    "nome": "The Black Charade x Fell Out Boy | Yardbirds | Grimsby",
     "descrizione": "The Black Charade & Fell Out Boy, return to the Yardbirds Grimsby Sept 26th, this event always sells out, book now to avoid missing out!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/2/c/2184411_83228317_The-Black-Charade-x-Fell-Out-Boy---Yardbirds---Grimsby.jpg",
     "data": "2026-09-26",
@@ -294741,11 +296153,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Grimsby/Yardbirds-Club/The-Black-Charade-x-Fell-Out-Boy--Yardbirds--Grimsby/41930882/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581702",
-    "nome": "",
+    "nome": "Xmas Jam Pot @ the Barras",
     "descrizione": "Glasgow's biggest nineties and noughties Christmas Party @ BAaD in the Barra's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/1/9/2301615_86990857_Xmas-Jam-Pot---the-Barras.jpg",
     "data": "2026-12-12",
@@ -294776,11 +296196,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Glasgow/Barras-Art-And-Design-%28BAaD%29/Xmas-Jam-Pot--the-Barras/42581702/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42330671",
-    "nome": "",
+    "nome": "The Gerry Cinna-Man Experience",
     "descrizione": "The Gerry Cinnaman Experience is the UKs Premier and Definitve Tribute to Gerry Cinnamon.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/e/4/2244097_1f835feb_the-gerry-cinna-man-experience.jpg",
     "data": "2026-09-11",
@@ -294814,11 +296242,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-Irish-Centre/The-Gerry-Cinna-Man-Experience/42330671/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41638557",
-    "nome": "",
+    "nome": "Karma Police - Radiohead Tribute",
     "descrizione": "Diving into the legendary anthems that left a mark on an entire era, Karma Police recreate Radiohead's most revered songs.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/b/0/2159509_7c2f57f0_karma-police-radiohead-tribute.jpg",
     "data": "2026-09-12",
@@ -294856,42 +296292,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Karma-Police---Radiohead-Tribute/41638557/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/XOYO/Kurt-Vile--the-Violators/42313417/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/GASWRX-Opening-ARMAND-VAN-HELDENLOW-STEPPADANNY-HOWARDPRUNK/42581858/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Luna-Springs-Digbeth-/Allday-Indie-Outdoor-Festival---Birmingham/41770212/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/rnb-mania-birmingham/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Warehouse/Nathan-Dawe-Presents-the-0121SHOW/42406425/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42459076",
-    "nome": "",
+    "nome": "Mickey 9s + The Fear",
     "descrizione": "Mickey 9s return to the QMU on Fri 27 Nov with special guests The Fear - who'll be playing their first full-band show since 2012.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/c/3/2272118_81187536_Mickey-9s---The-Fear.jpg",
     "data": "2026-11-27",
@@ -294930,24 +296336,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Queen-Margaret-Union-%28QMU%29/Mickey-9s--The-Fear/42459076/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/TV-Studio---SWG3/Colours-House-Party-Presents-Sasha/42607227/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Colours-House-Party-Presents-Sasha/42607237/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42534100",
-    "nome": "",
+    "nome": "Laid: James Tribute",
     "descrizione": "Get down and join us for a night of unmissable indie-rock anthems as Laid bring the iconic sound of James - plus support from Joy Diversion",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/c/4/2293839_b0ff0203_laid-james-tribute.jpg",
     "data": "2027-04-24",
@@ -294977,11 +296371,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Warrington/The-Bowdon-Rooms/Laid-James-Tribute/42534100/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42126621",
-    "nome": "",
+    "nome": "The Allergies (live), with support from the Soul Buggin' DJs",
     "descrizione": "The Allergies bring their full live band show to the East Midlands for the first time!  Support comes from the legendary Nottingham DJ's, Soul Buggin'",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/c/f/2211263_d8b3e6e6_the-allergies-live-with-support-from-the-soul-buggin-djs.jpg",
     "data": "2026-11-21",
@@ -295015,11 +296417,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Old-Cold-Store-At-Castle-Rock-Brewery/The-Allergies-live-with-support-from-the-Soul-Buggin-DJs/42126621/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604267",
-    "nome": "",
+    "nome": "GirlyPop Live's Xmas Party | Depot, Cardiff",
     "descrizione": "GirlyPop Live is returning to indoor venue Depot, Cardiff with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/3/f/2307861_ed56dcf3_girlypop-live-depot-cardiff.jpg",
     "data": "2026-11-29",
@@ -295058,18 +296468,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/GirlyPop-Live---Christmas-Party-Depot-Cardiff/42604267/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/GirlyPop-Live---Christmas-Party--Depot-Cardiff/42604267/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42415439",
-    "nome": "",
+    "nome": "Chemical Dance vs Daft Punk - The Ultimate Tribute Experience",
     "descrizione": "With precision crafted sound, arena-scale production, and an immersive lazer and visual show, this is more than a tribute it's a full sensory journey.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/f/3/2262093_d89b3ca1_chemical-dance-vs-daft-punk-the-ultimate-tribute-experience.jpg",
     "data": "2026-09-05",
@@ -295100,11 +296504,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oldham/Uppermill-Civic-Hall/Chemical-Dance-vs-Daft-Punk---The-Ultimate-Tribute-Experience/42415439/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42605484",
-    "nome": "",
+    "nome": "Cheekface + special guests Emperor X & Playboy Manbaby",
     "descrizione": "American indie-rock trio Cheekface play live with very special guests!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/4/0/2308206_418523b7_cheekface-special-guests-emperor-x-playboy-manbaby.jpg",
     "data": "2026-11-25",
@@ -295133,11 +296545,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Cheekface--special-guests-Emperor-X--Playboy-Manbaby/42605484/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41994025",
-    "nome": "",
+    "nome": "U2UK | Leeds | Sat 21st Nov | The Old Woollen |U2 Tribute",
     "descrizione": "Europe's best tribute to U2 play The Old Woollen for the first time!! Hear U2 classics  with few deep cuts thrown in!! You will not be disappointed!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/7/b/2198007_49114753_u2uk-leeds-sat-21st-nov-the-old-woollen-u2-tribute.jpg",
     "data": "2026-11-21",
@@ -295171,11 +296591,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/The-Old-Woollen/U2UK--Leeds--Sat-21st-Nov--The-Old-Woollen-U2-Tribute/41994025/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42341709",
-    "nome": "",
+    "nome": "Highway to Hull & Statis Quo",
     "descrizione": "Capturing the power and excitement of AC/DC with a two-hour show, Highway to Hull bring an entertaining and authentic tribute.",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-08-29",
@@ -295204,11 +296632,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Hull/HORNSEA-FLORAL-HALL/Highway-to-Hull--Statis-Quo/42341709/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614155",
-    "nome": "",
+    "nome": "Big Condo Records Presents Dreambreak",
     "descrizione": "Big Condo Records Presents Dreambreak with Support from Second Take, Sundown Marathon, Fractured and special guest Emilie Culshaw",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/c/8/2311105_3a67b632_big-condo-records-presents-dreambreak.jpg",
     "data": "2026-10-25",
@@ -295239,11 +296675,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/ArtsClub-Liverpool/Big-Condo-Records-Presents-Dreambreak/42614155/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41999009",
-    "nome": "",
+    "nome": "PorkPie Live at Docks Academy, Grimsby",
     "descrizione": "PorkPie Live at Docks Academy, Grimsby on Friday 4th September 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/8/e/2199349_33deba55_porkpie-live-at-docks-academy-grimsby.jpg",
     "data": "2026-09-04",
@@ -295279,11 +296723,19 @@ window.DPA_EVENTS_FALLBACK = [
     "approvazione": "approvato",
     "creato_il": "2026-08-06",
     "coordinate_precisione": "incerta",
-    "coordinate_fonte": null
+    "coordinate_fonte": null,
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Grimsby/Docks-Academy/PorkPie-Live-at-Docks-Academy-Grimsby/41999009/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41735990",
-    "nome": "",
+    "nome": "Special Kinda Madness: Leeds",
     "descrizione": "2 Bands ... 2-Tone ... 1 Fantastic Night.\nA Specials Tribute Band and a Madness Tribute Band, all on one stage. That's Special Kinda Madness.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/0/2168879_209000a5_special-kinda-madness-leeds.jpg",
     "data": "2026-12-05",
@@ -295314,11 +296766,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-Irish-Centre/Special-Kinda-Madness-Leeds/41735990/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42461788",
-    "nome": "",
+    "nome": "Talisk & Valtos",
     "descrizione": "Joint headline show with two of Scotland's most highly acclaimed forces in the contemporary folk/trad scene.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/9/7/2273173_b525c0b7_talisk-valtos.jpg",
     "data": "2026-12-06",
@@ -295350,11 +296810,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Aberdeen/The-Music-Hall-Aberdeen/Talisk--Valtos/42461788/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41736569",
-    "nome": "",
+    "nome": "DEATH OR GLORY (Clash Tribute) - Warrington Irish Club - 19/9/26",
     "descrizione": "Death Or Glory, return to Warrington Irish Club to play the Greatest Hits of The Clash, of one of the best bands to emerge from the UK punk scene!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/8/a/2169165_025ae94a_death-or-glory-clash-tribute-warrington-irish-club-19-9-26.jpg",
     "data": "2026-09-19",
@@ -295393,18 +296861,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Warrington/The-Irish-Club/DEATH-OR-GLORY-Clash-Tribute---Warrington-Irish-Club---19926/41736569/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Warrington/The-Old-Market-Square%2C-Warrington/Twisted-Smile-In-The-Square-with-House-Gospel-Choir--more/41985802/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42622392",
-    "nome": "",
+    "nome": "Alan Reed and The Daughters of Expediency",
     "descrizione": "Nomenloonyverse presents Alan Reed and the Daughters of Expediency's first ever Sheffield gig at West Street Live.",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-09-03",
@@ -295434,11 +296896,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/West-Street-Live/Alan-Reed-and-The-Daughters-of-Expediency/42622392/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42542902",
-    "nome": "",
+    "nome": "Antony Szmierek: Live Performance & Signing (14+ with an Adult)",
     "descrizione": "Jacaranda Records presents a live performance and signing from Antony Szmierek in support of his new album 'Decoding Birdsong'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/2/2294694_40a52832_antony-szmierek-album-launch-show-14-with-an-adult-.jpg",
     "data": "2026-08-25",
@@ -295470,11 +296940,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Antony-Szmierek-Live-Performance--Signing-14-with-an-Adult/42542902/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41655105",
-    "nome": "",
+    "nome": "PURE WELLER - A Tribute to Paul Weller, Style Council & The Jam",
     "descrizione": "PURE WELLER return to Warrington Irish Club after 2025's sell out!!!! Hear hits from a near 50 year career of 'The Modfather'!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/e/2165384_db26cfb4_pure-weller-a-tribute-to-paul-weller-style-council-the-jam.jpg",
     "data": "2026-10-10",
@@ -295508,11 +296986,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Warrington/The-Irish-Club/PURE-WELLER---A-Tribute-to-Paul-Weller-Style-Council--The-Jam/41655105/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42272997",
-    "nome": "",
+    "nome": "Devlin - London",
     "descrizione": "UK Grime heavyweight Devlin takes over The Steel Yard, London this October.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/4/2/2232523_561e260f_devlin-london.jpg",
     "data": "2026-10-01",
@@ -295543,11 +297029,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/The-Steel-Yard/Devlin---London/42272997/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41735402",
-    "nome": "",
+    "nome": "ALIVE & KICKING UK  Warrington Irish Club - Simple Minds Tribute",
     "descrizione": "Alive & Kicking UK, the brilliant tribute to Scottish legends SIMPLE MINDS play Warrington Irish Club!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/0/d/2168690_cec72a4b_alive-kicking-uk-warrington-irish-club-simple-minds-tribute.jpg",
     "data": "2026-09-26",
@@ -295579,11 +297073,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Warrington/The-Irish-Club/ALIVE--KICKING-UK--Warrington-Irish-Club---Simple-Minds-Tribute/41735402/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42156359",
-    "nome": "",
+    "nome": "Hothouse Flowers",
     "descrizione": "Something amazing happens when Hothouse Flowers step onto the stage where two nights are never the same!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/0/3/2217761_a37ba90d_hothouse-flowers.jpg",
     "data": "2026-11-07",
@@ -295615,11 +297117,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Hothouse-Flowers/42156359/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42366260",
-    "nome": "",
+    "nome": "Moving Pictures - A Tribute To Rush",
     "descrizione": "Flawless versions of classic RUSH songs played with real passion.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/4/9/2252941_ac9012be_moving-pictures-a-tribute-to-rush.jpg",
     "data": "2026-09-26",
@@ -295655,24 +297165,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Moving-Pictures---A-Tribute-To-Rush/42366260/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/St-Pauls-House/Word-of-Mouth-The-Over-30s-DayClub-Birmingham/42489649/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Deadwax-Digbeth/Wobble---The-Big-one/41415745/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42612694",
-    "nome": "",
+    "nome": "Steve Pilgrim (Paul Weller / Cast)",
     "descrizione": "Global touring artist and part of Paul Weller's band Steve Pilgrim brings his acoustic solo tour to Pilgrim. \"The music industry's best kept secret\" G",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/1/1/2310568_9bda05b1_steve-pilgrim-paul-weller-cast-.jpg",
     "data": "2026-11-13",
@@ -295708,24 +297206,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/PILGRIM/Steve-Pilgrim-Paul-Weller--Cast/42612694/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/NX-Newcastle/East-End-Dubs/42643400/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/The-Grove/The-Sensational-David-Bowie-Tribute-Band/42428287/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42611226",
-    "nome": "",
+    "nome": "Spike [Quireboys] + Del Bromham [Stray]",
     "descrizione": "Spike is the founder and front man of the Quireboys - one of the UK's most enduring rock 'n' roll bands: Hey You, I Don't Love You Any More, 7 O'Clock",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/f/8/2310173_2113756a_spike-quireboys-del-bronham-stray-.jpg",
     "data": "2026-12-18",
@@ -295757,11 +297243,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Northampton/The-Black-Prince/Spike-Quireboys--Del-Bromham-Stray/42611226/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42505152",
-    "nome": "",
+    "nome": "Henge",
     "descrizione": "This Is Tmrw presents Henge live at the Castle & Falcon on Sunday, March 14th.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/4/3/2285660_e692f3d0_henge.jpg",
     "data": "2027-03-14",
@@ -295792,11 +297286,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Henge/42505152/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41617184",
-    "nome": "",
+    "nome": "Guns n' Roses LIVE tribute at Camp and Furnace",
     "descrizione": "Get ready to experience the raw power, electric energy, and iconic hits of one of the greatest rock bands in history with the Guns n' Roses Experience",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/1/6/2154328_26560721_Guns-n--Roses-LIVE-tribute-at-Camp-and-Furnace.jpg",
     "data": "2026-10-16",
@@ -295835,18 +297337,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Guns-n-Roses-LIVE-tribute-at-Camp-and-Furnace/41617184/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Dual-Damage-Present-Built2Break/42368868/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-41393300",
-    "nome": "",
+    "nome": "Rammlied BRADFORD - The Rammstein Party Returns",
     "descrizione": "Join The Rammstein Party with Rammlied! The UK's number one tribute act return to Nightrain on Friday 25th September 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/1/2116667_28451729_Rammlied-BRADFORD---The-Rammstein-Party-Returns.jpg",
     "data": "2026-09-25",
@@ -295878,11 +297374,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bradford/Nightrain/Rammlied-BRADFORD---The-Rammstein-Party-Returns/41393300/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42449903",
-    "nome": "",
+    "nome": "Jah Wobble metal box rebuilt in Dub",
     "descrizione": "By popular demand , the amazing Jah wobble joins us again with his metal box show , with special guest John Klein from Siouxsie and the Banshees.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/4/2270517_28fad6da_jah-wobble-metal-box-rebuilt-in-dub.jpg",
     "data": "2026-10-16",
@@ -295911,11 +297415,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oldham/Unitarian-Church-Todmorden/Jah-Wobble-metal-box-rebuilt-in-Dub/42449903/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42619527",
-    "nome": "",
+    "nome": "Death of Guitar Pop + special guests",
     "descrizione": "Death of Guitar Pop -one of the hottest names in British Ska! A unique blend of 2 Tone Ska & Anthemic Indie Guitar pop have made a 'Must See' Band!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/4/2/2312937_a24216b7_death-of-guitar-pop-special-guests.jpg",
     "data": "2026-12-11",
@@ -295947,11 +297459,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Peterborough/The-Met-Lounge/Death-of-Guitar-Pop--special-guests/42619527/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42250453",
-    "nome": "",
+    "nome": "An Evening With - Tom Meighan",
     "descrizione": "Step into an unforgettable night with Tom Meighan, one of British rock's most electrifying performers and former Kasabian front man",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/1/f/2224857_fa42b552_an-evening-with-tom-meighan.jpg",
     "data": "2026-10-23",
@@ -295981,11 +297501,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Dumfries/The-Venue-Dumfries/An-Evening-With---Tom-Meighan/42250453/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42620169",
-    "nome": "",
+    "nome": "TREMOR X KOR Presents: NVNS + MXGN + More",
     "descrizione": "Tremor + Keep On Raving Presents : NVNS + MXGN (HYBRID LIVE) + MORE - District Cardiff - 10PM-4AM - Limited Tickets Available",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/5/1/2313050_18cbc896_tremor-x-kor-presents-nvns-mxgn-more.jpg",
     "data": "2026-11-06",
@@ -296017,11 +297545,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/TREMOR-X-KOR-Presents-NVNS--MXGN--More/42620169/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42439193",
-    "nome": "",
+    "nome": "Cerebral Incubation - Manchester",
     "descrizione": "USA based Slam titans Cerebral Incubation return to Manchester for the first time in 9 years to decimate Star & Garter",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/f/4/2269073_2574a8ac_cerebral-incubation-manchester.jpg",
     "data": "2026-08-28",
@@ -296051,11 +297587,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Manchester/Star-And-Garter/Cerebral-Incubation---Manchester/42439193/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603161",
-    "nome": "",
+    "nome": "Anti-Nowhere League + Force Fed Lies + Entropy",
     "descrizione": "Anti-Nowhere League Take to the Holy Diver Stage for the first time ever this February 2027! For a none stop back to back hit after hit show.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/e/1/2307324_b52ae5ea_anti-nowhere-league-force-fed-lies-entropy.jpg",
     "data": "2027-02-05",
@@ -296085,11 +297629,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Anti-Nowhere-League--Force-Fed-Lies--Entropy/42603161/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580955",
-    "nome": "",
+    "nome": "Eat Static",
     "descrizione": "Pioneering artists whose visionary sonic creations have opened the path to new and previously unexplored dimensions of psychedelic electronic music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/7/8/2301340_9c92b02c_eat-static.jpg",
     "data": "2026-11-06",
@@ -296127,18 +297679,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/Eat-Static/42580955/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/KSK-Presents--FRAW--BASSWELL/42571124/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42447826",
-    "nome": "",
+    "nome": "GirlyPop Live: Summer Send Off| Binks Yard, Nottingham",
     "descrizione": "GirlyPop is returning to outdoor venue Binks Yard, Nottingham with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/c/f/2270135_fa67bb8f_girlypop-live-summer-send-off-binks-yard-nottingham.jpg",
     "data": "2026-09-06",
@@ -296170,11 +297716,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/Binks-Yard/GirlyPop-Live-Summer-Send-Off-Binks-Yard-Nottingham/42447826/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614157",
-    "nome": "",
+    "nome": "Beatles Complete - O2 Academy Bournemouth",
     "descrizione": "Direct from their Cavern Club Residency - Beatles Complete present a night of Beatlemania packed with hits from the most influential band of all time",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/e/2311107_86eec740_beatles-complete-o2-academy-bournemouth.jpg",
     "data": "2026-09-25",
@@ -296208,11 +297762,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bournemouth/O2-Academy-Bournemouth/Beatles-Complete---Bournemouth/42614157/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41942067",
-    "nome": "",
+    "nome": "Heartbreak The Tom Petty Show",
     "descrizione": "50th Anniversary of Tom Petty and The Heartbreakers 1976-2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/4/6/2185972_80542175_Heartbreak-The-Tom-Petty-Show.jpg",
     "data": "2026-09-03",
@@ -296246,11 +297808,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/The-Voodoo-Rooms/Heartbreak-The-Tom-Petty-Show/41942067/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42487620",
-    "nome": "",
+    "nome": "JAMES WALSH & BEN OTTEWELL | Leeds Old Woollen | Sun 1st Nov 2pm",
     "descrizione": "James Walsh (Starsailor) & Ben Ottewell (Gomez) play Leeds Old Woollen, they will play a set each and perform a few songs together for the encore!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/3/2280997_537cae15_james-walsh-ben-ottewell-leeds-old-woollen-sun-1st-nov-2pm.jpg",
     "data": "2026-11-01",
@@ -296288,11 +297858,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/The-Old-Woollen/JAMES-WALSH--BEN-OTTEWELL--Leeds-Old-Woollen--Sun-1st-Nov-2pm/42487620/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41792799",
-    "nome": "",
+    "nome": "Meteora plus Limp Biscuit and Evanescent",
     "descrizione": "A monumental night of nu-metal and emo classics, featuring a line-up of the UK's top tribute acts that you won't want to miss!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/d/c/2177234_43821f2e_meteora-plus-limp-biscuit-and-evanescent.jpg",
     "data": "2026-09-05",
@@ -296321,11 +297899,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Meteora-plus-Limp-Biscuit-and-Evanescent/41792799/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41625681",
-    "nome": "",
+    "nome": "Antarctic Monkeys",
     "descrizione": "Celebrate 20 years of Arctic Monkeys' iconic debut album 'Whatever People Say I Am...' Relive the swagger and genius of a generation-defining album!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/f/0/2156722_ea45b954_antarctic-monkeys.jpg",
     "data": "2026-10-23",
@@ -296356,11 +297942,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Antarctic-Monkeys/41625681/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41980914",
-    "nome": "",
+    "nome": "Strong Enough-Ultimate Tribute Concert To Cher",
     "descrizione": "Get ready for an unforgettable evening, celebrating the global superstar and great female icon that is Cher.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/7/2194829_99106650_Strong-Enough-Ultimate-Tribute-Concert-To-Cher.jpg",
     "data": "2027-05-07",
@@ -296390,11 +297984,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Carlisle/Old-Fire-Station/Strong-Enough-Ultimate-Tribute-Concert-To-Cher/41980914/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42286669",
-    "nome": "",
+    "nome": "The Elvis And The Dixie Rock N Roll Band",
     "descrizione": "Mark Green has been performing his Elvis Experience Tribute Show for well over 13 years.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/3/2234819_c832355f_the-elvis-and-the-dixie-rock-n-roll-band.jpg",
     "data": "2026-11-28",
@@ -296423,11 +298025,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Solihull/Land-Rover-Sports-And-Social-Club/The-Elvis-And-The-Dixie-Rock-N-Roll-Band/42286669/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42612727",
-    "nome": "",
+    "nome": "PALE BLUE EYES + special guests",
     "descrizione": "Pale Blue Eyes . MOJO: Thrilling... A shimmering Kraut-rail trip to Asgard.\n\nWarm Parts :  Post Rock, Alternative, Instrumental band\n\n+ special guests",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/9/0/2310599_0992f47a_pale-blue-eyes-special-guests.jpg",
     "data": "2026-09-17",
@@ -296460,11 +298070,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Oldham/Golden-Lion-Hotel/PALE-BLUE-EYES--special-guests/42612727/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42510714",
-    "nome": "",
+    "nome": "The Rodeo Romeos - Saturday 26th September 2026 - Afternoon Show",
     "descrizione": "Wild West - The Rodeo Romeos - where Country meets Hip-Hop! \nA wild Magic Mike-style live dance experience from the team behind 24K Magic Men.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/6/7/2287171_d8a30c8e_saturday-26th-september-2026.jpg",
     "data": "2026-09-26",
@@ -296494,11 +298112,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Medway-Rochester/Casino-Rooms/The-Rodeo-Romeos---Saturday-26th-September-2026---Afternoon-Show/42510714/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42616602",
-    "nome": "",
+    "nome": "WAH Plymouth | Hedex, Bou, Basslayerz, Friction, Mozey & more!",
     "descrizione": "WAH returns to Plymouth with it's BIGGEST ever lineup & brand new production setup!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/6/4/2311949_1653a7bf_wah-plymouth-hedex-bou-basslayerz-friction-mozey-more-.jpg",
     "data": "2026-10-17",
@@ -296541,11 +298167,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Plymouth/Plymouth-Pavilions/WAH-Plymouth--Hedex-Bou-Basslayerz-Friction-Mozey--more/42616602/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42572055",
-    "nome": "",
+    "nome": "25 Years of Valve Sound System x Drum & Bass Classics| Bristol",
     "descrizione": "Big celebrations inbound, ready to rinse it. Full system. Stacked lineup. Nighttime session x [THE BLAST]. Final ticket drop live now. Don't miss out.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/4/b/2299343_4b11080b_25-years-of-valve-sound-system-bristol-x-the-blast-.jpg",
     "data": "2026-12-04",
@@ -296610,18 +298244,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/25-Years-of-Valve-Sound-System-x-Drum--Bass-Classics-Bristol/42572055/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Bugged-Out-presents-Sven-Vth-Dave-Clarke-Erol-Alkan--more/42628302/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42512752",
-    "nome": "",
+    "nome": "Hospital30 | FABRICLIVE",
     "descrizione": "Hospital Records returns to fabric for the final London chapter of the Hospital30 celebrations, taking over all three rooms for one huge D&B session.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/2/c/2288191_d56eb76a_hospital30-fabriclive.jpg",
     "data": "2026-12-12",
@@ -296651,11 +298279,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/London/Fabric-London/Hospital30--FABRICLIVE/42512752/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42622803",
-    "nome": "",
+    "nome": "Square One at Void: The Final Farewell",
     "descrizione": "Final tickets on sale Friday 7th August. Join the waiting list now.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/1/2/2313981_84327839_Square-One-at-Void--The-Final-Farewell.jpg",
     "data": "2026-10-10",
@@ -296685,11 +298321,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Lincoln/Void/Square-One-at-Void-The-Final-Farewell/42622803/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42615906",
-    "nome": "",
+    "nome": "Modern Funktion",
     "descrizione": "Boss Priester, Jamback, Job De Jong, Saoirse, Mya & Izzy, Phill De Janerio, Benji King",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/7/6/2311773_d0a9804d_modern-funktion.jpg",
     "data": "2026-10-16",
@@ -296724,11 +298368,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/NX-Newcastle/Modern-Funktion/42615906/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42620766",
-    "nome": "",
+    "nome": "Big Fat Rave: 4AM KRU & More / Powered By Raze Sound System",
     "descrizione": "A celebration of sound system culture & Jungle music. \n\nMain Room; 4AM KRU, Napes & More / Powered By Raze\nWorkroom: NO KIDDING Label Launch Party",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/b/a/2313339_af47f988_big-fat-rave-4am-kru-more-powered-by-raze-sound-system.jpg",
     "data": "2026-10-02",
@@ -296762,11 +298414,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/FORGE/Big-Fat-Rave-4AM-KRU--More--Powered-By-Raze-Sound-System/42620766/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42626961",
-    "nome": "",
+    "nome": "TELETECH LONDON: Vieze Asbak + More",
     "descrizione": "London, we're back as we bring Vieze Asbak + an insanely stacked line up to E1, London 2nd October.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/3/1/2314717_b269eb31_teletech-london-vieze-asbak-more.jpg",
     "data": "2026-10-02",
@@ -296809,18 +298469,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/E1-London-%28ONYX%29/TELETECH-LONDON-Vieze-Asbak--More/42626961/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/London/The-Dome/The-Ariston---London/42484286/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42614181",
-    "nome": "",
+    "nome": "Dreamworx - All Day 'Old School' Clubbing In Newcastle",
     "descrizione": "The North East's favourite day club returns! Over 25s, 90s & 00s dance classics, festival production and unforgettable atmosphere.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/3/9/2311129_85215958_Dreamworx---All-Day--Old-School--Clubbing-In-Newcastle.jpg",
     "data": "2026-10-03",
@@ -296857,18 +298511,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Digital-Newcastle/Dreamworx---All-Day-Old-School-Clubbing-In-Newcastle/42614181/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Digital-Newcastle/inU-with-Cristoph--YOTTO/41782107/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42571139",
-    "nome": "",
+    "nome": "raveCAVE - Enter The Rave",
     "descrizione": "Saturday 14th November raveCAVE is back with Enter the Rave featuring 2 absolute Rave Legends mixed in with our raveCAVE crew.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/1/c/2299261_ad42aecf_ravecave-enter-the-rave.jpg",
     "data": "2026-11-14",
@@ -296897,11 +298545,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ayr/The-Ayr-Pavilion/raveCAVE---Enter-The-Rave/42571139/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42600283",
-    "nome": "",
+    "nome": "Sumara - Afro House Experience - Day Party",
     "descrizione": "SUMARA Terrace Sessions. An elevated open-air experience with Afro House, Amapiano & R&B.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/a/c/2306716_27699304_Sumara---Afro-House-Experience---Day-Party.jpg",
     "data": "2026-08-30",
@@ -296932,11 +298588,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Hotel-La-Tour/Sumara---Afro-House-Experience---Day-Party/42600283/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580875",
-    "nome": "",
+    "nome": "Born on Road | Bournemouth",
     "descrizione": "Born on Road are coming to The Old Fire Station this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/4/e/2301287_89210425_Born-on-Road---Bournemouth.jpg",
     "data": "2026-11-21",
@@ -296970,11 +298634,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Bournemouth/The-Old-Fire-Station/Born-on-Road--Bournemouth/42580875/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42589332",
-    "nome": "",
+    "nome": "doof Presents The Rocketman - Edinburgh",
     "descrizione": "doof presents The Rocketman at Liquid Room, Edinburgh with FOVOS and LOZ",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/a/5/2303739_57e4534f_doof-presents-the-rocketman-edinburgh.jpg",
     "data": "2026-10-03",
@@ -297005,11 +298677,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/The-Liquid-Room/doof-Presents-The-Rocketman---Edinburgh/42589332/?sktag=15777&skcampaign=sito",
+        "prezzo": "15",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42580829",
-    "nome": "",
+    "nome": "Born on Road | Nottingham",
     "descrizione": "Born on Road are coming to Brickworks this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/3/b/2301262_59832918_Born-on-Road---Nottingham.jpg",
     "data": "2026-10-17",
@@ -297043,11 +298723,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Nottingham/The-Brickworks/Born-on-Road--Nottingham/42580829/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580872",
-    "nome": "",
+    "nome": "Born on Road | Exeter",
     "descrizione": "Born on Road are coming to Move this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/c/6/2301284_52403756_Born-on-Road---Exeter.jpg",
     "data": "2026-11-20",
@@ -297081,11 +298769,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Exeter/Move-Exeter/Born-on-Road--Exeter/42580872/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42403796",
-    "nome": "",
+    "nome": "Cru2 Milton Keynes",
     "descrizione": "Cru2 returns to MK bringing the best of bassline",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/6/f/2258935_c7e9affc_cru2-milton-keynes.jpg",
     "data": "2026-09-05",
@@ -297120,11 +298816,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/Cru2-Milton-Keynes/42403796/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42472417",
-    "nome": "",
+    "nome": "We Love the 90's live",
     "descrizione": "Hull's biggest 90s dance party returns, the past 2 events were sold out!\nExpect a full day of 90's dance anthems, huge singalongs & club classics.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/e/b/2276107_67868c3a_we-love-the-90-s-live.jpg",
     "data": "2026-09-26",
@@ -297161,11 +298865,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Hull/The-Asylum/We-Love-the-90s-live/42472417/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42604528",
-    "nome": "",
+    "nome": "Dvoid x Khaotic Present: Toxic Machinery, Incult, Damaxy & More",
     "descrizione": "On 18 September, we’re making our Newcastle debut joined with Khaotic, bringing Toxic Machinery and a seriously stacked lineup to Digital.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/4/2307987_40441318_Dvoid-x-Khaotic-Present--Toxic-Machinery--Incult--Damaxy---More.jpg",
     "data": "2026-09-18",
@@ -297198,11 +298910,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Digital-Newcastle/Dvoid-x-Khaotic-Present-Toxic-Machinery-Incult-Damaxy--More/42604528/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42513096",
-    "nome": "",
+    "nome": "This Is Bounce UK Halloween House Of Horrors - Fancy Dress Rave",
     "descrizione": "The biggest night out of the year !",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/9/d/2288272_9e03ed70_this-is-bounce-uk-halloween-house-of-horrors-fancy-dress-rave.jpg",
     "data": "2026-10-31",
@@ -297232,11 +298952,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wigan/Pure-Nightclub-Wigan/This-Is-Bounce-UK-Halloween-House-Of-Horrors---Fancy-Dress-Rave/42513096/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580834",
-    "nome": "",
+    "nome": "Born on Road | Brighton",
     "descrizione": "Born on Road are coming to Concorde 2 this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/2/e/2301267_ecfcf9e3_born-on-road-brighton.jpg",
     "data": "2026-10-30",
@@ -297270,11 +298998,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Brighton/Concorde-2/Born-on-Road--Brighton/42580834/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581512",
-    "nome": "",
+    "nome": "Let's Get Jazzy w/ Lucas Alexander & Reeshy",
     "descrizione": "Let's Get Jazzy\nLucas Alexander B2B Reeshy ALL DAY LONG on District Rooftop.\n\nThis one is going to be special",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/b/2301431_16b5268c_let-s-get-jazzy-w-lucas-alexander-reeshy.jpg",
     "data": "2026-08-22",
@@ -297314,18 +299050,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/Lets-Get-Jazzy-w-Lucas-Alexander--Reeshy/42581512/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/CUE-x-Rarebit-DJ-Cosworth-Captain-Wallop-RTK-Tarantino--more/42643451/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42460079",
-    "nome": "",
+    "nome": "5th Ave, Time & Envy, Martines & Images Day Club for over 30's",
     "descrizione": "Portsmouth's biggest Day Club for over 30's returns for the final time in 2026!\n5th Ave, Time & Envy, Images & Martines Day Club Sat 12th Dec. 3pm-8pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/6/0/2272553_367f52c0_5th-ave-time-envy-martines-images-day-club-for-over-30-s.jpg",
     "data": "2026-12-12",
@@ -297357,11 +299087,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Astoria/5th-Ave-Time--Envy-Martines--Images-Day-Club-for-over-30s/42460079/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42432506",
-    "nome": "",
+    "nome": "Vocalise Presents - Danny Rampling // K-Klass // Lisa Loud",
     "descrizione": "This August Bank Holiday, join us for a house and disco fuelled long-weekend party like no other at the stunning Pavilion at Oscars Estate.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/5/2266455_bed0fbed_vocalise-presents-danny-rampling-k-klass-lisa-loud.jpg",
     "data": "2026-08-30",
@@ -297398,11 +299136,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Walsall/The-Pavilion-At-Oscars%2C-Swinfen-Hall-Estate-Grounds/Vocalise-Presents---Danny-Rampling--K-Klass--Lisa-Loud/42432506/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614667",
-    "nome": "",
+    "nome": "Casa pres; Bushbaby (3 Hour Set)",
     "descrizione": "Opening up nightclub season and fresh off playing at Circo Loco",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/1/3/2311321_056c19e8_casa-pres-bushbaby-3-hour-set-.jpg",
     "data": "2026-09-26",
@@ -297434,11 +299180,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Plymouth/THE-DEPO/Casa-pres-Bushbaby-3-Hour-Set/42614667/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42614241",
-    "nome": "",
+    "nome": "Tu Casa",
     "descrizione": "We're delighted to invite Fabric, Wiggle and legendary tech house DJ Terry Francis to Tu Casa for our End of Summer Party at Mermaids Bar, Folkestone.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/4/4/2311161_f2b3619b_tu-casa.jpg",
     "data": "2026-09-13",
@@ -297472,11 +299226,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Canterbury/Mermaid-Cafe-Folkestone/Tu-Casa/42614241/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42536234",
-    "nome": "",
+    "nome": "CYNT Halloween w. NOTION",
     "descrizione": "Cardiff's biggest Halloween event - sign up now for the cheapest tickets!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/d/9/2294258_709e0d06_cynt-halloween-w-notion.jpg",
     "data": "2026-10-31",
@@ -297517,18 +299279,12 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Cardiff/District-Cardiff/CYNT-Halloween-w-NOTION/42536234/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Cardiff/Great-Hall-/Cardiff-16-Halloween-Rave/42542914/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ]
   },
   {
     "id": "skiddle-42536238",
-    "nome": "",
+    "nome": "A.M.C ft Phantom",
     "descrizione": "A.M.C brings his Grassroots Energy tour to Thirty3Hz this December.\nA night dedicated to supporting independent venues, promoters and local artists",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/a/b/2294262_a763b818_a-m-c-ft-phantom.jpg",
     "data": "2026-12-18",
@@ -297558,11 +299314,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Guildford/Thirty3Hz/AMC-ft-Phantom/42536238/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42404756",
-    "nome": "",
+    "nome": "Scene Social - Dj Puffy  - Jersey",
     "descrizione": "Scene Social is back with Dj Puffy, Red Bull 3Style World Champion and one of the most in-demand party DJs on the global stage.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/7/5/2259089_323b3d4a_scene-social-dj-puffy-jersey.jpg",
     "data": "2026-09-05",
@@ -297594,11 +299358,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Unknown/The-Royal-Yacht---Drift/Scene-Social---Dj-Puffy----Jersey/42404756/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42581724",
-    "nome": "",
+    "nome": "Energy Cru presents: Bushbaby [All Night Long]",
     "descrizione": "After a series of sold out shows, Energy Cru come to Mint Warehouse, Leeds on Friday 13th November. Tickets will sell out.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/9/a/2301633_93020227_Energy-Cru-presents--Bushbaby--All-Night-Long-.jpg",
     "data": "2026-11-13",
@@ -297630,11 +299402,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leeds/Mint-Warehouse/Energy-Cru-presents-Bushbaby-All-Night-Long/42581724/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580878",
-    "nome": "",
+    "nome": "Born on Road | Milton Keynes",
     "descrizione": "Born on Road are coming to Unit 9 this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/f/2301290_73066173_Born-on-Road---Milton-Keynes.jpg",
     "data": "2026-11-27",
@@ -297668,11 +299448,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/Born-on-Road--Milton-Keynes/42580878/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42569406",
-    "nome": "",
+    "nome": "Pure 12th Birthday",
     "descrizione": "Join us as we celebrate 12 years of the home of bounce.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/f/3/2298592_eb157f0a_pure-12th-birthday.jpg",
     "data": "2026-09-26",
@@ -297702,11 +299490,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wigan/Pure-Nightclub-Wigan/Pure-12th-Birthday/42569406/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42577113",
-    "nome": "",
+    "nome": "Guilty Pleasures - FAULDHOUSE- Sept 26th -",
     "descrizione": "Guilty pleasures Fauldhouse",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/5/2300350_fd2575d3_guilty-pleasures-fauldhouse-sept-26th-.jpg",
     "data": "2026-09-26",
@@ -297740,11 +299536,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Edinburgh/Fauldhouse-Miners-Welfare-Club/Guilty-Pleasures---FAULDHOUSE--Sept-26th--/42577113/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42626919",
-    "nome": "",
+    "nome": "Our friends electric - Tom sharkett & Richard Sen",
     "descrizione": "We welcome to WaterBear for the 1st time Tom  Sharkett & Richard Sen returns after and incredible set last time round.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/3/3/2314675_1a75aa2d_our-friends-electric-tom-sharkett-richard-sen.jpg",
     "data": "2026-10-10",
@@ -297778,11 +299582,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Brighton/The-WaterBear-Venue/Our-friends-electric---Tom-sharkett--Richard-Sen/42626919/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42600831",
-    "nome": "",
+    "nome": "Garage Nation Summer Garden Party Luton",
     "descrizione": "Garage Nation returns to Luton for a Summer Garden All Day Party in The Brewery Tap's Garden!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/e/2306730_13516882_Garage-Nation-Summer-Garden-Party-Luton.jpg",
     "data": "2026-09-12",
@@ -297811,11 +299623,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Luton/The-Brewery-Tap/Garage-Nation-Summer-Garden-Party-Luton/42600831/?sktag=15777&skcampaign=sito",
+        "prezzo": "10",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-42437572",
-    "nome": "",
+    "nome": "Generation GBX - Fubar Edition - Part 5",
     "descrizione": "Generation GBX Day Dancing lands at Fubar on Saturday 21st November with George Bowie bringing the biggest 90s anthems, old skool classics and GBX ban",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/5/4/2268381_7ee659b0_generation-gbx-fubar-edition-part-4.jpg",
     "data": "2026-11-21",
@@ -297848,11 +299668,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Stirling/Fubar/Generation-GBX---Fubar-Edition---Part-5/42437572/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42580751",
-    "nome": "",
+    "nome": "Born on Road | Southampton",
     "descrizione": "Born on Road are coming to Engine Rooms this September!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/3/8/2301220_b060f2a3_born-on-road-southampton.jpg",
     "data": "2026-10-24",
@@ -297886,11 +299714,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/Born-on-Road--Southampton/42580751/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42620344",
-    "nome": "",
+    "nome": "Belladrum Tartan Heart Festival 2027",
     "descrizione": "Belladrum Tartan Heart Festival is a firm favourite on the festival calendar, with a loyal following of fervent fans that return year on year.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/6/6/2313160_97624809_Belladrum-Tartan-Heart-Festival-2027.jpg",
     "data": "2027-07-29",
@@ -297922,11 +299758,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/belladrum/?sktag=15777&skcampaign=sito",
+        "prezzo": "210",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "skiddle-41591822",
-    "nome": "",
+    "nome": "Fields Of Gold Festival 2026",
     "descrizione": "Fields Of Gold Festival 2026 is a two-day music festival taking place in Ashton-Under-Lyne, Manchester.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/6/e/2149102_ec664285_fields-of-gold-festival-2026.jpg",
     "data": "2026-09-04",
@@ -297969,11 +299813,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/fields-of-gold/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42277222",
-    "nome": "",
+    "nome": "GirlyPop Fest | Keel Square, Sunderland",
     "descrizione": "GirlyPop is coming to outdoor venue Keel Square, Sunderland with your favourite Pop icons in one live show brought to you by the best tribute acts!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/4/b/2233539_d96b5914_girlypop-fest-keel-square-sunderland.jpg",
     "data": "2026-08-23",
@@ -298007,11 +299859,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/girlypop-fest-sunderland/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-41498381",
-    "nome": "",
+    "nome": "Park Rock Richmond 2026",
     "descrizione": "Returning to Old Deer Park; Park Rock 2026 brings two stages packed with the UK's top tributes to Richmond.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/b/2141959_c227421b_park-rock-richmond-2026.jpg",
     "data": "2026-08-22",
@@ -298041,11 +299901,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Twickenham/Old-Deer-Park%2C-Richmond/Park-Rock-Richmond-2026/41498381/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42585328",
-    "nome": "",
+    "nome": "Frontline Bass The Enchanted Woods",
     "descrizione": "The Enchanted Woods a magical DnB weekender retreat at Redricks Lake with camping, food, wellness & festival vibes\nSaturday 1-11pm + Sunday 12-8pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/6/e/2302546_360328b1_frontline-bass-enchated-woods.jpg",
     "data": "2026-09-12",
@@ -298081,11 +299949,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Chelmsford/The-Wild-Retreat/Frontline-Bass-The-Enchanted-Woods/42585328/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42427595",
-    "nome": "",
+    "nome": "Colne Cricket Club Music Festival 2026",
     "descrizione": "A brand new music festival arrives in Colne this September, headlined by East 17 with tributes to Oasis, Taylor Swift & more!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/e/5/2264977_ae553d37_colne-cricket-club-music-festival-2026.jpg",
     "data": "2026-09-19",
@@ -298119,11 +299995,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Blackburn/Colne-Cricket-Club/Colne-Cricket-Club-Music-Festival-2026/42427595/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42574213",
-    "nome": "",
+    "nome": "Chesterfield Pride 2027",
     "descrizione": "Chesterfield Pride returns Saturday 12th June. \nWe are an LGBTQ event open to everyone. \nUnder 16s FREE entry",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/9/5/2299937_28416795_Chesterfield-Pride-2027.jpg",
     "data": "2027-06-12",
@@ -298155,11 +300039,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Sheffield/Stand-Road-Park/Chesterfield-Pride-2027/42574213/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42342598",
-    "nome": "",
+    "nome": "Willenhall Lock Stock",
     "descrizione": "Annual community festival local bands and artists over 2 stages , rock and pop stage. 2 litres of fluid allowed in cans or plastic. 3 stages",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/4/c/2247914_72e97475_willenhall-lock-stock.jpg",
     "data": "2026-09-06",
@@ -298189,11 +300081,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Wolverhampton/Willenhall-Memorial-Park/Willenhall-Lock-Stock/42342598/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42084971",
-    "nome": "",
+    "nome": "LOADED : Music Festival",
     "descrizione": "Live Bands & Legendary DJs",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/7/2205587_97935368_LOADED---Music-Festival.jpg",
     "data": "2027-06-05",
@@ -298234,11 +300134,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Leicester/Ratby-Sports-Club/LOADED--Music-Festival/42084971/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42439218",
-    "nome": "",
+    "nome": "Rum & Reggae Fest 2027| Elvaston Castle, Derby",
     "descrizione": "The ultimate island experience returns to Elvaston Castle next Summer!\nBringing you pure reggae sounds with huge headliners & insane production...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/c/a/2269095_91910d86_rum-reggae-fest-2027-elvaston-castle-derby.jpg",
     "data": "2027-06-12",
@@ -298270,11 +300178,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/festivals/rum-and-reggae-fest-derby/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42097580",
-    "nome": "",
+    "nome": "Sex Pistols Exposé/Lizzie & The Banshees/Clashed/We'll be Damned",
     "descrizione": "PUNK TRIB is coming to Derby! A mini festival with tribute bands playing music for 5 hours from 4 original groups at The 100 Club Punk Festival 1976.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/0/0/2209050_789b57da_sex-pistols-expos-lizzie-the-banshees-clashed-we-ll-be-damned.jpg",
     "data": "2026-10-31",
@@ -298310,11 +300226,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Derby/The-Hairy-Dog/Sex-Pistols-ExposLizzie--The-BansheesClashedWell-be-Damned/42097580/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603176",
-    "nome": "",
+    "nome": "Britallica (Britney Spears Metal Tribute)",
     "descrizione": "Get ready, Dublin... Following 2 successful shows in 2026, Britallica are coming back in 2027!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/c/c/2307339_48749187_Britallica--Britney-Spears-Metal-Tribute-.jpg",
     "data": "2027-06-12",
@@ -298345,11 +300269,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Britallica-Britney-Spears-Metal-Tribute/42603176/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603145",
-    "nome": "",
+    "nome": "The Grudge: A Tribute To Tool",
     "descrizione": "With Thirteenth Step: A Tribute To A Perfect Circle",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/6/b/2307308_70083803_The-Grudge--A-Tribute-To-Tool.jpg",
     "data": "2026-11-28",
@@ -298380,11 +300312,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/The-Grudge-A-Tribute-To-Tool/42603145/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42603174",
-    "nome": "",
+    "nome": "MORETALLICA - UK’s Premier Metallica Tribute",
     "descrizione": "Get ready for an electrifying night as MORETALLICA, the UK's premier Metallica tribute band, takes over The Sound House, Dublin.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/d/0/2307337_45332115_MORETALLICA---UK---s-Premier-Metallica-Tribute.jpg",
     "data": "2027-04-16",
@@ -298413,11 +300353,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/MORETALLICA---UKs-Premier-Metallica-Tribute/42603174/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42506603",
-    "nome": "",
+    "nome": "The Style Councillors",
     "descrizione": "The Style Councillors are the world’s one and only tribute to The Style Council.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/0/3/2285787_f4c77f8c_the-style-councillors.jpg",
     "data": "2026-12-05",
@@ -298448,11 +300396,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sugar-Club/The-Style-Councillors/42506603/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42574337",
-    "nome": "",
+    "nome": "Headshrinkers 'Oasis Tribute' Knebworth 2026",
     "descrizione": "Catch Dublin’s brand new Oasis tribute band ‘Headshrinkers’ on August 24th from 6:30 pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/a/2299998_20424185_Headshrinkers--Oasis-Tribute--Knebworth-2026.jpg",
     "data": "2026-08-24",
@@ -298482,11 +300438,19 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/The-Sound-House-/Headshrinkers-Oasis-Tribute-Knebworth-2026/42574337/?sktag=15777&skcampaign=sito",
+        "prezzo": null,
+        "gratuito": true
+      }
+    ]
   },
   {
     "id": "skiddle-42437973",
-    "nome": "",
+    "nome": "The Adults Are Talking (The Strokes Tribute)",
     "descrizione": "The Adults Are Talking (The Strokes Tribute) comes to Whelan's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/9/5/2268666_73ca1c39_the-adults-are-talking-the-strokes-tribute-.jpg",
     "data": "2026-10-25",
@@ -298518,7 +300482,15 @@ window.DPA_EVENTS_FALLBACK = [
     "sponsorizzato": false,
     "fonte": "skiddle",
     "approvazione": "approvato",
-    "creato_il": "2026-08-06"
+    "creato_il": "2026-08-06",
+    "biglietti": [
+      {
+        "fonte": "skiddle",
+        "url": "https://www.skiddle.com/whats-on/Ireland/Whelans-Dublin/The-Adults-Are-Talking-The-Strokes-Tribute/42437973/?sktag=15777&skcampaign=sito",
+        "prezzo": "x",
+        "gratuito": false
+      }
+    ]
   },
   {
     "id": "ra-2501571",
@@ -310848,7 +312820,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42623399",
-    "nome": "",
+    "nome": "KEO: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from Keo in support of their debut album 'Put A Smile On For Me'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/0/2314224_00c353ab_keo-album-launch-show.jpg",
     "data": "2026-09-27",
@@ -310895,7 +312867,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42138204",
-    "nome": "",
+    "nome": "The Smiths LTD. A Tribute to The Smiths",
     "descrizione": "The Smiths LTD are the UK's premier tribute to The Smiths, capturing the energy, sound and spirit of Morrissey, Johnny Marr and the band.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/d/2213334_756d4843_the-smiths-ltd-a-tribute-to-the-smiths.jpg",
     "data": "2026-11-28",
@@ -310939,7 +312911,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42460192",
-    "nome": "",
+    "nome": "Dave McCabe - The Zutons & Jay Lewis",
     "descrizione": "We are pleased to welcome, Dave McCabe of The Zutons and Jay Lewis of Cast and The Zutons",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/a/2272599_20b1c215_dave-mccabe-the-zutons-jay-lewis.jpg",
     "data": "2026-09-03",
@@ -310986,7 +312958,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41453454",
-    "nome": "",
+    "nome": "Goldie Lookin Chain",
     "descrizione": "Join us to watch Goldie Lookin Chain perform live at Camp and Furnace!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/b/1/2129811_6e60c2cb_goldie-lookin-chain.jpg",
     "data": "2026-11-12",
@@ -311030,7 +313002,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42634144",
-    "nome": "",
+    "nome": "BYE BYE BANKSIE - One Last Show",
     "descrizione": "After years of causing chaos across Manchester's queer nightlife scene, Banksie is saying goodbye - for now, with the help of some very special guests",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/5/b/2316199_642c19bb_bye-bye-banksie-one-last-show.jpg",
     "data": "2026-09-17",
@@ -311074,7 +313046,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41792683",
-    "nome": "",
+    "nome": "IN THE AIR TONIGHT- Tribute to Phil Collins Friday 23/10/26",
     "descrizione": "Get ready for a Night to Remember - as we bring the unforgettable sound of Phil Collins to life!\n\n * This is A Seated Event",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/8/7/2177118_9cf645f5_in-the-air-tonight-friday-23-10-26.jpg",
     "data": "2026-10-23",
@@ -311118,7 +313090,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627277",
-    "nome": "",
+    "nome": "Henge",
     "descrizione": "Music that escapes definition, but occupies a space between rave and prog rock that nobody knew existed.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/9/2/2314884_e675eb42_henge.jpg",
     "data": "2027-03-23",
@@ -311163,7 +313135,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42428540",
-    "nome": "",
+    "nome": "China Crisis",
     "descrizione": "China Crisis invite you to step into the next chapter of their story with their Warped\n2026 tour...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/c/4/2265484_55bc5429_china-crisis.jpg",
     "data": "2026-11-20",
@@ -311211,7 +313183,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42268287",
-    "nome": "",
+    "nome": "Travellers Tunes An Evening With Steve Cradock",
     "descrizione": "Steve will be playing and singing hits from the OCS songbook, and much more.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/5/2231641_c4ee607f_travellers-tunes-an-evening-with-steve-cradock.jpg",
     "data": "2027-04-07",
@@ -311257,7 +313229,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42427138",
-    "nome": "",
+    "nome": "Monsters Of Rock Live - Performed By Thunder Hammer",
     "descrizione": "Monsters of Rock Live - The Award-Winning Thunder Hammer Bring the Riff Revolution to The Arena",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/c/4/2264833_813294b2_monsters-of-rock-live-performed-by-thunder-hammer.jpg",
     "data": "2026-09-12",
@@ -311303,7 +313275,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42309784",
-    "nome": "",
+    "nome": "John Bramwell of I Am Kloot",
     "descrizione": "The Mercury Prize nominated singer from I Am Kloot with another fantastic solo show at the Conti.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/5/2239501_e7420e53_john-bramwell-of-i-am-kloot.jpg",
     "data": "2026-12-03",
@@ -311348,7 +313320,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42606036",
-    "nome": "",
+    "nome": "Luck & Neat and Artful Dodger | Après",
     "descrizione": "Browns & Glitterati promotions are delighted to present to Coppid Beech two legendary Uk Garage acts\nArtful Dodger and DJ Luck & Mc Neat!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/2/2308333_d5c0c912_luck-neat-and-artful-dodger-apr-s.jpg",
     "data": "2026-10-30",
@@ -311394,7 +313366,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42485295",
-    "nome": "",
+    "nome": "Nearly Dan Perform Steely Dan",
     "descrizione": "Nearly Dan are the Spirit & Sound of Steely Dan - Less tribute and more homage, Nearly Dan are saviour to the growing legions of Steely Dan fans",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/1/4/2279888_34c1a6e4_nearly-dan-perform-steely-dan.jpg",
     "data": "2027-03-07",
@@ -311439,7 +313411,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41610180",
-    "nome": "",
+    "nome": "Fleetwood Mac - Our Own Way - Sheppey Little Theatre",
     "descrizione": "See the return of the fantastic tribute to Fleetwood Mac - Our Own Way at the lovely Sheppey Little Theatre in Sheerness",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/c/b/2152897_e6e73aab_fleetwood-mac-our-own-way-sheppey-little-theatre.jpg",
     "data": "2026-11-14",
@@ -311485,7 +313457,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42560658",
-    "nome": "",
+    "nome": "Xentrix + Nervosa + Tortured Demon. Limelight 2 - 22/11/26",
     "descrizione": "Xentrix: Cross-Atlantic Carnage! Xentrix and Brazilian powerhouse NERVOSA will bring you a bucketload of breakneck thrash!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/8/0/2296200_88a4bc64_xentrix-nervosa-tbc-limelight-2-sunday-22nd-november.jpg",
     "data": "2026-11-22",
@@ -311531,7 +313503,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41936047",
-    "nome": "",
+    "nome": "FROM THE JAM Friday 18/09/26",
     "descrizione": "Audiences can expect to hear classic The Jam hits such as Down In The Tube Station At Midnight, Going Underground, Town Called Malice and more",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/0/d/2184994_c37db5c4_from-the-jam-friday-18-09-26.jpg",
     "data": "2026-09-18",
@@ -311577,7 +313549,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42629771",
-    "nome": "",
+    "nome": "Kid Bookie at The Black Heart, London",
     "descrizione": "Following the release of 'Cheaper Than Therapy II', Kid Bookie brings his high-energy, genre-defying live show back on the road.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/4/8/2315445_b6013bb6_kid-bookie-i-feel-sick-at-everything-tour.jpg",
     "data": "2026-11-29",
@@ -311625,7 +313597,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42631055",
-    "nome": "",
+    "nome": "Centreforce Away Fanzone - Watford VS Westham United",
     "descrizione": "Join Centreforce 883 as we take over Oddfellows, Watford for the official pre-match party ahead of Watford v West Ham United.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/3/e/2315802_e4277a5c_centreforce-away-fanzone.jpg",
     "data": "2026-08-29",
@@ -311670,7 +313642,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42138767",
-    "nome": "",
+    "nome": "SKA FACE - LEEDS - Ska & 2 Tone Tribute - Old Woollen - 14th Nov",
     "descrizione": "The brilliant Ska Face play all your Ska & Two Tone favourites!!! From Toots in the 60's to Madness in the 80's!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/e/9/2213567_68919c2b_ska-face-leeds-ska-2-tone-tribute-old-woollen-14th-nov.jpg",
     "data": "2026-11-14",
@@ -311718,7 +313690,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41978710",
-    "nome": "",
+    "nome": "The Jam UK",
     "descrizione": "The Jam UK are the ultimate tribute to one of Britain's most iconic bands, faithfully recreating the energy, sound and style of The Jam.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/c/2/2194088_7d8a3ef4_the-jam-uk.jpg",
     "data": "2026-09-04",
@@ -311764,7 +313736,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42612157",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Liverpool!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/1/5/2310385_62849019_The-Gorillaz-Experience-in-Liverpool-.jpg",
     "data": "2026-12-18",
@@ -311810,7 +313782,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42637493",
-    "nome": "",
+    "nome": "Electromantics - Plus Support",
     "descrizione": "The UK's premier 1980s electronica tribute band bring classic 80s synthpop, sequencers and robots to The Arena, Crewe.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/d/a/2316543_44d0667f_electromantics-plus-support.jpg",
     "data": "2026-11-14",
@@ -311857,7 +313829,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42543371",
-    "nome": "",
+    "nome": "Depeche Mode Tribute Band - Enjoy the Silence UK  - Northampton",
     "descrizione": "Enjoy The Silence UK bring to life the incredible live experience of classic-era Depeche Mode.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/2/2294913_509995b1_depeche-mode-tribute-band-enjoy-the-silence-uk-northampton.jpg",
     "data": "2026-11-14",
@@ -311905,7 +313877,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41633840",
-    "nome": "",
+    "nome": "Michael Mathers - The World's #1 Eminem Tribute",
     "descrizione": "Experience Michael Mathers live in Glasgow with a powerful tribute show featuring the biggest Eminem tracks from across the years.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/8/2/2157939_d3d6644d_michael-mathers-the-eminem-experience.jpg",
     "data": "2026-10-23",
@@ -311950,7 +313922,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42296660",
-    "nome": "",
+    "nome": "Across The Universe",
     "descrizione": "The Beatles' studio years performed by a live band and orchestra.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/2/a/2237177_99265642_Across-The-Universe.jpg",
     "data": "2027-02-20",
@@ -311995,7 +313967,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42574324",
-    "nome": "",
+    "nome": "Britallica (Britney Spears Metal Tribute) Corporation, Sheffield",
     "descrizione": "Britallica is the world's first metal tribute to Britney Spears, a high energy mashup of pop princess anthems and headbanging metal attitude.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/f/9/2299988_94325652_Britallica--Britney-Spears-Metal-Tribute--Corporation--Sheffield.jpg",
     "data": "2026-10-04",
@@ -312041,7 +314013,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42470679",
-    "nome": "",
+    "nome": "The Skids and Theatre of Hate",
     "descrizione": "Joint Headline! Two era defining artists SKIDS & THEATRE OF HATE come together this autumn for an explosive UK co-headline tour.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/1/c/2275496_6a7b2617_the-skids-and-theatre-of-hate.jpg",
     "data": "2026-11-26",
@@ -312087,7 +314059,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42443792",
-    "nome": "",
+    "nome": "NOTNORTH on Tour - Newcastle upon Tyne",
     "descrizione": "NOTNORTH rocks the stage at the Globe with special guests. Let's go, Newcastle!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/3/f/2269598_47670931_NOTNORTH-on-Tour---Newcastle-upon-Tyne.jpg",
     "data": "2026-09-07",
@@ -312133,7 +314105,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42600845",
-    "nome": "",
+    "nome": "Anthony Toner Plays James Taylor",
     "descrizione": "Singer songwriter Anthony Toner pays tribute to one of his heroes - the mighty James Taylor.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/6/1/2306744_85b77213_anthony-toner-plays-james-taylor.jpg",
     "data": "2026-10-18",
@@ -312178,7 +314150,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42629830",
-    "nome": "",
+    "nome": "Wooden Dog - Birmingham",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/2/7/2315503_bc5b6c86_wooden-dog-birmingham.jpg",
     "data": "2026-10-31",
@@ -312210,18 +314182,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Mama-Roux%27s/Wooden-Dog---Birmingham/42629830/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/The-Crossing-Digbeth/Tortoise--Tara-Clerkin-Trio--unprocedure-live-in-Birmingham/42308671/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/GASWRX-Halloween--DJ-EZ-Notion-Girls-Dont-Sync-Yung-Singh-/42644223/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -312235,7 +314195,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42631974",
-    "nome": "",
+    "nome": "Kid Bookie at Nightrain, Bradford",
     "descrizione": "Following the release of 'Cheaper Than Therapy II', Kid Bookie brings his high-energy, genre-defying live show back on the road.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/d/c/2315919_adb25f55_kid-bookie-at-nightrain-bradford.jpg",
     "data": "2026-12-05",
@@ -312283,7 +314243,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42006419",
-    "nome": "",
+    "nome": "Tyla's Dogs D'amour",
     "descrizione": "Legendary Singer Singwriter Tyla Pallas brings the Dogs D'amour",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/9/8/2201160_7624fed0_tyla-s-dogs-d-amour.jpg",
     "data": "2026-11-07",
@@ -312325,7 +314285,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42375589",
-    "nome": "",
+    "nome": "Steve Pilgrim",
     "descrizione": "Steve played Department S  back in 2021 days after Covid restrictions had been lifted, anyone at that gig will remember what a magical evening it was.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/d/6/2256083_64826534_Steve-Pilgrim.jpg",
     "data": "2026-10-22",
@@ -312369,7 +314329,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42486892",
-    "nome": "",
+    "nome": "Strictly Vinyl Garage Garden Party",
     "descrizione": "Back2Basics presents End of Summer Bank Holiday Garage Garden Party, Strictly vinyl event,. Great music, good vibes, Family-friendly and fun for all",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/0/b/2280587_1a188e71_back2basics-launch-party.jpg",
     "data": "2026-08-30",
@@ -312411,7 +314371,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42462371",
-    "nome": "",
+    "nome": "Blackgold",
     "descrizione": "BLACKGOLD is a mysterious UK-based nu-metal band that emerged in 2020. Famous for their energetic throwback sound, masked aesthetic, and anonymity.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/5/0/2273277_b018394c_blackgold.jpg",
     "data": "2026-10-31",
@@ -312454,7 +314414,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42577379",
-    "nome": "",
+    "nome": "Spangled - Llandudno",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/c/6/2300456_68591462_Spangled---Llandudno.jpg",
     "data": "2026-08-28",
@@ -312501,7 +314461,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42000183",
-    "nome": "",
+    "nome": "New Kind Of Cramps: GLASGOW",
     "descrizione": "CRAMPS fans unite! Spectacular, psychotic tribute act NEW KIND OF CRAMPS are coming to 6 lucky cities in the UK this August!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/2/a/2199919_24731671_New-Kind-Of-Cramps--GLASGOW.jpg",
     "data": "2026-08-22",
@@ -312537,42 +314497,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Oran-Mor/New-Kind-Of-Cramps-GLASGOW/42000183/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Glasgow-University-Union/The-Great-Pleasure-wKai-Reesu-Doss-Tom-McGuire-An-Dannsa-Dub/42497359/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Barras-Art-And-Design-%28BAaD%29/Dance2dis-Presents--Jamie-Fielding/42486865/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Glasgow-University-Union/The-Great-Pleasure-wKai-Reesu-Tom-McGuire-An-Dannsa-Dub/42497359/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Saint-Judes-After-Dark/Its-Never-Too-Late-Presents-Kyau--Albert/42082154/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/The-Corinthian-Club-Glasgow/Frisson-Events-pres-LOSTLY/42443345/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/The-Groove-Hut-%28Lucky-Strike-Down-Stairs%29/Dance2Dis-x-Groove-Hut-Jamie-Fielding-After-Party/42634391/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -312586,7 +314510,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42428546",
-    "nome": "",
+    "nome": "Simon Fowler  The Ocean Colour Scene Songbook... and beyond",
     "descrizione": "Head to EngineRooms for an intimate evening with Ocean Colour Scene Frontman/Songwriter Simon Fowler",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2027-04-18",
@@ -312628,7 +314552,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42472643",
-    "nome": "",
+    "nome": "Ohasis",
     "descrizione": "The UK's Leading OASIS Tribute Band",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/9/2/2276179_c93f3c58_ohasis.jpg",
     "data": "2026-11-14",
@@ -312673,7 +314597,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42620546",
-    "nome": "",
+    "nome": "Big Condo Records Presents Aftermath 8",
     "descrizione": "Big Condo Records Presents Aftermath 8 with Amaranth, Type 72, Sleepy Head, Hollow, Archie and band, Lucas Williams and Band and Mia G....",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/0/4/2313199_57bed1e0_big-condo-records-presents-aftermath-8.jpg",
     "data": "2026-09-27",
@@ -312704,12 +314628,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Liverpool/The-Hold-The-Shipping-Forecast/Big-Condo-Records-Presents-Aftermath-8/42620546/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Liverpool/Jacaranda-Baltic/Gurriers-Album-Launch-Show/42597294/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -312723,7 +314641,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42614154",
-    "nome": "",
+    "nome": "Moving Pictures - Rush tribute",
     "descrizione": "Whether you're a die-hard Rush fan or simply appreciate great live music, don't miss your chance to experience the magic of Moving Pictures.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/4/b/2311104_7f29616a_moving-pictures-rush-tribute.jpg",
     "data": "2027-02-04",
@@ -312767,7 +314685,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41636908",
-    "nome": "",
+    "nome": "The Sound of Springsteen",
     "descrizione": "Celebrate 40 years since the iconic 'Born in The USA' album was first released\nwith the world-class 'The Sound of Springsteen'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/1/2/2158972_aa0201d1_the-sound-of-springsteen.jpg",
     "data": "2026-10-22",
@@ -312809,7 +314727,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42601977",
-    "nome": "",
+    "nome": "Classic Queen",
     "descrizione": "A raucous Xmas treat for QUEEN fans!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/0/6/2307048_563a0601_classic-queen.jpg",
     "data": "2026-12-17",
@@ -312855,7 +314773,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42260095",
-    "nome": "",
+    "nome": "Shadow of Intent",
     "descrizione": "Shadow of Intent headlines The Prospect Building on Oct 2nd with a stacked lineup featuring Aborted Disembodied Tyrant & Soreption",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/6/5/2228653_fc681a1b_shadow-of-intent.jpg",
     "data": "2026-10-02",
@@ -312887,12 +314805,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/Shadow-of-Intent/42260095/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Thekla/Dazed-Muzic-presents-Badger/42580915/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -312906,7 +314818,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42617135",
-    "nome": "",
+    "nome": "Murkage Dave",
     "descrizione": "Murkage Dave is a pop singer from East London, praised by Pharrell Williams, Iggy Pop, BBC Radio 6 Music, Rolling Stone and more.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/4/8/2312104_b377c18d_murkage-dave.jpg",
     "data": "2026-10-25",
@@ -312952,7 +314864,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42527609",
-    "nome": "",
+    "nome": "The Bluetones Acoustic",
     "descrizione": "Jacaranda Records & Out of Phase in association with Strada Music presents a special intimate acoustic performance by The Bluetones Acoustic.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/5/0/2291189_54693502_bluetones.jpg",
     "data": "2026-12-10",
@@ -312998,7 +314910,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42174325",
-    "nome": "",
+    "nome": "Torridon + guests",
     "descrizione": "Folk Rock from the Highlands of Scotland.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/f/5/2222791_251f6849_torridon-guests.jpg",
     "data": "2026-11-14",
@@ -313043,7 +314955,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41991599",
-    "nome": "",
+    "nome": "The Jarad Rowan Band",
     "descrizione": "Scotland's rising folk sensation Jarad Rowan takes his infectious ceilidh-folk energy to Aberdeen in September.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/5/9/2197259_82fbdcc7_the-jarad-rowan-band.jpg",
     "data": "2026-09-11",
@@ -313088,7 +315000,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42595282",
-    "nome": "",
+    "nome": "AC/DC performed LIVE in Liverpool by Dirty DC",
     "descrizione": "One of the UK's leading AC/DC tribute bands, Dirty DC makes its Camp and Furnace debut with a powerhouse celebration of rock's greatest anthems.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/6/2304976_4a0d6e29_ac-dc-performed-live-in-liverpool-by-dirty-dc.jpg",
     "data": "2026-10-02",
@@ -313133,7 +315045,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42470306",
-    "nome": "",
+    "nome": "Tyketto - Blackbox, Hastings - Tuesday 1st December 2026",
     "descrizione": "Tyketto bring their unique blend of powerful Melodic Rock to Hastings for the very first time. Special Guests are Welsh rockers Scarlet Rebels",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/b/c/2275322_9661d5e8_tyketto-blackbox-hastings-tuesday-1st-december-2026.jpg",
     "data": "2026-12-01",
@@ -313179,7 +315091,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41999689",
-    "nome": "",
+    "nome": "PorkPie Live Christmas Special at MacArts, Galashiels",
     "descrizione": "PorkPie Live Christmas Special at MacArts, Galashiels on Monday 28th December 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/d/f/2199614_19a78bf4_porkpie-live-christmas-special-at-macarts-galashiels.jpg",
     "data": "2026-12-28",
@@ -313227,7 +315139,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42629829",
-    "nome": "",
+    "nome": "The Corvids - Leeds",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/0/f/2315502_7f420d5e_the-corvids-leeds.jpg",
     "data": "2026-09-27",
@@ -313274,7 +315186,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41995760",
-    "nome": "",
+    "nome": "GREEN 182 - Take Off Your Pants & Dookie Tour 2026!",
     "descrizione": "Two bands. Two legendary albums. One unforgettable night of GREEN 182 mayhem featuring all the biggest hits from two legends of pop-punk!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/0/f/2198312_881d6b10_green-182-take-off-your-pants-dookie-tour-2026-.jpg",
     "data": "2026-09-12",
@@ -313320,7 +315232,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42446504",
-    "nome": "",
+    "nome": "Sam C: A Tribute to Elvis at The Voodoo Rooms Edinburgh",
     "descrizione": "Join Sam C and his band at The Voodoo Rooms, Edinburgh for his electric tribute to the King, Elvis Presley! Experience all the hits from 50s-70s",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/0/a/2269621_2a1e737b_sam-c-a-tribute-to-elvis-at-the-voodoo-rooms-edinburgh.jpg",
     "data": "2026-09-13",
@@ -313366,7 +315278,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42569842",
-    "nome": "",
+    "nome": "Beans on Toast",
     "descrizione": "Join us for Beans on Toast this November as one of Britain's most loved folk troubadours hits Aberdeen. Warm, funny, thoughtful, chaotic & uplifting.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2298664_66647d75_beans-on-toast.jpg",
     "data": "2026-11-28",
@@ -313413,7 +315325,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640864",
-    "nome": "",
+    "nome": "Talking Heads - Performed LIVE by The Classic Double Band",
     "descrizione": "Talking Heads performed LIVE  in Liverpool by the Classic Double Band at Camp & Furnace - expect Once in a Lifetime, Psycho Killer & all the hits!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/5/b/2317102_21727373_Talking-Heads---Performed-LIVE-by-The-Classic-Double-Band.jpg",
     "data": "2027-04-09",
@@ -313457,7 +315369,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42597071",
-    "nome": "",
+    "nome": "Enjoy the Silence - Tribute to Depeche Mode",
     "descrizione": "Classic-era Depeche Mode live experience",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/d/3/2305804_e4ba13bc_enjoy-the-silence-tribute-to-depeche-mode.jpg",
     "data": "2026-10-23",
@@ -313500,7 +315412,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42135347",
-    "nome": "",
+    "nome": "Pinc Ffloyd at The Motorsport Lounge",
     "descrizione": "We're back at the Motorsport Lounge with some new songs and all your Pink Floyd favourites at this awesome venue in North Wales",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/4/2212825_69207c10_pinc-ffloyd-at-the-motorsport-lounge.jpg",
     "data": "2026-10-17",
@@ -313543,7 +315455,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42508295",
-    "nome": "",
+    "nome": "Hospital30 Brighton",
     "descrizione": "This October, Hosptiality returns to the South Coast as the Hospital30 celebrations continue.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/f/2286410_cdbddfb3_hospital30-brighton.jpg",
     "data": "2026-10-23",
@@ -313578,12 +315490,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Brighton/Quarters-Brighton/Hospital30-Brighton/42508295/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/mutations-festival/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -313597,7 +315503,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42262470",
-    "nome": "",
+    "nome": "Fleetwood Mac - Our Own Way - Lewes Little Theatre",
     "descrizione": "See the fantastic tribute to Fleetwood Mac - Our Own Way - at the beautiful Lewes Little Theatre",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/8/4/2229841_43527908_Fleetwood-Mac---Our-Own-Way---Lewes-Little-Theatre.jpg",
     "data": "2026-09-12",
@@ -313643,7 +315549,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42594476",
-    "nome": "",
+    "nome": "Michael Mathers The Ultimate Eminem Tribute Live",
     "descrizione": "The Real Slim Shady comes to life! Michael Mathers performs Eminem's biggest hits live at Basing House. Book now.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/1/4/2304948_54b1f815_michael-mathers-the-ultimate-eminem-tribute-live.jpg",
     "data": "2026-10-25",
@@ -313688,7 +315594,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41999567",
-    "nome": "",
+    "nome": "PorkPie Live at Reconnect Regal Theatre, Bathgate",
     "descrizione": "PorkPie Live at Reconnect Regal Theatre, Bathgate on Saturday 31st October 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/a/2199553_a6643e66_porkpie-live-at-reconnect-regal-theatre-bathgate.jpg",
     "data": "2026-10-31",
@@ -313736,7 +315642,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42165123",
-    "nome": "",
+    "nome": "Punk Rock Factory",
     "descrizione": "Get ready for a night of raw energy as Punk Rock Factory takes over Engine Rooms!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/6/a/2220526_f7cb189f_punk-rock-factory.jpg",
     "data": "2026-10-22",
@@ -313781,7 +315687,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42618307",
-    "nome": "",
+    "nome": "PRTY Halloween: Onlynumbers, Edinburgh",
     "descrizione": "PRTY return to the Corn Exchange with Onlynumbers, Edinburgh as part of their Halloween Weekender.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/0/3/2312519_81837113_prty-halloween-onlynumbers-edinburgh.jpg",
     "data": "2026-11-01",
@@ -313829,7 +315735,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42619141",
-    "nome": "",
+    "nome": "WAH Halloween | Milton Keynes",
     "descrizione": "After sell-outs in 2023, 2024 & 2025 - The annual WAH Halloween rave returns to Arena MK. Get the WAH App now for exclusive pre-sale access!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/4/d/2312809_183eb037_wah-halloween-milton-keynes.jpg",
     "data": "2026-10-31",
@@ -313872,12 +315778,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Milton-Keynes/Arena-MK/WAH-Halloween--Milton-Keynes/42619141/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Milton-Keynes/MK11-LIVE-MUSIC-VENUE/HALLOWSCENE-at-MK11-Milton-Keynes/42645152/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -313891,7 +315791,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42460780",
-    "nome": "",
+    "nome": "Nightvision x Disfunction - Natte Visstick & Jazzy // Glasgow",
     "descrizione": "Nightvision & Disfunction team up to bring Natte Visstick, Jazzy, TLO and Miss Frenxh to the O2 Academy Glasgow.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/a/3/2272877_554472c3_nightvision-x-disfunction-natte-visstick-jazzy-glasgow.jpg",
     "data": "2026-08-28",
@@ -313923,12 +315823,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/O2-Academy/Nightvision-x-Disfunction---Natte-Visstick--Jazzy--Glasgow/42460780/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Joshwa/42530286/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -313942,7 +315836,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42615904",
-    "nome": "",
+    "nome": "WILKINSON & MORE | Groovebox X Submerged at The Nest",
     "descrizione": "This December, Groovebox x Submerged returns to The Nest for an all-night session with headliner Wilkinson + a stacked lineup of support acts.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/c/7/2311771_81caf96f_wilkinson-more-groovebox-x-submerged-at-the-nest.jpg",
     "data": "2026-12-04",
@@ -313975,12 +315869,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Nottingham/Nottingham%27s-The-Nest-%28Notts-County-FC%29/WILKINSON--MORE--Groovebox-X-Submerged-at-The-Nest/42615904/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Nottingham/Nottingham%27s-The-Nest-%28Notts-County-FC%29/WILKINSON--MORE--Groovebox-X-Submerged-at-The-Nest/42617103/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -313994,7 +315882,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42615476",
-    "nome": "",
+    "nome": "SIDNEY CHARLES, LUUK VAN DIJK + MORE | Groovebox at Binks Yard",
     "descrizione": "This September, we're bringing a huge lineup of some of the hottest DJs in the industry to Binks Yard Nottingham for the ultimate all-day party.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/6/6/2311698_b9e3c0e1_sidney-charles-luuk-van-dijk-more-groovebox-at-binks-yard.jpg",
     "data": "2026-09-26",
@@ -314040,7 +315928,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42310277",
-    "nome": "",
+    "nome": "RETROSPECT Presents: NATTE VISSTICK",
     "descrizione": "RETROSPECT brings NATTE VISSTICK to the Metro Reloaded on September 4th - 150 Tickets Remaining.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/b/1/2239673_49e7038f_retrospect-presents-natte-visstick.jpg",
     "data": "2026-09-04",
@@ -314089,7 +315977,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42628397",
-    "nome": "",
+    "nome": "2ndface x Noctrnl Presents: Alex Farell",
     "descrizione": "Teletechs youngest in charge returns to Inverness for a headliner show",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/e/2315229_812e6c7f_2ndface-x-noctrnl-presents-alex-farell.jpg",
     "data": "2026-10-10",
@@ -314135,7 +316023,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627696",
-    "nome": "",
+    "nome": "WHP presents: Eric Prydz [Concourse Only]",
     "descrizione": "WHP presents: Eric Prydz [Concourse Only] - Saturday 17th October",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/d/c/2315022_b809fb14_whp-presents-eric-prydz-concourse-only-.jpg",
     "data": "2026-10-17",
@@ -314167,12 +316055,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Concourse---Depot-Mayfield/WHP-presents-Eric-Prydz-Concourse-Only/42627696/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Cupra-Garage/Stanton-Warriors-All-Evening-Long/42627738/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -314186,7 +316068,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42621192",
-    "nome": "",
+    "nome": "Chuckie Online FAMILEE OFFICIAL CARNIVAL AFTERPARTY",
     "descrizione": "Chuckie Online's annual Notting Hill Carnival After Party on Bank Holiday Monday 31st August takes over KOKO in Camden!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/8/2313392_622f47a4_chuckie-online-familee-official-carnival-afterparty.jpg",
     "data": "2026-08-31",
@@ -314221,12 +316103,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/London/KOKO/Chuckie-Online-FAMILEE-OFFICIAL-CARNIVAL-AFTERPARTY/42621192/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/festivals/lido/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -314240,7 +316116,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42616639",
-    "nome": "",
+    "nome": "Clubland Halloween Sunderland",
     "descrizione": "Clubland returns to Elysium Nightclub Sunderland for their annual sell out show!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/9/2311977_89594d3e_clubland-halloween-sunderland.jpg",
     "data": "2026-10-31",
@@ -314284,7 +316160,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42632562",
-    "nome": "",
+    "nome": "Hedkandi Present A Twisted Disco Halloween @ The Swigg : Swansea",
     "descrizione": "Hedkandi & Ibiza Radio One Team Up For The First Return To Swansea In Over 7 Years . A Full Halloween Hedkandi Production @ The Swigg!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/b/2315980_659f9e4d_hedkandi-present-a-twisted-disco-halloween-the-swigg-swansea.jpg",
     "data": "2026-10-31",
@@ -314332,7 +316208,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42631968",
-    "nome": "",
+    "nome": "Jezebell Takeover with Wallace and friends",
     "descrizione": "Our next Jezebell weekend takeover is a doozy! \nHeadlining is Wallace alongside a wondetful bunch of selectors",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/3/7/2315913_c0dfeb9b_jezebell-takeover-with-wallace-and-friends.jpg",
     "data": "2026-11-21",
@@ -314374,7 +316250,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41623098",
-    "nome": "",
+    "nome": "K Klass - Haçienda All Night Long",
     "descrizione": "K Klass - Haçienda All Night Long at Joshua Brooks, Manchester on December 27th 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/f/7/2155880_495c8257_k-klass-ha-ienda-all-night-long.jpg",
     "data": "2026-12-27",
@@ -314407,18 +316283,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/K-Klass---Haienda-All-Night-Long/41623098/?sktag=15777&skcampaign=sito",
         "prezzo": "17.50",
         "gratuito": false
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Freight-Island/GirlyPop-Live--Freight-Island-Manchester/42634307/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Manchester/Freight-Island/GirlyPop-Christmas-Party--Freight-Island-Manchester/42634307/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -314432,7 +316296,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627723",
-    "nome": "",
+    "nome": "Notion + SHUFFA",
     "descrizione": "RARE Club Presents: Notion // SHUFFA // F Kay // Orla Halligan",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/2/9/2315041_2ba95625_notion-shuffa.jpg",
     "data": "2026-10-09",
@@ -314478,7 +316342,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42412156",
-    "nome": "",
+    "nome": "Garage Nation End of Summer Party Hertford",
     "descrizione": "Garage Nation's Spring Day Party at Hertfordshire's favourite raving venue The Dog & Whistle in Hertford!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/0/2/2261206_85482915_Garage-Nation-Spring-Day-Party-Hertford.jpg",
     "data": "2026-09-26",
@@ -314523,7 +316387,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640543",
-    "nome": "",
+    "nome": "Uprising Halloween All Dayer 2026",
     "descrizione": "We are back with our highly anticipated annual Halloween event! This year we bring you 12 hours of raving, from 3pm-3am.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/4/6/2316904_e66352d5_uprising-halloween-all-dayer-2026.jpg",
     "data": "2026-10-24",
@@ -314571,7 +316435,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42623604",
-    "nome": "",
+    "nome": "The Immortal Masquerade - An Alternative Vampire Soiree",
     "descrizione": "Join us in Sheffield for our second Immortal Masquerade event.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/3/b/2314260_7012191c_the-immortal-masquerade-an-alternative-vampire-ball.jpg",
     "data": "2026-10-23",
@@ -314617,7 +316481,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42498010",
-    "nome": "",
+    "nome": "Alix Perez | Birmingham",
     "descrizione": "Bass music pioneer Alix Perez comes to Club Colette, Birmingham this August to celebrate 10 years of 1985 Music",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/b/1/2283531_e43ba2ed_alix-perez-birmingham.jpg",
     "data": "2026-08-28",
@@ -314652,12 +316516,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Birmingham/Club-Colette/Alix-Perez--Birmingham/42498010/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Break-Thru---Goldie-Doc-Scott-J-Majik---Metalheadz-Blue-Note/42421723/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -314671,7 +316529,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42543491",
-    "nome": "",
+    "nome": "I Am A Raver Over 30s",
     "descrizione": "Re-live your childhood with PCDJ heroes DJ Rankin, Gary McF & DJ Zitkus with ravers aged 30+ at Saint Judes After Dark.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/8/6/2295012_70235340_I-Am-A-Raver-Over-30s.jpg",
     "data": "2026-09-12",
@@ -314723,7 +316581,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42587398",
-    "nome": "",
+    "nome": "The Big Watford Reunion Part 2",
     "descrizione": "After the success of our launch party we return on Saturday 3rd October for Round 2...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/e/1/2303066_34793627_The-Big-Watford-Reunion-Part-2.jpg",
     "data": "2026-10-03",
@@ -314766,7 +316624,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42564449",
-    "nome": "",
+    "nome": "Sonar Presents K-Klass",
     "descrizione": "Get ready for a Bank Holiday special as Sonar Presents K-Klass",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/6/0/2297045_a220b367_sonar-presents-k-klass.jpg",
     "data": "2026-08-30",
@@ -314810,7 +316668,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41981619",
-    "nome": "",
+    "nome": "Oldies & Oldskool - 90's Nostalgia Party | End of Summer",
     "descrizione": "Let us take you back in time! Our 90's Nostalgia day party is back by popular demand.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/e/4/2195048_18dafc8f_oldies-oldskool-90-s-nostalgia-party-end-of-summer.jpg",
     "data": "2026-09-26",
@@ -314855,7 +316713,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42613385",
-    "nome": "",
+    "nome": "Escocia Makina Presents: NETHERWORLD (DJ KONIK)",
     "descrizione": "Jetting in from Spain, NETHERWORLD - DJ Konik - the original producer behind the iconic \"Makina Time\" Never Skip Atlantis !!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/d/a/2310765_28c3bf82_escocia-makina-presents-netherworld-dj-konik-.jpg",
     "data": "2026-10-24",
@@ -314891,12 +316749,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Vibes-Glasgow/Escocia-Makina-Presents-NETHERWORLD-DJ-KONIK/42613385/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/Room-2/Teletech-KIRSTY-All-Night-Long---Glasgow/42566935/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -314910,7 +316762,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42341932",
-    "nome": "",
+    "nome": "KEPLER & MORE| Groovebox On Keel Square After Party at The Point",
     "descrizione": "The official Groovebox Keel Square after-party will be hosted at The Point with headliners Kepler, Joss Dean, Job De Jong & more.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/9/8/2247570_bbb31283_kepler-more-groovebox-on-keel-square-after-party-at-the-point.jpg",
     "data": "2026-08-29",
@@ -314957,7 +316809,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42437843",
-    "nome": "",
+    "nome": "Energy Saturday VOL. 4 SOUTHAMPTON",
     "descrizione": "Night of Legend  Kalwi & Remi - DJ X Meen - DJ Madsson - DJ Dante - DJ Michale K",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/3/d/2268625_2247ba6a_energy-saturday-vol-4-southampton.jpg",
     "data": "2026-11-07",
@@ -314999,7 +316851,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42617120",
-    "nome": "",
+    "nome": "Hedex & Eksman",
     "descrizione": "Hedex & Eksman headline EngineRooms Southampton",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/1/2312090_82e7b423_hedex-eksman.jpg",
     "data": "2026-09-26",
@@ -315044,7 +316896,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42126315",
-    "nome": "",
+    "nome": "Boujee Boujee - Tidal Vibes",
     "descrizione": "Dance under the stars with the finest house music from Stretch Silvester plus Special Guest, a great crowd and amazing views of the ocean.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/6/4/2211007_f5b11e9a_boujee-boujee-tidal-vibes.jpg",
     "data": "2026-08-29",
@@ -315092,7 +316944,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42513035",
-    "nome": "",
+    "nome": "Hard Trance Europe Weekender 2027 with Odyssey Sound System",
     "descrizione": "Celebrating 10 years of Hard Trance Europe with special link up with the mighty Odyssey Sound System. Limited super-early bird tickets now on sale.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/f/6/2288248_6b20d0b3_hard-trance-europe-weekender-2026-with-odyssey-sound-system.jpg",
     "data": "2027-06-04",
@@ -315135,7 +316987,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42460546",
-    "nome": "",
+    "nome": "Fubar & Sector Events Presents: Slam",
     "descrizione": "Slam come to Fubar, Stirling on Friday 2nd October 2026 for a night of proper underground techno. Doors open 10pm.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/3/d/2272685_40f3e6f7_fubar-sector-events-presents-slam.jpg",
     "data": "2026-10-02",
@@ -315180,7 +317032,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42458490",
-    "nome": "",
+    "nome": "Tidy Newquay Seaside Special",
     "descrizione": "Join us in Newquay for a special double night party...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/6/0/2271966_60902549_Tidy-Newquay-Seaside-Special.jpg",
     "data": "2026-09-04",
@@ -315235,7 +317087,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42585324",
-    "nome": "",
+    "nome": "Locked Into The Bassline WAKEFIELD ft Tom Zanetti Club Nocturno",
     "descrizione": "Locked into the Bassline returns to Nocturno Wakefield for another massive bassline rave with Tom Zanetti & More TBA\n\n750+ RAVERS\nUPGRADED PRODUCTION",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/7/4/2302542_3a85b30e_locked-into-the-bassline-wakefield-ft-tom-zanetticlub-nocturno.jpg",
     "data": "2026-09-19",
@@ -315283,7 +317135,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42585791",
-    "nome": "",
+    "nome": "Bounce Underground Halloween Special",
     "descrizione": "**Bounce Underground** is back with a massive **Halloween Special Fancy Dress UV Party**, in association with **Back 2 The OldSkool**!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/d/2302778_08472b85_bounce-underground-halloween-special.jpg",
     "data": "2026-10-31",
@@ -315329,7 +317181,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42633598",
-    "nome": "",
+    "nome": "After90",
     "descrizione": "Join us for Before Reality - one final summer session before reality kicks back in",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/8/e/2316046_85616840_After90.jpg",
     "data": "2026-09-04",
@@ -315373,7 +317225,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42526655",
-    "nome": "",
+    "nome": "Crossy Presents: The Breakthrough | Leeds",
     "descrizione": "Crossy is back with his first UK tour... 5 cities, 3-hour sets, one vision.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/1/d/2290540_33609545_CROSSY--The-Breakthrough--Leeds.jpg",
     "data": "2026-11-21",
@@ -315418,7 +317270,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42365194",
-    "nome": "",
+    "nome": "Point inn reunion 2026",
     "descrizione": "The Point inn reunion returns for the 2026 offering .\nThe northwests biggest old skool gathering returns for the annual pilgrimage .",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/b/5/2252522_f19d8fcd_point-inn-reunion-2026.jpg",
     "data": "2026-08-29",
@@ -315464,7 +317316,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42585126",
-    "nome": "",
+    "nome": "Mint presents JAZZY Peace & Patience Tour (LEEDS)",
     "descrizione": "Jazzy's Peace & Patience Tour lands in Leeds on Friday 20th November!\n\nJazzy + some very special guests tba ",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/8/e/2302348_b0fe4851_mint-presents-peace-patience-tour-leeds-.jpg",
     "data": "2026-11-20",
@@ -315508,7 +317360,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42605481",
-    "nome": "",
+    "nome": "Shinobi on Raze feat. Voltage (3 Hour Set)",
     "descrizione": "We're bringing the Spag Bol King, Voltage to Shinobi for an extended 3-hour set on the mighty Raze Sound System.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/8/e/2308203_63d36db1_shinobi-on-raze-feat-voltage-3-hour-set-.jpg",
     "data": "2026-10-02",
@@ -315556,7 +317408,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42563020",
-    "nome": "",
+    "nome": "K Motionz & A Little Sound - Coventry",
     "descrizione": "K Motionz & A Little Sound come to HMV Empire this summer for a DNB day party! Tickets from just £8!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/3/8/2296528_4783cf6d_k-motionz-a-little-sound-coventry.jpg",
     "data": "2026-08-22",
@@ -315605,7 +317457,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42511014",
-    "nome": "",
+    "nome": "JFK presents FORTY years of Fantastic Plastic",
     "descrizione": "JFK: FORTY is a celebration of 40 years of as a DJ\nWhat better way than to celebrate with a 4 hour vinyl set\nVinyl support from local DJs, Unmissable!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/8/e/2287257_334c957f_jfk-presents-forty-years-of-fantastic-plastic.jpg",
     "data": "2026-09-12",
@@ -315653,7 +317505,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42637480",
-    "nome": "",
+    "nome": "Eventos Zodiac presents Will Atkinson @ The Venue, Dumfries",
     "descrizione": "19/9/26 Will Atkinson support: Lee Clark, Corey Bell, Dunco, Joe Clark",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/0/a/2316531_b55eeb16_eventos-zodiac-presents-will-atkinson-the-venue-dumfries.jpg",
     "data": "2026-09-19",
@@ -315701,7 +317553,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42613526",
-    "nome": "",
+    "nome": "Back To The Groove Presents : Haunted House",
     "descrizione": "This Halloween Back To The Groove haunts the River Bar. Tickets for this are expected to sell out in advance. Don't miss out!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/f/1/2310842_586fdd1b_back-to-the-groove-presents-the-haunted-house.jpg",
     "data": "2026-10-31",
@@ -315746,7 +317598,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42447806",
-    "nome": "",
+    "nome": "Garage Nation Coventry",
     "descrizione": "Garage Nation returns to Coventry for an epic night of the best in UK Garage!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/1/a/2270123_3d72fecb_garage-nation-coventry.jpg",
     "data": "2026-09-26",
@@ -315791,7 +317643,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42574564",
-    "nome": "",
+    "nome": "One More Time House and UK Garage Day Party",
     "descrizione": "The Biggest House and Garage Day Party In Brentwood Returns Bank Holiday Weekend Saturday 29th August 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/1/5/2300158_97011936_One-More-Time-End-Of-Summer-Day-Party.jpg",
     "data": "2026-08-29",
@@ -315834,7 +317686,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42568054",
-    "nome": "",
+    "nome": "Benny L Presents: Project Dark Bristol",
     "descrizione": "Exclusive 3 hour set + special guests on a humming Bristol system. CORRR!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/9/6/2298044_4484ceb6_benny-l-presents-project-dark-bristol.jpg",
     "data": "2026-11-21",
@@ -315866,12 +317718,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Bristol/Clock-Factory-Bristol/Benny-L-Presents-Project-Dark-Bristol/42568054/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Bristol/Electric-Bristol/RNB-MANIA--Bristols-RB-Festival/42620757/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -315885,7 +317731,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42469389",
-    "nome": "",
+    "nome": "Arrested Development (Old School Hip Hop Summer Jam)",
     "descrizione": "Arrested Development live on stage as part of all dayer Old School Hip Hop Summer Jam",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/1/2274657_a5d80cf9_arrested-development-old-school-hip-hop-summer-jam-.jpg",
     "data": "2026-08-29",
@@ -315931,7 +317777,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41479447",
-    "nome": "",
+    "nome": "DAY SESSIONS Presents: SILENT DISCO - Lincoln - 2026",
     "descrizione": "Join Day Sessions for an unforgettable SILENT DISCO EXPERIENCE set within the breathtaking surroundings of The Engine Shed!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/6/b/2137173_ed360dd6_day-sessions-presents-silent-disco-lincoln-2026.jpg",
     "data": "2026-10-24",
@@ -315977,7 +317823,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42498731",
-    "nome": "",
+    "nome": "ER 360 Weekender: 20 Years of Low Down Deep",
     "descrizione": "Catch a STACKED Low Down Deep line up this October on the EngineRooms 360 Weekender",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/9/2283833_665efdbd_er-360-weekender-20-years-of-low-down-deep.jpg",
     "data": "2026-10-02",
@@ -316021,7 +317867,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42526643",
-    "nome": "",
+    "nome": "Corruption Bounce The Slaughter Factory",
     "descrizione": "CORRUPTION BOUNCE presents THE SLAUGHTER FACTORY \n\nOur first-ever Halloween takeover lands at CONCEPT HAUS, Salford!\n\nEARLY BIRDS ON SALE",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/0/8/2290528_3243b9da_corruption-bounce-the-slaughter-factory.jpg",
     "data": "2026-10-24",
@@ -316064,7 +317910,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42603173",
-    "nome": "",
+    "nome": "DIGITAL presents: Club Angel b2b Kyle Starkey & more",
     "descrizione": "DIGITAL presents: Club Angel b2b Kyle Starkey & more in Digital this October",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/b/0/2307336_408c3a71_digital-presents-club-angel-b2b-kyle-starkey-more.jpg",
     "data": "2026-10-02",
@@ -316111,7 +317957,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42492032",
-    "nome": "",
+    "nome": "SSL x EDC Warehouse Session w. Kahn & Neek, Hometown Sound +++",
     "descrizione": "Edinburgh's 2 premium soundsystem promoters team up for an unmissable warehouse session down at The Pitt with a stacked line-up for the bass-heads!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/9/c/2282429_9a1040d6_ssl-x-edc-warehouse-session-w-kahn-neek-hometown-sound-.jpg",
     "data": "2026-08-29",
@@ -316163,7 +318009,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42492009",
-    "nome": "",
+    "nome": "It's All Gravy with Herbie Saccani and Zozo",
     "descrizione": "It's back! The tastiest night in the North - yes, It's All Gravy returns with the finest ingredients, Herbie Saccani and Zozo whisking up a frenzy.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/3/5/2282408_96606597_It-s-All-Gravy-with-Herbie-Saccani-and-Zozo.jpg",
     "data": "2026-12-05",
@@ -316208,7 +318054,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42516995",
-    "nome": "",
+    "nome": "Stack City Falkirk - Multunes ALL NIGHT",
     "descrizione": "After selling out City Falkirk both times they were here before, Stack City are finally coming back.\nSaturday 5th December 2026, we go again.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/2/5/2289625_b6453e86_stack-city-back-in-falkirk.jpg",
     "data": "2026-12-05",
@@ -316256,7 +318102,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42622949",
-    "nome": "",
+    "nome": "Reggae Land 2027",
     "descrizione": "Reggae Land returns to Milton Keynes National Bowl for another unforgettable weekend on Saturday 31st July & Sunday 1st August",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/c/3/2314059_9c6dec5d_reggae-land-2027.jpg",
     "data": "2027-07-31",
@@ -316301,7 +318147,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42478966",
-    "nome": "",
+    "nome": "Callum Beattie plus special guests",
     "descrizione": "Join us for Callum Beattie plus special guests at Northern Meeting Park, Inverness. Gates open at 6pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/f/1/2278199_c19ce87a_calum-beattie-plus-special-guests.jpg",
     "data": "2027-05-28",
@@ -316348,7 +318194,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42630680",
-    "nome": "",
+    "nome": "Higher State x House11 Festival",
     "descrizione": "Pre-sale SOLD OUT! Full ticket release Sunday. Higher State x House 11 bring Surrey an end-of-summer festival packed with DJs, food & good vibes.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/c/c/2315703_0346af85_higher-state-x-house11-festival.jpg",
     "data": "2026-09-19",
@@ -316394,7 +318240,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42604581",
-    "nome": "",
+    "nome": "Crimson: ''Air''",
     "descrizione": "Crimson Air - our first-ever day-to-night Block Party.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/6/c/2308039_68059689_Crimson----Air--.jpg",
     "data": "2026-09-19",
@@ -316439,7 +318285,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42513153",
-    "nome": "",
+    "nome": "MarkFest VIII",
     "descrizione": "Markfest VIII returns on 30th August with live music, great food, festival vibes and summer fun at White Horse Inn, Mark.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/b/7/2288322_d6c99f15_markfest-viii.jpg",
     "data": "2026-08-30",
@@ -316485,7 +318331,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42343004",
-    "nome": "",
+    "nome": "Briggzfest 2026",
     "descrizione": "Multi-genre weekend festival at a brand new venue - 2 stages delivering amazing sounds and immersive energy all August bank holiday weekend!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/9/5/2247998_c50fb529_briggzfest-2026.jpg",
     "data": "2026-08-28",
@@ -316531,7 +318377,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42639704",
-    "nome": "",
+    "nome": "Sunset Outdoor all day Music and Beer Fest part 2",
     "descrizione": "A daytime into the early evening event of Classic House and Uk/Us garage.\nWe sold out the last event so be quick.\nMega Jbl sound system",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/b/2316831_699fd93b_sunset-outdoor-all-day-music-and-beer-fest.jpg",
     "data": "2026-09-26",
@@ -316577,7 +318423,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42509287",
-    "nome": "",
+    "nome": "The CourtYard Fest",
     "descrizione": "Funfair rides, traders market, live music, street food & family fun by day. Ibiza Classics, DJs & great vibes by night at Betley Court Farm!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/7/2286653_0a0c1586_the-courtyard-fest.jpg",
     "data": "2027-08-14",
@@ -316619,7 +318465,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42487077",
-    "nome": "",
+    "nome": "Strange Day + Strange Manchester after party",
     "descrizione": "4 bands + Strange Manchester after party with resident DJs",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2027-11-27",
@@ -316665,7 +318511,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42543493",
-    "nome": "",
+    "nome": "Next Wave",
     "descrizione": "Bringing the best new bands to Blackpool ft. adult dvd, bathing suits, ladylike, Silverwing killer, holly head, formal Sppeedwear & TTSSFU",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/8/8/2295014_47438bec_next-wave.jpg",
     "data": "2026-09-12",
@@ -316699,18 +318545,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Blackpool/Bootleg-Social-/Next-Wave/42543493/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Blackpool/Blackpool-Cricket-Club-/Friends-Hoedown-Presents-Daytime-Disco/42487111/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Blackpool/Bootleg-Social/Next-Wave/42543493/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -316724,7 +318558,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42614246",
-    "nome": "",
+    "nome": "Christmas Party Evening Brunch",
     "descrizione": "The ultimate Christmas Party Night! Festive entertainment, live DJs, Christmas classics, delicious food, festive drinks, games & unforgettable vibes!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/4/f/2311166_5d63ab03_christmas-party-evening-brunch.jpg",
     "data": "2026-12-11",
@@ -316769,7 +318603,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42124210",
-    "nome": "",
+    "nome": "Bloodstock Winter Gathering",
     "descrizione": "Be part of BLOODSTOCK history!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/a/5/2210391_8db14bba_bloodstock-winter-gathering.jpg",
     "data": "2026-12-05",
@@ -316813,7 +318647,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42300651",
-    "nome": "",
+    "nome": "Scarborough Punk Festival",
     "descrizione": "Punk Festival at Scarborough Spa.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/4/2237603_93138045_Scarborough-Punk-Festival.jpg",
     "data": "2027-04-03",
@@ -316857,7 +318691,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41599151",
-    "nome": "",
+    "nome": "The Big Feastival",
     "descrizione": "Alex James presents The Big Feastival, a unique three-day celebration of music, food and fun for all the family.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/d/9/2150922_a0af4e30_the-big-feastival.jpg",
     "data": "2026-08-28",
@@ -316932,7 +318766,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41409518",
-    "nome": "",
+    "nome": "Edge Fest",
     "descrizione": "Edge Fest returns to Lilliardsedge!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/0/f/2118815_52345494_Edge-Fest.jpg",
     "data": "2026-09-04",
@@ -316992,7 +318826,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41956404",
-    "nome": "",
+    "nome": "Rulebreakerz & Friendz Fest",
     "descrizione": "Our second event of the summer, dance music all day/evening. House & Garage DJs all day, dancers, stilt walkers, fire artists & more. Family friendly!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/2/8/2189576_66f83ce2_rulebreakerz-friendz-fest.jpg",
     "data": "2026-08-22",
@@ -317035,7 +318869,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41652620",
-    "nome": "",
+    "nome": "All Back To Minehead",
     "descrizione": "Fatboy Slim Presents All Back to Minehead!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/f/2164363_e239a2fa_all-back-to-minehead.jpg",
     "data": "2026-11-06",
@@ -317079,7 +318913,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42566105",
-    "nome": "",
+    "nome": "Isle of Wight Festival",
     "descrizione": "The Isle of Wight festival has attracted such world beating acts as Jimi Hendrix, The Rolling Stones, Muse, Robert Plant, David Bowie, to name a few.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/2/c/2297563_85455963_Isle-of-Wight-Festival.jpg",
     "data": "2027-06-17",
@@ -317124,7 +318958,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42473862",
-    "nome": "",
+    "nome": "Call Of The Wild Festival",
     "descrizione": "We are a Rock Music Festival that proudly presents a varied range of genres!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/7/2/2276414_58803912_Call-Of-The-Wild-Festival.jpg",
     "data": "2027-05-27",
@@ -317175,7 +319009,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42592900",
-    "nome": "",
+    "nome": "Southwest Sessions Festival",
     "descrizione": "3 days of family fun, food and music madness!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/0/2304268_b2b98303_southwest-sessions-festival.jpg",
     "data": "2027-05-28",
@@ -317217,7 +319051,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42502836",
-    "nome": "",
+    "nome": "Shuffley Daze Music Festival",
     "descrizione": "An intimate festival celebrating music, community and inclusivity, tucked away in the rolling Welsh countryside.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/1/7/2284364_a4dcad45_shuffley-daze-music-festival.jpg",
     "data": "2027-04-30",
@@ -317263,7 +319097,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42491529",
-    "nome": "",
+    "nome": "Sŵn Festival",
     "descrizione": "Award-winning, three-day, multi-venue new music festival that has been a cornerstone of Cardiff's cultural landscape since 2007.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/d/1/2282231_bfb2fce2_s-n-festival.jpg",
     "data": "2026-10-15",
@@ -317331,7 +319165,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41409122",
-    "nome": "",
+    "nome": "Down At The Abbey",
     "descrizione": "Down At The Abbey: An Independent Music Festival",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/5/2118658_70140378_Down-At-The-Abbey.jpg",
     "data": "2026-09-11",
@@ -317384,7 +319218,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42613507",
-    "nome": "",
+    "nome": "Blue Reef Festival",
     "descrizione": "Two days of live music, great food, and full-on festival vibes.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/d/2310827_95040898_Blue-Reef-Festival.jpg",
     "data": "2027-07-23",
@@ -317428,7 +319262,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42641002",
-    "nome": "",
+    "nome": "Firevolt Rock Festival",
     "descrizione": "Stockport rock festival that is growing to be one of THE festivals to go to for the very best in face melting rock!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/b/1/2317175_93970186_Firevolt-Rock-Festival.jpg",
     "data": "2027-08-12",
@@ -317471,7 +319305,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640846",
-    "nome": "",
+    "nome": "Bloodstock Open Air",
     "descrizione": "Bloodstock Open Air is the UKs biggest and hands-down best organised, heaviest hard rock and metal gathering",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/6/b/2317092_47171518_Bloodstock-Open-Air.jpg",
     "data": "2027-08-05",
@@ -317536,7 +319370,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42447804",
-    "nome": "",
+    "nome": "Sonic Boom",
     "descrizione": "Winner of 2025 Independent Festival of the Year",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/9/5/2270121_fc655aff_sonic-boom.jpg",
     "data": "2026-09-12",
@@ -338662,7 +340496,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42642502",
-    "nome": "",
+    "nome": "Ellie Goulding: I Know Too Much - Intimate Album Shows’",
     "descrizione": "Jacaranda Records presents a live performance from Ellie Goulding in support of her new album 'I Know Too Much'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/d/b/2317613_18b04235_ellie-goulding-album-launch-show.jpg",
     "data": "2026-09-06",
@@ -338707,7 +340541,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42642957",
-    "nome": "",
+    "nome": "Ellie Goulding: I Know Too Much - Intimate Album Shows",
     "descrizione": "Jacaranda Records presents a live performance from Ellie Goulding in support of her new album 'I Know Too Much'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/b/8/2317698_29395184_Ellie-Goulding--Album-Launch-Show.jpg",
     "data": "2026-09-07",
@@ -338752,7 +340586,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42643411",
-    "nome": "",
+    "nome": "The Script: Matinee Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from The Script in support of their new album 'The User's Guide to Being Human'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/0/8/2317934_215e5dbd_the-script-matinee-album-launch-show.jpg",
     "data": "2026-12-11",
@@ -338784,12 +340618,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Preston/53-Degrees/The-Script-Matinee-Album-Launch-Show/42643411/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Preston/53-Degrees/The-Script-Album-Launch-Show/42643546/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -338803,7 +340631,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627869",
-    "nome": "",
+    "nome": "Ezra Collective: Album Launch DJ Set",
     "descrizione": "Jacaranda Records presents an intimate DJ set with Ezra Collective in celebration of their new album 'Here Because of Hope.'",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/3/5/2315082_49e5498a_ezra-collective-album-launch-show.jpg",
     "data": "2026-09-17",
@@ -338847,7 +340675,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640765",
-    "nome": "",
+    "nome": "ASH: 30th Anniversary '1977' Stripped Back Album Show",
     "descrizione": "Jacaranda Records presents an intimate show with ASH in celebration of the 30th Anniversary of their debut album '1977.'",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/b/1/2317051_75571429_ASH---30th-Anniversary-of--1977--Album-Tour.jpg",
     "data": "2026-10-19",
@@ -338892,7 +340720,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42637471",
-    "nome": "",
+    "nome": "Northern Frequency Presents: Jamie Fielding 3HR Extended Set",
     "descrizione": "We invite the selector Jamie Fielding back to Newcastle at digitals 360 boiler room to showcase his raw talent.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/5/5/2316522_8ad44be9_northern-frequency-presents-jamie-fielding-3hr-extended-set.jpg",
     "data": "2026-11-06",
@@ -338936,7 +340764,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640763",
-    "nome": "",
+    "nome": "ASH: 30th Anniversary '1977' Stripped Back Album Show",
     "descrizione": "Jacaranda Records presents an intimate show with ASH in celebration of the 30th Anniversary of their debut album '1977.'",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/b/2317049_51164649_ASH--30th-Anniversary--1977--Stripped-Back-Album-Show.jpg",
     "data": "2026-10-18",
@@ -338981,7 +340809,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42604588",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Nottingham!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/5/d/2308046_25862e08_the-gorillaz-experience-in-nottingham-.jpg",
     "data": "2027-01-30",
@@ -339027,7 +340855,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640659",
-    "nome": "",
+    "nome": "ASH:  30th Anniversary '1977'  Stripped Back Album Shows",
     "descrizione": "Jacaranda Records presents an intimate show with Ash in celebration of the 30th Anniversary of their debut album '1977.'",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/c/6/2317015_ca4df0fa_ash-30th-anniversary-1977-album-tour.jpg",
     "data": "2026-10-16",
@@ -339072,7 +340900,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42597297",
-    "nome": "",
+    "nome": "Gurriers: Album Launch Show",
     "descrizione": "Jacaranda Records presents a live performance from Gurriers in support of their new album 'Nobody's Coming To Save You'.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/b/7/2305923_b231d0c0_gurriers-album-launch-show.jpg",
     "data": "2026-09-29",
@@ -339118,7 +340946,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42604590",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Leeds!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/6/2308047_16a50d6b_the-gorillaz-experience-in-leeds-.jpg",
     "data": "2027-04-16",
@@ -339164,7 +340992,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42611213",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Plymouth!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/4/2/2310160_3ae7105b_the-gorillaz-experience-in-plymouth-.jpg",
     "data": "2027-05-07",
@@ -339210,7 +341038,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42611218",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Torquay!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/d/c/2310165_1a58682e_the-gorillaz-experience-in-torquay-.jpg",
     "data": "2027-05-08",
@@ -339256,7 +341084,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42611230",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Northampton!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/4/4/2310177_bc49417a_the-gorillaz-experience-in-northampton-.jpg",
     "data": "2027-02-19",
@@ -339302,7 +341130,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41991851",
-    "nome": "",
+    "nome": "High Voltage - Scotlands Premier AC/DC Tribute Band",
     "descrizione": "High Voltage, the AC/DC Tribute band is a high-octane experience dedicated to capturing the raw power and timeless energy of Bon Scott era AC/DC.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/9/9/2197343_55fba731_high-voltage-scotlands-premier-ac-dc-tribute-band.jpg",
     "data": "2026-09-18",
@@ -339350,7 +341178,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640959",
-    "nome": "",
+    "nome": "Zero 7 / Fila Brazillia / Friday 9th Oct / Quarters / Brighton",
     "descrizione": "Global Beats Sessions present\nZERO 7 (DJ Set)\nplus FILA BRAZILLIA (DJ Set) and EL MORPHO (DJ Set)\nFRIDAY 9TH OCTOBER // QUARTERS // BRIGHTON\nDoors 6pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/0/4/2317151_d369f228_zero-7-fila-brazillia-friday-9th-oct-quarters-brighton.jpg",
     "data": "2026-10-09",
@@ -339396,7 +341224,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42641178",
-    "nome": "",
+    "nome": "Tom A Smith The Rockin Chair",
     "descrizione": "Tom A Smith is coming to Wrexham North Wales\n\nOn Thursday Dec 5th here at The Rockin Chair Tom A Smith joins us as part of his UK tour",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/4/f/2317272_44219155_Tom-A-Smith-The-Rockin-Chair.jpg",
     "data": "2026-12-05",
@@ -339444,7 +341272,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42603242",
-    "nome": "",
+    "nome": "Paradise Rhythm Presents: The Summer Closing Party",
     "descrizione": "We are back at the Horse and Chains in Bushey for a full day of your favourite house music. This is not one to miss!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/d/e/2307403_36cef1b5_paradise-rhythm-presents-the-summer-closing-party.jpg",
     "data": "2026-08-30",
@@ -339488,7 +341316,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42611075",
-    "nome": "",
+    "nome": "The Gorillaz Experience in Carlisle!",
     "descrizione": "An immersive live tribute experience to one of the most innovative bands of all time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/c/d/2310104_f1cdbd31_the-gorillaz-experience-in-carlisle-.jpg",
     "data": "2027-04-30",
@@ -339534,7 +341362,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42624047",
-    "nome": "",
+    "nome": "Rumble - Clash of the Titans",
     "descrizione": "Rumble celebrates 32 years in the game of hosting some of the best Drum&Bass parties east Anglia has ever seen!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/8/e/2314304_612766f7_rumble-clash-of-the-titans.jpg",
     "data": "2026-09-25",
@@ -339576,7 +341404,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42565394",
-    "nome": "",
+    "nome": "Under The Covers",
     "descrizione": "Always a full house when Under The Covers perform!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/3/2297257_53223527_Under-The-Covers.jpg",
     "data": "2026-09-04",
@@ -339619,7 +341447,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42596190",
-    "nome": "",
+    "nome": "Michael Gallagher - Hartlepool",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/9/b/2305211_74cbb25e_michael-gallagher-hartlepool.jpg",
     "data": "2026-11-14",
@@ -339666,7 +341494,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42621894",
-    "nome": "",
+    "nome": "Voltage Volume 1",
     "descrizione": "Underground rap takes over Glasgow. Live performances, DJs and high energy sets all night.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/7/f/2313669_b12fe561_voltage-volume-1.jpg",
     "data": "2026-09-06",
@@ -339709,7 +341537,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42637469",
-    "nome": "",
+    "nome": "Kurt Vile & the Violators",
     "descrizione": "Kurt Vile & the Violators play the Galvanizers, Sunday 13 September 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/f/9/2316520_5ecdf7fa_kurt-vile-the-violators.jpg",
     "data": "2026-09-13",
@@ -339755,7 +341583,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42434766",
-    "nome": "",
+    "nome": "Skinny Lister",
     "descrizione": "Out of Phase presents Skinny Lister as part of their 10 year anniversary tour of the \"The Devil, The Heart & The Fight\".",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/7/c/2267025_06b1d7d6_skinny-lister.jpg",
     "data": "2026-10-04",
@@ -339800,7 +341628,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41999571",
-    "nome": "",
+    "nome": "PorkPie Live at PJ Molloys, Dunfermline",
     "descrizione": "PorkPie Live at PJ Molloys, Dunfermline on Saturday 7th November 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/4/0/2199557_06a61c12_porkpie-live-at-pj-molloys-dunfermline.jpg",
     "data": "2026-11-07",
@@ -339848,7 +341676,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42574403",
-    "nome": "",
+    "nome": "Korn & The Spouky Kids",
     "descrizione": "Are you ready for the ultimate double header of the year? Korn Again & Spouky kids head to the Holy Diver stage this September!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/1/b/2300062_8c4b3a4c_korn-the-spouky-kids.jpg",
     "data": "2026-09-19",
@@ -339890,7 +341718,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42470285",
-    "nome": "",
+    "nome": "Rikas",
     "descrizione": "Rikas has a sound that feels like a sun drenched road trip through retro pop, modern funk, and a little bit of indie mischief.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/8/8/2275302_3c7da466_rikas.jpg",
     "data": "2026-10-28",
@@ -339933,7 +341761,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42307101",
-    "nome": "",
+    "nome": "Plug In Maybe, Muse Tribute - Live at Beat Generator",
     "descrizione": "Plug In Maybe bring the sound and energy of Muse to Beat Generator, Dundee performing all the biggest hits live on Thursday 17 December.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/1/2238666_84869aed_plug-in-maybe-muse-tribute-live-at-beat-generator.jpg",
     "data": "2026-12-17",
@@ -339977,7 +341805,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41816002",
-    "nome": "",
+    "nome": "Bad Manners 50th Year Anniversary Tour",
     "descrizione": "Bad Manners were at the forefront of the ska revival movement in the late 70s and they still bring one of the best party nights to a town!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/4/d/2179008_268b1e81_bad-manners-50th-year-anniversary-tour.jpg",
     "data": "2026-12-27",
@@ -340025,7 +341853,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41487568",
-    "nome": "",
+    "nome": "China Crisis - Warped 2026",
     "descrizione": "China Crisis invite you to step into the next chapter of their story with their Warped 2026 tour, a journey through four decades of innovative pop.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/7/d/2139571_b4e7df8f_china-crisis-warped-2026.jpg",
     "data": "2026-10-29",
@@ -340070,7 +341898,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42359745",
-    "nome": "",
+    "nome": "The Tumbling Paddies",
     "descrizione": "Irelands hottest band, The Tumbling Paddies are coming back to the UK. Songs include The Way I am, Pretty Girl and Closing Time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/9/f/2250944_85686351_The-Tumbling-Paddies.jpg",
     "data": "2027-05-21",
@@ -340117,7 +341945,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41735403",
-    "nome": "",
+    "nome": "BOWIE EXPERIENCE (Tribute) - Warrington Irish Club - Fri 30 Nov",
     "descrizione": "The Bowie Experience return to Warrington Irish Club after a complete sell out!! Hear loads of Bowie classics for this amazing band!!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/6/6/2168691_d56ce76d_bowie-experience-tribute-warrington-irish-club-fri-30-nov.jpg",
     "data": "2026-10-30",
@@ -340163,7 +341991,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42569849",
-    "nome": "",
+    "nome": "XYZ Presents: SubCulture",
     "descrizione": "The launch of SubCulture. Underground Drum & Bass featuring Ed Solo, Brockie, MC Carasel and South West support.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/5/6/2298671_00fe4f08_xyz-presents-subculture.jpg",
     "data": "2026-09-19",
@@ -340212,7 +342040,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42572985",
-    "nome": "",
+    "nome": "Korn Again & NIN UK (Nine Inch Nails Tribute)",
     "descrizione": "KORN AGAIN is a UK Korn tribute band endorsed by the original band. SPOUKY KIDS are the UK's only Marilyn Manson tribute. Let's rock!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/c/2299583_5155ae67_korn-again-spouky-kids.jpg",
     "data": "2026-08-22",
@@ -340248,12 +342076,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Preston/The-Continental/Korn-Again--Spouky-Kids/42572985/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Preston/The-Continental/Korn-Again--NIN-UK-Nine-Inch-Nails-Tribute/42572985/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -340267,7 +342089,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42643437",
-    "nome": "",
+    "nome": "Ricky's : In support of Cancer Research",
     "descrizione": "A daytime party in remembrance of Ricky's life.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/b/f/2317959_6ad3fbc5_ricky-s-in-support-of-cancer-research.jpg",
     "data": "2026-09-27",
@@ -340309,7 +342131,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42617319",
-    "nome": "",
+    "nome": "Digging for Kanky Presents: Raining Stones",
     "descrizione": "Manchester trio Digging for Kanky celebrate the release of their debut album, Raining Stones, with a special live show at The Yard. Supported by Cartr",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/b/2312154_99a38509_digging-for-kanky-presents-raining-stones.jpg",
     "data": "2026-11-19",
@@ -340355,7 +342177,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42098289",
-    "nome": "",
+    "nome": "DarkFest - Midlands largest Goth & Alternative Music Festival",
     "descrizione": "DarkFest returns for its 3rd year in Wolverhampton, with an amazing line up of artists including Ghost Dance and headliners Sanctum Sanctorium",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/e/2209455_28139751_DarkFest---Midlands-largest-Goth---Alternative-Music-Festival.jpg",
     "data": "2026-08-22",
@@ -340403,7 +342225,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42657510",
-    "nome": "",
+    "nome": "The Complete Stone Roses and Frankly The Smiths",
     "descrizione": "Sat 6th Feb 2027 will see us celebrate 10 years of The Complete Stone Roses playing Paisley as they head back to The Bungalow.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/e/2321286_63098230_The-Complete-Stone-Roses-and-Frankly-The-Smiths.jpg",
     "data": "2027-02-06",
@@ -340451,7 +342273,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41617236",
-    "nome": "",
+    "nome": "Floyd UK - The UK's Leading Pink Floyd Tribute Band",
     "descrizione": "Join us for a night of total Pink Floyd appreciation with the UK's leading tribute band.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/8/2154376_84018527_Floyd-UK---The-UK-s-Leading-Pink-Floyd-Tribute-Band.jpg",
     "data": "2026-11-27",
@@ -340494,7 +342316,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42587444",
-    "nome": "",
+    "nome": "Forever Young - Halloween Party",
     "descrizione": "Relive your youth - Glasgow Clubs Revival (Archaos | Silver | Victorias)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/e/1/2303101_4c1e2008_forever-young-halloween-party.jpg",
     "data": "2026-10-31",
@@ -340527,12 +342349,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Glasgow/Drygate/Forever-Young---Halloween-Party/42587444/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--House-Heads-Halloween--Glasgow/42659113/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -340546,7 +342362,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42580910",
-    "nome": "",
+    "nome": "JIM - Live at YES",
     "descrizione": "JIM returns to YES's Pink Room with material from his forthcoming 2nd album - 'The Curious Case Of Existence' plus support from Thought Leadership.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/e/2301319_83465738_jim-live-at-yes.jpg",
     "data": "2026-10-04",
@@ -340591,7 +342407,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42135026",
-    "nome": "",
+    "nome": "MC Devvo",
     "descrizione": "MC DEVVO, the Donny Soldier, is BACK for his 20th Anniversary / Retirement Retirement Tour.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/8/7/2212791_09200bf0_mc-devvo.jpg",
     "data": "2026-11-13",
@@ -340639,7 +342455,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42289184",
-    "nome": "",
+    "nome": "Hi On Maiden - Somewhere back in Rio Tour 2026",
     "descrizione": "The only Maiden Tribute band officially recognised by the real band themselves! If you're into Maiden this is simply a great night out for you!!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/6/2235509_58b5bdf6_hi-on-maiden-somewhere-back-in-rio-tour-2026.jpg",
     "data": "2026-09-19",
@@ -340685,7 +342501,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42573680",
-    "nome": "",
+    "nome": "The Harbours - Leicester",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/2/f/2299869_49597644_The-Harbours---Leicester.jpg",
     "data": "2026-10-02",
@@ -340730,7 +342546,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42333053",
-    "nome": "",
+    "nome": "Rochester Rocks Festival",
     "descrizione": "An All-Day Festival of ROCK in the heart of Kent, featuring some of the most exciting rock acts in the country, plus an all acoustic Chill Out Room",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/b/b/2244863_693149f8_rochester-rocks-festival.jpg",
     "data": "2027-03-20",
@@ -340782,7 +342598,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42101706",
-    "nome": "",
+    "nome": "ELVIS REVOLUTION Friday 06/11/26",
     "descrizione": "Experience the spirit of Elvis Presleys golden Las Vegas years with the UK's No.1 Elvis Tribute Paul Thorpe.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/5/e/2210224_0a341dfd_elvis-revolution-friday-06-11-26.jpg",
     "data": "2026-11-06",
@@ -340826,7 +342642,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42572048",
-    "nome": "",
+    "nome": "Johnny Foreigner + Victor Villarreal",
     "descrizione": "Birmingham indie-rock 4-piece return with their new record Forwards! out September 4th.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/f/2/2299337_30c9c598_johnny-foreigner-victor-villarreal.jpg",
     "data": "2026-09-10",
@@ -340873,7 +342689,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42498207",
-    "nome": "",
+    "nome": "Wild Heat + Divides Unfold + High Ryder. Voodoo Belfast, 22/08",
     "descrizione": "Get ready for a night of high-octane rock as three powerhouse bands take over Voodoo Bar, Belfast for an evening of unforgettable live music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/2/9/2283725_b03f237f_wild-heat-divides-unfold-high-ryder-voodoo-belfast-22-08.jpg",
     "data": "2026-08-22",
@@ -340921,7 +342737,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42144208",
-    "nome": "",
+    "nome": "Talon The Best Of Eagles",
     "descrizione": "Revered by their peers and loved by their fans, this world class seven-piece band are a phenomenon.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/b/2214942_61017957_Talon-The-Best-Of-Eagles.jpg",
     "data": "2027-01-15",
@@ -340966,7 +342782,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42617313",
-    "nome": "",
+    "nome": "Jazzy Jeff plus guests / Thurs 27th August / Quarters / Brighton",
     "descrizione": "BeatDown & Frontline present\n\nTHE MAGNIFICENT JAZZY JEFF\n\nplus ROBERT LUIS (Tru Thoughts) & DJ OUTBREAK\n\nThursday 27th August\n\nQuarters // Brighton",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/8/1/2312148_36a8fcca_jazzy-jeff-plus-guests-thurs-27th-august-quarters-brighton.jpg",
     "data": "2026-08-27",
@@ -341011,7 +342827,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42570431",
-    "nome": "",
+    "nome": "Oliva Holmes Live at Suburbia",
     "descrizione": "Olivia Holmes brings her powerful live show to Suburbia Southampton, with support from Mia Bundy & Psychedelic Skies. A night of unforgettable music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/0/2/2298923_b5220a2f_oliva-holmes-suburbia.jpg",
     "data": "2026-08-22",
@@ -341057,7 +342873,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41665909",
-    "nome": "",
+    "nome": "Live Wire The AC/DC Show",
     "descrizione": "AC/DC are brought to life by Live/Wire with the true passion you would expect from musicians who share your love of this legendary live act.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/b/7/2167799_59538528_Live-Wire-The-AC-DC-Show.jpg",
     "data": "2026-11-27",
@@ -341101,7 +342917,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42393294",
-    "nome": "",
+    "nome": "Emo Fest Southampton",
     "descrizione": "Emo Fest returns to EngineRooms Southampton this December!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/c/8/2256506_7f451b68_emo-fest-southampton.jpg",
     "data": "2026-12-05",
@@ -341144,7 +342960,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42144191",
-    "nome": "",
+    "nome": "The Surfrajettes",
     "descrizione": "From Toronto, ON, Canada, The Surfrajettes have charmed audiences with their clever mix of psychedelic rock & reverb-drenched surf music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/3/f/2214925_497f5664_the-surfrajettes.jpg",
     "data": "2026-09-22",
@@ -341188,7 +343004,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42393282",
-    "nome": "",
+    "nome": "The Darling Buds",
     "descrizione": "Alternative rock band from Newport, Wales formed in 1986.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/a/0/2256494_2376454b_the-darling-buds.jpg",
     "data": "2026-09-03",
@@ -341232,7 +343048,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42450349",
-    "nome": "",
+    "nome": "Jah Wobble & The Invaders Of The Heart",
     "descrizione": "Jah Wobble's career speaks for itself, spanning over 40 year's he's played on countless albums, with performers such as PIL's John Lydon, Brian Eno.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/6/2/2270740_b10e3b2d_jah-wobble-the-invaders-of-the-heart.jpg",
     "data": "2026-10-21",
@@ -341279,7 +343095,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42526788",
-    "nome": "",
+    "nome": "Liam Cromby + The Morning Star",
     "descrizione": "For the first time, playing We Are The Ocean and Solo Material side by side",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/7/2/2290611_91286e91_liam-cromby-the-morning-star.jpg",
     "data": "2026-10-01",
@@ -341327,7 +343143,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42160875",
-    "nome": "",
+    "nome": "Maet Live & The Never Neverland Express",
     "descrizione": "Experience all the hits from The World's premier Meatloaf tribute show.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/4/b/2219441_10515584_Maet-Live---The-Never-Neverland-Express.jpg",
     "data": "2027-02-20",
@@ -341372,7 +343188,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42478324",
-    "nome": "",
+    "nome": "Big Special",
     "descrizione": "DHP presents Big Special live @ Kasbah.\nExciting English post-punk and alternative duo from the West Midlands.\nSupport: The Joy Hotel + Bradley Taylor",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/0/f/2278109_ea19d932_big-special.jpg",
     "data": "2026-12-05",
@@ -341420,7 +343236,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42656823",
-    "nome": "",
+    "nome": "NYE at The Blue Piano",
     "descrizione": "Get ready to join us for a NYE extravaganza with the amazing AC30'S",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-12-31",
@@ -341463,7 +343279,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42469565",
-    "nome": "",
+    "nome": "THE LAZYS - The Bread Shed, Manchester",
     "descrizione": "Full throttle rock n roll only the wicked understand! Support from Sweet Electric",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/d/2274719_9746d9a5_the-lazys-the-bread-shed-manchester.jpg",
     "data": "2026-09-24",
@@ -341509,7 +343325,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42491703",
-    "nome": "",
+    "nome": "Ultimate Coldplay Live At Camp and Furnace",
     "descrizione": "Ultimate Coldplay return to Campand Furnace: experience Coldplay's greatest hits live with stunning vocals, epic anthems, and unforgettable energy",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/c/e/2282308_42149846_Ultimate-Coldplay-Live-At-Camp-and-Furnace.jpg",
     "data": "2027-01-30",
@@ -341555,7 +343371,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42608879",
-    "nome": "",
+    "nome": "Chali 2na w/ Live Band",
     "descrizione": "This October, we welcome Chali 2na - founding member of Jurassic 5 and Ozomatli for a special performance with his live band & DJ A-Skillz.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/8/4/2309415_01195316_chali-2na-w-live-band.jpg",
     "data": "2026-10-29",
@@ -341599,7 +343415,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42359386",
-    "nome": "",
+    "nome": "Jesus Jones",
     "descrizione": "Catch alt-rock legends Jesus Jones live for a night of iconic 90s hits and high-energy electronic rock. Celebrating 35 years of Doubt.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/c/a/2250821_4a7693a1_jesus-jones.jpg",
     "data": "2026-12-06",
@@ -341646,7 +343462,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42307102",
-    "nome": "",
+    "nome": "Plug In Maybe, Muse Tribute - Live at La Belle Angele",
     "descrizione": "Plug In Maybe bring the sound and energy of Muse to La Belle Angele, Edinburgh performing all the biggest hits live on Friday 18 December.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/d/f/2238667_f71a58f2_plug-in-maybe-muse-tribute-live-at-la-belle-angele.jpg",
     "data": "2026-12-18",
@@ -341690,7 +343506,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42400990",
-    "nome": "",
+    "nome": "Steely Don - Tribute to Steely Dan & Donald Fagen",
     "descrizione": "Eleven-piece band dedicated to playing the music of Steely Dan & Donald Fagen.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/1/2/2258543_f43c842f_steely-don-tribute-to-steely-dan-donald-fagen.jpg",
     "data": "2026-09-11",
@@ -341736,7 +343552,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42443787",
-    "nome": "",
+    "nome": "NOTNORTH on Tour - Edinburgh",
     "descrizione": "NOTNORTH rocks the stage at Banshee Labyrinth alongside Oedipus & the Mama's Boys and Dead Wet Things. Let's go, Edinburgh!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/1/1/2269594_b7fc7ee4_notnorth-on-tour-edinburgh.jpg",
     "data": "2026-09-06",
@@ -341782,7 +343598,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42643116",
-    "nome": "",
+    "nome": "The Greatest Christmas Hits LIVE with The Classic Double Band!",
     "descrizione": "A proper LIVE Christmas show! The Classic Double Band perform the greatest festive songs of all time on the final Saturday before Christmas!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/9/b/2317780_97f6596f_a-very-classic-christmas-live-with-the-classic-double-band.jpg",
     "data": "2026-12-19",
@@ -341828,7 +343644,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42088516",
-    "nome": "",
+    "nome": "Pablo Carrizo - Hull",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/d/7/2206528_f71afb9d_pablo-carrizo-hull.jpg",
     "data": "2026-10-10",
@@ -341875,7 +343691,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42488707",
-    "nome": "",
+    "nome": "Belphegor / Krisiun / Asagraum",
     "descrizione": "Praise The Beast European tour. \nAt the Underworld, Camden Town, London\nBelphegor / Krisiun / Asagraum",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/9/2281287_61805ad8_belphegor-krisiun-asagraum.jpg",
     "data": "2026-10-18",
@@ -341921,7 +343737,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42573041",
-    "nome": "",
+    "nome": "Nu-Era Tribute Fest | Studio Se7en Witney",
     "descrizione": "Nu-Era Productions presents a monumental night of nu-metal and emo classics, featuring a line-up of the UK's top tribute acts.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/9/2299603_08a401ff_nu-era-tribute-fest-studio-se7en-witney.jpg",
     "data": "2026-11-27",
@@ -341970,7 +343786,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42388835",
-    "nome": "",
+    "nome": "The Phonics - The music of the Stereophonics",
     "descrizione": "The Phonics are the UK's premier Stereophonics tribute band, playing tracks from every album.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/b/0/2256438_43ad7643_the-phonics-the-music-of-the-stereophonics.jpg",
     "data": "2027-01-30",
@@ -342017,7 +343833,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42081449",
-    "nome": "",
+    "nome": "Echoes of the Bunnymen",
     "descrizione": "The Echoes of the Bunnymen show is an aural tribute to the alternative Fab Four. ",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/d/3/2204181_310d28ea_echoes-of-the-bunnymen.jpg",
     "data": "2026-09-18",
@@ -342065,7 +343881,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42604852",
-    "nome": "",
+    "nome": "The Montized Weekender",
     "descrizione": "The weekend you've all been waiting for...\nA Montized packed weekend with the a Saturday DJ line up && a\nSunday packed with live artists",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/0/6/2308057_6ab5b59d_the-montized-weekender.jpg",
     "data": "2026-08-29",
@@ -342111,7 +343927,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42469909",
-    "nome": "",
+    "nome": "Gnod plus special guests",
     "descrizione": "GNOD’s musical trajectory has been one of constant fluctuation borne out of an incessant need to discover new sonic worlds.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/6/9/2275058_e91da4a6_gnod-plus-special-guests.jpg",
     "data": "2026-09-03",
@@ -342157,7 +343973,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42645864",
-    "nome": "",
+    "nome": "SOUND OF BASSLINE Daytime Rave! Sheffield",
     "descrizione": "Sound Of Bassline returns with an absolutely HUGE LINE UP ready for an end of summer DAYTIME RAVE! Indoor/Outdoor at FORGE Warehiuse!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/8/3/2319095_8c620754_sound-of-bassline-daytime-rave-sheffield.jpg",
     "data": "2026-09-19",
@@ -342198,12 +344014,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Sheffield/FORGE/SOUND-OF-BASSLINE-Daytime-Rave-Sheffield/42645864/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Sheffield/Electric-Studios/Morgan-Seatree-Danny-Bond--more/42641752/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -342217,7 +344027,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627171",
-    "nome": "",
+    "nome": "Phuture Sessions present X-Press 2 (Rocky & Diesel)",
     "descrizione": "X-Press 2 headline with an exclusive two-hour set, taking you on a journey through three decades of amazing house music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/e/2314815_ce6129f9_phuture-sessions-present-x-press-2-rocky-diesel-.jpg",
     "data": "2026-10-24",
@@ -342261,7 +344071,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42643421",
-    "nome": "",
+    "nome": "Encrypted Presents: Dennis Quin & Jamie Fielding",
     "descrizione": "We are back at the old fire station bringing you two of the hottest names in house music right now.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/d/1/2317943_67666066_Encrypted-Presents--2-HUGE-HEADLINERS.jpg",
     "data": "2026-10-17",
@@ -342305,7 +344115,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42495660",
-    "nome": "",
+    "nome": "RETROSPECT Presents: Halloween Edition @ THE PIV",
     "descrizione": "RETROSPECT are bringing DIKKE BAAP, MUTILATOR, KIRSTY, MXGN, TRKN, 5VRGN, DEEVEY & Many More to Ayr Pavilion this Halloween - TICKETS OUT NOW!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/c/4/2283035_aba273d0_retrospect-presents-halloween-edition-the-piv.jpg",
     "data": "2026-10-31",
@@ -342356,7 +344166,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42476334",
-    "nome": "",
+    "nome": "Vocalise Halloween Ft. Slipmatt // Jeremy Healy // Grant Nelson",
     "descrizione": "Vocalise returns to Alrewas Hayes this Halloween for an unforgettable night of house and disco in one of the region's most spectacular venues.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/d/4/2277393_550005a5_vocalise-halloween-special.jpg",
     "data": "2026-10-31",
@@ -342394,12 +344204,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Derby/Alrewas-Hayes/Vocalise--Halloween-Special/42476334/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Derby/Alrewas-Hayes/Vocalise-Halloween-Ft-Slipmatt--Jeremy-Healy--Grant-Nelson/42476334/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -342413,7 +344217,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627183",
-    "nome": "",
+    "nome": "WAH Leeds | Basslayerz, Skepsis, Window Kid & more!",
     "descrizione": "LEEDS! After back to back sell out events we're back! This time debuting at the brand new Mint XL for it's first ever DNB show",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/4/3/2314825_f393be57_wah-leeds-basslayerz-skepsis-window-kid-more-.jpg",
     "data": "2026-10-02",
@@ -342464,7 +344268,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42625770",
-    "nome": "",
+    "nome": "Source // Season 2 - Jamie Fielding",
     "descrizione": "We're kicking off Season 2 with one of the UK's fastest-rising names.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/6/9/2314555_3ceec38b_source-season-2-jamie-feilding.jpg",
     "data": "2026-10-02",
@@ -342511,7 +344315,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42628389",
-    "nome": "",
+    "nome": "The Official Cardiff Freshers Wristband 2026",
     "descrizione": "The wildest week of your life, all for as little as £20! Book now before prices go up!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/b/0/2315227_eb96403f_the-official-cardiff-freshers-wristband-2026.jpg",
     "data": "2026-09-20",
@@ -342562,7 +344366,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42596483",
-    "nome": "",
+    "nome": "F.P.I Project LIVE & DJ John Kelly @ The Waterfront, Hull",
     "descrizione": "We Need Some Love - F.P.I Project LIVE & DJ John Kelly @ The Waterfront, Hull",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/6/4/2305409_9acdb671_f-p-i-project-live-dj-john-kelly-the-waterfront-hull.jpg",
     "data": "2026-11-14",
@@ -342612,7 +344416,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42641219",
-    "nome": "",
+    "nome": "Young Team - Aberdeen",
     "descrizione": "To enter this event, you must have an  Aberdeen or Aberdeenshire postcode.\nYoung Scot Card ID acceptable.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/f/2317309_2ed631ab_young-team-aberdeen.jpg",
     "data": "2026-09-04",
@@ -342656,7 +344460,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42436352",
-    "nome": "",
+    "nome": "John Digweed",
     "descrizione": "After last year's sold-out show, we had to ask the one and only, John Digweed, back to the C2 stage.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/3/2267755_138558bb_john-digweed.jpg",
     "data": "2026-11-13",
@@ -342701,7 +344505,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42628293",
-    "nome": "",
+    "nome": "The Move 15th Anniversary - Move Classics - All Night Long!",
     "descrizione": "15 years since our first Move party! Where did that go?! We're back for a night of original Move Classics. Music from 2010-2020",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/c/2315167_a7a6a7f6_the-move-15th-anniversary-move-classics-all-night-long-.jpg",
     "data": "2026-10-10",
@@ -342745,7 +344549,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42648574",
-    "nome": "",
+    "nome": "Labyrinth presents: Marsh extended set",
     "descrizione": "Fresh from his Anjunadeep Open Air closing set at Old Royal Naval College, Marsh returns to London, taking over another of the city's iconic venues!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/b/0/2320249_2cf5b77c_labyrinth-presents-marsh-extended-set.jpg",
     "data": "2026-11-13",
@@ -342793,7 +344597,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42610718",
-    "nome": "",
+    "nome": "Earthworks x 19/29 Loft Sessions",
     "descrizione": "Earthworks x 1929 are teaming up once again! Music first supported by free flowing cocktails & impeccable vibes!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/4/9/2310051_c2f799e6_earthworks-x-19-29-cocktail-party.jpg",
     "data": "2026-10-17",
@@ -342841,7 +344645,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42623153",
-    "nome": "",
+    "nome": "Mall Grab",
     "descrizione": "Mall Grab \nHAAI b2b Sam Alfred\n+ More TBA",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/1/6/2314176_9c8363de_mall-grab.jpg",
     "data": "2026-09-04",
@@ -342888,7 +344692,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42639197",
-    "nome": "",
+    "nome": "Nightvision presents Fumi // Edinburgh",
     "descrizione": "On Friday 2nd October Fumi comes to Edinburgh for a night in the Caves.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/0/5/2316690_954a69b0_nightvision-presents-fumi-edinburgh.jpg",
     "data": "2026-10-02",
@@ -342930,7 +344734,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42624430",
-    "nome": "",
+    "nome": "Afta Dark (Nottingham) - w/ Jamie Fielding",
     "descrizione": "AFTA DARK NOTTINGHAM\nEvery Saturday 10:30PM - 3:30AM\n\nEvery Saturday, AFTA DARK brings Nottingham back to the underground.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/7/2314435_45314085_Afta-Dark--Nottingham----w--Jamie-Fielding.jpg",
     "data": "2026-12-19",
@@ -342977,7 +344781,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42301738",
-    "nome": "",
+    "nome": "The Late Lounge Reunion!",
     "descrizione": "Let's step into a time machine and relive the early 00's at The Late Lounge Reunion!\nYou asked.. we listened.. and here it is.. on Break Up Saturday!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/0/2237894_07ef06cb_the-late-lounge-reunion-.jpg",
     "data": "2026-12-19",
@@ -343023,7 +344827,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42628279",
-    "nome": "",
+    "nome": "Kanine | Brighton",
     "descrizione": "One of the defining figures in modern Drum & Bass, Kanine returns to Brighton on the 17th October 2026.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/7/d/2315153_60d21d0b_kanine-brighton.jpg",
     "data": "2026-10-17",
@@ -343067,7 +344871,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42596421",
-    "nome": "",
+    "nome": "Shy Fx | Margate (Reschedule)",
     "descrizione": "The legendary Shy FX comes to The Drill Shed this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/f/2305350_87179977_Shy-Fx---Margate--Reschedule-.jpg",
     "data": "2026-11-27",
@@ -343112,7 +344916,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42141449",
-    "nome": "",
+    "nome": "Sanctuary 24th Birthday at Blackpool Tower",
     "descrizione": "Sanctuary 24th Birthday \nBlackpool Tower\nSaturday 5th September 2026\nLine up super stacked with the biggest and best artists across the scene",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/9/2214422_fc0b78e6_sanctuary-24th-birthday-at-blackpool-tower.jpg",
     "data": "2026-09-05",
@@ -343161,7 +344965,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42620637",
-    "nome": "",
+    "nome": "Fish56Octagon | Manchester",
     "descrizione": "Fish56Octagon comes to Victoria Warehouse for a multi-genre headline show this October!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/8/d/2313271_42361588_Fish56Octagon---Manchester.jpg",
     "data": "2026-10-16",
@@ -343208,7 +345012,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42447791",
-    "nome": "",
+    "nome": "Chicane",
     "descrizione": "Chicane lands in Brighton for a special show at Quarters this October.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/e/d/2270108_da4e3d88_chicane.jpg",
     "data": "2026-10-03",
@@ -343241,12 +345045,6 @@ window.DPA_EVENTS_FALLBACK = [
         "url": "https://www.skiddle.com/whats-on/Brighton/Quarters/Chicane/42447791/?sktag=15777&skcampaign=sito",
         "prezzo": null,
         "gratuito": true
-      },
-      {
-        "fonte": "skiddle",
-        "url": "https://www.skiddle.com/whats-on/Brighton/Concorde-2/Fish56Octagon--Brighton/42620632/?sktag=15777&skcampaign=sito",
-        "prezzo": null,
-        "gratuito": true
       }
     ],
     "promoter": "",
@@ -343260,7 +345058,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42503698",
-    "nome": "",
+    "nome": "Soulonsundays Reunion",
     "descrizione": "SoulOnSundays returns after 17 years for one epic reunion of pure soul and R&B. Bank Holiday 30 Aug 2026 at Club 147. One night only.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/0/4/2284710_f1d6f772_soulonsundays-reunion.jpg",
     "data": "2026-08-30",
@@ -343306,7 +345104,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42486665",
-    "nome": "",
+    "nome": "BOUNCE SESSIONS SUNDERLAND : Andy Whitby x Mc Tazo",
     "descrizione": "ANDY WHITBY x MC TAZO \nDJ ARMAZ x MC STOMPIN\nALAN BENN x MC CRAZY-T\nHYPERNOIZ x MC ROCKEYE\nCH4SINGTHEHIGH x DAVEY BLAST",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/c/1/2280551_a313568d_bounce-sessions-sunderland-andy-whitby-x-mc-tazo.jpg",
     "data": "2026-09-26",
@@ -343356,7 +345154,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42621903",
-    "nome": "",
+    "nome": "Fish56Octagon | Newcastle",
     "descrizione": "Fish56Octagon comes to Digital for a multi-genre headline show this November!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/8/9/2313678_90336181_Fish56Octagon---Newcastle.jpg",
     "data": "2026-11-27",
@@ -343403,7 +345201,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42617423",
-    "nome": "",
+    "nome": "Temple After Dark",
     "descrizione": "Temple takeover Portsmouth's newest club space 'The Loft' for our return to the city this August.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/9/5/2312248_93d9813f_temple-after-dark.jpg",
     "data": "2026-08-22",
@@ -343449,7 +345247,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42564081",
-    "nome": "",
+    "nome": "Spectrum presents Billy Daniel Bunter",
     "descrizione": "UK rave scene pioneer, Billy Daniel Bunter, is joining the Spectrum team for an iconic three-hour set, blending genres to tell the history of rave.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/7/0/2296885_66ddbdba_spectrum-presents-billy-daniel-bunter.jpg",
     "data": "2026-09-19",
@@ -343495,7 +345293,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42497822",
-    "nome": "",
+    "nome": "'OFF YA BOX' Launch Night at Cube Nightclub , Wigan",
     "descrizione": "'OFF YA BOX' Launch Night \nCube Nightclub , Wigan\nSaturday 22nd August",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/2/e/2283425_0f052279_-off-ya-box-launch-night-at-cube-nightclub-wigan.jpg",
     "data": "2026-08-22",
@@ -343542,7 +345340,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42413136",
-    "nome": "",
+    "nome": "Dave Pearce Trance Anthems - Northampton",
     "descrizione": "Prepare for a night of the biggest Trance & Dance Anthems!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/5/f/2261529_6066d921_dave-pearce-trance-anthems-northampton.jpg",
     "data": "2026-10-16",
@@ -343590,7 +345388,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627578",
-    "nome": "",
+    "nome": "Panic At The Emo at The Hairy Dog",
     "descrizione": "Panic At The Emo is bringing nostalgia across the country so dust off those converse and fish out that MCR t-shirt because we're coming to party!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/6/d/2314940_36862663_Panic-At-The-Emo-at-The-Hairy-Dog.jpg",
     "data": "2026-08-29",
@@ -343632,7 +345430,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42637467",
-    "nome": "",
+    "nome": "RAVE to SAVE",
     "descrizione": "All day party in aid of two local mental health charities: Headspace Highlands & Mikeysline.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/8/0/2316518_1b56dba1_rave-to-save.jpg",
     "data": "2026-11-21",
@@ -343678,7 +345476,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42485842",
-    "nome": "",
+    "nome": "PaSSion Trance ClaSSics",
     "descrizione": "PaSSion ClaSSics returns. We are pleased to announce The Nest Nottingham as our new host. Huge Trance ClaSSics played by the artists that made them!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/b/a/2280161_23344355_PaSSion-Trance-ClaSSics.jpg",
     "data": "2027-01-09",
@@ -343730,7 +345528,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42566932",
-    "nome": "",
+    "nome": "21st Century Acid W/ Saytek (live), DJ Active, Flear, T-Break",
     "descrizione": "21st Century Acid presents an open-air day party at Purple Turtle, Reading, featuring techno, hardgroove, acid, breaks and house.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/1/7/2297694_418233a8_21st-century-acid-w-saytek-live-dj-active-flear-t-break.jpg",
     "data": "2026-08-22",
@@ -343777,7 +345575,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42626484",
-    "nome": "",
+    "nome": "Fish56Octagon | Oxford",
     "descrizione": "Fish56Octagon comes to the O2 Academy Oxford this October for a multi-genre headline show!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/4/f/2314634_80102968_Fish56Octagon---Oxford.jpg",
     "data": "2026-10-17",
@@ -343824,7 +345622,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42542975",
-    "nome": "",
+    "nome": "Brighton 16+ Halloween Rave",
     "descrizione": "The UK's biggest & best 16+ rave returns to Brighton this Halloween!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/8/2294718_24572352_brighton-16-halloween-rave.jpg",
     "data": "2026-10-26",
@@ -343870,7 +345668,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42406428",
-    "nome": "",
+    "nome": "Judge Jules Club Anthems",
     "descrizione": "A DJ legend and dance music icon for 3 decades, Judge Jules is bringing classic club anthems to Carlisle.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/9/5/2259832_50056578_Judge-Jules-Club-Anthems.jpg",
     "data": "2027-01-16",
@@ -343919,7 +345717,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42496165",
-    "nome": "",
+    "nome": "Old But Gold",
     "descrizione": "Vibe Promotions are taking you back down memory lane bringing you a night full of all your favourite old school bassline and speed garage classics!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/2/2283119_b4c601b5_old-but-gold.jpg",
     "data": "2026-08-22",
@@ -343961,7 +345759,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42639889",
-    "nome": "",
+    "nome": "TRiBE presents The Tribe of ViBE! Birthday Jam",
     "descrizione": "TRiBE returns with an Autumn heater, as they take over Canopi in Cardiff celebrating the DJ  - The Tribe of ViBE! - with the Birthday Jam.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/4/1/2316861_3f600203_tribe-presents-the-tribe-of-vibe-birthday-jam.jpg",
     "data": "2026-10-03",
@@ -344006,7 +345804,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42338190",
-    "nome": "",
+    "nome": "Smiley Culture Presents: SHADES OF RHYTHM",
     "descrizione": "We are proud to bring you rave culture gods Shades Of Rhythm!\nAlongside 1 of the hottest house producers Odessey Inc",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/2/b/2246435_99807928_Smiley-Culture-Presents--SHADES-OF-RHYTHM.jpg",
     "data": "2026-09-19",
@@ -344051,7 +345849,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42513985",
-    "nome": "",
+    "nome": "Dave Pearce Trance Anthems Halloween with Signum",
     "descrizione": "Dave Pearce heads back to EngineRooms Southampton this October with Signum!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/5/2/2288879_11edf818_dave-pearce-trance-anthems-halloween-with-signum.jpg",
     "data": "2026-10-31",
@@ -344096,7 +345894,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42449991",
-    "nome": "",
+    "nome": "Euphoria",
     "descrizione": "Euphoria, delivering the best in underground dance music, from Drum & Bass to Hardcore and everything in between.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/2/a/2270570_91941741_Euphoria.jpg",
     "data": "2026-08-30",
@@ -344144,7 +345942,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42099241",
-    "nome": "",
+    "nome": "Trance Day Party - Milton Keynes",
     "descrizione": "Calling all ravers and hands-in-the-air dance floor dreamers!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/1/7/2209822_e8f28308_trance-day-party-milton-keynes.jpg",
     "data": "2026-11-14",
@@ -344186,7 +345984,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42620595",
-    "nome": "",
+    "nome": "Azul Summer Closing Day Party",
     "descrizione": "After a year since we ventured into London, we return to Bedford at Brewpoint for a summer closing Day Party",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/8/5/2313232_d6b50f6b_azul-summer-closing-day-party.jpg",
     "data": "2026-09-19",
@@ -344229,7 +346027,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42469441",
-    "nome": "",
+    "nome": "X CLUB. present HIDE THE JUNK",
     "descrizione": "Australian powerhouse duo X CLUB. bring their famous 'HIDE THE JUNK' party back to London for the first time since 2023",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/2/2/2274695_4ddd457c_x-club-present-hide-the-junk.jpg",
     "data": "2026-09-20",
@@ -344277,7 +346075,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42460549",
-    "nome": "",
+    "nome": "The Event 2 Brighton Day Club for over 30's",
     "descrizione": "The Event 2 Day Club for over 30's is back for a huge November show! Original DJs, original music, original atmosphere! Sat 28th Nov 3-8pm!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/4/c/2272688_969d954f_event-2-day-club-for-over-30-s.jpg",
     "data": "2026-11-28",
@@ -344323,7 +346121,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42470496",
-    "nome": "",
+    "nome": "Macky Gee: Cardiff",
     "descrizione": "DNB Collective & Touchbase present Macky Gee Cardiff!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/1/2/2275411_75794816_Macky-Gee--Cardiff.jpg",
     "data": "2026-11-07",
@@ -344367,7 +346165,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42639598",
-    "nome": "",
+    "nome": "Electric Paradise 2027",
     "descrizione": "Electric Paradise returns to The Milton Keynes National Bowl on Saturday 7th August 2027!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/1/b/2316725_0b08fe25_electric-paradise-2027.jpg",
     "data": "2027-08-07",
@@ -344412,7 +346210,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42644331",
-    "nome": "",
+    "nome": "Picnic and Pop Festival",
     "descrizione": "Two days of live music, family fun, food, bars and festival vibes in Aldershot. Picnic & Pop is the perfect summer weekend!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/a/2318433_79276630_Picnic-and-Pop-Festival.jpg",
     "data": "2027-07-31",
@@ -344458,7 +346256,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42643934",
-    "nome": "",
+    "nome": "Wigstock 2027",
     "descrizione": "Wigstock is back for 2027!  Two days of live music, camping, great beer and good times in the heart of Kielder!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/5/3/2318252_61584191_wigstock-2027.jpg",
     "data": "2027-04-30",
@@ -344504,7 +346302,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42634311",
-    "nome": "",
+    "nome": "Aired. X The Full House Collective: OPEN AIR",
     "descrizione": "AIRED. and The Full House Collective join forces for a full day of minimal house and house music in the sun. LINEUP TBA \n18+ Event",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/c/8/2316251_a2fa43e2_aired-x-the-full-house-collective-open-air.jpg",
     "data": "2026-09-19",
@@ -344548,7 +346346,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42648188",
-    "nome": "",
+    "nome": "Wonkaland Festival",
     "descrizione": "WELCOME TO WONKALAND \n\nA three-day immersive music festival where carnival meets sweet factory. A whole world built for you to explore.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/9/9/2320050_60396138_Wonkaland-Festival.jpg",
     "data": "2027-08-13",
@@ -344594,7 +346392,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42645772",
-    "nome": "",
+    "nome": "Soul Journey Weekender",
     "descrizione": "We’re excited to announce Soul Journey Weekender 2026, taking place on 25th & 26th September 2026 across multiple venues in sunny Milngavie.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/7/c/2319047_782ea38a_soul-journey-weekender.jpg",
     "data": "2026-09-25",
@@ -344647,7 +346445,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42650788",
-    "nome": "",
+    "nome": "RNB MANIA | Hertford's R&B Festival",
     "descrizione": "Hertford, are you ready to experience the very best of R&B music? R&B MANIA comes to Dog and Whistle on Saturday, 19 September 2026!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/9/7/2320742_36a997ea_rnb-mania-hertford-s-r-b-festival.jpg",
     "data": "2026-12-05",
@@ -344692,7 +346490,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42643464",
-    "nome": "",
+    "nome": "NUYU Fit-Fest",
     "descrizione": "A celebration of Birmingham's fitness culture. Multiple communities, multiple coaches , multiple DJS , competitions. This is Fit Fest!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/6/6/2317983_2ab4ad99_nuyu-fit-fest.jpg",
     "data": "2026-09-06",
@@ -344741,7 +346539,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42641760",
-    "nome": "",
+    "nome": "Sunset At The Manor | Pink Floyd Mega Laser Show | Kent",
     "descrizione": "Tickets Selling Fast!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/f/5/2317411_daca5331_sunset-at-the-manor-pink-floyd-mega-laser-show-kent.jpg",
     "data": "2027-05-28",
@@ -344787,7 +346585,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42641761",
-    "nome": "",
+    "nome": "Sunset At The Manor | Ibiza Classics BBQ | Kent",
     "descrizione": "Tickets Selling Fast!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/a/4/2317412_467ded23_sunset-at-the-manor-ibiza-classics-bbq-kent.jpg",
     "data": "2027-05-29",
@@ -344833,7 +346631,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42467245",
-    "nome": "",
+    "nome": "Meadow Fest",
     "descrizione": "Celebrating British Music and Farming Heritage",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/d/8/2274110_151002c1_meadow-fest.jpg",
     "data": "2027-05-28",
@@ -344879,7 +346677,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42613489",
-    "nome": "",
+    "nome": "Chiddfest",
     "descrizione": "Family friendly music festival in Sussex.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/b/7/2310813_50381886_Chiddfest.jpg",
     "data": "2027-07-23",
@@ -344925,7 +346723,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41652634",
-    "nome": "",
+    "nome": "Rock en Seine",
     "descrizione": "Rock en Seine is a three-day rock music festival.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/4/4/2164374_2fd35d0f_rock-en-seine.jpg",
     "data": "2026-08-26",
@@ -345010,7 +346808,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42613540",
-    "nome": "",
+    "nome": "Northants Rocks",
     "descrizione": "Live music festival with four day camping.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/e/c/2310851_27560839_Northants-Rocks.jpg",
     "data": "2027-07-22",
@@ -345053,7 +346851,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42261842",
-    "nome": "",
+    "nome": "Rabidfest",
     "descrizione": "Annual metal festival held in Oxford, UK.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/b/3/2229650_44371d26_rabidfest.jpg",
     "data": "2026-10-31",
@@ -345097,7 +346895,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42623075",
-    "nome": "",
+    "nome": "Kendal Calling",
     "descrizione": "Kendal Calling returns to Lowther Deer Park this summer for another year of great music and great vibes.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/7/a/f/2314132_82665085_Kendal-Calling.jpg",
     "data": "2027-07-29",
@@ -345142,7 +346940,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42323639",
-    "nome": "",
+    "nome": "INJM Fest",
     "descrizione": "AUGUST 22ND - THE SOUND OF THE UNDERGROUND \n\nFrom 12PM - 10PM, step into a full day of pure Drum & Bass and Jungle energy. Heavy basslines!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/b/2242229_15535364_INJM-Fest.jpg",
     "data": "2026-08-22",
@@ -345190,7 +346988,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42622966",
-    "nome": "",
+    "nome": "App Fest",
     "descrizione": "Affordable family festival in Tewkesbury.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/4/d/2314071_83662033_App-Fest.jpg",
     "data": "2027-07-30",
@@ -345236,7 +347034,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42413650",
-    "nome": "",
+    "nome": "Made in Manchester - Stockport",
     "descrizione": "Manchester's coolest family-friendly music festival!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/9/9/2261593_c7e24fd4_made-in-manchester-stockport.jpg",
     "data": "2026-08-28",
@@ -345292,7 +347090,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42467232",
-    "nome": "",
+    "nome": "Field Day",
     "descrizione": "Field Day is back, bringing together cutting-edge artists, underground sounds, and a diverse community of music lovers.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/2/b/2274101_cc562289_field-day.jpg",
     "data": "2027-05-29",
@@ -345336,7 +347134,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42620003",
-    "nome": "",
+    "nome": "The Big Statfold Weekender - SATURDAY ONLY",
     "descrizione": "The Midland's BEST value, family friendly tribute festival over August Bank Holiday!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/a/4/2313004_2948fa73_the-big-statfold-weekender-saturday-only.jpg",
     "data": "2026-08-29",
@@ -345387,7 +347185,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41387752",
-    "nome": "",
+    "nome": "Glastonbury",
     "descrizione": "Glastonbury is a festival in need of no introduction, being the biggest greenfield music and performing arts festival.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/b/2/2115093_78147507_Glastonbury.jpg",
     "data": "2027-06-23",
@@ -345433,7 +347231,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42463606",
-    "nome": "",
+    "nome": "Dot To Dot Festival",
     "descrizione": "Previous Winner of Best Metropolitan Festival at the UK Festival Awards, Dot To Dot Festival is one to watch.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/9/5/2273658_e0a883d7_dot-to-dot-festival.jpg",
     "data": "2027-05-29",
@@ -345476,7 +347274,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42641188",
-    "nome": "",
+    "nome": "Neighbourhood Weekender",
     "descrizione": "Indie and pop festival in Warrington.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/5/2317279_ddcb5a9b_neighbourhood-weekender.jpg",
     "data": "2027-05-29",
@@ -345519,7 +347317,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41592396",
-    "nome": "",
+    "nome": "Street Eat N Beats Festival 2026",
     "descrizione": "Award winning, family friendly, Electronic Dance Music Festival in Essex. UK \nSTREET FOOD | BOUTIQUE BARS | COOL BEATS\n5th Sept 2026, 12.00 till 10.30",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/1/3/2149297_6ea5d2ec_street-eat-n-beats-festival-2026.jpg",
     "data": "2026-09-05",
@@ -345570,7 +347368,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42517624",
-    "nome": "",
+    "nome": "Leyland Festival",
     "descrizione": "Small music festival held in Worden Park, Leyland",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/4/2/2289951_22847243_Leyland-Festival.jpg",
     "data": "2027-06-19",
@@ -345616,7 +347414,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627844",
-    "nome": "",
+    "nome": "ALB Festival",
     "descrizione": "Family-friendly live music weekend run by community organization The ALB, with ticket sales directly funding local charities and community projects.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/2/c/2315064_cade3a17_alb-festival.jpg",
     "data": "2026-09-12",
@@ -345669,7 +347467,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42614316",
-    "nome": "",
+    "nome": "Latitude Festival",
     "descrizione": "Latitude Festival is in Henham Park, Suffolk.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/7/4/2311234_27188661_Latitude-Festival.jpg",
     "data": "2027-07-22",
@@ -345713,7 +347511,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42472290",
-    "nome": "",
+    "nome": "WildStyle Radio Festival",
     "descrizione": "Big Event At Higginson Park, Marlow-On-Thames For The First Time",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/8/e/2275981_9235eb09_wildstyle-radio-festival.jpg",
     "data": "2026-09-12",
@@ -345758,7 +347556,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42640872",
-    "nome": "",
+    "nome": "Camp Bestival - Dorset",
     "descrizione": "Camp Bestival - Dorset",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/7/2317109_11917292_Camp-Bestival---Dorset.jpg",
     "data": "2027-07-29",
@@ -345802,7 +347600,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42603193",
-    "nome": "",
+    "nome": "Brighton Psych Fest",
     "descrizione": "One day multi venue festival in Brighton.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/7/d/2307356_82d26d1f_brighton-psyche-fest.jpg",
     "data": "2026-09-04",
@@ -345865,7 +347663,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41778220",
-    "nome": "",
+    "nome": "Whitby Blues, Rhythm & Rock Festival",
     "descrizione": "Whitby Blues, Rhythm & Rock Festival",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/8/2172262_f19a548b_whitby-blues-rhythm-rock-festival.jpg",
     "data": "2026-11-06",
@@ -345912,7 +347710,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42642894",
-    "nome": "",
+    "nome": "RADAR Festival",
     "descrizione": "RADAR festival celebrates the best in progressive rock and contemporary alternative music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/5/4/2317639_76846116_RADAR-Festival.jpg",
     "data": "2027-07-30",
@@ -345959,7 +347757,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42490513",
-    "nome": "",
+    "nome": "Sunshine Music Festival",
     "descrizione": "\"The UK's premier, family-friendly music and camping festival.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/2/5/2282089_ab2d702f_sunshine-music-festival.jpg",
     "data": "2026-08-27",
@@ -346025,7 +347823,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42613533",
-    "nome": "",
+    "nome": "Tramlines",
     "descrizione": "Tramlines is an annual event held in Hillsborough park, Sheffield.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/a/0/2310846_91224862_Tramlines.jpg",
     "data": "2027-07-23",
@@ -346070,7 +347868,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42607317",
-    "nome": "",
+    "nome": "Lower Lode Inn Oktoberfest 2026",
     "descrizione": "Free-admission riverside Oktoberfest near Tewkesbury, with music, optional fancy-dress and disco themes, parking and camping.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/2/b/2309065_fe453f5f_lower-lode-inn-oktoberfest-2026.jpg",
     "data": "2026-08-28",
@@ -346116,7 +347914,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42308134",
-    "nome": "",
+    "nome": "End of the Road Festival",
     "descrizione": "End of the Road Festival takes place in Dorset at the end of August. The festival is the perfect end of summer blowout.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/d/5/2239066_caaf2f8b_end-of-the-road-festival.jpg",
     "data": "2026-09-03",
@@ -346211,7 +348009,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42565522",
-    "nome": "",
+    "nome": "Heartland Festival",
     "descrizione": "After the huge success of their past events Heartland are back!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/a/2297312_82063395_Heartland-Festival.jpg",
     "data": "2027-06-25",
@@ -346254,7 +348052,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42489402",
-    "nome": "",
+    "nome": "Southport Weekender",
     "descrizione": "Southport Weekender is three epic nights in Spring for the annual event they call - The Worlds Friendliest Party!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/3/2/2281628_83108525_Southport-Weekender.jpg",
     "data": "2027-03-05",
@@ -346296,7 +348094,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42641796",
-    "nome": "",
+    "nome": "Plumpton Revival",
     "descrizione": "Evoking the spirit of previous festivals held at Plumpton Racecourse in the 60s and 70s.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/f/9/2317445_d9dfa7d8_plumpton-revival.jpg",
     "data": "2027-08-07",
@@ -346346,7 +348144,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42504138",
-    "nome": "",
+    "nome": "Download Festival",
     "descrizione": "Britain's greatest rock festival!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/f/7/2284869_30731313_Download-Festival.jpg",
     "data": "2027-06-09",
@@ -346392,7 +348190,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42643058",
-    "nome": "",
+    "nome": "POSHFUNK - The Winter Ball",
     "descrizione": "POSHFUNK returns with our biggest event yet - The Winter Ball",
     "locandina": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
     "data": "2026-11-21",
@@ -346434,7 +348232,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42463212",
-    "nome": "",
+    "nome": "Buckle & Boots Country Festival",
     "descrizione": "'Buckle & Boots' is a country music festival hosting the cream of UK Country talent alongside chart topping US Country stars from across the Atlantic.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/b/e/2273551_39620895_Buckle---Boots-Country-Festival.jpg",
     "data": "2027-05-27",
@@ -346503,7 +348301,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42627847",
-    "nome": "",
+    "nome": "Beat-Herder Festival",
     "descrizione": "Beat-Herder is one of those festivals that really provides breath of fresh air.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/4/7/2315066_30131610_Beat-Herder-Festival.jpg",
     "data": "2027-07-16",
@@ -346600,7 +348398,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42644354",
-    "nome": "",
+    "nome": "Pretty Girl at Fidelity Studio",
     "descrizione": "Melbourne-born producer, DJ and vocalist Emilia Predebon makes her Fidelity debut\nPRETTY GIRL // FIDELITY STUDIO // 16.10.2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/4/1/2318455_6f0905c0_pretty-girl-at-fidelity-studio.jpg",
     "data": "2026-10-16",
@@ -373816,7 +375614,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41999027",
-    "nome": "",
+    "nome": "PorkPie Live at Independent, Sunderland",
     "descrizione": "PorkPie Live at Independent, Sunderland on Saturday 12th September 2026",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/a/c/2199365_d4cfa878_porkpie-live-at-independent-sunderland.jpg",
     "data": "2026-09-12",
@@ -373864,7 +375662,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42158473",
-    "nome": "",
+    "nome": "KING KING WITH SUPPORT ASHELY SHERLOCK BAND Friday 11/09/26",
     "descrizione": "Throughout the music industry, King King are renowned for exceptional musicianship and unforgettable live shows.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/b/2/2218533_71c9d916_king-king-with-support-ashely-sherlock-band-friday-11-09-26.jpg",
     "data": "2026-09-11",
@@ -373910,7 +375708,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42657661",
-    "nome": "",
+    "nome": "RM: Headline Show",
     "descrizione": "RM's First Headline Show - The Luminaire of UK Rap\n\nIt's been a long time coming. Now, it's finally time.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/0/8/2321359_3b525c37_rm-headline-show.jpg",
     "data": "2026-09-17",
@@ -373955,7 +375753,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42428288",
-    "nome": "",
+    "nome": "The Sensational David Bowie Tribute Band Christmas Special",
     "descrizione": "The Sensational David Bowie Tribute Band, the UKs premier tribute to David Bowie. Friday 4th December 2026, 7pm till 10:15pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/c/e/2265300_b9267308_the-sensational-david-bowie-tribute-band-christmas-special.jpg",
     "data": "2026-12-04",
@@ -374003,7 +375801,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42428281",
-    "nome": "",
+    "nome": "The Sensational David Bowie Tribute Band",
     "descrizione": "The Sensational David Bowie Tribute Band, the UKs premier tribute to David Bowie. Saturday 31st October 2026, 7pm till 10pm",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/b/7/2265293_88de36b8_the-sensational-david-bowie-tribute-band.jpg",
     "data": "2026-10-31",
@@ -374051,7 +375849,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42664281",
-    "nome": "",
+    "nome": "The Cases Presale Parish Wrexham",
     "descrizione": "Indie Rockers The Cases head to Wrexham North Wales in December\n\nPresale tickets",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/d/0/2322364_80e9c3e2_the-cases-presale-parish-wrexham.jpg",
     "data": "2026-12-03",
@@ -374097,7 +375895,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42573193",
-    "nome": "",
+    "nome": "Heart Tattoo 5: Johnny Foreigner",
     "descrizione": "Birmingham emo pop indie rock royalty Johnny Foreigner stop by Sheffield, with support from local emo punk rock depressives Slash Fiction",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/0/5/2299705_8c23ca0a_heart-tattoo-4-johnny-foreigner.jpg",
     "data": "2026-09-09",
@@ -374143,7 +375941,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41996900",
-    "nome": "",
+    "nome": "CODA - The Ultimate Led Zeppelin Tribute",
     "descrizione": "Europe's most authentic and exciting Led Zeppelin tribute band, replicating the power, excitement and magic of a Led Zeppelin show like no other.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/7/7/2198728_46108041_CODA---The-Ultimate-Led-Zeppelin-Tribute.jpg",
     "data": "2026-08-28",
@@ -374188,7 +375986,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42156465",
-    "nome": "",
+    "nome": "Kiss/Twisted Sister Tributes - LIVE AT LUNA!",
     "descrizione": "Double Bill - Europe's leading tribute to Kiss - Hotter than Hell / \nTwisted system - Tribute to Twisted Sister!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/3/6/2217797_1df537bd_kiss-twisted-sister-tributes-live-at-luna-.jpg",
     "data": "2026-09-19",
@@ -374233,7 +376031,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42161333",
-    "nome": "",
+    "nome": "The Bracknall  - Bristol",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/4/0/2219499_316fec9b_the-bracknall-bristol.jpg",
     "data": "2026-11-19",
@@ -374280,7 +376078,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42656854",
-    "nome": "",
+    "nome": "Big Condo Records Presents Emilie Culshaw IGYC Tour Liverpool",
     "descrizione": "Big Condo Records Presents Emilie Culshaw IGYC Tour Liverpool with Tasha MC, Baby Belle, Liberty, Isla Jane, Lydia,  Phoebie Rae, Amaranth, Mia G...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/a/3/2321163_25c69bcc_big-condo-records-presents-emilie-culshaw-igyc-tour-liverpool.jpg",
     "data": "2026-10-11",
@@ -374327,7 +376125,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42571131",
-    "nome": "",
+    "nome": "The Ultra Violets",
     "descrizione": "SW legends, The Ultra Violets, take on The Barbican Theatre, with support from HAYTOR & ARCADIAN... this is one you do not want to miss!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/b/8/2299253_778a7b58_the-ultra-violets.jpg",
     "data": "2026-08-22",
@@ -374370,7 +376168,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42303398",
-    "nome": "",
+    "nome": "The Meffs - Instore",
     "descrizione": "The Meffs come to Sheffield for a special Album Launch Show at Arundel Emporium",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/d/4/2238167_32e6f8f3_the-meffs-instore.jpg",
     "data": "2026-09-21",
@@ -374416,7 +376214,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41643771",
-    "nome": "",
+    "nome": "Reelin' in the Dan @ Voodoo Rooms, Edinburgh",
     "descrizione": "Reelin' in the Dan play all the hits and selected deep cut album tracks of Steely Dan from 1972-1980.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/b/e/2161217_d7c1b73b_reelin-in-the-dan-voodoo-rooms-edinburgh.jpg",
     "data": "2026-10-29",
@@ -374460,7 +376258,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42597293",
-    "nome": "",
+    "nome": "FOARN - Stoke",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/3/2/2305919_c993f680_foarn-stoke.jpg",
     "data": "2026-12-04",
@@ -374505,7 +376303,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42082165",
-    "nome": "",
+    "nome": "Nic Cage Against The Machine",
     "descrizione": "It's a Rage Against the Machine tribute band, fronted by a Nicolas Cage tribute, with movie-specific props & costumes. That's all you need to know.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/7/9/2204573_c93b2345_nic-cage-against-the-machine.jpg",
     "data": "2026-10-16",
@@ -374551,7 +376349,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41643603",
-    "nome": "",
+    "nome": "Death of Guitar Pop",
     "descrizione": "Death of Guitar Pop are one of the hottest names in British ska!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/1/f/2161113_6ac3befa_death-of-guitar-pop.jpg",
     "data": "2026-11-13",
@@ -374595,7 +376393,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42596980",
-    "nome": "",
+    "nome": "Goldie Lookin Chain - YOU SNOWS IT 26 @ Black Cat, Bridgend",
     "descrizione": "The GLC boys are BACK!\n\nMore info to follow.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/8/b/2305759_5a7eea6c_goldie-lookin-chain-you-snows-it-26-black-cat-bridgend.jpg",
     "data": "2026-12-12",
@@ -374641,7 +376439,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42526787",
-    "nome": "",
+    "nome": "Paul Quinn of Saxon The Ferret Preston 30/10/2026",
     "descrizione": "The legend himself Paul Quinn founding member and lead guitarist of Saxon is coming to Preston!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/c/1/2290610_2c038f21_paul-quinn-of-saxon-the-ferret-preston-01-10-2026.jpg",
     "data": "2026-10-30",
@@ -374684,7 +376482,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41595271",
-    "nome": "",
+    "nome": "Rattus play the music of The Stranglers -The Star Inn Guildford",
     "descrizione": "Rattus are back to play the music of the Stranglers in the iconic back room at The Star Inn.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/e/3/2150172_77909580_Rattus-play-the-music-of-The-Stranglers--The-Star-Inn-Guildford.jpg",
     "data": "2026-10-03",
@@ -374732,7 +376530,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42129639",
-    "nome": "",
+    "nome": "Supertramp performed LIVE in Liverpool by LogicalTramp",
     "descrizione": "Supertramp performed LIVE in Liverpool! Classics like The Logical Song, Breakfast in America & Dreamer in a full concert performed by LogicalTramp",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/b/2/2211788_c5109604_supertramp-performed-live-in-liverpool-by-logicaltramp.jpg",
     "data": "2027-07-16",
@@ -374776,7 +376574,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41597601",
-    "nome": "",
+    "nome": "Rattus play the music of The Stranglers live.",
     "descrizione": "Rattus play The Stranglers at Sidney and Matilda. Plus support from Hollow Dawn - Goth influenced sound - The Mission, Sisters of Mercy, Depeche Mode",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/e/4/2150676_0aa5b10b_rattus-play-the-music-of-the-stranglers-live-.jpg",
     "data": "2026-11-14",
@@ -374824,7 +376622,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42174317",
-    "nome": "",
+    "nome": "Unite 2026",
     "descrizione": "Unite 2026\n\nThe Gospel Experience,\n\n\n\n\nA night where everyone can get together to sing , eat and dance to Gospel music from all over the world.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/f/f/2222783_9720bc90_unite-2026.jpg",
     "data": "2026-11-21",
@@ -374869,7 +376667,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42582072",
-    "nome": "",
+    "nome": "Penthouse Big Summer Showcase",
     "descrizione": "Taking place on 22nd August 2026, NINETEEN acts will perform over two stages at Brasshouse Dunfermline with doors opening at 12pm and running until 11",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/f/3/2301774_ed3db6c6_penthouse-big-summer-showcase.jpg",
     "data": "2026-08-22",
@@ -374920,7 +376718,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41613623",
-    "nome": "",
+    "nome": "Kings of Leon and The Strokes performed LIVE at Camp and Furnace",
     "descrizione": "Celebrate 2 of indie's greatest bands with Kings of Lyon & UK Strokes tributes performing the biggest anthems from Kings of Leon and The Strokes live.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/5/4/2153674_b50b4de0_kings-of-leon-and-the-strokes-live-tributes-at-camp-and-furnace.jpg",
     "data": "2026-09-25",
@@ -374966,7 +376764,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42612716",
-    "nome": "",
+    "nome": "First Children Presents: Dear Diary",
     "descrizione": "First Children-01:\nDear Diary (Leeds Deathcore) / Dysthymia (Yorkshire Brutal Death) / Claymore (Leeds Edge Metalcore) / Isobel (Brighton Screamo)",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/7/b/2310588_ab3fc67d_first-children-presents-dear-diary.jpg",
     "data": "2026-08-23",
@@ -375012,7 +376810,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41735995",
-    "nome": "",
+    "nome": "Fleetwood Mac - \"Landslide\"  with support tbc'd",
     "descrizione": "Arguably one of the very best tributes to Fleetwood Mac in the UK returns to York after their last 2 sellout events in 2024 ,2025.\nBook early!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/1/4/2168884_54463782_Fleetwood-Mac----Landslide---with-support-tbc-d.jpg",
     "data": "2026-12-04",
@@ -375059,7 +376857,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42568433",
-    "nome": "",
+    "nome": "Fleetingwood Mac / MK11 Milton Keynes",
     "descrizione": "MK11 are happy to present the return of the world-class tribute to Fleetwood Mac: Fleetingwood Mac",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/5/b/2298252_53068685_Fleetingwood-Mac---MK11-Milton-Keynes.jpg",
     "data": "2026-11-06",
@@ -375105,7 +376903,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42658887",
-    "nome": "",
+    "nome": "Wirebugs - London",
     "descrizione": "\"If you're going to see the emergence of a new great band you'll see them at This Feeling first.\" Carl Barat",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/d/8/2321579_7524cf0a_wirebugs-london.jpg",
     "data": "2026-09-11",
@@ -375150,7 +376948,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42470763",
-    "nome": "",
+    "nome": "TebayFest 2026",
     "descrizione": "TebayFest is a celebration of live music, community, and great times in the heart of the Eden Valley.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/2/6/2275523_5e207071_tebayfest-2026.jpg",
     "data": "2026-08-30",
@@ -375198,7 +376996,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41653349",
-    "nome": "",
+    "nome": "Total Rex",
     "descrizione": "Total Rex deliver an electrifying tribute to Marc Bolan and T. Rex, packed with glam-rock hits, glittering riffs and that unmistakable Bolan magic.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/8/f/2164627_64d0cc19_total-rex.jpg",
     "data": "2026-08-29",
@@ -375244,7 +377042,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42618898",
-    "nome": "",
+    "nome": "TOSH // Charity Event",
     "descrizione": "Raising money for Andy's Man Club",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/5/d/2312718_81c92a78_tosh-charity-event.jpg",
     "data": "2026-08-22",
@@ -375287,7 +377085,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42570964",
-    "nome": "",
+    "nome": "Afro Latin Electronic Night with Kam Cuba",
     "descrizione": "Come and join us for an unforgettable night of Afro Latin rhythms mixed with electronic beats accompanied by some delicious Caribbean food.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/0/2299118_e5b685ec_afro-latin-electronic-night.jpg",
     "data": "2026-09-11",
@@ -375333,7 +377131,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42476714",
-    "nome": "",
+    "nome": "Conway The Machine + Daringer - Reject 2 Tour",
     "descrizione": "The Griselda legend Conway The Machine + super producer Daringer come to Bristol marking the 10 year anniversary of the classic 'Reject 2' album!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/3/e/2277413_7667bc0d_conway-the-machine-daringer-reject-2-tour.jpg",
     "data": "2026-10-29",
@@ -375378,7 +377176,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42603968",
-    "nome": "",
+    "nome": "Desperate Dan Perform music by Steely Dan",
     "descrizione": "Desperate Dan Perform the Classic Albums AJA & GAUCHO in their Entirety",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/9/a/2307687_d720e3b3_desperate-dan-perform-music-by-steely-dan.jpg",
     "data": "2026-09-17",
@@ -375421,7 +377219,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41474190",
-    "nome": "",
+    "nome": "Emilio Santoro as Elvis",
     "descrizione": "Crowned 2024 Ultimate Elvis Tribute Artist World Champion Emilio Santoro brings his award-winning Elvis show to Chepstow Castle.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/a/e/2135896_eacf2f09_emilio-santoro-as-elvis.jpg",
     "data": "2026-08-30",
@@ -375469,7 +377267,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42644247",
-    "nome": "",
+    "nome": "Our friends electric ft Paranoid London & Logan Fisher",
     "descrizione": "Paranoid london, Logan fisher, Evil plans DJs & Andy Chick - at the next Our friends electric installment at the incredible British Engineerium.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/e/2318367_a75cb3f0_our-friends-electric-ft-paranoid-london-logan-fisher.jpg",
     "data": "2026-10-17",
@@ -375517,7 +377315,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42650731",
-    "nome": "",
+    "nome": "Sunday Sessions: Malta Reunion",
     "descrizione": "Bringing the memories of an amazing summer back to life...\n\nWe're doing it all over again",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/e/7/2320717_98387836_Sunday-Sessions--Malta-Reunion.jpg",
     "data": "2026-10-04",
@@ -375565,7 +377363,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42628410",
-    "nome": "",
+    "nome": "Detonate Halloween: KINGS OF THE ROLLERS + More!",
     "descrizione": "Detonate Halloween Nottingham... 1st Headliner Announced: KINGS OF THE ROLLERS. Loads more to be announced as we touch down this Halloween...",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/e/8/2315242_00f3639a_detonate-halloween-kings-of-the-rollers-more-.jpg",
     "data": "2026-10-31",
@@ -375615,7 +377413,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42393289",
-    "nome": "",
+    "nome": "Space Summer Terrace Party",
     "descrizione": "The Ultimate 90's & 00's Reunion \nWith 2 of the biggest brands Space & Back2space Yorkshire has seen.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/e/4/2256501_03bbcbc9_space-summer-terrace-partyu.jpg",
     "data": "2026-08-22",
@@ -375662,7 +377460,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42662825",
-    "nome": "",
+    "nome": "TCB Presents 2026 Closing Party",
     "descrizione": "TCB 2026 'Closing Party' - Where the Beat meets the Soul: Day/Night Party 4pm to 10pm OVER TWO FLOORS, one of HOUSE and one of SOUL/DISCO/FUNK.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/4/7/2321981_27711675_TCB-Presents-2026-Closing-Party.jpg",
     "data": "2026-12-19",
@@ -375710,7 +377508,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42587541",
-    "nome": "",
+    "nome": "Off The Clock",
     "descrizione": "IBIZA ENERGY LONDON SKYLINE\nDJ HASKELL brings House & Tech House favourites Sam Supplier, DJ S.K.T and Lewis John for an all day summer rooftop party!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/0/f/2303182_c38af0f8_off-the-clock.jpg",
     "data": "2026-08-23",
@@ -375758,7 +377556,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41978646",
-    "nome": "",
+    "nome": "Summer Series - Pop Icons, Legends & Divas Bottomless Brunch",
     "descrizione": "Get ready to sing, dance, and slay as we pay tribute to the ultimate Pop Icons, timeless Legends, and fierce Divas who shaped music, style, and sass!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/2/2/2194048_ce222825_pop-icons-legends-divas-bottomless-brunch.jpg",
     "data": "2026-08-22",
@@ -375804,7 +377602,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42375422",
-    "nome": "",
+    "nome": "Mr Traumatik tour 2026 ft ELRO",
     "descrizione": "LC BASS EVENTS presents the official Mr Traumatik UK tour 2026 live with DJ Frenzee. NEWPORT Gang!! this one's you!! High energy high vibrations",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/f/5/2255989_69050312_Mr-Traumatik-tour-2026.jpg",
     "data": "2026-08-28",
@@ -375851,7 +377649,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42604389",
-    "nome": "",
+    "nome": "Rupture X Unity Underground BIRTHDAY EVENT",
     "descrizione": "We celebrate 20 years of Rupture and 3 years of Unity Underground at the legendary Sheffield venue FORGE Warehouse - come join us!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/f/8/2307927_f17b07b6_rupture-ldn-x-unity-underground-birthday-event.jpg",
     "data": "2026-12-04",
@@ -375901,7 +377699,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42618723",
-    "nome": "",
+    "nome": "SUNSET - End of Summer Garden Party",
     "descrizione": "SUNSET\n\nEnd of summer Garden Party\n\nGroove Assassin (Defected)\nDave Law (Tempo/Hacienda)\n+ Support DJ's",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/7/4/2312661_fcf9adaf_sunset-end-of-summer-garden-party.jpg",
     "data": "2026-08-28",
@@ -375950,7 +377748,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42088733",
-    "nome": "",
+    "nome": "Vinyl Fantasy 3.0. The Third Dimension Birthday Party",
     "descrizione": "Vinyl Fantasy returns to SWG3, this time to take over SWG3 Warehouse on Saturday 17 October 2026 - for a special birthday celebration.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/f/c/2206669_be60b0c3_vinyl-fantasy-3-0-the-third-dimenson-birthday-party.jpg",
     "data": "2026-10-17",
@@ -375998,7 +377796,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42596193",
-    "nome": "",
+    "nome": "Dublab: Amplify & Gray",
     "descrizione": "Amplify & Gray touch down at The Vault",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/f/8/2305214_2c364776_dublab-amplify-gray.jpg",
     "data": "2026-08-28",
@@ -376043,7 +377841,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42474782",
-    "nome": "",
+    "nome": "FLUFF - Feel Good House Music - Daytime Yard Party",
     "descrizione": "FLUFF returns to Under the Prom in Cheltenham for our first outdoor Yard Party with a day full of Feel Good Vocal House Music and Classics",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/f/d/2276868_33953252_FLUFF---Daytime-Yard-Party.jpg",
     "data": "2026-08-22",
@@ -376088,7 +377886,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42616606",
-    "nome": "",
+    "nome": "District 909",
     "descrizione": "DISTRICT 909 lands at World Headquarters, Newcastle.Experience a night of hard techno and industrial sounds featuring WEBBO, TRKN and EMBERS",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/e/1/2311953_d9b11896_district-909.jpg",
     "data": "2026-08-22",
@@ -376135,7 +377933,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42564670",
-    "nome": "",
+    "nome": "After Hours w/ Supa, Pioneer and Shenin AMARA",
     "descrizione": "October 17th, we bring to Leicester our biggest lineup including Supa D, Pioneer and many more. This is not one to miss",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/8/8/8/2297102_73b25856_after-hours-birthday-2026.jpg",
     "data": "2026-10-17",
@@ -376189,7 +377987,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42645780",
-    "nome": "",
+    "nome": "Fish56Octagon",
     "descrizione": "After tearing the place apart last year, it was only right we got Fish56Octagon back. Expect another sellout on October 24th",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/3/1/2319054_c63b82ed_fish56octagon.jpg",
     "data": "2026-10-24",
@@ -376237,7 +378035,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42650573",
-    "nome": "",
+    "nome": "4am Kru + Jolie P + more TBA",
     "descrizione": "London duo 4am Kru bring their unmistakable jungle sound to Quarters.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/9/8/2320643_05e05990_4am-kru-jolie-p-more-tba.jpg",
     "data": "2026-10-16",
@@ -376282,7 +378080,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42509887",
-    "nome": "",
+    "nome": "This is Bounce UK  vs Ministry of Bounce Halloween Special",
     "descrizione": "Northwest's heavy hitters THIS IS BOUNCE UK joins forces with MINISTRY OF BOUNCE for a HALLOWEEN SPECIAL like no other at the might DIGITAL NEWCASTLE.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/e/9/2286885_c61da735_this-is-bounce-vs-ministry-of-bounce-halloween-special.jpg",
     "data": "2026-10-23",
@@ -376329,7 +378127,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42639628",
-    "nome": "",
+    "nome": "QUADRANT PARK : The Christmas Quad",
     "descrizione": "We are back with our annual Christmas P A R T Y with our ORIGINAL DJs and Extra SPECIAL GUESTS , get your tickets early",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/4/9/2316755_24b3a8af_the-christmas-quad.jpg",
     "data": "2026-12-28",
@@ -376380,7 +378178,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42488461",
-    "nome": "",
+    "nome": "MOVIDA 3rd Birthday - Rob Tissera, HASKELL & Marc West! 21st NOV",
     "descrizione": "MOVIDA is celebrating its 3rd Birthday with its biggest line up at Loughborough's Newest Venue - The Generator!\n\nRob Tissera | HASKELL | Marc West",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/a/0/2281150_cc74e443_movida-3rd-birthday-rob-tissera-haskell-marc-west-21st-nov.jpg",
     "data": "2026-11-21",
@@ -376431,7 +378229,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42577137",
-    "nome": "",
+    "nome": "DJ APOSTLE PRESENTS : Girls love bassline part 3!",
     "descrizione": "Girls Love Bassline is back for Part 3 \n\nThis time we're celebrating SG & CZ's Birthday Bash at Your House, Wolverhampton.\n\nFollow @girlsloveevents",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/0/a/2300372_1307a106_dj-apostle-presents-girls-love-bassline-part-3-.jpg",
     "data": "2026-08-22",
@@ -376480,7 +378278,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42578131",
-    "nome": "",
+    "nome": "The Drop Zone",
     "descrizione": "Splitting Frequencies DNB lands with The Drop Zone. Day Party with two huge headliners Selecta J Man and Kendrick plus a stacked support line up!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/4/8/f/2300652_d7d1eb62_the-drop-zone.jpg",
     "data": "2026-08-22",
@@ -376534,7 +378332,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42596181",
-    "nome": "",
+    "nome": "DAPPY Live at Casa Nova",
     "descrizione": "Former N-Dubs Dappy, Live preforming at Casa Nova nightclub! Throwing you back in time with nostaligic greatness from the rap icon himself!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/a/e/2305202_21237108_DAPPY-Live-at-Casa-Nova.jpg",
     "data": "2026-08-30",
@@ -376583,7 +378381,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42661058",
-    "nome": "",
+    "nome": "The jungle jam",
     "descrizione": "A top jungle night with Micky finn and jumping jack frost",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/f/f/2321874_62228333_The-jungle-jam.jpg",
     "data": "2026-09-26",
@@ -376630,7 +378428,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42417352",
-    "nome": "",
+    "nome": "Drum and Bass Classics Brighton | Halloween All Dayer",
     "descrizione": "This Halloween join us in Brighton to step back in time to the 1995-2015 golden era of Drum & Bass, when classics were made & legends born!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/0/1/2262935_27684013_Drum-and-Bass-Classics-Brighton---Halloween-All-Dayer.jpg",
     "data": "2026-10-31",
@@ -376676,7 +378474,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41428660",
-    "nome": "",
+    "nome": "Sticklefest",
     "descrizione": "Sticklefest is a beer, music, food and arts festival, held annually in the picturesque Langdale Valley in the Lake District, Cumbria.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/0/0/e/2123058_9db1df45_sticklefest.jpg",
     "data": "2026-09-25",
@@ -376722,7 +378520,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42661175",
-    "nome": "",
+    "nome": "Garage Nation Bedford Indoor Festival",
     "descrizione": "Garage Nation returns to Bedford for an October Indoor Festival!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/5/1/2321893_95258503_Garage-Nation-Bedford-Indoor-Festival.jpg",
     "data": "2026-10-31",
@@ -376765,7 +378563,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42650796",
-    "nome": "",
+    "nome": "The Rift 2",
     "descrizione": "A 3 day festival with an eclectic mix of artists from the North of England organised by DIY grassroots promoters Mozzenjammer - with on site camping",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/d/3/2320750_8408d360_the-rift-2.jpg",
     "data": "2027-04-30",
@@ -376811,7 +378609,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41778485",
-    "nome": "",
+    "nome": "Emerge Music Festival Belfast",
     "descrizione": "Emerge Music Festival Belfast returns to Boucher Playing Fields, Hosting International Dance headline acts and local Belfast talent.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/a/0/f/2172422_b39705fb_emerge-music-festival-belfast.jpg",
     "data": "2026-08-30",
@@ -376865,7 +378663,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42491545",
-    "nome": "",
+    "nome": "Pitchfork Music Festival London",
     "descrizione": "Indie music festival held at multiple venues in London.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/c/f/2282245_fd15ce18_pitchfork-music-festival-london.jpg",
     "data": "2026-11-02",
@@ -376928,7 +378726,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42463407",
-    "nome": "",
+    "nome": "The Big Retreat Festival",
     "descrizione": "Find your feel good at The Big Retreat Festival.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/7/e/2273604_44397859_The-Big-Retreat-Festival.jpg",
     "data": "2027-05-28",
@@ -376972,7 +378770,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42463116",
-    "nome": "",
+    "nome": "Bearded Theory",
     "descrizione": "Bearded Theory's Spring Gathering, also known as Bearded Theory, is an independent music festival that takes place in May.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/8/c/2273515_62078107_Bearded-Theory.jpg",
     "data": "2027-05-26",
@@ -377017,7 +378815,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42503605",
-    "nome": "",
+    "nome": "Earlham Park Tribute Festival 2027",
     "descrizione": "Get ready for a full day of unforgettable live music as the Earlham Park Tribute Festival comes to Norwich on Saturday 12th June 2027",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/e/6/2284665_35269437_Earlham-Park-Tribute-Festival-2027.jpg",
     "data": "2027-06-12",
@@ -377069,7 +378867,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42665800",
-    "nome": "",
+    "nome": "Vegan Camp Out",
     "descrizione": "Vegan Camp Out is the world's largest vegan camping festival.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/6/d/2322840_71134032_Vegan-Camp-Out.jpg",
     "data": "2027-08-13",
@@ -377114,7 +378912,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41409278",
-    "nome": "",
+    "nome": "Rock N Roll Circus Festival Sheffield",
     "descrizione": "Rock N Roll Circus Festival comes to Sheffield!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/1/0/2118727_39524304_Rock-N-Roll-Circus-Festival-Sheffield.jpg",
     "data": "2026-08-27",
@@ -377190,7 +378988,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42464115",
-    "nome": "",
+    "nome": "Wanderlust Festival Southhampton",
     "descrizione": "Multi-venue all day festival",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/2/1/2273697_22729241_Wanderlust-Festival-Southhampton.jpg",
     "data": "2027-05-01",
@@ -377235,7 +379033,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41021285",
-    "nome": "",
+    "nome": "The Beat Goes On Presents An Acid Barn Dance",
     "descrizione": "Back to Basics 1 Barn 1 Stage 1 Weekend\nStunning Countryside Location \nFully Licenced Bar /24Hr Security Basic campsite facilities",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/1/8/2027351_e2692f6d_the-beat-goes-on-presents-an-acid-barn-dance.jpg",
     "data": "2026-08-28",
@@ -377278,7 +379076,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42507395",
-    "nome": "",
+    "nome": "Krankenhaus Festival",
     "descrizione": "Thrilling music, prize-winning authors, comedy, fell walking and even raptor displays, brought to you by Sea Power, Muncaster Castle and friends.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/2/b/2286156_6702ec2d_krankenhaus-festival.jpg",
     "data": "2026-08-28",
@@ -377341,7 +379139,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42447787",
-    "nome": "",
+    "nome": "The Great Escape",
     "descrizione": "Festival for new music",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/e/8/8/2270107_51388903_The-Great-Escape.jpg",
     "data": "2027-05-12",
@@ -377383,7 +379181,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42634263",
-    "nome": "",
+    "nome": "Dub At The Pub",
     "descrizione": "Join us on the Somerset levels for heavyweight bass in ya face ! \nRunning over 2 days cos Sundays are beautiful and why not keep the party going!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/7/b/2316239_75974df5_dub-at-the-pub.jpg",
     "data": "2026-09-19",
@@ -377433,7 +379231,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42613684",
-    "nome": "",
+    "nome": "Truck Festival",
     "descrizione": "Truck is undoubtedly one of those festivals that shows the rest of them how it should be done. Loads of great music.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/5/2310898_99136724_Truck-Festival.jpg",
     "data": "2027-07-22",
@@ -377478,7 +379276,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41747918",
-    "nome": "",
+    "nome": "MKF Festival",
     "descrizione": "From the creators of Festwich, MKF returns to Campbell Park this August bank holiday weekend!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/5/7/9/2170386_012abfe9_mkf-festival.jpg",
     "data": "2026-08-29",
@@ -377547,7 +379345,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42589923",
-    "nome": "",
+    "nome": "FixFest",
     "descrizione": "FixFest is the first ever music festival for the trades!",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/2/9/4/2304131_21897687_FixFest.jpg",
     "data": "2027-07-10",
@@ -377593,7 +379391,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42463227",
-    "nome": "",
+    "nome": "Shindig Festival",
     "descrizione": "One of the few genuinely boutique festivals. No VIP areas, no main stages...just a beautiful arrangement of themed venues.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/d/a/8/2273556_33125748_Shindig-Festival.jpg",
     "data": "2027-05-28",
@@ -377637,7 +379435,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42661054",
-    "nome": "",
+    "nome": "Donny Fest",
     "descrizione": "Doncaster music festival.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/d/b/2321870_95924919_Donny-Fest.jpg",
     "data": "2027-06-05",
@@ -377680,7 +379478,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42614760",
-    "nome": "",
+    "nome": "Get Together Festival",
     "descrizione": "Get Together has earned a reputation as one of the best festivals for original and independent music, art, food and drink.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/d/2/2311357_ad2ca481_get-together-festival.jpg",
     "data": "2027-05-15",
@@ -377724,7 +379522,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42598287",
-    "nome": "",
+    "nome": "Cafe Mambo Ibiza Classics in the Park 2027",
     "descrizione": "Incredible new location for 2027!\nThe stunning Carlton Towers stately home and 250-acre country estate is perfectly located between Selby and Goole.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/9/a/4/2306417_00269f22_cafe-mambo-ibiza-classics-in-the-park-2027.jpg",
     "data": "2027-07-10",
@@ -377770,7 +379568,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-41408996",
-    "nome": "",
+    "nome": "Sound City Festival",
     "descrizione": "Sound City Festival in Sussex.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/f/f/e/2118609_53067724_Sound-City-Festival.jpg",
     "data": "2026-09-04",
@@ -377847,7 +379645,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42577875",
-    "nome": "",
+    "nome": "Lytham Festival",
     "descrizione": "5 Nights of Live Music on Lytham Green.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/3/e/4/2300553_12881452_Lytham-Festival.jpg",
     "data": "2027-06-30",
@@ -377893,7 +379691,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42638922",
-    "nome": "",
+    "nome": "Free fest",
     "descrizione": "� FREE FEST - August Bank Holiday Saturday! �\nJoin us for a fantastic day of live entertainment, great food, and family fun at our FREE Fest Festival",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/1/2/0/2316567_c985af1d_free-fest.jpg",
     "data": "2026-08-29",
@@ -377943,7 +379741,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42368989",
-    "nome": "",
+    "nome": "Shiiine On Weekender - Minehead",
     "descrizione": "Indie festival at Minehead Butlins.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/c/1/0/2253578_903da316_shiiine-on-weekender-minehead.jpg",
     "data": "2026-11-13",
@@ -378022,7 +379820,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42277119",
-    "nome": "",
+    "nome": "Rock the Gardens",
     "descrizione": "Featuring rock and metal's favourite tribute acts.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/6/e/3/2233470_552f0964_rock-the-gardens.jpg",
     "data": "2027-01-29",
@@ -378073,7 +379871,7 @@ window.DPA_EVENTS_FALLBACK = [
   },
   {
     "id": "skiddle-42250306",
-    "nome": "",
+    "nome": "Beermageddon",
     "descrizione": "Hard and Heavy Metal festival.",
     "locandina": "https://d31fr2pwly4c4s.cloudfront.net/b/5/6/2224794_3a865673_beermageddon.jpg",
     "data": "2026-08-27",

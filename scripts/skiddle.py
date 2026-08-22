@@ -83,6 +83,27 @@ def _apply_aff(url):
     return url
 
 
+def _event_name(data):
+    """Skiddle usa eventname nei risultati; name resta come fallback storico."""
+    if isinstance(data, list):
+        for item in data:
+            nome = _event_name(item)
+            if nome:
+                return nome
+        return ""
+    if not isinstance(data, dict):
+        return ""
+    nome = str(data.get("eventname") or data.get("name") or "").strip()
+    if nome:
+        return nome
+    # L'endpoint dettaglio puo' avvolgere l'evento in results/event/data.
+    for chiave in ("results", "result", "event", "data"):
+        nome = _event_name(data.get(chiave))
+        if nome:
+            return nome
+    return ""
+
+
 def fonte_skiddle(api_key, paese="GB", eventcode="LIVE", limit=100, offset=0, min_date=None):
     """Una pagina di risultati Skiddle per un paese + tipo di evento."""
     params = {
@@ -125,7 +146,7 @@ def _to_raw(e, tipo, cc):
 
     return {
         "id": "skiddle-" + str(e.get("id") or ""),
-        "nome": (e.get("name") or "").strip(),
+        "nome": _event_name(e),
         "descrizione": e.get("description") or "",
         "data": data_, "ora": ora,
         "paese": CC2IT.get(cc, cc), "paese_code": cc,
@@ -184,7 +205,10 @@ def run():
 
     print(">> Normalizzazione + geocoding (solo dove mancano le coordinate)...")
     cache = ingest._load_json(ingest.GEOCACHE, {})
-    puliti = [ingest.normalizza(r, "skiddle", cache) for r in grezzi]
+    senza_nome = sum(1 for r in grezzi if not r.get("nome"))
+    if senza_nome:
+        print(f"   ! Scartati {senza_nome} record Skiddle senza titolo.")
+    puliti = [ingest.normalizza(r, "skiddle", cache) for r in grezzi if r.get("nome")]
     ingest._save_json(ingest.GEOCACHE, cache)
 
     pending = ingest._load_json(ingest.PENDING_JSON, [])
@@ -210,8 +234,67 @@ def mostra():
         print(f"  {e['data']}  {e['nome']} — {e['citta']} [{g}]")
 
 
+def _dettaglio_evento(api_key, event_id):
+    numeric_id = str(event_id or "").replace("skiddle-", "", 1)
+    url = "https://www.skiddle.com/api/v1/events/{}/?{}".format(
+        urllib.parse.quote(numeric_id),
+        urllib.parse.urlencode({"api_key": api_key, "description": 1}),
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": "DeadPeopleActivity/1.0"})
+    with urllib.request.urlopen(req, timeout=25) as response:
+        return json.load(response)
+
+
+def ripara_nomi():
+    """Recupera dall'API i titoli mancanti dei record Skiddle gia' pubblicati."""
+    key = os.environ.get("SKIDDLE_KEY", "")
+    if not key:
+        print("ERRORE: SKIDDLE_KEY non configurata in config.bat.")
+        return 1
+
+    pubblicati = ingest._load_json(ingest.EVENTS_JSON, [])
+    coda = ingest._load_json(ingest.PENDING_JSON, [])
+    mancanti = [e for e in pubblicati + coda
+                if e.get("fonte") == "skiddle" and not str(e.get("nome") or "").strip()]
+    if not mancanti:
+        print("Nessun evento Skiddle senza titolo da riparare.")
+        return 0
+
+    ingest.backup_eventi()
+    corretti, falliti = 0, []
+    totale = len(mancanti)
+    for indice, evento in enumerate(mancanti, 1):
+        try:
+            dettaglio = _dettaglio_evento(key, evento.get("id"))
+            nome = _event_name(dettaglio)
+            if not nome:
+                raise ValueError("titolo assente nella risposta API")
+            evento["nome"] = nome
+            url = evento.get("biglietti_url")
+            evento["biglietti"] = ([{
+                "fonte": "skiddle",
+                "url": url,
+                "prezzo": evento.get("prezzo"),
+                "gratuito": bool(evento.get("gratuito")),
+            }] if url else [])
+            corretti += 1
+            print(f"[{indice}/{totale}] {evento.get('id')} -> {nome}")
+        except Exception as exc:
+            falliti.append({"id": evento.get("id"), "errore": str(exc)})
+            print(f"[{indice}/{totale}] {evento.get('id')} -> ERRORE: {exc}")
+        time.sleep(0.25)
+
+    ingest._save_json(ingest.EVENTS_JSON, pubblicati)
+    ingest._save_json(ingest.PENDING_JSON, coda)
+    ingest.mirror_fallback()
+    print(f"Riparati: {corretti} - ancora senza titolo: {len(falliti)}")
+    return 0 if not falliti else 2
+
+
 if __name__ == "__main__":
-    if "--approva" in sys.argv:
+    if "--ripara-nomi" in sys.argv:
+        raise SystemExit(ripara_nomi())
+    elif "--approva" in sys.argv:
         ingest.approva_fonte("skiddle")
     elif "--show" in sys.argv:
         mostra()
