@@ -32,6 +32,25 @@
     var searchResults = [];  // risultati della barra di ricerca (livello "search")
     var quickFilter = "all"; // tutti | rock | rap | electronic | festival
 
+    function tr(key, fallback, variables) {
+        if (window.DPA_I18N) {
+            var translated = window.DPA_I18N.t(key, variables);
+            if (translated && translated !== key) return translated;
+        }
+        var value = fallback;
+        Object.keys(variables || {}).forEach(function (name) {
+            value = value.replace(new RegExp("\\{" + name + "\\}", "g"), String(variables[name]));
+        });
+        return value;
+    }
+    function displayCountry(name) {
+        var code = Object.keys(CODE2IT).find(function (key) { return CODE2IT[key] === name; });
+        var language = window.DPA_I18N ? window.DPA_I18N.getLanguage() : "it";
+        if (!code || typeof Intl.DisplayNames !== "function") return name;
+        try { return new Intl.DisplayNames([language], { type: "region" }).of(code) || name; }
+        catch (e) { return name; }
+    }
+
     // Nomi paese GeoJSON (inglese) -> nostri nomi (italiano)
     var EN2IT = {
         "Italy": "Italia", "Spain": "Spagna", "United Kingdom": "Regno Unito",
@@ -81,7 +100,7 @@
     }
     function genreFamilyLabel(group) {
         if (group === "rap") return "Rap / Hip-Hop";
-        if (group === "electronic") return "Techno / Elettronica";
+        if (group === "electronic") return tr("map.electronic", "Techno / Elettronica");
         return "Rock / Punk / Metal / Indie";
     }
     function isFestival(ev) {
@@ -90,6 +109,23 @@
     }
 
     document.addEventListener("DOMContentLoaded", init);
+    document.addEventListener("dpa:languagechange", function () {
+        if (!map) return;
+        document.querySelectorAll("#f-paese option").forEach(function (option) {
+            if (option.value) option.textContent = displayCountry(option.value);
+        });
+        var nearButton = document.getElementById("btnNearMe");
+        if (nearButton) {
+            nearButton.textContent = tr("map.near_me", "📍 Vicino a me");
+            nearButton.title = tr("map.near_me_title", "Mostra gli eventi vicino a te");
+        }
+        refreshCountryLabels();
+        updateZonaControls();
+        updateBreadcrumb();
+        renderList();
+        buildChatbot();
+        refreshCurrent();
+    });
 
     function init() {
         if (!document.getElementById("map")) return;
@@ -205,10 +241,22 @@
         var itName = toIT(enName);
         countryBounds[itName] = layer.getBounds();
         var count = ALL.filter(function (e) { return e.paese === itName; }).length;
-        layer.bindTooltip(itName + (count ? " &middot; " + count + " eventi" : ""), { className: "dpa-country-tip", sticky: true });
+        layer.bindTooltip(displayCountry(itName) + (count ? " &middot; " + tr("map.country_events", "{count} eventi", { count: count }) : ""), { className: "dpa-country-tip", sticky: true });
         layer.on("mouseover", function () { layer.setStyle(countryHoverStyle()); layer.bringToFront(); });
         layer.on("mouseout", function () { if (countriesLayer) countriesLayer.resetStyle(layer); });
         layer.on("click", function () { selectCountry(itName, layer.getBounds()); });
+    }
+
+    function refreshCountryLabels() {
+        if (!countriesLayer) return;
+        countriesLayer.eachLayer(function (layer) {
+            var feature = layer.feature || {};
+            var properties = feature.properties || {};
+            var itName = toIT(properties.NAME || properties.name || properties.NAME_EN);
+            var count = ALL.filter(function (event) { return event.paese === itName; }).length;
+            var tooltip = layer.getTooltip && layer.getTooltip();
+            if (tooltip) tooltip.setContent(displayCountry(itName) + (count ? " &middot; " + tr("map.country_events", "{count} eventi", { count: count }) : ""));
+        });
     }
 
     /* ---------- NAVIGAZIONE A LIVELLI ---------- */
@@ -383,7 +431,7 @@
             var a = acc[p];
             var icon = L.divIcon({ className: "dpa-cluster-wrap", html: '<div class="dpa-cluster">' + a.n + "</div>", iconSize: [40, 40] });
             var m = L.marker([a.lat / a.n, a.lng / a.n], { icon: icon });
-            m.bindTooltip(esc(p) + " &middot; " + a.n + " eventi", { className: "dpa-country-tip", direction: "top" });
+            m.bindTooltip(esc(displayCountry(p)) + " &middot; " + tr("map.country_events", "{count} eventi", { count: a.n }), { className: "dpa-country-tip", direction: "top" });
             m.on("click", function () { selectCountry(p, countryBounds[p]); });
             fallbackPins.addLayer(m);
         });
@@ -427,13 +475,13 @@
     }
     function requestGeoNow() {
         if (userPos) { goNearMe(); return; }
-        if (!navigator.geolocation) { alert("Geolocalizzazione non disponibile nel tuo browser."); return; }
+        if (!navigator.geolocation) { alert(tr("map.geo_unavailable", "Geolocalizzazione non disponibile nel tuo browser.")); return; }
         navigator.geolocation.getCurrentPosition(function (pos) {
             try { localStorage.setItem("dpa_geo", "granted"); } catch (e) {}
             userPos = { lat: pos.coords.latitude, lng: pos.coords.longitude };
             goNearMe();
         }, function () {
-            alert("Non riesco a ottenere la posizione. Controlla i permessi di localizzazione del browser.");
+            alert(tr("map.geo_error", "Non riesco a ottenere la posizione. Controlla i permessi di localizzazione del browser."));
         }, { enableHighAccuracy: false, timeout: 8000 });
     }
 
@@ -442,21 +490,21 @@
         var list = currentDataset();
         var hint = document.getElementById("listHint");
         var title = document.getElementById("listTitle");
-        if (level === "zona") { if (title) title.textContent = "Vicino a " + city; if (hint) hint.textContent = radiusKm() > 0 ? "entro " + radiusKm() + " km" : "in citta'"; }
-        else if (level === "paese") { if (title) title.textContent = "Eventi principali"; if (hint) hint.textContent = country; }
-        else if (level === "search") { if (title) title.textContent = "Risultati"; if (hint) hint.textContent = (val("q-search") || ""); }
-        else if (level === "vicino") { if (title) title.textContent = "Vicino a te"; if (hint) hint.textContent = "eventi più vicini a te"; }
-        else { if (title) title.textContent = "In evidenza"; if (hint) hint.textContent = "scegli un paese sulla mappa"; }
+        if (level === "zona") { if (title) title.textContent = tr("map.near_city", "Vicino a {city}", { city: city }); if (hint) hint.textContent = radiusKm() > 0 ? tr("map.within_km", "entro {km} km", { km: radiusKm() }) : tr("map.in_city", "in città"); }
+        else if (level === "paese") { if (title) title.textContent = tr("map.main_events", "Eventi principali"); if (hint) hint.textContent = displayCountry(country); }
+        else if (level === "search") { if (title) title.textContent = tr("map.results", "Risultati"); if (hint) hint.textContent = (val("q-search") || ""); }
+        else if (level === "vicino") { if (title) title.textContent = tr("map.near_you", "Vicino a te"); if (hint) hint.textContent = tr("map.nearest", "eventi più vicini a te"); }
+        else { if (title) title.textContent = tr("map.featured", "In evidenza"); if (hint) hint.textContent = tr("map.choose_country", "scegli un paese sulla mappa"); }
 
         var countEl = document.getElementById("listCount");
-        if (countEl) countEl.textContent = list.length + (list.length === 1 ? " evento" : " eventi");
+        if (countEl) countEl.textContent = tr(list.length === 1 ? "map.event_one" : "map.event_many", list.length === 1 ? "{count} evento" : "{count} eventi", { count: list.length });
 
         var cont = document.getElementById("eventsList");
         if (!cont) return;
         if (!list.length) {
             cont.innerHTML = '<p class="empty">' + (level === "europa"
-                ? "Clicca un paese sulla mappa per esplorare i suoi eventi."
-                : "Nessun evento con questi filtri.") + "</p>";
+                ? tr("map.click_country", "Clicca un paese sulla mappa per esplorare i suoi eventi.")
+                : tr("map.no_events", "Nessun evento con questi filtri.")) + "</p>";
             return;
         }
         cont.innerHTML = list.map(cardHtml).join("");
@@ -474,7 +522,7 @@
         var zc = document.getElementById("zonaControls");
         if (zc) zc.style.display = (level === "europa" || level === "vicino") ? "none" : "flex";
         var rl = document.getElementById("raggioVal");
-        if (rl) rl.textContent = radiusKm() > 0 ? radiusKm() + " km" : "illimitato";
+        if (rl) rl.textContent = radiusKm() > 0 ? radiusKm() + " km" : tr("map.unlimited", "illimitato");
     }
 
     function updateCittaOptions(paese) {
@@ -482,16 +530,16 @@
         var vals = uniq(src.map(function (e) { return e.citta; })).sort(function (a, b) { return a.localeCompare(b); });
         var sel = document.getElementById("f-citta");
         if (!sel) return;
-        sel.innerHTML = '<option value="">Tutte</option>' + vals.map(function (v) { return '<option value="' + esc(v) + '">' + esc(v) + "</option>"; }).join("");
+        sel.innerHTML = '<option value="">' + tr("map.all_f", "Tutte") + '</option>' + vals.map(function (v) { return '<option value="' + esc(v) + '">' + esc(v) + "</option>"; }).join("");
     }
 
     /* ---------- BREADCRUMB ---------- */
     function updateBreadcrumb() {
         var bc = document.getElementById("breadcrumb");
         if (!bc) return;
-        var html = '<button class="crumb crumb-root" data-level="europa">Europa</button>';
-        if (level === "vicino") html += '<span class="crumb-sep">/</span><button class="crumb" data-level="vicino">Vicino a te</button>';
-        if (country) html += '<span class="crumb-sep">/</span><button class="crumb" data-level="paese">' + esc(country) + "</button>";
+        var html = '<button class="crumb crumb-root" data-level="europa">' + tr("map.europe", "Europa") + '</button>';
+        if (level === "vicino") html += '<span class="crumb-sep">/</span><button class="crumb" data-level="vicino">' + tr("map.near_you", "Vicino a te") + '</button>';
+        if (country) html += '<span class="crumb-sep">/</span><button class="crumb" data-level="paese">' + esc(displayCountry(country)) + "</button>";
         if (city) html += '<span class="crumb-sep">/</span><button class="crumb" data-level="zona">' + esc(city) + "</button>";
         bc.innerHTML = html;
         bc.querySelectorAll(".crumb").forEach(function (c) {
@@ -512,8 +560,8 @@
         if (level === "europa" && !focusedEvent) { bb.style.display = "none"; return; }
         bb.style.display = "block";
         var label;
-        if (focusedEvent) label = (level === "zona" ? city : (level === "paese" ? country : "Europa"));
-        else label = (level === "zona" ? country : "Europa");
+        if (focusedEvent) label = (level === "zona" ? city : (level === "paese" ? country : tr("map.europe", "Europa")));
+        else label = (level === "zona" ? country : tr("map.europe", "Europa"));
         bb.innerHTML = "&larr; " + esc(label);
     }
     // Sale di un livello: evento aperto (zoom) -> nazione/zona -> Europa
@@ -539,27 +587,27 @@
     /* ---------- CARD / POPUP / SCHEDA ---------- */
     function cardHtml(ev) {
         var badge = ev.stato === "BURIED" ? "status-buried" : "status-live";
-        var price = ev.gratuito ? "GRATIS" : (ev.prezzo ? "da " + ev.prezzo + " &euro;" : "");
+        var price = ev.gratuito ? tr("map.free", "GRATIS") : (ev.prezzo ? tr("map.from_price", "da {price} €", { price: ev.prezzo }) : "");
         var tags = '<span class="tag">' + esc(ev.tipo) + "</span>" +
             (ev.genere || []).slice(0, 2).map(function (g) { return '<span class="tag">' + esc(g) + "</span>"; }).join("") +
-            (ev.sponsorizzato ? '<span class="tag tag-spon">Sponsor</span>' : "");
+            (ev.sponsorizzato ? '<span class="tag tag-spon">' + tr("map.sponsor", "Sponsor") + '</span>' : "");
         return '<article class="ev-card genre-' + genreFamily(ev.genere) + '" data-id="' + ev.id + '">' +
             '<div class="ev-card-top"><span class="ev-date">' + fmtDate(ev.data) + "</span>" +
             '<span class="status-badge ' + badge + '">' + ev.stato + "</span></div>" +
             '<h3 class="ev-name">' + esc(ev.nome) + "</h3>" +
-            '<p class="ev-place">' + esc(ev.locale) + ", " + esc(ev.citta) + ", " + esc(ev.paese) + "</p>" +
+            '<p class="ev-place">' + esc(ev.locale) + ", " + esc(ev.citta) + ", " + esc(displayCountry(ev.paese)) + "</p>" +
             '<div class="ev-tags genre-color-tags">' + tags + "</div>" +
             (price ? '<div class="ev-foot">' + price + "</div>" : "") +
-            '<div class="ev-provider">via ' + fonteLabel(ev.fonte) + "</div></article>";
+            '<div class="ev-provider">' + tr("map.via", "via {provider}", { provider: fonteLabel(ev.fonte) }) + "</div></article>";
     }
     function popupHtml(ev) {
-        var price = ev.gratuito ? "GRATIS" : (ev.prezzo ? "da " + ev.prezzo + " &euro;" : "");
+        var price = ev.gratuito ? tr("map.free", "GRATIS") : (ev.prezzo ? tr("map.from_price", "da {price} €", { price: ev.prezzo }) : "");
         return '<div class="popup-card">' +
             '<span class="status-badge ' + (ev.stato === "BURIED" ? "status-buried" : "status-live") + '">' + ev.stato + "</span>" +
             "<h4>" + esc(ev.nome) + "</h4><p>" + fmtDate(ev.data) + " &middot; " + esc(ev.citta) + "</p>" +
             "<p>" + esc(ev.locale) + (price ? " &middot; " + price : "") + "</p>" +
-            '<p class="popup-provider">via ' + fonteLabel(ev.fonte) + "</p>" +
-            '<button class="popup-detail">Dettagli &rarr;</button></div>';
+            '<p class="popup-provider">' + tr("map.via", "via {provider}", { provider: fonteLabel(ev.fonte) }) + "</p>" +
+            '<button class="popup-detail">' + tr("map.details", "Dettagli →") + '</button></div>';
     }
     // Apre un evento: se si è a livello Europa entra prima nel paese, poi
     // (opzionale) zooma sul punto e mostra la scheda. Così il tasto Indietro
@@ -579,26 +627,26 @@
     }
     function openDetail(id) {
         var ev = byId(id); if (!ev) return;
-        var price = ev.gratuito ? "Ingresso gratuito" : (ev.prezzo ? "da " + ev.prezzo + " &euro;" : "n/d");
+        var price = ev.gratuito ? tr("map.free_entry", "Ingresso gratuito") : (ev.prezzo ? tr("map.from_price", "da {price} €", { price: ev.prezzo }) : tr("map.not_available", "n/d"));
         var ticketLinks = ticketOptions(ev);
         var providers = uniq(ticketLinks.map(function (item) { return fonteLabel(item.fonte); }));
         var rows = [
-            ["Data", fmtDate(ev.data) + (ev.ora ? " &middot; " + ev.ora : "")],
-            ["Luogo", esc(ev.locale)], ["Indirizzo", esc(ev.indirizzo || "n/d")],
-            ["Citta'", esc(ev.citta) + ", " + esc(ev.regione || "") + " (" + esc(ev.paese) + ")"],
-            ["Artisti", (ev.artisti || []).map(esc).join(", ") || "n/d"],
-            ["Genere", (ev.genere || []).map(esc).join(", ")], ["Tipologia", esc(ev.tipo)],
-            ["Prezzo", price], ["Fonte", providers.length ? providers.join(", ") : fonteLabel(ev.fonte)]
+            [tr("map.date", "Data"), fmtDate(ev.data) + (ev.ora ? " &middot; " + ev.ora : "")],
+            [tr("map.place", "Luogo"), esc(ev.locale)], [tr("map.address", "Indirizzo"), esc(ev.indirizzo || tr("map.not_available", "n/d"))],
+            [tr("map.city", "Città"), esc(ev.citta) + ", " + esc(ev.regione || "") + " (" + esc(displayCountry(ev.paese)) + ")"],
+            [tr("map.artists", "Artisti"), (ev.artisti || []).map(esc).join(", ") || tr("map.not_available", "n/d")],
+            [tr("map.genre", "Genere"), (ev.genere || []).map(esc).join(", ")], [tr("map.type", "Tipologia"), esc(ev.tipo)],
+            [tr("map.price", "Prezzo"), price], [tr("map.source", "Fonte"), providers.length ? providers.join(", ") : fonteLabel(ev.fonte)]
         ];
-        var biglietti = ticketLinks.length ? '<div class="detail-ticket-choices"><h3>Scegli dove acquistare</h3>' +
+        var biglietti = ticketLinks.length ? '<div class="detail-ticket-choices"><h3>' + tr("map.buy_where", "Scegli dove acquistare") + '</h3>' +
             ticketLinks.map(function (item) {
-                var extra = item.gratuito ? " - Gratis" : (item.prezzo != null ? " - da " + esc(item.prezzo) + " €" : "");
+                var extra = item.gratuito ? " - " + tr("map.free_label", "Gratis") : (item.prezzo != null ? " - " + tr("map.from_price", "da {price} €", { price: esc(item.prezzo) }) : "");
                 return '<a class="btn detail-btn" href="' + esc(item.url) + '" target="_blank" rel="noopener sponsored">' +
-                    "Biglietti su " + fonteLabel(item.fonte) + extra + "</a>";
+                    tr("map.tickets_on", "Biglietti su {provider}{extra}", { provider: fonteLabel(item.fonte), extra: extra }) + "</a>";
             }).join("") + "</div>" : "";
         document.getElementById("detailBody").innerHTML =
             '<div class="detail-head"><span class="status-badge ' + (ev.stato === "BURIED" ? "status-buried" : "status-live") + '">' + ev.stato + "</span>" +
-            (ev.sponsorizzato ? '<span class="tag tag-spon">Contenuto sponsorizzato</span>' : "") + "</div>" +
+            (ev.sponsorizzato ? '<span class="tag tag-spon">' + tr("map.sponsored", "Contenuto sponsorizzato") + '</span>' : "") + "</div>" +
             '<h2 class="detail-title">' + esc(ev.nome) + "</h2>" +
             '<p class="detail-desc">' + esc(ev.descrizione || "") + "</p>" +
             '<table class="detail-table"><tbody>' + rows.map(function (r) { return "<tr><th>" + r[0] + "</th><td>" + r[1] + "</td></tr>"; }).join("") + "</tbody></table>" + biglietti;
@@ -618,15 +666,15 @@
         var body = document.getElementById("chatbotBody"); if (!body) return;
         if (step === 0) {
             var generi = ["rock", "rap", "electronic"];
-            body.innerHTML = '<p class="bot-msg">Che musica cerchi?</p><div class="bot-opts">' +
+            body.innerHTML = '<p class="bot-msg">' + tr("map.what_music", "Che musica cerchi?") + '</p><div class="bot-opts">' +
                 generi.map(function (g) { return '<button class="bot-opt" data-g="' + esc(g) + '">' + esc(genreFamilyLabel(g)) + "</button>"; }).join("") +
-                '<button class="bot-opt" data-g="">Qualsiasi</button></div>';
+                '<button class="bot-opt" data-g="">' + tr("map.any", "Qualsiasi") + '</button></div>';
             body.querySelectorAll(".bot-opt").forEach(function (b) { b.addEventListener("click", function () { chatState.genere = b.getAttribute("data-g"); renderChatStep(1); }); });
         } else if (step === 1) {
             var paesi = uniq(ALL.map(function (e) { return e.paese; })).sort();
-            body.innerHTML = '<p class="bot-msg">In che paese?</p><div class="bot-opts">' +
-                paesi.map(function (p) { return '<button class="bot-opt" data-p="' + esc(p) + '">' + esc(p) + "</button>"; }).join("") +
-                '<button class="bot-opt" data-p="">Ovunque</button></div>';
+            body.innerHTML = '<p class="bot-msg">' + tr("map.what_country", "In che paese?") + '</p><div class="bot-opts">' +
+                paesi.map(function (p) { return '<button class="bot-opt" data-p="' + esc(p) + '">' + esc(displayCountry(p)) + "</button>"; }).join("") +
+                '<button class="bot-opt" data-p="">' + tr("map.anywhere", "Ovunque") + '</button></div>';
             body.querySelectorAll(".bot-opt").forEach(function (b) { b.addEventListener("click", function () { chatState.paese = b.getAttribute("data-p"); applyChat(); }); });
         }
     }
@@ -636,9 +684,9 @@
         else goEurope();
         var n = currentDataset().length;
         var body = document.getElementById("chatbotBody");
-        body.innerHTML = '<p class="bot-msg">Ho trovato <strong>' + n + "</strong> eventi" +
-            (chatState.genere ? " di " + esc(chatState.genere) : "") + (chatState.paese ? " in " + esc(chatState.paese) : " in Europa") + ".</p>" +
-            '<button class="bot-opt" id="botRestart">Ricomincia</button>';
+        body.innerHTML = '<p class="bot-msg">' + tr("map.found", "Ho trovato {count} eventi", { count: '<strong>' + n + '</strong>' }) +
+            (chatState.genere ? tr("map.of_genre", " di {genre}", { genre: esc(chatState.genere) }) : "") + (chatState.paese ? tr("map.in_country", " in {country}", { country: esc(chatState.paese) }) : tr("map.in_europe", " in Europa")) + ".</p>" +
+            '<button class="bot-opt" id="botRestart">' + tr("map.restart", "Ricomincia") + '</button>';
         var r = document.getElementById("botRestart");
         if (r) r.addEventListener("click", function () { chatState = { genere: "", paese: "" }; renderChatStep(0); });
     }
@@ -651,7 +699,7 @@
             filtersToggle.addEventListener("click", function () {
                 var open = filtersForm.classList.toggle("open");
                 filtersToggle.setAttribute("aria-expanded", open ? "true" : "false");
-                filtersToggle.innerHTML = open ? "Chiudi filtri &#9652;" : "Filtri &#9662;";
+                filtersToggle.textContent = open ? tr("map.close_filters", "Chiudi filtri ▴") : tr("map.filters", "Filtri ▾");
             });
         }
 
@@ -739,8 +787,8 @@
         if (tbInner && !document.getElementById("btnNearMe")) {
             var nm = document.createElement("button");
             nm.id = "btnNearMe"; nm.type = "button"; nm.className = "view-btn";
-            nm.innerHTML = "&#128205; Vicino a me";
-            nm.title = "Mostra gli eventi vicino a te";
+            nm.textContent = tr("map.near_me", "📍 Vicino a me");
+            nm.title = tr("map.near_me_title", "Mostra gli eventi vicino a te");
             nm.addEventListener("click", requestGeoNow);
             tbInner.appendChild(nm);
         }
@@ -811,7 +859,7 @@
         var first = sel.querySelector("option");
         sel.innerHTML = ""; if (first) sel.appendChild(first);
         values.sort(function (a, b) { return String(a).localeCompare(String(b)); });
-        values.forEach(function (v) { var o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); });
+        values.forEach(function (v) { var o = document.createElement("option"); o.value = v; o.textContent = id === "f-paese" ? displayCountry(v) : v; sel.appendChild(o); });
     }
 
     /* ---------- UTIL ---------- */

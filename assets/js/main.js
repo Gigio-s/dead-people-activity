@@ -65,7 +65,26 @@ document.addEventListener('DOMContentLoaded', () => {
             "\"Dead People Activity starts from the ground up: from the people who play live music, listen to it, chase it from venue to venue. It's not a magazine or an app: it's the start of a European community that wants to grow and get big, one piece at a time and with its own hands. No masters, no algorithms: just people, gigs and scenes that keep each other alive.\"",
         "Questo è solo il primo passo, e c'è posto per chiunque voglia esserci: ragazzi alla prima serata e gente che gira per club da vent'anni, artisti e ascoltatori, chi organizza e chi semplicemente non manca mai. Se ti muove la musica indipendente, questo posto è anche tuo. Il resto lo costruiamo insieme.":
             "This is only the first step, and there's room for anyone who wants in: kids at their first gig and people who've done the club circuit for twenty years, artists and listeners, those who organise and those who simply never miss out. If independent music moves you, this place is yours too. The rest we build together.",
-        // --- HOME: cosa facciamo ---
+        // --- HOME: sezioni attive ---
+        "Cosa trovi qui": "What you'll find here",
+        "Tre modi per orientarti nella musica dal vivo europea, scoprire nuove date e partecipare alla scena.":
+            "Three ways to navigate European live music, discover new dates and take part in the scene.",
+        "CERCA // FILTRA // VAI": "SEARCH // FILTER // GO",
+        "01 / Eventi vicino a te": "01 / Events near you",
+        "Concerti e DJ set in tutta Europa, raccolti in una mappa e in un elenco aggiornato. Filtra per genere, data e distanza oppure usa “Vicino a me”.":
+            "Gigs and DJ sets across Europe, collected in a map and an updated list. Filter by genre, date and distance, or use ‘Near me’.",
+        "ESPLORA GLI EVENTI": "EXPLORE EVENTS",
+        "PARTI // SCOPRI // RESTA": "TRAVEL // DISCOVER // STAY",
+        "02 / Festival in Europa": "02 / Festivals in Europe",
+        "Una sezione separata per trovare festival rock, punk, metal, rap, hip-hop, techno ed elettronica, senza confonderli con le singole serate.":
+            "A dedicated section for rock, punk, metal, rap, hip-hop, techno and electronic festivals, kept separate from individual shows.",
+        "SCOPRI I FESTIVAL": "DISCOVER FESTIVALS",
+        "SCRIVI // CERCA // CONNETTI": "POST // SEARCH // CONNECT",
+        "03 / The Wall": "03 / The Wall",
+        "La bacheca della community: cerca musicisti, proponi una serata, scambia strumenti o segnala un progetto. Ogni messaggio viene moderato.":
+            "The community board: find musicians, pitch a show, trade gear or share a project. Every post is moderated.",
+        "VAI A THE WALL": "GO TO THE WALL",
+        // --- HOME: vecchi testi (compatibilita pagine salvate) ---
         "Cosa Facciamo": "What We Do",
         "01 / La Mappa": "01 / The Map",
         "Una mappa dei concerti in tutta Europa: serate, festival, DJ set e live. Cerchi la tua città e scopri dove andare stasera o nel weekend.":
@@ -143,37 +162,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "Lo Store non è ancora aperto. Nessun prodotto è attualmente in vendita.": "The Store is not open yet. No products are currently for sale."
     };
 
-    const getLang = () => { try { return localStorage.getItem('dpa_lang') === 'en' ? 'en' : 'it'; } catch (e) { return 'it'; } };
-    const setLang = (l) => { try { localStorage.setItem('dpa_lang', l); } catch (e) {} };
-
-    let _i18nNodes = null;
-    const _collectI18nNodes = () => {
-        const out = [];
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
-            acceptNode(n) {
-                const p = n.parentNode;
-                if (!p) return NodeFilter.FILTER_REJECT;
-                const tag = p.nodeName;
-                if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'TEXTAREA') return NodeFilter.FILTER_REJECT;
-                if (p.classList && p.classList.contains('lang-toggle')) return NodeFilter.FILTER_REJECT;
-                return (n.nodeValue && n.nodeValue.trim()) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
-            }
-        });
-        while (walker.nextNode()) {
-            const n = walker.currentNode;
-            const raw = n.nodeValue;
-            const t = raw.trim();
-            if (Object.prototype.hasOwnProperty.call(I18N_PHRASES, t)) {
-                out.push({ node: n, it: t, en: I18N_PHRASES[t], lead: raw.match(/^\s*/)[0], trail: raw.match(/\s*$/)[0] });
-            }
-        }
-        return out;
-    };
-    const applyLang = (lang) => {
-        document.documentElement.lang = lang;
-        if (!_i18nNodes) _i18nNodes = _collectI18nNodes();
-        _i18nNodes.forEach(o => { o.node.nodeValue = o.lead + (lang === 'en' ? o.en : o.it) + o.trail; });
-    };
+    const getLang = () => window.DPA_I18N ? window.DPA_I18N.getLanguage() : 'it';
+    const setLang = (language) => window.DPA_I18N ? window.DPA_I18N.setLanguage(language) : Promise.resolve();
+    const applyLang = (language) => setLang(language);
 
     // Assistente eventi globale. Sulla mappa viene gestito da mappa.js;
     // nelle altre pagine apre la mappa con genere e paese gia selezionati.
@@ -268,30 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
         panel.querySelector('#chatbotClose').addEventListener('click', () => setOpen(false));
         document.addEventListener('keydown', event => { if (event.key === 'Escape') setOpen(false); });
     }
-    const injectLangToggle = () => {
-        const nav = document.querySelector('.nav-container');
-        if (!nav || nav.querySelector('.lang-toggle')) return;
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'lang-toggle';
-        btn.style.cssText = 'font-family:var(--font-punk-body);font-weight:bold;text-transform:uppercase;'
-            + 'background:#000;color:#fff;border:1px solid #fff;padding:5px 9px;margin-left:8px;'
-            + 'cursor:pointer;font-size:0.8rem;line-height:1;';
-        const refresh = () => {
-            const l = getLang();
-            btn.textContent = (l === 'en' ? 'IT' : 'EN');
-            btn.setAttribute('aria-label', l === 'en' ? "Passa all'italiano" : 'Switch to English');
-        };
-        refresh();
-        btn.addEventListener('click', () => {
-            const next = getLang() === 'en' ? 'it' : 'en';
-            setLang(next);
-            applyLang(next);
-            refresh();
-        });
-        const ham = nav.querySelector('.hamburger');
-        if (ham) nav.insertBefore(btn, ham); else nav.appendChild(btn);
-    };
+    const injectLangToggle = () => {};
 
     // Chiude tutte le tendine aperte
     const closeAllDropdowns = () => {
@@ -482,16 +450,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.appendChild(ov);
     }
 
-    // ---- Attiva selettore lingua (EN/IT) e gestisci il primo accesso ----
+    // ---- Attiva assistente e motore multilingua ----
     injectGlobalChatbot();
-    injectLangToggle();
-    var _hasLangChoice = false;
-    try { _hasLangChoice = !!localStorage.getItem("dpa_lang"); } catch (e) {}
-    if (_hasLangChoice) {
-        applyLang(getLang());
-    } else {
-        applyLang("it");   // base italiana dietro al popup
-        var suggested = (navigator.language || "en").toLowerCase().indexOf("it") === 0 ? "it" : "en";
-        showLangChooser(suggested);
-    }
+    if (window.DPA_I18N) window.DPA_I18N.init();
 });

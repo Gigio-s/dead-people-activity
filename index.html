@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=10">
+    <link rel="stylesheet" href="assets/css/style.css?v=13">
 </head>
 <body>
     <header class="header">
@@ -78,27 +78,34 @@
             <div class="container">
                 <div class="manifesto-box">
                     <h2 class="title-underground">Manifesto</h2>
-                    <p class="manifesto-text">"Dead People Activity nasce dal basso: da chi la musica dal vivo la suona, la ascolta, la insegue di locale in locale. Non Ã¨ una rivista nÃ© un'app: Ã¨ l'inizio di una comunitÃ  europea che vuole crescere e diventare grande, un pezzo alla volta e con le proprie mani. Niente padroni, niente algoritmi: solo persone, concerti e scene che si tengono vive a vicenda."</p>
-                    <p>Questo Ã¨ solo il primo passo, e c'Ã¨ posto per chiunque voglia esserci: ragazzi alla prima serata e gente che gira per club da vent'anni, artisti e ascoltatori, chi organizza e chi semplicemente non manca mai. Se ti muove la musica indipendente, questo posto Ã¨ anche tuo. Il resto lo costruiamo insieme.</p>
+                    <p class="manifesto-text">"Dead People Activity nasce dal basso: da chi la musica dal vivo la suona, la ascolta, la insegue di locale in locale. Non è una rivista né un'app: è l'inizio di una comunità europea che vuole crescere e diventare grande, un pezzo alla volta e con le proprie mani. Niente padroni, niente algoritmi: solo persone, concerti e scene che si tengono vive a vicenda."</p>
+                    <p>Questo è solo il primo passo, e c'è posto per chiunque voglia esserci: ragazzi alla prima serata e gente che gira per club da vent'anni, artisti e ascoltatori, chi organizza e chi semplicemente non manca mai. Se ti muove la musica indipendente, questo posto è anche tuo. Il resto lo costruiamo insieme.</p>
                 </div>
             </div>
         </section>
 
         <section class="section-padding" style="background-color: #0d0d0d;">
             <div class="container">
-                <h2 class="title-underground">Cosa Facciamo</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <h3>01 / La Mappa</h3>
-                        <p>Una mappa dei concerti in tutta Europa: serate, festival, DJ set e live. Cerchi la tua cittÃ  e scopri dove andare stasera o nel weekend.</p>
+                <h2 class="title-underground">Cosa trovi qui</h2>
+                <p class="section-lead">Tre modi per orientarti nella musica dal vivo europea, scoprire nuove date e partecipare alla scena.</p>
+                <div class="features-grid home-services-grid">
+                    <div class="feature-card home-service-card">
+                        <span class="service-kicker">CERCA // FILTRA // VAI</span>
+                        <h3>01 / Eventi vicino a te</h3>
+                        <p>Concerti e DJ set in tutta Europa, raccolti in una mappa e in un elenco aggiornato. Filtra per genere, data e distanza oppure usa “Vicino a me”.</p>
+                        <a class="service-link" href="mappa.html">ESPLORA GLI EVENTI <span aria-hidden="true">→</span></a>
                     </div>
-                    <div class="feature-card">
-                        <h3>02 / Le Storie</h3>
-                        <p>Interviste vere, recensioni oneste e racconti dai club e dagli spazi autogestiti. Le voci di chi la scena la fa, senza filtri e senza marchette.</p>
+                    <div class="feature-card home-service-card">
+                        <span class="service-kicker">PARTI // SCOPRI // RESTA</span>
+                        <h3>02 / Festival in Europa</h3>
+                        <p>Una sezione separata per trovare festival rock, punk, metal, rap, hip-hop, techno ed elettronica, senza confonderli con le singole serate.</p>
+                        <a class="service-link" href="festival.html">SCOPRI I FESTIVAL <span aria-hidden="true">→</span></a>
                     </div>
-                    <div class="feature-card">
-                        <h3>03 / La Rete</h3>
-                        <p>Artisti, ascoltatori e gente dei concerti che si trovano da una cittÃ  all'altra. Le scene locali smettono di essere isole.</p>
+                    <div class="feature-card home-service-card">
+                        <span class="service-kicker">SCRIVI // CERCA // CONNETTI</span>
+                        <h3>03 / The Wall</h3>
+                        <p>La bacheca della community: cerca musicisti, proponi una serata, scambia strumenti o segnala un progetto. Ogni messaggio viene moderato.</p>
+                        <a class="service-link" href="the-wall.html">VAI A THE WALL <span aria-hidden="true">→</span></a>
                     </div>
                 </div>
             </div>
@@ -110,19 +117,19 @@
                 <h2 class="title-underground">La Rete in Numeri</h2>
                 <div class="stats-grid">
                     <div class="stat-card">
-                        <span class="stat-number" id="statEventi">â€¦</span>
+                        <span class="stat-number" id="statEventi">…</span>
                         <span class="stat-label">Eventi sulla mappa</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number" id="statCitta">â€¦</span>
-                        <span class="stat-label">CittÃ </span>
+                        <span class="stat-number" id="statCitta">…</span>
+                        <span class="stat-label">Città</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number" id="statPaesi">â€¦</span>
+                        <span class="stat-number" id="statPaesi">…</span>
                         <span class="stat-label">Paesi europei</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number" id="statLocali">â€¦</span>
+                        <span class="stat-number" id="statLocali">…</span>
                         <span class="stat-label">Locali</span>
                     </div>
                 </div>
@@ -135,21 +142,21 @@
                 <div class="features-grid">
                     <div class="feature-card" style="border-color: #333;">
                         <small style="color: var(--accent-color);">EDITORIALE</small>
-                        <h4 style="font-family: var(--font-punk-headers); font-size: 1.4rem; margin: 10px 0;">Rumore dall'asfalto: perchÃ© nasce Dead People Activity</h4>
-                        <p style="font-size:0.9rem; color:var(--text-muted);">PerchÃ© serve una mappa e un archivio per la musica dal vivo che rischia di sparire.</p>
-                        <a href="articolo-perche-nasce-dpa.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI â†’</a>
+                        <h4 style="font-family: var(--font-punk-headers); font-size: 1.4rem; margin: 10px 0;">Rumore dall'asfalto: perché nasce Dead People Activity</h4>
+                        <p style="font-size:0.9rem; color:var(--text-muted);">Perché serve una mappa e un archivio per la musica dal vivo che rischia di sparire.</p>
+                        <a href="articolo-perche-nasce-dpa.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI →</a>
                     </div>
                     <div class="feature-card" style="border-color: #333;">
                         <small style="color: var(--accent-color);">GUIDA DIY</small>
                         <h4 style="font-family: var(--font-punk-headers); font-size: 1.4rem; margin: 10px 0;">La tua prima serata autogestita: guida pratica</h4>
                         <p style="font-size:0.9rem; color:var(--text-muted);">Spazio, budget, line-up, promozione e cassa: come organizzare un concerto dal niente.</p>
-                        <a href="articolo-serata-autogestita.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI â†’</a>
+                        <a href="articolo-serata-autogestita.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI →</a>
                     </div>
                     <div class="feature-card" style="border-color: #333;">
                         <small style="color: var(--accent-color);">GUIDA DIY</small>
                         <h4 style="font-family: var(--font-punk-headers); font-size: 1.4rem; margin: 10px 0;">Autoprodurre musica: cassette, vinile e CD senza svenarsi</h4>
                         <p style="font-size:0.9rem; color:var(--text-muted);">Quale supporto scegliere, quanto costa, la grafica DIY e dove vendere le tue copie.</p>
-                        <a href="articolo-autoprodurre-musica.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI â†’</a>
+                        <a href="articolo-autoprodurre-musica.html" style="color: var(--accent-color); font-weight: bold; font-size: 0.8rem; display:inline-block; margin-top:15px;">LEGGI →</a>
                     </div>
                 </div>
             </div>
@@ -159,11 +166,11 @@
         <section class="section-padding">
             <div class="container">
                 <h2 class="title-underground">La Mappa del Rumore</h2>
-                <p style="color:var(--text-muted); max-width:720px;">La rete della musica dal vivo su una mappa. Concerti, serate, festival e DJ set in tutta Europa: scegli la tua cittÃ  e scopri chi suona stasera o dove andare nel weekend.</p>
+                <p style="color:var(--text-muted); max-width:720px;">La rete della musica dal vivo su una mappa. Concerti, serate, festival e DJ set in tutta Europa: scegli la tua città e scopri chi suona stasera o dove andare nel weekend.</p>
                 <div style="position:relative; margin-top:30px; border:var(--border-punk); box-shadow:6px 6px 0 #000;">
                     <div id="homeMap" style="height:380px; background:#0d0d0d;"></div>
                     <a href="mappa.html" aria-label="Apri la mappa interattiva" style="position:absolute; inset:0; z-index:800; display:flex; align-items:flex-end; justify-content:center; padding:22px; text-decoration:none; background:linear-gradient(to top, rgba(0,0,0,0.55), rgba(0,0,0,0) 45%);">
-                        <span class="btn">Apri la mappa interattiva â†’</span>
+                        <span class="btn">Apri la mappa interattiva →</span>
                     </a>
                 </div>
             </div>
@@ -174,9 +181,9 @@
             <div class="container">
                 <h2 class="title-underground">Eventi in Evidenza</h2>
                 <p style="color:var(--text-muted);">Prossime date dalla rete. Aggiornate dall'archivio eventi.</p>
-                <p class="schedule-update-note"><span aria-hidden="true">â†»</span> Gli eventi vengono aggiornati ogni lunedÃ¬ tra le 9:00 e le 11:00.</p>
+                <p class="schedule-update-note"><span aria-hidden="true">↻</span> Gli eventi vengono aggiornati ogni lunedì tra le 9:00 e le 11:00.</p>
                 <div class="features-grid" id="homeEvents">
-                    <div class="ev-card" style="cursor:default;"><p class="ev-place">Caricamento eventiâ€¦</p></div>
+                    <div class="ev-card" style="cursor:default;"><p class="ev-place">Caricamento eventi…</p></div>
                 </div>
                 <div style="text-align:center; margin-top:40px;">
                     <a href="mappa.html" class="btn">Tutti gli eventi sulla mappa</a>
@@ -190,7 +197,7 @@
                 <h2 class="title-underground">In Arrivo</h2>
                 <p style="color:var(--text-muted); max-width:720px;">La piattaforma cresce a fasi. Queste sezioni stanno per arrivare. Per ora esplora la Mappa degli eventi e leggi gli Articoli.</p>
                 <div class="features-grid">
-                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Archivio &amp; BURIED</h3><p style="color:var(--text-muted); font-size:0.9rem;">Schede di artisti, band e realtÃ  scomparse da preservare.</p></div>
+                    <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Archivio &amp; BURIED</h3><p style="color:var(--text-muted); font-size:0.9rem;">Schede di artisti, band e realtà scomparse da preservare.</p></div>
                     <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Artisti &amp; Emergenti</h3><p style="color:var(--text-muted); font-size:0.9rem;">Database e vetrina degli artisti della scena.</p></div>
                     <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Playlist</h3><p style="color:var(--text-muted); font-size:0.9rem;">Selezione settimanale su Spotify.</p></div>
                     <div class="feature-card"><h3 style="font-family:var(--font-punk-headers);">Shop</h3><p style="color:var(--text-muted); font-size:0.9rem;">Autoproduzioni, fanzine, vinili, cassette.</p></div>
@@ -207,7 +214,7 @@
             <div class="container" style="text-align: center; padding: 60px 0;">
                 <h2>Fai parte del rumore o vuoi salvarlo dall'oblio?</h2>
                 <p style="margin: 20px 0 40px 0;">Sei un artista, un collettivo, gestisci uno spazio o possiedi materiale d'archivio raro?</p>
-                <a href="coming-soon.html" class="btn">Scopri di piÃ¹</a>
+                <a href="coming-soon.html" class="btn">Scopri di più</a>
             </div>
         </section>
     </div>
@@ -239,7 +246,8 @@
         </div>
     </footer>
 
-    <script src="assets/js/main.js?v=6"></script>
+    <script src="assets/js/i18n.js?v=4"></script>
+    <script src="assets/js/main.js?v=7"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
     <!-- Eventi in evidenza: fonte assets/data/events.json, fallback events-data.js -->
