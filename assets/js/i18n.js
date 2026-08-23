@@ -24,6 +24,18 @@
         return SUPPORTED.includes(short) ? short : 'en';
     }
 
+    function urlLanguage() {
+        const value = new URLSearchParams(window.location.search).get('lang');
+        return SUPPORTED.includes(value) ? value : null;
+    }
+
+    function updateLanguageUrl(language) {
+        const url = new URL(window.location.href);
+        if (language === 'it') url.searchParams.delete('lang');
+        else url.searchParams.set('lang', language);
+        window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
+    }
+
     async function load(language) {
         if (cache[language]) return cache[language];
         const response = await fetch(`assets/i18n/${language}.json?v=1`);
@@ -108,6 +120,7 @@
         current = next;
         if (persist) {
             try { localStorage.setItem('dpa_lang', next); } catch (_) {}
+            updateLanguageUrl(next);
         }
         translate(document.body);
         updateSwitcher(next);
@@ -210,13 +223,14 @@
     async function init() {
         if (initialized) return;
         initialized = true;
+        const requested = urlLanguage();
         const saved = storedLanguage();
         const selected = saved || browserLanguage();
         try {
             await load('it');
-            await setLanguage(saved || 'it', false);
+            await setLanguage(requested || saved || 'it', false);
             injectSwitcher();
-            if (!saved) showChooser(selected);
+            if (!requested && !saved) showChooser(selected);
             observer = new MutationObserver(records => {
                 records.forEach(record => record.addedNodes.forEach(node => {
                     if (node.nodeType === 1 || node.nodeType === 3) translate(node.nodeType === 3 ? node.parentNode : node);
