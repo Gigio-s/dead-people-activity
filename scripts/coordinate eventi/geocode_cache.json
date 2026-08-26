@@ -764,5 +764,70 @@
     "lat": 37.9637984,
     "lng": -0.7041006,
     "precisione": "indirizzo"
+  },
+  "the-broadcaster-89-wood-ln-london-w12-7fx-london-united-kingdom": {
+    "lat": 51.5098742,
+    "lng": -0.2247803,
+    "precisione": "indirizzo"
+  },
+  "26-curtain-road-26-curtain-road-london-ec2a-3ny-london-united-kingdom": {
+    "lat": 51.522802,
+    "lng": -0.0805107,
+    "precisione": "indirizzo"
+  },
+  "rolling-stock-48-kingsland-road-shoreditch-e2-8aa-london-united-kingdom": {
+    "lat": 51.5286112,
+    "lng": -0.0777136,
+    "precisione": "indirizzo"
+  },
+  "suss-war-gestern-wuhlischstrae-43-10245-berlin-berlin-germany": {
+    "lat": 52.5086027,
+    "lng": 13.4610994,
+    "precisione": "indirizzo"
+  },
+  "oxi-wiesenweg-1-4-10365-berlin-berlin-germany": {
+    "lat": 52.5076121,
+    "lng": 13.4749435,
+    "precisione": "indirizzo"
+  },
+  "panke-gerichtstrae-23-13347-berlin-berlin-germany": {
+    "lat": 52.5449968,
+    "lng": 13.3742384,
+    "precisione": "indirizzo"
+  },
+  "sensorium-warschauer-platz-18-10245-berlin-berlin-germany": {
+    "lat": 52.5029373,
+    "lng": 13.4473091,
+    "precisione": "indirizzo"
+  },
+  "landesmuseum-museumstrasse-2-8001-zurich-zurich-switzerland": {
+    "lat": 47.3792397,
+    "lng": 8.5407019,
+    "precisione": "indirizzo"
+  },
+  "club-vaag-rijnkaai-4-2000-antwerpen-antwerp-belgium": {
+    "lat": 51.2337413,
+    "lng": 4.4034725,
+    "precisione": "indirizzo"
+  },
+  "smolna-smolna-38-00-375-warszawa-warsaw-poland": {
+    "lat": 52.2326732,
+    "lng": 21.0217116,
+    "precisione": "indirizzo"
+  },
+  "sekta-selekta-nowa-31-056-krakow-poland-krakow-poland": {
+    "lat": 50.0512019,
+    "lng": 19.9448134,
+    "precisione": "indirizzo"
+  },
+  "revir-karlin-karolinska-7-praha-8-karlin-prague-czech-republic": {
+    "lat": 50.0949637,
+    "lng": 14.4455116,
+    "precisione": "indirizzo"
+  },
+  "le-petit-salon-rue-de-cronstadt-69007-lyon-france-lyon-france": {
+    "lat": 45.7408169,
+    "lng": 4.848825,
+    "precisione": "indirizzo"
   }
 }
