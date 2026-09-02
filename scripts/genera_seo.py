@@ -120,7 +120,7 @@ def seo_block(filename: str, content: str) -> str:
 
 def update_html(path: Path) -> None:
     content = path.read_text(encoding="utf-8")
-    content = content.replace("assets/js/i18n.js?v=4", "assets/js/i18n.js?v=5")
+    content = re.sub(r"assets/js/i18n\.js\?v=\d+", "assets/js/i18n.js?v=6", content)
     content = re.sub(rf"\n?{re.escape(START)}.*?{re.escape(END)}\n?", "\n", content, flags=re.DOTALL)
     content = re.sub(r'^\s*<meta\s+(?:name="robots"|property="og:[^"]+"|name="twitter:[^"]+")[^>]*>\s*\n?', "", content, flags=re.MULTILINE | re.IGNORECASE)
     content = re.sub(r'^\s*<link\s+rel="canonical"[^>]*>\s*\n?', "", content, flags=re.MULTILINE | re.IGNORECASE)

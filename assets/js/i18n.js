@@ -122,7 +122,7 @@
             try { localStorage.setItem('dpa_lang', next); } catch (_) {}
             updateLanguageUrl(next);
         }
-        translate(document.body);
+        translate(document.documentElement);
         updateSwitcher(next);
         document.dispatchEvent(new CustomEvent('dpa:languagechange', { detail: { language: next } }));
     }

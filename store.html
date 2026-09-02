@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store | Dead People Activity</title>
-    <meta name="description" content="Store Dead People Activity: merchandise, vinili, cassette, fanzine e autoproduzioni underground. Prossimamente.">
-    <link rel="stylesheet" href="assets/css/style.css?v=13">
+    <title data-i18n="store.page_title">Store | Dead People Activity</title>
+    <meta name="description" content="Store Dead People Activity: merchandise, vinili, cassette, fanzine e autoproduzioni underground. Prossimamente." data-i18n-content="store.meta">
+    <link rel="stylesheet" href="assets/css/style.css?v=14">
     <link rel="icon" type="image/png" href="assets/img/dpa%20no%20sfondo.png?v=2">
     <!-- SEO:START -->
-    <meta name="robots" content="noindex, follow">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://deadpeopleactivity.com/store.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Dead People Activity">
     <meta property="og:locale" content="it_IT">
     <meta property="og:title" content="Store | Dead People Activity">
-    <meta property="og:description" content="Store Dead People Activity: merchandise, vinili, cassette, fanzine e autoproduzioni underground. Prossimamente.">
+    <meta property="og:description" content="Musica fisica selezionata dalla scena indipendente europea: vinili, CD e altre pubblicazioni.">
     <meta property="og:url" content="https://deadpeopleactivity.com/store.html">
     <meta property="og:image" content="https://deadpeopleactivity.com/assets/img/foto%20per%20sfondo%20index/sfondo%20index.jpg">
     <meta property="og:image:width" content="1820">
@@ -22,7 +22,7 @@
     <meta property="og:image:alt" content="Pubblico davanti a un palco durante un concerto">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Store | Dead People Activity">
-    <meta name="twitter:description" content="Store Dead People Activity: merchandise, vinili, cassette, fanzine e autoproduzioni underground. Prossimamente.">
+    <meta name="twitter:description" content="Musica fisica selezionata dalla scena indipendente europea: vinili, CD e altre pubblicazioni.">
     <meta name="twitter:image" content="https://deadpeopleactivity.com/assets/img/foto%20per%20sfondo%20index/sfondo%20index.jpg">
     <!-- SEO:END -->
 </head>
@@ -63,21 +63,24 @@
     <main class="page-wrapper">
         <section class="store-hero">
             <div class="container">
-                <h1 class="store-coming-banner">Coming Soon</h1>
-                <p class="store-lead"><strong>Merchandise e musica indipendente, direttamente dalla scena.</strong><br><br>Stiamo preparando uno spazio per magliette, felpe, stampe, vinili, cassette, fanzine e autoproduzioni selezionate dalla rete Dead People Activity.</p>
+                <div class="store-coming-panel">
+                    <span class="store-coming-label" data-i18n="store.coming">Coming Soon</span>
+                    <h1 class="store-coming-banner" data-i18n="store.catalog_title">Lo store sta arrivando</h1>
+                    <p class="store-lead"><strong data-i18n="store.lead_strong">Stiamo preparando uno spazio dedicato alla musica indipendente e alla cultura underground.</strong><br><br><span data-i18n="store.lead_text">Nelle prossime settimane arriveranno le prime novità: supporti fisici, merchandise, fanzine e piccole produzioni dalla scena.</span></p>
+                    <p class="store-launch-note" data-i18n="store.status">Torna a trovarci: il catalogo aprirà presto.</p>
+                </div>
             </div>
         </section>
 
-        <section class="section-padding">
+        <section class="section-padding store-future-section">
             <div class="container">
-                <h2 class="title-underground">Cosa troverai</h2>
+                <h2 class="title-underground store-future-title" data-i18n="store.heading">Cosa troverai</h2>
                 <div class="store-preview-grid">
-                    <article class="store-preview-card"><h3>Merchandise</h3><p>Magliette, felpe, patch e stampe Dead People Activity.</p></article>
-                    <article class="store-preview-card"><h3>Musica</h3><p>Vinili, cassette e pubblicazioni indipendenti.</p></article>
-                    <article class="store-preview-card"><h3>Fanzine &amp; DIY</h3><p>Edizioni limitate, poster e materiale dalle scene europee.</p></article>
-                    <article class="store-preview-card"><h3>Accessori</h3><p>Oggetti e piccole produzioni pensate per chi vive la musica dal vivo.</p></article>
+                    <article class="store-preview-card"><h3 data-i18n="store.merch_title">Merchandise</h3><p data-i18n="store.merch_text">Magliette, felpe, patch e stampe Dead People Activity.</p></article>
+                    <article class="store-preview-card"><h3 data-i18n="store.music_title">Musica</h3><p data-i18n="store.music_text">Vinili, cassette e pubblicazioni indipendenti.</p></article>
+                    <article class="store-preview-card"><h3 data-i18n="store.fanzine_title">Fanzine &amp; DIY</h3><p data-i18n="store.fanzine_text">Edizioni limitate, poster e materiale dalle scene europee.</p></article>
+                    <article class="store-preview-card"><h3 data-i18n="store.accessories_title">Accessori</h3><p data-i18n="store.accessories_text">Oggetti e piccole produzioni pensate per chi vive la musica dal vivo.</p></article>
                 </div>
-                <p class="store-status-note">Lo Store non è ancora aperto. Nessun prodotto è attualmente in vendita.</p>
             </div>
         </section>
     </main>
@@ -110,7 +113,7 @@
             <p>&copy; 2026 Dead People Activity. Tutti i diritti riservati. Testi, contenuti e marchio non possono essere copiati o riprodotti senza autorizzazione. Keep it underground.</p>
         </div>
     </footer>
-    <script src="assets/js/i18n.js?v=5"></script>
+    <script src="assets/js/i18n.js?v=6"></script>
     <script src="assets/js/main.js?v=7"></script>
 </body>
 </html>
