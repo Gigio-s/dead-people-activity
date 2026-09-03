@@ -8,6 +8,106 @@ document.addEventListener('DOMContentLoaded', () => {
     const navMenu = document.querySelector('.nav-menu');
     const body = document.querySelector('body');
 
+    // Navigazione unica: la mappa resta il centro del progetto e raccoglie
+    // anche gli accessi alle pagine SEO generate per citta' e paese.
+    (function standardizeNavigation() {
+        if (!navMenu) return;
+        navMenu.innerHTML =
+            '<li class="nav-item"><a href="index.html" class="nav-link" data-i18n="nav.home">Home</a></li>' +
+            '<li class="nav-item has-dropdown"><a href="mappa.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" data-i18n="nav.events">Eventi</a>' +
+                '<ul class="dropdown-menu">' +
+                    '<li><a href="mappa.html" class="nav-link" data-i18n="nav.interactive_map">Mappa interattiva</a></li>' +
+                    '<li><a href="eventi.html" class="nav-link" data-i18n="nav.events">Eventi</a></li>' +
+                    '<li><a href="festival.html" class="nav-link" data-i18n="nav.festivals">Festival</a></li>' +
+                    '<li><a href="it/eventi/concerti-piu-importanti-settembre-2026/" class="nav-link js-monthly-events" data-month-offset="0">Concerti più importanti di settembre 2026</a></li>' +
+                    '<li><a href="it/eventi/concerti-piu-importanti-ottobre-2026/" class="nav-link js-monthly-events" data-month-offset="1">Concerti più importanti di ottobre 2026</a></li>' +
+                    '<li><a href="it/eventi/#citta" class="nav-link js-city-directory" data-i18n="nav.by_city">Eventi per città</a></li>' +
+                    '<li><a href="it/eventi/#paesi" class="nav-link js-country-directory" data-i18n="nav.by_country">Eventi per paese</a></li>' +
+                '</ul></li>' +
+            '<li class="nav-item has-dropdown"><a href="the-wall.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">The Wall</a>' +
+                '<ul class="dropdown-menu"><li><a href="the-wall.html" class="nav-link">The Wall</a></li><li><a href="articoli.html" class="nav-link" data-i18n="nav.articles">Articoli</a></li></ul></li>' +
+            '<li class="nav-item"><a href="store.html" class="nav-link" data-i18n="nav.store">Store</a></li>' +
+            '<li class="nav-item"><a href="contatti.html" class="nav-link" data-i18n="nav.contacts">Contatti</a></li>';
+
+        function updateDirectoryLinks() {
+            const lang = window.DPA_I18N ? window.DPA_I18N.getLanguage() : 'it';
+            const sections = { it: 'eventi', en: 'events', es: 'eventos', ca: 'esdeveniments', de: 'veranstaltungen', fr: 'evenements' };
+            const monthlySlugs = { it: 'concerti-piu-importanti', en: 'top-concerts', es: 'conciertos-mas-importantes', ca: 'concerts-mes-importants', de: 'wichtigste-konzerte', fr: 'concerts-les-plus-importants' };
+            const months = {
+                it: ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'],
+                en: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+                es: ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'],
+                ca: ['gener','febrer','març','abril','maig','juny','juliol','agost','setembre','octubre','novembre','desembre'],
+                de: ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'],
+                fr: ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre']
+            };
+            const monthlyLabels = {
+                it: (month, year) => `Concerti più importanti di ${month} ${year}`,
+                en: (month, year) => `Top concerts in ${month} ${year}`,
+                es: (month, year) => `Conciertos más importantes de ${month} de ${year}`,
+                ca: (month, year) => `Concerts més importants de ${month} de ${year}`,
+                de: (month, year) => `Die wichtigsten Konzerte im ${month} ${year}`,
+                fr: (month, year) => `Les concerts les plus importants de ${month} ${year}`
+            };
+            const makeSlug = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            const base = lang + '/' + (sections[lang] || sections.en) + '/';
+            const city = navMenu.querySelector('.js-city-directory');
+            const country = navMenu.querySelector('.js-country-directory');
+            if (city) city.href = base + '#citta';
+            if (country) country.href = base + '#paesi';
+            navMenu.querySelectorAll('.js-monthly-events').forEach(link => {
+                const offset = Number(link.dataset.monthOffset || 0);
+                const now = new Date();
+                const target = new Date(now.getFullYear(), now.getMonth() + offset, 1);
+                const month = months[lang][target.getMonth()];
+                link.href = base + monthlySlugs[lang] + '-' + makeSlug(month) + '-' + target.getFullYear() + '/';
+                link.textContent = monthlyLabels[lang](month, target.getFullYear());
+            });
+        }
+        updateDirectoryLinks();
+        document.addEventListener('dpa:languagechange', updateDirectoryLinks);
+    })();
+
+    // Footer unico su tutto il sito. Le icone social restano informative finche'
+    // non vengono configurati gli URL ufficiali, evitando collegamenti vuoti (#).
+    (function standardizeFooter() {
+        const footer = document.querySelector('.footer');
+        if (!footer) return;
+
+        const socialIcons = [
+            ['Instagram', '<rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle>'],
+            ['TikTok', '<path d="M15 4c.4 2.2 1.7 3.6 4 4v3c-1.5 0-2.8-.4-4-1.2V16a6 6 0 1 1-6-6v3a3 3 0 1 0 3 3V4h3z"></path>'],
+            ['YouTube', '<path d="M21 8.2a3 3 0 0 0-2.1-2.1C17 5.6 12 5.6 12 5.6s-5 0-6.9.5A3 3 0 0 0 3 8.2 31 31 0 0 0 2.5 12a31 31 0 0 0 .5 3.8 3 3 0 0 0 2.1 2.1c1.9.5 6.9.5 6.9.5s5 0 6.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-3.8 31 31 0 0 0-.5-3.8z"></path><path class="social-icon-play" d="m10 9 5 3-5 3z"></path>'],
+            ['LinkedIn', '<rect x="4" y="9" width="4" height="11"></rect><circle cx="6" cy="5.5" r="2"></circle><path d="M11 9h4v1.7c.9-1.3 2.1-2 3.7-2 2.8 0 4.3 1.8 4.3 5.2V20h-4v-5.4c0-1.5-.5-2.4-1.8-2.4-1.5 0-2.2 1-2.2 3V20h-4z"></path>']
+        ].map(([label, drawing]) =>
+            '<span class="footer-social-icon" role="img" aria-label="' + label + '" title="' + label + '">' +
+            '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + drawing + '</svg></span>'
+        ).join('');
+
+        footer.innerHTML =
+            '<div class="container footer-grid">' +
+                '<div class="footer-brand">' +
+                    '<a href="index.html" class="logo">Dead People <span>Activity</span></a>' +
+                    '<p>Piattaforma media indipendente e archivio radicale delle scene alternative europee. Nessun padrone, solo attitudine.</p>' +
+                '</div>' +
+                '<nav class="footer-links" aria-label="Navigazione footer">' +
+                    '<h4>Naviga</h4><ul>' +
+                        '<li><a href="index.html">Home</a></li>' +
+                        '<li><a href="mappa.html">Mappa</a></li>' +
+                        '<li><a href="eventi.html">Eventi</a></li>' +
+                        '<li><a href="festival.html">Festival</a></li>' +
+                        '<li><a href="the-wall.html">The Wall</a></li>' +
+                        '<li><a href="articoli.html">Articoli</a></li>' +
+                        '<li><a href="store.html">Store</a></li>' +
+                    '</ul>' +
+                '</nav>' +
+                '<div class="footer-socials"><h4>Seguici</h4>' +
+                    '<div class="footer-social-icons">' + socialIcons + '</div>' +
+                '</div>' +
+            '</div>' +
+            '<div class="footer-bottom container"><p>&copy; 2026 Dead People Activity. Tutti i diritti riservati. Testi, contenuti e marchio non possono essere copiati o riprodotti senza autorizzazione. Keep it underground.</p></div>';
+    })();
+
     // ---- Favicon DPA (il logo disegnato) su tutte le pagine ----
     (function () {
         var href = 'assets/img/dpa%20no%20sfondo.png?v=2';
@@ -259,6 +359,37 @@ document.addEventListener('DOMContentLoaded', () => {
         panel.querySelector('#chatbotClose').addEventListener('click', () => setOpen(false));
         document.addEventListener('keydown', event => { if (event.key === 'Escape') setOpen(false); });
     }
+
+    // Pulsante discreto e globale: compare solo quando serve e resta accanto
+    // all'assistente senza coprire i contenuti della pagina.
+    function injectBackToTop() {
+        if (document.getElementById('backToTop')) return;
+        const labels = {
+            it: 'Torna in alto', en: 'Back to top', es: 'Volver arriba',
+            ca: 'Torna a dalt', de: 'Nach oben', fr: 'Retour en haut'
+        };
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.id = 'backToTop';
+        button.className = 'back-to-top';
+        button.innerHTML = '<span aria-hidden="true">↑</span>';
+
+        const updateLanguage = () => {
+            const label = labels[getLang()] || labels.it;
+            button.setAttribute('aria-label', label);
+            button.setAttribute('title', label);
+        };
+        const updateVisibility = () => {
+            button.classList.toggle('is-visible', window.scrollY > 420);
+        };
+
+        button.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        window.addEventListener('scroll', updateVisibility, { passive: true });
+        document.addEventListener('dpa:languagechange', updateLanguage);
+        document.body.appendChild(button);
+        updateLanguage();
+        updateVisibility();
+    }
     const injectLangToggle = () => {};
 
     // Chiude tutte le tendine aperte
@@ -452,5 +583,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ---- Attiva assistente e motore multilingua ----
     injectGlobalChatbot();
+    injectBackToTop();
     if (window.DPA_I18N) window.DPA_I18N.init();
 });

@@ -77,6 +77,12 @@ if errorlevel 1 goto :errore
 %DPA_PYTHON% "coordinate eventi\geocodifica_coordinate.py" --apply --limit 100 --delay 2.5 --retry-incerti-giorni 7
 if errorlevel 1 goto :errore
 
+echo [%date% %time%] --- Pagine locali SEO (solo dai dati gia approvati) ---
+%DPA_PYTHON% genera_pagine_locali.py
+if errorlevel 1 goto :errore
+%DPA_PYTHON% genera_seo.py
+if errorlevel 1 goto :errore
+
 echo [%date% %time%] --- Pubblico il sito online (git push) ---
 git -C "%~dp0.." add -A
 if errorlevel 1 goto :errore

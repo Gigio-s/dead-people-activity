@@ -1,6 +1,9 @@
 {
   "nav.home": "Inici",
   "nav.map": "Mapa",
+  "nav.interactive_map": "Mapa interactiu",
+  "nav.by_city": "Esdeveniments per ciutat",
+  "nav.by_country": "Esdeveniments per país",
   "nav.events": "Esdeveniments",
   "nav.festivals": "Festivals",
   "nav.wall": "The Wall",

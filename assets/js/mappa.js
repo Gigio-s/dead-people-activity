@@ -157,14 +157,29 @@
         var params = new URLSearchParams(window.location.search);
         var genre = params.get("genere") || "";
         var wantedCountry = params.get("paese") || "";
-        if (!genre && !wantedCountry) return false;
+        var wantedCity = params.get("citta") || "";
+        if (!genre && !wantedCountry && !wantedCity) return false;
         if (["rock", "rap", "electronic"].indexOf(genre) >= 0) setSel("f-genere", genre);
+        if (!wantedCountry && wantedCity) {
+            var cityEvent = ALL.find(function (event) {
+                return String(event.citta || "").trim().toLowerCase() === String(wantedCity).trim().toLowerCase();
+            });
+            if (cityEvent) wantedCountry = cityEvent.paese || "";
+        }
         if (wantedCountry) {
             wantedCountry = toIT(wantedCountry);
             var matched = uniq(ALL.map(function (e) { return e.paese; })).find(function (name) {
                 return String(name || "").trim().toLowerCase() === String(wantedCountry || "").trim().toLowerCase();
             });
-            if (matched) selectCountry(matched, countryBounds[matched]);
+            if (matched) {
+                selectCountry(matched, countryBounds[matched]);
+                if (wantedCity) {
+                    var cityMatch = uniq(ALL.filter(function (event) { return event.paese === matched; }).map(function (event) { return event.citta; })).find(function (name) {
+                        return String(name || "").trim().toLowerCase() === String(wantedCity).trim().toLowerCase();
+                    });
+                    if (cityMatch) selectCity(cityMatch);
+                }
+            }
             else refreshCurrent();
         } else refreshCurrent();
         return true;

@@ -24,9 +24,60 @@
         return SUPPORTED.includes(short) ? short : 'en';
     }
 
+    function locationLanguage() {
+        // Il fuso orario del dispositivo consente una scelta geografica senza
+        // inviare IP o posizione a servizi esterni. Il catalano viene distinto
+        // tramite le preferenze del browser, perche' Catalogna e Spagna hanno
+        // lo stesso fuso orario.
+        const browserLanguages = Array.from(navigator.languages || [navigator.language || ''])
+            .map(value => String(value).toLowerCase());
+        if (browserLanguages.some(value => value === 'ca' || value.startsWith('ca-'))) return 'ca';
+
+        let timezone = '';
+        try { timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (_) {}
+
+        const byTimezone = {
+            'Europe/Rome': 'it',
+            'Europe/Vatican': 'it',
+            'Europe/San_Marino': 'it',
+            'Europe/Madrid': 'es',
+            'Europe/Ceuta': 'es',
+            'Atlantic/Canary': 'es',
+            'Europe/Paris': 'fr',
+            'Europe/Monaco': 'fr',
+            'Europe/Berlin': 'de',
+            'Europe/Busingen': 'de',
+            'Europe/London': 'en',
+            'Europe/Dublin': 'en',
+            'Europe/Guernsey': 'en',
+            'Europe/Isle_of_Man': 'en',
+            'Europe/Jersey': 'en'
+        };
+        return byTimezone[timezone] || browserLanguage();
+    }
+
     function urlLanguage() {
         const value = new URLSearchParams(window.location.search).get('lang');
         return SUPPORTED.includes(value) ? value : null;
+    }
+
+    function pathLanguage() {
+        const segment = window.location.pathname.split('/').filter(Boolean).find(value => SUPPORTED.includes(value));
+        return segment || null;
+    }
+
+    function alternateDestination(alternate) {
+        const target = new URL(alternate.href, window.location.href);
+        const localHost = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
+        if (!localHost) return target.href;
+
+        // In anteprima Live Server conserva la cartella del progetto davanti
+        // alla route localizzata, invece di saltare al dominio di produzione.
+        const currentParts = window.location.pathname.split('/').filter(Boolean);
+        const languageIndex = currentParts.findIndex(value => SUPPORTED.includes(value));
+        const prefix = languageIndex >= 0 ? currentParts.slice(0, languageIndex) : [];
+        const targetPath = target.pathname.split('/').filter(Boolean);
+        return '/' + prefix.concat(targetPath).join('/') + '/' + target.search + target.hash;
     }
 
     function updateLanguageUrl(language) {
@@ -158,6 +209,12 @@
             option.setAttribute('role', 'menuitem');
             option.innerHTML = `<img src="assets/img/flags/${language}.svg" alt=""><span>${LABELS[language]}</span><b>${language.toUpperCase()}</b>`;
             option.addEventListener('click', async () => {
+                const alternate = document.querySelector(`link[rel="alternate"][hreflang="${language}"]`);
+                if (alternate && pathLanguage()) {
+                    try { localStorage.setItem('dpa_lang', language); } catch (_) {}
+                    window.location.href = alternateDestination(alternate);
+                    return;
+                }
                 await setLanguage(language);
                 switcher.classList.remove('open');
                 toggle.setAttribute('aria-expanded', 'false');
@@ -224,13 +281,13 @@
         if (initialized) return;
         initialized = true;
         const requested = urlLanguage();
+        const localizedPath = pathLanguage();
         const saved = storedLanguage();
-        const selected = saved || browserLanguage();
+        const selected = requested || localizedPath || saved || locationLanguage();
         try {
             await load('it');
-            await setLanguage(requested || saved || 'it', false);
+            await setLanguage(selected, false);
             injectSwitcher();
-            if (!requested && !saved) showChooser(selected);
             observer = new MutationObserver(records => {
                 records.forEach(record => record.addedNodes.forEach(node => {
                     if (node.nodeType === 1 || node.nodeType === 3) translate(node.nodeType === 3 ? node.parentNode : node);

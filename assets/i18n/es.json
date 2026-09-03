@@ -1,6 +1,9 @@
 {
   "nav.home": "Inicio",
   "nav.map": "Mapa",
+  "nav.interactive_map": "Mapa interactivo",
+  "nav.by_city": "Eventos por ciudad",
+  "nav.by_country": "Eventos por país",
   "nav.events": "Eventos",
   "nav.festivals": "Festivales",
   "nav.wall": "The Wall",

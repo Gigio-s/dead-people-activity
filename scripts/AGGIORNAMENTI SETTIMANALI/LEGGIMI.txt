@@ -1,0 +1,22 @@
+DEAD PEOPLE ACTIVITY - AGGIORNAMENTI
+===================================
+
+01 - AGGIORNA EVENTI COMPLETO
+Usa questo per il normale aggiornamento settimanale.
+Aggiorna eventi, archivia le date passate, cerca le coordinate,
+rigenera le pagine SEO e pubblica tutto su GitHub.
+
+02 - AGGIORNA FESTIVAL
+Usa questo per il controllo separato delle fonti festival.
+
+03 - RIGENERA SOLO SEO
+Usa questo soltanto per rigenerare pagine di citta, pagine di paese,
+metadati e sitemap dagli eventi gia presenti.
+Non effettua scraping e non chiama API.
+
+IMPORTANTE
+La geocodifica e la SEO sono gia incluse nel numero 01.
+Dopo il numero 01 non bisogna lanciare anche il numero 03.
+
+I BAT nella cartella scripts principale sono i motori tecnici richiamati
+da questi collegamenti e dall'attivita pianificata di Windows: non spostarli.

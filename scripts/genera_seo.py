@@ -6,6 +6,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import sys
 from datetime import date
 from pathlib import Path
 
@@ -119,15 +120,19 @@ def seo_block(filename: str, content: str) -> str:
 
 
 def update_html(path: Path) -> None:
-    content = path.read_text(encoding="utf-8")
-    content = re.sub(r"assets/js/i18n\.js\?v=\d+", "assets/js/i18n.js?v=6", content)
+    original = path.read_text(encoding="utf-8")
+    content = original
+    content = re.sub(r"assets/js/i18n\.js\?v=\d+", "assets/js/i18n.js?v=9", content)
+    content = re.sub(r"assets/js/main\.js\?v=\d+", "assets/js/main.js?v=9", content)
+    content = re.sub(r"assets/css/style\.css\?v=\d+", "assets/css/style.css?v=17", content)
     content = re.sub(rf"\n?{re.escape(START)}.*?{re.escape(END)}\n?", "\n", content, flags=re.DOTALL)
     content = re.sub(r'^\s*<meta\s+(?:name="robots"|property="og:[^"]+"|name="twitter:[^"]+")[^>]*>\s*\n?', "", content, flags=re.MULTILINE | re.IGNORECASE)
     content = re.sub(r'^\s*<link\s+rel="canonical"[^>]*>\s*\n?', "", content, flags=re.MULTILINE | re.IGNORECASE)
     content = re.sub(r'^\s*<link\s+rel="icon"[^>]*>\s*\n?', "", content, flags=re.MULTILINE | re.IGNORECASE)
     content = content.replace("</head>", '    <link rel="icon" type="image/png" href="assets/img/dpa%20no%20sfondo.png?v=2">\n</head>', 1)
     content = content.replace("</head>", f"{seo_block(path.name, content)}\n</head>", 1)
-    path.write_text(content, encoding="utf-8", newline="\n")
+    if content != original:
+        path.write_text(content, encoding="utf-8")
 
 
 def write_sitemap() -> None:
@@ -136,8 +141,15 @@ def write_sitemap() -> None:
         url = canonical_for(filename)
         priority = "1.0" if filename == "index.html" else ("0.9" if filename in {"mappa.html", "eventi.html", "festival.html"} else "0.7")
         entries.append(f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{TODAY}</lastmod>\n    <priority>{priority}</priority>\n  </url>")
+    local_manifest = ROOT / "assets" / "data" / "seo_local_manifest.json"
+    if local_manifest.exists():
+        for relative in json.loads(local_manifest.read_text(encoding="utf-8")).get("urls", []):
+            entries.append(
+                f"  <url>\n    <loc>{DOMAIN}/{html.escape(relative)}</loc>\n"
+                f"    <lastmod>{TODAY}</lastmod>\n    <priority>0.8</priority>\n  </url>"
+            )
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(entries) + "\n</urlset>\n"
-    (ROOT / "sitemap.xml").write_text(xml, encoding="utf-8", newline="\n")
+    (ROOT / "sitemap.xml").write_text(xml, encoding="utf-8")
 
 
 def main() -> None:
@@ -145,9 +157,13 @@ def main() -> None:
     unknown = sorted({path.name for path in ROOT.glob("*.html")} - known)
     if unknown:
         raise SystemExit("Pagine senza regola SEO: " + ", ".join(unknown))
-    for filename in sorted(known):
-        update_html(ROOT / filename)
-    (ROOT / "robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: https://deadpeopleactivity.com/sitemap.xml\n", encoding="utf-8", newline="\n")
+    # Nel ciclo settimanale sitemap e pagine locali cambiano, i metadati delle
+    # pagine principali no. La loro riscrittura resta disponibile solo quando
+    # richiesta esplicitamente, evitando conflitti con editor/Live Server.
+    if "--aggiorna-html" in sys.argv:
+        for filename in sorted(INDEXABLE):
+            update_html(ROOT / filename)
+    (ROOT / "robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: https://deadpeopleactivity.com/sitemap.xml\n", encoding="utf-8")
     write_sitemap()
     for filename in INDEXABLE:
         content = (ROOT / filename).read_text(encoding="utf-8")
