@@ -270,7 +270,7 @@ h1, h2, h3, h4 {
    5. HERO SECTION (Impatto Duro e Cupo)
    ========================================================================== */
 .hero {
-    padding: 120px 0;
+    padding: 52px 0 72px;
     border-bottom: var(--border-white);
     background: linear-gradient(rgba(15, 15, 17, 0.85), rgba(15, 15, 17, 0.95)), 
                 url('../img/foto per sfondo index/sfondo index.jpg');
@@ -294,17 +294,17 @@ h1, h2, h3, h4 {
     display: block;
     width: min(100%, 520px);
     line-height: 0.9;
-    padding: clamp(12px, 4vw, 26px) clamp(12px, 8vw, 80px);
-    margin: 0 0 35px;
+    padding: clamp(10px, 3vw, 20px) clamp(12px, 8vw, 80px);
+    margin: 0 0 22px;
 }
 
 .hero p {
-    font-size: 1.25rem;
-    max-width: 580px;
-    margin-top: 35px;
-    margin-bottom: 45px;
+    font-size: 1.1rem;
+    max-width: 560px;
+    margin-top: 22px;
+    margin-bottom: 30px;
     background-color: #000000;
-    padding: 20px;
+    padding: 16px 18px;
     border: var(--border-thin);
     transform: rotate(1deg);
     box-shadow: 6px 6px 0px rgba(0,0,0,0.5);
@@ -320,7 +320,7 @@ h1, h2, h3, h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: clamp(160px, 35vw, 200px);
+    min-height: clamp(150px, 26vw, 172px);
     overflow: hidden;            /* il DPA cade DENTRO il riquadro, non fuori */
 }
 .hero-anim .dpa {
@@ -1052,11 +1052,20 @@ label {
         border-left: 2px dashed var(--accent-color);
         box-shadow: none;
     }
+
+    /* Nel pannello mobile i link lunghi vanno a capo, non vengono tagliati */
+    .nav-menu .nav-link {
+        white-space: normal;
+        line-height: 1.25;
+        overflow-wrap: break-word;
+    }
 }
 
 @media (max-width: 768px) {
     .hero h1 { font-size: 3rem; }
-    .footer-grid { grid-template-columns: 1fr; }
+    /* Brand a tutta larghezza; Naviga e Seguici affiancati in due colonne */
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px 20px; }
+    .footer-brand { grid-column: 1 / -1; }
     h1, h2, .title-underground { transform: none !important; }
 }
 
