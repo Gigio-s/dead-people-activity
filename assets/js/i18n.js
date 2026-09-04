@@ -188,7 +188,8 @@
     }
 
     function injectSwitcher() {
-        const nav = document.querySelector('.nav-container');
+        // Header normale; sulla mappa a tutto schermo (senza header) si aggancia alla toolbar.
+        const nav = document.querySelector('.nav-container') || document.querySelector('.map-toolbar-inner');
         if (!nav || nav.querySelector('.language-switcher')) return;
         const switcher = document.createElement('div');
         switcher.className = 'language-switcher';

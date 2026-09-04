@@ -1,6 +1,9 @@
 (function () {
     "use strict";
 
+    // Traduzione: usa il motore i18n se disponibile, altrimenti torna al testo IT.
+    function t(key, vars) { return window.DPA_I18N ? window.DPA_I18N.t(key, vars) : key; }
+
     var PAGE_SIZE = 24;
     var ALL = [];
     var FILTERED = [];
@@ -133,6 +136,8 @@
             visible += PAGE_SIZE;
             render();
         });
+        // Al cambio lingua ridisegna conteggi ed etichette dinamiche.
+        document.addEventListener("dpa:languagechange", function () { if (ALL.length) applyFilters(); });
     }
 
     function applyFilters() {
@@ -176,44 +181,43 @@
         grid.setAttribute("aria-busy", "false");
 
         var count = document.getElementById("eventsCount");
-        count.textContent = FILTERED.length.toLocaleString("it-IT") +
-            (FILTERED.length === 1 ? " evento trovato" : " eventi trovati");
-        document.getElementById("eventsOrder").textContent = nearActive ? "Ordinati per distanza" : "Ordinati per data";
+        count.textContent = t(FILTERED.length === 1 ? "ev.count_one" : "ev.count_many", { n: FILTERED.length.toLocaleString("it-IT") });
+        document.getElementById("eventsOrder").textContent = nearActive ? t("flt.order_distance") : t("flt.order_date");
         document.getElementById("eventsEmpty").hidden = FILTERED.length !== 0;
 
         var more = document.getElementById("eventsMore");
         more.hidden = visible >= FILTERED.length;
-        if (!more.hidden) more.textContent = "Mostra altri eventi (" + shown.length + " di " + FILTERED.length.toLocaleString("it-IT") + ")";
+        if (!more.hidden) more.textContent = t("ev.more_count", { shown: shown.length, total: FILTERED.length.toLocaleString("it-IT") });
     }
 
     function cardHtml(ev) {
         var place = [ev.locale, ev.citta, ev.paese].filter(Boolean).join(" · ");
         var genres = ev.genere.slice(0, 3);
-        var price = ev.gratuito ? '<span class="event-price event-free">Gratis</span>' :
-            (ev.prezzo !== null && ev.prezzo !== undefined ? '<span class="event-price">da ' + esc(ev.prezzo) + ' €</span>' : "");
+        var price = ev.gratuito ? '<span class="event-price event-free">' + t("map.free_label") + '</span>' :
+            (ev.prezzo !== null && ev.prezzo !== undefined ? '<span class="event-price">' + t("map.from_price", { price: esc(ev.prezzo) }) + '</span>' : "");
         var mapUrl = "mappa.html?evento=" + encodeURIComponent(ev.id);
         var ticket = safeUrl(ev.biglietti_url);
         var ticketButton = ticket ? '<a class="event-action event-ticket" href="' + esc(ticket) +
-            '" target="_blank" rel="noopener sponsored">Biglietti</a>' : "";
+            '" target="_blank" rel="noopener sponsored">' + t("ev.tickets") + '</a>' : "";
 
         var distance = Number.isFinite(ev._distance) ? '<span>' + formatDistance(ev._distance) + " da te</span>" : "";
         return '<article class="event-calendar-card genre-' + ev._genreGroup + '">' +
             '<div class="event-card-top"><time datetime="' + esc(ev.data) + '">' + formatDate(ev.data) +
             (ev.ora ? '<small>' + esc(shortTime(ev.ora)) + "</small>" : "") + "</time>" + price + "</div>" +
-            '<h2 class="event-calendar-title">' + esc(ev.nome || "Evento") + "</h2>" +
-            '<p class="event-calendar-place">' + esc(place || "Luogo da definire") + "</p>" +
+            '<h2 class="event-calendar-title">' + esc(ev.nome || t("ev.event_fallback")) + "</h2>" +
+            '<p class="event-calendar-place">' + esc(place || t("ev.venue_tba")) + "</p>" +
             '<div class="event-tags genre-color-tags">' + genres.map(function (g) { return "<span>" + esc(g) + "</span>"; }).join("") + "</div>" +
             '<div class="event-card-meta"><span>' + esc(labelType(ev.tipo || "evento")) + distance + '<span>via ' + esc(provider(ev.fonte)) + "</span></div>" +
-            '<div class="event-card-actions"><a class="event-action" href="' + esc(mapUrl) + '">Dettagli e biglietti</a>' + ticketButton + "</div>" +
+            '<div class="event-card-actions"><a class="event-action" href="' + esc(mapUrl) + '">' + t("ev.details_tickets") + '</a>' + ticketButton + "</div>" +
             "</article>";
     }
 
     function showLoadError() {
         document.getElementById("eventsGrid").setAttribute("aria-busy", "false");
-        document.getElementById("eventsCount").textContent = "Eventi non disponibili";
+        document.getElementById("eventsCount").textContent = t("ev.unavailable");
         var empty = document.getElementById("eventsEmpty");
         empty.hidden = false;
-        empty.textContent = "Impossibile caricare il calendario. Riprova tra poco.";
+        empty.textContent = t("ev.load_error");
     }
 
     function toggleNear() {
@@ -224,10 +228,10 @@
         }
         var status = document.getElementById("eventsGeoStatus");
         if (!navigator.geolocation) {
-            status.textContent = "Posizione non disponibile su questo dispositivo.";
+            status.textContent = t("ev.geo_unsupported");
             return;
         }
-        status.textContent = "Richiesta posizione…";
+        status.textContent = t("ev.geo_requesting");
         navigator.geolocation.getCurrentPosition(function (pos) {
             userPos = { lat: pos.coords.latitude, lng: pos.coords.longitude };
             nearActive = true;
@@ -235,10 +239,10 @@
             button.classList.add("active");
             button.setAttribute("aria-pressed", "true");
             document.getElementById("ev-radius").disabled = false;
-            status.textContent = "Posizione attiva.";
+            status.textContent = t("ev.geo_active");
             applyFilters();
         }, function () {
-            status.textContent = "Posizione non concessa. Puoi riprovare dal pulsante.";
+            status.textContent = t("ev.geo_denied");
         }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
     }
 

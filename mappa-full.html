@@ -46,15 +46,17 @@
             display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
         }
 
-        /* Area mappa: mappa alta e "sticky" (resta visibile mentre scorri la lista);
-           la pagina scorre normalmente per vedere tutti gli eventi. */
+        /* Area mappa: mappa e lista della stessa altezza; la lista eventi scorre
+           DENTRO il proprio riquadro (fino al bordo mappa), senza allungare la pagina. */
         body.map-full .map-layout { margin: 0; align-items: start; }
         body.map-full .map-layout.container { max-width: none; width: 100%; padding: 0 0 24px; }
         body.map-full .map-canvas {
             height: 82vh; min-height: 460px; border: none; box-shadow: none;
-            position: sticky; top: 8px;
         }
-        body.map-full .map-list { max-height: none; align-self: start; border-top: none; border-bottom: none; }
+        body.map-full .map-list {
+            height: 82vh; min-height: 460px; max-height: 82vh;
+            align-self: start; border-top: none; border-bottom: none;
+        }
 
         /* Mobile: lista sotto la mappa, tutto in colonna */
         @media (max-width: 860px) {
