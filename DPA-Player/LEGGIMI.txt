@@ -1,0 +1,44 @@
+DPA PLAYER — come metterlo online
+==================================
+
+COSA C'È QUI DENTRO
+  player.html            → l'app (la pagina del player)
+  manifest.webmanifest   → dati per l'installazione (icona, nome, colori)
+  sw.js                  → service worker (fa funzionare l'app offline + installabile)
+  icons/                 → icone dell'app (192, 512, maskable, apple, favicon)
+
+COME CARICARLO SUL SITO (undergroundplatform.xyz)
+  1. Carica TUTTA questa cartella nella stessa posizione degli altri file .html
+     del sito (dove stanno index.html, eventi.html, ecc.), mantenendo la
+     struttura: player.html in alto e la cartella icons/ accanto.
+  2. Aggiungi una voce di menu / un pulsante nel sito che porta a:
+        player.html
+     (es. nell'header, oppure un bottone in home "Ascolta / DPA Player").
+  3. Fatto. L'utente apre player.html, carica la sua musica e ascolta.
+
+IMPORTANTE PER L'INSTALLAZIONE (PWA)
+  - Il sito deve essere servito in HTTPS (undergroundplatform.xyz già lo è).
+  - Il service worker (sw.js) deve stare nella STESSA cartella di player.html
+    (o più in alto). Se lo sposti, va aggiornato il percorso.
+  - Su Android/Chrome comparirà da solo il banner "Installa DPA Player".
+  - Su iPhone/Safari: l'utente usa "Condividi → Aggiungi a schermata Home".
+    (Su iPhone la riproduzione dei file locali è più limitata: è la parte da
+     testare per prima se il tuo pubblico è molto iOS.)
+
+DA PERSONALIZZARE (2 minuti)
+  - Link "Playlist Settimanale": in player.html cerca il commento
+        <!-- SOSTITUISCI con il link reale della playlist Spotify settimanale -->
+    e metti l'URL vero della playlist Spotify DPA.
+  - I link "Mappa & Eventi", "Archivio", "Community" puntano già alle pagine
+    del sito. Se cambi i nomi dei file, aggiornali.
+
+PRIVACY / COME FUNZIONA
+  - I brani NON vengono mai caricati online: restano nel dispositivo dell'utente
+    (salvati nel browser, in IndexedDB). L'app li ritrova alla riapertura.
+  - Nessun account, nessun server, nessun costo di banda per te.
+
+NOTE TECNICHE
+  - I metadati (titolo/artista/copertina) vengono letti dai tag ID3 quando ci
+    sono; altrimenti dal nome del file. Formato ideale: "Artista - Titolo.mp3".
+  - Formati supportati: dipendono dal browser. mp3, wav, ogg, m4a/aac funzionano
+    quasi ovunque; flac ok su Chrome/Firefox, non sempre su Safari.

@@ -1,0 +1,9 @@
+Ricompilare DPA Player
+======================
+Requisiti: Node.js LTS installato.
+  npm install
+  npm run start        # avvia l'app in sviluppo
+  npm run dist:win     # crea l'installer Windows (release/)
+  npm run dist:linux   # crea AppImage Linux (release/)
+Nota: per creare l'installer Windows da Linux serve wine installato.
+Per costruire da Windows non serve wine.

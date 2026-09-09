@@ -764,5 +764,80 @@
     "lat": 37.9637984,
     "lng": -0.7041006,
     "precisione": "indirizzo"
+  },
+  "rolling-stock-48-kingsland-road-shoreditch-e2-8aa-london-united-kingdom": {
+    "lat": 51.5286112,
+    "lng": -0.0777136,
+    "precisione": "indirizzo"
+  },
+  "prince-of-peckham-1-clayton-rd-peckham-london-se15-5ja-london-united-kingdom": {
+    "lat": 51.4736149,
+    "lng": -0.0653739,
+    "precisione": "indirizzo"
+  },
+  "paper-dress-vintage-352a-mare-street-hackney-e8-1hr-london-united-kingdom": {
+    "lat": 51.5473553,
+    "lng": -0.0546864,
+    "precisione": "indirizzo"
+  },
+  "tba-barcelona-spain": {
+    "lat": 41.3967951,
+    "lng": 2.1521641,
+    "precisione": "indirizzo"
+  },
+  "kw-institute-for-contemporary-art-auguststrae-69-10117-berlin-berlin-germany": {
+    "lat": 52.5271636,
+    "lng": 13.3948218,
+    "precisione": "indirizzo"
+  },
+  "oxi-wiesenweg-1-4-10365-berlin-berlin-germany": {
+    "lat": 52.5076121,
+    "lng": 13.4749435,
+    "precisione": "indirizzo"
+  },
+  "tba-berlin-germany": {
+    "lat": 52.4993694,
+    "lng": 13.3496349,
+    "precisione": "indirizzo"
+  },
+  "the-bassement-c-de-galileo-2628015-madrid-madrid-spain": {
+    "lat": 40.4324804,
+    "lng": -3.7102181,
+    "precisione": "indirizzo"
+  },
+  "club-vaag-rijnkaai-4-2000-antwerpen-antwerp-belgium": {
+    "lat": 51.2337413,
+    "lng": 4.4034725,
+    "precisione": "indirizzo"
+  },
+  "akvarium-klub-budapest-erzsebet-ter-1051-hungary-budapest-hungary": {
+    "lat": 47.4986747,
+    "lng": 19.0541621,
+    "precisione": "indirizzo"
+  },
+  "zuiderpark-zuiderparkweg-rotterdam-netherlands": {
+    "lat": 51.8844314,
+    "lng": 4.4864982,
+    "precisione": "indirizzo"
+  },
+  "moezeum-vijverhofstraat-29-rotterdam-netherlands": {
+    "lat": 51.928953,
+    "lng": 4.4776505,
+    "precisione": "indirizzo"
+  },
+  "lost-weekend-schellingstrae-3-80779-munchen-munich-germany": {
+    "lat": 48.1491212,
+    "lng": 11.5796565,
+    "precisione": "indirizzo"
+  },
+  "z-bau-frankenstr-200-nurnberg-germany": {
+    "lat": 49.4301337,
+    "lng": 11.0944973,
+    "precisione": "indirizzo"
+  },
+  "oddity-club-iraklidon-61-athina-118-54-athens-greece": {
+    "lat": 37.9757504,
+    "lng": 23.7126899,
+    "precisione": "indirizzo"
   }
 }

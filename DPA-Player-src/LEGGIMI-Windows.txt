@@ -1,0 +1,43 @@
+DPA PLAYER — App desktop Windows
+=================================
+
+INSTALLAZIONE
+  1. Doppio click su  DPA-Player-Setup-1.0.0.exe
+  2. IMPORTANTE — al primo avvio Windows mostrerà un avviso blu:
+        "Windows ha protetto il PC" (SmartScreen)
+     Questo NON è un virus: succede perché l'app non ha ancora una firma
+     digitale a pagamento. Per installare:
+        → clicca "Ulteriori informazioni"
+        → clicca "Esegui comunque"
+  3. Scegli la cartella di installazione (o lascia quella proposta) → Installa.
+  4. Trovi "DPA Player" nel menu Start e sul desktop.
+
+COME SI USA
+  - Apri DPA Player.
+  - Clicca "＋ Cartella musica" e scegli la cartella dove tieni i tuoi brani
+    (es. Musica, o una cartella di download). L'app scansiona anche le
+    sottocartelle e legge i tag (titolo/artista/durata).
+  - La libreria resta salvata: alla riapertura riscansiona da sola le stesse
+    cartelle. Puoi aggiungere più cartelle o singoli file.
+  - Controlli: play/pausa, avanti/indietro, casuale, ripeti, volume, ricerca.
+  - Funzionano anche i tasti multimediali della tastiera (play/pausa, avanti,
+    indietro) anche con l'app in secondo piano.
+  - I riquadri "Dentro DPA" aprono il sito (eventi, archivio, community, playlist).
+
+PRIVACY
+  - Nessun file viene caricato online. La musica resta sul tuo computer.
+  - Nessun account, nessun server, nessun costo.
+
+FORMATI SUPPORTATI
+  mp3, wav, flac, ogg, m4a, aac, opus, wma (dipende dai codec di Windows;
+  mp3/wav/flac/ogg/m4a funzionano praticamente sempre).
+
+--- NOTE PER LA DISTRIBUZIONE DAL SITO ---
+  - Puoi mettere DPA-Player-Setup-1.0.0.exe in download diretto dal sito.
+  - Per togliere l'avviso SmartScreen serve un certificato di firma del codice
+    (code signing), a pagamento (~100-400 €/anno). Per ora si convive con
+    l'avviso "Esegui comunque": è normale per software indie.
+  - Il file latest.yml serve in futuro per l'auto-aggiornamento (facoltativo).
+
+Costruito per: Windows 10/11 a 64 bit.
+Prossimo step previsto: versione Android (APK).

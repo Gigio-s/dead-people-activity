@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: file:; media-src 'self' data: file: blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; script-src 'self'">
+<title>DPA Player</title>
+<style>
+@font-face{font-family:'Permanent Marker';src:url('fonts/permanent-marker.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'Special Elite';src:url('fonts/special-elite.woff2') format('woff2');font-display:swap;}
+:root{
+  --bg:#0d0d0d;--bg-2:#000;--panel:#141414;--accent:#e60000;
+  --text:#f2f2f2;--muted:#8a8a8a;--line:#333;
+  --font-display:'Permanent Marker','Comic Sans MS',cursive;
+  --font-body:'Special Elite','Courier New',monospace;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;height:100%;}
+body{
+  background:var(--bg);color:var(--text);font-family:var(--font-body);
+  display:flex;flex-direction:column;height:100vh;overflow:hidden;
+  background-image:radial-gradient(rgba(255,255,255,0.02) 1px,transparent 1px);background-size:3px 3px;
+  user-select:none;
+}
+a{color:var(--accent);text-decoration:none;}
+.scroll{overflow-y:auto;flex:1;}
+.scroll::-webkit-scrollbar{width:10px;}
+.scroll::-webkit-scrollbar-thumb{background:#2a2a2a;border:2px solid var(--bg);}
+.container{max-width:1000px;margin:0 auto;padding:0 18px;width:100%;}
+
+/* HEADER */
+.app-header{border-bottom:2px solid var(--accent);background:var(--bg-2);flex:none;}
+.app-header .row{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;gap:12px;flex-wrap:wrap;}
+.logo{font-family:var(--font-display);font-size:1.4rem;color:var(--text);line-height:1;}
+.logo span{color:var(--accent);}
+.logo small{display:block;font-family:var(--font-body);font-size:0.6rem;color:var(--muted);letter-spacing:2px;margin-top:3px;}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;font-family:var(--font-body);font-size:0.85rem;padding:9px 14px;cursor:pointer;letter-spacing:.5px;}
+.btn:hover{background:#ff1a1a;}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text);}
+.btn.ghost:hover{border-color:var(--accent);}
+
+/* SOURCES */
+.sources{display:flex;gap:8px;flex-wrap:wrap;padding:10px 0 0;}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1px dashed var(--line);background:var(--panel);padding:6px 10px;font-size:0.76rem;color:var(--muted);}
+.chip b{color:var(--text);font-weight:normal;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.chip button{background:none;border:none;color:var(--muted);cursor:pointer;font-size:0.95rem;line-height:1;padding:0 2px;}
+.chip button:hover{color:var(--accent);}
+
+/* INTRO / EMPTY */
+.intro{padding:26px 0 4px;}
+.intro h1{font-family:var(--font-display);font-size:1.9rem;margin:0 0 8px;line-height:1.05;}
+.intro p{color:var(--muted);font-size:0.92rem;max-width:620px;margin:0;}
+.dropzone{margin:22px 0;border:2px dashed var(--line);background:var(--panel);padding:34px 20px;text-align:center;transform:rotate(-0.5deg);}
+.dropzone strong{font-family:var(--font-display);font-size:1.25rem;display:block;margin-bottom:8px;}
+.dropzone span{color:var(--muted);font-size:0.85rem;}
+.dropzone .btn{margin:14px 6px 0;}
+
+/* SCAN BAR */
+.scanbar{display:none;align-items:center;gap:12px;border:1px dashed var(--accent);background:#160808;padding:10px 14px;margin:14px 0;font-size:0.82rem;}
+.scanbar.show{display:flex;}
+.spinner{width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;flex:none;}
+@keyframes spin{to{transform:rotate(360deg);}}
+@media(prefers-reduced-motion:reduce){.spinner{animation:none;}}
+
+/* LIBRARY */
+.lib-head{display:flex;align-items:center;justify-content:space-between;margin:22px 0 8px;gap:12px;flex-wrap:wrap;}
+.lib-head h2{font-family:var(--font-display);font-size:1.3rem;margin:0;}
+.lib-head .count{color:var(--muted);font-size:0.78rem;}
+.searchbox{border:1px solid var(--line);background:var(--panel);color:var(--text);font-family:var(--font-body);padding:7px 10px;font-size:0.82rem;min-width:180px;}
+.searchbox:focus{outline:none;border-color:var(--accent);}
+.tracklist{list-style:none;margin:0;padding:0;}
+.track{display:flex;align-items:center;gap:12px;border:1px dashed var(--line);border-left:3px solid transparent;background:var(--panel);padding:9px 12px;margin-bottom:7px;cursor:default;}
+.track:hover{border-left-color:var(--accent);}
+.track.playing{border-left-color:var(--accent);background:#1a1010;}
+.track .idx{width:24px;text-align:center;color:var(--muted);font-size:0.78rem;flex:none;}
+.track.playing .idx{color:var(--accent);}
+.track .meta{flex:1;min-width:0;cursor:pointer;}
+.track .t-title{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.92rem;}
+.track .t-artist{display:block;color:var(--muted);font-size:0.76rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.track .t-dur{flex:none;color:var(--muted);font-size:0.76rem;font-variant-numeric:tabular-nums;width:44px;text-align:right;}
+.empty{border:2px dashed var(--line);padding:26px;text-align:center;color:var(--muted);font-size:0.88rem;line-height:1.6;}
+
+/* GANCIO */
+.dpa-links{margin:34px 0 20px;}
+.dpa-links h2{font-family:var(--font-display);font-size:1.3rem;margin:0 0 4px;}
+.dpa-links .sub{color:var(--muted);font-size:0.8rem;margin:0 0 14px;}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;}
+.link-card{border:1px dashed var(--line);background:var(--panel);padding:16px;cursor:pointer;transition:border-color .12s;}
+.link-card:nth-child(2n){transform:rotate(0.4deg);}
+.link-card:nth-child(3n){transform:rotate(-0.4deg);}
+.link-card:hover{border-color:var(--accent);transform:none;}
+.link-card .k{font-family:var(--font-display);color:var(--accent);font-size:1.05rem;display:block;margin-bottom:5px;}
+.link-card p{margin:0;color:var(--muted);font-size:0.8rem;}
+
+/* PLAYER BAR */
+.playerbar{flex:none;background:var(--bg-2);border-top:2px solid var(--accent);padding:9px 16px 12px;}
+.pb-inner{max-width:1000px;margin:0 auto;display:flex;align-items:center;gap:14px;}
+.pb-cover{width:50px;height:50px;flex:none;background:#000 center/cover no-repeat;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--accent);font-size:1.3rem;}
+.pb-meta{flex:1;min-width:0;}
+.pb-title{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.9rem;}
+.pb-artist{display:block;color:var(--muted);font-size:0.76rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.pb-controls{display:flex;align-items:center;gap:4px;flex:none;}
+.ctrl{background:none;border:none;color:var(--text);cursor:pointer;font-size:1.05rem;padding:8px;line-height:1;}
+.ctrl:hover{color:var(--accent);}
+.ctrl.active{color:var(--accent);}
+.ctrl.play{width:44px;height:44px;background:var(--accent);color:#fff;font-size:1.15rem;display:flex;align-items:center;justify-content:center;}
+.ctrl.play:hover{background:#ff1a1a;}
+.pb-progress{display:flex;align-items:center;gap:10px;max-width:1000px;margin:8px auto 0;}
+.pb-progress .time{font-size:0.7rem;color:var(--muted);flex:none;width:38px;text-align:center;font-variant-numeric:tabular-nums;}
+input[type=range]{-webkit-appearance:none;appearance:none;height:6px;background:var(--line);cursor:pointer;flex:1;}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:14px;height:14px;background:var(--accent);border:2px solid #000;}
+.pb-vol{display:flex;align-items:center;gap:6px;flex:none;width:108px;}
+.pb-vol input{width:80px;}
+.pb-vol .vi{color:var(--muted);font-size:0.9rem;}
+@media(max-width:640px){
+  .pb-vol{display:none;}
+  .intro h1{font-size:1.5rem;}
+  .logo small{display:none;}
+}
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="row">
+    <div class="logo">Dead People <span>Activity</span><small>DPA PLAYER</small></div>
+    <div class="toolbar">
+      <button class="btn" id="addFolderBtn" type="button">＋ Cartella musica</button>
+      <button class="btn ghost" id="addFilesBtn" type="button">＋ File</button>
+      <button class="btn ghost" id="rescanBtn" type="button" title="Riscansiona le cartelle">↻ Aggiorna</button>
+    </div>
+  </div>
+  <div class="container"><div class="sources" id="sources"></div></div>
+</header>
+
+<div class="scroll">
+  <main class="container">
+
+    <section class="intro" id="intro">
+      <h1>Il tuo rumore.<br>La tua libreria.</h1>
+      <p>Scegli la cartella dove tieni la musica — mp3, wav, flac, ogg, m4a. DPA Player la scansiona, la ricorda e riparte da lì ogni volta che apri l'app. Niente account, niente streaming: tutto resta sul tuo computer.</p>
+    </section>
+
+    <div class="dropzone" id="dropzone">
+      <strong>Aggiungi la tua musica</strong>
+      <span>Scegli una cartella intera (consigliato) o singoli file.</span><br>
+      <button class="btn" id="dzFolder" type="button">Scegli cartella musica</button>
+      <button class="btn ghost" id="dzFiles" type="button">Aggiungi file</button>
+    </div>
+
+    <div class="scanbar" id="scanbar"><span class="spinner"></span><span id="scanText">Scansione in corso…</span></div>
+
+    <section class="library" id="library" hidden>
+      <div class="lib-head">
+        <h2>La tua libreria</h2>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <input class="searchbox" id="search" type="search" placeholder="Cerca brano o artista…" aria-label="Cerca">
+          <span class="count" id="libCount">0 brani</span>
+        </div>
+      </div>
+      <ul class="tracklist" id="tracklist"></ul>
+    </section>
+
+    <section class="dpa-links">
+      <h2>Dentro DPA</h2>
+      <p class="sub">Il player è una porta. Dall'altra parte c'è la rete.</p>
+      <div class="link-grid">
+        <div class="link-card" data-url="https://www.undergroundplatform.xyz/eventi.html">
+          <span class="k">Mappa &amp; Eventi</span><p>Concerti, festival e DJ set underground vicino a te.</p>
+        </div>
+        <div class="link-card" data-url="https://www.undergroundplatform.xyz/archivio.html">
+          <span class="k">Archivio Vivo</span><p>Artisti [LIVE] e [BURIED] catalogati dalla rete.</p>
+        </div>
+        <div class="link-card" data-url="https://open.spotify.com/">
+          <span class="k">Playlist Settimanale</span><p>La selezione DPA della settimana su Spotify.</p>
+        </div>
+        <div class="link-card" data-url="https://www.undergroundplatform.xyz/apparire.html">
+          <span class="k">Entra nella Community</span><p>Sei un artista o un ascoltatore? Alimenta l'archivio.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<div class="playerbar">
+  <div class="pb-inner">
+    <div class="pb-cover" id="pbCover">♪</div>
+    <div class="pb-meta">
+      <span class="pb-title" id="pbTitle">Niente in riproduzione</span>
+      <span class="pb-artist" id="pbArtist">Aggiungi la tua musica per iniziare</span>
+    </div>
+    <div class="pb-controls">
+      <button class="ctrl active" id="shuffleBtn" type="button" title="Casuale">⇄</button>
+      <button class="ctrl" id="prevBtn" type="button" title="Precedente">⏮</button>
+      <button class="ctrl play" id="playBtn" type="button" title="Play/Pausa">▶</button>
+      <button class="ctrl" id="nextBtn" type="button" title="Successivo">⏭</button>
+      <button class="ctrl" id="repeatBtn" type="button" title="Ripeti">↻</button>
+    </div>
+    <div class="pb-vol"><span class="vi">🔊</span><input type="range" id="volume" min="0" max="1" step="0.01" value="1" aria-label="Volume"></div>
+  </div>
+  <div class="pb-progress">
+    <span class="time" id="curTime">0:00</span>
+    <input type="range" id="seek" min="0" max="100" step="0.1" value="0" aria-label="Avanzamento">
+    <span class="time" id="durTime">0:00</span>
+  </div>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>

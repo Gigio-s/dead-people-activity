@@ -103,9 +103,8 @@
     "query": "Modigliani Forum, Livorno, Italy"
   },
   "vitrifrigo arena||pesaro|it": {
-    "status": "incerto",
-    "checked_at": "2026-08-17T02:10:50",
-    "retry_after": "2026-08-24T02:10:56"
+    "status": "errore",
+    "errore": "Command '['curl.exe', '--silent', '--show-error', '--fail', '--max-time', '30', '--user-agent', 'DeadPeopleActivity/2.0 (https://deadpeopleactivity.com; info@deadpeopleactivity.com)', '--header', 'Accept-Language: it,en', 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&addressdetails=1&namedetails=1&dedupe=1&countrycodes=it&q=Vitrifrigo+Arena%2C+Pesaro%2C+Italy']' returned non-zero exit status 6."
   },
   "palazzo del turismo jesolo||lido di jesolo|it": {
     "status": "verificato",

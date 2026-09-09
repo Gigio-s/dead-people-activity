@@ -1,0 +1,54 @@
+{
+  "name": "dpa-player",
+  "version": "1.0.0",
+  "description": "DPA Player — lettore musicale underground di Dead People Activity",
+  "author": "Dead People Activity",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win nsis",
+    "dist:linux": "electron-builder --linux AppImage",
+    "pack": "electron-builder --dir"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "music-metadata": "^7.14.0"
+  },
+  "build": {
+    "appId": "xyz.undergroundplatform.dpaplayer",
+    "productName": "DPA Player",
+    "copyright": "Dead People Activity — Keep DIY Alive",
+    "directories": { "output": "release", "buildResources": "build" },
+    "publish": [{ "provider": "generic", "url": "https://www.undergroundplatform.xyz/download/" }],
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "build/icon.png"
+    ],
+    "asar": true,
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "DPA Player",
+      "artifactName": "DPA-Player-Setup-${version}.${ext}"
+    },
+    "linux": {
+      "target": ["AppImage"],
+      "icon": "build/icon.png",
+      "category": "AudioVideo",
+      "artifactName": "DPA-Player-${version}.${ext}"
+    }
+  }
+}
