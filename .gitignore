@@ -2,6 +2,7 @@
 .vscode/
 .DS_Store
 Thumbs.db
+.codex-sheet-build/
 
 # --- Cache e file di lavoro della pipeline (si rigenerano) ---
 scripts/geocode_cache.json
@@ -39,7 +40,12 @@ assets/data/festival_sources_da_controllare.json
 scripts/config.bat
 
 # --- Sorgenti loghi / immagini di lavoro: NON servono al sito online ---
-loghi/
+loghi/*
+!loghi/no sfondo/
+loghi/no sfondo/*
+!loghi/no sfondo/sketch1788974764294-removebg-preview.png
+!loghi/no sfondo/sketch1788974764294_-_Copia-removebg-preview.png
+!loghi/no sfondo/sketch1788974764294_-_Copia__2_-removebg-preview.png
 assets/img/HD/
 assets/img/backup loghi/
 scripts/assets/
