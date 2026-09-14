@@ -294,20 +294,36 @@ h1, h2, h3, h4 {
     display: block;
     width: min(100%, 520px);
     line-height: 0.9;
-    padding: clamp(10px, 3vw, 20px) clamp(12px, 8vw, 80px);
+    padding: 0;
     margin: 0 0 22px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+    transform: none;
 }
 
 .hero p {
     font-size: 1.1rem;
+    font-weight: 800;
+    line-height: 1.55;
     max-width: 560px;
     margin-top: 22px;
     margin-bottom: 30px;
-    background-color: #000000;
-    padding: 16px 18px;
-    border: var(--border-thin);
-    transform: rotate(1deg);
-    box-shadow: 6px 6px 0px rgba(0,0,0,0.5);
+    padding: 0;
+    color: #ffffff;
+    background: transparent;
+    border: 0;
+    transform: none;
+    box-shadow: none;
+    -webkit-text-stroke: 0.35px rgba(0,0,0,0.95);
+    paint-order: stroke fill;
+    text-shadow:
+        -1px 0 0 rgba(0,0,0,0.9),
+        1px 0 0 rgba(0,0,0,0.9),
+        0 -1px 0 rgba(0,0,0,0.9),
+        0 1px 0 rgba(0,0,0,0.9),
+        1px 2px 0 rgba(0,0,0,0.75);
 }
 
 /* ---- Animazione hero: il DPA "cade" e appaiono DEAD / PEOPLE / ACTIVITY ---- */
@@ -320,7 +336,7 @@ h1, h2, h3, h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: clamp(150px, 26vw, 172px);
+    min-height: clamp(170px, 26vw, 190px);
     overflow: hidden;            /* il DPA cade DENTRO il riquadro, non fuori */
 }
 .hero-anim .dpa {
@@ -348,6 +364,9 @@ h1, h2, h3, h4 {
     opacity: 0;
     animation: wordDrop 0.5s ease-out forwards;
     will-change: transform, opacity;
+}
+.hero-anim .words img.activity-word {
+    height: 74px;
 }
 .hero-anim .words img:nth-child(1) { animation-delay: 2.7s; }
 .hero-anim .words img:nth-child(2) { animation-delay: 2.95s; }
@@ -1760,7 +1779,7 @@ select, input, textarea, .form-control { max-width: 100%; }
     .hero h1 { font-size: 2.4rem; padding: 14px; }
     .hero .hero-logo-frame {
         width: 100%;
-        padding: 12px;
+        padding: 0;
         margin-bottom: 24px;
         transform: none;
     }
@@ -1769,7 +1788,7 @@ select, input, textarea, .form-control { max-width: 100%; }
         max-width: 100%;
         min-height: 180px;
     }
-    .hero p { font-size: 1rem; padding: 16px; margin-top: 24px; margin-bottom: 32px; }
+    .hero p { font-size: 1rem; padding: 0; margin-top: 24px; margin-bottom: 32px; }
     .title-underground { font-size: 2rem; padding: 10px 16px; margin-bottom: 28px; }
     .map-title { font-size: 1.8rem; }
     .section-padding { padding: 44px 0; }
