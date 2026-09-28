@@ -2,7 +2,7 @@
 (function () {
     'use strict';
 
-    const WORKER = 'https://ramacciato-sconti.ramacciatoluca.workers.dev';
+    const WORKER = 'https://dpa-checkout.ramacciatoluca.workers.dev';
     const SHARED_ASSET_HOST = 'https://ramacciatovintage.it';
     const LOCAL_CATALOG = 'assets/data/store/catalogo-musica.json';
     const productsNode = document.getElementById('store-products');
@@ -157,10 +157,6 @@
         });
         document.getElementById('store-cart-total').textContent = money(total);
         document.querySelector('.store-cart-checkout').classList.toggle('disabled', !cart.length);
-    }
-
-    if (new URLSearchParams(location.search).get('sandbox') === '1') {
-        document.querySelector('.store-cart-checkout').href = 'checkout.html?sandbox=1';
     }
 
     function genresFor(product) {

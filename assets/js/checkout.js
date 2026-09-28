@@ -2,12 +2,8 @@
 (function () {
     'use strict';
 
-    const sandbox = new URLSearchParams(location.search).get('sandbox') === '1';
-    const config = sandbox ? {
-        worker: 'https://ramacciato-sconti-sandbox.ramacciatoluca.workers.dev',
-        clientId: 'AR3vyTRAh3yA8RnnIWPv9ZKTwb2cMacAdYhRnGmeuQvRhd8vinW9xfdtZ0bHmp68eIfxDzPFTHIWOeNg'
-    } : {
-        worker: 'https://ramacciato-sconti.ramacciatoluca.workers.dev',
+    const config = {
+        worker: 'https://dpa-checkout.ramacciatoluca.workers.dev',
         clientId: 'AVi_0k_3cMqXNb36NhKDYRXLsk3WGsG7-Va01H8nSXra1OutsLpJc0svDtMD5PhpAUPdStRfuCFdTn8t'
     };
     const form = document.getElementById('checkout-form');
