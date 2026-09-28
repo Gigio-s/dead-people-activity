@@ -38,6 +38,7 @@ assets/data/festival_sources_da_controllare.json
 
 # --- Chiave API locale: NON deve MAI finire su GitHub ---
 scripts/config.bat
+.private-config/
 
 # --- Sorgenti loghi / immagini di lavoro: NON servono al sito online ---
 loghi/*

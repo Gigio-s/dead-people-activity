@@ -390,6 +390,47 @@ document.addEventListener('DOMContentLoaded', () => {
         updateLanguage();
         updateVisibility();
     }
+
+    // Carrello globale: mantiene visibile il conteggio salvato nello store
+    // e, dalle altre pagine, porta direttamente al catalogo.
+    function injectGlobalCart() {
+        document.body.classList.add('has-store-cart');
+        if (document.getElementById('store-cart-open') || document.getElementById('globalStoreCart')) return;
+
+        const labels = {
+            it: 'Apri il carrello nello store', en: 'Open cart in the store',
+            es: 'Abrir el carrito en la tienda', ca: 'Obre el carret a la botiga',
+            de: 'Warenkorb im Shop öffnen', fr: 'Ouvrir le panier dans la boutique'
+        };
+        const link = document.createElement('a');
+        link.id = 'globalStoreCart';
+        link.className = 'store-cart-fab site-store-cart';
+        link.href = '/store.html';
+        link.innerHTML = '<span aria-hidden="true">🛒</span><span class="site-store-cart-count">0</span>';
+
+        const updateCount = () => {
+            let cart = [];
+            try {
+                const saved = JSON.parse(localStorage.getItem('dpa_cart_v1') || '[]');
+                if (Array.isArray(saved)) cart = saved;
+            } catch (_) {}
+            link.querySelector('.site-store-cart-count').textContent = String(
+                cart.reduce((total, item) => total + Math.max(0, Number(item && item.qty) || 0), 0));
+        };
+        const updateLanguage = () => {
+            const label = labels[getLang()] || labels.it;
+            link.setAttribute('aria-label', label);
+            link.setAttribute('title', label);
+        };
+
+        window.addEventListener('storage', event => {
+            if (event.key === 'dpa_cart_v1') updateCount();
+        });
+        document.addEventListener('dpa:languagechange', updateLanguage);
+        document.body.appendChild(link);
+        updateCount();
+        updateLanguage();
+    }
     const injectLangToggle = () => {};
 
     // Chiude tutte le tendine aperte
@@ -583,6 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ---- Attiva assistente e motore multilingua ----
     injectGlobalChatbot();
+    injectGlobalCart();
     injectBackToTop();
     if (window.DPA_I18N) window.DPA_I18N.init();
 });

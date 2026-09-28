@@ -1571,17 +1571,18 @@ label {
 .chatbot-fab:hover { transform: scale(1.05); }
 .back-to-top {
     position: fixed;
-    right: 33px;
-    bottom: 96px;
+    right: 26px;
+    bottom: 164px;
     z-index: 1090;
     display: grid;
     place-items: center;
-    width: 42px;
-    height: 42px;
+    width: 56px;
+    height: 56px;
     padding: 0;
     color: #ffffff;
     background: #000000;
     border: 2px solid #ffffff;
+    border-radius: 50%;
     font-family: var(--font-punk-headers);
     font-size: 1.35rem;
     line-height: 1;
@@ -2536,13 +2537,23 @@ select, input, textarea, .form-control { max-width: 100%; }
 .store-product-button:hover { background: var(--accent-color); }
 .store-dialog-open { overflow: hidden; }
 .store-cart-fab {
-    position: fixed; right: 22px; bottom: 92px; z-index: 998;
-    display: flex; align-items: center; gap: 9px; min-height: 48px;
-    padding: 8px 15px; border: 2px solid #fff; background: #ff2a2a;
+    position: fixed; right: 26px; bottom: 96px; z-index: 1080;
+    display: flex; align-items: center; justify-content: center;
+    width: 56px; height: 56px; min-height: 56px;
+    padding: 0; border: 2px solid #fff; border-radius: 50%; background: #ff2a2a;
     color: #fff; font: 700 1rem var(--font-punk-body); cursor: pointer;
     box-shadow: 4px 4px 0 #000;
 }
-.store-cart-fab span:last-child { min-width: 23px; text-align: center; }
+.store-cart-fab > span:first-child { line-height: 1; }
+.store-cart-fab span:last-child {
+    position: absolute; top: -7px; right: -7px;
+    display: grid; place-items: center;
+    min-width: 23px; height: 23px; padding: 0 4px;
+    border: 2px solid #fff; border-radius: 999px;
+    background: #000; color: #fff; font-size: 0.72rem; text-align: center;
+}
+.site-store-cart { text-decoration: none; }
+.has-store-cart .back-to-top { bottom: 164px; }
 .store-overlay[hidden] { display: none; }
 .store-overlay {
     position: fixed; inset: 0; z-index: 2000; display: flex;
@@ -2609,7 +2620,8 @@ select, input, textarea, .form-control { max-width: 100%; }
     .store-detail-image { min-height: 0; height: min(45vh, 340px); }
     .store-detail-image img { max-height: 45vh; }
     .store-detail-content { padding: 20px 18px; }
-    .store-cart-fab { right: 12px; bottom: 76px; }
+    .store-cart-fab { right: 20px; bottom: 90px; width: 56px; height: 56px; }
+    .has-store-cart .back-to-top { right: 20px; bottom: 158px; width: 56px; height: 56px; }
     .store-checkout-layout { grid-template-columns: 1fr; }
     .store-checkout-page { padding-top: 80px; }
 }
