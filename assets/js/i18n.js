@@ -89,7 +89,7 @@
 
     async function load(language) {
         if (cache[language]) return cache[language];
-        const response = await fetch(`assets/i18n/${language}.json?v=1`);
+        const response = await fetch(`assets/i18n/${language}.json?v=4`);
         if (!response.ok) throw new Error(`Dizionario ${language} non disponibile`);
         cache[language] = await response.json();
         return cache[language];

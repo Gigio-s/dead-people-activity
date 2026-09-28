@@ -1,2 +1,607 @@
-[]
-
+[
+  {
+    "id": 22,
+    "cat": "musica",
+    "name": "Black Sabbath - Live 1970",
+    "desc": "Cassette Unofficial Release Stereo · Rock, Hard Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-3742317-cover.jpg"
+    ],
+    "subcat": "CD Unofficial Release Stereo",
+    "artist": "Black Sabbath",
+    "label": "Armando Curcio Editore",
+    "year": "1991",
+    "discogsId": "3742317",
+    "genres": [
+      "Rock",
+      "Hard Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 21,
+    "cat": "musica",
+    "name": "Ten years after - Live In New York 1971",
+    "desc": "CD Unofficial Release Remastered · Rock, Blues Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-4612715-cover.jpg"
+    ],
+    "subcat": "CD Unofficial Release Remastered",
+    "artist": "Ten Years After",
+    "label": "Armando Curcio Editore",
+    "year": "1992",
+    "discogsId": "4612715",
+    "genres": [
+      "Rock",
+      "Blues Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 20,
+    "cat": "musica",
+    "name": "Emerson Lake & Palmer - Live In London 1971",
+    "desc": "CD Remastered Unofficial Release · Rock, Prog Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-3689018-cover.jpg"
+    ],
+    "subcat": "CD Remastered Unofficial Release",
+    "artist": "Emerson, Lake & Palmer",
+    "label": "Armando Curcio Editore",
+    "year": "1991",
+    "discogsId": "3689018",
+    "genres": [
+      "Rock",
+      "Prog Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 19,
+    "cat": "musica",
+    "name": "Stephen Stills & Manassas - Live In Amsterdam 1972",
+    "desc": "CD Remastered Unofficial Release · Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-3688821-cover.jpg"
+    ],
+    "subcat": "CD Remastered Unofficial Release",
+    "artist": "Stephen Stills, Manassas",
+    "label": "Curcio",
+    "year": "1992",
+    "discogsId": "3688821",
+    "genres": [
+      "Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 17,
+    "cat": "musica",
+    "name": "Jethro Tull - Live In Chicago 1970",
+    "desc": "CD Remastered Unofficial Release Stereo · Rock, Art Rock, Prog Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-7919157-cover.jpg"
+    ],
+    "subcat": "CD Remastered Unofficial Release Stereo",
+    "artist": "Jethro Tull",
+    "label": "Armando Curcio Editore",
+    "year": "1991",
+    "discogsId": "7919157",
+    "genres": [
+      "Rock",
+      "Art Rock",
+      "Prog Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 16,
+    "cat": "musica",
+    "name": "Rod Steward and the faces - Live In Santa Monica 1970",
+    "desc": "CD Unofficial Release Remastered · Rock, Blues Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-4731114-cover.jpg"
+    ],
+    "subcat": "CD Unofficial Release Remastered",
+    "artist": "Faces (3)",
+    "label": "Curcio",
+    "year": "1992",
+    "discogsId": "4731114",
+    "genres": [
+      "Rock",
+      "Blues Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 15,
+    "cat": "musica",
+    "name": "Frank Zappa 2 Live In Paris 1970",
+    "desc": "CD Remastered Unofficial Release · Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-3689079-cover.jpg"
+    ],
+    "subcat": "CD Remastered Unofficial Release",
+    "artist": "Frank Zappa",
+    "label": "Armando Curcio Editore",
+    "year": "1992",
+    "discogsId": "3689079",
+    "genres": [
+      "Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 14,
+    "cat": "musica",
+    "name": "Jefferson Airplane - Live In San Francisco 1967",
+    "desc": "CD Remastered Unofficial Release · Rock, Psychedelic Rock, Blues Rock",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-4639974-cover.jpg"
+    ],
+    "subcat": "CD Remastered Unofficial Release",
+    "artist": "Jefferson Airplane",
+    "label": "Armando Curcio Editore",
+    "year": "1992",
+    "discogsId": "4639974",
+    "genres": [
+      "Rock",
+      "Psychedelic Rock",
+      "Blues Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 13,
+    "cat": "musica",
+    "name": "Superfly",
+    "desc": "CD Album · Rock, Alternative Rock",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-27579120-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "Punchline (12)",
+    "label": "Pure Rock Records",
+    "year": "2012",
+    "discogsId": "27579120",
+    "genres": [
+      "Rock",
+      "Alternative Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 12,
+    "cat": "musica",
+    "name": "Ravengod",
+    "desc": "CD Album · Rock, Power Metal, Melodic Death Metal",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-17390503-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "The Embodied",
+    "label": "Pure Legend Records",
+    "year": "2016",
+    "discogsId": "17390503",
+    "genres": [
+      "Rock",
+      "Power Metal",
+      "Melodic Death Metal"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 11,
+    "cat": "musica",
+    "name": "Evil Undertow",
+    "desc": "CD Album · Rock, Heavy Metal, AOR, Hard Rock, Power Metal",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-12456206-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "Ghost Machinery",
+    "label": "Pure Legend Records",
+    "year": "2015",
+    "discogsId": "12456206",
+    "genres": [
+      "Rock",
+      "Heavy Metal",
+      "AOR",
+      "Hard Rock",
+      "Power Metal"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 10,
+    "cat": "musica",
+    "name": "Magna Fvzz",
+    "desc": "CD Album · Rock, Psychedelic Rock, Stoner Rock",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-12742089-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "Fvzz Popvli",
+    "label": "Heavy Psych Sounds",
+    "year": "2018",
+    "discogsId": "12742089",
+    "genres": [
+      "Rock",
+      "Psychedelic Rock",
+      "Stoner Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 9,
+    "cat": "musica",
+    "name": "Everyday Is Gonna Be The Day",
+    "desc": "CD Album · Rock, Funk / Soul",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-6946923-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "Luca Sapio",
+    "label": "Goodfellas",
+    "year": "2014",
+    "discogsId": "6946923",
+    "genres": [
+      "Rock",
+      "Funk / Soul"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 8,
+    "cat": "musica",
+    "name": "Peek Through The Pines",
+    "desc": "CD Album · Rock, Thrash",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-12895136-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "My Regime",
+    "label": "Scarlet",
+    "year": "2018",
+    "discogsId": "12895136",
+    "genres": [
+      "Rock",
+      "Thrash"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 7,
+    "cat": "musica",
+    "name": "The Second",
+    "desc": "CD Album · Rock, Thrash, Groove Metal",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-11000210-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "Terrorway",
+    "label": "Bakerteam Records",
+    "year": "2016",
+    "discogsId": "11000210",
+    "genres": [
+      "Rock",
+      "Thrash",
+      "Groove Metal"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 6,
+    "cat": "musica",
+    "name": "Crazy World",
+    "desc": "CD Album · Rock, Blues, Stoner Rock",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": false,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-12074622-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "The Freeks",
+    "label": "Heavy Psych Sounds",
+    "year": "2018",
+    "discogsId": "12074622",
+    "genres": [
+      "Rock",
+      "Blues",
+      "Stoner Rock"
+    ],
+    "copie": 1
+  },
+  {
+    "id": 5,
+    "cat": "musica",
+    "name": "Hot Lunch",
+    "desc": "CD Album Reissue · Rock, Garage Rock, Acid Rock",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-21825361-cover.jpg"
+    ],
+    "subcat": "CD Album Reissue",
+    "artist": "Hot Lunch",
+    "label": "Heavy Psych Sounds",
+    "year": "2022",
+    "discogsId": "21825361",
+    "genres": [],
+    "copie": 1
+  },
+  {
+    "id": 4,
+    "cat": "musica",
+    "name": "Lato Del Cerchio",
+    "desc": "CD Album · Rock, Folk Rock",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-8340257-cover.jpg"
+    ],
+    "subcat": "CD Album",
+    "artist": "Dada Circus",
+    "label": "Goodfellas",
+    "year": "2015",
+    "discogsId": "8340257",
+    "genres": [],
+    "copie": 1
+  },
+  {
+    "id": 3,
+    "cat": "musica",
+    "name": "Ultra",
+    "desc": "CD Album · Rock, Psychedelic Rock",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "https://i.discogs.com/lHcjwt7lddmPVxpTITwN7tgRtEPmWQJu3lla0bfZj0s/rs:fit/g:sm/q:90/h:548/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjYy/ODg5LTE3NjYwOTM5/NTctOTQyMi5qcGVn.jpeg",
+      "https://i.discogs.com/e4iSzfY8uHdNcYkcWjidsJrkmMBU5KPQ1bl0w-hsZV8/rs:fit/g:sm/q:90/h:537/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjYy/ODg5LTE3NjYwOTM5/NjgtNTUxMC5qcGVn.jpeg",
+      "https://i.discogs.com/whmGcRStiW5k_407TMEXFEATEVLKGwDq9d1pLmF-ibI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjYy/ODg5LTE3NjYwOTM5/NzYtNDI2My5qcGVn.jpeg"
+    ],
+    "subcat": "CD Album",
+    "artist": "Kadabra",
+    "label": "Heavy Psych Sounds",
+    "year": "2021",
+    "discogsId": "20262889",
+    "genres": [],
+    "copie": 1
+  },
+  {
+    "id": 2,
+    "cat": "musica",
+    "name": "DICTADURA TRAVESTI",
+    "desc": "CD · Rock, Punk",
+    "price": 10,
+    "condition": "Nuovo / Sigillato",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "assets/img/store/discogs-35873032-cover.jpg"
+    ],
+    "subcat": "CD",
+    "artist": "Ruïnosa y las Strippers de Rahola",
+    "label": "Rebel Sound Music",
+    "year": "2024",
+    "discogsId": "35873032",
+    "genres": [],
+    "copie": 1
+  },
+  {
+    "id": 1,
+    "cat": "musica",
+    "name": "Rock Steady",
+    "desc": "CD Album Enhanced · Electronic, Rock, Pop Rock, Dub, Ska, Synth-pop",
+    "price": 5,
+    "condition": "Very Good (VG)",
+    "sold": false,
+    "isNew": true,
+    "emoji": "",
+    "bg": null,
+    "ebay": null,
+    "model": null,
+    "modelCredit": null,
+    "modelCreditUrl": null,
+    "photos": [
+      "https://i.discogs.com/ZQOB6DZOHTM6SBUEIKjLDGCCfKd6jS-s6mZ0ekv1XBQ/rs:fit/g:sm/q:90/h:529/w:543/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzUz/My0xMTMwNjcyMTEy/LmpwZWc.jpeg",
+      "https://i.discogs.com/MIiUiHwN2ct2sT9IK9xurhWq9ZFHdPeU8bNl8BR2CCg/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzUz/My0xMTMwNjcyNjYx/LmpwZWc.jpeg",
+      "https://i.discogs.com/p8t34Qi-hJpJDkbCcjnPuE56qcei3Qe8jckTlpIEqIE/rs:fit/g:sm/q:90/h:320/w:408/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzUz/My0xMTQzOTkwMTM3/LmpwZWc.jpeg"
+    ],
+    "subcat": "CD Album Enhanced",
+    "artist": "No Doubt",
+    "label": "Interscope Records",
+    "year": "2001",
+    "discogsId": "527533",
+    "genres": [],
+    "copie": 1
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Checkout | Dead People Activity</title>
+    <link rel="stylesheet" href="assets/css/style.css?v=20">
+    <link rel="icon" type="image/png" href="assets/img/dpa%20no%20sfondo.png?v=2">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+            <a class="nav-link" href="store.html" data-i18n="store.back">Torna allo store</a>
+        </div>
+    </header>
+    <main class="page-wrapper store-checkout-page">
+        <div class="container">
+            <p class="store-kicker">Dead People Activity · Shop</p>
+            <h1 data-i18n="store.checkout">Vai al checkout</h1>
+            <p id="checkout-status" class="store-checkout-status" role="status" aria-live="polite"></p>
+            <div class="store-checkout-layout">
+                <section class="store-checkout-panel" aria-labelledby="checkout-summary-heading">
+                    <h2 id="checkout-summary-heading" data-i18n="store.order_summary">Riepilogo ordine</h2>
+                    <div id="checkout-items"></div>
+                    <div class="store-checkout-line"><span data-i18n="store.subtotal">Subtotale</span><strong id="checkout-subtotal">€ 0,00</strong></div>
+                    <div class="store-checkout-line"><span data-i18n="store.shipping">Spedizione</span><strong id="checkout-shipping">—</strong></div>
+                    <div class="store-checkout-line store-checkout-grand"><span data-i18n="store.total">Totale</span><strong id="checkout-total">—</strong></div>
+                </section>
+                <section class="store-checkout-panel" aria-labelledby="checkout-shipping-heading">
+                    <h2 id="checkout-shipping-heading" data-i18n="store.shipping_address">Indirizzo di spedizione</h2>
+                    <form id="checkout-form">
+                        <label><span data-i18n="store.full_name">Nome e cognome</span><input name="name" autocomplete="name" required maxlength="120"></label>
+                        <label><span data-i18n="store.email">Email</span><input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+                        <label><span data-i18n="store.address">Via e numero civico</span><input name="address" autocomplete="street-address" required maxlength="200"></label>
+                        <div class="store-checkout-two">
+                            <label><span data-i18n="store.postal">CAP</span><input name="postal" autocomplete="postal-code" required maxlength="30"></label>
+                            <label><span data-i18n="store.city">Città</span><input name="city" autocomplete="address-level2" required maxlength="100"></label>
+                        </div>
+                        <div class="store-checkout-two">
+                            <label><span data-i18n="store.region">Provincia / Regione</span><input name="region" autocomplete="address-level1" maxlength="100"></label>
+                            <label><span data-i18n="store.country">Paese</span>
+                                <select name="country" autocomplete="country" required>
+                                    <option value="IT">Italia</option><option value="AT">Austria</option><option value="BE">Belgio</option>
+                                    <option value="BG">Bulgaria</option><option value="HR">Croazia</option><option value="CY">Cipro</option>
+                                    <option value="CZ">Cechia</option><option value="DK">Danimarca</option><option value="EE">Estonia</option>
+                                    <option value="FI">Finlandia</option><option value="FR">Francia</option><option value="DE">Germania</option>
+                                    <option value="GR">Grecia</option><option value="HU">Ungheria</option><option value="IE">Irlanda</option>
+                                    <option value="LV">Lettonia</option><option value="LT">Lituania</option><option value="LU">Lussemburgo</option>
+                                    <option value="MT">Malta</option><option value="NL">Paesi Bassi</option><option value="PL">Polonia</option>
+                                    <option value="PT">Portogallo</option><option value="RO">Romania</option><option value="SK">Slovacchia</option>
+                                    <option value="SI">Slovenia</option><option value="ES">Spagna</option><option value="SE">Svezia</option>
+                                    <option value="GB">Regno Unito</option><option value="CH">Svizzera</option><option value="NO">Norvegia</option>
+                                    <option value="IS">Islanda</option>
+                                </select>
+                            </label>
+                        </div>
+                    </form>
+                    <p class="store-checkout-note" data-i18n="store.paypal_address">L'indirizzo sarà riportato nell'ordine PayPal. Verificalo prima di confermare il pagamento.</p>
+                    <div id="checkout-paypal"></div>
+                    <p id="checkout-payment-message" class="store-checkout-note" role="alert"></p>
+                    <p class="store-checkout-note"><a href="privacy.html" data-i18n="store.privacy">Informativa privacy</a></p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/i18n.js?v=10"></script>
+    <script src="assets/js/checkout.js?v=1"></script>
+</body>
+</html>
