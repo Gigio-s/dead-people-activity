@@ -11,6 +11,7 @@
     const genreNode = document.getElementById('store-genre');
     const formatNode = document.getElementById('store-format');
     const conditionNode = document.getElementById('store-condition');
+    const sortNode = document.getElementById('store-sort');
     const productOverlay = document.getElementById('store-product-modal');
     const cartOverlay = document.getElementById('store-cart-modal');
     const cartKey = 'dpa_cart_v1';
@@ -196,7 +197,7 @@
                 ${image ? `<img src="${image}" alt="" loading="lazy" decoding="async">` : '<span aria-hidden="true">♫</span>'}
             </a>
             <div class="store-product-body">
-                <h3>${safeName}</h3>
+                <h3><a class="store-product-title-link" href="${safeUrl}" data-store-product="${escapeHtml(product.id)}">${safeName}</a></h3>
                 ${safeArtist ? `<p class="store-product-artist">${safeArtist}</p>` : ''}
                 ${safeGenres.length ? `<p class="store-product-genres">${safeGenres.join(' · ')}</p>` : ''}
                 <p class="store-product-format">${escapeHtml(product.subcat || t('store.music_title'))}</p>
@@ -224,7 +225,17 @@
                 (!format || product.subcat === format) &&
                 (!condition || product.condition === condition);
         });
-        productsNode.replaceChildren(...filtered.map(card));
+        const sortMode = sortNode ? sortNode.value : 'catalog';
+        const sorted = filtered.map((product, index) => ({ product, index }));
+        const byName = (a, b) => String(a.product.name || '').localeCompare(
+            String(b.product.name || ''), undefined, { sensitivity: 'base', numeric: true });
+        if (sortMode === 'name-asc') sorted.sort((a, b) => byName(a, b) || a.index - b.index);
+        if (sortMode === 'name-desc') sorted.sort((a, b) => byName(b, a) || a.index - b.index);
+        if (sortMode === 'price-asc') sorted.sort((a, b) =>
+            Number(a.product.price || 0) - Number(b.product.price || 0) || byName(a, b));
+        if (sortMode === 'price-desc') sorted.sort((a, b) =>
+            Number(b.product.price || 0) - Number(a.product.price || 0) || byName(a, b));
+        productsNode.replaceChildren(...sorted.map(entry => card(entry.product)));
         feedbackNode.textContent = filtered.length
             ? t('store.results').replace('{count}', String(filtered.length))
             : t('store.empty');
@@ -321,7 +332,7 @@
     saveCart(readCart());
 
     if (searchNode) searchNode.addEventListener('input', render);
-    [genreNode, formatNode, conditionNode].forEach(node => {
+    [genreNode, formatNode, conditionNode, sortNode].forEach(node => {
         if (node) node.addEventListener('change', render);
     });
     document.addEventListener('dpa:languagechange', () => { buildFilters(); render(); });

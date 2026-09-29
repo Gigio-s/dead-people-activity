@@ -2397,7 +2397,7 @@ select, input, textarea, .form-control { max-width: 100%; }
 }
 .store-filter-controls {
     width: 100%;
-    grid-template-columns: minmax(260px, 1.7fr) repeat(3, minmax(150px, 1fr));
+    grid-template-columns: minmax(240px, 1.55fr) repeat(4, minmax(135px, 1fr));
     gap: 14px;
     align-items: end;
 }
@@ -2494,6 +2494,9 @@ select, input, textarea, .form-control { max-width: 100%; }
     font-size: clamp(0.96rem, 1.3vw, 1.12rem);
     line-height: 1.25;
 }
+.store-product-title-link { color: inherit; text-decoration: none; }
+.store-product-title-link:hover,
+.store-product-title-link:focus-visible { color: var(--accent-color); }
 .store-product-artist {
     margin: 0;
     color: #d4d4d4;
@@ -2611,6 +2614,8 @@ select, input, textarea, .form-control { max-width: 100%; }
 #checkout-form label { display: grid; gap: 6px; color: #ddd; font-size: 0.8rem; }
 #checkout-form input, #checkout-form select { width: 100%; min-height: 43px; padding: 9px 11px; border: 1px solid #777; border-radius: 0; background: #080808; color: #fff; font: 0.88rem sans-serif; }
 #checkout-form input:focus, #checkout-form select:focus { outline: 2px solid #ff2a2a; outline-offset: 2px; }
+.store-shipping-method-field { margin-top: 5px; }
+.store-shipping-help { color: #aaa; font-size: 0.7rem; line-height: 1.45; }
 .store-checkout-two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .store-checkout-note { margin: 18px 0; color: #aaa; font-size: 0.76rem; line-height: 1.5; }
 .store-checkout-note a { color: #fff; }
@@ -2632,15 +2637,56 @@ select, input, textarea, .form-control { max-width: 100%; }
     .store-products { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
-    .store-catalog-container { width: min(100% - 24px, 1500px); }
-    .store-products { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .store-catalog-container { width: min(100% - 16px, 1500px); }
+    .store-products {
+        width: calc(100% - 50px);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+        margin-inline: auto;
+    }
+    .store-product-card { box-shadow: none; }
+    .store-product-card:hover { transform: none; }
+    .store-product-body { gap: 5px; padding: 8px 7px 9px; }
+    .store-product-body h3 {
+        display: -webkit-box;
+        min-height: 2.45em;
+        overflow: hidden;
+        font-size: clamp(0.66rem, 2.6vw, 0.82rem);
+        line-height: 1.22;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .store-product-artist,
+    .store-product-genres,
+    .store-product-format,
+    .store-product-condition,
+    .store-product-bottom span,
+    .store-product-button { display: none; }
+    .store-product-bottom { margin-top: auto; padding-top: 6px; }
+    .store-product-bottom strong { font-size: clamp(0.72rem, 3vw, 0.9rem); }
 }
 @media (max-width: 560px) {
     .store-catalog-hero { padding-top: 36px; }
-    .store-catalog-hero h1 { font-size: clamp(1.7rem, 8.8vw, 2.65rem); }
-    .store-products { grid-template-columns: 1fr; }
-    .store-filter-controls { grid-template-columns: 1fr; }
-    .store-search-label { grid-column: auto; }
-    .store-filter-panel { padding: 14px; }
-    .store-product-body { padding: 14px; }
+    .store-catalog-hero h1 {
+        max-width: 100%;
+        font-size: clamp(1.35rem, 7.4vw, 2.15rem);
+        line-height: 1;
+        overflow-wrap: anywhere;
+        white-space: normal;
+    }
+    .store-products {
+        width: calc(100% - 90px);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 6px;
+    }
+    .store-filter-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 8px; }
+    .store-search-label { grid-column: 1 / -1; }
+    .store-filter-panel { padding: 12px; }
+    .store-filter-caption { font-size: 0.61rem; white-space: normal; }
+    .store-search-label input,
+    .store-filter-controls select { height: 44px; min-height: 44px; padding-left: 10px; font-size: 0.72rem; }
+    .store-select-field::after { right: 10px; bottom: 12px; }
+    .store-cart-fab,
+    .chatbot-fab,
+    .has-store-cart .back-to-top { right: 4px; }
 }

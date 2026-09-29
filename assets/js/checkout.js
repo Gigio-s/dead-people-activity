@@ -9,6 +9,8 @@
     const form = document.getElementById('checkout-form');
     const status = document.getElementById('checkout-status');
     const message = document.getElementById('checkout-payment-message');
+    const shippingMethodNode = document.getElementById('checkout-shipping-method');
+    const shippingHelpNode = document.getElementById('checkout-shipping-help');
     const cartKey = 'dpa_cart_v1';
     let cart = [];
     let initStarted = false;
@@ -32,6 +34,9 @@
         const data = new FormData(form);
         return Object.fromEntries(['name', 'email', 'address', 'city', 'postal', 'region', 'country']
             .map(key => [key, String(data.get(key) || '').trim()]));
+    }
+    function shippingMethod() {
+        return String(shippingMethodNode && shippingMethodNode.value || '');
     }
     async function request(path, options) {
         const response = await fetch(config.worker + path, options);
@@ -66,11 +71,26 @@
         });
         document.getElementById('checkout-subtotal').textContent = money(subtotal);
     }
-    async function updateQuote() {
+    function renderShippingOptions(quote) {
+        const current = shippingMethod();
+        const methods = Array.isArray(quote.shipping_options) ? quote.shipping_options : [];
+        shippingMethodNode.replaceChildren(...methods.map(method => {
+            const price = Number(method.price) === 0 ? t('store.shipping_free') : money(method.price);
+            return new Option(`${method.label} · ${method.eta} · ${price}`, method.id);
+        }));
+        shippingMethodNode.value = methods.some(method => method.id === current)
+            ? current
+            : String(quote.shipping_method && quote.shipping_method.id || '');
+        const threshold = money(quote.free_above);
+        shippingHelpNode.textContent = t('store.shipping_free_note').replace('{amount}', threshold);
+    }
+    async function updateQuote(renderMethods = true) {
         if (!cart.length) return;
         const quote = await post('/quote', {
-            source: 'dpa', items: itemsForWorker(), zona: zone()
+            source: 'dpa', items: itemsForWorker(), zona: zone(),
+            country: form.elements.country.value, shipping_method: shippingMethod()
         });
+        if (renderMethods) renderShippingOptions(quote);
         document.getElementById('checkout-shipping').textContent = money(quote.shipping);
         document.getElementById('checkout-total').textContent = money(quote.total);
     }
@@ -108,7 +128,8 @@
                 await verifyInventory();
                 await updateQuote();
                 const result = await post('/create-order', {
-                    source: 'dpa', items: itemsForWorker(), zona: zone(), shipping: shipping()
+                    source: 'dpa', items: itemsForWorker(), zona: zone(), shipping: shipping(),
+                    shipping_method: shippingMethod()
                 });
                 document.getElementById('checkout-total').textContent = money(result.total);
                 return result.id;
@@ -162,6 +183,9 @@
     }
     form.elements.country.addEventListener('change', () => {
         updateQuote().catch(error => { message.textContent = error.message; });
+    });
+    shippingMethodNode.addEventListener('change', () => {
+        updateQuote(false).catch(error => { message.textContent = error.message; });
     });
     init();
 }());

@@ -1,11 +1,20 @@
 // Dead People Activity - catalogo JSON + PayPal Checkout server-side.
 const CATALOG_URL = 'https://deadpeopleactivity.com/assets/data/store/catalogo-musica.json';
-const SHIPPING = { italia: 5.90, europa: 12.90 };
-const FREE_ABOVE = 50.00;
+const FREE_ABOVE = { italia: 30.00, europa: 60.00 };
 const EUROPE_COUNTRIES = new Set([
   'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT',
   'LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','GB','CH','NO','IS'
 ]);
+const EUROPE_ZONE_1 = new Set(['AT','HR','FR','DE','NL','SI','HU']);
+const EUROPE_ZONE_2 = new Set(['BE','BG','LU','PL','CZ','ES']);
+const INPOST_EUROPE = new Set(['FR','ES','PT','PL','BE','NL','LU']);
+const ITALY_SHIPPING = [
+  { id: 'inpost-locker', label: 'InPost · Locker', delivery: 'Punto di ritiro', eta: '1-3 giorni lavorativi', price: 4.90 },
+  { id: 'poste-punto', label: 'Poste Italiane · Ufficio postale o Punto Poste', delivery: 'Punto di ritiro', eta: '2-4 giorni lavorativi', price: 5.90 },
+  { id: 'brt-fermopoint', label: 'BRT · Fermopoint', delivery: 'Punto di ritiro', eta: '1-3 giorni lavorativi', price: 6.90 },
+  { id: 'poste-casa', label: 'Poste Italiane · Consegna a domicilio', delivery: 'Domicilio', eta: '2-4 giorni lavorativi', price: 6.90 },
+  { id: 'brt-casa', label: 'BRT · Consegna a domicilio', delivery: 'Domicilio', eta: '1-3 giorni lavorativi', price: 7.90 }
+];
 const ALLOWED_ORIGINS = new Set([
   'https://deadpeopleactivity.com',
   'https://www.deadpeopleactivity.com'
@@ -24,6 +33,39 @@ function cents(value) {
 
 function money(value) {
   return round2((Number(value) || 0) / 100);
+}
+
+function shippingOptions(country, subtotal) {
+  const code = String(country || 'IT').trim().toUpperCase();
+  if (!EUROPE_COUNTRIES.has(code)) throw new Error('Paese di spedizione non supportato');
+  const zone = code === 'IT' ? 'italia' : 'europa';
+  let options;
+  if (zone === 'italia') {
+    options = ITALY_SHIPPING;
+  } else {
+    const rateIndex = EUROPE_ZONE_1.has(code) ? 0 : EUROPE_ZONE_2.has(code) ? 1 : 2;
+    options = [
+      ...(INPOST_EUROPE.has(code) ? [{
+        id: 'inpost-locker-eu', label: 'InPost · Locker', delivery: 'Punto di ritiro',
+        eta: '4-7 giorni lavorativi', price: 9.90
+      }] : []),
+      { id: 'gls-casa-eu', label: 'GLS · Consegna a domicilio', delivery: 'Domicilio', eta: '3-6 giorni lavorativi', price: [12.90, 13.90, 15.90][rateIndex] },
+      { id: 'brt-casa-eu', label: 'BRT/DPD · Consegna a domicilio', delivery: 'Domicilio', eta: '3-6 giorni lavorativi', price: [13.90, 15.90, 17.90][rateIndex] },
+      { id: 'ups-standard-eu', label: 'UPS Standard · Consegna a domicilio', delivery: 'Domicilio', eta: '2-5 giorni lavorativi', price: [15.90, 16.90, 18.90][rateIndex] },
+      { id: 'poste-international-eu', label: 'Poste Delivery International', delivery: 'Domicilio', eta: '5-10 giorni lavorativi', price: 25.90 }
+    ];
+  }
+  const cheapest = Math.min(...options.map(option => option.price));
+  const discount = Number(subtotal) >= FREE_ABOVE[zone] ? cheapest : 0;
+  return {
+    zone,
+    threshold: FREE_ABOVE[zone],
+    options: options.map(option => ({
+      ...option,
+      base_price: round2(option.price),
+      price: round2(Math.max(0, option.price - discount))
+    }))
+  };
 }
 
 function productMetadata(row) {
@@ -171,7 +213,6 @@ async function databaseProduct(env, id) {
 
 async function computeTotals(body, env) {
   const requested = Array.isArray(body.items) ? body.items : [];
-  const zone = body.zona === 'europa' ? 'europa' : 'italia';
   const catalog = env.INVENTORY_DB ? null : await loadCatalog();
   const byId = catalog ? new Map(catalog.map(product => [String(product.id), product])) : null;
   const lines = [];
@@ -215,9 +256,23 @@ async function computeTotals(body, env) {
     });
   }
 
-  let shipping = subtotal >= FREE_ABOVE ? 0 : SHIPPING[zone];
-  shipping = round2(shipping);
-  return { lines, subtotal, shipping, total: round2(subtotal + shipping), zona: zone };
+  const shippingData = shippingOptions(
+    body.country || (body.shipping && body.shipping.country) || (body.zona === 'europa' ? 'FR' : 'IT'),
+    subtotal
+  );
+  const selected = shippingData.options.find(option => option.id === body.shipping_method) ||
+    shippingData.options[0];
+  const shipping = round2(selected.price);
+  return {
+    lines,
+    subtotal,
+    shipping,
+    total: round2(subtotal + shipping),
+    zona: shippingData.zone,
+    shipping_method: selected,
+    shipping_options: shippingData.options,
+    free_above: shippingData.threshold
+  };
 }
 
 async function releaseExpired(env) {
@@ -423,7 +478,7 @@ async function createOrder(env, totals, shipping) {
     body: JSON.stringify({
       intent: 'CAPTURE',
       purchase_units: [{
-        description: 'Dead People Activity - Ordine',
+        description: 'Dead People Activity - Ordine · ' + totals.shipping_method.label,
         amount: {
           currency_code: 'EUR',
           value: totals.total.toFixed(2),
@@ -500,7 +555,10 @@ export default {
         return json({
           subtotal: totals.subtotal,
           shipping: totals.shipping,
-          total: totals.total
+          total: totals.total,
+          shipping_method: totals.shipping_method,
+          shipping_options: totals.shipping_options,
+          free_above: totals.free_above
         }, 200, origin);
       }
       if (url.pathname === '/create-order') {

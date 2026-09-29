@@ -9,7 +9,7 @@ catalogo JSON pubblicato prima di creare l'ordine PayPal.
 
 - `store.html`: scheda prodotto in sovraimpressione e carrello locale.
 - `checkout.html`: indirizzo, riepilogo, preventivo e pulsanti PayPal.
-- `worker.js`: mantiene il flusso RV e aggiunge il canale DPA. Il browser non
+- `dpa-worker.js`: Worker dedicato a DPA. Il browser non
   decide l'importo: per DPA il prezzo viene riletto da
   `assets/data/store/catalogo-musica.json` online.
 
@@ -18,8 +18,7 @@ catalogo JSON pubblicato prima di creare l'ordine PayPal.
 1. Fare un backup del codice attuale del Worker `ramacciato-sconti`.
 2. Conservare `PAYPAL_CLIENT_ID` e `PAYPAL_SECRET` già configurati nei segreti
    Cloudflare. Non vanno inseriti nei file del sito.
-3. Caricare il codice aggiornato di `worker.js` sullo stesso Worker. Le rotte RV
-   rimangono compatibili; vengono aggiunti il dominio e il catalogo DPA.
+3. Caricare il codice aggiornato di `dpa-worker.js` sul Worker `dpa-checkout`.
 4. Pubblicare prima `assets/data/store/catalogo-musica.json` e le copertine DPA,
    affinché il Worker possa rileggere prezzi e disponibilità dal sito.
 5. Verificare `GET /products?channel=dpa&category=musica`, quindi provare un
@@ -33,8 +32,17 @@ Il collaudo sandbox con un vero ordine resta obbligatorio prima del live.
 
 ## Tariffe confermate
 
-La copia usa le tariffe RV confermate: Italia €5,90, altri Paesi europei
-€12,90, spedizione gratuita da €50. Il ritiro locale non è offerto su DPA.
+Il checkout offre gli stessi corrieri e prezzi pubblicati nella FAQ di RV:
+
+- Italia: InPost Locker €4,90; Poste/Punto Poste €5,90; BRT Fermopoint €6,90;
+  Poste a domicilio €6,90; BRT a domicilio €7,90.
+- Europa: InPost Locker €9,90 nei Paesi serviti; GLS da €12,90; BRT/DPD da
+  €13,90; UPS da €15,90; Poste Delivery International €25,90. Le tariffe
+  variano secondo le tre zone definite da RV.
+- Spedizione più economica gratuita da €30 in Italia e da €60 in Europa.
+  Scegliendo un servizio più costoso si paga soltanto la differenza.
+
+Il calcolo e la validazione del metodo vengono eseguiti nel Worker.
 
 ## Inventario
 
