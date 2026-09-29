@@ -31,9 +31,14 @@
 
     function absoluteAsset(path) {
         if (!path) return '';
-        if (/^https?:\/\//i.test(path)) return path;
-        if (/^\/?assets\//i.test(path)) return String(path).replace(/^\/+/, '');
-        return `${SHARED_ASSET_HOST}/${String(path).replace(/^\/+/, '')}`;
+        const value = String(path).trim();
+        if (/^https?:\/\//i.test(value)) return value;
+        if (/^\/?assets\//i.test(value)) return value.replace(/^\/+/, '');
+        if (/^[a-z]:[\\/]/i.test(value) || /media[\\/]copertine[\\/]/i.test(value)) {
+            const filename = value.split(/[\\/]/).pop();
+            return filename ? `assets/img/store/${filename}` : '';
+        }
+        return `${SHARED_ASSET_HOST}/${value.replace(/^\/+/, '')}`;
     }
 
     function imageFor(product) {

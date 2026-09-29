@@ -195,6 +195,7 @@ async function publicProducts(env) {
     product.name = product.name || row.name;
     product.cat = product.cat || row.category;
     product.price = money(row.price_cents);
+    product.cover = publicPhotoPath(product.cover);
     product.photos = (Array.isArray(product.photos) ? product.photos : [product.photos])
       .map(publicPhotoPath).filter(Boolean);
     product.copie = Math.max(0, Number(row.stock) - Number(row.reserved));
