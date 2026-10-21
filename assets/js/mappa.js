@@ -30,6 +30,10 @@
         "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson"
     ];
     var searchResults = [];  // risultati della barra di ricerca (livello "search")
+    // Ricerca arrivata dall'indirizzo (es. link da ramacciatovintage.it):
+    // mappa.html?q=Queen  -> eventi con quell'artista (parola intera)
+    // mappa.html?q=Queen&tribute=1 -> solo tribute / cover band di quell'artista
+    var urlArtist = null, urlTribute = false;
     var quickFilter = "all"; // tutti | rock | rap | electronic | festival
 
     function tr(key, fallback, variables) {
@@ -139,7 +143,7 @@
             buildChatbot();
             loadBorders().then(function () {
                 goEurope();
-                if (!openEventFromQuery() && !openChatFiltersFromQuery()) maybeGeolocate();
+                if (!openEventFromQuery() && !openSearchFromQuery() && !openChatFiltersFromQuery()) maybeGeolocate();
             });
         });
     }
@@ -150,6 +154,27 @@
         var ev = byId(id);
         if (!ev) return false;
         focusEvent(ev, true);
+        return true;
+    }
+
+    function openSearchFromQuery() {
+        var params = new URLSearchParams(window.location.search);
+        var q = (params.get("q") || params.get("artista") || "").trim();
+        if (q.length < 2) return false;
+        var low = q.toLowerCase();
+        var safe = low.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        var T = "(tribut\\w*|cover|omaggio|homenaje|hommage|revival)", GAP = "[^a-z0-9]+(?:[a-z0-9\u00c0-\u024f'&/.]+[^a-z0-9]+){0,3}";
+        urlArtist = {
+            q: low,
+            re: new RegExp("(^|[^a-z0-9\u00c0-\u024f])" + safe + "($|[^a-z0-9\u00c0-\u024f])"),
+            // tribute: la parola tribute/cover deve stare entro 3 parole dal nome dell'artista
+            trib: new RegExp(T + GAP + safe + "|" + safe + GAP + T)
+        };
+        urlTribute = params.get("tribute") === "1";
+        setSel("q-search", q);
+        doSearch();
+        // nessuna tribute band trovata: mostra comunque gli eventi con il nome dell'artista
+        if (urlTribute && !searchResults.length) { urlTribute = false; doSearch(); }
         return true;
     }
 
@@ -358,7 +383,10 @@
         if (f.dataFine && ev.data && ev.data > f.dataFine) return false;
         if (f.q) {
             var hay = ((ev.nome || "") + " " + (ev.artisti || []).join(" ") + " " + (ev.genere || []).join(" ")).toLowerCase();
-            if (hay.indexOf(f.q) === -1) return false;
+            if (urlArtist && f.q === urlArtist.q) {
+                if (!urlArtist.re.test(hay)) return false;
+                if (urlTribute && !urlArtist.trib.test(hay)) return false;
+            } else if (hay.indexOf(f.q) === -1) return false;
         }
         return true;
     }
