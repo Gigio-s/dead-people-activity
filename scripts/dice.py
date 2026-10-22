@@ -249,7 +249,7 @@ def run():
         print("   ! senza coordinate:", len(senza_coord), "(esempi:", senza_coord[:10], ")")
     print("   RICORDA: Dice non porta il genere. Rivedi e pubblica:")
     print("     python dice.py --show      (vedi i Dice in coda)")
-    print("     python dice.py --approva   (pubblica TUTTI i Dice in coda)")
+    print("     python dice.py --approva   (pubblica i Dice gia classificati)")
 
 
 def mostra():
@@ -265,9 +265,25 @@ def mostra():
         print(f"  {e['data']}  {e['nome']} — {e['citta']} ({e.get('tipo')})")
 
 
+def approva_classificati():
+    """Pubblica solo i Dice gia classificati; gli altri restano per il prossimo run."""
+    pending = ingest._load_json(ingest.PENDING_JSON, [])
+    selezionati = [e for e in pending
+                   if e.get("fonte") == "dice"
+                   and e.get("genere")
+                   and ingest.genere_ammesso(e)]
+    rimasti = [e for e in pending if e.get("fonte") == "dice" and e not in selezionati]
+    if not selezionati:
+        print("Nessun evento Dice classificato da pubblicare.")
+        print("Eventi Dice ancora in attesa:", len(rimasti))
+        return
+    ingest._pubblica(selezionati, "fonte=dice (solo classificati)")
+    print("Eventi Dice ancora da classificare:", len(rimasti))
+
+
 if __name__ == "__main__":
     if "--approva" in sys.argv:
-        ingest.approva_fonte("dice")   # riusa la pubblicazione di ingest.py
+        approva_classificati()
     elif "--show" in sys.argv:
         mostra()
     else:

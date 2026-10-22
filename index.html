@@ -143,13 +143,6 @@
             </div>
         </section>
 
-        <section class="cta-banner">
-            <div class="container" style="text-align: center; padding: 60px 0;">
-                <h2>Fai parte del rumore o vuoi salvarlo dall'oblio?</h2>
-                <p style="margin: 20px 0 40px 0;">Sei un artista, un collettivo, gestisci uno spazio o possiedi materiale d'archivio raro?</p>
-                <a href="coming-soon.html" class="btn">Scopri di più</a>
-            </div>
-        </section>
     </div>
 
     <footer class="footer">
@@ -183,8 +176,7 @@
     <script src="assets/js/main.js?v=10"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
-    <!-- Eventi in evidenza: fonte assets/data/events.json, fallback events-data.js -->
-    <script src="assets/js/events-data.js"></script>
+    <!-- Eventi in evidenza: fonte assets/data/events.json; events-data.js caricato solo se serve -->
     <script>
     (function () {
         var box = document.getElementById('homeEvents');
@@ -252,7 +244,7 @@
         }
         function handle(list){ render(list); stats(list); miniMap(list); }
         fetch('assets/data/events.json').then(function(r){ if(!r.ok) throw 0; return r.json(); })
-            .then(handle).catch(function(){ handle(window.DPA_EVENTS_FALLBACK || []); });
+            .then(handle).catch(function(){ (function(){return new Promise(function(res){if(Array.isArray(window.DPA_EVENTS_FALLBACK))return res(window.DPA_EVENTS_FALLBACK);var s=document.createElement('script');s.src='assets/js/events-data.js';s.onload=function(){res(window.DPA_EVENTS_FALLBACK||[]);};s.onerror=function(){res([]);};document.head.appendChild(s);});})().then(handle); });
     })();
     </script>
 </body>

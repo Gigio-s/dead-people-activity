@@ -21,7 +21,7 @@ COSA FA:
   NIENTE viene cancellato: incerti e scartati sono salvati in file separati e li
   puoi recuperare quando vuoi.
 
-  In fondo puoi pubblicare i "TIENI" con:  python ingest.py --approva-fonte dice
+  In fondo puoi pubblicare i "TIENI" con:  python dice.py --approva
 
 FONTE GENERE:
   - MusicBrainz (https://musicbrainz.org) — gratis, senza chiave. Limite: ~1
@@ -64,7 +64,8 @@ UA = "DeadPeopleActivity/1.0 (contatto@undergroundplatform.xyz)"
 
 def _get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=20) as r:
+    # Un servizio lento non deve bloccare per ore l'aggiornamento completo.
+    with urllib.request.urlopen(req, timeout=8) as r:
         return r.read().decode("utf-8", "replace")
 
 
@@ -327,7 +328,7 @@ def run(argv):
     print(f"   TIENI   (genere giusto): {len(tieni)}  -> restano in coda")
     print(f"   INCERTI (niente genere): {len(incerti)}  -> {INCERTI_JSON}")
     print(f"   SCARTATI(fuori target) : {len(scartati)}  -> {SCARTATI_JSON}")
-    print("   Pubblica i TIENI con:  python ingest.py --approva-fonte dice")
+    print("   Pubblica i TIENI con:  python dice.py --approva")
 
 
 if __name__ == "__main__":

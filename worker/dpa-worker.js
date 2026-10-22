@@ -1,3 +1,4 @@
+import { marketRoute } from './market.js';
 // Dead People Activity - catalogo JSON + PayPal Checkout server-side.
 const CATALOG_URL = 'https://deadpeopleactivity.com/assets/data/store/catalogo-musica.json';
 const FREE_ABOVE = { italia: 30.00, europa: 60.00 };
@@ -106,7 +107,7 @@ async function syncProducts(env, products) {
        VALUES(?,?,?,?,?,0,?,?,?,CURRENT_TIMESTAMP)
        ON CONFLICT(id) DO UPDATE SET
          category=excluded.category,name=excluded.name,price_cents=excluded.price_cents,
-         stock=MIN(products.stock,excluded.stock),reserved=MIN(products.reserved,excluded.stock),
+         stock=${env.MARKET_ENABLED === '1' ? 'products.stock' : 'MIN(products.stock,excluded.stock)'},reserved=${env.MARKET_ENABLED === '1' ? 'products.reserved' : 'MIN(products.reserved,excluded.stock)'},
          publish_rv=excluded.publish_rv,publish_dpa=excluded.publish_dpa,
          metadata_json=excluded.metadata_json,updated_at=CURRENT_TIMESTAMP`
     ).bind(
@@ -527,6 +528,8 @@ export default {
   async fetch(request, env) {
     const origin = request.headers.get('Origin') || '';
     const url = new URL(request.url);
+    const market = await marketRoute(request, env, isAdmin);
+    if (market) return market;
     if (request.method === 'OPTIONS')
       return new Response(null, { status: 204, headers: corsHeaders(origin) });
 

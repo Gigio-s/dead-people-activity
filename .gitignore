@@ -13,6 +13,7 @@ scripts/events_coordinate_incerte.json
 scripts/venue_geocode_cache.json
 scripts/geocodifica_coordinate.log
 scripts/geocodifica_coordinate.err.log
+scripts/logs/
 scripts/coordinate eventi/geocode_cache.json
 scripts/coordinate eventi/genere_cache.json
 scripts/coordinate eventi/__pycache__/

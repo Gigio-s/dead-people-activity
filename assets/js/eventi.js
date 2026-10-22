@@ -47,12 +47,17 @@
         }).catch(showLoadError);
     }
 
+    // Riserva da 19 MB caricata SOLO se events.json non risponde (es. apertura file://)
+    var loadFallbackScript = function(){return new Promise(function(res){if(Array.isArray(window.DPA_EVENTS_FALLBACK))return res(window.DPA_EVENTS_FALLBACK);var s=document.createElement('script');s.src='assets/js/events-data.js';s.onload=function(){res(window.DPA_EVENTS_FALLBACK||[]);};s.onerror=function(){res([]);};document.head.appendChild(s);});};
+
     function loadEvents() {
         return fetch("assets/data/events.json")
             .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
             .catch(function () {
-                if (Array.isArray(window.DPA_EVENTS_FALLBACK)) return window.DPA_EVENTS_FALLBACK;
-                throw new Error("Dati eventi non disponibili");
+                return loadFallbackScript().then(function (list) {
+                    if (Array.isArray(list) && list.length) return list;
+                    throw new Error("Dati eventi non disponibili");
+                });
             });
     }
 

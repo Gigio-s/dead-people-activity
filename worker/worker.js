@@ -1,3 +1,4 @@
+import { marketRoute } from './market.js';
 // Worker condiviso RV + DPA: codici RV, inventario D1 e PayPal server-side.
 // Sconto del giorno: ogni giorno e' valida UNA sola categoria (rotazione).
 
@@ -234,8 +235,8 @@ async function syncProducts(env, products){
          category=excluded.category,
          name=excluded.name,
          price_cents=excluded.price_cents,
-         stock=MIN(products.stock, excluded.stock),
-         reserved=MIN(products.reserved, excluded.stock),
+         stock=${env.MARKET_ENABLED === '1' ? 'products.stock' : 'MIN(products.stock, excluded.stock)'},
+         reserved=${env.MARKET_ENABLED === '1' ? 'products.reserved' : 'MIN(products.reserved, excluded.stock)'},
          publish_rv=excluded.publish_rv,
          publish_dpa=excluded.publish_dpa,
          metadata_json=excluded.metadata_json,
@@ -276,16 +277,17 @@ async function releaseExpired(env){
   if (!env.INVENTORY_DB) return;
   const expired = await env.INVENTORY_DB.prepare(
     `SELECT order_id, product_id, quantity FROM reservations
-     WHERE status='active' AND datetime(expires_at) <= CURRENT_TIMESTAMP`
+     WHERE status='active' AND datetime(expires_at) <= CURRENT_TIMESTAMP
+     AND EXISTS(SELECT 1 FROM orders WHERE orders.order_id=reservations.order_id AND orders.status='created')`
   ).all();
   for (const r of expired.results || []) {
     await env.INVENTORY_DB.batch([
       env.INVENTORY_DB.prepare(
-        'UPDATE products SET reserved=MAX(0,reserved-?) WHERE id=?'
-      ).bind(r.quantity, r.product_id),
+        `UPDATE products SET reserved=MAX(0,reserved-?) WHERE id=? AND EXISTS(SELECT 1 FROM reservations r JOIN orders o ON o.order_id=r.order_id WHERE r.order_id=? AND r.product_id=? AND r.status='active' AND o.status='created')`
+      ).bind(r.quantity, r.product_id, r.order_id, r.product_id),
       env.INVENTORY_DB.prepare(
-        `UPDATE reservations SET status='expired' WHERE order_id=? AND product_id=? AND status='active'`
-      ).bind(r.order_id, r.product_id),
+        `UPDATE reservations SET status='expired' WHERE order_id=? AND product_id=? AND status='active' AND EXISTS(SELECT 1 FROM orders WHERE order_id=? AND status='created')`
+      ).bind(r.order_id, r.product_id, r.order_id),
       env.INVENTORY_DB.prepare(
         `UPDATE orders SET status='expired',updated_at=CURRENT_TIMESTAMP WHERE order_id=? AND status='created'`
       ).bind(r.order_id)
@@ -361,8 +363,8 @@ async function completeCentralOrder(env, orderId, payload){
   const statements = [];
   for (const item of items.results || []) {
     statements.push(env.INVENTORY_DB.prepare(
-      `UPDATE products SET stock=MAX(0,stock-?),reserved=MAX(0,reserved-?),updated_at=CURRENT_TIMESTAMP WHERE id=?`
-    ).bind(item.quantity, item.quantity, item.product_id));
+      `UPDATE products SET stock=MAX(0,stock-?),reserved=MAX(0,reserved-?),updated_at=CURRENT_TIMESTAMP WHERE id=? AND EXISTS(SELECT 1 FROM reservations WHERE order_id=? AND product_id=? AND status='active')`
+    ).bind(item.quantity, item.quantity, item.product_id, orderId, item.product_id));
     statements.push(env.INVENTORY_DB.prepare(
       `UPDATE reservations SET status='fulfilled' WHERE order_id=? AND product_id=?`
     ).bind(orderId, item.product_id));
@@ -472,6 +474,8 @@ export default {
   async fetch(request, env){
     const origin = request.headers.get('Origin') || '';
     const url = new URL(request.url);
+    const market = await marketRoute(request, env, isAdmin);
+    if (market) return market;
 
     if (request.method === 'OPTIONS')
       return new Response(null, { status: 204, headers: corsHeaders(origin) });
@@ -545,17 +549,21 @@ export default {
             return json({ error: 'Ordine DPA non riconosciuto' }, 404, origin);
           if (order.status === 'captured' && order.paypal_payload_json)
             return json(JSON.parse(order.paypal_payload_json), 200, origin);
-          if (order.status !== 'created')
+          if (!['created','capturing'].includes(order.status))
             return json({ error: 'Prenotazione scaduta; ripeti il checkout' }, 409, origin);
           const active = await env.INVENTORY_DB.prepare(
             `SELECT COUNT(*) AS n FROM reservations WHERE order_id=?
-             AND status='active' AND datetime(expires_at) > CURRENT_TIMESTAMP`
-          ).bind(String(body.orderID)).first();
+             AND status='active' AND (datetime(expires_at) > CURRENT_TIMESTAMP OR ?='capturing')`
+          ).bind(String(body.orderID),order.status).first();
           const expected = await env.INVENTORY_DB.prepare(
             'SELECT COUNT(*) AS n FROM order_items WHERE order_id=?'
           ).bind(String(body.orderID)).first();
           if (!active || !expected || Number(active.n) !== Number(expected.n) || !Number(active.n))
             return json({ error: 'Prenotazione scaduta; ripeti il checkout' }, 409, origin);
+        }
+        if(body.source==='dpa' && env.INVENTORY_DB) {
+          const lock=await env.INVENTORY_DB.prepare("UPDATE orders SET status='capturing' WHERE order_id=? AND source='dpa' AND status IN ('created','capturing') AND NOT EXISTS(SELECT 1 FROM reservations WHERE order_id=? AND status!='active')").bind(String(body.orderID),String(body.orderID)).run();
+          if(!lock.meta?.changes) return json({error:'Ordine non più disponibile'},409,origin);
         }
         const d = await captureOrder(env, body.orderID);
         await completeCentralOrder(env, body.orderID, d);

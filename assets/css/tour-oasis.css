@@ -1,0 +1,166 @@
+:root { --oasis-lime: #d8ff38; --oasis-blue: #75a8ff; --oasis-paper: #e9e7df; }
+html { scroll-behavior: smooth; }
+.oasis-page { background: #050505; color: #f5f5f1; overflow-x: hidden; }
+.oasis-page main { padding-top: 74px; }
+.oasis-wide { width: min(1460px, calc(100% - 44px)); }
+.oasis-narrow { width: min(920px, calc(100% - 44px)); }
+.oasis-hero { position: relative; min-height: calc(100vh - 74px); display: grid; align-items: center; overflow: hidden; background: #0a0a0a; }
+.oasis-hero::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 72% 28%, rgba(216,255,56,.2), transparent 25%), radial-gradient(circle at 15% 80%, rgba(117,168,255,.18), transparent 30%), linear-gradient(115deg, transparent 47%, rgba(255,255,255,.055) 48%, transparent 49%); }
+.oasis-hero-noise { position: absolute; inset: 0; opacity: .22; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E"); mix-blend-mode: screen; pointer-events: none; }
+.oasis-hero-orbit { position: absolute; border: 1px solid rgba(255,255,255,.16); border-radius: 50%; pointer-events: none; animation: oasisSpin 28s linear infinite; }
+.oasis-orbit-one { width: min(66vw, 850px); aspect-ratio: 1; right: -14vw; top: -26%; }
+.oasis-orbit-two { width: min(38vw, 520px); aspect-ratio: 1; right: 9vw; bottom: -31%; animation-direction: reverse; }
+@keyframes oasisSpin { to { transform: rotate(360deg); } }
+.oasis-hero-inner { position: relative; z-index: 2; padding: clamp(60px, 9vw, 130px) 0 85px; }
+.oasis-kicker, .oasis-section-index { color: var(--oasis-lime); font: 700 .74rem/1.2 var(--font-punk-body); letter-spacing: .13em; text-transform: uppercase; }
+.oasis-hero h1 { margin: 15px 0 20px; max-width: 1150px; line-height: .77; letter-spacing: -.055em; transform: none; }
+.oasis-hero h1 span, .oasis-hero h1 strong { display: block; font-family: var(--font-punk-headers); }
+.oasis-hero h1 span { color: #fff; font-size: clamp(5.4rem, 17vw, 15rem); }
+.oasis-hero h1 strong { margin-left: clamp(15px, 10vw, 150px); color: var(--oasis-lime); font-size: clamp(3.4rem, 10.8vw, 10rem); text-shadow: 8px 8px 0 #171717; }
+.oasis-hero-lead { max-width: 760px; margin: 32px 0; font-size: clamp(.96rem, 1.5vw, 1.25rem); line-height: 1.65; }
+.oasis-hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.oasis-btn { display: inline-flex; justify-content: center; padding: 14px 20px; border: 2px solid #fff; color: #fff; font: 700 .82rem var(--font-punk-headers); text-decoration: none; text-transform: uppercase; transition: .18s ease; }
+.oasis-btn:hover { transform: translate(-3px,-3px); box-shadow: 5px 5px 0 var(--oasis-lime); }
+.oasis-btn-primary { border-color: var(--oasis-lime); background: var(--oasis-lime); color: #060606; }
+.oasis-hero-meta { display: grid; grid-template-columns: repeat(4, minmax(100px, 1fr)); max-width: 850px; margin-top: 65px; border-top: 1px solid #555; border-left: 1px solid #555; }
+.oasis-hero-meta div { padding: 18px; border-right: 1px solid #555; border-bottom: 1px solid #555; }
+.oasis-hero-meta strong { display: block; color: #fff; font: 700 clamp(1.7rem,3vw,3rem) var(--font-punk-headers); }
+.oasis-hero-meta span { color: #aaa; font-size: .68rem; text-transform: uppercase; }
+.oasis-updated { margin-top: 15px; color: #777; font-size: .68rem; }
+.oasis-scroll-cue { position: absolute; right: 30px; bottom: 28px; z-index: 3; display: flex; align-items: center; gap: 12px; color: #aaa; font-size: .65rem; text-decoration: none; text-transform: uppercase; writing-mode: vertical-rl; }
+.oasis-scroll-cue i { width: 1px; height: 60px; background: linear-gradient(#fff,transparent); }
+.oasis-ticker { display: flex; width: max-content; overflow: hidden; border-block: 2px solid #111; background: var(--oasis-lime); color: #050505; font: 700 1rem var(--font-punk-headers); white-space: nowrap; transform: rotate(-1deg) scale(1.02); }
+.oasis-ticker div { padding: 13px 0; animation: ticker 35s linear infinite; }
+@keyframes ticker { to { transform: translateX(-100%); } }
+.oasis-section { position: relative; padding: clamp(85px, 11vw, 165px) 0; }
+.oasis-section-head { display: grid; grid-template-columns: minmax(280px, 1.3fr) minmax(240px, .7fr); gap: 40px; align-items: end; margin-bottom: 50px; }
+.oasis-section-head .oasis-section-index { grid-column: 1/-1; margin: 0; }
+.oasis-section h2 { margin: 0; color: #fff; font: 700 clamp(3rem,7.5vw,7.4rem)/.88 var(--font-punk-headers); letter-spacing: -.035em; transform: none; }
+.oasis-section h2 span { color: var(--oasis-lime); }
+.oasis-section-head > p:last-child { max-width: 560px; margin: 0 0 8px; color: #aaa; line-height: 1.7; }
+.oasis-map-section { background: linear-gradient(#050505,#0c0c0c); }
+.oasis-map-shell { overflow: hidden; border: 1px solid #383838; background: #080808; box-shadow: 14px 14px 0 #111; }
+.oasis-map-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 15px; border-bottom: 1px solid #333; }
+.oasis-map-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.oasis-map-filters button { padding: 9px 12px; border: 1px solid #555; background: transparent; color: #aaa; font: 700 .67rem var(--font-punk-body); cursor: pointer; text-transform: uppercase; }
+.oasis-map-filters button.is-active { border-color: var(--oasis-lime); background: var(--oasis-lime); color: #050505; }
+#oasis-map-status { color: #777; font-size: .7rem; }
+.oasis-map-grid { display: grid; grid-template-columns: minmax(0, 1fr) 330px; min-height: 590px; }
+#oasis-tour-map { min-height: 590px; background: #0c0c0c; }
+#oasis-tour-map .leaflet-tile-pane { filter: grayscale(1) invert(.92) contrast(1.35) brightness(.6); opacity: .72; }
+#oasis-tour-map .leaflet-control-attribution { background: #080808cc; color: #777; }
+.oasis-map-pin { display: grid; place-items: center; width: 38px; height: 38px; border: 2px solid #090909; border-radius: 50%; background: var(--oasis-lime); color: #050505; font: 700 .75rem var(--font-punk-headers); box-shadow: 0 0 0 5px rgba(216,255,56,.2); transition: transform .2s; }
+.oasis-map-pin:hover { transform: scale(1.18); }
+.oasis-stop-panel { padding: 35px 25px; border-left: 1px solid #333; background: radial-gradient(circle at top right,rgba(216,255,56,.1),transparent 45%),#0b0b0b; }
+.oasis-stop-number { color: var(--oasis-lime); font-size: .68rem; text-transform: uppercase; }
+.oasis-stop-panel h3 { margin: 25px 0 7px; color: #fff; font: 700 2.5rem var(--font-punk-headers); }
+.oasis-stop-venue { min-height: 46px; color: #888; font-size: .75rem; }
+.oasis-stop-dates { display: flex; flex-wrap: wrap; gap: 7px; margin: 30px 0; }
+.oasis-stop-dates span { padding: 8px; border: 1px solid #555; color: #fff; font-size: .72rem; }
+.oasis-stop-panel a { display: inline-block; color: var(--oasis-lime); font-size: .72rem; line-height: 1.5; }
+.oasis-date-rail { display: flex; overflow-x: auto; scrollbar-color: var(--oasis-lime) #111; }
+.oasis-date-rail button { flex: 0 0 150px; min-height: 90px; padding: 14px; border: 0; border-right: 1px solid #333; background: #080808; color: #888; font: inherit; text-align: left; cursor: pointer; }
+.oasis-date-rail button strong { display: block; margin-bottom: 9px; color: #fff; font: 700 .9rem var(--font-punk-headers); }
+.oasis-date-rail button.is-active { background: var(--oasis-lime); color: #333; }
+.oasis-date-rail button.is-active strong { color: #050505; }
+.oasis-manifesto { background: var(--oasis-paper); color: #111; transform: rotate(.5deg) scale(1.01); }
+.oasis-manifesto-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(50px,9vw,130px); align-items: center; transform: rotate(-.5deg); }
+.oasis-pullquote { margin: 0; font: 700 clamp(3.2rem,7vw,7rem)/.9 var(--font-punk-headers); letter-spacing: -.04em; }
+.oasis-pullquote span { color: #ff2525; }
+.oasis-manifesto h2 { color: #111; font-size: clamp(2.4rem,5vw,5rem); }
+.oasis-manifesto-grid > div > p:last-child, .oasis-manifesto-grid > div > p:nth-last-child(2) { font-size: .92rem; line-height: 1.75; }
+.oasis-history { background: #050505; }
+.oasis-timeline { position: relative; max-width: 1080px; margin-left: auto; }
+.oasis-timeline::before { content:""; position:absolute; top:0; bottom:0; left: 105px; width:1px; background:linear-gradient(var(--oasis-lime),#333); }
+.oasis-timeline article { position: relative; display: grid; grid-template-columns: 82px 1fr; gap: 45px; padding: 0 0 65px; }
+.oasis-timeline article::before { content:""; position:absolute; left:99px; top:8px; width:13px; height:13px; border-radius:50%; background:var(--oasis-lime); box-shadow:0 0 0 7px #182000; }
+.oasis-timeline time { color: var(--oasis-lime); font:700 1rem var(--font-punk-headers); }
+.oasis-timeline h3 { margin:0 0 10px; color:#fff; font:700 clamp(1.5rem,3vw,2.6rem) var(--font-punk-headers); }
+.oasis-timeline p { max-width:680px; margin:0; color:#999; line-height:1.7; }
+.oasis-albums { background: #0d0d0d; }
+.oasis-album-head { grid-template-columns: 1fr auto; }
+.oasis-carousel-buttons { display:flex; gap:8px; align-self:end; }
+.oasis-carousel-buttons button { width:52px; height:52px; border:1px solid #777; background:#090909; color:#fff; font-size:1.3rem; cursor:pointer; }
+.oasis-carousel-buttons button:hover { background:var(--oasis-lime); color:#050505; }
+.oasis-album-track { display:flex; gap:18px; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; padding:8px 2px 25px; }
+.oasis-album-track::-webkit-scrollbar { display:none; }
+.oasis-album-card { flex:0 0 min(340px,82vw); scroll-snap-align:start; }
+.oasis-album-art { display:grid; place-items:center; aspect-ratio:1; overflow:hidden; border:1px solid #444; box-shadow:8px 8px 0 #020202; }
+.oasis-album-art span { padding:20px; color:#fff; font:700 clamp(2.1rem,4vw,4rem)/.88 var(--font-punk-headers); text-align:center; text-shadow:4px 4px 0 #000; }
+.album-dm .oasis-album-art { background:linear-gradient(135deg,#563b2e,#b59d76 50%,#302821); }
+.album-mg .oasis-album-art { background:linear-gradient(45deg,#697b80,#ceb9a4,#4d5559); }
+.album-bhn .oasis-album-art { background:radial-gradient(circle,#fb3 0 12%,#237f62 13% 28%,#183b50 29%); }
+.album-sotsog .oasis-album-art { background:linear-gradient(#284783,#f5a24b); }
+.album-hc .oasis-album-art { background:linear-gradient(115deg,#202225 30%,#cc2633 31% 53%,#e6d1b2 54%); }
+.album-dbtt .oasis-album-art { background:radial-gradient(circle at 30% 35%,#d33 0 8%,transparent 9%),linear-gradient(135deg,#234,#bfb6a1); }
+.album-doys .oasis-album-art { background:conic-gradient(from 45deg,#5b1313,#d2a03d,#1e5363,#5b1313); }
+.album-master .oasis-album-art { background:linear-gradient(135deg,#111 48%,#ece7d8 49% 51%,#b32424 52%); }
+.oasis-album-card > p { margin:20px 0 7px; color:var(--oasis-lime); font-size:.65rem; text-transform:uppercase; }
+.oasis-album-card h3 { min-height:58px; margin:0 0 10px; color:#fff; font:700 1.35rem var(--font-punk-headers); }
+.oasis-album-card small { color:#888; line-height:1.55; }
+.oasis-album-note { max-width:700px; margin:20px 0 0; color:#666; font-size:.67rem; line-height:1.5; }
+.oasis-files { background:#050505; }
+.oasis-file-grid { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid #444; border-left:1px solid #444; }
+.oasis-file-grid article { min-height:270px; padding:28px; border-right:1px solid #444; border-bottom:1px solid #444; transition:.2s ease; }
+.oasis-file-grid article:hover { background:var(--oasis-lime); color:#050505; transform:translate(-5px,-5px); box-shadow:8px 8px 0 #1c1c1c; }
+.oasis-file-grid b { color:var(--oasis-lime); font:700 .8rem var(--font-punk-headers); }
+.oasis-file-grid article:hover b { color:#050505; }
+.oasis-file-grid h3 { margin:35px 0 15px; color:#fff; font:700 1.45rem var(--font-punk-headers); }
+.oasis-file-grid article:hover h3 { color:#050505; }
+.oasis-file-grid p { color:#888; font-size:.8rem; line-height:1.65; }
+.oasis-file-grid article:hover p { color:#222; }
+.oasis-gallery { background:#0b0b0b; }
+.oasis-gallery-grid { display:grid; grid-template-columns:1.25fr .75fr .75fr 1.25fr; grid-template-rows:repeat(2,260px); gap:12px; }
+.oasis-gallery-grid div { position:relative; display:flex; align-items:flex-end; overflow:hidden; padding:20px; border:1px solid #444; background:repeating-linear-gradient(135deg,#151515 0 12px,#1d1d1d 13px 24px); }
+.oasis-gallery-grid div::before { content:"PHOTO / LICENCE PENDING"; position:absolute; top:15px; left:15px; color:#666; font-size:.58rem; }
+.oasis-gallery-grid span { position:relative; color:#fff; font:700 1.5rem var(--font-punk-headers); }
+.oasis-gallery-a { grid-row:1/3; }
+.oasis-gallery-b { grid-column:2/4; }
+.oasis-gallery-d { grid-column:3/5; }
+.oasis-faq { background:var(--oasis-paper); color:#111; }
+.oasis-faq h2 { margin-bottom:45px; color:#111; font-size:clamp(2.8rem,6vw,5.5rem); }
+.oasis-faq details { border-top:1px solid #777; }
+.oasis-faq details:last-child { border-bottom:1px solid #777; }
+.oasis-faq summary { position:relative; padding:22px 50px 22px 0; font:700 1rem var(--font-punk-headers); cursor:pointer; list-style:none; }
+.oasis-faq summary::after { content:"+"; position:absolute; right:10px; font-size:1.5rem; }
+.oasis-faq details[open] summary::after { content:"−"; }
+.oasis-faq details p { max-width:720px; padding:0 0 24px; line-height:1.7; }
+.oasis-sources { padding:32px 0; border-top:1px solid #333; background:#050505; }
+.oasis-sources p { color:#777; font-size:.68rem; line-height:1.6; }
+.oasis-sources a { color:var(--oasis-lime); }
+.reveal { opacity:0; transform:translateY(35px); transition:opacity .7s ease,transform .7s ease; }
+.reveal.is-visible { opacity:1; transform:none; }
+@media (max-width: 900px) {
+    .oasis-section-head { grid-template-columns:1fr; }
+    .oasis-map-grid { grid-template-columns:1fr; }
+    #oasis-tour-map { min-height:480px; }
+    .oasis-stop-panel { border-left:0; border-top:1px solid #333; }
+    .oasis-manifesto-grid { grid-template-columns:1fr; }
+    .oasis-file-grid { grid-template-columns:repeat(2,1fr); }
+    .oasis-gallery-grid { grid-template-columns:1fr 1fr; grid-template-rows:300px 220px 220px; }
+    .oasis-gallery-a { grid-row:1; grid-column:1/3; }
+    .oasis-gallery-b,.oasis-gallery-c,.oasis-gallery-d { grid-column:auto; }
+}
+@media (max-width: 620px) {
+    .oasis-page main { padding-top:65px; }
+    .oasis-wide,.oasis-narrow { width:min(100% - 24px,1460px); }
+    .oasis-hero { min-height:calc(100svh - 65px); }
+    .oasis-hero-inner { padding-top:65px; }
+    .oasis-hero h1 span { font-size:clamp(4.4rem,25vw,8rem); }
+    .oasis-hero h1 strong { margin-left:0; font-size:clamp(3.1rem,17vw,6rem); }
+    .oasis-hero-meta { grid-template-columns:1fr 1fr; }
+    .oasis-scroll-cue { display:none; }
+    .oasis-section { padding:78px 0; }
+    .oasis-section h2 { font-size:clamp(2.5rem,14vw,4.5rem); }
+    .oasis-map-toolbar { align-items:flex-start; flex-direction:column; }
+    #oasis-tour-map { min-height:390px; }
+    .oasis-timeline::before { left:75px; }
+    .oasis-timeline article { grid-template-columns:58px 1fr; gap:34px; }
+    .oasis-timeline article::before { left:69px; }
+    .oasis-album-head { grid-template-columns:1fr; }
+    .oasis-carousel-buttons { justify-content:flex-end; }
+    .oasis-file-grid { grid-template-columns:1fr; }
+    .oasis-gallery-grid { display:flex; overflow-x:auto; }
+    .oasis-gallery-grid div { flex:0 0 82vw; min-height:360px; }
+}
+@media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior:auto!important; animation-duration:.01ms!important; animation-iteration-count:1!important; } .reveal { opacity:1; transform:none; } }

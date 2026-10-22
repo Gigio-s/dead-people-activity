@@ -2,6 +2,8 @@
 (function () {
     'use strict';
 
+    // Enable after both checkout Workers share D1 and market deployment is verified.
+    const MARKET_STOCK_ENABLED = true;
     const WORKER = 'https://dpa-checkout.ramacciatoluca.workers.dev';
     const SHARED_ASSET_HOST = 'https://ramacciatovintage.it';
     const LOCAL_CATALOG = 'assets/data/store/catalogo-musica.json';
@@ -279,6 +281,12 @@
             const central = await fetchJson(`${WORKER}/products?channel=dpa&category=musica`, 2500);
             products = Array.isArray(central.products) ? central.products : [];
         } catch (_) {
+            if (MARKET_STOCK_ENABLED) {
+                products = [];
+                feedbackNode.textContent = t('store.unavailable');
+                render();
+                return;
+            }
             try {
                 const local = await fetchJson(LOCAL_CATALOG);
                 products = Array.isArray(local) ? local : [];
@@ -342,4 +350,7 @@
     });
     document.addEventListener('dpa:languagechange', () => { buildFilters(); render(); });
     load();
+    if (MARKET_STOCK_ENABLED) setInterval(() => {
+        if (productOverlay.hidden && cartOverlay.hidden && !document.hidden) load();
+    }, 30000);
 }());

@@ -25,7 +25,8 @@ INDEXABLE = [
 
 NOINDEX = {
     "apparire.html", "archivio.html", "buried.html", "collaboratori.html",
-    "coming-soon.html", "diy.html", "mappa-full.html", "privacy.html", "store.html",
+    "checkout.html", "coming-soon.html", "diy.html", "mappa-full.html",
+    "privacy.html", "store.html", "tour-oasis-live-27.html",
 }
 
 ARTICLE_DATES = {
