@@ -19,6 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     '<li><a href="mappa.html" class="nav-link" data-i18n="nav.interactive_map">Mappa interattiva</a></li>' +
                     '<li><a href="eventi.html" class="nav-link" data-i18n="nav.events">Eventi</a></li>' +
                     '<li><a href="festival.html" class="nav-link" data-i18n="nav.festivals">Festival</a></li>' +
+                    '<li class="has-submenu"><a href="tour-oasis-live-27.html" class="nav-link submenu-toggle" aria-haspopup="true">Tour <span class="submenu-caret" aria-hidden="true">&#9656;</span></a>' +
+                        '<ul class="dropdown-submenu"><li><a href="tour-oasis-live-27.html" class="nav-link">Oasis Live \u201927</a></li></ul></li>' +
                     '<li><a href="it/eventi/concerti-piu-importanti-settembre-2026/" class="nav-link js-monthly-events" data-month-offset="0">Concerti più importanti di settembre 2026</a></li>' +
                     '<li><a href="it/eventi/concerti-piu-importanti-ottobre-2026/" class="nav-link js-monthly-events" data-month-offset="1">Concerti più importanti di ottobre 2026</a></li>' +
                     '<li><a href="it/eventi/#citta" class="nav-link js-city-directory" data-i18n="nav.by_city">Eventi per città</a></li>' +
@@ -68,8 +70,22 @@ document.addEventListener('DOMContentLoaded', () => {
         document.addEventListener('dpa:languagechange', updateDirectoryLinks);
     })();
 
-    // Footer unico su tutto il sito. Le icone social restano informative finche'
-    // non vengono configurati gli URL ufficiali, evitando collegamenti vuoti (#).
+    // Social ufficiali DPA: unico punto da modificare per header e footer di tutte le pagine.
+    const DPA_SOCIALS = [
+        { label: 'Instagram', short: 'IG', url: 'https://www.instagram.com/deadpeopleactivity/' },
+        { label: 'TikTok', short: 'TT', url: 'https://www.tiktok.com/@people.activity.d' },
+        { label: 'YouTube', short: 'YT', url: 'https://www.youtube.com/@DeadPeopleActivity' }
+    ];
+
+    (function standardizeHeaderSocials() {
+        document.querySelectorAll('.header-socials').forEach(box => {
+            box.innerHTML = DPA_SOCIALS.map(s =>
+                '<a href="' + s.url + '" class="social-icon" target="_blank" rel="noopener me" aria-label="' + s.label + '">' + s.short + '</a>'
+            ).join('');
+        });
+    })();
+
+    // Footer unico su tutto il sito.
     (function standardizeFooter() {
         const footer = document.querySelector('.footer');
         if (!footer) return;
@@ -77,12 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const socialIcons = [
             ['Instagram', '<rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle>'],
             ['TikTok', '<path d="M15 4c.4 2.2 1.7 3.6 4 4v3c-1.5 0-2.8-.4-4-1.2V16a6 6 0 1 1-6-6v3a3 3 0 1 0 3 3V4h3z"></path>'],
-            ['YouTube', '<path d="M21 8.2a3 3 0 0 0-2.1-2.1C17 5.6 12 5.6 12 5.6s-5 0-6.9.5A3 3 0 0 0 3 8.2 31 31 0 0 0 2.5 12a31 31 0 0 0 .5 3.8 3 3 0 0 0 2.1 2.1c1.9.5 6.9.5 6.9.5s5 0 6.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-3.8 31 31 0 0 0-.5-3.8z"></path><path class="social-icon-play" d="m10 9 5 3-5 3z"></path>'],
-            ['LinkedIn', '<rect x="4" y="9" width="4" height="11"></rect><circle cx="6" cy="5.5" r="2"></circle><path d="M11 9h4v1.7c.9-1.3 2.1-2 3.7-2 2.8 0 4.3 1.8 4.3 5.2V20h-4v-5.4c0-1.5-.5-2.4-1.8-2.4-1.5 0-2.2 1-2.2 3V20h-4z"></path>']
-        ].map(([label, drawing]) =>
-            '<span class="footer-social-icon" role="img" aria-label="' + label + '" title="' + label + '">' +
-            '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + drawing + '</svg></span>'
-        ).join('');
+            ['YouTube', '<path d="M21 8.2a3 3 0 0 0-2.1-2.1C17 5.6 12 5.6 12 5.6s-5 0-6.9.5A3 3 0 0 0 3 8.2 31 31 0 0 0 2.5 12a31 31 0 0 0 .5 3.8 3 3 0 0 0 2.1 2.1c1.9.5 6.9.5 6.9.5s5 0 6.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-3.8 31 31 0 0 0-.5-3.8z"></path><path class="social-icon-play" d="m10 9 5 3-5 3z"></path>']
+        ].map(([label, drawing]) => {
+            const s = DPA_SOCIALS.find(x => x.label === label);
+            return '<a class="footer-social-icon" href="' + s.url + '" target="_blank" rel="noopener me" aria-label="' + label + '" title="' + label + '">' +
+                '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + drawing + '</svg></a>';
+        }).join('');
 
         footer.innerHTML =
             '<div class="container footer-grid">' +

@@ -20,13 +20,13 @@ INDEXABLE = [
     "index.html", "mappa.html", "eventi.html", "festival.html", "the-wall.html",
     "articoli.html", "articolo-perche-nasce-dpa.html",
     "articolo-serata-autogestita.html", "articolo-autoprodurre-musica.html",
-    "contatti.html", "affiliazioni.html",
+    "contatti.html", "affiliazioni.html", "tour-oasis-live-27.html",
 ]
 
 NOINDEX = {
     "apparire.html", "archivio.html", "buried.html", "collaboratori.html",
     "checkout.html", "coming-soon.html", "diy.html", "mappa-full.html",
-    "privacy.html", "store.html", "tour-oasis-live-27.html",
+    "privacy.html", "store.html",
 }
 
 ARTICLE_DATES = {
@@ -58,6 +58,11 @@ def json_ld(filename: str, title: str, description: str, canonical: str) -> dict
         "name": "Dead People Activity", "url": f"{DOMAIN}/",
         "logo": f"{DOMAIN}/assets/img/dpa%20no%20sfondo.png",
         "email": "info@deadpeopleactivity.com",
+        "sameAs": [
+            "https://www.instagram.com/deadpeopleactivity/",
+            "https://www.tiktok.com/@people.activity.d",
+            "https://www.youtube.com/@DeadPeopleActivity",
+        ],
     }
     website = {
         "@type": "WebSite", "@id": f"{DOMAIN}/#website", "url": f"{DOMAIN}/",

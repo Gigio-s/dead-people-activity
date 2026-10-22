@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Live '27: date, storia e album | Dead People Activity</title>
+    <meta name="description" content="Guida completa a Oasis Live '27: tutte le date del tour, mappa interattiva, storia degli Oasis, album e momenti memorabili dei fratelli Gallagher.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://deadpeopleactivity.com/tour-oasis-live-27.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Oasis Live '27: date, mappa e storia | Dead People Activity">
+    <meta property="og:description" content="Tutte le 42 date di Oasis Live '27 su una mappa interattiva, con la storia della band e la discografia essenziale.">
+    <meta property="og:url" content="https://deadpeopleactivity.com/tour-oasis-live-27.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=25">
+    <link rel="stylesheet" href="assets/css/tour-oasis.css?v=7">
+    <link rel="icon" type="image/png" href="assets/img/dpa%20no%20sfondo.png?v=2">
+</head>
+<body class="oasis-page">
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">Mappa <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="mappa.html" class="nav-link">Mappa</a></li>
+                        <li><a href="eventi.html" class="nav-link">Eventi</a></li>
+                        <li><a href="festival.html" class="nav-link">Festival</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item has-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">The Wall <span class="caret">&#9662;</span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="the-wall.html" class="nav-link">The Wall</a></li>
+                        <li><a href="articoli.html" class="nav-link">Articoli</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="store.html" class="nav-link">Store</a></li>
+                <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="header-socials">
+                <a href="https://www.instagram.com/deadpeopleactivity/" class="social-icon" target="_blank" rel="noopener me" aria-label="Instagram">IG</a>
+                <a href="https://www.tiktok.com/@people.activity.d" class="social-icon" target="_blank" rel="noopener me" aria-label="TikTok">TT</a>
+                <a href="https://www.youtube.com/@DeadPeopleActivity" class="social-icon" target="_blank" rel="noopener me" aria-label="YouTube">YT</a>
+            </div>
+            <button class="hamburger" aria-label="Apri Menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="oasis-hero" id="top">
+            <div class="oasis-hero-noise" aria-hidden="true"></div>
+            <div class="oasis-hero-orbit oasis-orbit-one" aria-hidden="true"></div>
+            <div class="oasis-hero-orbit oasis-orbit-two" aria-hidden="true"></div>
+            <div class="container oasis-hero-inner">
+                <p class="oasis-kicker">Dead People Activity presenta</p>
+                <h1><span>OASIS</span><strong>LIVE '27</strong></h1>
+                <p class="oasis-hero-lead">Il ritorno continua. Quarantadue date, undici città e una storia cominciata a Manchester nel 1991 che non ha mai davvero smesso di fare rumore.</p>
+                <div class="oasis-hero-actions">
+                    <a class="oasis-btn oasis-btn-primary" href="#tour-map">Esplora il tour</a>
+                    <a class="oasis-btn" href="#story">La storia</a>
+                </div>
+                <div class="oasis-hero-meta" aria-label="Numeri del tour">
+                    <div><strong data-count="42">0</strong><span>Date</span></div>
+                    <div><strong data-count="11">0</strong><span>Città</span></div>
+                    <div><strong data-count="8">0</strong><span>Paesi</span></div>
+                    <div><strong>21.05</strong><span>Prima notte</span></div>
+                </div>
+                <p class="oasis-updated">Aggiornato al 22 ottobre 2026 · Date soggette a variazioni</p>
+            </div>
+            <a class="oasis-scroll-cue" href="#tour-map"><span>Scendi</span><i aria-hidden="true"></i></a>
+        </section>
+
+        <div class="oasis-ticker" aria-hidden="true">
+            <div>GLASGOW · MANCHESTER · MUNICH · BARCELONA · AMSTERDAM · PARIS · ROME · BOSTON · LAS VEGAS · SLANE · KNEBWORTH ·&nbsp;</div>
+            <div>GLASGOW · MANCHESTER · MUNICH · BARCELONA · AMSTERDAM · PARIS · ROME · BOSTON · LAS VEGAS · SLANE · KNEBWORTH ·&nbsp;</div>
+        </div>
+
+        <section class="oasis-section oasis-map-section" id="tour-map">
+            <div class="container oasis-wide">
+                <div class="oasis-section-head reveal">
+                    <p class="oasis-section-index">01 / Rotta 2027</p>
+                    <h2>UNDICI CITTÀ.<br><span>UNA SOLA SCIA.</span></h2>
+                    <p>Clicca i punti, filtra le tappe e attraversa il tour. Ogni città apre date, stadio e collegamento ufficiale.</p>
+                </div>
+                <div class="oasis-map-shell reveal">
+                    <div class="oasis-map-toolbar">
+                        <div class="oasis-map-filters" role="group" aria-label="Filtra la mappa">
+                            <button class="is-active" type="button" data-map-filter="all">Tutto il tour</button>
+                            <button type="button" data-map-filter="europe">Europa</button>
+                            <button type="button" data-map-filter="america">USA</button>
+                        </div>
+                        <span id="oasis-map-status">42 date · 11 città</span>
+                    </div>
+                    <div class="oasis-map-grid">
+                        <div id="oasis-tour-map" aria-label="Mappa interattiva Oasis Live 27"></div>
+                        <aside class="oasis-stop-panel" id="oasis-stop-panel" aria-live="polite">
+                            <p class="oasis-stop-number">Tappa 01</p>
+                            <h3>Glasgow</h3>
+                            <p class="oasis-stop-venue">Celtic Park · Scotland</p>
+                            <div class="oasis-stop-dates"></div>
+                            <a href="https://www.oasisinet.com/live/" target="_blank" rel="noopener">Biglietti e informazioni ufficiali ↗</a>
+                        </aside>
+                    </div>
+                    <div class="oasis-date-rail" id="oasis-date-rail" aria-label="Tappe del tour"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="oasis-section oasis-manifesto">
+            <div class="container oasis-manifesto-grid reveal">
+                <p class="oasis-pullquote">“NON È NOSTALGIA<br>SE È ANCORA<br><span>VIVO.</span>”</p>
+                <div>
+                    <p class="oasis-section-index">02 / Perché conta</p>
+                    <h2>IL RITORNO NON ERA IL FINALE.</h2>
+                    <p>Dopo la reunion e gli stadi del 2025, Live ’27 riporta gli Oasis nel cuore dell’Europa, negli Stati Uniti e nei luoghi che hanno costruito il mito. Manchester diventa una residenza. Knebworth riapre una ferita felice trentun anni dopo il 1996.</p>
+                    <p>Questa pagina seguirà il tour fino all’ultima notte: nuove date, cambi di programma, biglietti e scalette verranno aggiornati insieme alla mappa DPA.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="oasis-section oasis-story" id="story">
+            <div class="container oasis-wide">
+                <div class="oasis-section-head reveal">
+                    <p class="oasis-section-index">03 / La storia</p>
+                    <h2>DA BURNAGE<br><span>A KNEBWORTH. E RITORNO.</span></h2>
+                    <p>Trentasei anni di Oasis in una linea: gli album, le notti che hanno fatto la storia, la rottura e il ritorno. Clicca una copertina per vedere la tracklist.</p>
+                </div>
+                <ol class="oasis-storyline">
+                    <li class="story-item reveal"><div class="story-card"><span class="story-year">1991</span><span class="story-kind">Manchester</span><h3>Nascono gli Oasis</h3><p>Liam Gallagher canta nei The Rain, che prendono il nome Oasis. A fine anno entra il fratello Noel: porta le canzoni e una regola, puntare a qualcosa di enorme.</p></div></li>
+                    <li class="story-item reveal"><div class="story-card"><span class="story-year">1993</span><span class="story-kind">Glasgow</span><h3>La notte di King Tut’s</h3><p>Suonano quasi senza invito al King Tut’s Wah Wah Hut. In sala c’è Alan McGee di Creation Records: il contratto arriva poco dopo.</p></div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-dm" data-album="definitely-maybe"><span>DEFINITELY<br>MAYBE</span><img src="assets/img/oasis/copertine/definitely-maybe.jpg" alt="Copertina di Definitely Maybe (Oasis, 1994)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">1994</span><span class="story-kind">Uscita 29 agosto 1994</span><h3>Definitely Maybe</h3><p>In quel momento è il debutto venduto più velocemente nella storia britannica. Cinque ragazzi di Manchester diventano la voce di una generazione.</p><small>Rock ’n’ Roll Star · Live Forever · Supersonic</small></div>
+                    </div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-mg" data-album="morning-glory"><span>MORNING<br>GLORY?</span><img src="assets/img/oasis/copertine/morning-glory.jpg" alt="Copertina di (What’s the Story) Morning Glory? (Oasis, 1995)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">1995</span><span class="story-kind">Uscita 2 ottobre 1995</span><h3>(What’s the Story) Morning Glory?</h3><p>Il disco che porta gli Oasis nel mondo. È l’anno della sfida in classifica con i Blur e delle canzoni che ancora oggi si cantano a squarciagola.</p><small>Wonderwall · Don’t Look Back in Anger · Champagne Supernova</small></div>
+                    </div></li>
+                    <li class="story-item reveal story-highlight story-knebworth"><div class="story-card"><span class="story-year">1996</span><span class="story-kind">Knebworth</span><h3>Due notti, 250.000 persone</h3><p>10 e 11 agosto: circa 250.000 persone nel parco di Knebworth e milioni di richieste di biglietti. Il punto più alto del Britpop.</p></div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-bhn" data-album="be-here-now"><span>BE HERE<br>NOW</span><img src="assets/img/oasis/copertine/be-here-now.jpg" alt="Copertina di Be Here Now (Oasis, 1997)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">1997</span><span class="story-kind">Uscita 21 agosto 1997</span><h3>Be Here Now</h3><p>Tutto più lungo, più forte, più grande. Nel Regno Unito diventa l’album venduto più velocemente di sempre fino a quel momento.</p><small>D’You Know What I Mean? · Stand by Me · All Around the World</small></div>
+                    </div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-master" data-album="the-masterplan"><span>THE<br>MASTERPLAN</span><img src="assets/img/oasis/copertine/the-masterplan.jpg" alt="Copertina di The Masterplan (Oasis, 1998)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">1998</span><span class="story-kind">Uscita 2 novembre 1998</span><h3>The Masterplan</h3><p>La raccolta di B-side che dimostra quanto fosse ricco il periodo d’oro: canzoni “minori” che per molti sono tra le migliori.</p><small>Acquiesce · Talk Tonight · The Masterplan</small></div>
+                    </div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-sotsog" data-album="standing-on-the-shoulder-of-giants"><span>STANDING ON<br>THE SHOULDER</span><img src="assets/img/oasis/copertine/standing-on-the-shoulder-of-giants.jpg" alt="Copertina di Standing on the Shoulder of Giants (Oasis, 2000)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">2000</span><span class="story-kind">Uscita 28 febbraio 2000</span><h3>Standing on the Shoulder of Giants</h3><p>Bonehead e Guigsy lasciano durante le registrazioni, arrivano Gem Archer e Andy Bell. Suoni più psichedelici: la band cambia pelle, il pubblico resta.</p><small>Go Let It Out · Who Feels Love? · Gas Panic!</small></div>
+                    </div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-hc" data-album="heathen-chemistry"><span>HEATHEN<br>CHEMISTRY</span><img src="assets/img/oasis/copertine/heathen-chemistry.jpg" alt="Copertina di Heathen Chemistry (Oasis, 2002)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">2002</span><span class="story-kind">Uscita 1 luglio 2002</span><h3>Heathen Chemistry</h3><p>Per la prima volta firmano canzoni anche Gem Archer e Andy Bell, accanto a Noel e Liam. Il disco della maturità.</p><small>The Hindu Times · Stop Crying Your Heart Out · Songbird</small></div>
+                    </div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-dbtt" data-album="dont-believe-the-truth"><span>DON’T BELIEVE<br>THE TRUTH</span><img src="assets/img/oasis/copertine/dont-believe-the-truth.jpg" alt="Copertina di Don’t Believe the Truth (Oasis, 2005)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">2005</span><span class="story-kind">Uscita 30 maggio 2005</span><h3>Don’t Believe the Truth</h3><p>Il ritorno in forma: il disco più compatto dai tempi d’oro, con un tour mondiale enorme.</p><small>Lyla · The Importance of Being Idle · Let There Be Love</small></div>
+                    </div></li>
+                    <li class="story-item story-album reveal"><div class="story-card">
+                        <figure class="story-cover album-doys" data-album="dig-out-your-soul"><span>DIG OUT<br>YOUR SOUL</span><img src="assets/img/oasis/copertine/dig-out-your-soul.jpg" alt="Copertina di Dig Out Your Soul (Oasis, 2008)" loading="lazy" width="500" height="500" onerror="this.remove()"></figure>
+                        <div><span class="story-year">2008</span><span class="story-kind">Uscita 6 ottobre 2008</span><h3>Dig Out Your Soul</h3><p>L’ultimo album in studio prima della separazione: più cupo, ritmico, pesante.</p><small>The Shock of the Lightning · I’m Outta Time · Falling Down</small></div>
+                    </div></li>
+                    <li class="story-item reveal"><div class="story-card"><span class="story-year">2009</span><span class="story-kind">Parigi</span><h3>La rottura</h3><p>28 agosto, Rock en Seine: una lite nel backstage annulla il concerto. Noel annuncia che non può più lavorare con Liam. Fine degli Oasis.</p></div></li>
+                    <li class="story-item reveal story-highlight"><div class="story-card"><span class="story-year">2024</span><span class="story-kind">L’annuncio</span><h3>“The guns have fallen silent”</h3><p>27 agosto 2024: dopo quindici anni i fratelli annunciano la reunion. Le richieste di biglietti travolgono i siti di vendita.</p></div></li>
+                    <li class="story-item reveal"><div class="story-card"><span class="story-year">2025</span><span class="story-kind">Live ’25</span><h3>Di nuovo sul palco</h3><p>Il 4 luglio 2025 a Cardiff riparte tutto: stadi pieni nel Regno Unito, in Irlanda e nel resto del mondo, con cinque serate a Heaton Park, Manchester.</p></div></li>
+                    <li class="story-item reveal story-highlight"><div class="story-card"><span class="story-year">2027</span><span class="story-kind">Live ’27</span><h3>Il secondo atto</h3><p>Glasgow apre il nuovo capitolo il 21 maggio. Poi Manchester, l’Europa, gli USA, Slane e il ritorno a Knebworth.</p></div></li>
+                </ol>
+                <p class="oasis-cover-note">Copertine riprodotte a bassa risoluzione a scopo di cronaca e commento. Tutti i diritti appartengono ai rispettivi titolari.</p>
+            </div>
+        </section>
+
+        <section class="oasis-section oasis-files">
+            <div class="container oasis-wide">
+                <div class="oasis-section-head reveal">
+                    <p class="oasis-section-index">04 / Gallagher files</p>
+                    <h2>FRATELLI. RIVALI.<br><span>OASIS.</span></h2>
+                </div>
+                <div class="oasis-file-grid">
+                    <article class="reveal"><b>01</b><h3>La regola di Noel</h3><p>Quando entra nella band, Noel porta un repertorio e un piano preciso. Le canzoni diventano il centro di tutto; Liam, la voce impossibile da ignorare.</p></article>
+                    <article class="reveal"><b>02</b><h3>Blur contro Oasis</h3><p>La sfida nelle classifiche del 1995 diventa una guerra culturale costruita dai media: nord contro sud, working class contro art school.</p></article>
+                    <article class="reveal"><b>03</b><h3>MTV Unplugged</h3><p>Liam non canta; Noel prende il microfono. Il concerto diventa uno dei documenti più strani e memorabili della loro storia.</p></article>
+                    <article class="reveal"><b>04</b><h3>Parigi, 2009</h3><p>Una lite dietro le quinte chiude il tour e la band. Noel annuncia di non poter più lavorare con Liam.</p></article>
+                    <article class="reveal"><b>05</b><h3>Sedici anni</h3><p>Carriere separate, frecciate pubbliche e nessuna certezza. Il silenzio condiviso rende il ritorno ancora più grande.</p></article>
+                    <article class="reveal"><b>06</b><h3>Di nuovo insieme</h3><p>La reunion non cancella la storia: la usa come carburante. Live ’27 è il secondo atto, non una replica.</p></article>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="oasis-section oasis-faq">
+            <div class="container oasis-narrow">
+                <p class="oasis-section-index reveal">05 / Domande frequenti</p>
+                <h2 class="reveal">QUELLO CHE SERVE SAPERE.</h2>
+                <details><summary>Gli Oasis suoneranno in Italia nel 2027?</summary><p>Sì. Sono previste tre date allo Stadio Olimpico di Roma: 26, 29 e 30 luglio 2027.</p></details>
+                <details><summary>Quante date comprende Oasis Live ’27?</summary><p>Il calendario ufficiale attuale comprende 42 date distribuite fra Regno Unito, Europa continentale, Stati Uniti e Irlanda.</p></details>
+                <details><summary>Dove si acquistano i biglietti?</summary><p>Usa esclusivamente i canali indicati dal sito ufficiale Oasis e dalle pagine Ticketmaster collegate alle singole date.</p></details>
+                <details><summary>La scaletta è già conosciuta?</summary><p>No. Qualunque scaletta pubblicata prima dell'inizio del tour è una previsione, non una conferma ufficiale.</p></details>
+            </div>
+        </section>
+
+        <section class="oasis-sources">
+            <div class="container oasis-narrow">
+                <p><strong>Fonti principali:</strong> <a href="https://oasisinet.com/" target="_blank" rel="noopener">Oasis Official</a> · <a href="https://www.oasisinet.com/live/" target="_blank" rel="noopener">Calendario ufficiale</a> · Ticketmaster. Pagina aggiornata man mano che escono nuove informazioni ufficiali.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Dead People <span>Activity</span></a>
+                <p>Piattaforma media indipendente e archivio radicale delle scene alternative italo-spagnole. Nessun padrone, solo attitudine.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Naviga</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mappa.html">Mappa</a></li>
+                    <li><a href="articoli.html">Articoli</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Seguici</h4>
+                <div class="footer-social-icons">
+                    <a href="https://www.instagram.com/deadpeopleactivity/" class="social-icon" target="_blank" rel="noopener me">Instagram</a><a href="https://www.tiktok.com/@people.activity.d" class="social-icon" target="_blank" rel="noopener me">TikTok</a><a href="https://www.youtube.com/@DeadPeopleActivity" class="social-icon" target="_blank" rel="noopener me">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Dead People Activity. Tutti i diritti riservati. Testi, contenuti e marchio non possono essere copiati o riprodotti senza autorizzazione. Keep it underground.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="assets/js/i18n.js?v=9"></script>
+    <script src="assets/js/main.js?v=10"></script>
+    <script src="assets/js/tour-oasis.js?v=8"></script>
+</body>
+</html>

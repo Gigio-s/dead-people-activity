@@ -2690,3 +2690,75 @@ select, input, textarea, .form-control { max-width: 100%; }
     .chatbot-fab,
     .has-store-cart .back-to-top { right: 4px; }
 }
+
+/* Icone social footer cliccabili */
+a.footer-social-icon { text-decoration: none; transition: background-color .15s ease, border-color .15s ease, transform .15s ease; }
+a.footer-social-icon:hover, a.footer-social-icon:focus-visible { background: var(--accent-color); border-color: var(--accent-color); transform: rotate(0deg) scale(1.06); }
+
+/* ---- Sottomenu di secondo livello (Eventi > Tour > Oasis Live '27) ---- */
+.dropdown-menu .has-submenu { position: relative; }
+.dropdown-menu .submenu-caret { float: right; margin-left: 12px; font-size: .75rem; }
+.dropdown-submenu {
+    display: none;
+    position: absolute;
+    top: -8px;
+    left: 100%;
+    min-width: 190px;
+    margin: 0 0 0 6px;
+    padding: 6px;
+    list-style: none;
+    background-color: #000000;
+    border: 2px dashed var(--accent-color);
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.6);
+    z-index: 210;
+}
+.dropdown-submenu li { list-style: none; }
+.dropdown-submenu .nav-link { display: block; padding: 8px 12px; white-space: nowrap; }
+.dropdown-menu .has-submenu:hover > .dropdown-submenu,
+.dropdown-menu .has-submenu:focus-within > .dropdown-submenu { display: block; }
+@media (max-width: 900px) {
+    .dropdown-menu .submenu-caret { display: none; }
+    .dropdown-submenu,
+    .dropdown-menu .has-submenu:hover > .dropdown-submenu,
+    .dropdown-menu .has-submenu:focus-within > .dropdown-submenu {
+        display: block;
+        position: static;
+        min-width: 0;
+        margin: 0 0 4px 14px;
+        padding: 0 0 0 10px;
+        border: none;
+        border-left: 2px dashed #ffffff;
+        box-shadow: none;
+    }
+}
+
+/* ---- Home: speciale tour in evidenza ---- */
+.home-feature { padding: 70px 0 10px; }
+.home-feature-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
+    overflow: hidden;
+    border: 3px dashed var(--accent-color);
+    background: #050505;
+    color: #ffffff;
+    text-decoration: none;
+    transform: rotate(-.6deg);
+    box-shadow: 10px 10px 0 #000000;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.home-feature-card:hover { transform: rotate(0deg) scale(1.01); box-shadow: 14px 14px 0 var(--accent-color); }
+.home-feature-text { position: relative; z-index: 2; padding: 38px 40px; }
+.home-feature-kicker { display: inline-block; margin: 0 0 14px; padding: 4px 10px; background: var(--accent-color); color: #fff; font-family: var(--font-punk-body); font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; }
+.home-feature-card h2 { margin: 0 0 14px; font-family: var(--font-punk-headers); font-size: clamp(2rem, 4.5vw, 3.6rem); line-height: .95; }
+.home-feature-card h2 span { color: var(--accent-color); }
+.home-feature-card p { margin: 0 0 22px; color: #cccccc; font-family: var(--font-punk-body); line-height: 1.6; max-width: 520px; }
+.home-feature-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.home-feature-meta span { padding: 5px 9px; border: 1px solid #555; color: #fff; font-family: var(--font-punk-body); font-size: .78rem; }
+.home-feature-card .btn { font-size: 1.1rem; padding: 12px 24px; }
+.home-feature-img { min-height: 300px; background: url("../img/oasis/oasis-hero.jpg") right center / cover no-repeat; filter: contrast(1.1); }
+@media (max-width: 768px) {
+    .home-feature-card { grid-template-columns: 1fr; transform: none; }
+    .home-feature-img { order: -1; min-height: 190px; }
+    .home-feature-text { padding: 26px 22px; }
+}

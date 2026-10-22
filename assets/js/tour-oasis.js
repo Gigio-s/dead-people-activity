@@ -56,7 +56,7 @@
             markers.set(originalIndex, marker);
         });
         if (list.length > 1) {
-            L.polyline(list.map(stop => stop.coords), { color:'#d8ff38', weight:2, opacity:.75, dashArray:'7 10' }).addTo(routeLayer);
+            L.polyline(list.map(stop => stop.coords), { color:'#ff2a2a', weight:2, opacity:.75, dashArray:'7 10' }).addTo(routeLayer);
         }
         const bounds = L.latLngBounds(list.map(stop => stop.coords));
         map.fitBounds(bounds, { padding:[45,45], maxZoom:5 });
@@ -98,9 +98,55 @@
 
     function initAlbums() {
         const track = document.getElementById('oasis-album-track');
+        if (!track || !document.getElementById('album-prev')) return;
         const move = direction => track.scrollBy({ left: direction * Math.min(370, track.clientWidth * .82), behavior:'smooth' });
         document.getElementById('album-prev').addEventListener('click', () => move(-1));
         document.getElementById('album-next').addEventListener('click', () => move(1));
+    }
+
+
+    // ===== Tracklist: click sulla copertina (edizioni originali UK) =====
+    const TRACKLISTS = {
+        'definitely-maybe': ['Rock ’n’ Roll Star','Shakermaker','Live Forever','Up in the Sky','Columbia','Supersonic','Bring It On Down','Cigarettes & Alcohol','Digsy’s Dinner','Slide Away','Married with Children'],
+        'morning-glory': ['Hello','Roll with It','Wonderwall','Don’t Look Back in Anger','Hey Now!','The Swamp Song (Excerpt 1)','Some Might Say','Cast No Shadow','She’s Electric','Morning Glory','The Swamp Song (Excerpt 2)','Champagne Supernova'],
+        'be-here-now': ['D’You Know What I Mean?','My Big Mouth','Magic Pie','Stand by Me','I Hope, I Think, I Know','The Girl in the Dirty Shirt','Fade In-Out','Don’t Go Away','Be Here Now','All Around the World','It’s Gettin’ Better (Man!!)','All Around the World (Reprise)'],
+        'the-masterplan': ['Acquiesce','Underneath the Sky','Talk Tonight','Going Nowhere','Fade Away','The Swamp Song','I Am the Walrus (live)','Listen Up','Rockin’ Chair','Half the World Away','(It’s Good) To Be Free','Stay Young','Headshrinker','The Masterplan'],
+        'standing-on-the-shoulder-of-giants': ['Fuckin’ in the Bushes','Go Let It Out','Who Feels Love?','Put Yer Money Where Yer Mouth Is','Little James','Gas Panic!','Where Did It All Go Wrong?','Sunday Morning Call','I Can See a Liar','Roll It Over'],
+        'heathen-chemistry': ['The Hindu Times','Force of Nature','Hung in a Bad Place','Stop Crying Your Heart Out','Songbird','Little by Little','A Quick Peep','(Probably) All in the Mind','She Is Love','Born on a Different Cloud','Better Man'],
+        'dont-believe-the-truth': ['Turn Up the Sun','Mucky Fingers','Lyla','Love Like a Bomb','The Importance of Being Idle','The Meaning of Soul','Guess God Thinks I’m Abel','Part of the Queue','Keep the Dream Alive','A Bell Will Ring','Let There Be Love'],
+        'dig-out-your-soul': ['Bag It Up','The Turning','Waiting for the Rapture','The Shock of the Lightning','I’m Outta Time','(Get Off Your) High Horse Lady','Falling Down','To Be Where There’s Life','Ain’t Got Nothin’','The Nature of Reality','Soldier On']
+    };
+
+    function initTracklists() {
+        document.querySelectorAll('.story-album').forEach(item => {
+            const cover = item.querySelector('.story-cover');
+            const title = item.querySelector('h3');
+            const slug = cover && cover.dataset.album;
+            const tracks = slug && TRACKLISTS[slug];
+            if (!cover || !tracks) return;
+            const panel = document.createElement('div');
+            panel.className = 'story-tracks';
+            panel.id = 'tracks-' + slug;
+            panel.hidden = true;
+            panel.innerHTML = '<div class="story-tracks-head"><span>Tracklist</span><button type="button" aria-label="Chiudi tracklist">×</button></div>' +
+                '<p class="story-tracks-title">' + (title ? title.textContent : '') + '</p>' +
+                '<ol>' + tracks.map(t => '<li>' + t + '</li>').join('') + '</ol>';
+            item.appendChild(panel);
+            cover.setAttribute('role', 'button');
+            cover.setAttribute('tabindex', '0');
+            cover.setAttribute('aria-expanded', 'false');
+            cover.setAttribute('aria-controls', panel.id);
+            cover.setAttribute('title', 'Mostra la tracklist');
+            const setOpen = open => {
+                panel.hidden = !open;
+                item.classList.toggle('is-open', open);
+                cover.setAttribute('aria-expanded', String(open));
+                item.style.minHeight = open && window.innerWidth > 900 ? panel.offsetHeight + 'px' : '';
+            };
+            cover.addEventListener('click', () => setOpen(panel.hidden));
+            cover.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setOpen(panel.hidden); } });
+            panel.querySelector('button').addEventListener('click', () => { setOpen(false); cover.focus(); });
+        });
     }
 
     function initReveal() {
@@ -122,6 +168,6 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        initRail(); initMap(); initFilters(); initAlbums(); initReveal(); initCounters();
+        initRail(); initMap(); initFilters(); initAlbums(); initTracklists(); initReveal(); initCounters();
     });
 })();
