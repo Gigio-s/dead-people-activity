@@ -7,7 +7,7 @@ import html
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 
@@ -20,7 +20,7 @@ INDEXABLE = [
     "index.html", "mappa.html", "eventi.html", "festival.html", "the-wall.html",
     "articoli.html", "articolo-perche-nasce-dpa.html",
     "articolo-serata-autogestita.html", "articolo-autoprodurre-musica.html",
-    "contatti.html", "affiliazioni.html", "tour-oasis-live-27.html",
+    "contatti.html", "affiliazioni.html", "tour-oasis-live-27.html", "drunk.html",
 ]
 
 NOINDEX = {
@@ -158,6 +158,38 @@ def write_sitemap() -> None:
     (ROOT / "sitemap.xml").write_text(xml, encoding="utf-8")
 
 
+def write_drunk_events() -> None:
+    """Crea il catalogo mobile leggero usato da DPA Drunk Mode."""
+    source = ROOT / "assets" / "data" / "events.json"
+    destination = ROOT / "assets" / "data" / "drunk-events.json"
+    start = date.today()
+    end = start + timedelta(days=21)
+    fields = (
+        "id", "nome", "data", "ora", "citta", "locale", "lat", "lng",
+        "genere", "tipo", "prezzo", "gratuito", "biglietti_url", "promoter_url",
+    )
+    events = json.loads(source.read_text(encoding="utf-8"))
+    compact = []
+    for event in events:
+        try:
+            event_date = date.fromisoformat(str(event.get("data") or ""))
+            lat = float(event.get("lat"))
+            lng = float(event.get("lng"))
+        except (TypeError, ValueError):
+            continue
+        if not start <= event_date <= end:
+            continue
+        if not event.get("nome") or not event.get("citta"):
+            continue
+        item = {field: event.get(field) for field in fields}
+        item["lat"] = lat
+        item["lng"] = lng
+        compact.append(item)
+    compact.sort(key=lambda event: (event.get("data") or "", event.get("ora") or "", event.get("citta") or ""))
+    destination.write_text(json.dumps(compact, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"Catalogo Drunk Mode: {len(compact)} eventi, dal {start} al {end}.")
+
+
 def main() -> None:
     known = set(INDEXABLE) | NOINDEX
     unknown = sorted({path.name for path in ROOT.glob("*.html")} - known)
@@ -170,6 +202,7 @@ def main() -> None:
         for filename in sorted(INDEXABLE):
             update_html(ROOT / filename)
     (ROOT / "robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: https://deadpeopleactivity.com/sitemap.xml\n", encoding="utf-8")
+    write_drunk_events()
     write_sitemap()
     for filename in INDEXABLE:
         content = (ROOT / filename).read_text(encoding="utf-8")

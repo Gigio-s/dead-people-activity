@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>DPA Drunk Mode | Trova dove andare adesso</title>
+    <meta name="description" content="Dimmi dove sei e che musica vuoi: DPA trova gli eventi piu vicini, senza farti perdere tempo.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://deadpeopleactivity.com/drunk.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dead People Activity">
+    <meta property="og:title" content="DPA Drunk Mode | Trova dove andare adesso">
+    <meta property="og:description" content="Dimmi dove sei e che musica vuoi: DPA trova gli eventi piu vicini, senza farti perdere tempo.">
+    <meta property="og:url" content="https://deadpeopleactivity.com/drunk.html">
+    <meta property="og:image" content="https://deadpeopleactivity.com/assets/img/foto%20per%20sfondo%20index/sfondo%20index.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DPA Drunk Mode | Trova dove andare adesso">
+    <meta name="twitter:description" content="Posizione, genere e risultato. Trova velocemente dove andare stasera.">
+    <meta name="twitter:image" content="https://deadpeopleactivity.com/assets/img/foto%20per%20sfondo%20index/sfondo%20index.jpg">
+    <meta name="theme-color" content="#d7ff00">
+    <link rel="icon" type="image/png" href="assets/img/dpa%20no%20sfondo.png?v=2">
+    <link rel="stylesheet" href="assets/css/drunk.css?v=1">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"DPA Drunk Mode","url":"https://deadpeopleactivity.com/drunk.html","description":"Strumento mobile per trovare eventi musicali vicini in base alla posizione e al genere.","applicationCategory":"EntertainmentApplication","operatingSystem":"Any","isAccessibleForFree":true,"publisher":{"@type":"Organization","name":"Dead People Activity","url":"https://deadpeopleactivity.com/"}}</script>
+</head>
+<body class="drunk-page">
+    <header class="drunk-header">
+        <a href="index.html" class="drunk-logo" aria-label="Dead People Activity">DEAD PEOPLE <span>ACTIVITY</span></a>
+        <a href="index.html" class="drunk-exit" data-t="exit">ESCI</a>
+    </header>
+
+    <main class="drunk-app" id="drunkApp">
+        <section class="drunk-screen is-active" data-screen="intro" aria-labelledby="drunkTitle">
+            <p class="drunk-kicker">DPA DRUNK MODE</p>
+            <h1 id="drunkTitle" data-t="intro_title">SEI UBRIACO?</h1>
+            <p class="drunk-lead" data-t="intro_text">Perfetto. Niente mappe impossibili: tre tocchi e ti diciamo dove andare.</p>
+            <button class="drunk-main-button" type="button" data-action="start" data-t="start">CI SONO</button>
+            <p class="drunk-small" data-t="safety">Non guidare. Se devi spostarti, usa i mezzi, cammina o chiama qualcuno.</p>
+        </section>
+
+        <section class="drunk-screen" data-screen="location" aria-labelledby="locationTitle">
+            <p class="drunk-step" data-t="step_1">1 DI 2</p>
+            <h2 id="locationTitle" data-t="where">DOVE CAZZO SEI?</h2>
+            <button class="drunk-choice drunk-choice-location" type="button" data-action="locate">
+                <span aria-hidden="true">◎</span>
+                <strong data-t="use_location">USA LA MIA POSIZIONE</strong>
+                <small data-t="location_note">Resta sul tuo telefono. Non la salviamo.</small>
+            </button>
+            <div class="drunk-or" data-t="or">OPPURE</div>
+            <form id="cityForm" class="drunk-city-form">
+                <label for="cityInput" data-t="city_label">SCRIVI LA CITTÀ</label>
+                <input id="cityInput" name="city" list="cityList" autocomplete="off" placeholder="Barcelona, Milano, Vicenza..." data-t-placeholder="city_placeholder">
+                <datalist id="cityList"></datalist>
+                <button type="submit" class="drunk-secondary-button" data-t="continue">CONTINUA</button>
+            </form>
+            <p class="drunk-feedback" id="locationFeedback" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="drunk-screen" data-screen="genre" aria-labelledby="genreTitle">
+            <p class="drunk-step" data-t="step_2">2 DI 2</p>
+            <h2 id="genreTitle" data-t="what">CHE VUOI SENTIRE?</h2>
+            <div class="drunk-genres" id="genreChoices">
+                <button type="button" data-genre="all"><span>★</span><strong data-t="genre_any">QUALSIASI COSA</strong></button>
+                <button type="button" data-genre="rock"><span>⚡</span><strong>ROCK</strong></button>
+                <button type="button" data-genre="punk"><span>✹</span><strong>PUNK</strong></button>
+                <button type="button" data-genre="metal"><span>⛓</span><strong>METAL</strong></button>
+                <button type="button" data-genre="electronic"><span>⌁</span><strong data-t="genre_electronic">ELETTRONICA</strong></button>
+                <button type="button" data-genre="rap"><span>◉</span><strong>RAP / HIP-HOP</strong></button>
+                <button type="button" data-genre="indie"><span>◇</span><strong>INDIE / ALT</strong></button>
+            </div>
+            <button class="drunk-back" type="button" data-action="back-location" data-t="back">← INDIETRO</button>
+        </section>
+
+        <section class="drunk-screen drunk-results-screen" data-screen="results" aria-labelledby="resultsTitle">
+            <div class="drunk-results-head">
+                <div>
+                    <p class="drunk-kicker" data-t="mission">LA TUA MISSIONE</p>
+                    <h2 id="resultsTitle" data-t="results">VAI QUI.</h2>
+                </div>
+                <button class="drunk-restart" type="button" data-action="restart" data-t="change">CAMBIA</button>
+            </div>
+            <p class="drunk-summary" id="resultsSummary"></p>
+            <div class="drunk-results" id="drunkResults" aria-live="polite"></div>
+            <p class="drunk-disclaimer" data-t="verify">Orari e disponibilità possono cambiare. Controlla sempre il link ufficiale prima di partire.</p>
+        </section>
+
+        <section class="drunk-screen" data-screen="error" aria-labelledby="errorTitle">
+            <p class="drunk-kicker">OPS.</p>
+            <h2 id="errorTitle" data-t="error_title">NON TROVO NIENTE.</h2>
+            <p class="drunk-lead" id="errorMessage" data-t="error_text">Prova un altro genere o una città vicina.</p>
+            <button class="drunk-main-button" type="button" data-action="restart" data-t="try_again">RIPROVA</button>
+        </section>
+    </main>
+
+    <noscript>Questa modalità richiede JavaScript per cercare gli eventi vicini.</noscript>
+    <script src="assets/js/drunk.js?v=1"></script>
+</body>
+</html>

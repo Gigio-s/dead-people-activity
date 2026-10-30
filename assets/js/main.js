@@ -449,6 +449,44 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const injectLangToggle = () => {};
 
+    // Accesso rapido alla modalita' mobile semplificata DPA Drunk.
+    function injectDrunkModeEntry() {
+        if (document.querySelector('.drunk-mode-fab')) return;
+        if (!document.getElementById('drunk-mode-entry-style')) {
+            const style = document.createElement('style');
+            style.id = 'drunk-mode-entry-style';
+            style.textContent = '.drunk-mode-fab{position:fixed;left:16px;bottom:18px;z-index:940;display:grid;grid-template-columns:38px auto;grid-template-rows:auto auto;align-items:center;max-width:230px;min-height:60px;padding:8px 13px 8px 9px;border:3px solid #fff;background:#d7ff00;box-shadow:5px 5px 0 #ff2a2a;color:#000;font-family:var(--font-punk-body);text-decoration:none;transform:rotate(-1.5deg)}.drunk-mode-fab>span{grid-row:1/3;font-family:var(--font-punk-headers);font-size:2rem;line-height:1}.drunk-mode-fab strong{font-family:var(--font-punk-headers);font-size:.95rem;line-height:1}.drunk-mode-fab small{font-size:.64rem;line-height:1.1}.drunk-mode-fab:hover,.drunk-mode-fab:focus-visible{color:#000;transform:rotate(0) scale(1.03)}@media(max-width:700px){.drunk-mode-fab{left:8px;bottom:12px;min-height:54px;max-width:190px}.drunk-mode-fab strong{font-size:.8rem}.drunk-mode-fab small{display:none}}';
+            document.head.appendChild(style);
+        }
+        const labels = {
+            it: ['SEI UBRIACO?', 'Ti diciamo dove andare'],
+            en: ['ARE YOU DRUNK?', 'We tell you where to go'],
+            es: ['¿ESTÁS BORRACHO?', 'Te decimos adónde ir'],
+            ca: ['VAS PET?', 'Et diem on anar'],
+            de: ['BETRUNKEN?', 'Wir sagen dir, wohin'],
+            fr: ['TU ES BOURRÉ ?', 'On te dit où aller']
+        };
+        const getEntryLang = () => window.DPA_I18N ? window.DPA_I18N.getLanguage() :
+            ((localStorage.getItem('dpa_lang') || document.documentElement.lang || 'it').slice(0, 2));
+        const mainScript = document.querySelector('script[src*="assets/js/main.js"]');
+        const target = mainScript ? new URL('../../drunk.html', mainScript.src) : new URL('drunk.html', location.href);
+        const link = document.createElement('a');
+        link.className = 'drunk-mode-fab';
+        link.innerHTML = '<span aria-hidden="true">?</span><strong></strong><small></small>';
+        const update = () => {
+            const lang = getEntryLang();
+            const copy = labels[lang] || labels.it;
+            target.search = lang === 'it' ? '' : '?lang=' + encodeURIComponent(lang);
+            link.href = target.href;
+            link.querySelector('strong').textContent = copy[0];
+            link.querySelector('small').textContent = copy[1];
+            link.setAttribute('aria-label', copy.join(' - '));
+        };
+        update();
+        document.addEventListener('dpa:languagechange', update);
+        document.body.appendChild(link);
+    }
+
     // Chiude tutte le tendine aperte
     const closeAllDropdowns = () => {
         document.querySelectorAll('.nav-item.has-dropdown.open').forEach(item => {
@@ -642,5 +680,6 @@ document.addEventListener('DOMContentLoaded', () => {
     injectGlobalChatbot();
     injectGlobalCart();
     injectBackToTop();
+    injectDrunkModeEntry();
     if (window.DPA_I18N) window.DPA_I18N.init();
 });

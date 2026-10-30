@@ -153,7 +153,7 @@ if not "%DPA_CAN_PUBLISH%"=="1" goto :solo_locale
 call :fase "PUBBLICAZIONE GITHUB"
 REM Non usare "git add -A": includerebbe Oasis, store o altri lavori in corso.
 REM Questi sono gli unici output pubblici generati dall'aggiornamento eventi.
-git -C "%~dp0.." add -A -- "assets/data/events.json" "assets/data/events_archivio.json" "assets/data/seo_local_manifest.json" "assets/js/events-data.js" "robots.txt" "sitemap.xml" "ca" "de" "en" "es" "fr" "it"
+git -C "%~dp0.." add -A -- "assets/data/events.json" "assets/data/events_archivio.json" "assets/data/drunk-events.json" "assets/data/seo_local_manifest.json" "assets/js/events-data.js" "robots.txt" "sitemap.xml" "ca" "de" "en" "es" "fr" "it"
 if errorlevel 1 goto :errore_pubblicazione
 git -C "%~dp0.." diff --cached --quiet
 if errorlevel 1 (
