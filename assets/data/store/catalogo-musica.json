@@ -974,37 +974,6 @@
     "copie": 1
   },
   {
-    "id": 140,
-    "cat": "musica",
-    "name": "Get A Grip",
-    "desc": "CD Album Stereo · Rock, Hard Rock\nCodice edizione: GEFD2-4444\nNazione di provenienza: Europe",
-    "price": 5,
-    "condition": "Very Good Plus (VG+)",
-    "sold": false,
-    "isNew": false,
-    "emoji": "",
-    "bg": null,
-    "ebay": "",
-    "model": null,
-    "modelCredit": null,
-    "modelCreditUrl": null,
-    "photos": [
-      "assets/img/store/Get%20A%20Grip%20--%2053920d467763/discogs-29421286-cover-945025c032d64e41.webp",
-      "assets/img/store/Get%20A%20Grip%20--%2053920d467763/discogs-29421286-cover-e0b9281f1638916d.webp",
-      "assets/img/store/Get%20A%20Grip%20--%2053920d467763/discogs-29421286-cover-c3ffbef2b2b58d34.webp"
-    ],
-    "subcat": "CD Album Stereo",
-    "artist": "Aerosmith",
-    "label": "Geffen Records, Universal",
-    "year": "1998",
-    "discogsId": "29421286",
-    "genres": [
-      "Rock",
-      "Hard Rock"
-    ],
-    "copie": 1
-  },
-  {
     "id": 139,
     "cat": "musica",
     "name": "Get A Grip",
