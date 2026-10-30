@@ -164,6 +164,7 @@
     }
 
     function renderResults() {
+        if (window.DPA_PWA) window.DPA_PWA.track('drunk_search');
         show('results');
         $('#drunkResults').innerHTML = '<p>' + esc(t('loading')) + '</p>';
         requestAnimationFrame(() => {

@@ -25,7 +25,7 @@ INDEXABLE = [
 
 NOINDEX = {
     "apparire.html", "archivio.html", "buried.html", "collaboratori.html",
-    "checkout.html", "coming-soon.html", "diy.html", "mappa-full.html",
+    "checkout.html", "coming-soon.html", "diy.html", "mappa-full.html", "offline.html",
     "privacy.html", "store.html",
 }
 

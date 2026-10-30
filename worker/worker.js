@@ -105,6 +105,49 @@ function isAdmin(request, env, url){
   return bearer === env.ADMIN_API_TOKEN || url.searchParams.get('token') === env.ADMIN_API_TOKEN;
 }
 
+const PWA_METRIC_EVENTS = new Set([
+  'install_prompt_available', 'install_button_clicked', 'install_accepted',
+  'install_dismissed', 'appinstalled', 'ios_instructions',
+  'first_standalone_launch', 'ios_first_standalone_launch',
+  'pwa_launch', 'drunk_search'
+]);
+
+async function ensurePwaMetricsTable(env){
+  if (!env.INVENTORY_DB) throw new Error('Inventario D1 non configurato');
+  await env.INVENTORY_DB.prepare(
+    `CREATE TABLE IF NOT EXISTS pwa_metrics (
+      day TEXT NOT NULL,
+      event TEXT NOT NULL,
+      platform TEXT NOT NULL,
+      count INTEGER NOT NULL DEFAULT 0,
+      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (day,event,platform)
+    )`
+  ).run();
+}
+
+async function recordPwaMetric(env, body){
+  const event = String(body && body.event || '');
+  const platform = ['ios','android','desktop'].includes(String(body && body.platform))
+    ? String(body.platform) : 'desktop';
+  if (!PWA_METRIC_EVENTS.has(event)) throw new Error('metrica non valida');
+  await ensurePwaMetricsTable(env);
+  const day = new Date().toISOString().slice(0, 10);
+  await env.INVENTORY_DB.prepare(
+    `INSERT INTO pwa_metrics(day,event,platform,count,updated_at) VALUES(?,?,?,?,CURRENT_TIMESTAMP)
+     ON CONFLICT(day,event,platform) DO UPDATE SET count=count+1,updated_at=CURRENT_TIMESTAMP`
+  ).bind(day, event, platform, 1).run();
+  return { recorded: true };
+}
+
+async function listPwaMetrics(env){
+  await ensurePwaMetricsTable(env);
+  return await env.INVENTORY_DB.prepare(
+    `SELECT day,event,platform,count FROM pwa_metrics
+     WHERE day >= date('now','-90 day') ORDER BY day DESC,event,platform`
+  ).all();
+}
+
 async function d1Product(env, id){
   if (!env.INVENTORY_DB) return null;
   return await env.INVENTORY_DB.prepare(
@@ -511,6 +554,16 @@ export default {
       }
     }
 
+    if (request.method === 'GET' && url.pathname === '/admin/pwa-metrics') {
+      if (!isAdmin(request, env, url)) return json({ error: 'non autorizzato' }, 401, origin);
+      try {
+        const metrics = await listPwaMetrics(env);
+        return json({ metrics: metrics.results || [] }, 200, origin);
+      } catch (e) {
+        return json({ error: String(e && e.message || e) }, 503, origin);
+      }
+    }
+
     if (request.method !== 'POST')
       return json({ error: 'method' }, 405, origin);
 
@@ -518,6 +571,9 @@ export default {
     try { body = await request.json(); } catch(e){ return json({ error: 'bad json' }, 400, origin); }
 
     try {
+      if (url.pathname === '/pwa-metric') {
+        return json(await recordPwaMetric(env, body), 202, origin);
+      }
       if (url.pathname === '/admin/sync-products') {
         if (!isAdmin(request, env, url)) return json({ error: 'non autorizzato' }, 401, origin);
         const synced = await syncProducts(env, body.products);
