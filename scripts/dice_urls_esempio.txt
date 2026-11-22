@@ -1,0 +1,5 @@
+# Inserisci un URL evento Dice per riga, poi esegui:
+# python dice.py --import-file dice_urls_esempio.txt
+#
+# Esempio di formato (sostituisci con un link vero):
+# https://dice.fm/event/...

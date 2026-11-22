@@ -38,6 +38,8 @@ USO:
   python dice.py                 # raccoglie da tutte le citta' UE -> coda
   python dice.py --show          # mostra gli eventi Dice in coda
   python dice.py --approva       # pubblica tutti i Dice in coda
+  python dice.py --import-url URL [URL ...]       # importa link evento singoli
+  python dice.py --import-file dice_urls.txt      # importa un link per riga
 
   Variabili facoltative (in config.bat):
     set DICE_CITTA=Barcelona,Berlin,Milano   (limita a certe citta')
@@ -54,6 +56,7 @@ import sys
 import time
 import unicodedata
 import urllib.request
+import urllib.error
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "coordinate eventi"))
 import ingest  # riusa normalizza(), geocoding, coda, dedup, pubblicazione
@@ -68,6 +71,13 @@ EU_CC = {"GB", "IE", "ES", "PT", "FR", "IT", "DE", "NL", "BE", "LU", "AT", "CH",
 
 # Tipi di evento musicale su Dice -> nostra etichetta "tipo"
 TIPI = {"gig": "concerto", "dj": "dj-set", "party": "party"}
+
+EXIT_OK = 0
+EXIT_UNAVAILABLE = 2
+
+
+class DiceUnavailable(RuntimeError):
+    """Dice non e' raggiungibile senza autenticazione o ha cambiato struttura."""
 
 
 def _get(url):
@@ -86,9 +96,14 @@ def citta_europee():
     lista di dict: {name, cc, slug, lat, lng}."""
     try:
         j = json.loads(_get("https://api.dice.fm/cities"))
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403, 429):
+            raise DiceUnavailable(f"endpoint citta' bloccato: HTTP {e.code}") from e
+        raise DiceUnavailable(f"endpoint citta' non raggiungibile: HTTP {e.code}") from e
     except Exception as e:
-        print("  ! Dice: non riesco a leggere la lista citta':", e)
-        return []
+        raise DiceUnavailable(f"impossibile leggere la lista citta': {e}") from e
+    if not isinstance(j, list):
+        raise DiceUnavailable("risposta lista citta' in formato inatteso")
     out = []
     for c in j:
         cc = (c.get("country_code") or c.get("country_id") or "").upper()
@@ -222,10 +237,16 @@ def raccogli_dice():
 
 def run():
     print(">> Raccolta da Dice.fm (pagine citta' pubbliche, senza chiave)...")
-    grezzi = raccogli_dice()
+    try:
+        grezzi = raccogli_dice()
+    except DiceUnavailable as e:
+        print("  ! DICE NON DISPONIBILE:", e)
+        print("  ! Gli eventi Dice gia' pubblicati restano invariati.")
+        print("--- Dice saltato; le altre fonti possono continuare. ---")
+        return EXIT_UNAVAILABLE
     if not grezzi:
-        print("--- Nessun evento da Dice (fonte non raggiungibile o struttura cambiata). ---")
-        return
+        print("--- Dice raggiungibile, ma nessun nuovo evento trovato. ---")
+        return EXIT_OK
 
     print(">> Normalizzazione + geocoding (solo dove mancano le coordinate)...")
     cache = ingest._load_json(ingest.GEOCACHE, {})
@@ -250,6 +271,72 @@ def run():
     print("   RICORDA: Dice non porta il genere. Rivedi e pubblica:")
     print("     python dice.py --show      (vedi i Dice in coda)")
     print("     python dice.py --approva   (pubblica i Dice gia classificati)")
+    return EXIT_OK
+
+
+def _trova_evento(value):
+    """Trova il blocco evento dentro il JSON Next.js di una pagina pubblica."""
+    if isinstance(value, dict):
+        if (value.get("name") and (value.get("dates") or value.get("date"))
+                and (value.get("venues") or value.get("venue"))):
+            return value
+        for child in value.values():
+            found = _trova_evento(child)
+            if found:
+                return found
+    elif isinstance(value, list):
+        for child in value:
+            found = _trova_evento(child)
+            if found:
+                return found
+    return None
+
+
+def importa_url(urls):
+    """Importa in coda singole pagine evento Dice indicate manualmente."""
+    if not urls:
+        print("Nessun URL Dice indicato.")
+        return 1
+    validi = []
+    errori = 0
+    for url in urls:
+        url = str(url or "").strip()
+        if not re.match(r"^https://(www\.)?dice\.fm/event/", url, re.I):
+            print("  ! URL Dice non valido:", url)
+            errori += 1
+            continue
+        try:
+            payload = _next_data(_get(url))
+            evento = _trova_evento(payload) if payload else None
+            if not evento:
+                raise DiceUnavailable("dati evento non trovati nella pagina")
+            raw = _parse_evento(evento, "concerto", {})
+            raw["biglietti_url"] = url
+            validi.append(raw)
+            print("  + letto:", raw.get("nome") or url)
+        except Exception as e:
+            print("  ! impossibile importare", url, "-", e)
+            errori += 1
+
+    if validi:
+        cache = ingest._load_json(ingest.GEOCACHE, {})
+        puliti = [ingest.normalizza(r, "dice", cache) for r in validi]
+        ingest._save_json(ingest.GEOCACHE, cache)
+        pending = ingest._load_json(ingest.PENDING_JSON, [])
+        pubblicati = ingest._load_json(ingest.EVENTS_JSON, [])
+        nuovi = ingest.nuovi_per_coda(puliti, pending, pubblicati)
+        pending += nuovi
+        ingest._save_json(ingest.PENDING_JSON, pending)
+        print("Eventi Dice aggiunti alla coda:", len(nuovi))
+        print("Controllali con: python dice.py --show")
+    if errori and not validi:
+        return EXIT_UNAVAILABLE
+    return EXIT_OK
+
+
+def leggi_url_file(path):
+    with open(path, "r", encoding="utf-8-sig") as f:
+        return [riga.strip() for riga in f if riga.strip() and not riga.lstrip().startswith("#")]
 
 
 def mostra():
@@ -286,5 +373,14 @@ if __name__ == "__main__":
         approva_classificati()
     elif "--show" in sys.argv:
         mostra()
+    elif "--import-url" in sys.argv:
+        pos = sys.argv.index("--import-url")
+        sys.exit(importa_url(sys.argv[pos + 1:]))
+    elif "--import-file" in sys.argv:
+        pos = sys.argv.index("--import-file")
+        if pos + 1 >= len(sys.argv):
+            print("Manca il percorso del file con gli URL Dice.")
+            sys.exit(1)
+        sys.exit(importa_url(leggi_url_file(sys.argv[pos + 1])))
     else:
-        run()
+        sys.exit(run())

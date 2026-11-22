@@ -17,6 +17,7 @@ if not exist "%~dp0logs" mkdir "%~dp0logs"
 set "DPA_LOG=%~dp0logs\aggiornamento_eventi.log"
 set "DPA_STEP=avvio"
 set "DPA_CAN_PUBLISH=1"
+set "DPA_WARNINGS="
 >>"%DPA_LOG%" echo.
 >>"%DPA_LOG%" echo ============================================================
 >>"%DPA_LOG%" echo [%date% %time%] NUOVO AGGIORNAMENTO
@@ -105,12 +106,22 @@ if errorlevel 1 goto :errore
 
 call :fase "DICE.FM"
 %DPA_PYTHON% dice.py
+if errorlevel 3 goto :errore
+if errorlevel 2 goto :dice_non_disponibile
 if errorlevel 1 goto :errore
 REM Massimo 400 artisti nuovi per esecuzione: ~7 minuti normalmente, mai piu ore.
 %DPA_PYTHON% arricchisci_genere.py --max 400
 if errorlevel 1 goto :errore
 %DPA_PYTHON% dice.py --approva
 if errorlevel 1 goto :errore
+goto :dice_fine
+
+:dice_non_disponibile
+set "DPA_WARNINGS=1"
+echo AVVISO: Dice non disponibile. Le altre fonti continuano e gli eventi Dice esistenti restano online.
+>>"%DPA_LOG%" echo [%date% %time%] AVVISO: Dice non disponibile; fonte saltata.
+
+:dice_fine
 
 call :fase "SKIDDLE"
 %DPA_PYTHON% skiddle.py
@@ -165,7 +176,13 @@ if errorlevel 1 (
 git -C "%~dp0.." push
 if errorlevel 1 goto :errore_pubblicazione
 
-echo [%date% %time%] FATTO.
+if defined DPA_WARNINGS (
+    echo [%date% %time%] COMPLETATO CON AVVISI.
+    echo Controlla le righe AVVISO nel log: "%DPA_LOG%"
+    >>"%DPA_LOG%" echo [%date% %time%] COMPLETATO CON AVVISI.
+) else (
+    echo [%date% %time%] FATTO.
+)
 
 REM Se lanciato a mano (doppio click) mostra la pausa; se schedulato (arg "auto") no.
 if not "%1"=="auto" pause
@@ -173,7 +190,12 @@ exit /b 0
 
 :solo_locale
 echo.
-echo [%date% %time%] DATI AGGIORNATI CORRETTAMENTE IN LOCALE.
+if defined DPA_WARNINGS (
+    echo [%date% %time%] DATI AGGIORNATI IN LOCALE CON AVVISI.
+    >>"%DPA_LOG%" echo [%date% %time%] COMPLETATO IN LOCALE CON AVVISI.
+) else (
+    echo [%date% %time%] DATI AGGIORNATI CORRETTAMENTE IN LOCALE.
+)
 echo Pubblicazione GitHub saltata per proteggere le modifiche gia presenti.
 echo Il dettaglio e in: "%DPA_LOG%"
 >>"%DPA_LOG%" echo [%date% %time%] FATTO IN LOCALE - push saltato.
