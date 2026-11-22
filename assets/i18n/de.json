@@ -651,5 +651,21 @@
   "p2.270": "Rock-, Punk-, Metal-, Rap-, Techno- und Elektronik-Festivals, ausgewählt in ganz Europa.",
   "p2.271": "Konzerte, DJ-Sets, Showcases, unabhängige Nächte und DIY-Events aus Europas Underground-Szenen.",
   "p2.272": "Weitere Events anzeigen",
-  "p2.273": "Die Wand der Community: pinn deinen Zettel an, such Musiker, Nächte, Tauschgeschäfte und meld Projekte. Rock, Hip-Hop, Techno. Underground und DIY."
+  "p2.273": "Die Wand der Community: pinn deinen Zettel an, such Musiker, Nächte, Tauschgeschäfte und meld Projekte. Rock, Hip-Hop, Techno. Underground und DIY.",
+  "oasis.stop": "Stopp",
+  "oasis.rescheduled": "verschoben",
+  "oasis.map_status": "{dates} Termine · {cities} Städte",
+  "oasis.rail_dates": "{count} Termine · {venue}",
+  "oasis.tracklist": "Tracklist",
+  "oasis.close_tracklist": "Tracklist schließen",
+  "oasis.show_tracklist": "Tracklist anzeigen",
+  "oasis.country.scotland": "Schottland",
+  "oasis.country.england": "England",
+  "oasis.country.germany": "Deutschland",
+  "oasis.country.spain": "Spanien",
+  "oasis.country.netherlands": "Niederlande",
+  "oasis.country.france": "Frankreich",
+  "oasis.country.italy": "Italien",
+  "oasis.country.usa": "USA",
+  "oasis.country.ireland": "Irland"
 }

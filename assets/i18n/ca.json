@@ -651,5 +651,21 @@
   "p2.270": "Festivals de rock, punk, metal, rap, techno i electrònica seleccionats per tota Europa.",
   "p2.271": "Concerts, DJ sets, showcases, nits independents i cites DIY de les escenes underground europees.",
   "p2.272": "Mostra més esdeveniments",
-  "p2.273": "El mur de la comunitat: enganxa el teu post-it, busca músics, nits, intercanvis i avisa de projectes. Rock, hip-hop, techno. Underground i DIY."
+  "p2.273": "El mur de la comunitat: enganxa el teu post-it, busca músics, nits, intercanvis i avisa de projectes. Rock, hip-hop, techno. Underground i DIY.",
+  "oasis.stop": "Parada",
+  "oasis.rescheduled": "reprogramada",
+  "oasis.map_status": "{dates} dates · {cities} ciutats",
+  "oasis.rail_dates": "{count} dates · {venue}",
+  "oasis.tracklist": "Repertori",
+  "oasis.close_tracklist": "Tanca el repertori",
+  "oasis.show_tracklist": "Mostra el repertori",
+  "oasis.country.scotland": "Escòcia",
+  "oasis.country.england": "Anglaterra",
+  "oasis.country.germany": "Alemanya",
+  "oasis.country.spain": "Espanya",
+  "oasis.country.netherlands": "Països Baixos",
+  "oasis.country.france": "França",
+  "oasis.country.italy": "Itàlia",
+  "oasis.country.usa": "EUA",
+  "oasis.country.ireland": "Irlanda"
 }
