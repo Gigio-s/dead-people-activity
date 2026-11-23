@@ -1,6 +1,6 @@
-const STATIC_CACHE = 'dpa-static-v1';
-const RUNTIME_CACHE = 'dpa-runtime-v1';
-const EVENT_CACHE = 'dpa-events-v1';
+const STATIC_CACHE = 'dpa-static-v2';
+const RUNTIME_CACHE = 'dpa-runtime-v2';
+const EVENT_CACHE = 'dpa-events-v2';
 
 const APP_SHELL = [
   '/',
@@ -47,7 +47,9 @@ async function networkFirst(request, cacheName, fallbackUrl) {
 
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(RUNTIME_CACHE);
-  const cached = await cache.match(request, { ignoreSearch: true });
+  // Per CSS e JavaScript la query string identifica la versione del file.
+  // Non ignorarla: altrimenti mappa.js?v=20 potrebbe ricevere ancora v=16.
+  const cached = await cache.match(request);
   const update = fetch(request).then(response => {
     if (response && response.ok) cache.put(request, response.clone());
     return response;

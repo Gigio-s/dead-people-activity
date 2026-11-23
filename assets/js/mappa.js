@@ -13,7 +13,7 @@
 
     var ALL = [];
     var map, cluster, countriesLayer = null, bordersOk = false;
-    var level = "europa";              // europa | paese | zona
+    var level = "europa";              // europa | paese | dettaglio | zona
     var country = "", city = "";
     var cityCenters = {};              // "Paese|Citta" -> {lat,lng}
     var countryBounds = {};            // "PaeseIT" -> L.LatLngBounds
@@ -248,6 +248,35 @@
                 return L.divIcon({ html: '<div class="dpa-cluster">' + c.getChildCount() + "</div>", className: "dpa-cluster-wrap", iconSize: [40, 40] });
             }
         });
+        // Un click su un gruppo di marker porta visivamente dentro una regione/citta'.
+        // MarkerCluster esegue lo zoom da solo: qui registriamo il nuovo livello
+        // affinche' Indietro torni prima al paese e soltanto dopo all'Europa.
+        cluster.on("clusterclick", function (event) {
+            var markers = event && event.layer && event.layer.getAllChildMarkers
+                ? event.layer.getAllChildMarkers() : [];
+            var counts = {};
+            markers.forEach(function (marker) {
+                var ev = marker._dpaEvent;
+                if (ev && ev.paese) counts[ev.paese] = (counts[ev.paese] || 0) + 1;
+            });
+            var clickedCountry = Object.keys(counts).sort(function (a, b) {
+                return counts[b] - counts[a];
+            })[0];
+            if (!clickedCountry) return;
+
+            // Il gruppo determina sempre la gerarchia geografica, qualunque fosse
+            // la vista di partenza (paese, ricerca, vicino a te o filtri globali).
+            country = clickedCountry;
+            city = "";
+            level = "dettaglio";
+            focusedEvent = false;
+            setSel("f-paese", country);
+            updateCittaOptions(country);
+            setSel("f-citta", "");
+            updateZonaControls();
+            updateBreadcrumb();
+            renderList();
+        });
     }
 
     function loadBorders() {
@@ -423,6 +452,7 @@
         if (level === "search") return searchResults;
         if (level === "vicino") return nearEvents();
         if (level === "zona") return zonaEvents();
+        if (level === "dettaglio") return importanceSort(countryEvents());
         if (level === "paese") return importanceSort(countryEvents());
         // europa: eventi in evidenza (sponsorizzati / prossimi) tra i filtri base
         return importanceSort(applyBaseFilters(ALL)).slice(0, 12);
@@ -443,6 +473,9 @@
         if (ev.sponsorizzato) cls += " spon";
         var icon = L.divIcon({ className: "dpa-pin-wrap", html: '<span class="' + cls + '"></span>', iconSize: [22, 22], iconAnchor: [11, 11] });
         var m = L.marker([ev.lat, ev.lng], { icon: icon });
+        // Conserva il riferimento geografico sul marker: serve a capire il
+        // paese di un cluster quando l'utente entra in una zona della mappa.
+        m._dpaEvent = ev;
         m.bindPopup(popupHtml(ev), { className: "dpa-popup", minWidth: 210 });
         m.on("popupopen", function (e) {
             // Aggancia il click SOLO al bottone del popup appena aperto (non al primo del DOM)
@@ -498,11 +531,21 @@
     function goNearMe() {
         if (!userPos) return;
         level = "vicino"; country = ""; city = ""; focusedEvent = false;
-        setSel("f-paese", ""); setSel("f-citta", "");
         clearCircle(); removeFallbackPins();
         if (bordersOk && countriesLayer && map.hasLayer(countriesLayer)) map.removeLayer(countriesLayer);
         if (!map.hasLayer(cluster)) map.addLayer(cluster);
         var evs = nearEvents();
+        // La modalita' "Vicino a te" deve conservare il livello geografico:
+        // ricaviamo il paese dall'evento realmente piu' vicino. In questo modo
+        // Indietro segue Vicino a te -> Paese -> Europa.
+        if (evs.length && evs[0].paese) {
+            country = evs[0].paese;
+            setSel("f-paese", country);
+            updateCittaOptions(country);
+        } else {
+            setSel("f-paese", "");
+        }
+        setSel("f-citta", "");
         drawMarkers(evs);
         var vp = ptsOf(evs);
         if (vp.length) map.flyToBounds(vp, { maxZoom: 11, padding: [40, 40] });
@@ -539,7 +582,7 @@
         var hint = document.getElementById("listHint");
         var title = document.getElementById("listTitle");
         if (level === "zona") { if (title) title.textContent = tr("map.near_city", "Vicino a {city}", { city: city }); if (hint) hint.textContent = radiusKm() > 0 ? tr("map.within_km", "entro {km} km", { km: radiusKm() }) : tr("map.in_city", "in città"); }
-        else if (level === "paese") { if (title) title.textContent = tr("map.main_events", "Eventi principali"); if (hint) hint.textContent = displayCountry(country); }
+        else if (level === "paese" || level === "dettaglio") { if (title) title.textContent = tr("map.main_events", "Eventi principali"); if (hint) hint.textContent = displayCountry(country); }
         else if (level === "search") { if (title) title.textContent = tr("map.results", "Risultati"); if (hint) hint.textContent = (val("q-search") || ""); }
         else if (level === "vicino") { if (title) title.textContent = tr("map.near_you", "Vicino a te"); if (hint) hint.textContent = tr("map.nearest", "eventi più vicini a te"); }
         else { if (title) title.textContent = tr("map.featured", "In evidenza"); if (hint) hint.textContent = tr("map.choose_country", "scegli un paese sulla mappa"); }
@@ -586,8 +629,8 @@
         var bc = document.getElementById("breadcrumb");
         if (!bc) return;
         var html = '<button class="crumb crumb-root" data-level="europa">' + tr("map.europe", "Europa") + '</button>';
-        if (level === "vicino") html += '<span class="crumb-sep">/</span><button class="crumb" data-level="vicino">' + tr("map.near_you", "Vicino a te") + '</button>';
         if (country) html += '<span class="crumb-sep">/</span><button class="crumb" data-level="paese">' + esc(displayCountry(country)) + "</button>";
+        if (level === "vicino") html += '<span class="crumb-sep">/</span><button class="crumb" data-level="vicino">' + tr("map.near_you", "Vicino a te") + '</button>';
         if (city) html += '<span class="crumb-sep">/</span><button class="crumb" data-level="zona">' + esc(city) + "</button>";
         bc.innerHTML = html;
         bc.querySelectorAll(".crumb").forEach(function (c) {
@@ -608,11 +651,11 @@
         if (level === "europa" && !focusedEvent) { bb.style.display = "none"; return; }
         bb.style.display = "block";
         var label;
-        if (focusedEvent) label = (level === "zona" ? city : (level === "paese" ? country : tr("map.europe", "Europa")));
-        else label = (level === "zona" ? country : tr("map.europe", "Europa"));
+        if (focusedEvent) label = (level === "zona" ? city : (country ? displayCountry(country) : tr("map.europe", "Europa")));
+        else label = ((level === "zona" || level === "dettaglio" || level === "vicino") && country ? displayCountry(country) : tr("map.europe", "Europa"));
         bb.innerHTML = "&larr; " + esc(label);
     }
-    // Sale di un livello: evento aperto (zoom) -> nazione/zona -> Europa
+    // Sale di un livello: evento -> dettaglio/citta' -> paese -> Europa
     function goBack() {
         if (focusedEvent) {
             focusedEvent = false;
@@ -620,6 +663,9 @@
             if (level === "zona") {
                 if (searchCircle) { try { map.flyToBounds(searchCircle.getBounds(), { padding: [40, 40] }); } catch (e) {} }
                 else selectCity(city);
+            } else if (level === "dettaglio" || level === "vicino") {
+                // La scheda si chiude mantenendo lo zoom corrente. Un secondo
+                // click su Indietro riportera' alla vista completa del paese.
             } else if (level === "paese") {
                 if (countryBounds[country]) map.flyToBounds(countryBounds[country], { maxZoom: 7, padding: [30, 30] });
             } else {
@@ -628,7 +674,7 @@
             updateBackButton();
             return;
         }
-        if (level === "zona") selectCountry(country, countryBounds[country]);
+        if ((level === "zona" || level === "dettaglio" || level === "vicino") && country) selectCountry(country, countryBounds[country]);
         else goEurope();
     }
 
@@ -662,9 +708,13 @@
     // riporta: evento -> nazione -> Europa.
     function focusEvent(ev, doZoom) {
         if (!ev) return;
-        if (level === "europa" && ev.paese) {
+        if ((level === "europa" || level === "search") && ev.paese) {
             // entra nella nazione (con o senza confini: selectCountry usa i punti evento come fallback)
             selectCountry(ev.paese, countryBounds[ev.paese]);
+        } else if (ev.paese && !country) {
+            country = ev.paese;
+            setSel("f-paese", country);
+            updateCittaOptions(country);
         }
         if (doZoom && hasCoords(ev)) {
             map.setView([ev.lat, ev.lng], 13);
@@ -878,6 +928,7 @@
         if (level === "search") { doSearch(); return; }
         if (level === "vicino") { drawMarkers(nearEvents()); renderList(); }
         else if (level === "zona") selectCity(city);
+        else if (level === "dettaglio") { drawMarkers(countryEvents()); renderList(); }
         else if (level === "paese") { drawMarkers(countryEvents()); renderList(); }
         else { renderList(); if (!bordersOk) drawCountryPins(); }
     }
